@@ -7,31 +7,83 @@ title: "Publications"
 
 ---
 
-## Submitted and Under Revision
+# 📝 Submitted and Under Revision  
 
-- S. Uniyal, **N. T. Nguyen**, G. Kumar, M. D. Renzo, and M. Juntti, Outage, Symbol Error Probability, and Rate of RIS-Assisted MIMO Systems with Phase Errors, <span style="color:purple;"><em>IEEE Transactions on Communications</em></span>, 2025. (submitted)
+<ol>
 
-- S. Bhandari, Thang X. Vu, **N. T. Nguyen**, and S. Chatzinotas, ISAC-Enabled Handover Design in LEO Satellite Networks, <span style="color:purple;"><em>IEEE Transactions on Communications</em></span>, 2025. (submitted)
+<li>
+S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,  
+Outage, Symbol Error Probability, and Rate of RIS-Assisted MIMO Systems with Phase Errors,  
+<span style="color:purple;"><em>IEEE Transactions on Communications</em></span>, 2025. (submitted)
+</li>
 
-- T. Fang, **N. T. Nguyen**, and M. Juntti, Deep Unfolded Shifted Power Iteration based ISAC Beamforming for Sum Rate and CRLB Balancing, <span style="color:purple;"><em>IEEE Global Commun. Conf. (GLOBECOM)</em></span>, 2025. (submitted)
+<li>
+S. Bhandari, Thang X. Vu, <strong>N. T. Nguyen</strong>, and S. Chatzinotas,  
+ISAC-Enabled Handover Design in LEO Satellite Networks,  
+<span style="color:purple;"><em>IEEE Transactions on Communications</em></span>, 2025. (submitted)
+</li>
 
-- T. Fang, M. Ma, M. Juntti, N. Shlezinger, A. L. Swindlehurst, and **N. T. Nguyen**, Optimal ISAC Beamforming Structure and Efficient Algorithms for Sum Rate and CRLB Balancing, <span style="color:purple;"><em>IEEE Transactions on Signal Processing</em></span>, 2025. (submitted)
+<li>
+T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+Deep Unfolded Shifted Power Iteration based ISAC Beamforming for Sum Rate and CRLB Balancing,  
+<span style="color:purple;"><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2025. (submitted)
+</li>
 
-- T. D. Gian, V.-D. Nguyen, Vo P. S., **N. T. Nguyen**, D. T. Hoang, D. N. Nguyen, Nguyen C. L., and S. Chatzinotas, WiLHPE: Advanced WiFi-based HPE with Lightweight Dynamic Convolutional Kernels and Multi-Modal Sensors, <span style="color:purple;"><em>IEEE Transactions on Mobile Computing</em></span>, 2025. (submitted)
+<li>
+T. Fang, M. Ma, M. Juntti, N. Shlezinger, A. L. Swindlehurst, and <strong>N. T. Nguyen</strong>,  
+Optimal ISAC Beamforming Structure and Efficient Algorithms for Sum Rate and CRLB Balancing,  
+<span style="color:purple;"><em>IEEE Transactions on Signal Processing</em></span>, 2025. (submitted)
+</li>
 
-- P. Zivuku, V.-D. Nguyen, **N. T. Nguyen**, K. Ntontin, S. Chatzinotas, and B. Ottersten, Resource Allocation for RIS-Enhanced OFDM-MIMO ISAC Systems, <span style="color:purple;"><em>IEEE Transactions on Communications</em></span>, 2025. (major revision)
+<li>
+T. D. Gian, V.-D. Nguyen, Vo P. S., <strong>N. T. Nguyen</strong>, D. T. Hoang, D. N. Nguyen, Nguyen C. L., and S. Chatzinotas,  
+WiLHPE: Advanced WiFi-based HPE with Lightweight Dynamic Convolutional Kernels and Multi-Modal Sensors,  
+<span style="color:purple;"><em>IEEE Transactions on Mobile Computing</em></span>, 2025. (submitted)
+</li>
 
-- L. V. Nguyen, R. Liu, **N. T. Nguyen**, M. Juntti, B. Ottersten, and A. L. Swindlehurst, Exploiting Symmetric Non-Convexity for Multi-Objective Symbol-Level DFRC Signal Design, <span style="color:purple;"><em>IEEE Transactions on Wireless Communications</em></span>, 2025. (major revision)
+<li>
+P. Zivuku, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, K. Ntontin, S. Chatzinotas, and B. Ottersten,  
+Resource Allocation for RIS-Enhanced OFDM-MIMO ISAC Systems,  
+<span style="color:purple;"><em>IEEE Transactions on Communications</em></span>, 2025. (major revision)
+</li>
 
-- A. Zaker, **N. T. Nguyen**, A. Alkhateeb, and M. Juntti, Data-free knowledge distillation for LiDAR-aided beam tracking, to submit to <span style="color:purple;"><em>IEEE Transactions on Vehicular Technology</em></span>, manuscript in preparation.
+<li>
+L. V. Nguyen, R. Liu, <strong>N. T. Nguyen</strong>, M. Juntti, B. Ottersten, and A. L. Swindlehurst,  
+Exploiting Symmetric Non-Convexity for Multi-Objective Symbol-Level DFRC Signal Design,  
+<span style="color:purple;"><em>IEEE Transactions on Wireless Communications</em></span>, 2025. (major revision)
+</li>
 
-- I. Welgamage, S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and **N. T. Nguyen**, Knowledge distillation for distributed vision-assisted beam management in mmWave communications, to submit to <span style="color:purple;"><em>IEEE Transactions on Vehicular Technology</em></span>, manuscript in preparation.
+<li>
+A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
+Data-free knowledge distillation for LiDAR-aided beam tracking,  
+<span style="color:purple;"><em>IEEE Transactions on Vehicular Technology</em></span>, manuscript in preparation.
+</li>
 
-- M. Ma, **N. T. Nguyen**, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti, Knowledge distillation for sensing-assisted beam tracking in mmWave communications, to submit to <span style="color:purple;"><em>IEEE Transactions on Wireless Communications</em></span>, manuscript in preparation.
+<li>
+I. Welgamage, S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</strong>,  
+Knowledge distillation for distributed vision-assisted beam management in mmWave communications,  
+<span style="color:purple;"><em>IEEE Transactions on Vehicular Technology</em></span>, manuscript in preparation.
+</li>
 
-- **N. T. Nguyen**, M. Ma, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti, Knowledge distillation for collaborative learning in distributed communications and sensing, <span style="color:purple;"><em>IEEE Wireless Communications</em></span>, 2025. (submitted)
+<li>
+M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
+Knowledge distillation for sensing-assisted beam tracking in mmWave communications,  
+<span style="color:purple;"><em>IEEE Transactions on Wireless Communications</em></span>, manuscript in preparation.
+</li>
 
-- S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and **N. T. Nguyen**, GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive MIMO systems, to submit to <span style="color:purple;"><em>IEEE Transactions on Communications</em></span>, 2025. (manuscript in preparation)
+<li>
+<strong>N. T. Nguyen</strong>, M. Ma, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
+Knowledge distillation for collaborative learning in distributed communications and sensing,  
+<span style="color:purple;"><em>IEEE Wireless Communications</em></span>, 2025. (submitted)
+</li>
+
+<li>
+S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</strong>,  
+GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive MIMO systems,  
+<span style="color:purple;"><em>IEEE Transactions on Communications</em></span>, 2025. (manuscript in preparation)
+</li>
+
+</ol>
 
 ---
 
