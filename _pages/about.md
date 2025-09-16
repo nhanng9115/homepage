@@ -29,7 +29,7 @@ hr.section-divider{
 
 ## 📚 About
 🎓 I received my B.S. in Electronics & Communications Engineering from Hanoi University of Science and Technology (HUST), Vietnam (2014), and my M.S./Ph.D. from Seoul National University of Science and Technology (SeoulTech), South Korea (2017/2020).  
-🧑‍🔬 I joined the University of Oulu as a Postdoctoral Researcher in 2020.  
+🧑‍🔬 I joined UOulu as a Postdoctoral Researcher in 2020, was conferred the Title of Docent and awarded the prestigious _Academy Research Fellowship_ in 2023, and was promoted to Assistant Professor (tenure track) in 2024. 
 🌍 I have also been a Visiting Scholar at North Carolina State University, USA (2019–2020), Weizmann Institute of Science and Ben-Gurion University of the Negev, Israel (2022), and University of California, Irvine (UCI), USA (2023).
 
 **Research interests:** signal processing and optimization; deep unfolding / machine learning for massive MIMO; mmWave/THz communications; ISAC/JCAS; multimodal-sensing-assisted communications.
