@@ -3,7 +3,6 @@ permalink: /projects/
 title: "Projects"
 ---
 
-# Projects
 
 ## 🌱 S6GRAN: Sustainable 6G Radio Access Networks: Methods, Models, and Algorithms (Co-PI)
 **Funder:** Research Council of Finland  
