@@ -54,10 +54,12 @@ I received my B.S. in Electronics & Communications Engineering from **Hanoi Univ
 ---
 
 ## Life
-<figure style="margin:1rem 0;">
+<div style="float:right; width:220px; margin:0 0 1rem 1rem; text-align:center;">
   <img src="/images/Ben.jpg" alt="Ben smiling at the camera" style="border-radius:12px; max-width:100%; height:auto;">
-  <figcaption style="font-size:0.95rem; opacity:0.85; margin-top:0.4rem;">
-    This is <strong>Ben</strong> — my favorite co-author in life.  
-    Interests include: cars, snacks, and reminding Mom that deadlines are flexible. 🙂
-  </figcaption>
-</figure>
+  <div style="font-size:0.9rem; opacity:0.85; margin-top:0.3rem;">
+    This is <strong>Ben</strong> — my favorite co-author in life.<br>
+    Interests: cars, snacks, and reminding Mom that deadlines are flexible. 🙂
+  </div>
+</div>
+
+I’m also a proud parent, and my son brings joy and perspective into both life and work.
