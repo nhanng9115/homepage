@@ -7,6 +7,20 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+/* High-contrast section dividers (black in light mode, white in dark mode) */
+:root { --divider-color: #111; }
+@media (prefers-color-scheme: dark){
+  :root { --divider-color: #eee; }
+}
+hr.section-divider{
+  border: 0;
+  border-top: 3px solid var(--divider-color);
+  margin: 1.2rem 0 1.2rem 0;
+  opacity: 1;
+}
+</style>
+
 I’m an **Assistant Professor** and **Academy Research Fellow** at Centre for Wireless Communications (CWC), University of Oulu (UOulu), Finland.  
 My research combines rigorous signal processing and machine learning to solve core problems in wireless communications and sensing.
 
@@ -17,7 +31,7 @@ My research combines rigorous signal processing and machine learning to solve co
   <a class="btn" href="https://nhanng9115.github.io/homepage/files/Resume.pdf" target="_blank" rel="noopener">📑 CV (PDF)</a>
 </div>
 
----
+<hr class="section-divider">
 
 ## 📚 About
 I received my B.S. in Electronics & Communications Engineering from Hanoi University of Science and Technology (HUST), Vietnam (2014), and my M.S./Ph.D. from Seoul National University of Science and Technology (SeoulTech), South Korea (2017/2020). I joined the University of Oulu as a Postdoctoral Researcher in 2020.  
@@ -38,7 +52,7 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 - _Excellent Graduation Award_, HUST, 2014.
 - _Samsung Talent Scholarship_, Samsung Vietnam R&D Center, 2014.
 
----
+<hr class="section-divider">
 
 ## 📰 Recent news
 - **Sept 9, 2025** — Paper accepted to **IEEE JSAC**: *Energy Efficiency for Massive MIMO ISAC*.  
@@ -64,7 +78,7 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 
 </details>
 
----
+<hr class="section-divider">
 
 ## 👨‍👩‍👦 Life
 <div style="display:flex; align-items:center; gap:1rem; margin:1rem 0;">
