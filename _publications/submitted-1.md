@@ -1,5 +1,5 @@
 permalink: /publications/
-title: "Submitted and Under Revision"
+title: "Publications"
 ---
 
 # 📝 Submitted and Under Revision  
