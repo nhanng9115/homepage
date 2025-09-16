@@ -62,18 +62,7 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 
 **Research interests:** signal processing and optimization; deep unfolding / machine learning for massive MIMO; mmWave/THz communications; ISAC/JCAS; multimodal-sensing-assisted communications.
 
-🏅 **Selected honors:**
-- Best Student Paper Award (Mengyuan's work at IEEE 25th SPAWC, 2024).
-- Docentship at Faculty of ITEE, UOulu. 
-- Best Paper Award (IEEE SSP, 2023).
-- **Academy of Finland Fellowship** (2023)
-- Exemplary Reviewer of IEEE TCOM (2023)
-- Nokia Foundation Award  - Jorma Ollila Grant (2022)
-- Best Paper Award (Int. Conf. Advanced Technol. Commun. (ATC), 2021).
-- Best Doctoral Dissertation Award, SeoulTech, 2020.
-- Best Master Thesis Award, SeoulTech, 2017.
-- Excellent Graduation Award, HUST, 2014.
-- Samsung Talent Scholarship, Samsung Vietnam R&D Center, 2014.
+🏅 **Selected honors:** Best Paper Awards (IEEE SPAWC 2024, IEEE SSP 2023, ATC 2021). Academy of Finland Fellowship** (2023). Exemplary Reviewer of IEEE TCOM (2023). Nokia Foundation Award  - Jorma Ollila Grant (2022). Best Master and Doctoral Dissertation Awards, SeoulTech, 2020. Samsung Talent Scholarship, Samsung Vietnam R&D Center, 2014.
 
 <hr class="section-divider">
 
