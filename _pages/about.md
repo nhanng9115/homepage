@@ -42,10 +42,10 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti, "Performance Analysis and Power Allocation for Massive MIMO ISAC," <em>IEEE Transactions on Signal Processing</em>, vol. 73, pp. 1691–1707, March 2025.  
 <span class="hl-flag">Top reading list in IEEE TSP since publication</span>  
 
-<strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti, "Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems," <em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 3788–3804, Oct. 2023. [PDF] [Code]  
+<strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti, "Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems," <em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 3788–3804, Oct. 2023.
 <span class="hl-flag">Top reading in IEEE TSP in 2023–2024</span>  
 
-<strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti, "Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation," <em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 2997–3013, Aug. 2023. [PDF] [Code]  
+<strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti, "Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation," <em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 2997–3013, Aug. 2023.  
 <span class="hl-flag">Top reading in IEEE TSP and IEEE SPS Top-25 downloads (Sep 2023–Sep 2024)</span>  
 
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti, "An analysis of oversampling in uplink massive MIMO-OFDM with low-resolution ADCs," <em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em>, Sept. 2023.  
