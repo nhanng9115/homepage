@@ -21,15 +21,9 @@ hr.section-divider{
 }
 </style>
 
-I’m an **Assistant Professor** and **Academy Research Fellow** at Centre for Wireless Communications (CWC), University of Oulu (UOulu), Finland.  
-My research combines rigorous signal processing and machine learning to solve core problems in wireless communications and sensing.
+👨🏻‍💻 I’m an **Assistant Professor** and **Academy Research Fellow** at Centre for Wireless Communications (CWC), University of Oulu (UOulu), Finland.  
+🤖 My research combines rigorous signal processing and machine learning to solve core problems in wireless communications and sensing.
 
-<div class="btn-group" style="margin:0.8rem 0;">
-  <a class="btn btn--primary" href="/publications/">📄 Publications</a>
-  <a class="btn" href="/portfolio/">👥 Research Team</a>
-  <a class="btn" href="/year-archive/">💡 Projects</a>
-  <a class="btn" href="https://nhanng9115.github.io/homepage/files/Resume.pdf" target="_blank" rel="noopener">📑 CV (PDF)</a>
-</div>
 
 <hr class="section-divider">
 
@@ -40,17 +34,17 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 **Research interests:** signal processing and optimization; deep unfolding / machine learning for massive MIMO; mmWave/THz communications; ISAC/JCAS; multimodal-sensing-assisted communications.
 
 🏅 **Selected honors:**
-- _Best Student Paper Award_ (Mengyuan's work at IEEE 25th SPAWC, 2024).
-- _Docentship_ at Faculty of ITEE, UOulu. 
-- _Best Paper Award_ (IEEE SSP, 2023).
-- _**Academy of Finland Fellowship**_ (2023)
-- _Exemplary Reviewer_ of IEEE TCOM (2023)
-- _Nokia Foundation Award_  - Jorma Ollila Grant (2022)
-- _Best Paper Award_ (Int. Conf. Advanced Technol. Commun. (ATC), 2021).
-- _Best Doctoral Dissertation Award_, SeoulTech, 2020.
-- _Best Master Thesis Award_, SeoulTech, 2017.
-- _Excellent Graduation Award_, HUST, 2014.
-- _Samsung Talent Scholarship_, Samsung Vietnam R&D Center, 2014.
+- Best Student Paper Award (Mengyuan's work at IEEE 25th SPAWC, 2024).
+- Docentship at Faculty of ITEE, UOulu. 
+- Best Paper Award (IEEE SSP, 2023).
+- **Academy of Finland Fellowship** (2023)
+- Exemplary Reviewer of IEEE TCOM (2023)
+- Nokia Foundation Award  - Jorma Ollila Grant (2022)
+- Best Paper Award (Int. Conf. Advanced Technol. Commun. (ATC), 2021).
+- Best Doctoral Dissertation Award, SeoulTech, 2020.
+- Best Master Thesis Award, SeoulTech, 2017.
+- Excellent Graduation Award, HUST, 2014.
+- Samsung Talent Scholarship, Samsung Vietnam R&D Center, 2014.
 
 <hr class="section-divider">
 
