@@ -1,5 +1,5 @@
 permalink: /publications/
-title: "Conference Publications"
+title: "Publications"
 ---
 
 # 🎤 Conference Publications  
