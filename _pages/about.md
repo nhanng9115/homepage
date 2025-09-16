@@ -69,9 +69,7 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 ## 👨‍👩‍👦 Life
 <div style="display:flex; align-items:center; gap:1rem; margin:1rem 0;">
   <div style="flex:1;">
-    I’m also a proud parent, and my son brings joy and perspective into both life and work.  
-    Meet <strong>Ben</strong> — my favorite co-author in life.  
-    🚗 Cars · 🍪 Snacks · ⏰ Reminding Mom that deadlines are flexible.
+     Meet <strong>Ben</strong> — my favorite co-author in life.
   </div>
   <div style="flex:0 0 200px; text-align:center;">
     <img src="https://nhanng9115.github.io/homepage/images/Ben.jpg" alt="Ben" style="border-radius:12px; max-width:100%; height:auto;">
