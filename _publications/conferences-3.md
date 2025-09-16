@@ -1,4 +1,4 @@
-permalink: /publications/conferences-3/
+permalink: /publications/
 title: "Conference Publications"
 ---
 
