@@ -1,5 +1,5 @@
 permalink: /publications/
-title: "Journal Publications"
+title: "Publications"
 ---
 
 # 📄 Journal Publications  
