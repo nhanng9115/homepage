@@ -3,8 +3,6 @@ permalink: /publications/
 title: "Publications"
 ---
 
-# 📄 Publications
-
 ---
 
 # 📝 Submitted and Under Revision  
@@ -260,6 +258,8 @@ Cell Coverage Extension with Orthogonal Random Precoding for Massive MIMO System
 </li>
 
 </ol>
+
+---
 
 # 🎤 Conference Publications  
 
