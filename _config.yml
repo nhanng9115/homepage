@@ -23,7 +23,7 @@ repository               : "nhanng9115/homepage"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "casual.jpg"
+  avatar           : "nhan_korea.jpg"
   name             : "Nhan Nguyen"
   pronouns         : # example: "she/her"  
   bio              : "Researcher"
