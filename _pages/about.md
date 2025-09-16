@@ -8,10 +8,10 @@ redirect_from:
 ---
 
 <style>
-/* High-contrast section dividers (black in light mode, white in dark mode) */
-:root { --divider-color: #111; --accent:#1E90FF; --ink:#111; --muted:#6b7280; }
+/* High-contrast section dividers */
+:root { --divider-color: #111; --accent:#1E90FF; --ink:#111; --muted:#6b7280; --highlight:#7e22ce; }
 @media (prefers-color-scheme: dark){
-  :root { --divider-color: #eee; --ink:#eee; --muted:#9aa0a6; }
+  :root { --divider-color: #eee; --ink:#eee; --muted:#9aa0a6; --highlight:#c084fc; }
 }
 hr.section-divider{
   border: 0;
@@ -19,36 +19,7 @@ hr.section-divider{
   margin: 1.2rem 0 1.2rem 0;
   opacity: 1;
 }
-
-/* Highlighted publications (compact, light purple) */
-:root { --hl-bg:#f5f3ff; --hl-border:rgba(124,58,237,.25); }          /* purple-50 / purple-600 tint */
-@media (prefers-color-scheme: dark){
-  :root { --hl-bg:#241b35; --hl-border:rgba(203,180,255,.25); }       /* deep purple for dark mode */
-}
-.hl-wrap { display:grid; gap:.75rem; }
-.hl-card{
-  border:1.5px solid var(--hl-border);
-  border-radius:14px;
-  padding:.8rem 1rem;
-  background:var(--hl-bg);
-}
-.hl-title{
-  font-weight:700;
-  display:flex; align-items:center; gap:.5rem;
-  line-height:1.25;
-}
-.hl-title .icon{ font-size:1.05rem; }
-.hl-authors{ margin-top:.1rem; font-size:.98rem; }
-.hl-authors strong{ font-weight:800; }
-.hl-venue-line{
-  margin-top:.1rem;
-  font-size:.96rem;
-  opacity:.92;
-  white-space:normal;
-}
-.hl-venue-line em{ font-style:italic; }
-.hl-flag{ font-weight:700; }
-.linklike{ text-decoration:underline; text-underline-offset:2px; }
+.hl-flag{ color:var(--highlight); font-weight:600; }
 </style>
 
 👨🏻‍💻 I’m an **Assistant Professor** and **Academy Research Fellow** at Centre for Wireless Communications (CWC), University of Oulu (UOulu), Finland.  
@@ -62,50 +33,51 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 
 **Research interests:** signal processing and optimization; deep unfolding / machine learning for massive MIMO; mmWave/THz communications; ISAC/JCAS; multimodal-sensing-assisted communications.
 
-🏅 **Selected honors:** Best Paper Awards (IEEE SPAWC 2024, IEEE SSP 2023, ATC 2021). Academy of Finland Fellowship** (2023). Exemplary Reviewer of IEEE TCOM (2023). Nokia Foundation Award  - Jorma Ollila Grant (2022). Best Master and Doctoral Dissertation Awards, SeoulTech, 2020. Samsung Talent Scholarship, Samsung Vietnam R&D Center, 2014.
+🏅 **Selected honors:** **Best Paper Awards** (IEEE SPAWC 2024, IEEE SSP 2023, ATC 2021). **Academy of Finland Fellowship** (2023). Exemplary Reviewer of IEEE TCOM (2023). Nokia Foundation Award  - Jorma Ollila Grant (2022). **Best Master and Doctoral Dissertation Awards**, SeoulTech, 2020. Samsung Talent Scholarship, Samsung Vietnam R&D Center, 2014.
 
 <hr class="section-divider">
 
 ## 🏆 Highlighted publications
-<div class="hl-wrap">
 
-  <div class="hl-card">
-    <div class="hl-title"><span class="icon">🏅</span> "Performance Analysis and Power Allocation for Massive MIMO ISAC"</div>
-    <div class="hl-authors"><strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, M. Juntti</div>
-    <div class="hl-venue-line"><em>IEEE Transactions on Signal Processing</em>, vol. 73, pp. 1691–1707, March 2025 — <span class="hl-flag">Top reading list in IEEE TSP</span></div>
-  </div>
+<strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,  
+"Performance Analysis and Power Allocation for Massive MIMO ISAC,"  
+<em>IEEE Transactions on Signal Processing</em>, vol. 73, pp. 1691–1707, March 2025.  
+<span class="hl-flag">Top reading list in IEEE TSP since publication</span>  
 
-  <div class="hl-card">
-    <div class="hl-title"><span class="icon">⭐</span> "Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems"</div>
-    <div class="hl-authors"><strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, M. Juntti</div>
-    <div class="hl-venue-line"><em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 3788–3804, Oct. 2023 — <span class="hl-flag">Top reading 2023–2024</span> · <span class="linklike">[PDF]</span> <span class="linklike">[Code]</span></div>
-  </div>
+<br>
 
-  <div class="hl-card">
-    <div class="hl-title"><span class="icon">📈</span> "Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation"</div>
-    <div class="hl-authors"><strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, M. Juntti</div>
-    <div class="hl-venue-line"><em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 2997–3013, Aug. 2023 — <span class="hl-flag">IEEE SPS Top-25 downloads (Sep 2023–Sep 2024)</span> · <span class="linklike">[PDF]</span> <span class="linklike">[Code]</span></div>
-  </div>
+<strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
+"Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems,"  
+<em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 3788–3804, Oct. 2023. [PDF] [Code]  
+<span class="hl-flag">Top reading in 2023–2024</span>  
 
-  <div class="hl-card">
-    <div class="hl-title"><span class="icon">🥇</span> "An analysis of oversampling in uplink massive MIMO-OFDM with low-resolution ADCs"</div>
-    <div class="hl-authors">M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, M. Juntti</div>
-    <div class="hl-venue-line"><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em>, Sept. 2023, Shanghai, China — <span class="hl-flag">Best Student Paper Award</span></div>
-  </div>
+<br>
 
-  <div class="hl-card">
-    <div class="hl-title"><span class="icon">🥇</span> "Joint communications and sensing design for multi-carrier MIMO systems"</div>
-    <div class="hl-authors"><strong>N. T. Nguyen</strong>, N. Shlezinger, K.-H. Ngo, V.-D. Nguyen, M. Juntti</div>
-    <div class="hl-venue-line"><em>IEEE Statistical Signal Processing Workshop (SSP)</em>, July 2023, Hanoi, Vietnam — <span class="hl-flag">Best Paper Award</span></div>
-  </div>
+<strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
+"Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation,"  
+<em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 2997–3013, Aug. 2023. [PDF] [Code]  
+<span class="hl-flag">IEEE SPS Top-25 downloads (Sep 2023–Sep 2024)</span>  
 
-  <div class="hl-card">
-    <div class="hl-title"><span class="icon">🥇</span> "Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface"</div>
-    <div class="hl-authors">K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, M. Juntti</div>
-    <div class="hl-venue-line"><em>IEEE Conference on Advanced Technologies for Communications (ATC)</em>, Oct. 2021, Hanoi, Vietnam — <span class="hl-flag">Best Paper Award</span></div>
-  </div>
+<br>
 
-</div>
+M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
+"An analysis of oversampling in uplink massive MIMO-OFDM with low-resolution ADCs,"  
+<em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em>, Sept. 2023, Shanghai, China.  
+<span class="hl-flag">Best Student Paper Award</span>  
+
+<br>
+
+<strong>N. T. Nguyen</strong>, N. Shlezinger, K.-H. Ngo, V.-D. Nguyen, and M. Juntti,  
+"Joint communications and sensing design for multi-carrier MIMO systems,"  
+<em>IEEE Statistical Signal Processing Workshop (SSP)</em>, July 2023, Hanoi, Vietnam.  
+<span class="hl-flag">Best Paper Award</span>  
+
+<br>
+
+K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti,  
+"Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface,"  
+<em>IEEE Conference on Advanced Technologies for Communications (ATC)</em>, Oct. 2021, Hanoi, Vietnam.  
+<span class="hl-flag">Best Paper Award</span>  
 
 <hr class="section-divider">
 
