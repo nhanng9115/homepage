@@ -1,15 +1,13 @@
 ---
 permalink: /
-title: "Nhan’s website"
+title: "👋 Hello there, I’m Nhan."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-# 👋 Hi, I’m Nhan.
-
-I’m an **Assistant Professor**, **Academy Fellow**, and **Docent** at the Centre for Wireless Communications (CWC), **University of Oulu**, Finland.  
+I’m an **Assistant Professor** and **Academy Research Fellow** at Centre for Wireless Communications (CWC), University of Oulu, Finland.  
 My research combines **rigorous signal processing** and **machine learning** to solve core problems in **wireless communications and sensing**.
 
 <div class="btn-group" style="margin:0.8rem 0;">
@@ -22,16 +20,23 @@ My research combines **rigorous signal processing** and **machine learning** to 
 ---
 
 ## 📚 About
-I received my B.S. in Electronics & Communications Engineering from **Hanoi University of Science and Technology (HUST), Vietnam** (2014), and my M.S./Ph.D. from **Seoul National University of Science and Technology (SeoulTech), South Korea** (2017/2020). I joined the **University of Oulu** as a Postdoctoral Researcher in 2020.  
-I have also been a Visiting Scholar at **North Carolina State University, USA** (2019–2020), the **Weizmann Institute of Science** and **Ben-Gurion University of the Negev, Israel** (2022), and the **University of California, Irvine (UCI), USA** (2023).
+I received my B.S. in Electronics & Communications Engineering from Hanoi University of Science and Technology (HUST), Vietnam (2014), and my M.S./Ph.D. from Seoul National University of Science and Technology (SeoulTech), South Korea (2017/2020). I joined the University of Oulu as a Postdoctoral Researcher in 2020.  
+I have also been a Visiting Scholar at North Carolina State University, USA (2019–2020), Weizmann Institute of Science and Ben-Gurion University of the Negev, Israel (2022), and University of California, Irvine (UCI), USA (2023).
 
-**Research interests:** signal processing and optimization; deep unfolding / machine learning for **massive MIMO**; **mmWave/THz** communications; **ISAC/JCAS**; **multimodal-sensing-assisted communications**.
+**Research interests:** signal processing and optimization; deep unfolding / machine learning for massive MIMO; mmWave/THz communications; ISAC/JCAS; multimodal-sensing-assisted communications.
 
-**Selected honors:**
-- Academy Fellowship, Research Council of Finland (2023)  
-- Title of Docent, University of Oulu (2023)  
-- Best Paper Awards — IEEE SSP 2023, IEEE SPAWC 2023, ATC 2021  
-- Nokia Foundation — Jorma Ollila Grant (2022)  
+🏅 **Selected honors:**
+- Best Student Paper Award (Doctoral researcher Mengyuan's work at IEEE 25th SPAWC, 2024).
+- Faculty of Information Technology and Electrical Engineering - University of Oulu Docentship. 
+- Best Paper Award (IEEE Statistical Signal Processing Workshop (SSP), 2023).
+- Academy of Finland Fellowship (2023)
+- Exemplary Reviewer of IEEE TCOM (2023)
+- Nokia Foundation Award  - Jorma Ollila Grant (2022)
+- Best Paper Award (Int. Conf. Advanced Technol. Commun. (ATC), 2021).
+- Best Doctoral Dissertation Award, Seoul National University of Science and Technology, 2020.
+- Best Master Thesis Award, Seoul National University of Science and Technology, 2017.
+- Excellent Graduation Award, Hanoi University of Science and Technology (HUST), 2014.
+- Samsung Talent Scholarship, Samsung Vietnam R&D Center, 2014.
 
 ---
 
