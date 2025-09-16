@@ -52,9 +52,3 @@ I received my B.S. in Electronics & Communications Engineering from **HUST** (20
 </details>
 
 ---
-
-## Get in touch
-- Email: *(use the site sidebar or the envelope icon in your theme header)*  
-- Google Scholar / GitHub: *(configure in `_config.yml` → `scholar`, `github`)*
-
-> Tip: To keep this page lean (Boris-style), use the **Publications**, **Projects**, and **CV** pages for details. You can keep adding news to `_posts/` or `_pages/` and it will appear here or in your archive, depending on your theme settings.
