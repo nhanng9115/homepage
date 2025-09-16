@@ -25,6 +25,7 @@ main:
     
   - title: "CV"
     url: nhanng9115.github.io/homepage/files/Resume.pdf
+    external: true
     
   # - title: "CV"
   #   url: /cv-json/
