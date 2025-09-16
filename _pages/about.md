@@ -60,7 +60,7 @@ redirect_from:
 
 ## 👨‍👩‍👦 Life
 <div style="float:right; width:220px; margin:0 0 1rem 1rem; text-align:center;">
-  <img src="/images/Ben.jpg" alt="Ben smiling outdoors" style="border-radius:12px; max-width:100%; height:auto;">
+  <img src="https://nhanng9115.github.io/homepage/images/Ben.jpg" alt="Ben">
   <div style="font-size:0.9rem; opacity:0.85; margin-top:0.3rem;">
     Meet <strong>Ben</strong> — my favorite co-author in life.<br>
     🚗 Cars · 🍪 Snacks · ⏰ Reminding Mom that deadlines are flexible
