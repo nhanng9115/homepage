@@ -60,14 +60,14 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 <hr class="section-divider">
 
 ## 📰 Recent news
-- **Sept 9, 2025** — Paper accepted to **IEEE JSAC**: *Energy Efficiency for Massive MIMO ISAC*.  
-- **Aug 20, 2025** — Abolfazl’s paper accepted to **IEEE Communications Letters**.  
-- **Aug 1, 2025** — Abolfazl’s paper accepted to **GLOBECOM 2025**.  
-- **Jul 16, 2025** — Phuong’s paper accepted to **Asilomar 2025**.  
-- **May 25, 2025** — Two papers accepted to **IEEE SPAWC** (by Ali and Smriti).  
-- **May 17, 2025** — Mengyuan’s paper accepted to **IEEE Wireless Communications Letters**.  
-- **May 4, 2025** — Mengyuan’s paper accepted to **IEEE Transactions on Wireless Communications**.  
-- **Mar 18, 2025** — Paper accepted to **IEEE Transactions on Signal Processing**: *Performance Analysis and Power Allocation for Massive MIMO ISAC*.  
+**Sept 9, 2025** — Paper accepted to **IEEE JSAC**: *Energy Efficiency for Massive MIMO ISAC*.  
+**Aug 20, 2025** — Abolfazl’s paper accepted to **IEEE Communications Letters**.  
+**Aug 1, 2025** — Abolfazl’s paper accepted to **GLOBECOM 2025**.  
+**Jul 16, 2025** — Phuong’s paper accepted to **Asilomar 2025**.  
+**May 25, 2025** — Two papers accepted to **IEEE SPAWC** (by Ali and Smriti).  
+**May 17, 2025** — Mengyuan’s paper accepted to **IEEE Wireless Communications Letters**.  
+**May 4, 2025** — Mengyuan’s paper accepted to **IEEE Transactions on Wireless Communications**.  
+**Mar 18, 2025** — Paper accepted to **IEEE Transactions on Signal Processing**: *Performance Analysis and Power Allocation for Massive MIMO ISAC*.  
 
 <details>
 <summary><strong>🕰️ Older highlights</strong></summary>
