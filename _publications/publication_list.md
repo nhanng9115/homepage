@@ -98,13 +98,13 @@ H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q.
 <li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach,"  
-<span style="color:purple;"><em>IEEE Communications Letter</em></span>, 2025. (accepted)
+<span style="color:purple;"><em>IEEE Communications Letters</em></span>, 2025. (accepted)
 </li>
 
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Juntti,  
 "Digital and Hybrid Precoding Designs in Massive MIMO with Low-Resolution ADCs,"  
-<span style="color:purple;"><em>IEEE Wireless Communications Letter</em></span>, vol. 14, no. 8, pp. 2446–2450, Aug. 2025.
+<span style="color:purple;"><em>IEEE Wireless Communications Letters</em></span>, vol. 14, no. 8, pp. 2446–2450, Aug. 2025.
 </li>
 
 <li>
