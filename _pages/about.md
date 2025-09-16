@@ -33,40 +33,28 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 
 **Research interests:** signal processing and optimization; deep unfolding / machine learning for massive MIMO; mmWave/THz communications; ISAC/JCAS; multimodal-sensing-assisted communications.
 
-🏅 **Selected honors:** **Best Paper Awards** (IEEE SPAWC 2024, IEEE SSP 2023, ATC 2021). **Academy of Finland Fellowship** (2023). Exemplary Reviewer of IEEE TCOM (2023). Nokia Foundation Award  - Jorma Ollila Grant (2022). **Best Master and Doctoral Dissertation Awards**, SeoulTech, 2020. Samsung Talent Scholarship, Samsung Vietnam R&D Center, 2014.
+🏅 **Selected honors:** **Best Paper Awards** (IEEE SPAWC 2024, IEEE SSP 2023, ATC 2021). **Academy of Finland Fellowship** (2023). Exemplary Reviewer of IEEE TCOM (2023). Nokia Foundation Award – Jorma Ollila Grant (2022). **Best Master and Doctoral Dissertation Awards**, SeoulTech, 2020. Samsung Talent Scholarship, Samsung Vietnam R&D Center, 2014.
 
 <hr class="section-divider">
 
 ## 🏆 Highlighted publications
 
-<strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,  
-"Performance Analysis and Power Allocation for Massive MIMO ISAC,"  
-<em>IEEE Transactions on Signal Processing</em>, vol. 73, pp. 1691–1707, March 2025.  
+<strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti, "Performance Analysis and Power Allocation for Massive MIMO ISAC," <em>IEEE Transactions on Signal Processing</em>, vol. 73, pp. 1691–1707, March 2025.  
 <span class="hl-flag">Top reading list in IEEE TSP since publication</span>  
 
-<strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
-"Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems,"  
-<em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 3788–3804, Oct. 2023. [PDF] [Code]  
+<strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti, "Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems," <em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 3788–3804, Oct. 2023. [PDF] [Code]  
 <span class="hl-flag">Top reading in IEEE TSP in 2023–2024</span>  
 
-<strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
-"Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation,"  
-<em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 2997–3013, Aug. 2023. [PDF] [Code]  
+<strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti, "Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation," <em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 2997–3013, Aug. 2023. [PDF] [Code]  
 <span class="hl-flag">Top reading in IEEE TSP and IEEE SPS Top-25 downloads (Sep 2023–Sep 2024)</span>  
 
-M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
-"An analysis of oversampling in uplink massive MIMO-OFDM with low-resolution ADCs,"  
-<em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em>, Sept. 2023.  
+M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti, "An analysis of oversampling in uplink massive MIMO-OFDM with low-resolution ADCs," <em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em>, Sept. 2023.  
 <span class="hl-flag">Best Student Paper Award</span>  
 
-<strong>N. T. Nguyen</strong>, N. Shlezinger, K.-H. Ngo, V.-D. Nguyen, and M. Juntti,  
-"Joint communications and sensing design for multi-carrier MIMO systems,"  
-<em>IEEE Statistical Signal Processing Workshop (SSP)</em>, July 2023.  
+<strong>N. T. Nguyen</strong>, N. Shlezinger, K.-H. Ngo, V.-D. Nguyen, and M. Juntti, "Joint communications and sensing design for multi-carrier MIMO systems," <em>IEEE Statistical Signal Processing Workshop (SSP)</em>, July 2023.  
 <span class="hl-flag">Best Paper Award</span>  
 
-K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti,  
-"Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface,"  
-<em>IEEE Conference on Advanced Technologies for Communications (ATC)</em>, Oct. 2021.  
+K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti, "Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface," <em>IEEE Conference on Advanced Technologies for Communications (ATC)</em>, Oct. 2021.  
 <span class="hl-flag">Best Paper Award</span>  
 
 <hr class="section-divider">
