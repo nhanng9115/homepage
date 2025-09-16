@@ -24,7 +24,6 @@ hr.section-divider{
 👨🏻‍💻 I’m an **Assistant Professor** and **Academy Research Fellow** at Centre for Wireless Communications (CWC), University of Oulu (UOulu), Finland.  
 🤖 My research combines rigorous signal processing and machine learning to solve core problems in wireless communications and sensing.
 
-
 <hr class="section-divider">
 
 ## 📚 About
@@ -72,3 +71,44 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 
 </details>
 
+<hr class="section-divider">
+
+## 🏆 Highlighted publications
+<ul>
+  <li>
+    <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,  
+    "Performance Analysis and Power Allocation for Massive MIMO ISAC,"  
+    <em>IEEE Transactions on Signal Processing</em>, vol. 73, pp. 1691–1707, March 2025.  
+    <em>(Top reading list in IEEE TSP since publication)</em>
+  </li>
+  <li>
+    <strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
+    "Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems,"  
+    <em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 3788–3804, Oct. 2023. [PDF] [Code]  
+    <em>(Top reading in 2023–2024)</em>
+  </li>
+  <li>
+    <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
+    "Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation,"  
+    <em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 2997–3013, Aug. 2023. [PDF] [Code]  
+    <em>(In IEEE SPS Top 25 downloads, Sept. 2023–Sept. 2024; Top reading in 2023–2024)</em>
+  </li>
+  <li>
+    M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
+    "An analysis of oversampling in uplink massive MIMO-OFDM with low-resolution ADCs,"  
+    <em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em>, Sept. 2023, Shanghai, China.  
+    <em>(Best Student Paper Award)</em>
+  </li>
+  <li>
+    <strong>N. T. Nguyen</strong>, N. Shlezinger, K.-H. Ngo, V.-D. Nguyen, and M. Juntti,  
+    "Joint communications and sensing design for multi-carrier MIMO systems,"  
+    <em>IEEE Statistical Signal Processing Workshop (SSP)</em>, July 2023, Hanoi, Vietnam.  
+    <em>(Best Paper Award)</em>
+  </li>
+  <li>
+    K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti,  
+    "Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface,"  
+    <em>IEEE Conference on Advanced Technologies for Communications (ATC)</em>, Oct. 2021, Hanoi, Vietnam.  
+    <em>(Best Paper Award)</em>
+  </li>
+</ul>
