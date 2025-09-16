@@ -44,8 +44,6 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 <em>IEEE Transactions on Signal Processing</em>, vol. 73, pp. 1691–1707, March 2025.  
 <span class="hl-flag">Top reading list in IEEE TSP since publication</span>  
 
-<br>
-
 <strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
 "Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems,"  
 <em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 3788–3804, Oct. 2023. [PDF] [Code]  
