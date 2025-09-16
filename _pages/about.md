@@ -9,7 +9,7 @@ redirect_from:
 
 # Hi, I’m Nhan.
 
-I’m an **Assistant Professor**, **Academy Fellow**, and **Docent** at the Centre for Wireless Communications (CWC), University of Oulu, Finland. My research mixes **rigorous signal processing** and **machine learning** to solve core problems in wireless communications and sensing.
+I’m an **Assistant Professor**, **Academy Fellow**, and **Docent** at the Centre for Wireless Communications (CWC), **University of Oulu**, Finland. My research mixes **rigorous signal processing** and **machine learning** to solve core problems in wireless communications and sensing.
 
 <div class="btn-group" style="margin:0.8rem 0;">
   <a class="btn btn--primary" href="/publications/">Publications</a>
@@ -21,11 +21,11 @@ I’m an **Assistant Professor**, **Academy Fellow**, and **Docent** at the Cent
 ---
 
 ## About
-I received my B.S. in Electronics & Communications Engineering from **HUST** (2014), and my M.S./Ph.D. from **SeoulTech** (2017/2020). I joined **UOulu** as a Postdoc in 2020. Visits include **NC State** (2019–2020), **Weizmann Institute & Ben-Gurion University** (2022), and **UC Irvine** (2023).
+I received my B.S. in Electronics & Communications Engineering from **Hanoi University of Science and Technology (HUST), Vietnam** (2014), and my M.S./Ph.D. from **Seoul National University of Science and Technology (SeoulTech), South Korea** (2017/2020). I joined the **University of Oulu** as a Postdoctoral Researcher in 2020. Research visits include **North Carolina State University, USA** (2019–2020), the **Weizmann Institute of Science** and **Ben-Gurion University of the Negev, Israel** (2022), and the **University of California, Irvine (UCI), USA** (2023).
 
 **Research interests:** signal processing and optimization; deep unfolding / machine learning for **massive MIMO**; **mmWave/THz** communications; **ISAC/JCAS**; **multimodal-sensing-assisted communications**.
 
-**Selected honors:** Academy Fellowship (Research Council of Finland, 2023); Title of Docent (UOulu, 2023); Best Paper Awards — IEEE SSP 2023, IEEE SPAWC 2023, ATC 2021; Nokia Foundation — Jorma Ollila Grant (2022).
+**Selected honors:** Academy Fellowship (Research Council of Finland, 2023); Title of Docent (University of Oulu, 2023); Best Paper Awards — IEEE SSP 2023, IEEE SPAWC 2023, ATC 2021; Nokia Foundation — Jorma Ollila Grant (2022).
 
 ---
 
@@ -52,3 +52,12 @@ I received my B.S. in Electronics & Communications Engineering from **HUST** (20
 </details>
 
 ---
+
+## Life
+<figure style="margin:1rem 0;">
+  <img src="/images/Ben.jpg" alt="Ben smiling at the camera" style="border-radius:12px; max-width:100%; height:auto;">
+  <figcaption style="font-size:0.95rem; opacity:0.85; margin-top:0.4rem;">
+    This is <strong>Ben</strong> — my favorite co-author in life.  
+    Interests include: cars, snacks, and reminding Mom that deadlines are flexible. 🙂
+  </figcaption>
+</figure>
