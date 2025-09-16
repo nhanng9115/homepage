@@ -40,14 +40,16 @@ I received my B.S. in Electronics & Communications Engineering from **Hanoi Univ
 - **Mar 18, 2025** — Paper accepted to **IEEE Transactions on Signal Processing**: *Performance Analysis and Power Allocation for Massive MIMO ISAC*.
 
 <details>
-<summary>Older highlights</summary>
+<summary><strong>Older highlights</strong></summary>
 
-- **Dec 21, 2024** — Three papers accepted to **IEEE WCNC**.  
-- **Dec 20, 2024** — Two papers accepted to **IEEE ICASSP**.  
-- **Dec 12, 2024** — EuCAP 2025 acceptance (ML-Assisted RIS for ISAC).  
-- **Oct 24, 2024** — TSP paper listed among SPS Top 25 downloads (Sep 2023–Sep 2024).  
-- **Sep–Jul 2024** — Multiple acceptances: T-VT, JSTSP SI (ISAC), Globecom, Asilomar, SPAWC.  
-- **Earlier (2021–2023)** — Best Paper Awards (SSP, SPAWC, ATC); major acceptances in TWC, TSP, VTM; Academy Fellowship awarded (2023).
+<ul>
+  <li><b>Dec 21, 2024</b> — Three papers accepted to <i>IEEE WCNC</i>.</li>
+  <li><b>Dec 20, 2024</b> — Two papers accepted to <i>IEEE ICASSP</i>.</li>
+  <li><b>Dec 12, 2024</b> — EuCAP 2025 acceptance (ML-Assisted RIS for ISAC).</li>
+  <li><b>Oct 24, 2024</b> — TSP paper listed among SPS Top 25 downloads (Sep 2023–Sep 2024).</li>
+  <li><b>Sep–Jul 2024</b> — Multiple acceptances: T-VT, JSTSP SI (ISAC), Globecom, Asilomar, SPAWC.</li>
+  <li><b>Earlier (2021–2023)</b> — Best Paper Awards (SSP, SPAWC, ATC); major acceptances in TWC, TSP, VTM; Academy Fellowship awarded (2023).</li>
+</ul>
 
 </details>
 
@@ -55,11 +57,13 @@ I received my B.S. in Electronics & Communications Engineering from **Hanoi Univ
 
 ## Life
 <div style="float:right; width:220px; margin:0 0 1rem 1rem; text-align:center;">
-  <img src="/images/Ben.jpg" alt="Ben smiling at the camera" style="border-radius:12px; max-width:100%; height:auto;">
+  <img src="/images/Ben.jpg" alt="Ben smiling outdoors" style="border-radius:12px; max-width:100%; height:auto;">
   <div style="font-size:0.9rem; opacity:0.85; margin-top:0.3rem;">
-    This is <strong>Ben</strong> — my favorite co-author in life.<br>
+    Meet <strong>Ben</strong> — my favorite co-author in life.<br>
     Interests: cars, snacks, and reminding Mom that deadlines are flexible. 🙂
   </div>
 </div>
 
 I’m also a proud parent, and my son brings joy and perspective into both life and work.
+
+<div style="clear:both;"></div>
