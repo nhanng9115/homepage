@@ -1,4 +1,4 @@
-permalink: /publications/submitted/
+permalink: /publications/submitted-1/
 title: "Submitted and Under Revision"
 ---
 
