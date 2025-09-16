@@ -72,14 +72,3 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 
 </details>
 
-<hr class="section-divider">
-
-## 👨‍👩‍👦 Life
-<div style="display:flex; align-items:center; gap:1rem; margin:1rem 0;">
-  <div style="flex:1;">
-     Meet <strong>Ben</strong> — my favorite co-author in life.
-  </div>
-  <div style="flex:0 0 200px; text-align:center;">
-    <img src="https://nhanng9115.github.io/homepage/images/Ben.jpg" alt="Ben" style="border-radius:12px; max-width:100%; height:auto;">
-  </div>
-</div>
