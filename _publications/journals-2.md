@@ -1,4 +1,4 @@
-permalink: /publications/journals/
+permalink: /publications/journals-2/
 title: "Journal Publications"
 ---
 
