@@ -23,7 +23,7 @@ main:
   # - title: "Projects"
   #   url: /year-archive/
     
-  - title: "CV"
+  - title: "Resume"
     url: https://nhanng9115.github.io/homepage/files/Resume.pdf
     external: true
     
