@@ -35,7 +35,7 @@ S. Bhandari, Thang X. Vu, <strong>N. T. Nguyen</strong>, and S. Chatzinotas,
 
 <li>
 T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Deep Unfolded Shifted Power Iteration based ISAC Beamforming for Sum Rate and CRLB Balancing,"  
+"<a href="https://arxiv.org/pdf/2503.09489" target="_blank">Deep Unfolded Shifted Power Iteration based ISAC Beamforming for Sum Rate and CRLB Balancing</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2025. (**submitted**)
 </li>
 
@@ -65,32 +65,26 @@ P. Zivuku, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, K. Ntontin, S. Chatzinot
 
 <li>
 L. V. Nguyen, R. Liu, <strong>N. T. Nguyen</strong>, M. Juntti, B. Ottersten, and A. L. Swindlehurst,  
-"Exploiting Symmetric Non-Convexity for Multi-Objective Symbol-Level DFRC Signal Design,"  
+"<a href="[https://arxiv.org/pdf/2503.09489](https://arxiv.org/pdf/2504.14281)" target="_blank">Exploiting Symmetric Non-Convexity for Multi-Objective Symbol-Level DFRC Signal Design</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Transactions on Wireless Communications</em></span>, 2025. (**major revision**)
 </li>
 
 <li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "Data-free knowledge distillation for LiDAR-aided beam tracking,"  
-<span style="color:#7e22ce;"><em>IEEE Transactions on Vehicular Technology</em></span>, manuscript in preparation.
+<span style="color:#7e22ce;"><em>IEEE Transactions on Vehicular Technology</em></span>, 2025. (**manuscript in preparation**)
 </li>
 
 <li>
 I. Welgamage, S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</strong>,  
 "Knowledge distillation for distributed vision-assisted beam management in mmWave communications,"  
-<span style="color:#7e22ce;"><em>IEEE Transactions on Vehicular Technology</em></span>, manuscript in preparation.
-</li>
-
-<li>
-M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
-"Knowledge distillation for sensing-assisted beam tracking in mmWave communications,"  
-<span style="color:#7e22ce;"><em>IEEE Transactions on Wireless Communications</em></span>, manuscript in preparation.
+<span style="color:#7e22ce;"><em>IEEE Transactions on Vehicular Technology</em></span>, 2025. (**manuscript in preparation**)
 </li>
 
 <li>
 S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</strong>,  
 "GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive MIMO systems,"  
-<span style="color:#7e22ce;"><em>IEEE Transactions on Communications</em></span>, 2025. (manuscript in preparation)
+<span style="color:#7e22ce;"><em>IEEE Transactions on Communications</em></span>, 2025. (**manuscript in preparation**)
 </li>
 
 </ol>
@@ -169,13 +163,13 @@ N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M
 
 <li>
 V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, Nguyen C. L., Dinh T. H., D. N. Nguyen, and S. Chatzinotas,  
-"<a href="https://arxiv.org/pdf/2302.02711" target="_blank">Network-Aided Intelligent Traffic Steering in 6G ORAN: A Multi-Layer Optimization Framework</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/48422/nbnfioulu-202403212382.pdf?sequence=1&isAllowed=y" target="_blank">Network-Aided Intelligent Traffic Steering in 6G ORAN: A Multi-Layer Optimization Framework</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Journal on Selected Areas in Communications</em></span>, vol. 42, no. 2, pp. 398–405, Nov. 2023. 
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://arxiv.org/pdf/2302.12041" target="_blank">Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/47431/nbnfioulu-202401231426.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 3788–3804, Oct. 2023.   (Top reading in 2023–2024)
 </li>
 
@@ -193,7 +187,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 
 <li>
 L. V. Nguyen, <strong>N. T. Nguyen</strong>, N. H. Tran, M. Juntti, A. L. Swindlehurst, and D. H. N. Nguyen,  
-"<a href="https://arxiv.org/pdf/2204.05350" target="_blank">Leveraging Deep Neural Networks for Massive MIMO Data Detection</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44744/nbnfi-fe202301265946.pdf?sequence=1&isAllowed=y" target="_blank">Leveraging Deep Neural Networks for Massive MIMO Data Detection</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Wireless Communications</em></span>, vol. 30, no. 1, pp. 174–180, May 2022. 
 </li>
 
@@ -205,7 +199,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 
 <li>
 <strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
-"<a href="https://arxiv.org/pdf/2010.09162" target="_blank">Hybrid Beamforming and Adaptive RF Chain Activation for Cell-Free Millimeter-Wave Massive MIMO Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/45145/nbnfi-fe2023032332877.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Beamforming and Adaptive RF Chain Activation for Cell-Free Millimeter-Wave Massive MIMO Systems</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 71, no. 8, pp. 8739–8755, May 2022.  
 </li>
 
@@ -217,7 +211,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 
 <li>
 <strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
-"<a href="https://arxiv.org/pdf/2010.13481" target="_blank">Application of Deep Learning to Sphere Decoding for Massive MIMO Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/30148/nbnfi-fe2021122162809.pdf?sequence=1&isAllowed=y" target="_blank">Application of Deep Learning to Sphere Decoding for Massive MIMO Systems</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Transactions on Wireless Communications</em></span>, vol. 20, no. 10, pp. 6787–6803, May 2021.  
 </li>
 
@@ -285,247 +279,247 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 
 <li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
-"Constrained Multimodal Sensing-Aided Communications: A Dynamic Beamforming Design,"  
+"<a href="" target="_blank">Constrained Multimodal Sensing-Aided Communications: A Dynamic Beamforming Design</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2025.
 </li>
 
 <li>
 P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Deep Reinforcement Learning for Hybrid RIS Assisted MIMO Communications,"  
+"<a href="https://nhanng9115.github.io/homepage/publications/" target="_blank">Deep Reinforcement Learning for Hybrid RIS Assisted MIMO Communications</a>,"  
 <span style="color:#7e22ce;"><em>Asilomar Conference on Signals, Systems, and Computers (ASILOMAR)</em></span>, 2025.
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong> and M. Juntti,  
-"Hybrid RIS-aided Wireless Communications,"  
+"<a href="https://nhanng9115.github.io/homepage/publications/" target="_blank">Hybrid RIS-aided Wireless Communications</a>,"  
 <span style="color:#7e22ce;"><em>International Symposium on Antennas and Propagation (ISAP)</em></span>, 2025.
 </li>
 
 <li>
 A. Raza, <strong>NN. T. Nguyen</strong>, and M. Juntti,  
-"Deep Unfolding of Atomic Norm Minimization for DoA Estimation,"  
+"<a href="https://ieeexplore.ieee.org/abstract/document/11143326" target="_blank">Deep Unfolding of Atomic Norm Minimization for DoA Estimation</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2025.
 </li>
 
 <li>
 S. Uniyal, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Outage and capacity analysis of hybrid RIS-assisted multi-user RSMA systems,"  
+"<a href="https://ieeexplore.ieee.org/document/11143254" target="_blank">Outage and Capacity Analysis of HRIS-Aided RSMA Systems</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2025.
 </li>
 
 <li>
 S. Tavakolian, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Sparse Semantic Encoding for Vision and Position-Aided MmWave Beam Prediction,"  
-<span style="color:#7e22ce;"><em>German Microwave Conference</em></span>, 2025. (accepted)
+"<a href="https://ieeexplore.ieee.org/abstract/document/10979188" target="_blank">Sparse Semantic Encoding for Reduced Data Load in Vision-Position Aided mmWave Beam Prediction</a>,"  
+<span style="color:#7e22ce;"><em>German Microwave Conference</em></span>, 2025.
 </li>
 
 <li>
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Energy Efficient Waveform Design and Subcarrier Allocation for Multicarrier MIMO JCAS,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/56813/nbnfioulu-202506064211.pdf?sequence=1&isAllowed=y" target="_blank">Energy Efficient Waveform Design and Subcarrier Allocation for Multicarrier MIMO JCAS</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Wireless Communications and Networking Conference (WCNC)</em></span>, 2025.
 </li>
 
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
-"Hybrid Receiver Design for Massive MIMO-OFDM With Low-Resolution ADCs and Oversampling,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/56710/nbnfioulu-202506094216.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Receiver Design for Massive MIMO-OFDM With Low-Resolution ADCs and Oversampling</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Wireless Communications and Networking Conference (WCNC)</em></span>, 2025.
 </li>
 
 <li>
 S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,  
-"RIS-Assisted Multiuser ISAC,"  
+"<a href="https://ieeexplore.ieee.org/document/10978368" target="_blank">Sum Rate and Cramér-Rao Lower Bound Analysis for RIS-Assisted Multiuser Large-Antenna ISAC</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Wireless Communications and Networking Conference (WCNC)</em></span>, 2025.
 </li>
 
 <li>
 M. Ma, T. Fang, N. Shlezinger, L. Swindlehurst, M. Juntti, and <strong>N. T. Nguyen</strong>,  
-"Model-Based Machine Learning for Max-Min Fairness Beamforming Design in JCAS Systems,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/54619/nbnfioulu-202501241331.pdf?sequence=1&isAllowed=y" target="_blank">Model-Based Machine Learning for Max-Min Fairness Beamforming Design in JCAS Systems</a>,"  
 <span style="color:#7e22ce;"><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2025.
 </li>
 
 <li>
 T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Low-Complexity Cramér–Rao Lower Bound and Sum Rate Optimization in ISAC Systems,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/54613/nbnfioulu-202503192097.pdf?sequence=1&isAllowed=y" target="_blank">Low-Complexity Cramér–Rao Lower Bound and Sum Rate Optimization in ISAC Systems</a>,"  
 <span style="color:#7e22ce;"><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2025.
 </li>
 
 <li>
 T. D. Phan, D. Q. Nguyen, N. Takanen, <strong>N. T. Nguyen</strong>, M. Juntti, and P. J. Soh,  
-"ML-Assisted RIS for ISAC Systems: Initial Results in the 6G Study Band,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/56987/nbnfioulu-202506164496.pdf?sequence=1&isAllowed=y" target="_blank">ML-Assisted RIS for ISAC Systems: Initial Results in the 6G Study Band</a>,"  
 <span style="color:#7e22ce;"><em>European Conference on Antennas and Propagation (EuCAP)</em></span>, 2025.
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
-"Deep Unfolding-Empowered MmWave Massive MIMO Joint Communications and Sensing,"  
+"<a href="https://arxiv.org/pdf/2411.17747" target="_blank">Deep Unfolding-Empowered MmWave Massive MIMO Joint Communications and Sensing</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Joint Communications and Sensing Symposium (JC&S)</em></span>, 2025.
 </li>
 
 <li>
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Joint Waveform Design and Sub-Carrier Allocation for Multiuser MIMO JCAS,"  
+"<a href="https://ieeexplore.ieee.org/document/10880646" target="_blank">Joint Waveform Design and Sub-Carrier Allocation for Multiuser MIMO ISAC</a>,"  
 <span style="color:#7e22ce;"><em>IEEE JC&S Symposium</em></span>, 2024.
 </li>
 
 <li>
 P. Mobaraki, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Deep Unfolding-Empowered Energy Efficiency Optimization in RIS-Assisted Wireless Communications,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/54975/nbnfioulu-202504092482.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding-Empowered Energy Efficiency Optimization in RIS-Assisted Wireless Communications</a>,"  
 <span style="color:#7e22ce;"><em>International Workshop on Energy-Aware Mobile IoT (Eware-IoT)</em></span>, 2024.
 </li>
 
 <li>
 S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, and M. Juntti,  
-"Outage Probability and Capacity Analysis of Active RIS-Assisted UAV RSMA Communications,"  
+"<a href="https://ieeexplore.ieee.org/abstract/document/10901541" target="_blank">Outage Probability and Capacity Analysis of Active RIS-Assisted UAV RSMA Communications</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2024.
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, T. Fang, H. Q. Ngo, and M. Juntti,  
-"Multi-static Cell-Free Massive MIMO ISAC: Performance Analysis and Optimization,"  
+"<a href="https://arxiv.org/pdf/2411.06747" target="_blank">Multi-static Cell-Free Massive MIMO ISAC: Performance Analysis and Optimization</a>,"  
 <span style="color:#7e22ce;"><em>Asilomar Conference on Signals, Systems, and Computers (ASILOMAR)</em></span>, 2024.
 </li>
 
 <li>
 T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Beamforming Design for Max-Min Fairness Performance Balancing in ISAC Systems,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53076/nbnfioulu-202412097104.pdf?sequence=1&isAllowed=y" target="_blank">Beamforming Design for Max-Min Fairness Performance Balancing in ISAC Systems</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sept. 2024, Lucca, Italy.
 </li>
 
 <li>
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Waveform Design for Multi-Carrier Multi-User MIMO Joint Communications and Sensing,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/52351/nbnfioulu-202410186389.pdf?sequence=1&isAllowed=y" target="_blank">Waveform Design for Multi-Carrier Multi-User MIMO Joint Communications and Sensing</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sept. 2024, Lucca, Italy.
 </li>
 
 <li>
 T. D. Gian, T.-H. Nguyen, <strong>N. T. Nguyen</strong>, and V.-D. Nguyen,  
-"WiLHPE: WiFi-enabled Lightweight Channel Frequency Dynamic Convolution for HPE Tasks,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53074/nbnfioulu-202412097102.pdf?sequence=1&isAllowed=y" target="_blank">WiLHPE: WiFi-enabled Lightweight Channel Frequency Dynamic Convolution for HPE Tasks</a>,"  
 <span style="color:#7e22ce;"><em>IEEE International Conference on Communications and Electronics (ICCE)</em></span>, Aug. 2024, Da Nang City, Vietnam.
 </li>
 
 <li>
 I. Bilbao, <strong>N. T. Nguyen</strong>, D. P. Moya Osorio, V. Tapio, M. Juntti, E. Iradier, J. Montalbán, and P. Angueira,  
-"Physical layer security beamforming design via deep unfolding,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53075/nbnfioulu-202412097103.pdf?sequence=1&isAllowed=y" target="_blank">Physical layer security beamforming design via deep unfolding</a>,"  
 <span style="color:#7e22ce;"><em>IEEE International Mediterranean Conference on Communications and Networking (MEDITCOM)</em></span>, July 2024, Madrid, Spain.
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,  
-"Massive MIMO Joint Communications and Sensing with MRT Beamforming,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/51885/nbnfioulu-202409175895.pdf?sequence=1&isAllowed=y" target="_blank">Massive MIMO Joint Communications and Sensing with MRT Beamforming</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Radar Conference (RadarConf24)</em></span>, 2024, Denver, CO, USA.
 </li>
 
 <li>
 P. Krishnananthalingam, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Constant Modulus Waveform Design for Wideband Multicarrier Joint Communications and Sensing via Deep Unfolding,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53799/nbnfioulu-202501221287.pdf?sequence=1&isAllowed=y" target="_blank">Constant Modulus Waveform Design for Wideband Multicarrier Joint Communications and Sensing via Deep Unfolding</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Wireless Communications and Networking Conference (WCNC)</em></span>, 2024.
 </li>
 
 <li>
 V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, Nguyen C. L., Dinh T. H., D. N. Nguyen, and S. Chatzinotas,  
-"Enabling Intelligent Traffic Steering in A Hierarchical Open Radio Access Network,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/48394/nbnfioulu-202403202353.pdf?sequence=1&isAllowed=y" target="_blank">Enabling Intelligent Traffic Steering in A Hierarchical Open Radio Access Network</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2023, Kuala Lumpur, Malaysia.
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, A. L. Swindlehurst, and M. Juntti,  
-"Fast Deep Unfolded Hybrid Beamforming in Multiuser Large MIMO Systems,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/51884/nbnfioulu-202409175894.pdf?sequence=1&isAllowed=y" target="_blank">Fast Deep Unfolded Hybrid Beamforming in Multiuser Large MIMO Systems</a>,"  
 <span style="color:#7e22ce;"><em>Asilomar Conference on Signals, Systems, and Computers (ASILOMAR)</em></span>, 2023, Pacific Grove, CA, USA. (accepted)
 </li>
 
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
-"An analysis of oversampling in uplink massive MIMO-OFDM with low-resolution ADCs,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/43260/nbnfioulu-202311243336.pdf?sequence=1&isAllowed=y" target="_blank">Analysis of Oversampling in Uplink Massive MIMO-OFDM with Low-Resolution ADCs</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sept. 2023, Shanghai, China. (Best Student Paper Award)
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, N. Shlezinger, K.-H. Ngo, V.-D. Nguyen, and M. Juntti,  
-"Joint communications and sensing design for multi-carrier MIMO systems,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44654/nbnfi-fe20231030141814.pdf?sequence=1&isAllowed=y" target="_blank">Joint communications and sensing design for multi-carrier MIMO systems</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Statistical Signal Processing Workshop (SSP)</em></span>, July 2023, Hanoi, Vietnam. (Best Paper Award)
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, M. Ma, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
-"Deep unfolding-enabled hybrid beamforming design for mmWave massive MIMO systems,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44290/nbnfi-fe20230823103204.pdf?sequence=1&isAllowed=y" target="_blank">Deep unfolding-enabled hybrid beamforming design for mmWave massive MIMO systems</a>,"  
 <span style="color:#7e22ce;"><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, June 2023, Rhodes Island, Greece.
 </li>
 
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Beam Squint Analysis and Mitigation via Hybrid Beamforming Design in THz Communications,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/47366/nbnfioulu-202401191355.pdf?sequence=1&isAllowed=y" target="_blank">Beam Squint Analysis and Mitigation via Hybrid Beamforming Design in THz Communications</a>,"  
 <span style="color:#7e22ce;"><em>IEEE International Conference on Communications (ICC)</em></span>, May 2023, Rome, Italy.
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, J. Kokkoniemi, and M. Juntti,  
-"Beam Squint Effects in THz Communications with UPA and ULA: Comparison and Hybrid Beamforming Design,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44965/nbnfi-fe2023021627492.pdf?sequence=1&isAllowed=y" target="_blank">Beam Squint Effects in THz Communications with UPA and ULA: Comparison and Hybrid Beamforming Design</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Global Communications Conference (GLOBECOM) Workshop</em></span>, Dec. 2022, Rio de Janeiro, Brazil.
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, Q. Wu, A. Tolli, S. Chatzinotas, and M. Juntti,  
-"Hybrid Active-Passive Reconfigurable Intelligent Surface-Assisted UAV Communications,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/43582/nbnfi-fe2023032332879.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Active-Passive Reconfigurable Intelligent Surface-Assisted UAV Communications</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, Dec. 2022, Rio de Janeiro, Brazil.
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, Q. Wu, A. Tolli, S. Chatzinotas, and M. Juntti,  
-"Hybrid Active-Passive Reconfigurable Intelligent Surface-Assisted Multi-User MISO Systems,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44165/nbnfi-fe202301091855.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Active-Passive Reconfigurable Intelligent Surface-Assisted Multi-User MISO Systems</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, July 2022, Oulu, Finland.
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, S. Chatzinotas, and M. Juntti,  
-"Downlink Throughput of Cell-Free Massive MIMO Systems Assisted by Hybrid Relay-Reflecting Intelligent Surfaces,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44153/nbnfi-fe202301091846.pdf?sequence=1&isAllowed=y" target="_blank">Downlink Throughput of Cell-Free Massive MIMO Systems Assisted by Hybrid Relay-Reflecting Intelligent Surfaces</a>,"  
 <span style="color:#7e22ce;"><em>IEEE International Conference on Communications (ICC)</em></span>, May 2022, Seoul, South Korea.
 </li>
 
 <li>
 E. Egashira, D. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Secrecy Capacity Maximization for a Hybrid Relay-RIS Scheme in mmWave MIMO Networks,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/33525/nbnfi-fe2022091258396.pdf?sequence=1&isAllowed=y" target="_blank">Secrecy Capacity Maximization for a Hybrid Relay-RIS Scheme in mmWave MIMO Networks</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Vehicular Technology Conference (VTC Spring)</em></span>, June 2022, Helsinki, Finland.
 </li>
 
 <li>
 T. H.-The, Q.-V. Pham, T.-V. Nguyen, V.-S. Doan, <strong>N. T. Nguyen</strong>, D. B. d. Costa, and D.-S. Kim,  
-"Densely-Accumulated Convolutional Network for Accurate LPI Radar Waveform Recognition,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/34153/nbnfi-fe202201031020.pdf?sequence=1&isAllowed=y" target="_blank">Densely-Accumulated Convolutional Network for Accurate LPI Radar Waveform Recognition</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, Dec. 2021, Madrid, Spain.
 </li>
 
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Switch-based Hybrid Beamforming for Wideband Multi-Carrier Communications,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/52175/nbnfioulu-202410076207.pdf?sequence=1&isAllowed=y" target="_blank">Switch-based Hybrid Beamforming for Wideband Multi-Carrier Communications</a>,"  
 <span style="color:#7e22ce;"><em>IEEE International ITG Workshop on Smart Antennas (WSA)</em></span>, Nov. 2021, French Riviera, France.
 </li>
 
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Closed-Form Hybrid Beamforming Solution for Spectral Efficiency Upper Bound Maximization in MmWave MIMO-OFDM Systems,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/43618/nbnfi-fe2023032332868.pdf?sequence=1&isAllowed=y" target="_blank">Closed-Form Hybrid Beamforming Solution for Spectral Efficiency Upper Bound Maximization in MmWave MIMO-OFDM Systems</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Vehicular Technology Conference (VTC Fall)</em></span>, Sept. 2021, Norman, OK, USA.
 </li>
 
 <li>
 K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti,  
-"Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44157/nbnfi-fe202301091858.pdf?sequence=1&isAllowed=y" target="_blank">Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Conference on Advanced Technologies for Communications (ATC)</em></span>, Oct. 2021, Hanoi, Vietnam. (Best Paper Award)
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, L. V. Nguyen, T. Huynh-T., D. H. N. Nguyen, A. L. Swindlehurst, and M. Juntti,  
-"Machine Learning-based Reconfigurable Intelligent Surface-aided MIMO Systems,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/45210/nbnfi-fe2023040434974.pdf?sequence=1&isAllowed=y" target="_blank">Machine Learning-based Reconfigurable Intelligent Surface-aided MIMO Systems</a>,"  
 <span style="color:#7e22ce;"><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sept. 2021, Lucca, Italy.
 </li>
 
 <li>
 J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, and M. Juntti,  
-"Channel Estimation and Hybrid Architectures for RIS-Assisted Communications,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/30719/nbnfi-fe2021100149102.pdf?sequence=1&isAllowed=y" target="_blank">Channel Estimation and Hybrid Architectures for RIS-Assisted Communications</a>,"  
 <span style="color:#7e22ce;"><em>EuCNC & 6G Summit</em></span>, June 2021, Grenoble, France.
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, Q.-D. Vu, K. Lee, and M. Juntti,  
-"Spectral Efficiency Optimization for Hybrid Relay-Reflecting Intelligent Surface,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/32680/nbnfi-fe2022032124246.pdf?sequence=1&isAllowed=y" target="_blank">Spectral Efficiency Optimization for Hybrid Relay-Reflecting Intelligent Surface</a>,"  
 <span style="color:#7e22ce;"><em>IEEE International Conference on Communications (ICC) Workshop</em></span>, June 2021, Montreal, Canada.
 </li>
 
