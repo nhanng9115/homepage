@@ -9,9 +9,20 @@ redirect_from:
 
 <style>
 /* High-contrast section dividers */
-:root { --divider-color: #111; --accent:#1E90FF; --ink:#111; --muted:#6b7280; --highlight:#7e22ce; }
+:root { 
+  --divider-color: #111; 
+  --accent:#2563eb;      /* accessible blue */
+  --ink:#111; 
+  --muted:#6b7280; 
+  --highlight:#8b5cf6;   /* single violet works in light & dark */
+}
 @media (prefers-color-scheme: dark){
-  :root { --divider-color: #eee; --ink:#eee; --muted:#9aa0a6; --highlight:#c084fc; }
+  :root { 
+    --divider-color: #eee; 
+    --ink:#eee; 
+    --muted:#9aa0a6; 
+    --highlight:#8b5cf6; /* same color reused */
+  }
 }
 hr.section-divider{
   border: 0;
@@ -19,8 +30,12 @@ hr.section-divider{
   margin: 1.2rem 0 1.2rem 0;
   opacity: 1;
 }
-.hl-flag{ color:var(--highlight); font-weight:600; }
+.hl-flag{ 
+  color:var(--highlight); 
+  font-weight:600; 
+}
 </style>
+
 
 👨🏻‍💻 I’m an **Assistant Professor** and **Academy Research Fellow** at Centre for Wireless Communications (CWC), University of Oulu (UOulu), Finland.  
 🤖 My research combines rigorous signal processing and machine learning to solve core problems in wireless communications and sensing.
