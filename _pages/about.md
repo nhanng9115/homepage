@@ -11,17 +11,17 @@ redirect_from:
 /* High-contrast section dividers */
 :root { 
   --divider-color: #111; 
-  --accent:#2563eb;      /* accessible blue */
+  --accent:#1E90FF;       /* keep your original accent blue */
   --ink:#111; 
   --muted:#6b7280; 
-  --highlight:#8b5cf6;   /* single violet works in light & dark */
+  --highlight:#0d9488;    /* teal highlight */
 }
 @media (prefers-color-scheme: dark){
   :root { 
     --divider-color: #eee; 
     --ink:#eee; 
     --muted:#9aa0a6; 
-    --highlight:#8b5cf6; /* same color reused */
+    --highlight:#0d9488;  /* same teal for dark mode */
   }
 }
 hr.section-divider{
@@ -35,6 +35,7 @@ hr.section-divider{
   font-weight:600; 
 }
 </style>
+
 
 
 👨🏻‍💻 I’m an **Assistant Professor** and **Academy Research Fellow** at Centre for Wireless Communications (CWC), University of Oulu (UOulu), Finland.  
