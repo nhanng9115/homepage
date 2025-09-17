@@ -502,7 +502,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li>
 K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44157/nbnfi-fe202301091858.pdf?sequence=1&isAllowed=y" target="_blank">Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface</a>,"  
-<span style=""><em>IEEE Conference on Advanced Technologies for Communications (ATC)</em></span>, Oct. 2021, Hanoi, Vietnam. (Best Paper Award)
+<span style=""><em>International Conference on Advanced Technologies for Communications (ATC)</em></span>, Oct. 2021, Hanoi, Vietnam. (Best Paper Award)
 </li>
 
 <li>
