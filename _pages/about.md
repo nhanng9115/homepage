@@ -14,7 +14,7 @@ redirect_from:
   --accent:#1E90FF;       /* keep your original accent blue */
   --ink:#111; 
   --muted:#6b7280; 
-  --highlight:#0d9488;    /* teal highlight */
+  --highlight:#d97706;    /* teal highlight */
 }
 @media (prefers-color-scheme: dark){
   :root { 
