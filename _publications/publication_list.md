@@ -266,6 +266,12 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 <ol>
 
 <li>
+	Huy T. Nguyen, <strong>N. T. Nguyen</strong>, Nguyen Cong Luong, Tri-Hai Nguyen, and Vo Nguyen Quoc Bao,  
+"Max-Min Rate Optimization for Reconfigurable Intelligent Surfaces Aided ISAC Systems,"  
+<span style="color:#7e22ce;"><em>24th International Symposium on Communications and Information Technologies (ISCIT)</em></span>, 2025.
+</li>
+
+<li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "Constrained Multimodal Sensing-Aided Communications: A Dynamic Beamforming Design,"  
 <span style="color:#7e22ce;"><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2025.
