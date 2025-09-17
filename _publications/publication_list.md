@@ -11,7 +11,7 @@ title: "Publications"
 
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
-"<a href="[https://arxiv.org/pdf/2509.11419](https://arxiv.org/pdf/2509.11725)" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
+"<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
 <span style="color:#7e22ce;"><em>IEEE ICASSP</em></span>, 2025. (**submitted**)
 </li>
 
