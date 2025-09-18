@@ -111,3 +111,5 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 </ul>
 
 </details>
+
+![Visits](https://hits.sh/nhanng9115.github.io/homepage.svg?style=flat-square&label=visits)
