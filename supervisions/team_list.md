@@ -1,5 +1,4 @@
 ---
-layout: single
 permalink: /supervisions/     # match your nav item (not /supervisions/)
 title: "Supervision"
 ---
