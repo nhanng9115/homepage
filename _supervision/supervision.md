@@ -1,6 +1,6 @@
 ---
 permalink: /supervision/
-title: "👩‍🏫 Supervision"
+title: "Supervision"
 author_profile: true
 ---
 
