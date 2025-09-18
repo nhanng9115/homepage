@@ -17,8 +17,8 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
     
-  # - title: "Research Team"
-  #   url: /portfolio/research-team/
+  - title: "Supervision"
+    url: /supervision/
         
   # - title: "Projects"
   #   url: /year-archive/
