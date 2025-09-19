@@ -5,26 +5,22 @@ title: "Team Activities"
 
 # Group Event – September 18, 2025
 
-On **September 18, 2025**, our group had a wonderful meeting to share experiences on creating **Intellectual Property Rights (IPRs)**, followed by an exciting outing at **Koitelinkoski, Oulu**.  
+Our group met to share experiences on creating **IPRs** and enjoyed an outing at **Koitelinkoski, Oulu**.  
+It was a fun evening with international **BBQ traditions** and great teamwork. 🌍🔥🙌  
 
-It was inspiring to learn about different **BBQ traditions from around the world** and enjoy them together as a team. 🌍🍖🔥  
-
-A big thanks to the **BBQ committee** – *Sina Tavakolian, Abolfazl Zakeri, and Pouya Mobaraki* – for organizing such a memorable event! 🌿🙌  
-
----
-
-📍 *Location:* Koitelinkoski, Oulu  
-🎉 *Theme:* Team bonding + IPR sharing + International BBQ traditions  
+Thanks to the BBQ committee – *Sina Tavakolian, Abolfazl Zakeri, and Pouya Mobaraki* – for organizing this memorable event!  
 
 ---
 
-## Event Highlights
+<div align="center">
 
-### BBQ Fun
-![BBQ Time](https://github.com/nhanng9115/homepage/blob/master/images/687A69C4-C4BF-4F76-A6CD-4D5AD470429A_1_105_c.jpeg)
+<table>
+<tr>
+<td><img src="{{ '/images/687A69C4-C4BF-4F76-A6CD-4D5AD470429A_1_105_c.jpeg' | relative_url }}" width="250"/></td>
+<td><img src="{{ '/images/93308D9A-1874-41CB-99D3-9B12EF7F3418_1_105_c.jpeg' | relative_url }}" width="250"/></td>
+<td><img src="{{ '/images/F08387B9-F23F-44E6-9C8C-542A740A6F18_1_105_c.jpeg' | relative_url }}" width="250"/></td>
+</tr>
+</table>
 
-### Nature and Relaxation
-![Koitelinkoski View](https://github.com/nhanng9115/homepage/blob/master/images/93308D9A-1874-41CB-99D3-9B12EF7F3418_1_105_c.jpeg)
+</div>
 
-### Group Photo
-![Group Photo](https://github.com/nhanng9115/homepage/blob/master/images/F08387B9-F23F-44E6-9C8C-542A740A6F18_1_105_c.jpeg)
