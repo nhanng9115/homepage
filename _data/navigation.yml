@@ -27,8 +27,8 @@ main:
     url: https://nhanng9115.github.io/homepage/files/Resume.pdf
     external: true
     
-  # - title: "CV"
-  #   url: /cv-json/
+  - title: "Team Activities"
+    url: /activity/
     
   # - title: "Guide"
   #   url: /markdown/
