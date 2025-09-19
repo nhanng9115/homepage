@@ -28,7 +28,7 @@ main:
     external: true
     
   - title: "Team Activities"
-    url: /activity/
+    url: /activities/
     
   # - title: "Guide"
   #   url: /markdown/
