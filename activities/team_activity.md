@@ -24,10 +24,10 @@ A big thanks to the **BBQ committee** – *Sina Tavakolian, Abolfazl Zakeri, and
 ![Team Meeting](https://github.com/nhanng9115/homepage/blob/master/images/09BE6E36-28A2-4A51-B193-2DF4A6F69C37_1_105_c.jpeg)
 
 ### BBQ Fun
-![BBQ Time](https://nhanng9115.github.io/homepage//images/https://github.com/nhanng9115/homepage/blob/master/images/687A69C4-C4BF-4F76-A6CD-4D5AD470429A_1_105_c.jpeg)
+![BBQ Time](https://github.com/nhanng9115/homepage/blob/master/images/687A69C4-C4BF-4F76-A6CD-4D5AD470429A_1_105_c.jpeg)
 
 ### Nature and Relaxation
 ![Koitelinkoski View](https://github.com/nhanng9115/homepage/blob/master/images/93308D9A-1874-41CB-99D3-9B12EF7F3418_1_105_c.jpeg)
 
 ### Group Photo
-![Group Photo](https://nhanng9115.github.io/homepage//images/93308D9A-1874-41CB-99D3-9B12EF7F3418_1_102_o.jpeg)
+![Group Photo](https://github.com/nhanng9115/homepage/blob/master/images/F08387B9-F23F-44E6-9C8C-542A740A6F18_1_105_c.jpeg)
