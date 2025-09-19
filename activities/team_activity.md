@@ -20,9 +20,6 @@ A big thanks to the **BBQ committee** – *Sina Tavakolian, Abolfazl Zakeri, and
 
 ## Event Highlights
 
-### Team Gathering
-![Team Meeting](https://github.com/nhanng9115/homepage/blob/master/images/09BE6E36-28A2-4A51-B193-2DF4A6F69C37_1_105_c.jpeg)
-
 ### BBQ Fun
 ![BBQ Time](https://github.com/nhanng9115/homepage/blob/master/images/687A69C4-C4BF-4F76-A6CD-4D5AD470429A_1_105_c.jpeg)
 
