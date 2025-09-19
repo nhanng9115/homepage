@@ -3,9 +3,9 @@ permalink: /activities/
 title: "Team Activities"
 ---
 
-# Group Event – September 18, 2025
+# September 18, 2025
 
-IPR-sharing meetup and team BBQ at **Koitelinkoski, Oulu** — thanks to **Sina Tavakolian, Abolfazl Zakeri, and Pouya Mobaraki**! 🌿🔥
+Our group enjoyed an outing at **Koitelinkoski, Oulu**. It was a fun evening with international **BBQ traditions** and great teamwork. 🌍🔥🙌  
 
 <table>
   <tr>
