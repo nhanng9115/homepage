@@ -21,13 +21,13 @@ A big thanks to the **BBQ committee** – *Sina Tavakolian, Abolfazl Zakeri, and
 ## Event Highlights
 
 ### Team Gathering
-![Team Meeting](/images/687A69C4-C4BF-4F76-A6CD-4D5AD470429A.heic)
+![Team Meeting](https://nhanng9115.github.io/homepage//images/687A69C4-C4BF-4F76-A6CD-4D5AD470429A.heic)
 
 ### BBQ Fun
-![BBQ Time](/images/09BE6E36-28A2-4A51-B193-2DF4A6F69C37_1_102_o.jpeg)
+![BBQ Time](https://nhanng9115.github.io/homepage//images/09BE6E36-28A2-4A51-B193-2DF4A6F69C37_1_102_o.jpeg)
 
 ### Nature and Relaxation
-![Koitelinkoski View](/images/F08387B9-F23F-44E6-9C8C-542A740A6F18_1_102_o.jpeg)
+![Koitelinkoski View](https://nhanng9115.github.io/homepage//images/F08387B9-F23F-44E6-9C8C-542A740A6F18_1_102_o.jpeg)
 
 ### Group Photo
-![Group Photo](/images/93308D9A-1874-41CB-99D3-9B12EF7F3418_1_102_o.jpeg)
+![Group Photo](https://nhanng9115.github.io/homepage//images/93308D9A-1874-41CB-99D3-9B12EF7F3418_1_102_o.jpeg)
