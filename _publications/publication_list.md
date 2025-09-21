@@ -7,7 +7,7 @@ title: "Publications"
 <!-- ===== Publication card with copyable BibTeX (no <script> tag needed) ===== -->
 <h3 style="margin:0;">Encrypted data caching and learning framework for robust federated learning-based mobile edge computing</h3>
 <p style="margin:6px 0 0 0; font-weight:600;">
-  H. C. Nguyen, Y. Saputra, Y. Saputra, D. T. Hoang, D. N. Nguyen, and 3 more authors
+  H. C. Nguyen, Y. Saputra, D. T. Hoang, D. N. Nguyen, and 3 more authors
 </p>
 <p style="margin:2px 0 10px 0; font-style:italic;">IEEE/ACM Transactions on Networking, 2024</p>
 
@@ -20,8 +20,8 @@ title: "Publications"
     </summary>
 
     <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:12px;">
-      <!-- Visible code block -->
-      <pre style="margin:0; overflow:auto;"><code>@article{ToN2024,
+      <!-- Visible code block for pretty display -->
+      <pre style="margin:0; overflow:auto;"><code id="bibtex-1">@article{ToN2024,
   author = {Nguyen, H. C. and Saputra, Y. and Hoang, D. T. and Nguyen, D. N.},
   journal = {IEEE/ACM Transactions on Networking},
   title = {Encrypted data caching and learning framework for robust federated learning-based mobile edge computing},
@@ -33,7 +33,7 @@ title: "Publications"
   doi = {10.1109/TNET.2024.3365815},
 }</code></pre>
 
-      <!-- Hidden textarea is the source for copying -->
+      <!-- Hidden textarea used only for copying -->
       <textarea id="bibtex-1-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{ToN2024,
   author = {Nguyen, H. C. and Saputra, Y. and Hoang, D. T. and Nguyen, D. N.},
   journal = {IEEE/ACM Transactions on Networking},
@@ -46,22 +46,17 @@ title: "Publications"
   doi = {10.1109/TNET.2024.3365815},
 }</textarea>
 
-      <!-- ✅ Copy button: normalize line breaks so pasted text keeps structure -->
+      <!-- Copy button with inline handler (no <script>) -->
       <button
         style="position:absolute; top:8px; right:8px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:4px 8px; cursor:pointer;"
         onclick="
           (function(btn){
             var ta = document.getElementById('bibtex-1-src');
-            var text = ta.value.replace(/\r?\n/g, '\r\n');  // ✅ enforce proper newlines
+            ta.select(); ta.setSelectionRange(0, 999999);
             var ok = false;
-            try {
-              navigator.clipboard.writeText(text).then(function(){ ok = true; });
-            } catch(e) {
-              // fallback
-              ta.style.display='block';
-              ta.select(); ta.setSelectionRange(0, text.length);
-              try { ok = document.execCommand('copy'); } catch(err) {}
-              ta.style.display='none';
+            try { ok = document.execCommand('copy'); } catch(e) {}
+            if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
+              navigator.clipboard.writeText(ta.value).then(function(){ ok = true; }).catch(function(){});
             }
             var old = btn.textContent;
             btn.textContent = ok ? 'Copied!' : 'Select & Ctrl/Cmd+C';
