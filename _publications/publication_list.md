@@ -5,75 +5,7 @@ title: "Publications"
 
 ---
 
-<ol>
 
-  <li>
-    M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
-    "<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"
-    <br><em>IEEE ICASSP</em>, 2025. (<strong>submitted</strong>)
-
-    <!-- ===== BibTex button on a separate line (right), panel left-aligned ===== -->
-    <details style="display:block; margin-top:6px;">
-      <!-- Full-width summary; button is right-aligned inside -->
-      <summary style="display:flex; justify-content:flex-end; align-items:center; list-style:none; cursor:pointer; padding:0;">
-        <span
-          style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center;
-                 background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px;
-                 font-weight:600; font-size:12px; line-height:1;">
-          BibTex
-        </span>
-      </summary>
-
-      <!-- Pink panel (left-aligned content) -->
-      <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
-        <!-- Visible BibTeX (smaller text) -->
-        <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-1">@inproceedings{MaNguyenICASSP2025,
-  author = {Ma, M. and Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},
-  title = {Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},
-  booktitle = {Proc. IEEE ICASSP},
-  year = {2025},
-  note = {submitted},
-  url = {https://arxiv.org/pdf/2509.11725}
-}</code></pre>
-
-        <!-- Hidden textarea used only for copying (CRLF via &#13; so pasted text is multi-line) -->
-        <textarea id="bibtex-1-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@inproceedings{MaNguyenICASSP2025,&#13;
-  author = {Ma, M. and Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},&#13;
-  title = {Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},&#13;
-  booktitle = {Proc. IEEE ICASSP},&#13;
-  year = {2025},&#13;
-  note = {submitted},&#13;
-  url = {https://arxiv.org/pdf/2509.11725}&#13;
-}</textarea>
-
-        <!-- Copy button (text only, small) -->
-        <button
-          style="position:absolute; top:6px; right:6px;
-                 border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px;
-                 padding:2px 8px; font-size:12px; cursor:pointer;"
-          onclick="
-            (function(btn){
-              var ta = document.getElementById('bibtex-1-src');
-              ta.select(); ta.setSelectionRange(0, 999999);
-              var ok = false;
-              try { ok = document.execCommand('copy'); } catch(e) {}
-              if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
-                navigator.clipboard.writeText(ta.value).then(function(){ ok = true; }).catch(function(){});
-              }
-              var old = btn.textContent;
-              btn.textContent = ok ? 'Copied!' : 'Copy';
-              setTimeout(function(){ btn.textContent = old; }, 1200);
-            })(this);
-            return false;
-          ">
-          Copy
-        </button>
-      </div>
-    </details>
-    <!-- ===== /BibTex section ===== -->
-  </li>
-
-</ol>
 
 
 # 📝 Submitted and Under Revision  
@@ -596,3 +528,175 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
 </li>
 
 </ol>
+
+<script>
+(function () {
+  // ----------- helpers -----------
+  const htmlEscape = s => s.replace(/[&<>"']/g, c => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  }[c]));
+
+  const normText = el => (el ? el.textContent : '').replace(/\s+/g,' ').trim();
+
+  function guessType(venue) {
+    const v = venue.toLowerCase();
+    if (/(transactions|journal|magazine|proceedings of the ieee|oj-comsoc|access)/.test(v)) return 'article';
+    if (/(conference|workshop|symposium|icc|wcnc|glob[e]?com|asilomar|spawc|icassp|eucap|eucnc|vtc|meditcom|ssp|wsa|isap|jc&s)/i.test(venue)) return 'inproceedings';
+    return 'inproceedings';
+  }
+
+  function keyFrom(authors, venue, year, title) {
+    // First author last name (or your last name if first author is "M." etc.), then a short venue token, then year
+    const first = (authors.split(' and ')[0] || '').split(',')[0].trim();
+    const last = first.split(' ').slice(-1)[0].replace(/[^A-Za-z]/g,'') || 'Nguyen';
+    const vtok = (venue.match(/[A-Z]{2,}/g) || [venue.replace(/\b(the|of|on|and|for|in)\b/gi,'').split(/\s+/).map(w=>w[0]).join('')])[0];
+    const safeV = (vtok || 'Conf').replace(/[^A-Za-z]/g,'');
+    const safeYear = String(year || '').replace(/\D/g,'') || 'XXXX';
+    // Add a short word from title for uniqueness
+    const w = (title || '').replace(/[^A-Za-z0-9 ]/g,'').split(/\s+/).find(s=>s.length>3) || 'Paper';
+    return (last + safeV + safeYear + w).slice(0,40);
+  }
+
+  function bibtexFor(li, idx) {
+    // Parse structure:
+    // [authors text] “<a>Title</a>,” linebreak <em>Venue</em>, YEAR. (status)
+    const a = li.querySelector('a[href]');
+    const title = normText(a);
+    const url = a ? a.getAttribute('href') : '';
+
+    // authors appear in the text node(s) before the first quoted title
+    // capture everything before the first opening quote of the title anchor
+    let pre = '';
+    for (const n of li.childNodes) {
+      if (n.nodeType === 1 && n.contains(a)) break;
+      pre += (n.nodeType === 3 ? n.nodeValue : n.textContent) || '';
+    }
+    pre = pre.replace(/\s+/g,' ').trim().replace(/[“”"]/g,'"');
+    // Clean trailing commas before the quote
+    pre = pre.replace(/\s*,\s*$/, '');
+
+    // Authors are typically like: "M. Ma, N. T. Nguyen, ..." -> convert to BibTeX "Last, First and ..."
+    function toBibAuthors(s) {
+      // split by commas, then rebuild pairs (very heuristic but works well for your list)
+      const parts = s.split(/\s*,\s*/).filter(Boolean);
+      const names = [];
+      for (let i=0;i<parts.length;i++) {
+        const p = parts[i];
+        // if it looks like "and" or "&", skip (not present in your list though)
+        if (/^\s*(and|&)\s*$/i.test(p)) continue;
+        names.push(p);
+      }
+      // Convert "H. T. Nguyen" -> "Nguyen, H. T."
+      const conv = n => {
+        const toks = n.trim().split(/\s+/);
+        const last = toks[toks.length-1];
+        const firsts = toks.slice(0,-1).join(' ');
+        return `${last}, ${firsts}`.replace(/\s+,/g,',').trim();
+      };
+      return names.map(conv).join(' and ');
+    }
+    const authors = pre ? toBibAuthors(pre) : 'Nguyen, N. T.';
+
+    // venue + year + note
+    const em = li.querySelector('em');
+    const venue = normText(em);
+    // Try to locate the year after the <em>
+    let year = (li.innerHTML.match(/,\s*(\d{4})/)||[])[1] || '';
+    const statusMatch = li.innerHTML.match(/\((\*\*[^)]+?\*\*|accepted|submitted|major revision|in press|manuscript in preparation)\)/i);
+    const noteRaw = statusMatch ? statusMatch[1] : '';
+    const note = noteRaw.replace(/\*\*/g,'').trim();
+
+    const type = guessType(venue);
+    const key  = keyFrom(authors, venue, year, title);
+
+    if (type === 'article') {
+      return {
+        key,
+        text:
+`@article{${key},
+  author   = {${authors}},
+  title    = {${title}},
+  journal  = {${venue}},
+  year     = {${year}}${note ? `,\n  note     = {${note}}` : ''}${url ? `,\n  url      = {${url}}` : ''}
+}`
+      };
+    } else {
+      return {
+        key,
+        text:
+`@inproceedings{${key},
+  author    = {${authors}},
+  title     = {${title}},
+  booktitle = {${venue}},
+  year      = {${year}}${note ? `,\n  note      = {${note}}` : ''}${url ? `,\n  url       = {${url}}` : ''}
+}`
+      };
+    }
+  }
+
+  function hasDetails(li){
+    return !!li.querySelector('details');
+  }
+
+  // ----------- main pass -----------
+  const allLis = Array.from(document.querySelectorAll('ol > li'));
+  let counter = 1;
+
+  allLis.forEach(li => {
+    if (hasDetails(li)) return; // don't duplicate if you've manually added one
+
+    const a = li.querySelector('a[href]');
+    // Only add if we can at least find a title link or some text
+    const info = bibtexFor(li, counter);
+    const id = `bibtex-${counter++}`;
+
+    // Build details HTML (your exact styles)
+    const bibVisible = htmlEscape(info.text);
+    const bibRaw = info.text.replace(/\n/g,'&#13;');
+
+    const details = document.createElement('details');
+    details.style.display = 'block';
+    details.style.marginTop = '6px';
+
+    details.innerHTML = `
+      <summary style="display:flex; justify-content:flex-end; align-items:center; list-style:none; cursor:pointer; padding:0;">
+        <span
+          style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center;
+                 background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px;
+                 font-weight:600; font-size:12px; line-height:1;">
+          BibTex
+        </span>
+      </summary>
+
+      <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+        <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="${id}">${bibVisible}</code></pre>
+        <textarea id="${id}-src" readonly style="position:absolute; left:-9999px; top:-9999px;">${bibRaw}</textarea>
+        <button
+          style="position:absolute; top:6px; right:6px;
+                 border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px;
+                 padding:2px 8px; font-size:12px; cursor:pointer;"
+          onclick="
+            (function(btn){
+              var ta = document.getElementById('${id}-src');
+              ta.select(); ta.setSelectionRange(0, 999999);
+              var ok = false;
+              try { ok = document.execCommand('copy'); } catch(e) {}
+              if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(ta.value.replace(/&#13;/g,'\\n')).then(function(){ ok = true; }).catch(function(){});
+              }
+              var old = btn.textContent;
+              btn.textContent = ok ? 'Copied!' : 'Copy';
+              setTimeout(function(){ btn.textContent = old; }, 1200);
+            })(this);
+            return false;
+          ">
+          Copy
+        </button>
+      </div>
+    `;
+
+    // Insert after the venue/year line (i.e., at the end of the <li>)
+    li.appendChild(details);
+  });
+})();
+</script>
