@@ -33,36 +33,30 @@ title: "Publications"
   doi = {10.1109/TNET.2024.3365815},
 }</code></pre>
 
-      <!-- Hidden textarea used only for copying -->
-      <textarea id="bibtex-1-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{ToN2024,
-  author = {Nguyen, H. C. and Saputra, Y. and Hoang, D. T. and Nguyen, D. N.},
-  journal = {IEEE/ACM Transactions on Networking},
-  title = {Encrypted data caching and learning framework for robust federated learning-based mobile edge computing},
-  year = {2024},
-  month = {},
-  volume = {22},
-  number = {},
-  pages = {},
-  doi = {10.1109/TNET.2024.3365815},
+      <!-- Hidden textarea used only for copying (CRLF via &#13; so pasted text is multi-line) -->
+      <textarea id="bibtex-1-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{ToN2024,&#13;
+  author = {Nguyen, H. C. and Saputra, Y. and Hoang, D. T. and Nguyen, D. N.},&#13;
+  journal = {IEEE/ACM Transactions on Networking},&#13;
+  title = {Encrypted data caching and learning framework for robust federated learning-based mobile edge computing},&#13;
+  year = {2024},&#13;
+  month = {},&#13;
+  volume = {22},&#13;
+  number = {},&#13;
+  pages = {},&#13;
+  doi = {10.1109/TNET.2024.3365815},&#13;
 }</textarea>
 
-      <!-- Copy button with inline handler (only minimal change inside onclick) -->
+      <!-- Copy button with inline handler (unchanged) -->
       <button
         style="position:absolute; top:8px; right:8px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:4px 8px; cursor:pointer;"
         onclick="
           (function(btn){
             var ta = document.getElementById('bibtex-1-src');
-            var orig = ta.value;
-            var text = orig.replace(/\r?\n/g, '\r\n'); // normalize line breaks
-            var changed = (text !== orig);
-            if (changed) ta.value = text;            // temporarily set normalized text
-            ta.select(); ta.setSelectionRange(0, text.length);
+            ta.select(); ta.setSelectionRange(0, 999999);
             var ok = false;
             try { ok = document.execCommand('copy'); } catch(e) {}
-            if (changed) ta.value = orig;            // restore original immediately
-
             if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
-              navigator.clipboard.writeText(text).then(function(){ ok = true; }).catch(function(){});
+              navigator.clipboard.writeText(ta.value).then(function(){ ok = true; }).catch(function(){});
             }
             var old = btn.textContent;
             btn.textContent = ok ? 'Copied!' : 'Select & Ctrl/Cmd+C';
