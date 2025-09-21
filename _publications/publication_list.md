@@ -96,10 +96,36 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
 <ol>
 
 <li>
-H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,  
-"<a href="https://www.arxiv.org/pdf/2509.10290" target="_blank">Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems</a>,"  
-<span style=""><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
+  H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,  
+  "<a href="https://www.arxiv.org/pdf/2509.10290" target="_blank">Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems</a>,"  
+  <span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
+  <br>
+  <button onclick="toggleBibtex(this)">Show BibTeX</button>
+  <pre class="bibtex" style="display:none; margin-top:5px;">
+@article{nguyen2025energy,
+  title   = {Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
+  author  = {Nguyen, H. T. and Nguyen, V.-D. and Nguyen, N. T. and Luong, N. C. and Bao, V.-N. Q. and Ngo, H. Q. and Niyato, D. and Chatzinotas, S.},
+  journal = {IEEE Journal on Selected Areas in Communications},
+  year    = {2025},
+  note    = {(accepted)},
+  url     = {https://arxiv.org/pdf/2509.10290}
+}
+  </pre>
 </li>
+
+<script>
+function toggleBibtex(button) {
+  const pre = button.nextElementSibling;
+  if (pre.style.display === "none") {
+    pre.style.display = "block";
+    button.textContent = "Hide BibTeX";
+  } else {
+    pre.style.display = "none";
+    button.textContent = "Show BibTeX";
+  }
+}
+</script>
+
 
 <li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
