@@ -5,7 +5,7 @@ title: "Publications"
 
 ---
 
-<!-- ===== Publication card with copyable BibTeX ===== -->
+<!-- ===== Publication card with copyable BibTeX (no <script> tag needed) ===== -->
 <h3 style="margin:0;">Encrypted data caching and learning framework for robust federated learning-based mobile edge computing</h3>
 <p style="margin:6px 0 0 0; font-weight:600;">
   H. C. Nguyen, Y. Saputra, D. T. Hoang, D. N. Nguyen, and 3 more authors
@@ -15,19 +15,14 @@ title: "Publications"
 <div style="margin:10px 0; display:flex; gap:8px; flex-wrap:wrap;">
   <a href="#" style="padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; text-decoration:none;">ABS</a>
 
-  <details style="display:inline;" id="bib-wrap-1">
+  <details style="display:inline;">
     <summary style="display:inline-block; padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; cursor:pointer; user-select:none; list-style:none;">
       BIB
     </summary>
 
-    <div class="bib-box" style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:12px;">
-      <!-- Copy button -->
-      <button class="copy-bib" data-target="bibtex-1"
-              style="position:absolute; top:8px; right:8px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:4px 8px; cursor:pointer;">
-        Copy
-      </button>
-
-      <pre style="margin:0; overflow:auto;"><code id="bibtex-1" class="language-bibtex">@article{ToN2024,
+    <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:12px;">
+      <!-- Visible code block for pretty display -->
+      <pre style="margin:0; overflow:auto;"><code id="bibtex-1">@article{ToN2024,
   author = {Nguyen, H. C. and Saputra, Y. and Hoang, D. T. and Nguyen, D. N.},
   journal = {IEEE/ACM Transactions on Networking},
   title = {Encrypted data caching and learning framework for robust federated learning-based mobile edge computing},
@@ -38,40 +33,48 @@ title: "Publications"
   pages = {},
   doi = {10.1109/TNET.2024.3365815},
 }</code></pre>
-      <div class="copy-hint" style="font-size:12px; opacity:0.8; margin-top:6px;">Click “Copy” to copy the BibTeX.</div>
+
+      <!-- Hidden textarea used only for copying -->
+      <textarea id="bibtex-1-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{ToN2024,
+  author = {Nguyen, H. C. and Saputra, Y. and Hoang, D. T. and Nguyen, D. N.},
+  journal = {IEEE/ACM Transactions on Networking},
+  title = {Encrypted data caching and learning framework for robust federated learning-based mobile edge computing},
+  year = {2024},
+  month = {},
+  volume = {22},
+  number = {},
+  pages = {},
+  doi = {10.1109/TNET.2024.3365815},
+}</textarea>
+
+      <!-- Copy button with inline handler (no <script>) -->
+      <button
+        style="position:absolute; top:8px; right:8px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:4px 8px; cursor:pointer;"
+        onclick="
+          (function(btn){
+            var ta = document.getElementById('bibtex-1-src');
+            ta.select(); ta.setSelectionRange(0, 999999);
+            var ok = false;
+            try { ok = document.execCommand('copy'); } catch(e) {}
+            if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
+              navigator.clipboard.writeText(ta.value).then(function(){ ok = true; }).catch(function(){});
+            }
+            var old = btn.textContent;
+            btn.textContent = ok ? 'Copied!' : 'Select & Ctrl/Cmd+C';
+            setTimeout(function(){ btn.textContent = old; }, 1200);
+          })(this);
+          return false;
+        ">
+        Copy
+      </button>
+
+      <div style="font-size:12px; opacity:0.8; margin-top:6px;">If the button says “Select &amp; Ctrl/Cmd+C”, press Ctrl/Cmd+C to copy.</div>
     </div>
   </details>
 
   <a href="#" style="padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; text-decoration:none;">HTML</a>
   <a href="https://doi.org/10.1109/TNET.2024.3365815" style="padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; text-decoration:none;">PDF</a>
 </div>
-
-<!-- Copy-to-clipboard JS (works on GitHub Pages; ignored on repo README) -->
-<script>
-document.addEventListener('click', function (e) {
-  if (!e.target.matches('.copy-bib')) return;
-  const id = e.target.getAttribute('data-target');
-  const code = document.getElementById(id);
-  if (!code) return;
-  const text = code.innerText; // preserves formatting
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(text).then(() => {
-      const old = e.target.textContent;
-      e.target.textContent = 'Copied!';
-      setTimeout(() => (e.target.textContent = old), 1200);
-    });
-  } else {
-    // Fallback for older browsers
-    const ta = document.createElement('textarea');
-    ta.value = text;
-    document.body.appendChild(ta);
-    ta.select();
-    try { document.execCommand('copy'); } catch {}
-    document.body.removeChild(ta);
-  }
-});
-</script>
-
 
 
 # 📝 Submitted and Under Revision  
