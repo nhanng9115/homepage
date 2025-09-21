@@ -95,40 +95,11 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
 
 <ol>
 
-<ul class="pub-list">
-  <li class="pub-item">
-    H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,
-    “<a href="https://www.arxiv.org/pdf/2509.10290" target="_blank" rel="noopener noreferrer">
-      Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems
-    </a>,” <span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
-
-    <details class="cite">
-      <summary class="cite-toggle">Cite</summary>
-
-      <!-- ChatGPT-like code box with a top-right Copy button -->
-      <div class="cgpt-codeblock">
-        <button type="button" class="cgpt-copy" aria-label="Copy BibTeX">
-          <svg class="cgpt-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
-            <path d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 16H8V7h11v14z" fill="currentColor"/>
-          </svg>
-          <span class="cgpt-copy-label">Copy</span>
-        </button>
-
-        <pre class="cgpt-pre"><code class="cgpt-code bibtex">@article{nguyen2025energy,
-  title   = {Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
-  author  = {Nguyen, H. T. and Nguyen, V.-D. and Nguyen, N. T. and Luong, N. C. and Bao, V.-N. Q. and Ngo, H. Q. and Niyato, D. and Chatzinotas, S.},
-  journal = {IEEE Journal on Selected Areas in Communications},
-  year    = {2025},
-  note    = {accepted; arXiv:2509.10290},
-  url     = {https://arxiv.org/abs/2509.10290}
-}</code></pre>
-      </div>
-    </details>
-  </li>
-</ul>
-
-<link rel="stylesheet" href="/assets/css/cite.css">
-<script src="/assets/copy-bib.js" defer></script>
+<li>
+  H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,  
+  "<a href="https://www.arxiv.org/pdf/2509.10290" target="_blank">Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems</a>,"  
+  <span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
+</li>
 
 <li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
