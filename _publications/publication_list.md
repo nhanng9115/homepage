@@ -95,11 +95,125 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
 
 <ol>
 
-<li>
+<style>
+  /* Scoped to .pub so nothing else on the page is touched */
+  .pub .pub-actions { margin-top: .3rem; display: flex; gap: .35rem; }
+
+  .pub .pub-btn {
+    font: 600 12px/1.2 system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    padding: 6px 10px;
+    border: 1px solid rgba(0,0,0,.25);
+    background: rgba(0,0,0,.03);
+    border-radius: 4px; /* square-ish */
+    cursor: pointer;
+  }
+  .pub .pub-btn:hover { background: rgba(0,0,0,.07); }
+  @media (prefers-color-scheme: dark) {
+    .pub .pub-btn { border-color: rgba(255,255,255,.25); background: rgba(255,255,255,.06); }
+    .pub .pub-btn:hover { background: rgba(255,255,255,.1); }
+  }
+
+  .pub .bibtex-panel[hidden] { display: none; }
+  .pub .bibtex-panel {
+    position: relative;
+    margin-top: .5rem;
+    background: rgba(127,127,127,.08);
+    border-left: 3px solid #0b5fff;
+    border-radius: 8px;
+    padding: 12px;
+  }
+  @media (prefers-color-scheme: dark) {
+    .pub .bibtex-panel { background: rgba(255,255,255,.06); border-left-color: #a6c8ff; }
+  }
+
+  .pub pre.bibtex {
+    margin: 0;
+    font: 0.85rem/1.45 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    white-space: pre;
+    overflow-x: auto;
+  }
+
+  /* Copy button appears on hover */
+  .pub .copy-btn {
+    position: absolute;
+    top: 6px; right: 6px;
+    font: 600 12px/1 system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+    padding: 4px 8px;
+    border: 1px solid rgba(55,65,81,.30);
+    background: rgba(55,65,81,.08);
+    border-radius: 4px; /* square */
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 120ms ease, transform 60ms ease, background 120ms ease, border-color 120ms ease;
+  }
+  .pub .bibtex-panel:hover .copy-btn { opacity: 1; }
+  .pub .copy-btn:hover { background: rgba(11,95,255,.12); border-color: rgba(11,95,255,.35); }
+  @media (prefers-color-scheme: dark) {
+    .pub .copy-btn { border-color: rgba(229,231,235,.25); background: rgba(229,231,235,.1); }
+    .pub .copy-btn:hover { background: rgba(166,200,255,.12); border-color: rgba(166,200,255,.35); }
+  }
+</style>
+
+<script>
+  // Toggle the BibTeX panel
+  function toggleBibPanel(btn) {
+    const targetId = btn.getAttribute('data-target');
+    const panel = document.getElementById(targetId);
+    if (!panel) return;
+    const willShow = panel.hasAttribute('hidden');
+    panel.toggleAttribute('hidden', !willShow);
+    btn.textContent = willShow ? 'Hide' : 'Cite';
+  }
+
+  // Copy BibTeX helper
+  async function copyBib(button) {
+    const pre = button.parentElement.querySelector('pre.bibtex');
+    const text = (pre ? pre.textContent : '').trim();
+    try {
+      await navigator.clipboard.writeText(text);
+      const prev = button.textContent;
+      button.textContent = 'Copied!';
+      button.disabled = true;
+      setTimeout(() => { button.textContent = prev; button.disabled = false; }, 1200);
+    } catch {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); } catch {}
+      document.body.removeChild(ta);
+      const prev = button.textContent;
+      button.textContent = 'Copied!';
+      setTimeout(() => { button.textContent = prev; }, 1200);
+    }
+  }
+</script>
+
+<li class="pub">
   H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,  
   "<a href="https://www.arxiv.org/pdf/2509.10290" target="_blank">Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems</a>,"  
   <span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
+
+  <div class="pub-actions">
+    <button class="pub-btn" data-target="bib-ee-isac" onclick="toggleBibPanel(this)">Cite</button>
+  </div>
+
+  <div id="bib-ee-isac" class="bibtex-panel" hidden>
+    <button class="copy-btn" type="button" onclick="copyBib(this)">Copy</button>
+    <pre class="bibtex">@article{nguyen2025energy,
+  title   = {Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
+  author  = {Nguyen, H. T. and Nguyen, V.-D. and Nguyen, N. T. and Luong, N. C. and Bao, V.-N. Q. and Ngo, H. Q. and Niyato, D. and Chatzinotas, S.},
+  journal = {IEEE Journal on Selected Areas in Communications},
+  year    = {2025},
+  note    = {(accepted)}
+}</pre>
+  </div>
 </li>
+
 
 <li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
