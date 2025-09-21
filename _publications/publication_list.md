@@ -9,6 +9,173 @@ title: "Publications"
 
 <ol>
 
+<!-- ======= Example paper block ======= -->
+<div class="paper">
+  <div class="paper-meta">
+    <div class="paper-title">Encrypted data caching and learning framework for robust federated learning-based mobile edge computing</div>
+    <div class="paper-authors">H. C. Nguyen, Y. Saputra, D. T. Hoang, D. N. Nguyen, and others</div>
+    <div class="paper-venue"><em>IEEE/ACM Transactions on Networking</em>, 2024</div>
+  </div>
+
+  <!-- Button row (only BIB is functional here) -->
+  <div class="btn-row">
+    <a class="btn" href="#" aria-disabled="true">ABS</a>
+    <details class="bib">
+      <summary class="btn">BIB</summary>
+
+      <!-- BibTeX card -->
+      <div class="bib-card">
+        <button type="button" class="bib-copy-btn" aria-label="Copy BibTeX">
+          <svg class="icon icon-copy" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+            <path d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 16H8V7h11v14z" fill="currentColor"/>
+          </svg>
+          <svg class="icon icon-check" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" hidden>
+            <path d="M9 16.2l-3.5-3.6-1.5 1.4L9 19 20 8l-1.5-1.5L9 16.2z" fill="currentColor"/>
+          </svg>
+          <span class="label">Copy</span>
+        </button>
+
+        <pre class="bib-pre"><code class="bibtex">@article{ToN2024,
+  author  = {Nguyen, H. C. and Saputra, Y. and Hoang, D. T. and Nguyen, D. N. and others},
+  journal = {IEEE/ACM Transactions on Networking},
+  title   = {Encrypted data caching and learning framework for robust federated learning-based mobile edge computing},
+  year    = {2024},
+  month   = {},
+  volume  = {},
+  number  = {},
+  pages   = {},
+  doi     = {10.1109/TNET.2024.3365815}
+}</code></pre>
+      </div>
+    </details>
+
+    <a class="btn" href="#" aria-disabled="true">HTML</a>
+    <a class="btn" href="#" aria-disabled="true">PDF</a>
+  </div>
+</div>
+
+<!-- ======= Styles ======= -->
+<style>
+  .paper { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+  .paper-title { font-weight: 600; }
+  .paper-authors, .paper-venue { color: #555; margin-top: 2px; }
+
+  .btn-row { margin-top: 8px; display: flex; gap: 8px; }
+  .btn {
+    display: inline-block; padding: 6px 10px; font-size: 13px; line-height: 1;
+    border: 1px solid #1f2937; border-radius: 6px; background: #fff; cursor: pointer;
+    text-decoration: none; color: #111; user-select: none;
+  }
+  .btn[aria-disabled="true"] { opacity: .5; pointer-events: none; }
+
+  /* Use <details> to avoid JS for toggling */
+  .bib > summary { list-style: none; }
+  .bib > summary::-webkit-details-marker { display: none; }
+  .bib[open] > summary.btn { background: #eef2ff; border-color: #93c5fd; }
+
+  /* BibTeX card (pink tint like the screenshot) */
+  .bib-card {
+    position: relative; margin-top: 10px;
+    border: 1px solid #fde2e2; background: #fff5f7;
+    border-radius: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.05);
+  }
+  .bib-pre {
+    margin: 0; padding: 14px; overflow: auto; max-height: 28rem;
+    font-size: 0.92rem; line-height: 1.45; background: transparent;
+  }
+  .bibtex { white-space: pre; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+
+  /* Copy button (top-right) */
+  .bib-copy-btn {
+    position: absolute; top: 8px; right: 8px;
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 6px 10px; font-size: 12px; line-height: 1;
+    border: 1px solid #d1d5db; border-radius: 8px; background: #f3f4f6;
+    cursor: pointer;
+  }
+  .bib-copy-btn:focus { outline: 2px solid #2563eb; outline-offset: 2px; }
+  .icon { vertical-align: middle; }
+</style>
+
+<!-- ======= Copy logic (move to /assets/bib.js if CSP blocks inline scripts) ======= -->
+<script>
+(function () {
+  function setState(btn, copied) {
+    const label = btn.querySelector('.label');
+    const iconCopy = btn.querySelector('.icon-copy');
+    const iconCheck = btn.querySelector('.icon-check');
+    if (copied) {
+      if (label) label.textContent = 'Copied';
+      if (iconCopy) iconCopy.hidden = true;
+      if (iconCheck) iconCheck.hidden = false;
+      btn.disabled = true;
+      setTimeout(() => {
+        if (label) label.textContent = 'Copy';
+        if (iconCopy) iconCopy.hidden = false;
+        if (iconCheck) iconCheck.hidden = true;
+        btn.disabled = false;
+      }, 1200);
+    }
+  }
+
+  function copyPlain(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text);
+    }
+    return new Promise((resolve, reject) => {
+      const ta = document.createElement('textarea');
+      ta.value = text; ta.setAttribute('readonly','');
+      ta.style.position = 'fixed'; ta.style.top = '-1000px'; ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        const ok = document.execCommand('copy');
+        document.body.removeChild(ta);
+        ok ? resolve() : reject(new Error('execCommand failed'));
+      } catch (e) {
+        document.body.removeChild(ta);
+        reject(e);
+      }
+    });
+  }
+
+  document.addEventListener('click', function (e) {
+    const btn = e.target.closest('.bib-copy-btn');
+    if (!btn) return;
+    const card = btn.closest('.bib-card');
+    const code = card && card.querySelector('code.bibtex');
+    const text = code ? (code.textContent || '') : '';
+    if (!text.trim()) return;
+
+    // Try direct selection copy first (helps in some locked-down contexts)
+    let selectionCopied = false;
+    try {
+      const sel = window.getSelection();
+      const rng = document.createRange();
+      rng.selectNodeContents(code);
+      sel.removeAllRanges();
+      sel.addRange(rng);
+      selectionCopied = document.execCommand && document.execCommand('copy');
+      sel.removeAllRanges();
+    } catch (_) { /* ignore */ }
+
+    if (selectionCopied) { setState(btn, true); return; }
+
+    copyPlain(text)
+      .then(() => setState(btn, true))
+      .catch(() => {
+        // As a last resort, leave the text selected so the user can press Ctrl/Cmd+C
+        const sel = window.getSelection();
+        const rng = document.createRange();
+        rng.selectNodeContents(code);
+        sel.removeAllRanges();
+        sel.addRange(rng);
+        alert('Copy is blocked by your browser/site settings. Press Ctrl/Cmd + C to copy.');
+      });
+  });
+})();
+</script>
+
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
