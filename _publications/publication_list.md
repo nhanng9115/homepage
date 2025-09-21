@@ -28,21 +28,23 @@ title: "Publications"
     }
   }
 
-  /* Paper title links (works for your <li> titles) */
+  /* Paper title links (KEEP underline) */
   ol li > a[href]{
     color:var(--link) !important;
-    text-decoration:none;
-    border-bottom:1px solid transparent;
-    transition:color .15s ease, border-color .15s ease;
+    text-decoration:underline;
+    text-decoration-color:var(--link);
+    text-underline-offset:2px;
+    text-decoration-thickness:1.5px;
+    transition:color .15s ease, text-decoration-color .15s ease;
   }
   ol li > a[href]:hover,
   ol li > a[href]:focus{
     color:var(--link-hover) !important;
-    border-bottom-color:var(--link-hover) !important;
+    text-decoration-color:var(--link-hover);
     outline:none;
   }
 
-  /* “BibTex” button: targets your inline-styled span inside <summary> */
+  /* “BibTex” button: targets the inline-styled span inside <summary> */
   details > summary > span[style*="min-width:84px"]{
     background:var(--bib-bg) !important;
     border-color:var(--bib-border) !important;
@@ -58,8 +60,6 @@ title: "Publications"
     outline:none;
   }
 </style>
-
-
 
 
 # 📝 Submitted and Under Revision  
