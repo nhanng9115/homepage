@@ -12,16 +12,20 @@ title: "Publications"
     "<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
     <span><em>IEEE ICASSP</em></span>, 2025. (<strong>submitted</strong>)
 
-    <!-- ==== BIB (only) for item 1 ==== -->
+    <!-- ==== BIB (only) for this item ==== -->
     <div style="margin-top:8px;">
       <details style="display:inline;">
-        <summary style="display:inline-block; padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; cursor:pointer; user-select:none; list-style:none;">
-          BIB
+        <summary
+          style="
+            display:inline-block; padding:4px 14px; min-width:100px; text-align:center;
+            background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px;
+            cursor:pointer; user-select:none; list-style:none; font-weight:600; font-size:13px;">
+          BibTex
         </summary>
 
-        <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:12px;">
-          <!-- Visible BibTeX -->
-          <pre style="margin:0; overflow:auto;"><code id="bibtex-1">@inproceedings{MaNguyenICASSP2025,
+        <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px;">
+          <!-- Visible BibTeX (smaller font) -->
+          <pre style="margin:0; overflow:auto; font-size:12.5px; line-height:1.25;"><code id="bibtex-1">@inproceedings{MaNguyenICASSP2025,
   author = {Ma, M. and Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},
   title = {Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},
   booktitle = {Proc. IEEE ICASSP},
@@ -40,9 +44,13 @@ title: "Publications"
   url = {https://arxiv.org/pdf/2509.11725}&#13;
 }</textarea>
 
-          <!-- Copy button (same working logic) -->
+          <!-- Small Copy button with icon (same working logic) -->
           <button
-            style="position:absolute; top:8px; right:8px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:4px 8px; cursor:pointer;"
+            style="
+              position:absolute; top:6px; right:6px;
+              display:inline-flex; align-items:center; gap:4px;
+              border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px;
+              padding:2px 6px; font-size:12px; cursor:pointer;"
             onclick="
               (function(btn){
                 var ta = document.getElementById('bibtex-1-src');
@@ -53,22 +61,27 @@ title: "Publications"
                   navigator.clipboard.writeText(ta.value).then(function(){ ok = true; }).catch(function(){});
                 }
                 var old = btn.textContent;
-                btn.textContent = ok ? 'Copied!' : 'Select & Ctrl/Cmd+C';
-                setTimeout(function(){ btn.textContent = old; }, 1200);
+                btn.innerHTML = '<svg width=14 height=14 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round><rect x=9 y=9 width=13 height=13 rx=2 ry=2></rect><path d=\'M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1\'></path></svg> ' + (ok ? 'Copied!' : 'Copy');
+                setTimeout(function(){ btn.innerHTML = '<svg width=14 height=14 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round><rect x=9 y=9 width=13 height=13 rx=2 ry=2></rect><path d=\'M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1\'></path></svg> Copy'; }, 1200);
               })(this);
               return false;
             ">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:block;">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
             Copy
           </button>
 
-          <div style="font-size:12px; opacity:0.8; margin-top:6px;">If the button says “Select &amp; Ctrl/Cmd+C”, press Ctrl/Cmd+C to copy.</div>
+          <div style="font-size:11.5px; opacity:0.8; margin-top:6px;">If the button says “Copy” but doesn’t change, press Ctrl/Cmd+C.</div>
         </div>
       </details>
     </div>
-    <!-- ==== /BIB for item 1 ==== -->
+    <!-- ==== /BIB ==== -->
   </li>
 
 </ol>
+
 
 
 # 📝 Submitted and Under Revision  
