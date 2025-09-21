@@ -98,9 +98,9 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
     --accent-weak: rgba(11,95,255,0.12);
     --accent-border: rgba(11,95,255,0.35);
 
-    --copy-fg: #6b7280;           /* neutral gray for copy button */
-    --copy-bg: rgba(107,114,128,0.08);
-    --copy-border: rgba(107,114,128,0.35);
+    --copy-fg: #374151;           /* gray-700 */
+    --copy-bg: rgba(55,65,81,0.08);
+    --copy-border: rgba(55,65,81,0.30);
 
     --code-bg: rgba(127,127,127,0.08);
   }
@@ -110,29 +110,31 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
       --accent-weak: rgba(166,200,255,0.12);
       --accent-border: rgba(166,200,255,0.35);
 
-      --copy-fg: #cbd5e1;
-      --copy-bg: rgba(203,213,225,0.10);
-      --copy-border: rgba(203,213,225,0.35);
+      --copy-fg: #e5e7eb;         /* gray-200 */
+      --copy-bg: rgba(229,231,235,0.10);
+      --copy-border: rgba(229,231,235,0.25);
 
       --code-bg: rgba(255,255,255,0.06);
     }
   }
 
+  /* Hide by default so it only shows after clicking "Cite" */
+  pre.bibtex { display: none; }
+
   /* Make BibTeX smaller and code-like */
   pre.bibtex {
-    /* your inline display:none stays respected by JS toggle */
     font: 0.85rem/1.45 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     background: var(--code-bg);
     border-left: 3px solid var(--accent);
-    border-radius: 8px;
+    border-radius: 6px;
     padding: 14px 12px;
-    margin-top: 6px !important; /* play nice with any inline margins */
-    position: relative;          /* needed to anchor the copy button */
+    margin-top: 6px !important;
+    position: relative;          /* for the absolute copy button */
     white-space: pre;
     overflow-x: auto;
   }
 
-  /* “Copy” button that sits inside the BibTeX box */
+  /* Square “Copy” button like ChatGPT’s */
   .bibtex-copy-btn {
     position: absolute;
     top: 6px;
@@ -141,29 +143,39 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
     color: var(--copy-fg);
     background: var(--copy-bg);
     border: 1px solid var(--copy-border);
-    border-radius: 8px;
+    border-radius: 4px; /* square look */
     padding: 4px 8px;
     cursor: pointer;
-    opacity: 0.9;
-    transition: opacity 120ms ease, transform 60ms ease, border-color 120ms ease;
+    opacity: 0.95;
+    transition: opacity 120ms ease, transform 60ms ease, border-color 120ms ease, background 120ms ease;
   }
-  .bibtex-copy-btn:hover { opacity: 1; }
+  .bibtex-copy-btn:hover { opacity: 1; background: var(--accent-weak); border-color: var(--accent-border); }
   .bibtex-copy-btn:active { transform: translateY(1px); }
 </style>
 
 <script>
-  // Auto-add a “Copy” button to every <pre class="bibtex"> without editing the list items.
+  // Ensure "Cite" toggling works even if no inline style="display:none" is present
+  window.toggleBibtex = window.toggleBibtex || function(btn) {
+    // Try the next sibling (your markup) or find the nearest pre.bibtex
+    let target = btn.nextElementSibling;
+    if (!target) return;
+    if (target.tagName.toLowerCase() !== 'pre' || !target.classList.contains('bibtex')) {
+      target = target.querySelector('pre.bibtex') || target;
+    }
+    const isHidden = getComputedStyle(target).display === 'none';
+    target.style.display = isHidden ? 'block' : 'none';
+    btn.textContent = isHidden ? 'Hide' : 'Cite';
+  };
+
+  // Auto-add a “Copy” button to every <pre class="bibtex">
   (function () {
     function addCopyButtons() {
       document.querySelectorAll('pre.bibtex').forEach(pre => {
-        // Avoid duplicates if this runs more than once
         if (pre.querySelector('.bibtex-copy-btn')) return;
-
         const btn = document.createElement('button');
         btn.type = 'button';
         btn.className = 'bibtex-copy-btn';
         btn.textContent = 'Copy';
-
         btn.addEventListener('click', async () => {
           const text = pre.textContent.trim();
           try {
@@ -173,7 +185,6 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
             btn.disabled = true;
             setTimeout(() => { btn.textContent = prev; btn.disabled = false; }, 1200);
           } catch {
-            // Fallback for older browsers
             const ta = document.createElement('textarea');
             ta.value = text;
             ta.style.position = 'fixed';
@@ -187,12 +198,9 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
             setTimeout(() => { btn.textContent = prev; }, 1200);
           }
         });
-
-        // Insert the button at the start of the pre (positioned absolute)
         pre.insertBefore(btn, pre.firstChild);
       });
     }
-
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', addCopyButtons);
     } else {
