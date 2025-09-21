@@ -95,68 +95,76 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
 
 <ol>
 
-<script>
-(function () {
-  function getBib(block) {
-    const code = block.querySelector('.bibtex');
-    return code ? (code.innerText || code.textContent || '').trim() : '';
-  }
-  function makeDataUrl(text) {
-    return 'data:text/plain;charset=utf-8,' + encodeURIComponent(text);
-  }
-  function toast(btn, msg) {
-    const orig = btn.textContent;
-    btn.textContent = msg;
-    setTimeout(() => { btn.textContent = orig; }, 1200);
-  }
-  function initDownloads() {
-    document.querySelectorAll('.cite-block').forEach(block => {
-      const link = block.querySelector('.download-bib-link');
-      if (!link) return;
-      const bib = getBib(block);
-      if (!bib) return;
-      if (!link.getAttribute('download')) {
-        const id = block.getAttribute('data-bib-id') || 'citation';
-        link.setAttribute('download', id + '.bib');
-      }
-      link.setAttribute('href', makeDataUrl(bib));
-    });
-  }
-  function onClick(e) {
-    const btn = e.target.closest('.copy-bib-btn');
-    if (!btn) return;
-    const block = btn.closest('.cite-block');
-    const bib = block ? getBib(block) : '';
-    if (!bib) return;
-    const fallbackCopy = () => {
-      const ta = document.createElement('textarea');
-      ta.value = bib;
-      ta.style.position = 'fixed';
-      ta.style.top = '-1000px';
-      ta.setAttribute('readonly', '');
-      document.body.appendChild(ta);
-      ta.select();
-      try { document.execCommand('copy'); } catch {}
-      document.body.removeChild(ta);
-    };
-    if (navigator.clipboard && window.isSecureContext) {
-      navigator.clipboard.writeText(bib)
-        .then(() => toast(btn, 'Copied!'))
-        .catch(() => { fallbackCopy(); toast(btn, 'Copied!'); });
-    } else {
-      fallbackCopy();
-      toast(btn, 'Copied!');
-    }
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initDownloads);
-  } else {
-    initDownloads();
-  }
-  document.addEventListener('click', onClick);
-})();
-</script>
+<ul class="pub-list">
+  <li class="pub-item">
+    H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,
+    “<a href="https://www.arxiv.org/pdf/2509.10290" target="_blank" rel="noopener noreferrer">
+      Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems
+    </a>,” <span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
 
+    <!-- Cite block (no-JS toggle) -->
+    <details class="cite-block" data-bib-id="nguyen2025energy">
+      <summary class="cite-btn">Cite</summary>
+      <div class="cite-popover" role="dialog" aria-label="BibTeX">
+        <div class="cite-popover-header">
+          <span>BibTeX</span>
+          <div class="cite-actions">
+            <button type="button" class="copy-bib-btn" aria-label="Copy BibTeX">Copy</button>
+            <!-- JS will fill this with a data: URL so users can download if copy is blocked -->
+            <a class="download-bib-link" href="#" download="nguyen2025energy.bib">Download .bib</a>
+          </div>
+        </div>
+        <pre class="cite-pre"><code class="bibtex">@article{nguyen2025energy,
+  title   = {Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
+  author  = {Nguyen, H. T. and Nguyen, V.-D. and Nguyen, N. T. and Luong, N. C. and Bao, V.-N. Q. and Ngo, H. Q. and Niyato, D. and Chatzinotas, S.},
+  journal = {IEEE Journal on Selected Areas in Communications},
+  year    = {2025},
+  note    = {accepted; arXiv:2509.10290},
+  url     = {https://arxiv.org/abs/2509.10290}
+}</code></pre>
+      </div>
+    </details>
+  </li>
+</ul>
+
+<style>
+  .pub-list { list-style: disc; padding-left: 1.25rem; }
+  .pub-item { position: relative; margin: 0.5rem 0 1.25rem; }
+
+  .cite-btn {
+    display: inline-block; margin-left: 0.5rem; padding: 0.25rem 0.6rem;
+    font-size: 0.875rem; border: 1px solid #ccc; border-radius: 0.5rem;
+    background: #f7f7f7; cursor: pointer; user-select: none;
+  }
+  .cite-btn::-webkit-details-marker { display: none; }
+  .cite-btn::marker { content: ""; }
+  .cite-block[open] .cite-btn { background: #eef4ff; border-color: #bcd3ff; }
+
+  .cite-popover {
+    margin-top: 0.5rem; border: 1px solid #e2e2e2; border-radius: 0.75rem;
+    background: #fff; box-shadow: 0 4px 18px rgba(0,0,0,0.08); overflow: hidden;
+  }
+  .cite-popover-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.5rem 0.75rem; border-bottom: 1px solid #eee; font-weight: 600;
+  }
+  .cite-actions { display: inline-flex; gap: 0.5rem; align-items: center; }
+
+  .copy-bib-btn, .download-bib-link {
+    font-size: 0.75rem; padding: 0.25rem 0.5rem; border: 1px solid #ccc;
+    border-radius: 0.5rem; background: #fafafa; cursor: pointer; text-decoration: none;
+  }
+  .copy-bib-btn:focus, .download-bib-link:focus { outline: 2px solid #1a73e8; outline-offset: 2px; }
+
+  .cite-pre {
+    margin: 0; padding: 0.75rem; max-height: 24rem; overflow: auto;
+    background: #fbfbfb; font-size: 0.9rem; line-height: 1.4;
+  }
+  .bibtex { white-space: pre; }
+</style>
+
+<!-- IMPORTANT: use an external JS file; inline scripts are often blocked by CSP -->
+<script src="/assets/js/cite.js" defer></script>
 
 <li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
