@@ -9,26 +9,25 @@ title: "Publications"
 
   <li>
     M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
-    "<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
+    "<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"
+    <br><em>IEEE ICASSP</em>, 2025. (<strong>submitted</strong>)
 
-    <!-- LAST LINE + right-aligned BibTex button on the same line -->
-    <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:2px;">
-      <span><em>IEEE ICASSP</em>, 2025. (<strong>submitted</strong>)</span>
-
-      <details style="display:inline-block; margin-left:auto;">
-        <!-- Smaller, short-height button -->
-        <summary
-          style="
-            display:inline-block; padding:2px 10px; min-width:84px; text-align:center;
-            background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px;
-            cursor:pointer; user-select:none; list-style:none; font-weight:600; font-size:12px; line-height:1;">
+    <!-- ===== BibTex button on a separate line (right), panel left-aligned ===== -->
+    <details style="display:block; margin-top:6px;">
+      <!-- Full-width summary; button is right-aligned inside -->
+      <summary style="display:flex; justify-content:flex-end; align-items:center; list-style:none; cursor:pointer; padding:0;">
+        <span
+          style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center;
+                 background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px;
+                 font-weight:600; font-size:12px; line-height:1;">
           BibTex
-        </summary>
+        </span>
+      </summary>
 
-        <!-- Pink panel drops below when opened -->
-        <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px;">
-          <!-- Visible BibTeX (smaller font) -->
-          <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-1">@inproceedings{MaNguyenICASSP2025,
+      <!-- Pink panel (left-aligned content) -->
+      <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+        <!-- Visible BibTeX (smaller text) -->
+        <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-1">@inproceedings{MaNguyenICASSP2025,
   author = {Ma, M. and Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},
   title = {Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},
   booktitle = {Proc. IEEE ICASSP},
@@ -37,8 +36,8 @@ title: "Publications"
   url = {https://arxiv.org/pdf/2509.11725}
 }</code></pre>
 
-          <!-- Hidden textarea used only for copying (CRLF via &#13; so pasted text is multi-line) -->
-          <textarea id="bibtex-1-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@inproceedings{MaNguyenICASSP2025,&#13;
+        <!-- Hidden textarea used only for copying (CRLF via &#13; so pasted text is multi-line) -->
+        <textarea id="bibtex-1-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@inproceedings{MaNguyenICASSP2025,&#13;
   author = {Ma, M. and Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},&#13;
   title = {Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},&#13;
   booktitle = {Proc. IEEE ICASSP},&#13;
@@ -47,40 +46,34 @@ title: "Publications"
   url = {https://arxiv.org/pdf/2509.11725}&#13;
 }</textarea>
 
-          <!-- Copy button (text only, small) -->
-          <button
-            style="
-              position:absolute; top:6px; right:6px;
-              border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px;
-              padding:2px 8px; font-size:12px; cursor:pointer;"
-            onclick="
-              (function(btn){
-                var ta = document.getElementById('bibtex-1-src');
-                ta.select(); ta.setSelectionRange(0, 999999);
-                var ok = false;
-                try { ok = document.execCommand('copy'); } catch(e) {}
-                if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
-                  navigator.clipboard.writeText(ta.value).then(function(){ ok = true; }).catch(function(){});
-                }
-                var old = btn.textContent;
-                btn.textContent = ok ? 'Copied!' : 'Copy';
-                setTimeout(function(){ btn.textContent = old; }, 1200);
-              })(this);
-              return false;
-            ">
-            Copy
-          </button>
-        </div>
-      </details>
-    </div>
-    <!-- ==== /last line + BibTex ==== -->
+        <!-- Copy button (text only, small) -->
+        <button
+          style="position:absolute; top:6px; right:6px;
+                 border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px;
+                 padding:2px 8px; font-size:12px; cursor:pointer;"
+          onclick="
+            (function(btn){
+              var ta = document.getElementById('bibtex-1-src');
+              ta.select(); ta.setSelectionRange(0, 999999);
+              var ok = false;
+              try { ok = document.execCommand('copy'); } catch(e) {}
+              if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(ta.value).then(function(){ ok = true; }).catch(function(){});
+              }
+              var old = btn.textContent;
+              btn.textContent = ok ? 'Copied!' : 'Copy';
+              setTimeout(function(){ btn.textContent = old; }, 1200);
+            })(this);
+            return false;
+          ">
+          Copy
+        </button>
+      </div>
+    </details>
+    <!-- ===== /BibTex section ===== -->
   </li>
 
 </ol>
-
-
-
-
 
 
 # 📝 Submitted and Under Revision  
