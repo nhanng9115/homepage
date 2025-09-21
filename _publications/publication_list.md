@@ -91,202 +91,521 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
 
 ---
 
-# 📄 Journal Publications  
+<style>
+  /* Theme-aware button styling */
+  :root {
+    --btn-fg: #0b5fff;
+    --btn-bg: rgba(11, 95, 255, 0.08);
+    --btn-border: rgba(11, 95, 255, 0.35);
+    --btn-fg-dark: #a6c8ff;
+    --btn-bg-dark: rgba(166, 200, 255, 0.12);
+    --btn-border-dark: rgba(166, 200, 255, 0.35);
+  }
+  @media (prefers-color-scheme: dark) {
+    .cite-btn {
+      color: var(--btn-fg-dark);
+      background: var(--btn-bg-dark);
+      border-color: var(--btn-border-dark);
+    }
+    .cite-btn:hover {
+      background: rgba(166, 200, 255, 0.2);
+      border-color: rgba(166, 200, 255, 0.6);
+    }
+  }
 
+  .cite-btn {
+    font: 500 0.85rem/1.2 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+    color: var(--btn-fg);
+    background: var(--btn-bg);
+    border: 1px solid var(--btn-border);
+    border-radius: 999px;
+    padding: 0.4rem 0.8rem;
+    margin-top: 0.25rem;
+    cursor: pointer;
+    transition: background 120ms ease, border-color 120ms ease, transform 60ms ease;
+  }
+  .cite-btn:hover { background: rgba(11, 95, 255, 0.15); border-color: rgba(11, 95, 255, 0.6); }
+  .cite-btn:active { transform: translateY(1px); }
+
+  /* BibTeX block */
+  .bibtex {
+    display: none;
+    margin: 6px 0 0 0;
+    padding: 10px 12px;
+    border-left: 3px solid currentColor;
+    background: rgba(127,127,127,0.08);
+    white-space: pre;
+    overflow-x: auto;
+  }
+
+  /* Keep list spacing tidy */
+  ol > li { margin-bottom: 0.75rem; }
+</style>
+
+<script>
+  function toggleBibtex(btn) {
+    const block = btn.nextElementSibling;
+    const isHidden = getComputedStyle(block).display === 'none';
+    block.style.display = isHidden ? 'block' : 'none';
+    btn.textContent = isHidden ? 'Hide' : 'Cite';
+  }
+</script>
+
+<!-- 📄 Journal Publications -->
 <ol>
 
 <li>
   H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,  
-  "<a href="https://www.arxiv.org/pdf/2509.10290" target="_blank">Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems</a>,"  
+  "Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems,"  
   <span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
-  <br>
-  <button onclick="toggleBibtex(this)">Show BibTeX</button>
-  <pre class="bibtex" style="display:none; margin-top:5px;">
-@article{nguyen2025energy,
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2025energy,
   title   = {Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
   author  = {Nguyen, H. T. and Nguyen, V.-D. and Nguyen, N. T. and Luong, N. C. and Bao, V.-N. Q. and Ngo, H. Q. and Niyato, D. and Chatzinotas, S.},
   journal = {IEEE Journal on Selected Areas in Communications},
   year    = {2025},
-  note    = {(accepted)},
-  url     = {https://arxiv.org/pdf/2509.10290}
-}
-  </pre>
-</li>
-
-<script>
-function toggleBibtex(button) {
-  const pre = button.nextElementSibling;
-  if (pre.style.display === "none") {
-    pre.style.display = "block";
-    button.textContent = "Hide BibTeX";
-  } else {
-    pre.style.display = "none";
-    button.textContent = "Show BibTeX";
-  }
-}
-</script>
-
-
-<li>
-A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
-"<a href="https://arxiv.org/pdf/2503.14054" target="_blank">Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach</a>,"  
-<span style=""><em>IEEE Communications Letters</em></span>, 2025. (accepted)
+  note    = {(accepted)}
+}</pre>
 </li>
 
 <li>
-M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11008697" target="_blank">Digital and Hybrid Precoding Designs in Massive MIMO with Low-Resolution ADCs</a>,"  
-<span style=""><em>IEEE Wireless Communications Letters</em></span>, vol. 14, no. 8, pp. 2446–2450, Aug. 2025.
+  A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
+  "Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach,"  
+  <span><em>IEEE Communications Letters</em></span>, 2025. (accepted)
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{zaker2025dynamic,
+  title   = {Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach},
+  author  = {Zaker, A. and Nguyen, N. T. and Alkhateeb, A. and Juntti, M.},
+  journal = {IEEE Communications Letters},
+  year    = {2025},
+  note    = {(accepted)}
+}</pre>
 </li>
 
 <li>
-M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11006401" target="_blank">Joint Beamforming Design and Bit Allocation in Massive MIMO with Resolution-Adaptive ADCs</a>,"  
-<span style=""><em>IEEE Transactions on Wireless Communications</em></span>, 2025. (accepted) 
+  M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Juntti,  
+  "Digital and Hybrid Precoding Designs in Massive MIMO with Low-Resolution ADCs,"  
+  <span><em>IEEE Wireless Communications Letters</em></span>, vol. 14, no. 8, pp. 2446–2450, Aug. 2025.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{ma2025digital,
+  title   = {Digital and Hybrid Precoding Designs in Massive MIMO with Low-Resolution ADCs},
+  author  = {Ma, M. and Nguyen, N. T. and Atzeni, I. and Swindlehurst, A. L. and Juntti, M.},
+  journal = {IEEE Wireless Communications Letters},
+  year    = {2025},
+  volume  = {14},
+  number  = {8},
+  pages   = {2446--2450},
+  month   = {Aug.}
+}</pre>
 </li>
 
 <li>
-<strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">Performance Analysis and Power Allocation for Massive MIMO ISAC</a>,"  
-<span style=""><em>IEEE Transactions on Signal Processing</em></span>, vol. 73, pp. 1691–1707, Mar. 2025. 
+  M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
+  "Joint Beamforming Design and Bit Allocation in Massive MIMO with Resolution-Adaptive ADCs,"  
+  <span><em>IEEE Transactions on Wireless Communications</em></span>, 2025. (accepted)
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{ma2025joint,
+  title   = {Joint Beamforming Design and Bit Allocation in Massive MIMO with Resolution-Adaptive ADCs},
+  author  = {Ma, M. and Nguyen, N. T. and Atzeni, I. and Juntti, M.},
+  journal = {IEEE Transactions on Wireless Communications},
+  year    = {2025},
+  note    = {(accepted)}
+}</pre>
 </li>
 
 <li>
-E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53753/nbnfioulu-202501171238.pdf?sequence=1" target="_blank">Secure mmWave MIMO Networks Employing Hybrid Active-Passive RIS</a>,"  
-<span style=""><em>IEEE Transactions on Communications</em></span>, 2024 (accepted). 
+  <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,  
+  "Performance Analysis and Power Allocation for Massive MIMO ISAC,"  
+  <span><em>IEEE Transactions on Signal Processing</em></span>, vol. 73, pp. 1691–1707, Mar. 2025. 
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2025performance,
+  title   = {Performance Analysis and Power Allocation for Massive MIMO ISAC},
+  author  = {Nguyen, N. T. and Nguyen, V.-D. and Nguyen, H. V. and Ngo, H. Q. and Swindlehurst, A. L. and Juntti, M.},
+  journal = {IEEE Transactions on Signal Processing},
+  year    = {2025},
+  volume  = {73},
+  pages   = {1691--1707},
+  month   = {Mar.}
+}</pre>
 </li>
 
 <li>
-<strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10684532" target="_blank">Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding</a>,"  
-<span style=""><em>IEEE Journal of Selected Topics in Signal Processing</em></span>, vol. 18, no. 5, pp. 901–916, Jul. 2024. 
+  E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+  "Secure mmWave MIMO Networks Employing Hybrid Active-Passive RIS,"  
+  <span><em>IEEE Transactions on Communications</em></span>, 2024. (accepted) 
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{egashira2024secure,
+  title   = {Secure mmWave MIMO Networks Employing Hybrid Active-Passive RIS},
+  author  = {Egashira, E. and Osorio, D. M. and Nguyen, N. T. and Juntti, M.},
+  journal = {IEEE Transactions on Communications},
+  year    = {2024},
+  note    = {(accepted)}
+}</pre>
 </li>
 
 <li>
-M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10697466" target="_blank">Switch-Based Hybrid Beamforming Transceiver Design for Wideband Communications With Beam Squint</a>,"  
-<span style=""><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 74, no. 2, pp. 2840–2855, Sep. 2024. 
+  <strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
+  "Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding,"  
+  <span><em>IEEE Journal of Selected Topics in Signal Processing</em></span>, vol. 18, no. 5, pp. 901–916, Jul. 2024.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2024joint,
+  title   = {Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding},
+  author  = {Nguyen, N. T. and Nguyen, L. V. and Shlezinger, N. and Eldar, Y. C. and Swindlehurst, A. L. and Juntti, M.},
+  journal = {IEEE Journal of Selected Topics in Signal Processing},
+  year    = {2024},
+  volume  = {18},
+  number  = {5},
+  pages   = {901--916},
+  month   = {Jul.}
+}</pre>
 </li>
 
 <li>
-I. Bilbao, E. Iradier, J. Montalban, P. Angueira, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10568545" target="_blank">Deep Unfolding-Powered Analog Beamforming for In-Band Full-Duplex</a>,"  
-<span style=""><em>IEEE Open Journal of the Communications Society</em></span>, vol. 5, pp. 3753–3761, Jun. 2024.
+  M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+  "Switch-Based Hybrid Beamforming Transceiver Design for Wideband Communications With Beam Squint,"  
+  <span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 74, no. 2, pp. 2840–2855, Sep. 2024.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{ma2024switch,
+  title   = {Switch-Based Hybrid Beamforming Transceiver Design for Wideband Communications With Beam Squint},
+  author  = {Ma, M. and Nguyen, N. T. and Juntti, M.},
+  journal = {IEEE Transactions on Vehicular Technology},
+  year    = {2024},
+  volume  = {74},
+  number  = {2},
+  pages   = {2840--2855},
+  month   = {Sep.}
+}</pre>
 </li>
 
 <li>
-N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M. Juntti,  
-"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/51866/nbnfioulu-202409165877.pdf?sequence=1" target="_blank">Artificial Intelligence-Empowered Hybrid Multiple-Input/Multiple-Output Beamforming: Learning to Optimize for High-Throughput Scalable MIMO</a>,"  
-<span style=""><em>IEEE Vehicular Technology Magazine</em></span>, vol. 19, no. 3, pp. 58–67, 2024. 
+  I. Bilbao, E. Iradier, J. Montalban, P. Angueira, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+  "Deep Unfolding-Powered Analog Beamforming for In-Band Full-Duplex,"  
+  <span><em>IEEE Open Journal of the Communications Society</em></span>, vol. 5, pp. 3753–3761, Jun. 2024.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{bilbao2024deep,
+  title   = {Deep Unfolding-Powered Analog Beamforming for In-Band Full-Duplex},
+  author  = {Bilbao, I. and Iradier, E. and Montalban, J. and Angueira, P. and Nguyen, N. T. and Juntti, M.},
+  journal = {IEEE Open Journal of the Communications Society},
+  year    = {2024},
+  volume  = {5},
+  pages   = {3753--3761},
+  month   = {Jun.}
+}</pre>
 </li>
 
 <li>
-<strong>N. T. Nguyen</strong>, V.-D. Nguyen, Q. Wu, A. Tolli, S. Chatzinotas, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10266977" target="_blank">Fairness Enhancement of UAV Systems with Hybrid Active-Passive RIS</a>,"  
-<span style=""><em>IEEE Transactions on Wireless Communications</em></span>, vol. 23, no. 5, pp. 4379–4396, 2023.  
+  N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M. Juntti,  
+  "Artificial Intelligence-Empowered Hybrid Multiple-Input/Multiple-Output Beamforming: Learning to Optimize for High-Throughput Scalable MIMO,"  
+  <span><em>IEEE Vehicular Technology Magazine</em></span>, vol. 19, no. 3, pp. 58–67, 2024.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{shlezinger2024aihybrid,
+  title   = {Artificial Intelligence-Empowered Hybrid Multiple-Input/Multiple-Output Beamforming: Learning to Optimize for High-Throughput Scalable MIMO},
+  author  = {Shlezinger, N. and Ma, M. and Lavi, O. and Nguyen, N. T. and Eldar, Y. C. and Juntti, M.},
+  journal = {IEEE Vehicular Technology Magazine},
+  year    = {2024},
+  volume  = {19},
+  number  = {3},
+  pages   = {58--67}
+}</pre>
 </li>
 
 <li>
-V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, Nguyen C. L., Dinh T. H., D. N. Nguyen, and S. Chatzinotas,  
-"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/48422/nbnfioulu-202403212382.pdf?sequence=1&isAllowed=y" target="_blank">Network-Aided Intelligent Traffic Steering in 6G ORAN: A Multi-Layer Optimization Framework</a>,"  
-<span style=""><em>IEEE Journal on Selected Areas in Communications</em></span>, vol. 42, no. 2, pp. 398–405, Nov. 2023. 
+  <strong>N. T. Nguyen</strong>, V.-D. Nguyen, Q. Wu, A. Tolli, S. Chatzinotas, and M. Juntti,  
+  "Fairness Enhancement of UAV Systems with Hybrid Active-Passive RIS,"  
+  <span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 23, no. 5, pp. 4379–4396, 2023.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2023fairness,
+  title   = {Fairness Enhancement of UAV Systems with Hybrid Active-Passive RIS},
+  author  = {Nguyen, N. T. and Nguyen, V.-D. and Wu, Q. and Tolli, A. and Chatzinotas, S. and Juntti, M.},
+  journal = {IEEE Transactions on Wireless Communications},
+  year    = {2023},
+  volume  = {23},
+  number  = {5},
+  pages   = {4379--4396}
+}</pre>
 </li>
 
 <li>
-<strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/47431/nbnfioulu-202401231426.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems</a>,"  
-<span style=""><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 3788–3804, Oct. 2023.   (Top reading in 2023–2024)
+  V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, Nguyen C. L., Dinh T. H., D. N. Nguyen, and S. Chatzinotas,  
+  "Network-Aided Intelligent Traffic Steering in 6G ORAN: A Multi-Layer Optimization Framework,"  
+  <span><em>IEEE Journal on Selected Areas in Communications</em></span>, vol. 42, no. 2, pp. 398–405, Nov. 2023.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2023network,
+  title   = {Network-Aided Intelligent Traffic Steering in 6G ORAN: A Multi-Layer Optimization Framework},
+  author  = {Nguyen, V.-D. and Vu, T. X. and Nguyen, N. T. and Nguyen, D. C. and Juntti, M. and Nguyen, C. L. and Dinh, T. H. and Nguyen, D. N. and Chatzinotas, S.},
+  journal = {IEEE Journal on Selected Areas in Communications},
+  year    = {2023},
+  volume  = {42},
+  number  = {2},
+  pages   = {398--405},
+  month   = {Nov.}
+}</pre>
 </li>
 
 <li>
-<strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10214237" target="_blank">Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation</a>,"  
-<span style=""><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 2997–3013, Aug. 2023.   (Top downloads SPS 2023–2024)
+  <strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
+  "Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems,"  
+  <span><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 3788–3804, Oct. 2023. (Top reading in 2023–2024)
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2023thz,
+  title   = {Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems},
+  author  = {Nguyen, N. T. and Ma, M. and Lavi, O. and Shlezinger, N. and Eldar, Y. C. and Swindlehurst, A. L. and Juntti, M.},
+  journal = {IEEE Transactions on Signal Processing},
+  year    = {2023},
+  volume  = {71},
+  pages   = {3788--3804},
+  month   = {Oct.}
+}</pre>
 </li>
 
 <li>
-<strong>N. T. Nguyen</strong>, V.-D. Nguyen, V.-H. Nguyen, H. Q. Ngo, S. Chatzinotas, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9940169" target="_blank">Spectral Efficiency Analysis of Hybrid Relay-Reflecting Intelligent Surface-Assisted Cell-Free Massive MIMO Systems</a>,"  
-<span style=""><em>IEEE Transactions on Wireless Communications</em></span>, vol. 22, no. 5, pp. 3397–3416, Nov. 2022. 
+  <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
+  "Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation,"  
+  <span><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 2997–3013, Aug. 2023. (Top downloads SPS 2023–2024)
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2023multiuser,
+  title   = {Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation},
+  author  = {Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},
+  journal = {IEEE Transactions on Signal Processing},
+  year    = {2023},
+  volume  = {71},
+  pages   = {2997--3013},
+  month   = {Aug.}
+}</pre>
 </li>
 
 <li>
-L. V. Nguyen, <strong>N. T. Nguyen</strong>, N. H. Tran, M. Juntti, A. L. Swindlehurst, and D. H. N. Nguyen,  
-"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44744/nbnfi-fe202301265946.pdf?sequence=1&isAllowed=y" target="_blank">Leveraging Deep Neural Networks for Massive MIMO Data Detection</a>,"  
-<span style=""><em>IEEE Wireless Communications</em></span>, vol. 30, no. 1, pp. 174–180, May 2022. 
+  <strong>N. T. Nguyen</strong>, V.-D. Nguyen, V.-H. Nguyen, H. Q. Ngo, S. Chatzinotas, and M. Juntti,  
+  "Spectral Efficiency Analysis of Hybrid Relay-Reflecting Intelligent Surface-Assisted Cell-Free Massive MIMO Systems,"  
+  <span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 22, no. 5, pp. 3397–3416, Nov. 2022.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2022spectral,
+  title   = {Spectral Efficiency Analysis of Hybrid Relay-Reflecting Intelligent Surface-Assisted Cell-Free Massive MIMO Systems},
+  author  = {Nguyen, N. T. and Nguyen, V.-D. and Nguyen, V.-H. and Ngo, H. Q. and Chatzinotas, S. and Juntti, M.},
+  journal = {IEEE Transactions on Wireless Communications},
+  year    = {2022},
+  volume  = {22},
+  number  = {5},
+  pages   = {3397--3416},
+  month   = {Nov.}
+}</pre>
 </li>
 
 <li>
-A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hemadeh, <strong>N. T. Nguyen</strong>, V. Tapio, and M. Juntti,  
-"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/32277/nbnfi-fe2022100661285.pdf?sequence=1" target="_blank">MIMO Evolution Beyond 5G Through Reconfigurable Intelligent Surfaces and Fluid Antenna Systems</a>,"  
-<span style=""><em>Proceedings of the IEEE</em></span>, vol. 110, no. 9, pp. 1244–1265, May 2022. 
+  L. V. Nguyen, <strong>N. T. Nguyen</strong>, N. H. Tran, M. Juntti, A. L. Swindlehurst, and D. H. N. Nguyen,  
+  "Leveraging Deep Neural Networks for Massive MIMO Data Detection,"  
+  <span><em>IEEE Wireless Communications</em></span>, vol. 30, no. 1, pp. 174–180, May 2022.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2022leveraging,
+  title   = {Leveraging Deep Neural Networks for Massive MIMO Data Detection},
+  author  = {Nguyen, L. V. and Nguyen, N. T. and Tran, N. H. and Juntti, M. and Swindlehurst, A. L. and Nguyen, D. H. N.},
+  journal = {IEEE Wireless Communications},
+  year    = {2022},
+  volume  = {30},
+  number  = {1},
+  pages   = {174--180},
+  month   = {May}
+}</pre>
 </li>
 
 <li>
-<strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
-"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/45145/nbnfi-fe2023032332877.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Beamforming and Adaptive RF Chain Activation for Cell-Free Millimeter-Wave Massive MIMO Systems</a>,"  
-<span style=""><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 71, no. 8, pp. 8739–8755, May 2022.  
+  A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hemadeh, <strong>N. T. Nguyen</strong>, V. Tapio, and M. Juntti,  
+  "MIMO Evolution Beyond 5G Through Reconfigurable Intelligent Surfaces and Fluid Antenna Systems,"  
+  <span><em>Proceedings of the IEEE</em></span>, vol. 110, no. 9, pp. 1244–1265, May 2022.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{shojaeifard2022mimo,
+  title   = {MIMO Evolution Beyond 5G Through Reconfigurable Intelligent Surfaces and Fluid Antenna Systems},
+  author  = {Shojaeifard, A. and Wong, K.-K. and Tong, K.-F. and Chu, Z. and Mourad, A. and Haghighat, A. and Hemadeh, I. and Nguyen, N. T. and Tapio, V. and Juntti, M.},
+  journal = {Proceedings of the IEEE},
+  year    = {2022},
+  volume  = {110},
+  number  = {9},
+  pages   = {1244--1265},
+  month   = {May}
+}</pre>
 </li>
 
 <li>
-<strong>N. T. Nguyen</strong>, Q.-D. Vu, K. Lee, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9733238" target="_blank">Hybrid Relay-Reflecting Intelligent Surface-Assisted Wireless Communications</a>,"  
-<span style=""><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 71, no. 6, pp. 6228–6244, Mar. 2022.  
+  <strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
+  "Hybrid Beamforming and Adaptive RF Chain Activation for Cell-Free Millimeter-Wave Massive MIMO Systems,"  
+  <span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 71, no. 8, pp. 8739–8755, May 2022.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2022hybridcf,
+  title   = {Hybrid Beamforming and Adaptive RF Chain Activation for Cell-Free Millimeter-Wave Massive MIMO Systems},
+  author  = {Nguyen, N. T. and Lee, K. and Dai, H.},
+  journal = {IEEE Transactions on Vehicular Technology},
+  year    = {2022},
+  volume  = {71},
+  number  = {8},
+  pages   = {8739--8755},
+  month   = {May}
+}</pre>
 </li>
 
 <li>
-<strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
-"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/30148/nbnfi-fe2021122162809.pdf?sequence=1&isAllowed=y" target="_blank">Application of Deep Learning to Sphere Decoding for Massive MIMO Systems</a>,"  
-<span style=""><em>IEEE Transactions on Wireless Communications</em></span>, vol. 20, no. 10, pp. 6787–6803, May 2021.  
+  <strong>N. T. Nguyen</strong>, Q.-D. Vu, K. Lee, and M. Juntti,  
+  "Hybrid Relay-Reflecting Intelligent Surface-Assisted Wireless Communications,"  
+  <span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 71, no. 6, pp. 6228–6244, Mar. 2022.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2022hybridrris,
+  title   = {Hybrid Relay-Reflecting Intelligent Surface-Assisted Wireless Communications},
+  author  = {Nguyen, N. T. and Vu, Q.-D. and Lee, K. and Juntti, M.},
+  journal = {IEEE Transactions on Vehicular Technology},
+  year    = {2022},
+  volume  = {71},
+  number  = {6},
+  pages   = {6228--6244},
+  month   = {Mar.}
+}</pre>
 </li>
 
 <li>
-Q.-V. Pham, <strong>N. T. Nguyen</strong>, T. T. Huynh, L. B. Le, K. Lee, W.-J. Hwang,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9448043" target="_blank">Intelligent Radio Signal Processing: A Survey</a>,"  
-<span style=""><em>IEEE Access</em></span>, vol. 9, pp. 83818–83850, Jun. 2021. 
+  <strong>N. T. Nguyen</strong> and K. Lee,  
+  "Application of Deep Learning to Sphere Decoding for Massive MIMO Systems,"  
+  <span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 20, no. 10, pp. 6787–6803, May 2021.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2021spheredecode,
+  title   = {Application of Deep Learning to Sphere Decoding for Massive MIMO Systems},
+  author  = {Nguyen, N. T. and Lee, K.},
+  journal = {IEEE Transactions on Wireless Communications},
+  year    = {2021},
+  volume  = {20},
+  number  = {10},
+  pages   = {6787--6803},
+  month   = {May}
+}</pre>
 </li>
 
 <li>
-G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,  
-"<a href="https://ieeexplore.ieee.org/abstract/document/9374093" target="_blank">Dynamic Unequally Sub-Connected Hybrid Beamforming Architecture for Massive MIMO Systems</a>,"  
-<span style=""><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 70, no. 4, pp. 3469–3478, Mar. 2021.
+  Q.-V. Pham, <strong>N. T. Nguyen</strong>, T. T. Huynh, L. B. Le, K. Lee, W.-J. Hwang,  
+  "Intelligent Radio Signal Processing: A Survey,"  
+  <span><em>IEEE Access</em></span>, vol. 9, pp. 83818–83850, Jun. 2021.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{pham2021intelligent,
+  title   = {Intelligent Radio Signal Processing: A Survey},
+  author  = {Pham, Q.-V. and Nguyen, N. T. and Huynh, T. T. and Le, L. B. and Lee, K. and Hwang, W.-J.},
+  journal = {IEEE Access},
+  year    = {2021},
+  volume  = {9},
+  pages   = {83818--83850},
+  month   = {Jun.}
+}</pre>
 </li>
 
 <li>
-<strong>N. T. Nguyen</strong> and K. Lee,  
-"<a href="https://arxiv.org/pdf/1909.01683" target="_blank">Deep Learning-Aided Tabu Search Detection for Large MIMO Systems</a>,"  
-<span style=""><em>IEEE Transactions on Wireless Communications</em></span>, vol. 19, no. 6, pp. 4262–4275, Jun. 2020.  
+  G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,  
+  "Dynamic Unequally Sub-Connected Hybrid Beamforming Architecture for Massive MIMO Systems,"  
+  <span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 70, no. 4, pp. 3469–3478, Mar. 2021.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{gadiel2021dynamic,
+  title   = {Dynamic Unequally Sub-Connected Hybrid Beamforming Architecture for Massive MIMO Systems},
+  author  = {Gadiel, G. M. and Nguyen, N. T. and Lee, K.},
+  journal = {IEEE Transactions on Vehicular Technology},
+  year    = {2021},
+  volume  = {70},
+  number  = {4},
+  pages   = {3469--3478},
+  month   = {Mar.}
+}</pre>
 </li>
 
 <li>
-<strong>N. T. Nguyen</strong> and K. Lee,  
-"<a href="https://arxiv.org/pdf/1908.10056" target="_blank">Unequally Sub-Connected Architecture for Hybrid Beamforming in Massive MIMO Systems</a>,"  
-<span style=""><em>IEEE Transactions on Wireless Communications</em></span>, vol. 19, no. 2, pp. 1127–1140, Feb. 2020.  
+  <strong>N. T. Nguyen</strong> and K. Lee,  
+  "Deep Learning-Aided Tabu Search Detection for Large MIMO Systems,"  
+  <span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 19, no. 6, pp. 4262–4275, Jun. 2020.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2020tabusearch,
+  title   = {Deep Learning-Aided Tabu Search Detection for Large MIMO Systems},
+  author  = {Nguyen, N. T. and Lee, K.},
+  journal = {IEEE Transactions on Wireless Communications},
+  year    = {2020},
+  volume  = {19},
+  number  = {6},
+  pages   = {4262--4275},
+  month   = {Jun.}
+}</pre>
 </li>
 
 <li>
-<strong>N. T. Nguyen</strong> and K. Lee,  
-"<a href="https://arxiv.org/pdf/1909.13606" target="_blank">Groupwise Neighbor Examination for Tabu Search Detection in Large MIMO Systems</a>,"  
-<span style=""><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 69, no. 1, pp. 1136–1140, Jan. 2020.
+  <strong>N. T. Nguyen</strong> and K. Lee,  
+  "Unequally Sub-Connected Architecture for Hybrid Beamforming in Massive MIMO Systems,"  
+  <span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 19, no. 2, pp. 1127–1140, Feb. 2020.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2020unequal,
+  title   = {Unequally Sub-Connected Architecture for Hybrid Beamforming in Massive MIMO Systems},
+  author  = {Nguyen, N. T. and Lee, K.},
+  journal = {IEEE Transactions on Wireless Communications},
+  year    = {2020},
+  volume  = {19},
+  number  = {2},
+  pages   = {1127--1140},
+  month   = {Feb.}
+}</pre>
 </li>
 
 <li>
-<strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
-"<a href="https://ieeexplore.ieee.org/abstract/document/8668468" target="_blank">QR-Decomposition-Aided Tabu Search Detection for Large MIMO Systems</a>,"  
-<span style=""><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 68, no. 5, pp. 4857–4870, May 2019. 
+  <strong>N. T. Nguyen</strong> and K. Lee,  
+  "Groupwise Neighbor Examination for Tabu Search Detection in Large MIMO Systems,"  
+  <span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 69, no. 1, pp. 1136–1140, Jan. 2020.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2020groupwise,
+  title   = {Groupwise Neighbor Examination for Tabu Search Detection in Large MIMO Systems},
+  author  = {Nguyen, N. T. and Lee, K.},
+  journal = {IEEE Transactions on Vehicular Technology},
+  year    = {2020},
+  volume  = {69},
+  number  = {1},
+  pages   = {1136--1140},
+  month   = {Jan.}
+}</pre>
 </li>
 
 <li>
-<strong>N. T. Nguyen</strong> and K. Lee,  
-"<a href="https://ieeexplore.ieee.org/abstract/document/8453856" target="_blank">Coverage and Cell-Edge Sum-Rate Analysis of MmWave Massive MIMO Systems with ORP Schemes and MMSE Receivers</a>,"  
-<span style=""><em>IEEE Transactions on Signal Processing</em></span>, vol. 66, no. 20, pp. 5349–5363, Oct. 2018. 
+  <strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
+  "QR-Decomposition-Aided Tabu Search Detection for Large MIMO Systems,"  
+  <span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 68, no. 5, pp. 4857–4870, May 2019.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2019qr,
+  title   = {QR-Decomposition-Aided Tabu Search Detection for Large MIMO Systems},
+  author  = {Nguyen, N. T. and Lee, K. and Dai, H.},
+  journal = {IEEE Transactions on Vehicular Technology},
+  year    = {2019},
+  volume  = {68},
+  number  = {5},
+  pages   = {4857--4870},
+  month   = {May}
+}</pre>
 </li>
 
 <li>
-<strong>N. T. Nguyen</strong> and K. Lee,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7895219" target="_blank">Cell Coverage Extension with Orthogonal Random Precoding for Massive MIMO Systems</a>,"  
-<span style=""><em>IEEE Access</em></span>, vol. 5, Apr. 2017. 
+  <strong>N. T. Nguyen</strong> and K. Lee,  
+  "Coverage and Cell-Edge Sum-Rate Analysis of MmWave Massive MIMO Systems with ORP Schemes and MMSE Receivers,"  
+  <span><em>IEEE Transactions on Signal Processing</em></span>, vol. 66, no. 20, pp. 5349–5363, Oct. 2018.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2018coverage,
+  title   = {Coverage and Cell-Edge Sum-Rate Analysis of MmWave Massive MIMO Systems with ORP Schemes and MMSE Receivers},
+  author  = {Nguyen, N. T. and Lee, K.},
+  journal = {IEEE Transactions on Signal Processing},
+  year    = {2018},
+  volume  = {66},
+  number  = {20},
+  pages   = {5349--5363},
+  month   = {Oct.}
+}</pre>
+</li>
+
+<li>
+  <strong>N. T. Nguyen</strong> and K. Lee,  
+  "Cell Coverage Extension with Orthogonal Random Precoding for Massive MIMO Systems,"  
+  <span><em>IEEE Access</em></span>, vol. 5, 2017.
+  <br><button class="cite-btn" onclick="toggleBibtex(this)">Cite</button>
+  <pre class="bibtex">@article{nguyen2017cell,
+  title   = {Cell Coverage Extension with Orthogonal Random Precoding for Massive MIMO Systems},
+  author  = {Nguyen, N. T. and Lee, K.},
+  journal = {IEEE Access},
+  year    = {2017},
+  volume  = {5}
+}</pre>
 </li>
 
 </ol>
