@@ -17,6 +17,21 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
 "<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
 <span style=""><em>IEEE ICASSP</em></span>, 2025. (**submitted**)
 </li>
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-end; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;"> BibTeX </span>
+  </summary>
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code>@inproceedings{MaNguyenICASSP2025,
+  author = {Ma, M. and Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},
+  title = {Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},
+  booktitle = {Proc. IEEE ICASSP},
+  year = {2025},
+  note = {submitted},
+  url = {https://arxiv.org/pdf/2509.11725}
+}</code></pre>
+  </div>
+</details>
 
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
@@ -528,4 +543,3 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
 </li>
 
 </ol>
-<script src="/assets/js/cite.js" defer></script>
