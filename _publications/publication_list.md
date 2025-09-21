@@ -13,16 +13,26 @@ title: "Publications"
 <ol>
 	
 <li>
-M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
-"<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
-<span style=""><em>IEEE ICASSP</em></span>, 2025. (**submitted**)
-</li>
-<details style="display:block; margin-top:6px;">
-  <summary style="display:flex; justify-content:flex-end; align-items:center; list-style:none; cursor:pointer; padding:0;">
-    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;"> BibTeX </span>
-  </summary>
-  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
-    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code>@inproceedings{MaNguyenICASSP2025,
+  M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
+  "<a href="https://arxiv.org/pdf/2509.11725" target="_blank">
+    Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications
+  </a>,"
+  <br><em>IEEE ICASSP</em>, 2025. (<strong>submitted</strong>)
+
+  <!-- ===== BibTeX button on a separate line (left), panel left-aligned ===== -->
+  <details style="display:block; margin-top:6px;">
+    <!-- Full-width summary; button is left-aligned inside -->
+    <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+      <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">
+        BibTeX
+      </span>
+    </summary>
+
+    <!-- Pink panel (left-aligned content) -->
+    <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+      <!-- Visible BibTeX -->
+      <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;">
+<code id="bibtex-1">@inproceedings{MaNguyenICASSP2025,
   author = {Ma, M. and Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},
   title = {Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},
   booktitle = {Proc. IEEE ICASSP},
@@ -30,8 +40,40 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
   note = {submitted},
   url = {https://arxiv.org/pdf/2509.11725}
 }</code></pre>
-  </div>
-</details>
+
+      <!-- Hidden textarea used only for copying -->
+      <textarea id="bibtex-1-src" readonly style="position:absolute; left:-9999px; top:-9999px;">
+@inproceedings{MaNguyenICASSP2025,
+  author = {Ma, M. and Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},
+  title = {Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},
+  booktitle = {Proc. IEEE ICASSP},
+  year = {2025},
+  note = {submitted},
+  url = {https://arxiv.org/pdf/2509.11725}
+}</textarea>
+
+      <!-- Copy button (left side now) -->
+      <button style="position:absolute; top:6px; left:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        onclick="(function(btn){
+          var ta = document.getElementById('bibtex-1-src');
+          ta.select();
+          ta.setSelectionRange(0, 999999);
+          var ok = false;
+          try { ok = document.execCommand('copy'); } catch(e) {}
+          if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(ta.value).then(function(){ ok = true; }).catch(function(){});
+          }
+          var old = btn.textContent;
+          btn.textContent = ok ? 'Copied!' : 'Copy';
+          setTimeout(function(){ btn.textContent = old; }, 1200);
+        })(this); return false;">
+        Copy
+      </button>
+    </div>
+  </details>
+  <!-- ===== /BibTeX section ===== -->
+</li>
+
 
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
@@ -543,4 +585,3 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
 </li>
 
 </ol>
-<script src="/assets/js/cite.js" defer></script>
