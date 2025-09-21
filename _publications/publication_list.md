@@ -6,9 +6,59 @@ title: "Publications"
 ---
 
 <style>
-  ol li > a[href]{ color:#0EA5A2; }
-  ol li > a[href]:hover{ color:#0F766E; text-decoration:underline; }
+  /* --- Strong Purple palette with auto light/dark --- */
+  :root{
+    /* Light mode defaults */
+    --link:#7C3AED;           /* violet-600 */
+    --link-hover:#6D28D9;     /* violet-700 */
+    --bib-bg:#F5F3FF;         /* violet-50 */
+    --bib-bg-hover:#EDE9FE;   /* violet-100 */
+    --bib-border:#A78BFA;     /* violet-400 */
+    --bib-text:#4C1D95;       /* violet-900 */
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      /* Dark mode variants */
+      --link:#C4B5FD;         /* violet-300 */
+      --link-hover:#A78BFA;   /* violet-400 */
+      --bib-bg:#2F1B4A;       /* deep violet */
+      --bib-bg-hover:#3A245A; /* slightly lighter */
+      --bib-border:#8B5CF6;   /* violet-500 */
+      --bib-text:#E9D5FF;     /* violet-200 */
+    }
+  }
+
+  /* Paper title links (works for your <li> titles) */
+  ol li > a[href]{
+    color:var(--link) !important;
+    text-decoration:none;
+    border-bottom:1px solid transparent;
+    transition:color .15s ease, border-color .15s ease;
+  }
+  ol li > a[href]:hover,
+  ol li > a[href]:focus{
+    color:var(--link-hover) !important;
+    border-bottom-color:var(--link-hover) !important;
+    outline:none;
+  }
+
+  /* “BibTex” button: targets your inline-styled span inside <summary> */
+  details > summary > span[style*="min-width:84px"]{
+    background:var(--bib-bg) !important;
+    border-color:var(--bib-border) !important;
+    color:var(--bib-text) !important;
+    transition:background-color .15s ease, color .15s ease, border-color .15s ease;
+  }
+  details[open] > summary > span[style*="min-width:84px"],
+  details > summary > span[style*="min-width:84px"]:hover,
+  details > summary > span[style*="min-width:84px"]:focus{
+    background:var(--bib-bg-hover) !important;
+    border-color:var(--bib-border) !important;
+    color:var(--bib-text) !important;
+    outline:none;
+  }
 </style>
+
 
 
 
