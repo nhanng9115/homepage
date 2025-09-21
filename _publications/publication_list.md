@@ -165,36 +165,244 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
   H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,  
   "<a href="https://www.arxiv.org/pdf/2509.10290" target="_blank">Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems</a>,"  
   <span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
+
+  <!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+  <details style="display:block; margin-top:6px;">
+    <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+      <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+    </summary>
+
+    <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+      <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-2">@article{NguyenJSAC2025,
+  author = {Nguyen, H. T. and Nguyen, V.-D. and Nguyen, N. T. and Luong, N. C. and Bao, V.-N. Q. and Ngo, H. Q. and Niyato, D. and Chatzinotas, S.},
+  title = {Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
+  journal = {IEEE Journal on Selected Areas in Communications},
+  year = {2025},
+  note = {accepted},
+  url = {https://www.arxiv.org/pdf/2509.10290}
+}</code></pre>
+
+      <textarea id="bibtex-2-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenJSAC2025,&#13;
+  author = {Nguyen, H. T. and Nguyen, V.-D. and Nguyen, N. T. and Luong, N. C. and Bao, V.-N. Q. and Ngo, H. Q. and Niyato, D. and Chatzinotas, S.},&#13;
+  title = {Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},&#13;
+  journal = {IEEE Journal on Selected Areas in Communications},&#13;
+  year = {2025},&#13;
+  note = {accepted},&#13;
+  url = {https://www.arxiv.org/pdf/2509.10290}&#13;
+}</textarea>
+
+      <button
+        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        onclick="(function(btn){var ta=document.getElementById('bibtex-2-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+        Copy
+      </button>
+    </div>
+  </details>
 </li>
 
 <li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2503.14054" target="_blank">Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach</a>,"  
-<span style=""><em>IEEE Communications Letters</em></span>, 2025. (accepted)
+<span><em>IEEE Communications Letters</em></span>, 2025. (accepted)
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-3">@article{ZakerCL2025,
+  author = {Zaker, A. and Nguyen, N. T. and Alkhateeb, A. and Juntti, M.},
+  title = {Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach},
+  journal = {IEEE Communications Letters},
+  year = {2025},
+  note = {accepted},
+  url = {https://arxiv.org/pdf/2503.14054}
+}</code></pre>
+
+    <textarea id="bibtex-3-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{ZakerCL2025,&#13;
+  author = {Zaker, A. and Nguyen, N. T. and Alkhateeb, A. and Juntti, M.},&#13;
+  title = {Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach},&#13;
+  journal = {IEEE Communications Letters},&#13;
+  year = {2025},&#13;
+  note = {accepted},&#13;
+  url = {https://arxiv.org/pdf/2503.14054}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-3-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11008697" target="_blank">Digital and Hybrid Precoding Designs in Massive MIMO with Low-Resolution ADCs</a>,"  
-<span style=""><em>IEEE Wireless Communications Letters</em></span>, vol. 14, no. 8, pp. 2446–2450, Aug. 2025.
+<span><em>IEEE Wireless Communications Letters</em></span>, vol. 14, no. 8, pp. 2446–2450, Aug. 2025.
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-4">@article{MaWCL2025,
+  author = {Ma, M. and Nguyen, N. T. and Atzeni, I. and Swindlehurst, A. L. and Juntti, M.},
+  title = {Digital and Hybrid Precoding Designs in Massive MIMO with Low-Resolution ADCs},
+  journal = {IEEE Wireless Communications Letters},
+  year = {2025},
+  month = {aug},
+  volume = {14},
+  number = {8},
+  pages = {2446--2450},
+  url = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11008697}
+}</code></pre>
+
+    <textarea id="bibtex-4-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{MaWCL2025,&#13;
+  author = {Ma, M. and Nguyen, N. T. and Atzeni, I. and Swindlehurst, A. L. and Juntti, M.},&#13;
+  title = {Digital and Hybrid Precoding Designs in Massive MIMO with Low-Resolution ADCs},&#13;
+  journal = {IEEE Wireless Communications Letters},&#13;
+  year = {2025},&#13;
+  month = {aug},&#13;
+  volume = {14},&#13;
+  number = {8},&#13;
+  pages = {2446--2450},&#13;
+  url = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11008697}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-4-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11006401" target="_blank">Joint Beamforming Design and Bit Allocation in Massive MIMO with Resolution-Adaptive ADCs</a>,"  
-<span style=""><em>IEEE Transactions on Wireless Communications</em></span>, 2025. (accepted) 
+<span><em>IEEE Transactions on Wireless Communications</em></span>, 2025. (accepted) 
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-5">@article{MaTWC2025,
+  author = {Ma, M. and Nguyen, N. T. and Atzeni, I. and Juntti, M.},
+  title = {Joint Beamforming Design and Bit Allocation in Massive MIMO with Resolution-Adaptive ADCs},
+  journal = {IEEE Transactions on Wireless Communications},
+  year = {2025},
+  note = {accepted},
+  url = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11006401}
+}</code></pre>
+
+    <textarea id="bibtex-5-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{MaTWC2025,&#13;
+  author = {Ma, M. and Nguyen, N. T. and Atzeni, I. and Juntti, M.},&#13;
+  title = {Joint Beamforming Design and Bit Allocation in Massive MIMO with Resolution-Adaptive ADCs},&#13;
+  journal = {IEEE Transactions on Wireless Communications},&#13;
+  year = {2025},&#13;
+  note = {accepted},&#13;
+  url = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11006401}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-5-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">Performance Analysis and Power Allocation for Massive MIMO ISAC</a>,"  
-<span style=""><em>IEEE Transactions on Signal Processing</em></span>, vol. 73, pp. 1691–1707, Mar. 2025. 
+<span><em>IEEE Transactions on Signal Processing</em></span>, vol. 73, pp. 1691–1707, Mar. 2025. 
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-6">@article{NguyenTSP2025,
+  author = {Nguyen, N. T. and Nguyen, V.-D. and Nguyen, H. V. and Ngo, H. Q. and Swindlehurst, A. L. and Juntti, M.},
+  title = {Performance Analysis and Power Allocation for Massive MIMO ISAC},
+  journal = {IEEE Transactions on Signal Processing},
+  year = {2025},
+  volume = {73},
+  pages = {1691--1707},
+  month = {mar},
+  url = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928}
+}</code></pre>
+
+    <textarea id="bibtex-6-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenTSP2025,&#13;
+  author = {Nguyen, N. T. and Nguyen, V.-D. and Nguyen, H. V. and Ngo, H. Q. and Swindlehurst, A. L. and Juntti, M.},&#13;
+  title = {Performance Analysis and Power Allocation for Massive MIMO ISAC},&#13;
+  journal = {IEEE Transactions on Signal Processing},&#13;
+  year = {2025},&#13;
+  volume = {73},&#13;
+  pages = {1691--1707},&#13;
+  month = {mar},&#13;
+  url = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-6-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53753/nbnfioulu-202501171238.pdf?sequence=1" target="_blank">Secure mmWave MIMO Networks Employing Hybrid Active-Passive RIS</a>,"  
-<span style=""><em>IEEE Transactions on Communications</em></span>, 2024 (accepted). 
+<span><em>IEEE Transactions on Communications</em></span>, 2024 (accepted). 
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-7">@article{EgashiraTCOM2024,
+  author = {Egashira, E. and Osorio, D. M. and Nguyen, N. T. and Juntti, M.},
+  title = {Secure mmWave MIMO Networks Employing Hybrid Active-Passive RIS},
+  journal = {IEEE Transactions on Communications},
+  year = {2024},
+  note = {accepted},
+  url = {https://oulurepo.oulu.fi/bitstream/handle/10024/53753/nbnfioulu-202501171238.pdf?sequence=1}
+}</code></pre>
+
+    <textarea id="bibtex-7-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{EgashiraTCOM2024,&#13;
+  author = {Egashira, E. and Osorio, D. M. and Nguyen, N. T. and Juntti, M.},&#13;
+  title = {Secure mmWave MIMO Networks Employing Hybrid Active-Passive RIS},&#13;
+  journal = {IEEE Transactions on Communications},&#13;
+  year = {2024},&#13;
+  note = {accepted},&#13;
+  url = {https://oulurepo.oulu.fi/bitstream/handle/10024/53753/nbnfioulu-202501171238.pdf?sequence=1}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-7-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
