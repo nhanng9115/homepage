@@ -309,7 +309,7 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, and M. Juntti,
 
 <li>
 S. Tavakolian, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/abstract/document/10979188" target="_blank">Sparse Semantic Encoding for Reduced Data Load in Vision-Position Aided mmWave Beam Prediction</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58411/nbnfioulu-202509185933.pdf?sequence=1&isAllowed=y" target="_blank">Sparse Semantic Encoding for Reduced Data Load in Vision-Position Aided mmWave Beam Prediction</a>,"  
 <span style=""><em>German Microwave Conference</em></span>, 2025.
 </li>
 
@@ -327,7 +327,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 
 <li>
 S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/document/10978368" target="_blank">Sum Rate and Cramér-Rao Lower Bound Analysis for RIS-Assisted Multiuser Large-Antenna ISAC</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58412/nbnfioulu-202509185934.pdf?sequence=1&isAllowed=y" target="_blank">Sum Rate and Cramér-Rao Lower Bound Analysis for RIS-Assisted Multiuser Large-Antenna ISAC</a>,"  
 <span style=""><em>IEEE Wireless Communications and Networking Conference (WCNC)</em></span>, 2025.
 </li>
 
@@ -351,7 +351,7 @@ T. D. Phan, D. Q. Nguyen, N. Takanen, <strong>N. T. Nguyen</strong>, M. Juntti, 
 
 <li>
 <strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://arxiv.org/pdf/2411.17747" target="_blank">Deep Unfolding-Empowered MmWave Massive MIMO Joint Communications and Sensing</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58413/nbnfioulu-202509185938.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding-Empowered MmWave Massive MIMO Joint Communications and Sensing</a>,"  
 <span style=""><em>IEEE Joint Communications and Sensing Symposium (JC&S)</em></span>, 2025.
 </li>
 
@@ -369,13 +369,13 @@ P. Mobaraki, <strong>N. T. Nguyen</strong>, and M. Juntti,
 
 <li>
 S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/abstract/document/10901541" target="_blank">Outage Probability and Capacity Analysis of Active RIS-Assisted UAV RSMA Communications</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58414/nbnfioulu-202509185937.pdf?sequence=1&isAllowed=y" target="_blank">Outage Probability and Capacity Analysis of Active RIS-Assisted UAV RSMA Communications</a>,"  
 <span style=""><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2024.
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, T. Fang, H. Q. Ngo, and M. Juntti,  
-"<a href="https://arxiv.org/pdf/2411.06747" target="_blank">Multi-static Cell-Free Massive MIMO ISAC: Performance Analysis and Optimization</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58410/nbnfioulu-202509185935.pdf?sequence=1&isAllowed=y" target="_blank">Multi-static Cell-Free Massive MIMO ISAC: Performance Analysis and Optimization</a>,"  
 <span style=""><em>Asilomar Conference on Signals, Systems, and Computers (ASILOMAR)</em></span>, 2024.
 </li>
 
