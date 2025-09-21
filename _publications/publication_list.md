@@ -100,19 +100,17 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
     H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,
     “<a href="https://www.arxiv.org/pdf/2509.10290" target="_blank" rel="noopener noreferrer">
       Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems
-    </a>,”
-    <span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
+    </a>,” <span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
 
-    <!-- Cite button -->
-    <button class="cite-btn" aria-expanded="false" aria-controls="cite-1">Cite</button>
-
-    <!-- Popover with BibTeX -->
-    <div class="cite-popover" id="cite-1" role="dialog" aria-label="BibTeX" hidden>
-      <div class="cite-popover-header">
-        <span>BibTeX</span>
-        <button class="copy-bib-btn" aria-label="Copy BibTeX to clipboard" data-copy-for="cite-1">Copy</button>
-      </div>
-      <pre class="cite-pre"><code class="bibtex">@article{nguyen2025energy,
+    <!-- Cite block (no-JS toggle) -->
+    <details class="cite-block">
+      <summary class="cite-btn">Cite</summary>
+      <div class="cite-popover" role="dialog" aria-label="BibTeX">
+        <div class="cite-popover-header">
+          <span>BibTeX</span>
+          <button type="button" class="copy-bib-btn" aria-label="Copy BibTeX">Copy</button>
+        </div>
+        <pre class="cite-pre"><code class="bibtex">@article{nguyen2025energy,
   title   = {Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
   author  = {Nguyen, H. T. and Nguyen, V.-D. and Nguyen, N. T. and Luong, N. C. and Bao, V.-N. Q. and Ngo, H. Q. and Niyato, D. and Chatzinotas, S.},
   journal = {IEEE Journal on Selected Areas in Communications},
@@ -120,42 +118,34 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
   note    = {accepted; arXiv:2509.10290},
   url     = {https://arxiv.org/abs/2509.10290}
 }</code></pre>
-    </div>
-  </li>
-
-  <!-- Example of another paper (duplicate this block and change IDs/bibtex) -->
-  <!--
-  <li class="pub-item">
-    ... your other paper text ...
-    <button class="cite-btn" aria-expanded="false" aria-controls="cite-2">Cite</button>
-    <div class="cite-popover" id="cite-2" role="dialog" aria-label="BibTeX" hidden>
-      <div class="cite-popover-header">
-        <span>BibTeX</span>
-        <button class="copy-bib-btn" aria-label="Copy BibTeX to clipboard" data-copy-for="cite-2">Copy</button>
       </div>
-      <pre class="cite-pre"><code class="bibtex">...BibTeX for this paper...</code></pre>
-    </div>
+    </details>
   </li>
-  -->
 </ul>
 
 <style>
   .pub-list { list-style: disc; padding-left: 1.25rem; }
   .pub-item { position: relative; margin: 0.5rem 0 1.25rem; }
 
+  /* Make <summary> look like a button */
   .cite-btn {
+    display: inline-block;
     margin-left: 0.5rem;
-    padding: 0.25rem 0.5rem;
+    padding: 0.25rem 0.6rem;
     font-size: 0.875rem;
     border: 1px solid #ccc;
     border-radius: 0.5rem;
     background: #f7f7f7;
     cursor: pointer;
+    user-select: none;
   }
-  .cite-btn:focus { outline: 2px solid #1a73e8; outline-offset: 2px; }
+  /* Remove default disclosure triangle (optional) */
+  .cite-btn::-webkit-details-marker { display: none; }
+  .cite-btn::marker { content: ""; }
+
+  .cite-block[open] .cite-btn { background: #eef4ff; border-color: #bcd3ff; }
 
   .cite-popover {
-    position: relative; /* keep it flowing under the item; change to absolute if you want floating */
     margin-top: 0.5rem;
     border: 1px solid #e2e2e2;
     border-radius: 0.75rem;
@@ -164,128 +154,53 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
     overflow: hidden;
   }
   .cite-popover-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.5rem 0.75rem;
-    border-bottom: 1px solid #eee;
-    font-weight: 600;
+    position: relative;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.5rem 0.75rem; border-bottom: 1px solid #eee; font-weight: 600;
   }
   .copy-bib-btn {
-    font-size: 0.75rem;
-    padding: 0.25rem 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 0.5rem;
-    background: #fafafa;
-    cursor: pointer;
+    font-size: 0.75rem; padding: 0.25rem 0.5rem;
+    border: 1px solid #ccc; border-radius: 0.5rem; background: #fafafa; cursor: pointer;
   }
-  .copy-bib-btn:focus { outline: 2px solid #1a73e8; outline-offset: 2px; }
-
   .cite-pre {
-    margin: 0;
-    padding: 0.75rem;
-    max-height: 24rem;
-    overflow: auto;
-    background: #fbfbfb;
-    font-size: 0.9rem;
-    line-height: 1.4;
+    margin: 0; padding: 0.75rem; max-height: 24rem; overflow: auto;
+    background: #fbfbfb; font-size: 0.9rem; line-height: 1.4;
   }
   .bibtex { white-space: pre; }
 </style>
 
 <script>
-  // Toggle popover visibility
+  // Copy BibTeX (works over HTTP/HTTPS; falls back if clipboard API is blocked)
   document.addEventListener('click', function (e) {
-    // Toggle when clicking a "Cite" button
-    if (e.target.classList.contains('cite-btn')) {
-      const btn = e.target;
-      const id = btn.getAttribute('aria-controls');
-      const panel = document.getElementById(id);
-      const isHidden = panel.hasAttribute('hidden');
+    if (!e.target.classList.contains('copy-bib-btn')) return;
+    const root = e.target.closest('.cite-block');
+    const code = root?.querySelector('.bibtex');
+    const text = code ? code.innerText : '';
+    const btn = e.target;
 
-      // Close any other open popovers
-      document.querySelectorAll('.cite-popover:not([hidden])').forEach(p => {
-        if (p.id !== id) {
-          p.setAttribute('hidden', '');
-          const otherBtn = document.querySelector('.cite-btn[aria-controls="' + p.id + '"]');
-          if (otherBtn) otherBtn.setAttribute('aria-expanded', 'false');
-        }
-      });
+    const fallbackCopy = () => {
+      const ta = document.createElement('textarea');
+      ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); } catch (_) {}
+      document.body.removeChild(ta);
+    };
 
-      // Toggle current
-      if (isHidden) {
-        panel.removeAttribute('hidden');
-        btn.setAttribute('aria-expanded', 'true');
-      } else {
-        panel.setAttribute('hidden', '');
-        btn.setAttribute('aria-expanded', 'false');
-      }
-    }
-
-    // Copy BibTeX
-    if (e.target.classList.contains('copy-bib-btn')) {
-      const btn = e.target;
-      const id = btn.getAttribute('data-copy-for');
-      const panel = document.getElementById(id);
-      const codeEl = panel.querySelector('.bibtex');
-      const text = codeEl ? codeEl.innerText : '';
-
-      const fallbackCopy = () => {
-        const ta = document.createElement('textarea');
-        ta.value = text;
-        ta.style.position = 'fixed';
-        ta.style.opacity = '0';
-        document.body.appendChild(ta);
-        ta.select();
-        try { document.execCommand('copy'); } catch (err) {}
-        document.body.removeChild(ta);
-      };
-
-      if (navigator.clipboard && window.isSecureContext) {
-        navigator.clipboard.writeText(text).then(() => {
-          btn.dataset.originalText = btn.textContent;
-          btn.textContent = 'Copied!';
-          setTimeout(() => { btn.textContent = btn.dataset.originalText || 'Copy'; }, 1200);
-        }).catch(() => {
-          fallbackCopy();
-          btn.dataset.originalText = btn.textContent;
-          btn.textContent = 'Copied!';
-          setTimeout(() => { btn.textContent = btn.dataset.originalText || 'Copy'; }, 1200);
-        });
-      } else {
-        fallbackCopy();
-        btn.dataset.originalText = btn.textContent;
-        btn.textContent = 'Copied!';
-        setTimeout(() => { btn.textContent = btn.dataset.originalText || 'Copy'; }, 1200);
-      }
-    }
-  });
-
-  // Close popover when clicking outside
-  document.addEventListener('click', function (e) {
-    const isCiteBtn = e.target.closest('.cite-btn');
-    const isPopover = e.target.closest('.cite-popover');
-    if (!isCiteBtn && !isPopover) {
-      document.querySelectorAll('.cite-popover:not([hidden])').forEach(p => {
-        p.setAttribute('hidden', '');
-        const btn = document.querySelector('.cite-btn[aria-controls="' + p.id + '"]');
-        if (btn) btn.setAttribute('aria-expanded', 'false');
-      });
-    }
-  });
-
-  // Close popover with Escape
-  document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') {
-      document.querySelectorAll('.cite-popover:not([hidden])').forEach(p => {
-        p.setAttribute('hidden', '');
-        const btn = document.querySelector('.cite-btn[aria-controls="' + p.id + '"]');
-        if (btn) btn.setAttribute('aria-expanded', 'false');
-      });
-    }
+    (navigator.clipboard && window.isSecureContext
+      ? navigator.clipboard.writeText(text)
+      : new Promise((res) => { fallbackCopy(); res(); })
+    ).then(() => {
+      btn.dataset.originalText = btn.textContent;
+      btn.textContent = 'Copied!';
+      setTimeout(() => { btn.textContent = btn.dataset.originalText || 'Copy'; }, 1200);
+    }).catch(() => {
+      fallbackCopy();
+      btn.dataset.originalText = btn.textContent;
+      btn.textContent = 'Copied!';
+      setTimeout(() => { btn.textContent = btn.dataset.originalText || 'Copy'; }, 1200);
+    });
   });
 </script>
-
 
 <li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
