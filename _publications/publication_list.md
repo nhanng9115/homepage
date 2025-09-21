@@ -4,11 +4,10 @@ title: "Publications"
 ---
 
 ---
-
 <!-- ===== Publication card with copyable BibTeX (no <script> tag needed) ===== -->
 <h3 style="margin:0;">Encrypted data caching and learning framework for robust federated learning-based mobile edge computing</h3>
 <p style="margin:6px 0 0 0; font-weight:600;">
-  H. C. Nguyen, Y. Saputra, D. T. Hoang, D. N. Nguyen, and 3 more authors
+  H. C. Nguyen, Y. Saputra, Y. Saputra, D. T. Hoang, D. N. Nguyen, and 3 more authors
 </p>
 <p style="margin:2px 0 10px 0; font-style:italic;">IEEE/ACM Transactions on Networking, 2024</p>
 
@@ -21,7 +20,7 @@ title: "Publications"
     </summary>
 
     <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:12px;">
-      <!-- Visible code block for pretty display -->
+      <!-- Visible code block -->
       <pre style="margin:0; overflow:auto;"><code>@article{ToN2024,
   author = {Nguyen, H. C. and Saputra, Y. and Hoang, D. T. and Nguyen, D. N.},
   journal = {IEEE/ACM Transactions on Networking},
@@ -34,7 +33,7 @@ title: "Publications"
   doi = {10.1109/TNET.2024.3365815},
 }</code></pre>
 
-      <!-- Hidden textarea used only as the source text -->
+      <!-- Hidden textarea is the source for copying -->
       <textarea id="bibtex-1-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{ToN2024,
   author = {Nguyen, H. C. and Saputra, Y. and Hoang, D. T. and Nguyen, D. N.},
   journal = {IEEE/ACM Transactions on Networking},
@@ -47,26 +46,22 @@ title: "Publications"
   doi = {10.1109/TNET.2024.3365815},
 }</textarea>
 
-      <!-- Copy button (preserves newlines by copying from a temp textarea) -->
+      <!-- ✅ Copy button: normalize line breaks so pasted text keeps structure -->
       <button
         style="position:absolute; top:8px; right:8px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:4px 8px; cursor:pointer;"
         onclick="
           (function(btn){
-            // get source text and normalize line endings to CRLF for widest compatibility
-            var src = document.getElementById('bibtex-1-src').value.replace(/\r?\n/g, '\r\n');
-            // create a temporary textarea to copy from
-            var ta = document.createElement('textarea');
-            ta.value = src;
-            ta.style.position = 'fixed';
-            ta.style.left = '-9999px';
-            document.body.appendChild(ta);
-            ta.focus(); ta.select();
+            var ta = document.getElementById('bibtex-1-src');
+            var text = ta.value.replace(/\r?\n/g, '\r\n');  // ✅ enforce proper newlines
             var ok = false;
-            try { ok = document.execCommand('copy'); } catch(e) {}
-            document.body.removeChild(ta);
-            // fallback to modern API if needed
-            if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
-              navigator.clipboard.writeText(src).then(function(){ ok = true; }).catch(function(){});
+            try {
+              navigator.clipboard.writeText(text).then(function(){ ok = true; });
+            } catch(e) {
+              // fallback
+              ta.style.display='block';
+              ta.select(); ta.setSelectionRange(0, text.length);
+              try { ok = document.execCommand('copy'); } catch(err) {}
+              ta.style.display='none';
             }
             var old = btn.textContent;
             btn.textContent = ok ? 'Copied!' : 'Select & Ctrl/Cmd+C';
@@ -84,7 +79,6 @@ title: "Publications"
   <a href="#" style="padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; text-decoration:none;">HTML</a>
   <a href="https://doi.org/10.1109/TNET.2024.3365815" style="padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; text-decoration:none;">PDF</a>
 </div>
-
 
 
 # 📝 Submitted and Under Revision  
