@@ -638,6 +638,225 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 </li>
 
 <li>
+<strong>N. T. Nguyen</strong>, V.-D. Nguyen, V.-H. Nguyen, H. Q. Ngo, S. Chatzinotas, and M. Juntti,  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9940169" target="_blank">Spectral Efficiency Analysis of Hybrid Relay-Reflecting Intelligent Surface-Assisted Cell-Free Massive MIMO Systems</a>,"  
+<span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 22, no. 5, pp. 3397–3416, Nov. 2022. 
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-16">@article{NguyenTWC2022HRRISCFMIMO,
+  author = {Nguyen, N. T. and Nguyen, V.-D. and Nguyen, V.-H. and Ngo, H. Q. and Chatzinotas, S. and Juntti, M.},
+  title = {Spectral Efficiency Analysis of Hybrid Relay-Reflecting Intelligent Surface-Assisted Cell-Free Massive MIMO Systems},
+  journal = {IEEE Transactions on Wireless Communications},
+  year = {2022},
+  month = {nov},
+  volume = {22},
+  number = {5},
+  pages = {3397--3416}
+}</code></pre>
+
+    <textarea id="bibtex-16-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenTWC2022HRRISCFMIMO,&#13;
+  author = {Nguyen, N. T. and Nguyen, V.-D. and Nguyen, V.-H. and Ngo, H. Q. and Chatzinotas, S. and Juntti, M.},&#13;
+  title = {Spectral Efficiency Analysis of Hybrid Relay-Reflecting Intelligent Surface-Assisted Cell-Free Massive MIMO Systems},&#13;
+  journal = {IEEE Transactions on Wireless Communications},&#13;
+  year = {2022},&#13;
+  month = {nov},&#13;
+  volume = {22},&#13;
+  number = {5},&#13;
+  pages = {3397--3416}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-16-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
+</li>
+
+<li>
+L. V. Nguyen, <strong>N. T. Nguyen</strong>, N. H. Tran, M. Juntti, A. L. Swindlehurst, and D. H. N. Nguyen,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44744/nbnfi-fe202301265946.pdf?sequence=1&isAllowed=y" target="_blank">Leveraging Deep Neural Networks for Massive MIMO Data Detection</a>,"  
+<span><em>IEEE Wireless Communications</em></span>, vol. 30, no. 1, pp. 174–180, May 2022. 
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-17">@article{NguyenWCM2022Detection,
+  author = {Nguyen, L. V. and Nguyen, N. T. and Tran, N. H. and Juntti, M. and Swindlehurst, A. L. and Nguyen, D. H. N.},
+  title = {Leveraging Deep Neural Networks for Massive MIMO Data Detection},
+  journal = {IEEE Wireless Communications},
+  year = {2022},
+  month = {may},
+  volume = {30},
+  number = {1},
+  pages = {174--180}
+}</code></pre>
+
+    <textarea id="bibtex-17-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenWCM2022Detection,&#13;
+  author = {Nguyen, L. V. and Nguyen, N. T. and Tran, N. H. and Juntti, M. and Swindlehurst, A. L. and Nguyen, D. H. N.},&#13;
+  title = {Leveraging Deep Neural Networks for Massive MIMO Data Detection},&#13;
+  journal = {IEEE Wireless Communications},&#13;
+  year = {2022},&#13;
+  month = {may},&#13;
+  volume = {30},&#13;
+  number = {1},&#13;
+  pages = {174--180}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-17-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
+</li>
+
+<li>
+A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hemadeh, <strong>N. T. Nguyen</strong>, V. Tapio, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/32277/nbnfi-fe2022100661285.pdf?sequence=1" target="_blank">MIMO Evolution Beyond 5G Through Reconfigurable Intelligent Surfaces and Fluid Antenna Systems</a>,"  
+<span><em>Proceedings of the IEEE</em></span>, vol. 110, no. 9, pp. 1244–1265, May 2022. 
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-18">@article{ShojaeifardProcIEEE2022,
+  author = {Shojaeifard, A. and Wong, K.-K. and Tong, K.-F. and Chu, Z. and Mourad, A. and Haghighat, A. and Hemadeh, I. and Nguyen, N. T. and Tapio, V. and Juntti, M.},
+  title = {MIMO Evolution Beyond 5G Through Reconfigurable Intelligent Surfaces and Fluid Antenna Systems},
+  journal = {Proceedings of the IEEE},
+  year = {2022},
+  month = {may},
+  volume = {110},
+  number = {9},
+  pages = {1244--1265}
+}</code></pre>
+
+    <textarea id="bibtex-18-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{ShojaeifardProcIEEE2022,&#13;
+  author = {Shojaeifard, A. and Wong, K.-K. and Tong, K.-F. and Chu, Z. and Mourad, A. and Haghighat, A. and Hemadeh, I. and Nguyen, N. T. and Tapio, V. and Juntti, M.},&#13;
+  title = {MIMO Evolution Beyond 5G Through Reconfigurable Intelligent Surfaces and Fluid Antenna Systems},&#13;
+  journal = {Proceedings of the IEEE},&#13;
+  year = {2022},&#13;
+  month = {may},&#13;
+  volume = {110},&#13;
+  number = {9},&#13;
+  pages = {1244--1265}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-18-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
+</li>
+
+
+<li>
+<strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/45145/nbnfi-fe2023032332877.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Beamforming and Adaptive RF Chain Activation for Cell-Free Millimeter-Wave Massive MIMO Systems</a>,"  
+<span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 71, no. 8, pp. 8739–8755, May 2022.  
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-19">@article{NguyenTVT2022CFmmWave,
+  author = {Nguyen, N. T. and Lee, K. and Dai, H.},
+  title = {Hybrid Beamforming and Adaptive RF Chain Activation for Cell-Free Millimeter-Wave Massive MIMO Systems},
+  journal = {IEEE Transactions on Vehicular Technology},
+  year = {2022},
+  month = {may},
+  volume = {71},
+  number = {8},
+  pages = {8739--8755}
+}</code></pre>
+
+    <textarea id="bibtex-19-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenTVT2022CFmmWave,&#13;
+  author = {Nguyen, N. T. and Lee, K. and Dai, H.},&#13;
+  title = {Hybrid Beamforming and Adaptive RF Chain Activation for Cell-Free Millimeter-Wave Massive MIMO Systems},&#13;
+  journal = {IEEE Transactions on Vehicular Technology},&#13;
+  year = {2022},&#13;
+  month = {may},&#13;
+  volume = {71},&#13;
+  number = {8},&#13;
+  pages = {8739--8755}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-19-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
+</li>
+
+
+<li>
+<strong>N. T. Nguyen</strong>, Q.-D. Vu, K. Lee, and M. Juntti,  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9733238" target="_blank">Hybrid Relay-Reflecting Intelligent Surface-Assisted Wireless Communications</a>,"  
+<span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 71, no. 6, pp. 6228–6244, Mar. 2022.  
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-20">@article{NguyenTVT2022HRRIS,
+  author = {Nguyen, N. T. and Vu, Q.-D. and Lee, K. and Juntti, M.},
+  title = {Hybrid Relay-Reflecting Intelligent Surface-Assisted Wireless Communications},
+  journal = {IEEE Transactions on Vehicular Technology},
+  year = {2022},
+  month = {mar},
+  volume = {71},
+  number = {6},
+  pages = {6228--6244}
+}</code></pre>
+
+    <textarea id="bibtex-20-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenTVT2022HRRIS,&#13;
+  author = {Nguyen, N. T. and Vu, Q.-D. and Lee, K. and Juntti, M.},&#13;
+  title = {Hybrid Relay-Reflecting Intelligent Surface-Assisted Wireless Communications},&#13;
+  journal = {IEEE Transactions on Vehicular Technology},&#13;
+  year = {2022},&#13;
+  month = {mar},&#13;
+  volume = {71},&#13;
+  number = {6},&#13;
+  pages = {6228--6244}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-20-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
+</li>
+
+
+
+<li>
 <strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/30148/nbnfi-fe2021122162809.pdf?sequence=1&isAllowed=y" target="_blank">Application of Deep Learning to Sphere Decoding for Massive MIMO Systems</a>,"  
 <span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 20, no. 10, pp. 6787–6803, May 2021.  
