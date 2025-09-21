@@ -5,26 +5,29 @@ title: "Publications"
 
 ---
 
-<!-- Publication card -->
+<!-- ===== Publication card with copyable BibTeX ===== -->
 <h3 style="margin:0;">Encrypted data caching and learning framework for robust federated learning-based mobile edge computing</h3>
 <p style="margin:6px 0 0 0; font-weight:600;">
   H. C. Nguyen, Y. Saputra, D. T. Hoang, D. N. Nguyen, and 3 more authors
 </p>
-<p style="margin:2px 0 10px 0; font-style:italic;">
-  IEEE/ACM Transactions on Networking, 2024
-</p>
+<p style="margin:2px 0 10px 0; font-style:italic;">IEEE/ACM Transactions on Networking, 2024</p>
 
 <div style="margin:10px 0; display:flex; gap:8px; flex-wrap:wrap;">
   <a href="#" style="padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; text-decoration:none;">ABS</a>
 
-  <!-- BIB as a toggle -->
-  <details style="display:inline;">
+  <details style="display:inline;" id="bib-wrap-1">
     <summary style="display:inline-block; padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; cursor:pointer; user-select:none; list-style:none;">
       BIB
     </summary>
-    <div style="margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:12px;">
-      <!-- Use <pre><code> so it renders even inside HTML blocks -->
-      <pre style="margin:0; overflow:auto;"><code class="language-bibtex">@article{ToN2024,
+
+    <div class="bib-box" style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:12px;">
+      <!-- Copy button -->
+      <button class="copy-bib" data-target="bibtex-1"
+              style="position:absolute; top:8px; right:8px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:4px 8px; cursor:pointer;">
+        Copy
+      </button>
+
+      <pre style="margin:0; overflow:auto;"><code id="bibtex-1" class="language-bibtex">@article{ToN2024,
   author = {Nguyen, H. C. and Saputra, Y. and Hoang, D. T. and Nguyen, D. N.},
   journal = {IEEE/ACM Transactions on Networking},
   title = {Encrypted data caching and learning framework for robust federated learning-based mobile edge computing},
@@ -35,13 +38,40 @@ title: "Publications"
   pages = {},
   doi = {10.1109/TNET.2024.3365815},
 }</code></pre>
-      <div style="font-size:12px; opacity:0.8; margin-top:6px;">Tip: On GitHub README, code blocks show a built-in copy button.</div>
+      <div class="copy-hint" style="font-size:12px; opacity:0.8; margin-top:6px;">Click “Copy” to copy the BibTeX.</div>
     </div>
   </details>
 
   <a href="#" style="padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; text-decoration:none;">HTML</a>
   <a href="https://doi.org/10.1109/TNET.2024.3365815" style="padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; text-decoration:none;">PDF</a>
 </div>
+
+<!-- Copy-to-clipboard JS (works on GitHub Pages; ignored on repo README) -->
+<script>
+document.addEventListener('click', function (e) {
+  if (!e.target.matches('.copy-bib')) return;
+  const id = e.target.getAttribute('data-target');
+  const code = document.getElementById(id);
+  if (!code) return;
+  const text = code.innerText; // preserves formatting
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(() => {
+      const old = e.target.textContent;
+      e.target.textContent = 'Copied!';
+      setTimeout(() => (e.target.textContent = old), 1200);
+    });
+  } else {
+    // Fallback for older browsers
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand('copy'); } catch {}
+    document.body.removeChild(ta);
+  }
+});
+</script>
+
 
 
 # 📝 Submitted and Under Revision  
