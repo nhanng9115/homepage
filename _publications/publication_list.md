@@ -5,29 +5,43 @@ title: "Publications"
 
 ---
 
-### Encrypted data caching and learning framework for robust federated learning-based mobile edge computing  
-**H. C. Nguyen, Y. Saputra, D. T. Hoang, D. N. Nguyen, and 3 more authors**  
-*IEEE/ACM Transactions on Networking, 2024*
+<!-- Publication card -->
+<h3 style="margin:0;">Encrypted data caching and learning framework for robust federated learning-based mobile edge computing</h3>
+<p style="margin:6px 0 0 0; font-weight:600;">
+  H. C. Nguyen, Y. Saputra, D. T. Hoang, D. N. Nguyen, and 3 more authors
+</p>
+<p style="margin:2px 0 10px 0; font-style:italic;">
+  IEEE/ACM Transactions on Networking, 2024
+</p>
 
-<div style="margin:10px 0;">
-  <a href="#" style="padding:4px 8px; background:#eee; border:1px solid #ccc; border-radius:4px; text-decoration:none; margin-right:5px;">ABS</a>
-  <a href="#" style="padding:4px 8px; background:#eee; border:1px solid #ccc; border-radius:4px; text-decoration:none; margin-right:5px;">BIB</a>
-  <a href="#" style="padding:4px 8px; background:#eee; border:1px solid #ccc; border-radius:4px; text-decoration:none; margin-right:5px;">HTML</a>
-  <a href="https://doi.org/10.1109/TNET.2024.3365815" style="padding:4px 8px; background:#eee; border:1px solid #ccc; border-radius:4px; text-decoration:none;">PDF</a>
-</div>
+<div style="margin:10px 0; display:flex; gap:8px; flex-wrap:wrap;">
+  <a href="#" style="padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; text-decoration:none;">ABS</a>
 
-<details>
-<summary><b>BibTeX</b> (click to expand)</summary>
-
-```bibtex
-@article{ToN2024,
+  <!-- BIB as a toggle -->
+  <details style="display:inline;">
+    <summary style="display:inline-block; padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; cursor:pointer; user-select:none; list-style:none;">
+      BIB
+    </summary>
+    <div style="margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:12px;">
+      <!-- Use <pre><code> so it renders even inside HTML blocks -->
+      <pre style="margin:0; overflow:auto;"><code class="language-bibtex">@article{ToN2024,
   author = {Nguyen, H. C. and Saputra, Y. and Hoang, D. T. and Nguyen, D. N.},
   journal = {IEEE/ACM Transactions on Networking},
   title = {Encrypted data caching and learning framework for robust federated learning-based mobile edge computing},
   year = {2024},
+  month = {},
   volume = {22},
+  number = {},
+  pages = {},
   doi = {10.1109/TNET.2024.3365815},
-}
+}</code></pre>
+      <div style="font-size:12px; opacity:0.8; margin-top:6px;">Tip: On GitHub README, code blocks show a built-in copy button.</div>
+    </div>
+  </details>
+
+  <a href="#" style="padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; text-decoration:none;">HTML</a>
+  <a href="https://doi.org/10.1109/TNET.2024.3365815" style="padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; text-decoration:none;">PDF</a>
+</div>
 
 
 # 📝 Submitted and Under Revision  
