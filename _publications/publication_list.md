@@ -718,48 +718,289 @@ Q.-V. Pham, <strong>N. T. Nguyen</strong>, T. T. Huynh, L. B. Le, K. Lee, W.-J. 
 </details>
 </li>
 
-
 <li>
 G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,  
 "<a href="https://ieeexplore.ieee.org/abstract/document/9374093" target="_blank">Dynamic Unequally Sub-Connected Hybrid Beamforming Architecture for Massive MIMO Systems</a>,"  
-<span style=""><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 70, no. 4, pp. 3469–3478, Mar. 2021.
+<span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 70, no. 4, pp. 3469–3478, Mar. 2021.
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-23">@article{GadielTVT2021DUSC,
+  author = {Gadiel, G. M. and Nguyen, N. T. and Lee, K.},
+  title = {Dynamic Unequally Sub-Connected Hybrid Beamforming Architecture for Massive MIMO Systems},
+  journal = {IEEE Transactions on Vehicular Technology},
+  year = {2021},
+  volume = {70},
+  number = {4},
+  pages = {3469--3478}
+}</code></pre>
+
+    <textarea id="bibtex-23-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{GadielTVT2021DUSC,&#13;
+  author = {Gadiel, G. M. and Nguyen, N. T. and Lee, K.},&#13;
+  title = {Dynamic Unequally Sub-Connected Hybrid Beamforming Architecture for Massive MIMO Systems},&#13;
+  journal = {IEEE Transactions on Vehicular Technology},&#13;
+  year = {2021},&#13;
+  volume = {70},&#13;
+  number = {4},&#13;
+  pages = {3469--3478}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-23-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong> and K. Lee,  
 "<a href="https://arxiv.org/pdf/1909.01683" target="_blank">Deep Learning-Aided Tabu Search Detection for Large MIMO Systems</a>,"  
-<span style=""><em>IEEE Transactions on Wireless Communications</em></span>, vol. 19, no. 6, pp. 4262–4275, Jun. 2020.  
+<span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 19, no. 6, pp. 4262–4275, Jun. 2020.  
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-24">@article{NguyenTWC2020DLTabu,
+  author = {Nguyen, N. T. and Lee, K.},
+  title = {Deep Learning-Aided Tabu Search Detection for Large MIMO Systems},
+  journal = {IEEE Transactions on Wireless Communications},
+  year = {2020},
+  volume = {19},
+  number = {6},
+  pages = {4262--4275}
+}</code></pre>
+
+    <textarea id="bibtex-24-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenTWC2020DLTabu,&#13;
+  author = {Nguyen, N. T. and Lee, K.},&#13;
+  title = {Deep Learning-Aided Tabu Search Detection for Large MIMO Systems},&#13;
+  journal = {IEEE Transactions on Wireless Communications},&#13;
+  year = {2020},&#13;
+  volume = {19},&#13;
+  number = {6},&#13;
+  pages = {4262--4275}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-24-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong> and K. Lee,  
 "<a href="https://arxiv.org/pdf/1908.10056" target="_blank">Unequally Sub-Connected Architecture for Hybrid Beamforming in Massive MIMO Systems</a>,"  
-<span style=""><em>IEEE Transactions on Wireless Communications</em></span>, vol. 19, no. 2, pp. 1127–1140, Feb. 2020.  
+<span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 19, no. 2, pp. 1127–1140, Feb. 2020.  
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-25">@article{NguyenTWC2020USC,
+  author = {Nguyen, N. T. and Lee, K.},
+  title = {Unequally Sub-Connected Architecture for Hybrid Beamforming in Massive MIMO Systems},
+  journal = {IEEE Transactions on Wireless Communications},
+  year = {2020},
+  volume = {19},
+  number = {2},
+  pages = {1127--1140}
+}</code></pre>
+
+    <textarea id="bibtex-25-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenTWC2020USC,&#13;
+  author = {Nguyen, N. T. and Lee, K.},&#13;
+  title = {Unequally Sub-Connected Architecture for Hybrid Beamforming in Massive MIMO Systems},&#13;
+  journal = {IEEE Transactions on Wireless Communications},&#13;
+  year = {2020},&#13;
+  volume = {19},&#13;
+  number = {2},&#13;
+  pages = {1127--1140}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-25-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong> and K. Lee,  
 "<a href="https://arxiv.org/pdf/1909.13606" target="_blank">Groupwise Neighbor Examination for Tabu Search Detection in Large MIMO Systems</a>,"  
-<span style=""><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 69, no. 1, pp. 1136–1140, Jan. 2020.
+<span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 69, no. 1, pp. 1136–1140, Jan. 2020.
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-26">@article{NguyenTVT2020GNE,
+  author = {Nguyen, N. T. and Lee, K.},
+  title = {Groupwise Neighbor Examination for Tabu Search Detection in Large MIMO Systems},
+  journal = {IEEE Transactions on Vehicular Technology},
+  year = {2020},
+  volume = {69},
+  number = {1},
+  pages = {1136--1140}
+}</code></pre>
+
+    <textarea id="bibtex-26-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenTVT2020GNE,&#13;
+  author = {Nguyen, N. T. and Lee, K.},&#13;
+  title = {Groupwise Neighbor Examination for Tabu Search Detection in Large MIMO Systems},&#13;
+  journal = {IEEE Transactions on Vehicular Technology},&#13;
+  year = {2020},&#13;
+  volume = {69},&#13;
+  number = {1},&#13;
+  pages = {1136--1140}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-26-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
 "<a href="https://ieeexplore.ieee.org/abstract/document/8668468" target="_blank">QR-Decomposition-Aided Tabu Search Detection for Large MIMO Systems</a>,"  
-<span style=""><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 68, no. 5, pp. 4857–4870, May 2019. 
+<span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 68, no. 5, pp. 4857–4870, May 2019. 
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-27">@article{NguyenTVT2019QRD,
+  author = {Nguyen, N. T. and Lee, K. and Dai, H.},
+  title = {QR-Decomposition-Aided Tabu Search Detection for Large MIMO Systems},
+  journal = {IEEE Transactions on Vehicular Technology},
+  year = {2019},
+  volume = {68},
+  number = {5},
+  pages = {4857--4870}
+}</code></pre>
+
+    <textarea id="bibtex-27-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenTVT2019QRD,&#13;
+  author = {Nguyen, N. T. and Lee, K. and Dai, H.},&#13;
+  title = {QR-Decomposition-Aided Tabu Search Detection for Large MIMO Systems},&#13;
+  journal = {IEEE Transactions on Vehicular Technology},&#13;
+  year = {2019},&#13;
+  volume = {68},&#13;
+  number = {5},&#13;
+  pages = {4857--4870}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-27-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong> and K. Lee,  
 "<a href="https://ieeexplore.ieee.org/abstract/document/8453856" target="_blank">Coverage and Cell-Edge Sum-Rate Analysis of MmWave Massive MIMO Systems with ORP Schemes and MMSE Receivers</a>,"  
-<span style=""><em>IEEE Transactions on Signal Processing</em></span>, vol. 66, no. 20, pp. 5349–5363, Oct. 2018. 
+<span><em>IEEE Transactions on Signal Processing</em></span>, vol. 66, no. 20, pp. 5349–5363, Oct. 2018. 
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-28">@article{NguyenTSP2018ORP,
+  author = {Nguyen, N. T. and Lee, K.},
+  title = {Coverage and Cell-Edge Sum-Rate Analysis of MmWave Massive MIMO Systems with ORP Schemes and MMSE Receivers},
+  journal = {IEEE Transactions on Signal Processing},
+  year = {2018},
+  volume = {66},
+  number = {20},
+  pages = {5349--5363}
+}</code></pre>
+
+    <textarea id="bibtex-28-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenTSP2018ORP,&#13;
+  author = {Nguyen, N. T. and Lee, K.},&#13;
+  title = {Coverage and Cell-Edge Sum-Rate Analysis of MmWave Massive MIMO Systems with ORP Schemes and MMSE Receivers},&#13;
+  journal = {IEEE Transactions on Signal Processing},&#13;
+  year = {2018},&#13;
+  volume = {66},&#13;
+  number = {20},&#13;
+  pages = {5349--5363}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-28-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong> and K. Lee,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7895219" target="_blank">Cell Coverage Extension with Orthogonal Random Precoding for Massive MIMO Systems</a>,"  
-<span style=""><em>IEEE Access</em></span>, vol. 5, Apr. 2017. 
+<span><em>IEEE Access</em></span>, vol. 5, Apr. 2017. 
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-29">@article{NguyenAccess2017ORP,
+  author = {Nguyen, N. T. and Lee, K.},
+  title = {Cell Coverage Extension with Orthogonal Random Precoding for Massive MIMO Systems},
+  journal = {IEEE Access},
+  year = {2017},
+  volume = {5}
+}</code></pre>
+
+    <textarea id="bibtex-29-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenAccess2017ORP,&#13;
+  author = {Nguyen, N. T. and Lee, K.},&#13;
+  title = {Cell Coverage Extension with Orthogonal Random Precoding for Massive MIMO Systems},&#13;
+  journal = {IEEE Access},&#13;
+  year = {2017},&#13;
+  volume = {5}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-29-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
+
 
 </ol>
 
