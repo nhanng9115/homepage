@@ -13,75 +13,6 @@ title: "Publications"
 <ol>
 
 <li>
-M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
-"<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"
-<br><em>IEEE ICASSP</em>, 2025. (<strong>submitted</strong>)
-
-<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
-<details style="display:block; margin-top:6px;">
-  <!-- Full-width summary; button is left-aligned inside -->
-  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
-    <span
-      style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center;
-             background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px;
-             font-weight:600; font-size:12px; line-height:1;">
-      BibTex
-    </span>
-  </summary>
-
-  <!-- Pink panel (left-aligned content) -->
-  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
-    <!-- Visible BibTeX (smaller text) -->
-    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-1">@inproceedings{MaNguyenICASSP2025,
-author = {Ma, M. and Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},
-title = {Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},
-booktitle = {Proc. IEEE ICASSP},
-year = {2025},
-note = {submitted},
-url = {https://arxiv.org/pdf/2509.11725}
-}</code></pre>
-
-    <!-- Hidden textarea used only for copying (CRLF via &#13; so pasted text is multi-line) -->
-    <textarea id="bibtex-1-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@inproceedings{MaNguyenICASSP2025,&#13;
-author = {Ma, M. and Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},&#13;
-title = {Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},&#13;
-booktitle = {Proc. IEEE ICASSP},&#13;
-year = {2025},&#13;
-note = {submitted},&#13;
-url = {https://arxiv.org/pdf/2509.11725}&#13;
-}</textarea>
-
-    <!-- Copy button (text only, small) -->
-    <button
-      style="position:absolute; top:6px; right:6px;
-             border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px;
-             padding:2px 8px; font-size:12px; cursor:pointer;"
-      onclick="
-        (function(btn){
-          var ta = document.getElementById('bibtex-1-src');
-          ta.select(); ta.setSelectionRange(0, 999999);
-          var ok = false;
-          try { ok = document.execCommand('copy'); } catch(e) {}
-          if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(ta.value).then(function(){ ok = true; }).catch(function(){});
-          }
-          var old = btn.textContent;
-          btn.textContent = ok ? 'Copied!' : 'Copy';
-          setTimeout(function(){ btn.textContent = old; }, 1200);
-        })(this);
-        return false;
-      ">
-      Copy
-    </button>
-  </div>
-</details>
-<!-- ===== /BibTex section ===== -->
-</li>
-
-
-
-
-<li>
 M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2509.11419" target="_blank">Knowledge Distillation for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
 <span style=""><em>IEEE Transactions on Communications</em></span>, 2025. (**submitted**)
@@ -178,8 +109,6 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
   title = {Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
   journal = {IEEE Journal on Selected Areas in Communications},
   year = {2025},
-  note = {accepted},
-  url = {https://www.arxiv.org/pdf/2509.10290}
 }</code></pre>
 
       <textarea id="bibtex-2-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenJSAC2025,&#13;
@@ -187,8 +116,6 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
   title = {Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},&#13;
   journal = {IEEE Journal on Selected Areas in Communications},&#13;
   year = {2025},&#13;
-  note = {accepted},&#13;
-  url = {https://www.arxiv.org/pdf/2509.10290}&#13;
 }</textarea>
 
       <button
@@ -217,8 +144,6 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
   title = {Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach},
   journal = {IEEE Communications Letters},
   year = {2025},
-  note = {accepted},
-  url = {https://arxiv.org/pdf/2503.14054}
 }</code></pre>
 
     <textarea id="bibtex-3-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{ZakerCL2025,&#13;
@@ -226,8 +151,6 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
   title = {Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach},&#13;
   journal = {IEEE Communications Letters},&#13;
   year = {2025},&#13;
-  note = {accepted},&#13;
-  url = {https://arxiv.org/pdf/2503.14054}&#13;
 }</textarea>
 
     <button
@@ -260,7 +183,6 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
   volume = {14},
   number = {8},
   pages = {2446--2450},
-  url = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11008697}
 }</code></pre>
 
     <textarea id="bibtex-4-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{MaWCL2025,&#13;
@@ -272,7 +194,6 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
   volume = {14},&#13;
   number = {8},&#13;
   pages = {2446--2450},&#13;
-  url = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11008697}&#13;
 }</textarea>
 
     <button
@@ -301,8 +222,6 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
   title = {Joint Beamforming Design and Bit Allocation in Massive MIMO with Resolution-Adaptive ADCs},
   journal = {IEEE Transactions on Wireless Communications},
   year = {2025},
-  note = {accepted},
-  url = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11006401}
 }</code></pre>
 
     <textarea id="bibtex-5-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{MaTWC2025,&#13;
@@ -310,8 +229,6 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
   title = {Joint Beamforming Design and Bit Allocation in Massive MIMO with Resolution-Adaptive ADCs},&#13;
   journal = {IEEE Transactions on Wireless Communications},&#13;
   year = {2025},&#13;
-  note = {accepted},&#13;
-  url = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11006401}&#13;
 }</textarea>
 
     <button
@@ -343,7 +260,6 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
   volume = {73},
   pages = {1691--1707},
   month = {mar},
-  url = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928}
 }</code></pre>
 
     <textarea id="bibtex-6-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenTSP2025,&#13;
@@ -354,7 +270,6 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
   volume = {73},&#13;
   pages = {1691--1707},&#13;
   month = {mar},&#13;
-  url = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928}&#13;
 }</textarea>
 
     <button
@@ -384,7 +299,6 @@ E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,
   journal = {IEEE Transactions on Communications},
   year = {2024},
   note = {accepted},
-  url = {https://oulurepo.oulu.fi/bitstream/handle/10024/53753/nbnfioulu-202501171238.pdf?sequence=1}
 }</code></pre>
 
     <textarea id="bibtex-7-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{EgashiraTCOM2024,&#13;
@@ -408,50 +322,337 @@ E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li>
 <strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10684532" target="_blank">Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding</a>,"  
-<span style=""><em>IEEE Journal of Selected Topics in Signal Processing</em></span>, vol. 18, no. 5, pp. 901–916, Jul. 2024. 
+<span><em>IEEE Journal of Selected Topics in Signal Processing</em></span>, vol. 18, no. 5, pp. 901–916, Jul. 2024. 
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-8">@article{NguyenJSTSP2024,
+  author = {Nguyen, N. T. and Nguyen, L. V. and Shlezinger, N. and Eldar, Y. C. and Swindlehurst, A. L. and Juntti, M.},
+  title = {Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding},
+  journal = {IEEE Journal of Selected Topics in Signal Processing},
+  year = {2024},
+  month = {jul},
+  volume = {18},
+  number = {5},
+  pages = {901--916}
+}</code></pre>
+
+    <textarea id="bibtex-8-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenJSTSP2024,&#13;
+  author = {Nguyen, N. T. and Nguyen, L. V. and Shlezinger, N. and Eldar, Y. C. and Swindlehurst, A. L. and Juntti, M.},&#13;
+  title = {Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding},&#13;
+  journal = {IEEE Journal of Selected Topics in Signal Processing},&#13;
+  year = {2024},&#13;
+  month = {jul},&#13;
+  volume = {18},&#13;
+  number = {5},&#13;
+  pages = {901--916}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-8-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10697466" target="_blank">Switch-Based Hybrid Beamforming Transceiver Design for Wideband Communications With Beam Squint</a>,"  
-<span style=""><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 74, no. 2, pp. 2840–2855, Sep. 2024. 
+<span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 74, no. 2, pp. 2840–2855, Sep. 2024. 
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-9">@article{MaTVT2024,
+  author = {Ma, M. and Nguyen, N. T. and Juntti, M.},
+  title = {Switch-Based Hybrid Beamforming Transceiver Design for Wideband Communications With Beam Squint},
+  journal = {IEEE Transactions on Vehicular Technology},
+  year = {2024},
+  month = {sep},
+  volume = {74},
+  number = {2},
+  pages = {2840--2855}
+}</code></pre>
+
+    <textarea id="bibtex-9-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{MaTVT2024,&#13;
+  author = {Ma, M. and Nguyen, N. T. and Juntti, M.},&#13;
+  title = {Switch-Based Hybrid Beamforming Transceiver Design for Wideband Communications With Beam Squint},&#13;
+  journal = {IEEE Transactions on Vehicular Technology},&#13;
+  year = {2024},&#13;
+  month = {sep},&#13;
+  volume = {74},&#13;
+  number = {2},&#13;
+  pages = {2840--2855}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-9-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 I. Bilbao, E. Iradier, J. Montalban, P. Angueira, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10568545" target="_blank">Deep Unfolding-Powered Analog Beamforming for In-Band Full-Duplex</a>,"  
-<span style=""><em>IEEE Open Journal of the Communications Society</em></span>, vol. 5, pp. 3753–3761, Jun. 2024.
+<span><em>IEEE Open Journal of the Communications Society</em></span>, vol. 5, pp. 3753–3761, Jun. 2024.
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-10">@article{BilbaoOJCOMS2024,
+  author = {Bilbao, I. and Iradier, E. and Montalban, J. and Angueira, P. and Nguyen, N. T. and Juntti, M.},
+  title = {Deep Unfolding-Powered Analog Beamforming for In-Band Full-Duplex},
+  journal = {IEEE Open Journal of the Communications Society},
+  year = {2024},
+  month = {jun},
+  volume = {5},
+  pages = {3753--3761}
+}</code></pre>
+
+    <textarea id="bibtex-10-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{BilbaoOJCOMS2024,&#13;
+  author = {Bilbao, I. and Iradier, E. and Montalban, J. and Angueira, P. and Nguyen, N. T. and Juntti, M.},&#13;
+  title = {Deep Unfolding-Powered Analog Beamforming for In-Band Full-Duplex},&#13;
+  journal = {IEEE Open Journal of the Communications Society},&#13;
+  year = {2024},&#13;
+  month = {jun},&#13;
+  volume = {5},&#13;
+  pages = {3753--3761}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-10-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/51866/nbnfioulu-202409165877.pdf?sequence=1" target="_blank">Artificial Intelligence-Empowered Hybrid Multiple-Input/Multiple-Output Beamforming: Learning to Optimize for High-Throughput Scalable MIMO</a>,"  
-<span style=""><em>IEEE Vehicular Technology Magazine</em></span>, vol. 19, no. 3, pp. 58–67, 2024. 
+<span><em>IEEE Vehicular Technology Magazine</em></span>, vol. 19, no. 3, pp. 58–67, 2024. 
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-11">@article{ShlezingerVTMAG2024,
+  author = {Shlezinger, N. and Ma, M. and Lavi, O. and Nguyen, N. T. and Eldar, Y. C. and Juntti, M.},
+  title = {Artificial Intelligence-Empowered Hybrid Multiple-Input/Multiple-Output Beamforming: Learning to Optimize for High-Throughput Scalable MIMO},
+  journal = {IEEE Vehicular Technology Magazine},
+  year = {2024},
+  volume = {19},
+  number = {3},
+  pages = {58--67}
+}</code></pre>
+
+    <textarea id="bibtex-11-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{ShlezingerVTMAG2024,&#13;
+  author = {Shlezinger, N. and Ma, M. and Lavi, O. and Nguyen, N. T. and Eldar, Y. C. and Juntti, M.},&#13;
+  title = {Artificial Intelligence-Empowered Hybrid Multiple-Input/Multiple-Output Beamforming: Learning to Optimize for High-Throughput Scalable MIMO},&#13;
+  journal = {IEEE Vehicular Technology Magazine},&#13;
+  year = {2024},&#13;
+  volume = {19},&#13;
+  number = {3},&#13;
+  pages = {58--67}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-11-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, Q. Wu, A. Tolli, S. Chatzinotas, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10266977" target="_blank">Fairness Enhancement of UAV Systems with Hybrid Active-Passive RIS</a>,"  
-<span style=""><em>IEEE Transactions on Wireless Communications</em></span>, vol. 23, no. 5, pp. 4379–4396, 2023.  
+<span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 23, no. 5, pp. 4379–4396, 2023.  
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-12">@article{NguyenTWC2023,
+  author = {Nguyen, N. T. and Nguyen, V.-D. and Wu, Q. and Tolli, A. and Chatzinotas, S. and Juntti, M.},
+  title = {Fairness Enhancement of UAV Systems with Hybrid Active-Passive RIS},
+  journal = {IEEE Transactions on Wireless Communications},
+  year = {2023},
+  volume = {23},
+  number = {5},
+  pages = {4379--4396}
+}</code></pre>
+
+    <textarea id="bibtex-12-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenTWC2023,&#13;
+  author = {Nguyen, N. T. and Nguyen, V.-D. and Wu, Q. and Tolli, A. and Chatzinotas, S. and Juntti, M.},&#13;
+  title = {Fairness Enhancement of UAV Systems with Hybrid Active-Passive RIS},&#13;
+  journal = {IEEE Transactions on Wireless Communications},&#13;
+  year = {2023},&#13;
+  volume = {23},&#13;
+  number = {5},&#13;
+  pages = {4379--4396}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-12-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, Nguyen C. L., Dinh T. H., D. N. Nguyen, and S. Chatzinotas,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/48422/nbnfioulu-202403212382.pdf?sequence=1&isAllowed=y" target="_blank">Network-Aided Intelligent Traffic Steering in 6G ORAN: A Multi-Layer Optimization Framework</a>,"  
-<span style=""><em>IEEE Journal on Selected Areas in Communications</em></span>, vol. 42, no. 2, pp. 398–405, Nov. 2023. 
+<span><em>IEEE Journal on Selected Areas in Communications</em></span>, vol. 42, no. 2, pp. 398–405, Nov. 2023. 
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-13">@article{NguyenJSAC2023,
+  author = {Nguyen, V.-D. and Vu, T. X. and Nguyen, N. T. and Nguyen, D. C. and Juntti, M. and Nguyen, C. L. and Dinh, T. H. and Nguyen, D. N. and Chatzinotas, S.},
+  title = {Network-Aided Intelligent Traffic Steering in 6G ORAN: A Multi-Layer Optimization Framework},
+  journal = {IEEE Journal on Selected Areas in Communications},
+  year = {2023},
+  month = {nov},
+  volume = {42},
+  number = {2},
+  pages = {398--405}
+}</code></pre>
+
+    <textarea id="bibtex-13-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenJSAC2023,&#13;
+  author = {Nguyen, V.-D. and Vu, T. X. and Nguyen, N. T. and Nguyen, D. C. and Juntti, M. and Nguyen, C. L. and Dinh, T. H. and Nguyen, D. N. and Chatzinotas, S.},&#13;
+  title = {Network-Aided Intelligent Traffic Steering in 6G ORAN: A Multi-Layer Optimization Framework},&#13;
+  journal = {IEEE Journal on Selected Areas in Communications},&#13;
+  year = {2023},&#13;
+  month = {nov},&#13;
+  volume = {42},&#13;
+  number = {2},&#13;
+  pages = {398--405}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-13-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/47431/nbnfioulu-202401231426.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems</a>,"  
-<span style=""><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 3788–3804, Oct. 2023.   (Top reading in 2023–2024)
+<span><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 3788–3804, Oct. 2023.   (Top reading in 2023–2024)
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-14">@article{NguyenTSP2023THz,
+  author = {Nguyen, N. T. and Ma, M. and Lavi, O. and Shlezinger, N. and Eldar, Y. C. and Swindlehurst, A. L. and Juntti, M.},
+  title = {Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems},
+  journal = {IEEE Transactions on Signal Processing},
+  year = {2023},
+  month = {oct},
+  volume = {71},
+  pages = {3788--3804}
+}</code></pre>
+
+    <textarea id="bibtex-14-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenTSP2023THz,&#13;
+  author = {Nguyen, N. T. and Ma, M. and Lavi, O. and Shlezinger, N. and Eldar, Y. C. and Swindlehurst, A. L. and Juntti, M.},&#13;
+  title = {Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems},&#13;
+  journal = {IEEE Transactions on Signal Processing},&#13;
+  year = {2023},&#13;
+  month = {oct},&#13;
+  volume = {71},&#13;
+  pages = {3788--3804}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-14-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
 
 <li>
 <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10214237" target="_blank">Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation</a>,"  
-<span style=""><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 2997–3013, Aug. 2023.   (Top downloads SPS 2023–2024)
+<span><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 2997–3013, Aug. 2023.   (Top downloads SPS 2023–2024)
+
+<!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+<details style="display:block; margin-top:6px;">
+  <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+    <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+  </summary>
+
+  <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+    <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-15">@article{NguyenTSP2023Wideband,
+  author = {Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},
+  title = {Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation},
+  journal = {IEEE Transactions on Signal Processing},
+  year = {2023},
+  month = {aug},
+  volume = {71},
+  pages = {2997--3013}
+}</code></pre>
+
+    <textarea id="bibtex-15-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenTSP2023Wideband,&#13;
+  author = {Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},&#13;
+  title = {Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation},&#13;
+  journal = {IEEE Transactions on Signal Processing},&#13;
+  year = {2023},&#13;
+  month = {aug},&#13;
+  volume = {71},&#13;
+  pages = {2997--3013}&#13;
+}</textarea>
+
+    <button
+      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      onclick="(function(btn){var ta=document.getElementById('bibtex-15-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+      Copy
+    </button>
+  </div>
+</details>
 </li>
+
 
 <li>
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, V.-H. Nguyen, H. Q. Ngo, S. Chatzinotas, and M. Juntti,  
