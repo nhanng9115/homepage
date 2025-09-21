@@ -46,17 +46,20 @@ title: "Publications"
   doi = {10.1109/TNET.2024.3365815},
 }</textarea>
 
-      <!-- Copy button with inline handler (no <script>) -->
+      <!-- Copy button with inline handler (fixed: normalize newlines before copy) -->
       <button
         style="position:absolute; top:8px; right:8px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:4px 8px; cursor:pointer;"
         onclick="
           (function(btn){
             var ta = document.getElementById('bibtex-1-src');
-            ta.select(); ta.setSelectionRange(0, 999999);
+            // ✅ normalize line endings so pasted text stays multi-line
+            var text = ta.value.replace(/\r?\n/g, '\n');
+            ta.value = text;
+            ta.select(); ta.setSelectionRange(0, text.length);
             var ok = false;
             try { ok = document.execCommand('copy'); } catch(e) {}
             if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
-              navigator.clipboard.writeText(ta.value).then(function(){ ok = true; }).catch(function(){});
+              navigator.clipboard.writeText(text).then(function(){ ok = true; }).catch(function(){});
             }
             var old = btn.textContent;
             btn.textContent = ok ? 'Copied!' : 'Select & Ctrl/Cmd+C';
