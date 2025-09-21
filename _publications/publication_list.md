@@ -13,18 +13,20 @@ title: "Publications"
     <span><em>IEEE ICASSP</em></span>, 2025. (<strong>submitted</strong>)
 
     <!-- ==== BIB (only) for this item ==== -->
-    <div style="margin-top:8px;">
-      <details style="display:inline;">
+    <!-- Right-aligned container -->
+    <div style="margin-top:8px; text-align:right;">
+      <details style="display:inline-block;">
+        <!-- Shorter, wider “BibTex” button -->
         <summary
           style="
-            display:inline-block; padding:4px 14px; min-width:100px; text-align:center;
+            display:inline-block; padding:2px 14px; min-width:110px; text-align:center;
             background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px;
-            cursor:pointer; user-select:none; list-style:none; font-weight:600; font-size:13px;">
+            cursor:pointer; user-select:none; list-style:none; font-weight:600; font-size:12px; line-height:1;">
           BibTex
         </summary>
 
         <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px;">
-          <!-- Visible BibTeX (smaller font) -->
+          <!-- Visible BibTeX (small text) -->
           <pre style="margin:0; overflow:auto; font-size:12.5px; line-height:1.25;"><code id="bibtex-1">@inproceedings{MaNguyenICASSP2025,
   author = {Ma, M. and Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},
   title = {Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},
@@ -60,8 +62,8 @@ title: "Publications"
                 if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
                   navigator.clipboard.writeText(ta.value).then(function(){ ok = true; }).catch(function(){});
                 }
-                btn.innerHTML = '<svg width=14 height=14 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round><rect x=9 y=9 width=13 height=13 rx=2 ry=2></rect><path d=\'M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1\'></path></svg> ' + (ok ? 'Copied!' : 'Copy');
-                setTimeout(function(){ btn.innerHTML = '<svg width=14 height=14 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round><rect x=9 y=9 width=13 height=13 rx=2 ry=2></rect><path d=\'M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1\'></path></svg> Copy'; }, 1200);
+                btn.innerHTML = '<svg width=14 height=14 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round><rect x=9 y=9 width=13 height=13 rx=2 ry=2></rect><path d=\"M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1\"></path></svg> ' + (ok ? 'Copied!' : 'Copy');
+                setTimeout(function(){ btn.innerHTML = '<svg width=14 height=14 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round><rect x=9 y=9 width=13 height=13 rx=2 ry=2></rect><path d=\"M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1\"></path></svg> Copy'; }, 1200);
               })(this);
               return false;
             ">
@@ -78,6 +80,7 @@ title: "Publications"
   </li>
 
 </ol>
+
 
 
 
