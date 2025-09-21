@@ -92,64 +92,115 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
 ---
 
 <style>
-  /* Theme-aware button styling */
+  /* Accent colors that adapt to light/dark */
   :root {
-    --btn-fg: #0b5fff;
-    --btn-bg: rgba(11, 95, 255, 0.08);
-    --btn-border: rgba(11, 95, 255, 0.35);
-    --btn-fg-dark: #a6c8ff;
-    --btn-bg-dark: rgba(166, 200, 255, 0.12);
-    --btn-border-dark: rgba(166, 200, 255, 0.35);
+    --accent: #0b5fff;
+    --accent-weak: rgba(11,95,255,0.12);
+    --accent-border: rgba(11,95,255,0.35);
+
+    --copy-fg: #6b7280;           /* neutral gray for copy button */
+    --copy-bg: rgba(107,114,128,0.08);
+    --copy-border: rgba(107,114,128,0.35);
+
+    --code-bg: rgba(127,127,127,0.08);
   }
   @media (prefers-color-scheme: dark) {
-    .cite-btn {
-      color: var(--btn-fg-dark);
-      background: var(--btn-bg-dark);
-      border-color: var(--btn-border-dark);
-    }
-    .cite-btn:hover {
-      background: rgba(166, 200, 255, 0.2);
-      border-color: rgba(166, 200, 255, 0.6);
+    :root {
+      --accent: #a6c8ff;
+      --accent-weak: rgba(166,200,255,0.12);
+      --accent-border: rgba(166,200,255,0.35);
+
+      --copy-fg: #cbd5e1;
+      --copy-bg: rgba(203,213,225,0.10);
+      --copy-border: rgba(203,213,225,0.35);
+
+      --code-bg: rgba(255,255,255,0.06);
     }
   }
 
-  .cite-btn {
-    font: 500 0.85rem/1.2 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
-    color: var(--btn-fg);
-    background: var(--btn-bg);
-    border: 1px solid var(--btn-border);
-    border-radius: 999px;
-    padding: 0.4rem 0.8rem;
-    margin-top: 0.25rem;
-    cursor: pointer;
-    transition: background 120ms ease, border-color 120ms ease, transform 60ms ease;
-  }
-  .cite-btn:hover { background: rgba(11, 95, 255, 0.15); border-color: rgba(11, 95, 255, 0.6); }
-  .cite-btn:active { transform: translateY(1px); }
-
-  /* BibTeX block */
-  .bibtex {
-    display: none;
-    margin: 6px 0 0 0;
-    padding: 10px 12px;
-    border-left: 3px solid currentColor;
-    background: rgba(127,127,127,0.08);
+  /* Make BibTeX smaller and code-like */
+  pre.bibtex {
+    /* your inline display:none stays respected by JS toggle */
+    font: 0.85rem/1.45 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    background: var(--code-bg);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+    padding: 14px 12px;
+    margin-top: 6px !important; /* play nice with any inline margins */
+    position: relative;          /* needed to anchor the copy button */
     white-space: pre;
     overflow-x: auto;
   }
 
-  /* Keep list spacing tidy */
-  ol > li { margin-bottom: 0.75rem; }
+  /* “Copy” button that sits inside the BibTeX box */
+  .bibtex-copy-btn {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    font: 500 0.75rem/1 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+    color: var(--copy-fg);
+    background: var(--copy-bg);
+    border: 1px solid var(--copy-border);
+    border-radius: 8px;
+    padding: 4px 8px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: opacity 120ms ease, transform 60ms ease, border-color 120ms ease;
+  }
+  .bibtex-copy-btn:hover { opacity: 1; }
+  .bibtex-copy-btn:active { transform: translateY(1px); }
 </style>
 
 <script>
-  function toggleBibtex(btn) {
-    const block = btn.nextElementSibling;
-    const isHidden = getComputedStyle(block).display === 'none';
-    block.style.display = isHidden ? 'block' : 'none';
-    btn.textContent = isHidden ? 'Hide' : 'Cite';
-  }
+  // Auto-add a “Copy” button to every <pre class="bibtex"> without editing the list items.
+  (function () {
+    function addCopyButtons() {
+      document.querySelectorAll('pre.bibtex').forEach(pre => {
+        // Avoid duplicates if this runs more than once
+        if (pre.querySelector('.bibtex-copy-btn')) return;
+
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'bibtex-copy-btn';
+        btn.textContent = 'Copy';
+
+        btn.addEventListener('click', async () => {
+          const text = pre.textContent.trim();
+          try {
+            await navigator.clipboard.writeText(text);
+            const prev = btn.textContent;
+            btn.textContent = 'Copied!';
+            btn.disabled = true;
+            setTimeout(() => { btn.textContent = prev; btn.disabled = false; }, 1200);
+          } catch {
+            // Fallback for older browsers
+            const ta = document.createElement('textarea');
+            ta.value = text;
+            ta.style.position = 'fixed';
+            ta.style.opacity = '0';
+            document.body.appendChild(ta);
+            ta.select();
+            try { document.execCommand('copy'); } catch {}
+            document.body.removeChild(ta);
+            const prev = btn.textContent;
+            btn.textContent = 'Copied!';
+            setTimeout(() => { btn.textContent = prev; }, 1200);
+          }
+        });
+
+        // Insert the button at the start of the pre (positioned absolute)
+        pre.insertBefore(btn, pre.firstChild);
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', addCopyButtons);
+    } else {
+      addCopyButtons();
+    }
+  })();
 </script>
+
 
 # 📄 Journal Publications  
 <ol>
