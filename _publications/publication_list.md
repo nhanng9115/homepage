@@ -654,7 +654,6 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
   title = {Spectral Efficiency Analysis of Hybrid Relay-Reflecting Intelligent Surface-Assisted Cell-Free Massive MIMO Systems},
   journal = {IEEE Transactions on Wireless Communications},
   year = {2022},
-  month = {nov},
   volume = {22},
   number = {5},
   pages = {3397--3416}
@@ -665,7 +664,6 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
   title = {Spectral Efficiency Analysis of Hybrid Relay-Reflecting Intelligent Surface-Assisted Cell-Free Massive MIMO Systems},&#13;
   journal = {IEEE Transactions on Wireless Communications},&#13;
   year = {2022},&#13;
-  month = {nov},&#13;
   volume = {22},&#13;
   number = {5},&#13;
   pages = {3397--3416}&#13;
@@ -697,7 +695,6 @@ L. V. Nguyen, <strong>N. T. Nguyen</strong>, N. H. Tran, M. Juntti, A. L. Swindl
   title = {Leveraging Deep Neural Networks for Massive MIMO Data Detection},
   journal = {IEEE Wireless Communications},
   year = {2022},
-  month = {may},
   volume = {30},
   number = {1},
   pages = {174--180}
@@ -708,7 +705,6 @@ L. V. Nguyen, <strong>N. T. Nguyen</strong>, N. H. Tran, M. Juntti, A. L. Swindl
   title = {Leveraging Deep Neural Networks for Massive MIMO Data Detection},&#13;
   journal = {IEEE Wireless Communications},&#13;
   year = {2022},&#13;
-  month = {may},&#13;
   volume = {30},&#13;
   number = {1},&#13;
   pages = {174--180}&#13;
@@ -740,7 +736,6 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
   title = {MIMO Evolution Beyond 5G Through Reconfigurable Intelligent Surfaces and Fluid Antenna Systems},
   journal = {Proceedings of the IEEE},
   year = {2022},
-  month = {may},
   volume = {110},
   number = {9},
   pages = {1244--1265}
@@ -751,7 +746,6 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
   title = {MIMO Evolution Beyond 5G Through Reconfigurable Intelligent Surfaces and Fluid Antenna Systems},&#13;
   journal = {Proceedings of the IEEE},&#13;
   year = {2022},&#13;
-  month = {may},&#13;
   volume = {110},&#13;
   number = {9},&#13;
   pages = {1244--1265}&#13;
@@ -784,7 +778,6 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
   title = {Hybrid Beamforming and Adaptive RF Chain Activation for Cell-Free Millimeter-Wave Massive MIMO Systems},
   journal = {IEEE Transactions on Vehicular Technology},
   year = {2022},
-  month = {may},
   volume = {71},
   number = {8},
   pages = {8739--8755}
@@ -795,7 +788,6 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
   title = {Hybrid Beamforming and Adaptive RF Chain Activation for Cell-Free Millimeter-Wave Massive MIMO Systems},&#13;
   journal = {IEEE Transactions on Vehicular Technology},&#13;
   year = {2022},&#13;
-  month = {may},&#13;
   volume = {71},&#13;
   number = {8},&#13;
   pages = {8739--8755}&#13;
@@ -828,7 +820,6 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
   title = {Hybrid Relay-Reflecting Intelligent Surface-Assisted Wireless Communications},
   journal = {IEEE Transactions on Vehicular Technology},
   year = {2022},
-  month = {mar},
   volume = {71},
   number = {6},
   pages = {6228--6244}
@@ -839,7 +830,6 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
   title = {Hybrid Relay-Reflecting Intelligent Surface-Assisted Wireless Communications},&#13;
   journal = {IEEE Transactions on Vehicular Technology},&#13;
   year = {2022},&#13;
-  month = {mar},&#13;
   volume = {71},&#13;
   number = {6},&#13;
   pages = {6228--6244}&#13;
