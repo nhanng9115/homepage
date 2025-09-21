@@ -1276,7 +1276,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 
 <li>
   Huy T. Nguyen, <strong>N. T. Nguyen</strong>, Nguyen Cong Luong, Tri-Hai Nguyen, and Vo Nguyen Quoc Bao,  
-  "Max-Min Rate Optimization for Reconfigurable Intelligent Surfaces Aided ISAC Systems,"  
+  "<a href="https://nhanng9115.github.io/homepage/publications/" target="_blank">Max-Min Rate Optimization for Reconfigurable Intelligent Surfaces Aided ISAC Systems</a>,"  
   <span><em>24th International Symposium on Communications and Information Technologies (ISCIT)</em></span>, 2025.
 
   <!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
