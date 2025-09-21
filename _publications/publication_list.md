@@ -10,23 +10,25 @@ title: "Publications"
   <li>
     M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
     "<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
-    <span><em>IEEE ICASSP</em></span>, 2025. (<strong>submitted</strong>)
 
-    <!-- ==== BIB (only) for this item ==== -->
-    <!-- Right-align the BibTex button -->
-    <div style="margin-top:8px; text-align:right;">
-      <details style="display:inline-block;">
+    <!-- LAST LINE + right-aligned BibTex button on the same line -->
+    <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:2px;">
+      <span><em>IEEE ICASSP</em>, 2025. (<strong>submitted</strong>)</span>
+
+      <details style="display:inline-block; margin-left:auto;">
+        <!-- Smaller, short-height button -->
         <summary
           style="
-            display:inline-block; padding:4px 14px; min-width:100px; text-align:center;
+            display:inline-block; padding:2px 10px; min-width:84px; text-align:center;
             background:#eef2f7; border:1px solid #c7d2e0; border-radius:8px;
-            cursor:pointer; user-select:none; list-style:none; font-weight:600; font-size:13px;">
+            cursor:pointer; user-select:none; list-style:none; font-weight:600; font-size:12px; line-height:1;">
           BibTex
         </summary>
 
+        <!-- Pink panel drops below when opened -->
         <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px;">
-          <!-- Visible BibTeX -->
-          <pre style="margin:0; overflow:auto; font-size:12.5px; line-height:1.25;"><code id="bibtex-1">@inproceedings{MaNguyenICASSP2025,
+          <!-- Visible BibTeX (smaller font) -->
+          <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-1">@inproceedings{MaNguyenICASSP2025,
   author = {Ma, M. and Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},
   title = {Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},
   booktitle = {Proc. IEEE ICASSP},
@@ -45,7 +47,7 @@ title: "Publications"
   url = {https://arxiv.org/pdf/2509.11725}&#13;
 }</textarea>
 
-          <!-- Copy button (text only) -->
+          <!-- Copy button (text only, small) -->
           <button
             style="
               position:absolute; top:6px; right:6px;
@@ -71,10 +73,11 @@ title: "Publications"
         </div>
       </details>
     </div>
-    <!-- ==== /BIB ==== -->
+    <!-- ==== /last line + BibTex ==== -->
   </li>
 
 </ol>
+
 
 
 
