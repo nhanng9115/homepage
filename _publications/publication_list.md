@@ -529,8 +529,9 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
 
 </ol>
 
+{% raw %}
 <script>
-(function () {
+document.addEventListener('DOMContentLoaded', function () {
   // ----------- helpers -----------
   const htmlEscape = s => s.replace(/[&<>"']/g, c => ({
     '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
@@ -539,125 +540,100 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
   const normText = el => (el ? el.textContent : '').replace(/\s+/g,' ').trim();
 
   function guessType(venue) {
-    const v = venue.toLowerCase();
-    if (/(transactions|journal|magazine|proceedings of the ieee|oj-comsoc|access)/.test(v)) return 'article';
-    if (/(conference|workshop|symposium|icc|wcnc|glob[e]?com|asilomar|spawc|icassp|eucap|eucnc|vtc|meditcom|ssp|wsa|isap|jc&s)/i.test(venue)) return 'inproceedings';
+    const v = (venue || '').toLowerCase();
+    if (/(transactions|journal|magazine|proceedings of the ieee|open journal|access)/.test(v)) return 'article';
+    if (/(conference|workshop|symposium|icc|wcnc|globecom|asilomar|spawc|icassp|eucap|eucnc|vtc|meditcom|ssp|wsa|isap|jc&s)/i.test(venue)) return 'inproceedings';
     return 'inproceedings';
   }
 
   function keyFrom(authors, venue, year, title) {
-    // First author last name (or your last name if first author is "M." etc.), then a short venue token, then year
     const first = (authors.split(' and ')[0] || '').split(',')[0].trim();
     const last = first.split(' ').slice(-1)[0].replace(/[^A-Za-z]/g,'') || 'Nguyen';
-    const vtok = (venue.match(/[A-Z]{2,}/g) || [venue.replace(/\b(the|of|on|and|for|in)\b/gi,'').split(/\s+/).map(w=>w[0]).join('')])[0];
-    const safeV = (vtok || 'Conf').replace(/[^A-Za-z]/g,'');
+    const vtok = (venue || '').match(/[A-Z]{2,}/g);
+    const safeV = (vtok ? vtok[0] : (venue || 'Conf').replace(/\b(the|of|on|and|for|in)\b/gi,'').split(/\s+/).map(w=>w[0]).join('')).replace(/[^A-Za-z]/g,'') || 'Conf';
     const safeYear = String(year || '').replace(/\D/g,'') || 'XXXX';
-    // Add a short word from title for uniqueness
     const w = (title || '').replace(/[^A-Za-z0-9 ]/g,'').split(/\s+/).find(s=>s.length>3) || 'Paper';
     return (last + safeV + safeYear + w).slice(0,40);
   }
 
-  function bibtexFor(li, idx) {
-    // Parse structure:
-    // [authors text] “<a>Title</a>,” linebreak <em>Venue</em>, YEAR. (status)
+  function bibtexFor(li) {
     const a = li.querySelector('a[href]');
     const title = normText(a);
     const url = a ? a.getAttribute('href') : '';
 
-    // authors appear in the text node(s) before the first quoted title
-    // capture everything before the first opening quote of the title anchor
+    // Authors = text before the title anchor
     let pre = '';
     for (const n of li.childNodes) {
       if (n.nodeType === 1 && n.contains(a)) break;
       pre += (n.nodeType === 3 ? n.nodeValue : n.textContent) || '';
     }
-    pre = pre.replace(/\s+/g,' ').trim().replace(/[“”"]/g,'"');
-    // Clean trailing commas before the quote
-    pre = pre.replace(/\s*,\s*$/, '');
+    pre = pre.replace(/\s+/g,' ').trim();
 
-    // Authors are typically like: "M. Ma, N. T. Nguyen, ..." -> convert to BibTeX "Last, First and ..."
     function toBibAuthors(s) {
-      // split by commas, then rebuild pairs (very heuristic but works well for your list)
       const parts = s.split(/\s*,\s*/).filter(Boolean);
-      const names = [];
-      for (let i=0;i<parts.length;i++) {
-        const p = parts[i];
-        // if it looks like "and" or "&", skip (not present in your list though)
-        if (/^\s*(and|&)\s*$/i.test(p)) continue;
-        names.push(p);
-      }
-      // Convert "H. T. Nguyen" -> "Nguyen, H. T."
       const conv = n => {
         const toks = n.trim().split(/\s+/);
         const last = toks[toks.length-1];
         const firsts = toks.slice(0,-1).join(' ');
         return `${last}, ${firsts}`.replace(/\s+,/g,',').trim();
       };
-      return names.map(conv).join(' and ');
+      return parts.map(conv).join(' and ');
     }
     const authors = pre ? toBibAuthors(pre) : 'Nguyen, N. T.';
 
-    // venue + year + note
     const em = li.querySelector('em');
     const venue = normText(em);
-    // Try to locate the year after the <em>
-    let year = (li.innerHTML.match(/,\s*(\d{4})/)||[])[1] || '';
-    const statusMatch = li.innerHTML.match(/\((\*\*[^)]+?\*\*|accepted|submitted|major revision|in press|manuscript in preparation)\)/i);
-    const noteRaw = statusMatch ? statusMatch[1] : '';
-    const note = noteRaw.replace(/\*\*/g,'').trim();
+
+    // Robust year: take the first 4-digit number after the venue <em>
+    let year = '';
+    if (em) {
+      const tail = li.innerHTML.split(em.outerHTML).pop();
+      const m = tail && tail.match(/(\d{4})/);
+      year = m ? m[1] : '';
+    } else {
+      const m = li.textContent.match(/(\d{4})/);
+      year = m ? m[1] : '';
+    }
+
+    const statusMatch = li.textContent.match(/\((submitted|accepted|major revision|in press|manuscript in preparation)\)/i);
+    const note = statusMatch ? statusMatch[1] : '';
 
     const type = guessType(venue);
     const key  = keyFrom(authors, venue, year, title);
 
-    if (type === 'article') {
-      return {
-        key,
-        text:
-`@article{${key},
-  author   = {${authors}},
-  title    = {${title}},
-  journal  = {${venue}},
-  year     = {${year}}${note ? `,\n  note     = {${note}}` : ''}${url ? `,\n  url      = {${url}}` : ''}
-}`
-      };
-    } else {
-      return {
-        key,
-        text:
-`@inproceedings{${key},
-  author    = {${authors}},
-  title     = {${title}},
-  booktitle = {${venue}},
-  year      = {${year}}${note ? `,\n  note      = {${note}}` : ''}${url ? `,\n  url       = {${url}}` : ''}
-}`
-      };
-    }
+    const fields = [
+      `author   = {${authors}}`,
+      `title    = {${title}}`,
+      `${type==='article' ? 'journal' : 'booktitle'}  = {${venue}}`,
+      `year     = {${year}}`
+    ];
+    if (note) fields.push(`note     = {${note}}`);
+    if (url)  fields.push(`url      = {${url}}`);
+
+    const entry =
+`@${type}{${key},
+  ${fields.join(',\n  ')}
+}`;
+
+    return { key, text: entry };
   }
 
-  function hasDetails(li){
-    return !!li.querySelector('details');
-  }
+  function hasDetails(li){ return !!li.querySelector('details'); }
 
-  // ----------- main pass -----------
   const allLis = Array.from(document.querySelectorAll('ol > li'));
   let counter = 1;
 
   allLis.forEach(li => {
-    if (hasDetails(li)) return; // don't duplicate if you've manually added one
+    if (hasDetails(li)) return;
 
-    const a = li.querySelector('a[href]');
-    // Only add if we can at least find a title link or some text
-    const info = bibtexFor(li, counter);
+    const info = bibtexFor(li);
     const id = `bibtex-${counter++}`;
-
-    // Build details HTML (your exact styles)
     const bibVisible = htmlEscape(info.text);
     const bibRaw = info.text.replace(/\n/g,'&#13;');
 
     const details = document.createElement('details');
     details.style.display = 'block';
     details.style.marginTop = '6px';
-
     details.innerHTML = `
       <summary style="display:flex; justify-content:flex-end; align-items:center; list-style:none; cursor:pointer; padding:0;">
         <span
@@ -678,6 +654,7 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
           onclick="
             (function(btn){
               var ta = document.getElementById('${id}-src');
+              if (!ta) return false;
               ta.select(); ta.setSelectionRange(0, 999999);
               var ok = false;
               try { ok = document.execCommand('copy'); } catch(e) {}
@@ -694,9 +671,9 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
         </button>
       </div>
     `;
-
-    // Insert after the venue/year line (i.e., at the end of the <li>)
     li.appendChild(details);
   });
-})();
+});
 </script>
+{% endraw %}
+
