@@ -123,7 +123,7 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-2-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -158,7 +158,7 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-3-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -199,7 +199,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-4-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -234,7 +234,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-5-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -273,7 +273,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-6-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -311,7 +311,7 @@ E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-7-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -352,7 +352,7 @@ E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-8-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -393,7 +393,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-9-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -432,7 +432,7 @@ I. Bilbao, E. Iradier, J. Montalban, P. Angueira, <strong>N. T. Nguyen</strong>,
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-10-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -473,7 +473,7 @@ N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-11-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -514,7 +514,7 @@ N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-12-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -555,7 +555,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-13-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -594,7 +594,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-14-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -633,7 +633,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-15-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -674,7 +674,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-16-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -715,7 +715,7 @@ L. V. Nguyen, <strong>N. T. Nguyen</strong>, N. H. Tran, M. Juntti, A. L. Swindl
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-17-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -756,7 +756,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-18-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -798,7 +798,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-19-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -840,7 +840,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-20-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -883,7 +883,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-21-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -923,7 +923,7 @@ Q.-V. Pham, <strong>N. T. Nguyen</strong>, T. T. Huynh, L. B. Le, K. Lee, W.-J. 
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-22-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -964,7 +964,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-23-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -1005,7 +1005,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-24-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -1046,7 +1046,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-25-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -1087,7 +1087,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-26-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -1128,7 +1128,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-27-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -1169,7 +1169,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-28-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -1206,7 +1206,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-29-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
       Copy
     </button>
@@ -1251,7 +1251,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-30-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1285,7 +1285,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-31-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1319,7 +1319,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-32-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1353,7 +1353,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-33-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1387,7 +1387,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-34-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1421,7 +1421,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-35-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1455,7 +1455,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-36-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1489,7 +1489,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-37-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1523,7 +1523,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-38-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1557,7 +1557,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-39-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1591,7 +1591,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-40-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1625,7 +1625,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-41-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1659,7 +1659,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-42-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1693,7 +1693,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-43-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1727,7 +1727,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-44-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1761,7 +1761,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-45-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1795,7 +1795,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-46-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1829,7 +1829,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-47-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1863,7 +1863,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-48-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1897,7 +1897,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-49-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1931,7 +1931,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-50-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1965,7 +1965,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-51-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -1999,7 +1999,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-52-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -2033,7 +2033,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-53-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -2067,7 +2067,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-54-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -2101,7 +2101,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-55-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -2135,7 +2135,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-56-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -2169,7 +2169,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-57-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -2203,7 +2203,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-58-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -2237,7 +2237,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-59-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -2271,7 +2271,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 }</textarea>
 
       <button
-        style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
         onclick="(function(btn){var ta=document.getElementById('bibtex-60-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
         Copy
       </button>
@@ -2304,7 +2304,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
   year = {2022}&#13;
 }</textarea>
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-30-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">Copy</button>
   </div>
 </details>
@@ -2333,7 +2333,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
   year = {2022}&#13;
 }</textarea>
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-31-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">Copy</button>
   </div>
 </details>
@@ -2362,7 +2362,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
   year = {2022}&#13;
 }</textarea>
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-32-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">Copy</button>
   </div>
 </details>
@@ -2391,7 +2391,7 @@ E. Egashira, D. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year = {2022}&#13;
 }</textarea>
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-33-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">Copy</button>
   </div>
 </details>
@@ -2420,7 +2420,7 @@ T. H.-The, Q.-V. Pham, T.-V. Nguyen, V.-S. Doan, <strong>N. T. Nguyen</strong>, 
   year = {2021}&#13;
 }</textarea>
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-34-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">Copy</button>
   </div>
 </details>
@@ -2449,7 +2449,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year = {2021}&#13;
 }</textarea>
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-35-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">Copy</button>
   </div>
 </details>
@@ -2478,7 +2478,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year = {2021}&#13;
 }</textarea>
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-36-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">Copy</button>
   </div>
 </details>
@@ -2507,7 +2507,7 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
   year = {2021}&#13;
 }</textarea>
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-37-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">Copy</button>
   </div>
 </details>
@@ -2536,7 +2536,7 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
   year = {2021}&#13;
 }</textarea>
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-38-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">Copy</button>
   </div>
 </details>
@@ -2565,7 +2565,7 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
   year = {2021}&#13;
 }</textarea>
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-39-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">Copy</button>
   </div>
 </details>
@@ -2594,7 +2594,7 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
   year = {2021}&#13;
 }</textarea>
     <button
-      style="position:absolute; top:6px; right:6px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+      style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
       onclick="(function(btn){var ta=document.getElementById('bibtex-40-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">Copy</button>
   </div>
 </details>
