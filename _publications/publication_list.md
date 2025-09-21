@@ -52,13 +52,13 @@ title: "Publications"
         onclick="
           (function(btn){
             var ta = document.getElementById('bibtex-1-src');
-			var text = ta.value.replace(/\r?\n/g, '\n');
-   			ta.value = text;
-            ta.select(); ta.setSelectionRange(0, 999999);
+            var text = ta.value.replace(/\r?\n/g, '\n');
+            ta.value = text;
+            ta.select(); ta.setSelectionRange(0, text.length);
             var ok = false;
             try { ok = document.execCommand('copy'); } catch(e) {}
             if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
-              navigator.clipboard.writeText(ta.value).then(function(){ ok = true; }).catch(function(){});
+              navigator.clipboard.writeText(text).then(function(){ ok = true; }).catch(function(){});
             }
             var old = btn.textContent;
             btn.textContent = ok ? 'Copied!' : 'Select & Ctrl/Cmd+C';
