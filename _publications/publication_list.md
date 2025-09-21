@@ -105,14 +105,13 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
     <details class="cite">
       <summary class="cite-toggle">Cite</summary>
 
-      <!-- ChatGPT-style code block -->
-      <div class="cgpt-codeblock" data-title="BibTeX">
+      <!-- ChatGPT-like code box with a top-right Copy button -->
+      <div class="cgpt-codeblock">
         <button type="button" class="cgpt-copy" aria-label="Copy BibTeX">
-          <!-- inline SVG icon -->
           <svg class="cgpt-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
             <path d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 16H8V7h11v14z" fill="currentColor"/>
           </svg>
-          <span class="cgpt-copy-label">Copy code</span>
+          <span class="cgpt-copy-label">Copy</span>
         </button>
 
         <pre class="cgpt-pre"><code class="cgpt-code bibtex">@article{nguyen2025energy,
@@ -128,102 +127,8 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
   </li>
 </ul>
 
-<style>
-  .pub-list { list-style: disc; padding-left: 1.25rem; }
-  .pub-item { margin: 0.5rem 0 1.25rem; }
-
-  /* toggle button */
-  .cite-toggle {
-    display: inline-block; margin-left: 0.5rem; padding: 0.25rem 0.6rem;
-    font-size: 0.875rem; border: 1px solid #d0d7de; border-radius: 8px;
-    background: #f6f8fa; cursor: pointer;
-  }
-  .cite-toggle::-webkit-details-marker { display: none; }
-  .cite-toggle::marker { content: ""; }
-  .cite[open] .cite-toggle { background: #eef4ff; border-color: #bcd3ff; }
-
-  /* ChatGPT-like code block */
-  .cgpt-codeblock {
-    position: relative;
-    margin-top: 0.6rem;
-    border: 1px solid #e2e8f0;
-    border-radius: 12px;
-    background: #ffffff;
-    overflow: hidden;
-  }
-
-  .cgpt-copy {
-    position: absolute; top: 8px; right: 8px;
-    display: inline-flex; align-items: center; gap: 6px;
-    padding: 6px 10px; font-size: 12px; line-height: 1;
-    border: 1px solid #d0d7de; border-radius: 8px;
-    background: #f6f8fa; cursor: pointer;
-  }
-  .cgpt-copy:focus { outline: 2px solid #1a73e8; outline-offset: 2px; }
-  .cgpt-icon { opacity: 0.85; }
-
-  .cgpt-pre {
-    margin: 0; padding: 14px 14px 16px 14px;
-    background: #fbfbfb;
-    max-height: 28rem; overflow: auto;
-    font-size: 0.92rem; line-height: 1.45;
-  }
-  .cgpt-code { white-space: pre; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-</style>
-
-<script>
-  // ChatGPT-like "Copy code" (robust + fallback)
-  (function () {
-    function copyText(text) {
-      if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(text);
-      }
-      return new Promise(function (resolve, reject) {
-        const ta = document.createElement('textarea');
-        ta.value = text; ta.setAttribute('readonly', '');
-        ta.style.position = 'fixed'; ta.style.top = '-1000px'; ta.style.opacity = '0';
-        document.body.appendChild(ta);
-        ta.select();
-        try {
-          const ok = document.execCommand('copy');
-          document.body.removeChild(ta);
-          ok ? resolve() : reject(new Error('execCommand failed'));
-        } catch (e) {
-          document.body.removeChild(ta);
-          reject(e);
-        }
-      });
-    }
-
-    function handleClick(e) {
-      const btn = e.target.closest('.cgpt-copy');
-      if (!btn) return;
-
-      const block = btn.closest('.cgpt-codeblock');
-      const codeEl = block && block.querySelector('.cgpt-code');
-      const text = codeEl ? (codeEl.innerText || codeEl.textContent || '') : '';
-      if (!text) return;
-
-      const label = btn.querySelector('.cgpt-copy-label');
-      const orig = label ? label.textContent : 'Copy code';
-
-      copyText(text).then(function () {
-        if (label) label.textContent = 'Copied!';
-        btn.disabled = true;
-        setTimeout(function () {
-          if (label) label.textContent = orig;
-          btn.disabled = false;
-        }, 1200);
-      }).catch(function () {
-        // Even if copy fails, let users know they can Ctrl/Cmd+C
-        if (label) label.textContent = 'Select & Ctrl/Cmd+C';
-        setTimeout(function () { if (label) label.textContent = orig; }, 1800);
-      });
-    }
-
-    document.addEventListener('click', handleClick);
-  })();
-</script>
+<link rel="stylesheet" href="/assets/css/cite.css">
+<script src="/assets/copy-bib.js" defer></script>
 
 <li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
