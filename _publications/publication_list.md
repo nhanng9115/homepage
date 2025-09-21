@@ -5,6 +5,10 @@ title: "Publications"
 
 ---
 
+<style>
+  ol li > a[href]{ color:#0EA5A2; }
+  ol li > a[href]:hover{ color:#0F766E; text-decoration:underline; }
+</style>
 
 
 
