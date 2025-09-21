@@ -6,29 +6,29 @@ title: "Publications"
 ---
 
 <style>
-  /* --- Strong Purple palette with auto light/dark --- */
+  /* --- Sapphire Blue palette with auto light/dark --- */
   :root{
-    /* Light mode defaults */
-    --link:#7C3AED;           /* violet-600 */
-    --link-hover:#6D28D9;     /* violet-700 */
-    --bib-bg:#F5F3FF;         /* violet-50 */
-    --bib-bg-hover:#EDE9FE;   /* violet-100 */
-    --bib-border:#A78BFA;     /* violet-400 */
-    --bib-text:#4C1D95;       /* violet-900 */
+    /* Light mode */
+    --link:#2563EB;            /* blue-600 */
+    --link-hover:#1D4ED8;      /* blue-700 */
+    --bib-bg:#EFF6FF;          /* blue-50 */
+    --bib-bg-hover:#DBEAFE;    /* blue-100 */
+    --bib-border:#60A5FA;      /* blue-400 */
+    --bib-text:#1E3A8A;        /* indigo-900 */
   }
   @media (prefers-color-scheme: dark){
     :root{
-      /* Dark mode variants */
-      --link:#C4B5FD;         /* violet-300 */
-      --link-hover:#A78BFA;   /* violet-400 */
-      --bib-bg:#2F1B4A;       /* deep violet */
-      --bib-bg-hover:#3A245A; /* slightly lighter */
-      --bib-border:#8B5CF6;   /* violet-500 */
-      --bib-text:#E9D5FF;     /* violet-200 */
+      /* Dark mode */
+      --link:#93C5FD;          /* blue-300 */
+      --link-hover:#60A5FA;    /* blue-400 */
+      --bib-bg:#0B1220;        /* deep navy */
+      --bib-bg-hover:#13203A;  /* slightly lighter */
+      --bib-border:#3B82F6;    /* blue-500 */
+      --bib-text:#DBEAFE;      /* blue-200 */
     }
   }
 
-  /* Paper title links (KEEP underline) */
+  /* Paper title links (keep underline) */
   ol li > a[href]{
     color:var(--link) !important;
     text-decoration:underline;
@@ -44,7 +44,7 @@ title: "Publications"
     outline:none;
   }
 
-  /* “BibTex” button: targets the inline-styled span inside <summary> */
+  /* “BibTex” button (matches your inline span inside <summary>) */
   details > summary > span[style*="min-width:84px"]{
     background:var(--bib-bg) !important;
     border-color:var(--bib-border) !important;
@@ -60,6 +60,7 @@ title: "Publications"
     outline:none;
   }
 </style>
+
 
 
 # 📝 Submitted and Under Revision  
