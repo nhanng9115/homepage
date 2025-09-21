@@ -4,76 +4,136 @@ title: "Publications"
 ---
 
 ---
-<!-- ===== Publication card with copyable BibTeX (no <script> tag needed) ===== -->
-<h3 style="margin:0;">Encrypted data caching and learning framework for robust federated learning-based mobile edge computing</h3>
-<p style="margin:6px 0 0 0; font-weight:600;">
-  H. C. Nguyen, Y. Saputra, D. T. Hoang, D. N. Nguyen, and 3 more authors
-</p>
-<p style="margin:2px 0 10px 0; font-style:italic;">IEEE/ACM Transactions on Networking, 2024</p>
 
-<div style="margin:10px 0; display:flex; gap:8px; flex-wrap:wrap;">
-  <a href="#" style="padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; text-decoration:none;">ABS</a>
+<ol>
 
-  <details style="display:inline;">
-    <summary style="display:inline-block; padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; cursor:pointer; user-select:none; list-style:none;">
-      BIB
-    </summary>
+  <li>
+    M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
+    "<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
+    <span><em>IEEE ICASSP</em></span>, 2025. (<strong>submitted</strong>)
 
-    <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:12px;">
-      <!-- Visible code block for pretty display -->
-      <pre style="margin:0; overflow:auto;"><code id="bibtex-1">@article{ToN2024,
+    <!-- ==== BIB (only) for item 1 ==== -->
+    <div style="margin-top:8px;">
+      <details style="display:inline;">
+        <summary style="display:inline-block; padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; cursor:pointer; user-select:none; list-style:none;">
+          BIB
+        </summary>
+
+        <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:12px;">
+          <!-- Visible BibTeX -->
+          <pre style="margin:0; overflow:auto;"><code id="bibtex-1">@inproceedings{MaNguyenICASSP2025,
+  author = {Ma, M. and Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},
+  title = {Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},
+  booktitle = {Proc. IEEE ICASSP},
+  year = {2025},
+  note = {submitted},
+  url = {https://arxiv.org/pdf/2509.11725}
+}</code></pre>
+
+          <!-- Hidden textarea used only for copying (CRLF via &#13; so pasted text is multi-line) -->
+          <textarea id="bibtex-1-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@inproceedings{MaNguyenICASSP2025,&#13;
+  author = {Ma, M. and Nguyen, N. T. and Shlezinger, N. and Eldar, Y. C. and Juntti, M.},&#13;
+  title = {Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},&#13;
+  booktitle = {Proc. IEEE ICASSP},&#13;
+  year = {2025},&#13;
+  note = {submitted},&#13;
+  url = {https://arxiv.org/pdf/2509.11725}&#13;
+}</textarea>
+
+          <!-- Copy button (same working logic) -->
+          <button
+            style="position:absolute; top:8px; right:8px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:4px 8px; cursor:pointer;"
+            onclick="
+              (function(btn){
+                var ta = document.getElementById('bibtex-1-src');
+                ta.select(); ta.setSelectionRange(0, 999999);
+                var ok = false;
+                try { ok = document.execCommand('copy'); } catch(e) {}
+                if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
+                  navigator.clipboard.writeText(ta.value).then(function(){ ok = true; }).catch(function(){});
+                }
+                var old = btn.textContent;
+                btn.textContent = ok ? 'Copied!' : 'Select & Ctrl/Cmd+C';
+                setTimeout(function(){ btn.textContent = old; }, 1200);
+              })(this);
+              return false;
+            ">
+            Copy
+          </button>
+
+          <div style="font-size:12px; opacity:0.8; margin-top:6px;">If the button says “Select &amp; Ctrl/Cmd+C”, press Ctrl/Cmd+C to copy.</div>
+        </div>
+      </details>
+    </div>
+    <!-- ==== /BIB for item 1 ==== -->
+  </li>
+
+  <li>
+    H. C. Nguyen, Y. Saputra, D. T. Hoang, D. N. Nguyen, and 3 more authors,  
+    "Encrypted data caching and learning framework for robust federated learning-based mobile edge computing,"  
+    <span><em>IEEE/ACM Transactions on Networking</em></span>, 2024.
+
+    <!-- ==== BIB (only) for item 2 ==== -->
+    <div style="margin-top:8px;">
+      <details style="display:inline;">
+        <summary style="display:inline-block; padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; cursor:pointer; user-select:none; list-style:none;">
+          BIB
+        </summary>
+
+        <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:12px;">
+          <!-- Visible BibTeX -->
+          <pre style="margin:0; overflow:auto;"><code id="bibtex-2">@article{ToN2024,
   author = {Nguyen, H. C. and Saputra, Y. and Hoang, D. T. and Nguyen, D. N.},
   journal = {IEEE/ACM Transactions on Networking},
   title = {Encrypted data caching and learning framework for robust federated learning-based mobile edge computing},
   year = {2024},
-  month = {},
   volume = {22},
   number = {},
   pages = {},
-  doi = {10.1109/TNET.2024.3365815},
+  doi = {10.1109/TNET.2024.3365815}
 }</code></pre>
 
-      <!-- Hidden textarea used only for copying (CRLF via &#13; so pasted text is multi-line) -->
-      <textarea id="bibtex-1-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{ToN2024,&#13;
+          <!-- Hidden textarea used only for copying (CRLF via &#13; so pasted text is multi-line) -->
+          <textarea id="bibtex-2-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{ToN2024,&#13;
   author = {Nguyen, H. C. and Saputra, Y. and Hoang, D. T. and Nguyen, D. N.},&#13;
   journal = {IEEE/ACM Transactions on Networking},&#13;
   title = {Encrypted data caching and learning framework for robust federated learning-based mobile edge computing},&#13;
   year = {2024},&#13;
-  month = {},&#13;
   volume = {22},&#13;
   number = {},&#13;
   pages = {},&#13;
-  doi = {10.1109/TNET.2024.3365815},&#13;
+  doi = {10.1109/TNET.2024.3365815}&#13;
 }</textarea>
 
-      <!-- Copy button with inline handler (unchanged) -->
-      <button
-        style="position:absolute; top:8px; right:8px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:4px 8px; cursor:pointer;"
-        onclick="
-          (function(btn){
-            var ta = document.getElementById('bibtex-1-src');
-            ta.select(); ta.setSelectionRange(0, 999999);
-            var ok = false;
-            try { ok = document.execCommand('copy'); } catch(e) {}
-            if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
-              navigator.clipboard.writeText(ta.value).then(function(){ ok = true; }).catch(function(){});
-            }
-            var old = btn.textContent;
-            btn.textContent = ok ? 'Copied!' : 'Select & Ctrl/Cmd+C';
-            setTimeout(function(){ btn.textContent = old; }, 1200);
-          })(this);
-          return false;
-        ">
-        Copy
-      </button>
+          <!-- Copy button (same working logic) -->
+          <button
+            style="position:absolute; top:8px; right:8px; border:1px solid #c7d2e0; background:#eef2f7; border-radius:6px; padding:4px 8px; cursor:pointer;"
+            onclick="
+              (function(btn){
+                var ta = document.getElementById('bibtex-2-src');
+                ta.select(); ta.setSelectionRange(0, 999999);
+                var ok = false;
+                try { ok = document.execCommand('copy'); } catch(e) {}
+                if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
+                  navigator.clipboard.writeText(ta.value).then(function(){ ok = true; }).catch(function(){});
+                }
+                var old = btn.textContent;
+                btn.textContent = ok ? 'Copied!' : 'Select & Ctrl/Cmd+C';
+                setTimeout(function(){ btn.textContent = old; }, 1200);
+              })(this);
+              return false;
+            ">
+            Copy
+          </button>
 
-      <div style="font-size:12px; opacity:0.8; margin-top:6px;">If the button says “Select &amp; Ctrl/Cmd+C”, press Ctrl/Cmd+C to copy.</div>
+          <div style="font-size:12px; opacity:0.8; margin-top:6px;">If the button says “Select &amp; Ctrl/Cmd+C”, press Ctrl/Cmd+C to copy.</div>
+        </div>
+      </details>
     </div>
-  </details>
+    <!-- ==== /BIB for item 2 ==== -->
+  </li>
 
-  <a href="#" style="padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; text-decoration:none;">HTML</a>
-  <a href="https://doi.org/10.1109/TNET.2024.3365815" style="padding:6px 10px; background:#eef2f7; border:1px solid #c7d2e0; border-radius:6px; text-decoration:none;">PDF</a>
-</div>
+</ol>
 
 
 # 📝 Submitted and Under Revision  
