@@ -151,7 +151,7 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
   }
 </script>
 
-<!-- 📄 Journal Publications -->
+# 📄 Journal Publications  
 <ol>
 
 <li>
