@@ -8,88 +8,66 @@ redirect_from:
 ---
 
 <style>
-/* High-contrast section dividers */
+/* =========================
+   Theme: Sapphire Blue (light/dark)
+   ========================= */
+
+/* Light mode defaults */
 :root { 
   --divider-color: #111; 
-  --accent:#1E90FF;       /* keep your original accent blue */
-  --ink:#111; 
-  --muted:#6b7280; 
-  --highlight:#d97706;    /* teal highlight */
+  --accent: #1E90FF;     /* keep your original accent blue */
+  --ink: #111; 
+  --muted: #6b7280; 
+  --highlight: #d97706;  /* warm accent for badges (kept) */
+
+  /* New link palette (Sapphire Blue) */
+  --link: #2563EB;       /* blue-600 */
+  --link-hover: #1D4ED8; /* blue-700 */
 }
+
+/* Dark mode variants */
 @media (prefers-color-scheme: dark){
   :root { 
     --divider-color: #eee; 
-    --ink:#eee; 
-    --muted:#9aa0a6; 
-    --highlight:#0d9488;  /* same teal for dark mode */
+    --ink: #eee; 
+    --muted: #9aa0a6; 
+    --highlight: #F59E0B; /* amber-500 for better contrast in dark */
+
+    --link: #93C5FD;       /* blue-300 */
+    --link-hover: #60A5FA; /* blue-400 */
   }
 }
+
+/* High-contrast section dividers */
 hr.section-divider{
   border: 0;
   border-top: 3px solid var(--divider-color);
   margin: 1.2rem 0 1.2rem 0;
   opacity: 1;
 }
+
+/* Badge/highlight text */
 .hl-flag{ 
-  color:var(--highlight); 
-  font-weight:600; 
+  color: var(--highlight); 
+  font-weight: 600; 
 }
-</style>
 
-<style>
-  /* --- Sapphire Blue palette with auto light/dark --- */
-  :root{
-    /* Light mode */
-    --link:#2563EB;            /* blue-600 */
-    --link-hover:#1D4ED8;      /* blue-700 */
-    --bib-bg:#EFF6FF;          /* blue-50 */
-    --bib-bg-hover:#DBEAFE;    /* blue-100 */
-    --bib-border:#60A5FA;      /* blue-400 */
-    --bib-text:#1E3A8A;        /* indigo-900 */
-  }
-  @media (prefers-color-scheme: dark){
-    :root{
-      /* Dark mode */
-      --link:#93C5FD;          /* blue-300 */
-      --link-hover:#60A5FA;    /* blue-400 */
-      --bib-bg:#0B1220;        /* deep navy */
-      --bib-bg-hover:#13203A;  /* slightly lighter */
-      --bib-border:#3B82F6;    /* blue-500 */
-      --bib-text:#DBEAFE;      /* blue-200 */
-    }
-  }
-
-  /* Paper title links (keep underline) */
-  ol li > a[href]{
-    color:var(--link) !important;
-    text-decoration:underline;
-    text-decoration-color:var(--link);
-    text-underline-offset:2px;
-    text-decoration-thickness:1.5px;
-    transition:color .15s ease, text-decoration-color .15s ease;
-  }
-  ol li > a[href]:hover,
-  ol li > a[href]:focus{
-    color:var(--link-hover) !important;
-    text-decoration-color:var(--link-hover);
-    outline:none;
-  }
-
-  /* “BibTex” button (matches your inline span inside <summary>) */
-  details > summary > span[style*="min-width:84px"]{
-    background:var(--bib-bg) !important;
-    border-color:var(--bib-border) !important;
-    color:var(--bib-text) !important;
-    transition:background-color .15s ease, color .15s ease, border-color .15s ease;
-  }
-  details[open] > summary > span[style*="min-width:84px"],
-  details > summary > span[style*="min-width:84px"]:hover,
-  details > summary > span[style*="min-width:84px"]:focus{
-    background:var(--bib-bg-hover) !important;
-    border-color:var(--bib-border) !important;
-    color:var(--bib-text) !important;
-    outline:none;
-  }
+/* Link styling in main content: keep underline, tint it, and animate */
+p a[href],
+li a[href]{
+  color: var(--link) !important;
+  text-decoration: underline;
+  text-decoration-color: var(--link);
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1.5px;
+  transition: color .15s ease, text-decoration-color .15s ease;
+}
+p a[href]:hover, p a[href]:focus,
+li a[href]:hover, li a[href]:focus{
+  color: var(--link-hover) !important;
+  text-decoration-color: var(--link-hover);
+  outline: none;
+}
 </style>
 
 
