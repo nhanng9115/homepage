@@ -36,6 +36,61 @@ hr.section-divider{
 }
 </style>
 
+<style>
+  /* --- Sapphire Blue palette with auto light/dark --- */
+  :root{
+    /* Light mode */
+    --link:#2563EB;            /* blue-600 */
+    --link-hover:#1D4ED8;      /* blue-700 */
+    --bib-bg:#EFF6FF;          /* blue-50 */
+    --bib-bg-hover:#DBEAFE;    /* blue-100 */
+    --bib-border:#60A5FA;      /* blue-400 */
+    --bib-text:#1E3A8A;        /* indigo-900 */
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      /* Dark mode */
+      --link:#93C5FD;          /* blue-300 */
+      --link-hover:#60A5FA;    /* blue-400 */
+      --bib-bg:#0B1220;        /* deep navy */
+      --bib-bg-hover:#13203A;  /* slightly lighter */
+      --bib-border:#3B82F6;    /* blue-500 */
+      --bib-text:#DBEAFE;      /* blue-200 */
+    }
+  }
+
+  /* Paper title links (keep underline) */
+  ol li > a[href]{
+    color:var(--link) !important;
+    text-decoration:underline;
+    text-decoration-color:var(--link);
+    text-underline-offset:2px;
+    text-decoration-thickness:1.5px;
+    transition:color .15s ease, text-decoration-color .15s ease;
+  }
+  ol li > a[href]:hover,
+  ol li > a[href]:focus{
+    color:var(--link-hover) !important;
+    text-decoration-color:var(--link-hover);
+    outline:none;
+  }
+
+  /* “BibTex” button (matches your inline span inside <summary>) */
+  details > summary > span[style*="min-width:84px"]{
+    background:var(--bib-bg) !important;
+    border-color:var(--bib-border) !important;
+    color:var(--bib-text) !important;
+    transition:background-color .15s ease, color .15s ease, border-color .15s ease;
+  }
+  details[open] > summary > span[style*="min-width:84px"],
+  details > summary > span[style*="min-width:84px"]:hover,
+  details > summary > span[style*="min-width:84px"]:focus{
+    background:var(--bib-bg-hover) !important;
+    border-color:var(--bib-border) !important;
+    color:var(--bib-text) !important;
+    outline:none;
+  }
+</style>
 
 
 👨🏻‍💻 I’m an **Assistant Professor** and **Academy Research Fellow** at Centre for Wireless Communications (CWC), University of Oulu (UOulu), Finland.  
