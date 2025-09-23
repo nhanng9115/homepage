@@ -123,8 +123,8 @@ L. V. Nguyen, R. Liu, <strong>N. T. Nguyen</strong>, M. Juntti, B. Ottersten, an
 
 <li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
-"Data-free knowledge distillation for LiDAR-aided beam tracking,"  
-<span style=""><em>IEEE Transactions on Vehicular Technology</em></span>, 2025. (**manuscript in preparation**)
+"Data-Free Knowledge Distillation for LiDAR-Aided Beam Tracking in MmWave Systems,"  
+<span style=""><em>IEEE Transactions on Vehicular Technology</em></span>, 2025. (**submitted**)
 </li>
 
 <li>
