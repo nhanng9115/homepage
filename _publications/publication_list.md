@@ -1287,14 +1287,14 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
     </summary>
 
     <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
-      <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-30">@inproceedings{NguyenISCIT2025MaxMin,
+      <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-30">@inproceedings{raza2025efficient,
   author = {Raza, A. and Nguyen, N. T. and Juntti, M.},
   title = {Efficient Direction-of-Arrival Estimation via Model-based Machine Learning},
   booktitle = {Proc. IEEE Conference on Network Functions Virtualization and Software-Defined Networking (NFV-SDN)},
   year = {2025}
 }</code></pre>
 
-      <textarea id="bibtex-30-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@inproceedings{NguyenISCIT2025MaxMin,&#13;
+      <textarea id="bibtex-30-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@inproceedings{raza2025efficient,&#13;
   author = {Raza, A. and Nguyen, N. T. and Juntti, M.},&#13;
   title = {Efficient Direction-of-Arrival Estimation via Model-based Machine Learning},&#13;
   booktitle = {Proc. IEEE Conference on Network Functions Virtualization and Software-Defined Networking (NFV-SDN)},&#13;
@@ -1322,14 +1322,14 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
     </summary>
 
     <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
-      <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-30">@inproceedings{NguyenISCIT2025MaxMin,
+      <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-30">@inproceedings{tran2025DRL,
   author = {Tran, P. and Nguyen, N. T. and Juntti, M.},
   title = {DRL for Joint Active and Passive Beamforming in RIS-aided MIMO Systems},
   booktitle = {Proc. IEEE Conference on Network Functions Virtualization and Software-Defined Networking (NFV-SDN)},
   year = {2025}
 }</code></pre>
 
-      <textarea id="bibtex-30-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@inproceedings{NguyenISCIT2025MaxMin,&#13;
+      <textarea id="bibtex-30-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@inproceedings{tran2025DRL,&#13;
   author = {Tran, P. and Nguyen, N. T. and Juntti, M.},&#13;
   title = {DRL for Joint Active and Passive Beamforming in RIS-aided MIMO Systems},&#13;
   booktitle = {Proc. IEEE Conference on Network Functions Virtualization and Software-Defined Networking (NFV-SDN)},&#13;
