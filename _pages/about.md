@@ -148,25 +148,26 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 <hr class="section-divider">
 
 ## 📰 Recent news
-**Sep 9, 2025** — Paper accepted to **_IEEE Journal on Selected Areas in Communications_**.  
-**Aug 20, 2025** — Abolfazl’s paper accepted to **_IEEE Communications Letters_**.  
-**Aug 1, 2025** — Abolfazl’s paper accepted to **_IEEE GLOBECOM 2025_**.  
-**Jul 16, 2025** — Phuong’s paper accepted to **_Asilomar 2025_**.  
-**May 25, 2025** — Two papers accepted to **_IEEE SPAWC 2025_** (by Ali and Smriti).  
-**May 17, 2025** — Mengyuan’s paper accepted to **_IEEE Wireless Communications Letters_**.  
-**May 4, 2025** — Mengyuan’s paper accepted to **_IEEE Transactions on Wireless Communications_**.  
-**Mar 18, 2025** — Paper accepted to **_IEEE Transactions on Signal Processing_**.  
+**Sep 23, 2025:** Ali's and Phuong's papers accepted to **_IEEE NFV-SDN 2025_**.  
+**Sep 9, 2025:** Paper accepted to **_IEEE Journal on Selected Areas in Communications_**.  
+**Aug 20, 2025:** Abolfazl’s paper accepted to **_IEEE Communications Letters_**.  
+**Aug 1, 2025:** Abolfazl’s paper accepted to **_IEEE GLOBECOM 2025_**.  
+**Jul 16, 2025:** Phuong’s paper accepted to **_Asilomar 2025_**.  
+**May 25, 2025:** Two papers accepted to **_IEEE SPAWC 2025_** (by Ali and Smriti).  
+**May 17, 2025:** Mengyuan’s paper accepted to **_IEEE Wireless Communications Letters_**.  
+**May 4, 2025:** Mengyuan’s paper accepted to **_IEEE Transactions on Wireless Communications_**.  
+**Mar 18, 2025:** Paper accepted to **_IEEE Transactions on Signal Processing_**.  
 
 <details>
 <summary><strong>🕰️ Older highlights</strong></summary>
 
 <ul>
-  <li><b>Dec 21, 2024</b> — Three papers accepted to <i>IEEE WCNC</i>.</li>
-  <li><b>Dec 20, 2024</b> — Two papers accepted to <i>IEEE ICASSP</i>.</li>
-  <li><b>Dec 12, 2024</b> — EuCAP 2025 acceptance (ML-Assisted RIS for ISAC).</li>
-  <li><b>Oct 24, 2024</b> — TSP paper listed among SPS Top 25 downloads (Sep 2023–Sep 2024).</li>
-  <li><b>Sep–Jul 2024</b> — Multiple acceptances: T-VT, JSTSP SI (ISAC), Globecom, Asilomar, SPAWC.</li>
-  <li><b>Earlier (2021–2023)</b> — Best Paper Awards (SSP, SPAWC, ATC); major acceptances in TWC, TSP, VTM; Academy Fellowship awarded (2023).</li>
+  <li><b>Dec 21, 2024:</b> Three papers accepted to <i>IEEE WCNC</i>.</li>
+  <li><b>Dec 20, 2024:</b> Two papers accepted to <i>IEEE ICASSP</i>.</li>
+  <li><b>Dec 12, 2024:</b> EuCAP 2025 acceptance (ML-Assisted RIS for ISAC).</li>
+  <li><b>Oct 24, 2024:</b> TSP paper listed among SPS Top 25 downloads (Sep 2023–Sep 2024).</li>
+  <li><b>Sep–Jul 2024:</b> Multiple acceptances: T-VT, JSTSP SI (ISAC), Globecom, Asilomar, SPAWC.</li>
+  <li><b>Earlier (2021–2023):</b> Best Paper Awards (SSP, SPAWC, ATC); major acceptances in TWC, TSP, VTM; Academy Fellowship awarded (2023).</li>
 </ul>
 
 </details>
