@@ -1276,6 +1276,76 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 <ol>
 
 <li>
+  A. Raza, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+  "<a href="" target="_blank">Efficient Direction-of-Arrival Estimation via Model-based Machine Learning</a>,"  
+  <span><em>11th IEEE Conference on Network Functions Virtualization and Software-Defined Networking (NFV-SDN)</em></span>, 2025.
+
+  <!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+  <details style="display:block; margin-top:6px;">
+    <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+      <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+    </summary>
+
+    <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+      <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-30">@inproceedings{NguyenISCIT2025MaxMin,
+  author = {Raza, A. and Nguyen, N. T. and Juntti, M.},
+  title = {Efficient Direction-of-Arrival Estimation via Model-based Machine Learning},
+  booktitle = {Proc. IEEE Conference on Network Functions Virtualization and Software-Defined Networking (NFV-SDN)},
+  year = {2025}
+}</code></pre>
+
+      <textarea id="bibtex-30-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@inproceedings{NguyenISCIT2025MaxMin,&#13;
+  author = {Raza, A. and Nguyen, N. T. and Juntti, M.},&#13;
+  title = {Efficient Direction-of-Arrival Estimation via Model-based Machine Learning},&#13;
+  booktitle = {Proc. IEEE Conference on Network Functions Virtualization and Software-Defined Networking (NFV-SDN)},&#13;
+  year = {2025}&#13;
+}</textarea>
+
+      <button
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        onclick="(function(btn){var ta=document.getElementById('bibtex-30-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+        Copy
+      </button>
+    </div>
+  </details>
+</li>
+
+<li>
+  P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+  "<a href="" target="_blank">DRL for Joint Active and Passive Beamforming in RIS-aided MIMO Systems</a>,"  
+  <span><em>11th IEEE Conference on Network Functions Virtualization and Software-Defined Networking (NFV-SDN)</em></span>, 2025.
+
+  <!-- ===== BibTex button on a separate line (left), panel left-aligned ===== -->
+  <details style="display:block; margin-top:6px;">
+    <summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;">
+      <span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTex</span>
+    </summary>
+
+    <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
+      <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-30">@inproceedings{NguyenISCIT2025MaxMin,
+  author = {Tran, P. and Nguyen, N. T. and Juntti, M.},
+  title = {DRL for Joint Active and Passive Beamforming in RIS-aided MIMO Systems},
+  booktitle = {Proc. IEEE Conference on Network Functions Virtualization and Software-Defined Networking (NFV-SDN)},
+  year = {2025}
+}</code></pre>
+
+      <textarea id="bibtex-30-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@inproceedings{NguyenISCIT2025MaxMin,&#13;
+  author = {Tran, P. and Nguyen, N. T. and Juntti, M.},&#13;
+  title = {DRL for Joint Active and Passive Beamforming in RIS-aided MIMO Systems},&#13;
+  booktitle = {Proc. IEEE Conference on Network Functions Virtualization and Software-Defined Networking (NFV-SDN)},&#13;
+  year = {2025}&#13;
+}</textarea>
+
+      <button
+        style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;"
+        onclick="(function(btn){var ta=document.getElementById('bibtex-30-src');ta.select();ta.setSelectionRange(0,999999);var ok=false;try{ok=document.execCommand('copy')}catch(e){}if(!ok&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){ok=true}).catch(function(){})}var old=btn.textContent;btn.textContent=ok?'Copied!':'Copy';setTimeout(function(){btn.textContent=old},1200)})(this);return false;">
+        Copy
+      </button>
+    </div>
+  </details>
+</li>
+
+<li>
   Huy T. Nguyen, <strong>N. T. Nguyen</strong>, Nguyen Cong Luong, Tri-Hai Nguyen, and Vo Nguyen Quoc Bao,  
   "<a href="" target="_blank">Max-Min Rate Optimization for Reconfigurable Intelligent Surfaces Aided ISAC Systems</a>,"  
   <span><em>24th International Symposium on Communications and Information Technologies (ISCIT)</em></span>, 2025.
