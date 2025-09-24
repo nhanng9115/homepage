@@ -18,13 +18,12 @@ title: "Publications"
 }
 @media (prefers-color-scheme: dark){
   :root{
-    /* Dark mode (improved contrast) */
-    --link:#60A5FA;           /* blue-400 */
-    --link-hover:#F472B6;     /* pink-400 */
+    --link:#E9D5FF;           /* violet-200 (very light purple) */
+    --link-hover:#C084FC;     /* violet-300 (a bit deeper) */
     --bib-bg:#0F172A;         /* deep slate */
-    --bib-bg-hover:#1E293B;   /* slightly lighter slate */
-    --bib-border:#8B5CF6;     /* violet-500 */
-    --bib-text:#F3F4F6;       /* gray-100 */
+    --bib-bg-hover:#1E1B4B;   /* indigo-950 */
+    --bib-border:#A78BFA;     /* violet-400 */
+    --bib-text:#F5F3FF;       /* violet-50 (soft lavender white) */
   }
 }
 
