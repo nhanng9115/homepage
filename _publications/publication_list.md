@@ -6,25 +6,25 @@ title: "Publications"
 ---
 
 <style>
-  /* --- Exciting Cosmic Neon palette with auto light/dark --- */
+/* --- Vibrant Teal-Magenta palette with auto light/dark --- */
 :root{
   /* Light mode */
-  --link:#7C3AED;            /* violet-600 */
-  --link-hover:#DB2777;      /* pink-600 */
-  --bib-bg:#F5F3FF;          /* violet-50 */
-  --bib-bg-hover:#EDE9FE;    /* violet-100 */
-  --bib-border:#A855F7;      /* violet-400 */
-  --bib-text:#1E293B;        /* slate-900 */
+  --link:#0D9488;            /* teal-600 */
+  --link-hover:#BE185D;      /* rose-700 */
+  --bib-bg:#ECFEFF;          /* cyan-50 */
+  --bib-bg-hover:#CFFAFE;    /* cyan-100 */
+  --bib-border:#06B6D4;      /* cyan-500 */
+  --bib-text:#0F172A;        /* slate-900 */
 }
 @media (prefers-color-scheme: dark){
   :root{
     /* Dark mode */
-    --link:#C084FC;           /* violet-300 */
+    --link:#67E8F9;           /* cyan-300 */
     --link-hover:#F472B6;     /* pink-400 */
     --bib-bg:#0F172A;         /* deep slate */
-    --bib-bg-hover:#1E1B4B;   /* dark indigo */
-    --bib-border:#8B5CF6;     /* violet-500 */
-    --bib-text:#E9D5FF;       /* violet-200 */
+    --bib-bg-hover:#164E63;   /* dark teal */
+    --bib-border:#22D3EE;     /* cyan-400 */
+    --bib-text:#F0FDFA;       /* teal-50 */
   }
 }
 
