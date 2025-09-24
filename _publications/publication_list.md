@@ -6,27 +6,28 @@ title: "Publications"
 ---
 
 <style>
-/* --- Vibrant Teal-Magenta palette with auto light/dark --- */
+/* --- Exciting Cosmic Neon palette with fixed dark mode --- */
 :root{
-  /* Light mode */
-  --link:#0D9488;            /* teal-600 */
-  --link-hover:#BE185D;      /* rose-700 */
-  --bib-bg:#ECFEFF;          /* cyan-50 */
-  --bib-bg-hover:#CFFAFE;    /* cyan-100 */
-  --bib-border:#06B6D4;      /* cyan-500 */
-  --bib-text:#0F172A;        /* slate-900 */
+  /* Light mode (unchanged) */
+  --link:#7C3AED;            /* violet-600 */
+  --link-hover:#DB2777;      /* pink-600 */
+  --bib-bg:#F5F3FF;          /* violet-50 */
+  --bib-bg-hover:#EDE9FE;    /* violet-100 */
+  --bib-border:#A855F7;      /* violet-400 */
+  --bib-text:#1E293B;        /* slate-900 */
 }
 @media (prefers-color-scheme: dark){
   :root{
-    /* Dark mode */
-    --link:#67E8F9;           /* cyan-300 */
+    /* Dark mode (improved contrast) */
+    --link:#60A5FA;           /* blue-400 */
     --link-hover:#F472B6;     /* pink-400 */
     --bib-bg:#0F172A;         /* deep slate */
-    --bib-bg-hover:#164E63;   /* dark teal */
-    --bib-border:#22D3EE;     /* cyan-400 */
-    --bib-text:#F0FDFA;       /* teal-50 */
+    --bib-bg-hover:#1E293B;   /* slightly lighter slate */
+    --bib-border:#8B5CF6;     /* violet-500 */
+    --bib-text:#F3F4F6;       /* gray-100 */
   }
 }
+
 
 
   /* Paper title links (keep underline) */
