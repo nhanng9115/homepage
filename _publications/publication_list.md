@@ -18,14 +18,24 @@ title: "Publications"
 }
 @media (prefers-color-scheme: dark){
   :root{
-    --link:#E9D5FF;           /* violet-200 (very light purple) */
-    --link-hover:#C084FC;     /* violet-300 (a bit deeper) */
-    --bib-bg:#0F172A;         /* deep slate */
-    --bib-bg-hover:#1E1B4B;   /* indigo-950 */
-    --bib-border:#A78BFA;     /* violet-400 */
-    --bib-text:#F5F3FF;       /* violet-50 (soft lavender white) */
+    /* High-contrast lavender on dark */
+    --link:#F0E6FF;         /* very light lavender */
+    --link-hover:#E1C8FF;   /* slightly deeper but still bright */
+    --bib-bg:#2B2B33;       /* dark card bg (not pitch black) */
+    --bib-bg-hover:#3A3A44; /* a step lighter for hover */
+    --bib-border:#C9B6FF;   /* light lavender border */
+    --bib-text:#FAF7FF;     /* near-white lavender for body text */
   }
 }
+
+/* (Optional but recommended for readability on dark) */
+a{
+  text-decoration: underline;
+  text-decoration-color: var(--link);
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+}
+
 
 
 
