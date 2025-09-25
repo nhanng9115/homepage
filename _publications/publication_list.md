@@ -40,52 +40,47 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 
 <script>
 (function(){
+  // --- helpers (safe, minimal) ---
   function clean(s){ return (s||"").replace(/\s+/g," ").trim(); }
 
-  // Title = text of first link (fallback to quoted text)
-  function extractTitle(li){
-    const a = li.querySelector("a[href]");
+  // Get first anchor's text for the title; fallback to quoted text
+  function quotedTitle(li){
+    const a = li.querySelector('a[href]');
     if (a) return clean(a.textContent);
     const m = li.textContent.match(/"([^"]{3,})"/);
     return m ? m[1].trim() : "Untitled";
   }
 
-  // Authors = EVERYTHING before the first <a> (DOM-robust)
-  function extractAuthors(li){
-    const a = li.querySelector("a[href]");
+  // Authors = everything BEFORE the first anchor, using a DOM Range (robust to tags)
+  function extractAuthorsBeforeFirstAnchor(li){
+    const a = li.querySelector('a[href]');
     if (!a) return clean(li.textContent);
-    const clone = li.cloneNode(true);
-    const firstA = clone.querySelector("a[href]");
-    // remove the first <a> and everything after it
-    if (firstA){
-      // remove all siblings after <a>
-      while (firstA.nextSibling) firstA.parentNode.removeChild(firstA.nextSibling);
-      // remove the <a> itself
-      firstA.parentNode.removeChild(firstA);
-    }
-    // now clone contains only content BEFORE the first link
-    let txt = clean(clone.textContent);
-    // trim leading/trailing punctuation and quotes
-    txt = txt.replace(/^[\s,:"“”]+|[\s,:"“”]+$/g,"");
+    const range = document.createRange();
+    range.setStart(li, 0);
+    range.setEnd(a, 0);
+    // text up to (but not including) the link
+    let txt = clean(range.toString());
+    // strip dangling punctuation/quotes
+    txt = txt.replace(/^[\s,:"“”]+|[\s,:"“”]+$/g, "");
     return txt;
   }
 
-  // Venue from <em> if present
+  // Venue from <em> tag if present
   function extractVenue(li){
-    const em = li.querySelector("em");
+    const em = li.querySelector('em');
     return em ? clean(em.textContent) : "";
   }
 
-  // Last 4-digit year in the item
+  // Year = last 4-digit year found
   function extractYear(li){
-    const txt = clean(li.textContent);
-    const years = txt.match(/\b(?:19|20)\d{2}\b/g);
-    return years ? years[years.length-1] : "";
+    const years = clean(li.textContent).match(/\b(?:19|20)\d{2}\b/g);
+    return years ? years[years.length - 1] : "";
   }
 
-  function fallbackBib(li){
-    const authors = extractAuthors(li);
-    const title   = extractTitle(li);
+  // --- your generator, improved but with the same signature ---
+  function fallbackBib(li, _titleFromCaller){
+    const authors = extractAuthorsBeforeFirstAnchor(li);
+    const title   = quotedTitle(li); // use robust title
     const venue   = extractVenue(li);
     const year    = extractYear(li);
 
@@ -93,7 +88,6 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
     const firstSurname = (authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"") || "key";
     const key = `${firstSurname}${year||""}Auto`;
 
-    // pretty print
     let lines = [];
     if (isJournal){
       lines.push(`@article{${key},`);
@@ -108,21 +102,21 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
       lines.push(`  booktitle = {${venue || "Conference"}},`);
       if (year) lines.push(`  year      = {${year}},`);
     }
-    // remove trailing comma on last field
-    lines[lines.length-1] = lines[lines.length-1].replace(/,$/,"");
-    lines.push('}');
-    return lines.join('\n');
+    // remove trailing comma from last field
+    lines[lines.length - 1] = lines[lines.length - 1].replace(/,$/, "");
+    lines.push("}");
+    return lines.join("\n");
   }
 
   function buildPanel(bib){
-    const box=document.createElement("div");box.className="bibtex-box";
-    const copy=document.createElement("button");copy.className="bibtex-copy";copy.textContent="Copy";
-    copy.onclick=()=>{navigator.clipboard.writeText(bib).then(()=>{copy.textContent="Copied!";setTimeout(()=>copy.textContent="Copy",1200);});};
-    const pre=document.createElement("pre");pre.textContent=bib;
-    box.appendChild(copy);box.appendChild(pre);
-    return box;
+    const box = document.createElement("div"); box.className = "bibtex-box";
+    const copy = document.createElement("button"); copy.className = "bibtex-copy"; copy.textContent = "Copy";
+    copy.onclick = () => { navigator.clipboard.writeText(bib).then(()=>{ copy.textContent="Copied!"; setTimeout(()=>copy.textContent="Copy",1200); }); };
+    const pre = document.createElement("pre"); pre.textContent = bib;
+    box.appendChild(copy); box.appendChild(pre); return box;
   }
 
+  // --- KEEPING YOUR ORIGINAL addButtons EXACTLY ---
   function addButtons(){
     document.querySelectorAll("li").forEach(li=>{
       if(li.querySelector(".bibtex-btn"))return;
