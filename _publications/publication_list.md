@@ -1,6 +1,6 @@
---- 
-permalink: /publications/ 
-title: "Publications" 
+---
+permalink: /publications/
+title: "Publications"
 ---
 
 ---
@@ -26,9 +26,16 @@ title: "Publications"
   function fallbackBib(li,title){
     const txt=clean(li.textContent),url=firstLink(li);
     const before=title?(txt.split(` "${title}"`)[0]||txt.split(title)[0]||txt):txt;
-    const authors=clean(before.replace(/,\s*$/,""));
+
+    /* === ONLY CHANGE: normalize authors to BibTeX "and" list === */
+    let authors=clean(before.replace(/,\s*$/,""));
+    authors=authors.replace(/,\s*and\s+/i,", ");
+    const parts=authors.split(/\s*,\s*/).filter(Boolean);
+    authors=parts.join(" and ");
+    /* === END CHANGE === */
+
     const em=li.querySelector("em");const venue=em?clean(em.textContent):"";const year=(txt.match(/(19|20)\d{2}/)||[,""])[1];
-    const isJournal=/Transactions|Journal|Letters/i.test(venue);const key=(authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"")+(year||"");
+    const isJournal=/Transactions|Journal|Letters/i.test(venue);const key=(authors.split(" and ")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"")+(year||"");
     return isJournal?
 `@article{${key},
   author={${authors}},
@@ -61,4 +68,3 @@ title: "Publications"
   if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",addButtons);}else{addButtons();}
 })();
 </script>
-<img width="468" height="644" alt="image" src="https://github.com/user-attachments/assets/0f533abb-1b89-4a2e-b112-462c31bb8d97" />
