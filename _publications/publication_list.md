@@ -22,26 +22,32 @@ title: "Publications"
 (function(){
   function clean(s){return (s||"").replace(/\s+/g," ").trim();}
   function firstLink(el){const a=el.querySelector("a[href]");return a?a.href:null;}
+
+  // Prefer anchor text; fallback to quoted text in textContent
   function quotedTitle(li){
-  // Prefer the anchor text if present (safe & robust)
-  const a = li.querySelector("a[href]");
-  if (a) return (a.textContent || "").replace(/\s+/g," ").trim();
-  // Fallback: try to find text wrapped in quotes in *textContent* (not innerHTML)
-  const m = (li.textContent || "").match(/"([^"]{3,})"/);
-  return m ? m[1].trim() : null;}
+    const a = li.querySelector("a[href]");
+    if (a) return clean(a.textContent || "");
+    const m = (li.textContent || "").match(/"([^"]{3,})"/);
+    return m ? m[1].trim() : null;
+  }
+
   function fallbackBib(li,title){
     const txt=clean(li.textContent),url=firstLink(li);
     const before=title?(txt.split(` "${title}"`)[0]||txt.split(title)[0]||txt):txt;
 
-    /* === ONLY CHANGE: normalize authors to BibTeX "and" list === */
+    /* Authors -> BibTeX "and" list */
     let authors=clean(before.replace(/,\s*$/,""));
     authors=authors.replace(/,\s*and\s+/i,", ");
     const parts=authors.split(/\s*,\s*/).filter(Boolean);
     authors=parts.join(" and ");
-    /* === END CHANGE === */
 
-    const em=li.querySelector("em");const venue=em?clean(em.textContent):"";const year=(txt.match(/(19|20)\d{2}/)||[,""])[1];
-    const isJournal=/Transactions|Journal|Letters/i.test(venue);const key=(authors.split(" and ")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"")+(year||"");
+    const em=li.querySelector("em");const venue=em?clean(em.textContent):"";
+    // Capture full 4-digit year
+    const year=(txt.match(/\b(19|20)\d{2}\b/)||[""])[0];
+
+    const isJournal=/Transactions|Journal|Letters/i.test(venue);
+    const key=(authors.split(" and ")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"")+(year||"");
+
     return isJournal?
 `@article{${key},
   author={${authors}},
@@ -56,21 +62,37 @@ title: "Publications"
   year={${year}}${url?`,\n  url={${url}}`:""}
 }`;
   }
+
   function buildPanel(bib){
     const box=document.createElement("div");box.className="bibtex-box";
     const copy=document.createElement("button");copy.className="bibtex-copy";copy.textContent="Copy";
     copy.onclick=()=>{navigator.clipboard.writeText(bib).then(()=>{copy.textContent="Copied!";setTimeout(()=>copy.textContent="Copy",1200);});};
     const pre=document.createElement("pre");pre.textContent=bib;box.appendChild(copy);box.appendChild(pre);return box;
   }
+
   function addButtons(){
     document.querySelectorAll("li").forEach(li=>{
       if(li.querySelector(".bibtex-btn"))return;
       if(!/(19|20)\d{2}/.test(li.textContent))return;
       const btn=document.createElement("button");btn.className="bibtex-btn";btn.textContent="BibTex";
-      btn.onclick=()=>{document.querySelectorAll(".bibtex-box").forEach(b=>b.remove());const bib=fallbackBib(li,quotedTitle(li));btn.insertAdjacentElement("afterend",buildPanel(bib));};
-      li.appendChild(document.createElement("br"));li.appendChild(btn);
+      btn.onclick=()=>{
+        document.querySelectorAll(".bibtex-box").forEach(b=>b.remove());
+        const bib=fallbackBib(li,quotedTitle(li));
+        btn.insertAdjacentElement("afterend",buildPanel(bib));
+      };
+      li.appendChild(document.createElement("br"));
+      li.appendChild(btn);
     });
   }
-  if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",addButtons);}else{addButtons();}
+
+  // Tiny safety: run at DOM ready, and once again on load & microtask
+  function ensureButtons(){ try{ addButtons(); }catch(e){ /* noop */ } }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",ensureButtons);
+  }else{
+    ensureButtons();
+  }
+  window.addEventListener("load", ()=>setTimeout(ensureButtons, 0));
 })();
 </script>
