@@ -43,65 +43,73 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
   function clean(s){return (s||"").replace(/\s+/g," ").trim();}
   function firstLink(el){const a=el.querySelector("a[href]");return a?a.href:null;}
 
-  // Prefer the first anchor's text as the title; fallback to quoted text; never return null
+  // keep the same name/signature used by your addButtons
   function quotedTitle(li){
+    // Prefer first anchor text; fallback to quoted text; never return null
     const a = li.querySelector("a[href]");
     if (a && a.textContent) return clean(a.textContent);
     const m = li.textContent.match(/"([^"]{3,})"/);
     return m ? m[1].trim() : "Untitled";
   }
 
-  function fallbackBib(li,title){
-    const txt = clean(li.textContent);
+  // HARDENED: only internal parsing changes, wrapped in try/catch
+  function fallbackBib(li, titleFromCaller){
+    try{
+      const txt = clean(li.textContent);
 
-    // Title: robustly from the first anchor text (ignore HTML)
-    const a = li.querySelector("a[href]");
-    const safeTitle = a && a.textContent ? clean(a.textContent) : (title || quotedTitle(li));
+      // Title (safe, text only)
+      const a = li.querySelector("a[href]");
+      const anchorText = a && a.textContent ? clean(a.textContent) : null;
+      const title = anchorText || (titleFromCaller ? clean(titleFromCaller) : "Untitled");
 
-    // Authors: everything BEFORE the first anchor text occurrence (DOM-light, no brittle HTML splits)
-    let authors;
-    if (a && a.textContent){
-      const anchorText = clean(a.textContent);
-      const idx = txt.indexOf(anchorText);
-      const before = idx >= 0 ? txt.slice(0, idx) : txt;
-      authors = clean(before.replace(/^[\s,:"“”]+|[\s,:"“”]+$/g,""));
-    } else {
-      // Fallback: up to the first quoted title, or all text if none
-      const m = txt.match(/"([^"]{3,})"/);
-      const before = m ? txt.split(m[0])[0] : txt;
-      authors = clean(before.replace(/^[\s,:"“”]+|[\s,:"“”]+$/g,""));
+      // Authors = everything before the first anchor's visible text
+      let authors;
+      if (anchorText){
+        const idx = txt.indexOf(anchorText);
+        const before = idx >= 0 ? txt.slice(0, idx) : txt;
+        authors = clean(before.replace(/^[\s,:"“”]+|[\s,:"“”]+$/g,""));
+      } else {
+        // fallback: before first quoted title if present
+        const m = txt.match(/"([^"]{3,})"/);
+        const before = m ? txt.split(m[0])[0] : txt;
+        authors = clean(before.replace(/^[\s,:"“”]+|[\s,:"“”]+$/g,""));
+      }
+
+      // Venue & Year
+      const em = li.querySelector("em");
+      const venue = em ? clean(em.textContent) : "";
+      const years = txt.match(/\b(?:19|20)\d{2}\b/g);
+      const year  = years ? years[years.length-1] : "";
+
+      // Type & key
+      const isJournal = /Transactions|Journal|Selected Areas in Communications|Letters|JSAC|Wireless Communications Letters|Communications Letters/i.test(venue);
+      const firstSurname = (authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"") || "key";
+      const key = `${firstSurname}${year||""}Auto`;
+
+      // Pretty print (no url)
+      let lines = [];
+      if (isJournal){
+        lines.push(`@article{${key},`);
+        lines.push(`  author  = {${authors}},`);
+        lines.push(`  title   = {${title}},`);
+        lines.push(`  journal = {${venue}},`);
+        if (year) lines.push(`  year    = {${year}},`);
+      } else {
+        lines.push(`@inproceedings{${key},`);
+        lines.push(`  author    = {${authors}},`);
+        lines.push(`  title     = {${title}},`);
+        lines.push(`  booktitle = {${venue || "Conference"}},`);
+        if (year) lines.push(`  year      = {${year}},`);
+      }
+      // remove trailing comma on last field
+      lines[lines.length-1] = lines[lines.length-1].replace(/,$/,"");
+      lines.push("}");
+      return lines.join("\n");
+    }catch(e){
+      // Never crash → still show something and keep buttons working
+      const safeTxt = clean(li.textContent);
+      return `@misc{ref,\n  note = {Auto-generated; parsing failed},\n  howpublished = {${safeTxt.slice(0,180)}...}\n}`;
     }
-
-    // Venue & year
-    const em = li.querySelector("em");
-    const venue = em ? clean(em.textContent) : "";
-    const years = txt.match(/\b(?:19|20)\d{2}\b/g);
-    const year = years ? years[years.length-1] : "";
-
-    // Type & key
-    const isJournal = /Transactions|Journal|Selected Areas in Communications|Letters|JSAC|Wireless Communications Letters|Communications Letters/i.test(venue);
-    const firstSurname = (authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"") || "key";
-    const key = `${firstSurname}${year||""}Auto`;
-
-    // Pretty print (no url)
-    let lines = [];
-    if (isJournal){
-      lines.push(`@article{${key},`);
-      lines.push(`  author  = {${authors}},`);
-      lines.push(`  title   = {${safeTitle}},`);
-      lines.push(`  journal = {${venue}},`);
-      if (year) lines.push(`  year    = {${year}},`);
-    } else {
-      lines.push(`@inproceedings{${key},`);
-      lines.push(`  author    = {${authors}},`);
-      lines.push(`  title     = {${safeTitle}},`);
-      lines.push(`  booktitle = {${venue || "Conference"}},`);
-      if (year) lines.push(`  year      = {${year}},`);
-    }
-    // remove trailing comma on last field
-    lines[lines.length-1] = lines[lines.length-1].replace(/,$/,"");
-    lines.push("}");
-    return lines.join("\n");
   }
 
   function buildPanel(bib){
@@ -111,7 +119,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
     const pre=document.createElement("pre");pre.textContent=bib;box.appendChild(copy);box.appendChild(pre);return box;
   }
 
-  // *** Your original addButtons — unchanged ***
+  // *** your original addButtons — unchanged ***
   function addButtons(){
     document.querySelectorAll("li").forEach(li=>{
       if(li.querySelector(".bibtex-btn"))return;
