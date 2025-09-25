@@ -33,145 +33,141 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 </ol>
 <script>
 (function(){
+  // ---- 1) Exact BibTeX for known entries (keyed by canonical link) ----
+  const bibByUrl = {
+    // First paper: exact BibTeX you provided
+    "https://www.arxiv.org/pdf/2509.10290": `@article{nguyen2025energy, 
+  title={Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
+  author={Nguyen, Huy T and Nguyen, Van-Dinh and Nguyen, Nhan Thanh and Luong, Nguyen Cong and Bao, Vo-Nguyen Quoc and Ngo, Hien Quoc and Niyato, Dusit and Chatzinotas, Symeon},
+  journal={IEEE Journal on Selected Areas in Communications},
+  year={2025},
+  publisher={IEEE}
+}`
+  };
+
+  // Utility: normalize URLs so http/https and trailing slashes match
+  function norm(u){
+    try{
+      const url = new URL(u);
+      url.hash = "";
+      url.search = "";
+      return url.toString().replace(/\/+$/,"");
+    }catch(_){ return (u||"").replace(/\/+$/,""); }
+  }
+
+  // ---- 2) Helpers for robust fallback parsing (when no exact BibTeX is provided) ----
   function clean(s){ return (s||"").replace(/\s+/g," ").trim(); }
 
-  // Remove any UI artifacts before reading text
   function liTextClean(li){
     const clone = li.cloneNode(true);
-    clone.querySelectorAll(".bibtex-btn,.bibtex-box,.bibtex-copy,script,style").forEach(n=>n.remove());
+    clone.querySelectorAll("script,style,.bibtex-box,.bibtex-copy,.bibtex-btn").forEach(n=>n.remove());
     return clean(clone.textContent || "");
   }
 
-  function firstLinkHref(el){
-    const a = el.querySelector("a[href]");
-    return a ? a.href : null;
-  }
-
-  // Prefer anchor text as the title; fallback to the first quoted phrase in TEXT (not innerHTML)
-  function extractTitle(li){
-    const a = li.querySelector("a[href]");
-    if (a && clean(a.textContent)) return clean(a.textContent);
-    const txt = liTextClean(li);
-    const m = txt.match(/"([^"]{3,})"/);
-    return m ? clean(m[1]) : null;
+  function firstLink(li){
+    const a=li.querySelector("a[href]");
+    return a ? {href:norm(a.href), text:clean(a.textContent||"")} : {href:null, text:null};
   }
 
   function extractVenue(li){
-    const em = li.querySelector("em");
+    const em=li.querySelector("em");
     return em ? clean(em.textContent) : "";
   }
 
-  function extractYear(li){
-    const txt = liTextClean(li);
+  function extractYear(txt){
     const m = txt.match(/\b(19|20)\d{2}\b/);
     return m ? m[0] : "";
   }
 
+  function extractTitle(li, txt){
+    const a = li.querySelector("a[href]");
+    if (a && clean(a.textContent)) return clean(a.textContent);
+    const m = txt.match(/"([^"]{3,})"/);
+    return m ? clean(m[1]) : "Untitled";
+  }
+
   function toBibAuthors(beforeTitleText){
-    // Trim trailing comma and normalize spaces
     let authors = clean(beforeTitleText).replace(/,\s*$/,"");
-    // Convert comma-delimited list to BibTeX "and" format
-    // First normalize the Oxford comma " , and " -> " and "
     authors = authors.replace(/\s*,\s*and\s*/i, " and ");
-    // Then convert remaining commas between authors to " and "
     authors = authors.replace(/\s*,\s*/g, " and ");
     return authors;
   }
 
   function firstSurname(authorsStr){
-    const first = authorsStr.split(/\s+and\s+/i)[0] || "";
-    const parts = first.trim().split(/\s+/);
+    const first = (authorsStr.split(/\s+and\s+/i)[0]||"").trim();
+    const parts = first.split(/\s+/);
     const last = parts[parts.length-1] || "key";
     return last.replace(/[^A-Za-z]/g,"");
   }
 
   function slugifyTitle(title){
-    return (title||"").toLowerCase()
-      .replace(/[^a-z0-9]+/g," ")
-      .trim()
-      .split(" ")
-      .slice(0,2) // keep it short
-      .join("");
+    return (title||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim().split(" ").slice(0,2).join("");
   }
 
   function fallbackBib(li){
     const txt = liTextClean(li);
-    const title = extractTitle(li) || "Untitled";
+    const {href:url, text:alink} = firstLink(li);
     const venue = extractVenue(li);
-    const year = extractYear(li);
-    const url = firstLinkHref(li);
+    const year = extractYear(txt);
+    const title = extractTitle(li, txt);
 
-    // Split authors from the rest using the title (quoted or plain)
-    // Try with a quoted title first, then without quotes as a fallback
+    // Authors: text before the title
     let before = txt;
     const quoted = `"${title}"`;
-    if (txt.includes(quoted)) {
-      before = txt.split(quoted)[0];
-    } else if (txt.includes(title)) {
-      before = txt.split(title)[0];
-    }
-
+    if (txt.includes(quoted)) before = txt.split(quoted)[0];
+    else if (txt.includes(title)) before = txt.split(title)[0];
     const authorsBib = toBibAuthors(before);
 
     const isJournal = /Transactions|Journal|Letters/i.test(venue);
-    const keyBase = firstSurname(authorsBib) + (year||"");
-    const key = (keyBase || "key") + (slugifyTitle(title)||"");
+    const key = (firstSurname(authorsBib) + (year||"") + slugifyTitle(title)) || "key";
 
-    const common =
-`  author={${authorsBib}},
-  title={${title}},`;
+    const fields = [];
+    fields.push(`  author={${authorsBib}}`);
+    fields.push(`  title={${title}}`);
+    if (isJournal) fields.push(`  journal={${venue}}`); else fields.push(`  booktitle={${venue || "Conference"}}`);
+    if (year) fields.push(`  year={${year}}`);
+    if (url) fields.push(`  url={${url}}`);
 
-    const tail = url ? `,\n  url={${url}}` : "";
+    const body = fields.join(",\n");
+    return (isJournal ? `@article{${key},\n${body}\n}` : `@inproceedings{${key},\n${body}\n}`);
+  }
 
-    if (isJournal) {
-      return `@article{${key},
-${common}
-  journal={${venue}},
-  year={${year}}${tail}
-}`;
+  // ---- 3) Render BibTeX under each <li> (no buttons) ----
+  function renderBib(li){
+    // Avoid duplicates
+    if (li.querySelector(".bibtex-box")) return;
+
+    const {href:url} = firstLink(li);
+    let bib = null;
+
+    // Try exact lookup by URL
+    if (url && bibByUrl[norm(url)]) {
+      bib = bibByUrl[norm(url)];
     } else {
-      return `@inproceedings{${key},
-${common}
-  booktitle={${venue || "Conference"}},
-  year={${year}}${tail}
-}`;
+      // Fallback parser
+      bib = fallbackBib(li);
     }
+
+    const box = document.createElement("div");
+    box.className = "bibtex-box";
+    const pre = document.createElement("pre");
+    pre.textContent = bib;
+    box.appendChild(pre);
+    li.appendChild(box);
   }
 
-  function buildPanel(bib){
-    const box=document.createElement("div"); box.className="bibtex-box";
-    const copy=document.createElement("button"); copy.className="bibtex-copy"; copy.textContent="Copy";
-    copy.onclick=()=>{ navigator.clipboard.writeText(bib).then(()=>{ copy.textContent="Copied!"; setTimeout(()=>copy.textContent="Copy",1200); }); };
-    const pre=document.createElement("pre"); pre.textContent=bib;
-    box.appendChild(copy); box.appendChild(pre);
-    return box;
-  }
-
-  function addButtons(){
-    document.querySelectorAll("li").forEach(li=>{
-      if(li.querySelector(".bibtex-btn")) return;
+  function run(){
+    document.querySelectorAll("ol li, ul li").forEach(li=>{
+      // Only render for items that look like publications (contain a year)
       const txt = liTextClean(li);
-      if(!/\b(19|20)\d{2}\b/.test(txt)) return;
-
-      const btn=document.createElement("button");
-      btn.className="bibtex-btn";
-      btn.textContent="BibTeX";
-
-      btn.onclick=()=>{
-        document.querySelectorAll(".bibtex-box").forEach(b=>b.remove());
-        const bib = fallbackBib(li);
-        btn.insertAdjacentElement("afterend", buildPanel(bib));
-      };
-
-      li.appendChild(document.createElement("br"));
-      li.appendChild(btn);
+      if (/\b(19|20)\d{2}\b/.test(txt)) renderBib(li);
     });
   }
 
-  if(document.readyState==="loading"){
-    document.addEventListener("DOMContentLoaded", addButtons);
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", run);
   } else {
-    addButtons();
+    run();
   }
 })();
 </script>
