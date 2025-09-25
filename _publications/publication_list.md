@@ -31,6 +31,12 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 </li>
 
 </ol>
+<style>
+  .bibtex-btn{font:inherit;padding:6px 12px;border:1px solid #d0d0d0;border-radius:10px;background:#fff;cursor:pointer;margin-top:6px}
+  .bibtex-btn:hover{background:#f6f6f6}
+  .bibtex-box{position:relative;margin-top:8px;padding:10px;background:#ffeef3;border:1px solid #ffd6e1;border-radius:12px}
+  .bibtex-copy{position:absolute;right:10px;top:8px;padding:4px 10px;border:1px solid #d0d0d0;border-radius:8px;background:#fff;cursor:pointer}
+</style>
 <script>
 (function(){
   function clean(s){ return (s||"").replace(/\s+/g," ").trim(); }
