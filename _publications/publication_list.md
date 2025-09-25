@@ -31,68 +31,107 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 </li>
 
 </ol>
-function fallbackBib(li, title){
-  const txt = clean(li.textContent);
-  const url = firstLink(li);
+<style>
+  .bibtex-btn{font:inherit;padding:6px 12px;border:1px solid #d0d0d0;border-radius:10px;background:#fff;cursor:pointer;margin-top:6px}
+  .bibtex-btn:hover{background:#f6f6f6}
+  .bibtex-box{position:relative;margin-top:8px;padding:10px;background:#ffeef3;border:1px solid #ffd6e1;border-radius:12px}
+  .bibtex-copy{position:absolute;right:10px;top:8px;padding:4px 10px;border:1px solid #d0d0d0;border-radius:8px;background:#fff;cursor:pointer}
+</style>
 
-  // Authors
-  let before = '';
-  if (title) {
-    const quoted = ' "' + title + '"';
-    before = txt.includes(quoted) ? txt.split(quoted)[0] : txt.split(title)[0];
-  } else {
-    before = txt;
-  }
-  const authors = clean(before.replace(/,\s*$/,''));
-
-  // Venue & year
-  const em = li.querySelector('em');
-  let venue = em ? clean(em.textContent) : '';
-  const yearMatches = txt.match(/(20\d{2})/g);
-  const year = yearMatches ? yearMatches[yearMatches.length-1] : '';
-
-  if (!venue) {
-    const v = (txt.match(/,\s*([A-Za-z].*?)\s*,\s*20\d{2}/) || [,''])[1];
-    venue = clean((v||'').replace(/\(\*\*.*?\*\*\)/g,''));
+<script>
+(function(){
+  function clean(s){return (s||"").replace(/\s+/g," ").trim();}
+  function firstLink(el){const a=el.querySelector("a[href]");return a?a.href:null;}
+  function quotedTitle(li){
+    const m=li.innerHTML.match(/"([^"]{3,})"/);
+    if(m) return m[1].trim();
+    const a=li.querySelector("a[href]");
+    return a?clean(a.textContent):null;
   }
 
-  // Extra fields
-  const volume = (txt.match(/\bvol\.?\s*([0-9IVXLC]+)\b/i)||[])[1]||'';
-  const number = (txt.match(/\bno\.?\s*([A-Za-z0-9\-]+)\b/i)||[])[1]||'';
-  const pages  = (txt.match(/\bpp\.?\s*([0-9]+(?:\s*[-–]\s*[0-9]+)?)\b/i)||[])[1]||'';
-  const month  = (txt.match(/\b(Jan\.?|Feb\.?|Mar\.?|Apr\.?|May|Jun\.?|Jul\.?|Aug\.?|Sep\.?|Sept\.?|Oct\.?|Nov\.?|Dec\.?)\b/i)||[])[1]||'';
+  // PRETTY-PRINT BIBTEX GENERATOR
+  function fallbackBib(li,title){
+    const txt=clean(li.textContent),url=firstLink(li);
+    let before=title?(txt.split(` "${title}"`)[0]||txt.split(title)[0]||txt):txt;
+    const authors=clean(before.replace(/,\s*$/,""));
 
-  const isJournal = /Transactions|Journal|Letters|Wireless Communications Letters|Communications Letters|JSAC/i.test(venue||'');
-  const firstSurname = (authors.split(',')[0]||'key').split(' ').pop().replace(/[^A-Za-z]/g,'') || 'key';
-  const key = `${firstSurname}${year||''}Auto`;
+    const em=li.querySelector("em");
+    let venue=em?clean(em.textContent):"";
+    const yearMatches=txt.match(/(20\d{2})/g);
+    const year=yearMatches?yearMatches[yearMatches.length-1]:"";
 
-  // Build BibTeX with nice indentation
-  let lines = [];
-  if (isJournal) {
-    lines.push(`@article{${key},`);
-    lines.push(`  author  = {${authors}},`);
-    lines.push(`  title   = {${title || 'Untitled'}},`);
-    lines.push(`  journal = {${venue}},`);
-    if (year)   lines.push(`  year    = {${year}},`);
-    if (volume) lines.push(`  volume  = {${volume}},`);
-    if (number) lines.push(`  number  = {${number}},`);
-    if (pages)  lines.push(`  pages   = {${pages}},`);
-    if (month)  lines.push(`  month   = {${month}},`);
-    if (url)    lines.push(`  url     = {${url}},`);
-    // remove last comma
-    lines[lines.length-1] = lines[lines.length-1].replace(/,$/,'');
-    lines.push('}');
-  } else {
-    lines.push(`@inproceedings{${key},`);
-    lines.push(`  author    = {${authors}},`);
-    lines.push(`  title     = {${title || 'Untitled'}},`);
-    lines.push(`  booktitle = {${venue || 'Conference'}},`);
-    if (year)  lines.push(`  year      = {${year}},`);
-    if (pages) lines.push(`  pages     = {${pages}},`);
-    if (month) lines.push(`  month     = {${month}},`);
-    if (url)   lines.push(`  url       = {${url}},`);
-    lines[lines.length-1] = lines[lines.length-1].replace(/,$/,'');
-    lines.push('}');
+    if(!venue){
+      const v=(txt.match(/,\s*([A-Za-z].*?)\s*,\s*20\d{2}/)||[,""])[1];
+      venue=clean((v||"").replace(/\(\*\*.*?\*\*\)/g,""));
+    }
+
+    const volume=(txt.match(/\bvol\.?\s*([0-9IVXLC]+)\b/i)||[])[1]||"";
+    const number=(txt.match(/\bno\.?\s*([A-Za-z0-9\-]+)\b/i)||[])[1]||"";
+    const pages=(txt.match(/\bpp\.?\s*([0-9]+(?:\s*[-–]\s*[0-9]+)?)\b/i)||[])[1]||"";
+    const month=(txt.match(/\b(Jan\.?|Feb\.?|Mar\.?|Apr\.?|May|Jun\.?|Jul\.?|Aug\.?|Sep\.?|Sept\.?|Oct\.?|Nov\.?|Dec\.?)\b/i)||[])[1]||"";
+
+    const isJournal=/Transactions|Journal|Letters|Wireless Communications Letters|Communications Letters|JSAC/i.test(venue||"");
+    const firstSurname=(authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"")||"key";
+    const key=`${firstSurname}${year||""}Auto`;
+
+    let lines=[];
+    if(isJournal){
+      lines.push(`@article{${key},`);
+      lines.push(`  author  = {${authors}},`);
+      lines.push(`  title   = {${title||"Untitled"}},`);
+      lines.push(`  journal = {${venue}},`);
+      if(year)   lines.push(`  year    = {${year}},`);
+      if(volume) lines.push(`  volume  = {${volume}},`);
+      if(number) lines.push(`  number  = {${number}},`);
+      if(pages)  lines.push(`  pages   = {${pages}},`);
+      if(month)  lines.push(`  month   = {${month}},`);
+      if(url)    lines.push(`  url     = {${url}},`);
+    } else {
+      lines.push(`@inproceedings{${key},`);
+      lines.push(`  author    = {${authors}},`);
+      lines.push(`  title     = {${title||"Untitled"}},`);
+      lines.push(`  booktitle = {${venue||"Conference"}},`);
+      if(year)  lines.push(`  year      = {${year}},`);
+      if(pages) lines.push(`  pages     = {${pages}},`);
+      if(month) lines.push(`  month     = {${month}},`);
+      if(url)   lines.push(`  url       = {${url}},`);
+    }
+    // remove trailing comma from last field
+    lines[lines.length-1]=lines[lines.length-1].replace(/,$/,"");
+    lines.push("}");
+    return lines.join("\n");
   }
-  return lines.join('\n');
-}
+
+  function buildPanel(bib){
+    const box=document.createElement("div");
+    box.className="bibtex-box";
+    const copy=document.createElement("button");
+    copy.className="bibtex-copy";copy.textContent="Copy";
+    copy.onclick=()=>{navigator.clipboard.writeText(bib).then(()=>{
+      copy.textContent="Copied!";setTimeout(()=>copy.textContent="Copy",1200);
+    });};
+    const pre=document.createElement("pre");pre.textContent=bib;
+    box.appendChild(copy);box.appendChild(pre);return box;
+  }
+
+  function addButtons(){
+    document.querySelectorAll("li").forEach(li=>{
+      if(li.querySelector(".bibtex-btn")) return;
+      if(!/(19|20)\d{2}/.test(li.textContent)) return;
+      const btn=document.createElement("button");
+      btn.className="bibtex-btn";btn.textContent="BibTex";
+      btn.onclick=()=>{
+        document.querySelectorAll(".bibtex-box").forEach(b=>b.remove());
+        const bib=fallbackBib(li,quotedTitle(li));
+        btn.insertAdjacentElement("afterend",buildPanel(bib));
+      };
+      li.appendChild(document.createElement("br"));
+      li.appendChild(btn);
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",addButtons);
+  } else { addButtons(); }
+})();
+</script>
