@@ -31,5 +31,5 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 </li>
 
 </ol>
-<link rel="preload" as="fetch" href="/assets/bibtex.json" crossorigin>
-<script src="/assets/js/publications-bibtex.js" defer></script>
+<!-- <link rel="preload" as="fetch" href="/assets/bibtex.json" crossorigin> -->
+<script src="{{ '/assets/js/publications-bibtex.js' | relative_url }}" defer></script>
