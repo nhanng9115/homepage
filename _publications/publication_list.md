@@ -8,7 +8,22 @@ title: "Publications"
 # 📄 Journal Publications
 
 <ol>
-<li> H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas, "<a href="https://www.arxiv.org/pdf/2509.10290" target="_blank">Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems</a>," <span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted) </li>
+  <li>
+    H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,
+    "<a href="https://www.arxiv.org/pdf/2509.10290" target="_blank">Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems</a>,"
+    <span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
+
+    <!-- 🔽 Paste the exact Google Scholar BibTeX for THIS item here -->
+    <script type="application/x-bibtex" class="bibtex-data">
+@article{nguyen2025energy,
+  title={Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
+  author={Nguyen, Huy T and Nguyen, Van-Dinh and Nguyen, Nhan Thanh and Luong, Nguyen Cong and Bao, Vo-Nguyen Quoc and Ngo, Hien Quoc and Niyato, Dusit and Chatzinotas, Symeon},
+  journal={IEEE Journal on Selected Areas in Communications},
+  year={2025},
+  publisher={IEEE}
+}
+    </script>
+  </li>
 </ol>
 
 <style>
@@ -20,79 +35,60 @@ title: "Publications"
 
 <script>
 (function(){
-  function clean(s){return (s||"").replace(/\s+/g," ").trim();}
-  function firstLink(el){const a=el.querySelector("a[href]");return a?a.href:null;}
-
-  // Prefer anchor text; fallback to quoted text in textContent
-  function quotedTitle(li){
-    const a = li.querySelector("a[href]");
-    if (a) return clean(a.textContent || "");
-    const m = (li.textContent || "").match(/"([^"]{3,})"/);
-    return m ? m[1].trim() : null;
-  }
-
-  function fallbackBib(li,title){
-    const txt=clean(li.textContent),url=firstLink(li);
-    const before=title?(txt.split(` "${title}"`)[0]||txt.split(title)[0]||txt):txt;
-
-    /* Authors -> BibTeX "and" list */
-    let authors=clean(before.replace(/,\s*$/,""));
-    authors=authors.replace(/,\s*and\s+/i,", ");
-    const parts=authors.split(/\s*,\s*/).filter(Boolean);
-    authors=parts.join(" and ");
-
-    const em=li.querySelector("em");const venue=em?clean(em.textContent):"";
-    // Capture full 4-digit year
-    const year=(txt.match(/\b(19|20)\d{2}\b/)||[""])[0];
-
-    const isJournal=/Transactions|Journal|Letters/i.test(venue);
-    const key=(authors.split(" and ")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"")+(year||"");
-
-    return isJournal?
-`@article{${key},
-  author={${authors}},
-  title={${title||"Untitled"}},
-  journal={${venue}},
-  year={${year}}${url?`,\n  url={${url}}`:""}
-}`:
-`@inproceedings{${key},
-  author={${authors}},
-  title={${title||"Untitled"}},
-  booktitle={${venue||"Conference"}},
-  year={${year}}${url?`,\n  url={${url}}`:""}
-}`;
-  }
+  function clean(s){return (s||"").replace(/\s+\n/g,"\n").replace(/\n\s+/g,"\n").trim();}
 
   function buildPanel(bib){
-    const box=document.createElement("div");box.className="bibtex-box";
-    const copy=document.createElement("button");copy.className="bibtex-copy";copy.textContent="Copy";
-    copy.onclick=()=>{navigator.clipboard.writeText(bib).then(()=>{copy.textContent="Copied!";setTimeout(()=>copy.textContent="Copy",1200);});};
-    const pre=document.createElement("pre");pre.textContent=bib;box.appendChild(copy);box.appendChild(pre);return box;
+    const box = document.createElement("div");
+    box.className = "bibtex-box";
+
+    const copy = document.createElement("button");
+    copy.className = "bibtex-copy";
+    copy.textContent = "Copy";
+    copy.onclick = () => {
+      navigator.clipboard.writeText(bib).then(()=>{
+        copy.textContent = "Copied!";
+        setTimeout(()=>copy.textContent="Copy", 1200);
+      });
+    };
+
+    const pre = document.createElement("pre");
+    pre.textContent = bib;
+
+    box.appendChild(copy);
+    box.appendChild(pre);
+    return box;
   }
 
   function addButtons(){
-    document.querySelectorAll("li").forEach(li=>{
-      if(li.querySelector(".bibtex-btn"))return;
-      if(!/(19|20)\d{2}/.test(li.textContent))return;
-      const btn=document.createElement("button");btn.className="bibtex-btn";btn.textContent="BibTex";
-      btn.onclick=()=>{
-        document.querySelectorAll(".bibtex-box").forEach(b=>b.remove());
-        const bib=fallbackBib(li,quotedTitle(li));
-        btn.insertAdjacentElement("afterend",buildPanel(bib));
+    document.querySelectorAll("ol li").forEach(li=>{
+      // Only add a button if there is embedded BibTeX data
+      const data = li.querySelector("script.bibtex-data[type='application/x-bibtex']");
+      if(!data) return;
+      if(li.querySelector(".bibtex-btn")) return; // already added
+
+      const btn = document.createElement("button");
+      btn.className = "bibtex-btn";
+      btn.textContent = "BibTeX";
+
+      btn.onclick = () => {
+        // Close any open panels in this LI
+        li.querySelectorAll(".bibtex-box").forEach(b=>b.remove());
+        // Show current
+        const bib = clean(data.textContent || data.innerText || "");
+        btn.insertAdjacentElement("afterend", buildPanel(bib));
       };
+
       li.appendChild(document.createElement("br"));
       li.appendChild(btn);
     });
   }
 
-  // Tiny safety: run at DOM ready, and once again on load & microtask
-  function ensureButtons(){ try{ addButtons(); }catch(e){ /* noop */ } }
-
-  if(document.readyState==="loading"){
-    document.addEventListener("DOMContentLoaded",ensureButtons);
+  if(document.readyState === "loading"){
+    document.addEventListener("DOMContentLoaded", addButtons);
   }else{
-    ensureButtons();
+    addButtons();
   }
-  window.addEventListener("load", ()=>setTimeout(ensureButtons, 0));
+  // in case of late content hydration
+  window.addEventListener("load", ()=> setTimeout(addButtons, 0));
 })();
 </script>
