@@ -66,7 +66,6 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
     if(!title) return "";
     const idx = full.indexOf(title);
     if(idx === -1){
-      // fallback: up to the first quoted block if present
       const m = full.match(/“([^”]+)”|"([^"]+)"/);
       const cut = m ? full.indexOf(m[0]) : -1;
       return clean((cut>0?full.slice(0,cut):full)).replace(/,\s*$/,"");
@@ -79,15 +78,12 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
   }
 
   function bibKey(authors, year){
-    const firstAuthor = clean(authors.split(",")[0] || "key");
-    const surname = clean(firstAuthor).split(/\s+/).pop().replace(/[^A-Za-z]/g,"") || "key";
+    const firstAuthor = clean((authors.split(",")[0]||"key"));
+    const surname = firstAuthor.split(/\s+/).pop().replace(/[^A-Za-z]/g,"") || "key";
     return surname + (year || "");
   }
 
-  function escapeBib(s){
-    // Keep simple; BibTeX usually handles ASCII fine. Escape braces.
-    return (s||"").replace(/[{}]/g, "\\$&");
-  }
+  function escapeBib(s){ return (s||"").replace(/[{}]/g, "\\$&"); }
 
   function makeBib(li){
     const title = getTitle(li) || "Untitled";
@@ -97,47 +93,50 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
     const authors = getAuthors(li, title);
 
     const key = bibKey(authors, year);
-    const base =
-`@${isJournal(venue) ? "article" : "inproceedings"}{${key},
+    return `@${isJournal(venue) ? "article" : "inproceedings"}{${key},
   author = {${escapeBib(authors)}},
   title = {${escapeBib(title)}},
-  ${isJournal(venue) ? `journal` : `booktitle`} = {${escapeBib(venue)}},
+  ${isJournal(venue) ? "journal" : "booktitle"} = {${escapeBib(venue)}},
   year = {${year}}${url ? `,\n  url = {${url}}` : ""}
 }`;
-
-    return base;
   }
 
   function buildPanel(bib){
-    const box=document.createElement("div");box.className="bibtex-box";
-    const copy=document.createElement("button");copy.className="bibtex-copy";copy.textContent="Copy";
+    const box=document.createElement("div"); box.className="bibtex-box";
+    const copy=document.createElement("button"); copy.className="bibtex-copy"; copy.textContent="Copy";
     copy.onclick=()=>{navigator.clipboard.writeText(bib).then(()=>{
       const old=copy.textContent; copy.textContent="Copied!"; setTimeout(()=>copy.textContent=old,1200);
-    });};
-    const pre=document.createElement("pre");pre.textContent=bib;
-    box.appendChild(copy); box.appendChild(pre); return box;
+    }).catch(()=>{});};
+    const pre=document.createElement("pre"); pre.textContent=bib;
+    box.appendChild(copy); box.appendChild(pre);
+    return box;
   }
 
   function addButtons(){
-    document.querySelectorAll("li").forEach(li=>{
-      if(li.querySelector(".bibtex-btn")) return;
-      if(!/\b(19|20)\d{2}\b/.test(li.textContent)) return; // needs a year
-      const btn=document.createElement("button");
-      btn.className="bibtex-btn"; btn.textContent="BibTex";
-      btn.onclick=()=>{
-        document.querySelectorAll(".bibtex-box").forEach(b=>b.remove());
-        const bib = makeBib(li);
-        btn.insertAdjacentElement("afterend", buildPanel(bib));
-      };
-      li.appendChild(document.createElement("br"));
-      li.appendChild(btn);
+    // target only the publication list(s)
+    document.querySelectorAll("ol li").forEach(li=>{
+      try{
+        if(li.querySelector(".bibtex-btn")) return;
+        const btn=document.createElement("button");
+        btn.className="bibtex-btn"; btn.textContent="BibTex";
+        btn.onclick=()=>{
+          document.querySelectorAll(".bibtex-box").forEach(b=>b.remove());
+          const bib = makeBib(li);
+          btn.insertAdjacentElement("afterend", buildPanel(bib));
+        };
+        li.appendChild(document.createElement("br"));
+        li.appendChild(btn);
+      }catch(e){
+        // fail soft per-item
+      }
     });
   }
 
-  if(document.readyState==="loading"){
-    document.addEventListener("DOMContentLoaded", addButtons);
-  }else{
+  // More robust than DOMContentLoaded on some static-site setups
+  if(document.readyState === "complete"){
     addButtons();
+  }else{
+    window.addEventListener("load", addButtons);
   }
 })();
 </script>
