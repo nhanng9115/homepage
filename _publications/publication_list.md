@@ -31,88 +31,146 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 </li>
 
 </ol>
-<style>
-  .bibtex-btn{font:inherit;padding:6px 12px;border:1px solid #d0d0d0;border-radius:10px;background:#fff;cursor:pointer;margin-top:6px}
-  .bibtex-btn:hover{background:#f6f6f6}
-  .bibtex-box{position:relative;margin-top:8px;padding:10px;background:#ffeef3;border:1px solid #ffd6e1;border-radius:12px}
-  .bibtex-copy{position:absolute;right:10px;top:8px;padding:4px 10px;border:1px solid #d0d0d0;border-radius:8px;background:#fff;cursor:pointer}
-</style>
-
 <script>
 (function(){
-  function clean(s){return (s||"").replace(/\s+/g," ").trim();}
-  function firstLink(el){const a=el.querySelector("a[href]");return a?a.href:null;}
+  function clean(s){ return (s||"").replace(/\s+/g," ").trim(); }
 
-  // FIX: get title from <a> text; fallback to quoted text in *textContent* (not innerHTML)
-  function quotedTitle(li){
-    const a = li.querySelector("a[href]");
-    if (a) return clean(a.textContent);
-    const m = li.textContent.match(/["“]([^"”]{3,})["”]/);
-    return m ? m[1].trim() : null;
+  // Remove any UI artifacts before reading text
+  function liTextClean(li){
+    const clone = li.cloneNode(true);
+    clone.querySelectorAll(".bibtex-btn,.bibtex-box,.bibtex-copy,script,style").forEach(n=>n.remove());
+    return clean(clone.textContent || "");
   }
 
-  function fallbackBib(li,title){
-    const txt=clean(li.textContent),url=firstLink(li);
+  function firstLinkHref(el){
+    const a = el.querySelector("a[href]");
+    return a ? a.href : null;
+  }
 
-    // Authors = text before the title (fallback: whole text)
-    const before = title ? (txt.split(` "${title}"`)[0] || txt.split(title)[0] || txt) : txt;
-    const authors = clean(before.replace(/,\s*$/,""));
+  // Prefer anchor text as the title; fallback to the first quoted phrase in TEXT (not innerHTML)
+  function extractTitle(li){
+    const a = li.querySelector("a[href]");
+    if (a && clean(a.textContent)) return clean(a.textContent);
+    const txt = liTextClean(li);
+    const m = txt.match(/"([^"]{3,})"/);
+    return m ? clean(m[1]) : null;
+  }
 
-    const em=li.querySelector("em");
-    const venue=em?clean(em.textContent):"";
+  function extractVenue(li){
+    const em = li.querySelector("em");
+    return em ? clean(em.textContent) : "";
+  }
 
-    // FIX: use the full 4-digit year match
-    const year=(txt.match(/\b(19|20)\d{2}\b/)||[""])[0];
+  function extractYear(li){
+    const txt = liTextClean(li);
+    const m = txt.match(/\b(19|20)\d{2}\b/);
+    return m ? m[0] : "";
+  }
 
-    const isJournal=/Transactions|Journal|Letters/i.test(venue);
-    const key=(authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"")+(year||"");
+  function toBibAuthors(beforeTitleText){
+    // Trim trailing comma and normalize spaces
+    let authors = clean(beforeTitleText).replace(/,\s*$/,"");
+    // Convert comma-delimited list to BibTeX "and" format
+    // First normalize the Oxford comma " , and " -> " and "
+    authors = authors.replace(/\s*,\s*and\s*/i, " and ");
+    // Then convert remaining commas between authors to " and "
+    authors = authors.replace(/\s*,\s*/g, " and ");
+    return authors;
+  }
 
-    return isJournal?
-`@article{${key},
-  author={${authors}},
-  title={${title||"Untitled"}},
+  function firstSurname(authorsStr){
+    const first = authorsStr.split(/\s+and\s+/i)[0] || "";
+    const parts = first.trim().split(/\s+/);
+    const last = parts[parts.length-1] || "key";
+    return last.replace(/[^A-Za-z]/g,"");
+  }
+
+  function slugifyTitle(title){
+    return (title||"").toLowerCase()
+      .replace(/[^a-z0-9]+/g," ")
+      .trim()
+      .split(" ")
+      .slice(0,2) // keep it short
+      .join("");
+  }
+
+  function fallbackBib(li){
+    const txt = liTextClean(li);
+    const title = extractTitle(li) || "Untitled";
+    const venue = extractVenue(li);
+    const year = extractYear(li);
+    const url = firstLinkHref(li);
+
+    // Split authors from the rest using the title (quoted or plain)
+    // Try with a quoted title first, then without quotes as a fallback
+    let before = txt;
+    const quoted = `"${title}"`;
+    if (txt.includes(quoted)) {
+      before = txt.split(quoted)[0];
+    } else if (txt.includes(title)) {
+      before = txt.split(title)[0];
+    }
+
+    const authorsBib = toBibAuthors(before);
+
+    const isJournal = /Transactions|Journal|Letters/i.test(venue);
+    const keyBase = firstSurname(authorsBib) + (year||"");
+    const key = (keyBase || "key") + (slugifyTitle(title)||"");
+
+    const common =
+`  author={${authorsBib}},
+  title={${title}},`;
+
+    const tail = url ? `,\n  url={${url}}` : "";
+
+    if (isJournal) {
+      return `@article{${key},
+${common}
   journal={${venue}},
-  year={${year}}${url?`,\n  url={${url}}`:""}
-}`:
-`@inproceedings{${key},
-  author={${authors}},
-  title={${title||"Untitled"}},
-  booktitle={${venue||"Conference"}},
-  year={${year}}${url?`,\n  url={${url}}`:""}
+  year={${year}}${tail}
 }`;
+    } else {
+      return `@inproceedings{${key},
+${common}
+  booktitle={${venue || "Conference"}},
+  year={${year}}${tail}
+}`;
+    }
   }
 
   function buildPanel(bib){
-    const box=document.createElement("div");box.className="bibtex-box";
-    const copy=document.createElement("button");copy.className="bibtex-copy";copy.textContent="Copy";
-    copy.onclick=()=>{navigator.clipboard.writeText(bib).then(()=>{copy.textContent="Copied!";setTimeout(()=>copy.textContent="Copy",1200);});};
-    const pre=document.createElement("pre");pre.textContent=bib;
-    box.appendChild(copy);box.appendChild(pre);
+    const box=document.createElement("div"); box.className="bibtex-box";
+    const copy=document.createElement("button"); copy.className="bibtex-copy"; copy.textContent="Copy";
+    copy.onclick=()=>{ navigator.clipboard.writeText(bib).then(()=>{ copy.textContent="Copied!"; setTimeout(()=>copy.textContent="Copy",1200); }); };
+    const pre=document.createElement("pre"); pre.textContent=bib;
+    box.appendChild(copy); box.appendChild(pre);
     return box;
   }
 
   function addButtons(){
     document.querySelectorAll("li").forEach(li=>{
       if(li.querySelector(".bibtex-btn")) return;
+      const txt = liTextClean(li);
+      if(!/\b(19|20)\d{2}\b/.test(txt)) return;
 
       const btn=document.createElement("button");
       btn.className="bibtex-btn";
-      btn.textContent="BibTex";
+      btn.textContent="BibTeX";
+
       btn.onclick=()=>{
         document.querySelectorAll(".bibtex-box").forEach(b=>b.remove());
-        const bib=fallbackBib(li,quotedTitle(li));
-        btn.insertAdjacentElement("afterend",buildPanel(bib));
+        const bib = fallbackBib(li);
+        btn.insertAdjacentElement("afterend", buildPanel(bib));
       };
+
       li.appendChild(document.createElement("br"));
       li.appendChild(btn);
     });
   }
 
-  // Run both on DOM ready and on full load (covers more setups)
   if(document.readyState==="loading"){
-    document.addEventListener("DOMContentLoaded",addButtons);
-    window.addEventListener("load",addButtons);
-  }else{
+    document.addEventListener("DOMContentLoaded", addButtons);
+  } else {
     addButtons();
   }
 })();
