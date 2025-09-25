@@ -43,63 +43,63 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
   function clean(s){return (s||"").replace(/\s+/g," ").trim();}
   function firstLink(el){const a=el.querySelector("a[href]");return a?a.href:null;}
 
-  // KEEP NAME the same, but prefer the anchor text for the title
+  // Prefer the first anchor's text as the title; fallback to quoted text; never return null
   function quotedTitle(li){
-    const a=li.querySelector("a[href]");
-    if(a) return clean(a.textContent);
-    const m=li.textContent.match(/"([^"]{3,})"/);
-    return m?m[1].trim():"Untitled";
+    const a = li.querySelector("a[href]");
+    if (a && a.textContent) return clean(a.textContent);
+    const m = li.textContent.match(/"([^"]{3,})"/);
+    return m ? m[1].trim() : "Untitled";
   }
 
-  // ONLY change internals; keep the same signature (li, titleFromCaller)
-  function fallbackBib(li,_title){
-    const txt=clean(li.textContent);
+  function fallbackBib(li,title){
+    const txt = clean(li.textContent);
 
-    // Title: robustly take from anchor text
-    const aEl = li.querySelector("a[href]");
-    const title = aEl ? clean(aEl.textContent) : quotedTitle(li);
+    // Title: robustly from the first anchor text (ignore HTML)
+    const a = li.querySelector("a[href]");
+    const safeTitle = a && a.textContent ? clean(a.textContent) : (title || quotedTitle(li));
 
-    // Authors: text BEFORE the first anchor (DOM-safe)
+    // Authors: everything BEFORE the first anchor text occurrence (DOM-light, no brittle HTML splits)
     let authors;
-    if(aEl){
-      const range=document.createRange();
-      range.setStart(li,0);
-      range.setEnd(aEl,0);
-      authors=clean(range.toString()).replace(/^[\s,:"“”]+|[\s,:"“”]+$/g,"");
-    }else{
-      // fallback: best effort up to the quoted title
-      const parts = txt.split(' "'+title+'"');
-      authors = clean((parts[0]||txt).replace(/^[\s,:"“”]+|[\s,:"“”]+$/g,""));
+    if (a && a.textContent){
+      const anchorText = clean(a.textContent);
+      const idx = txt.indexOf(anchorText);
+      const before = idx >= 0 ? txt.slice(0, idx) : txt;
+      authors = clean(before.replace(/^[\s,:"“”]+|[\s,:"“”]+$/g,""));
+    } else {
+      // Fallback: up to the first quoted title, or all text if none
+      const m = txt.match(/"([^"]{3,})"/);
+      const before = m ? txt.split(m[0])[0] : txt;
+      authors = clean(before.replace(/^[\s,:"“”]+|[\s,:"“”]+$/g,""));
     }
 
-    // Venue & Year
-    const em=li.querySelector("em");
-    const venue=em?clean(em.textContent):"";
-    const years=txt.match(/\b(?:19|20)\d{2}\b/g);
-    const year=years?years[years.length-1]:"";
+    // Venue & year
+    const em = li.querySelector("em");
+    const venue = em ? clean(em.textContent) : "";
+    const years = txt.match(/\b(?:19|20)\d{2}\b/g);
+    const year = years ? years[years.length-1] : "";
 
-    // Entry type & key
-    const isJournal=/Transactions|Journal|Selected Areas in Communications|Letters|JSAC|Wireless Communications Letters|Communications Letters/i.test(venue);
-    const firstSurname=(authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"")||"key";
-    const key=`${firstSurname}${year||""}Auto`;
+    // Type & key
+    const isJournal = /Transactions|Journal|Selected Areas in Communications|Letters|JSAC|Wireless Communications Letters|Communications Letters/i.test(venue);
+    const firstSurname = (authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"") || "key";
+    const key = `${firstSurname}${year||""}Auto`;
 
-    // Pretty-print, one field per line, NO url
-    let lines=[];
-    if(isJournal){
+    // Pretty print (no url)
+    let lines = [];
+    if (isJournal){
       lines.push(`@article{${key},`);
       lines.push(`  author  = {${authors}},`);
-      lines.push(`  title   = {${title}},`);
+      lines.push(`  title   = {${safeTitle}},`);
       lines.push(`  journal = {${venue}},`);
-      if(year) lines.push(`  year    = {${year}},`);
-    }else{
+      if (year) lines.push(`  year    = {${year}},`);
+    } else {
       lines.push(`@inproceedings{${key},`);
       lines.push(`  author    = {${authors}},`);
-      lines.push(`  title     = {${title}},`);
-      lines.push(`  booktitle = {${venue||"Conference"}},`);
-      if(year) lines.push(`  year      = {${year}},`);
+      lines.push(`  title     = {${safeTitle}},`);
+      lines.push(`  booktitle = {${venue || "Conference"}},`);
+      if (year) lines.push(`  year      = {${year}},`);
     }
-    // remove trailing comma on the last field
-    lines[lines.length-1]=lines[lines.length-1].replace(/,$/,"");
+    // remove trailing comma on last field
+    lines[lines.length-1] = lines[lines.length-1].replace(/,$/,"");
     lines.push("}");
     return lines.join("\n");
   }
@@ -108,11 +108,10 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
     const box=document.createElement("div");box.className="bibtex-box";
     const copy=document.createElement("button");copy.className="bibtex-copy";copy.textContent="Copy";
     copy.onclick=()=>{navigator.clipboard.writeText(bib).then(()=>{copy.textContent="Copied!";setTimeout(()=>copy.textContent="Copy",1200);});};
-    const pre=document.createElement("pre");pre.textContent=bib;
-    box.appendChild(copy);box.appendChild(pre);return box;
+    const pre=document.createElement("pre");pre.textContent=bib;box.appendChild(copy);box.appendChild(pre);return box;
   }
 
-  // *** YOUR ORIGINAL addButtons — UNCHANGED ***
+  // *** Your original addButtons — unchanged ***
   function addButtons(){
     document.querySelectorAll("li").forEach(li=>{
       if(li.querySelector(".bibtex-btn"))return;
