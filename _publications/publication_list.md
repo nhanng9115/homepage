@@ -49,7 +49,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
     return a?clean(a.textContent):null;
   }
 
-  // PRETTY-PRINT BIBTEX GENERATOR
+  // IMPROVED: pretty-print BibTeX
   function fallbackBib(li,title){
     const txt=clean(li.textContent),url=firstLink(li);
     let before=title?(txt.split(` "${title}"`)[0]||txt.split(title)[0]||txt):txt;
@@ -65,11 +65,6 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
       venue=clean((v||"").replace(/\(\*\*.*?\*\*\)/g,""));
     }
 
-    const volume=(txt.match(/\bvol\.?\s*([0-9IVXLC]+)\b/i)||[])[1]||"";
-    const number=(txt.match(/\bno\.?\s*([A-Za-z0-9\-]+)\b/i)||[])[1]||"";
-    const pages=(txt.match(/\bpp\.?\s*([0-9]+(?:\s*[-–]\s*[0-9]+)?)\b/i)||[])[1]||"";
-    const month=(txt.match(/\b(Jan\.?|Feb\.?|Mar\.?|Apr\.?|May|Jun\.?|Jul\.?|Aug\.?|Sep\.?|Sept\.?|Oct\.?|Nov\.?|Dec\.?)\b/i)||[])[1]||"";
-
     const isJournal=/Transactions|Journal|Letters|Wireless Communications Letters|Communications Letters|JSAC/i.test(venue||"");
     const firstSurname=(authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"")||"key";
     const key=`${firstSurname}${year||""}Auto`;
@@ -80,21 +75,15 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
       lines.push(`  author  = {${authors}},`);
       lines.push(`  title   = {${title||"Untitled"}},`);
       lines.push(`  journal = {${venue}},`);
-      if(year)   lines.push(`  year    = {${year}},`);
-      if(volume) lines.push(`  volume  = {${volume}},`);
-      if(number) lines.push(`  number  = {${number}},`);
-      if(pages)  lines.push(`  pages   = {${pages}},`);
-      if(month)  lines.push(`  month   = {${month}},`);
-      if(url)    lines.push(`  url     = {${url}},`);
+      if(year) lines.push(`  year    = {${year}},`);
+      if(url)  lines.push(`  url     = {${url}},`);
     } else {
       lines.push(`@inproceedings{${key},`);
       lines.push(`  author    = {${authors}},`);
       lines.push(`  title     = {${title||"Untitled"}},`);
       lines.push(`  booktitle = {${venue||"Conference"}},`);
-      if(year)  lines.push(`  year      = {${year}},`);
-      if(pages) lines.push(`  pages     = {${pages}},`);
-      if(month) lines.push(`  month     = {${month}},`);
-      if(url)   lines.push(`  url       = {${url}},`);
+      if(year) lines.push(`  year      = {${year}},`);
+      if(url)  lines.push(`  url       = {${url}},`);
     }
     // remove trailing comma from last field
     lines[lines.length-1]=lines[lines.length-1].replace(/,$/,"");
