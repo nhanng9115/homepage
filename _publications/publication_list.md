@@ -125,23 +125,13 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 
   function addButtons(){
     document.querySelectorAll("li").forEach(li=>{
-      if(li.querySelector(".bibtex-btn")) return;
-      // crude heuristic: likely a paper if it has a year or an <em> venue
-      if(!/\b(?:19|20)\d{2}\b/.test(li.textContent) && !li.querySelector("em")) return;
-      const btn=document.createElement("button");
-      btn.className="bibtex-btn";btn.textContent="BibTex";
-      btn.onclick=()=>{
-        document.querySelectorAll(".bibtex-box").forEach(b=>b.remove());
-        const bib=fallbackBib(li);
-        btn.insertAdjacentElement("afterend",buildPanel(bib));
-      };
-      li.appendChild(document.createElement("br"));
-      li.appendChild(btn);
+      if(li.querySelector(".bibtex-btn"))return;
+      if(!/(19|20)\d{2}/.test(li.textContent))return;
+      const btn=document.createElement("button");btn.className="bibtex-btn";btn.textContent="BibTex";
+      btn.onclick=()=>{document.querySelectorAll(".bibtex-box").forEach(b=>b.remove());const bib=fallbackBib(li,quotedTitle(li));btn.insertAdjacentElement("afterend",buildPanel(bib));};
+      li.appendChild(document.createElement("br"));li.appendChild(btn);
     });
   }
-
-  if(document.readyState==="loading"){
-    document.addEventListener("DOMContentLoaded",addButtons);
-  } else { addButtons(); }
+  if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",addButtons);}else{addButtons();}
 })();
 </script>
