@@ -40,83 +40,79 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 
 <script>
 (function(){
-  // --- helpers (safe, minimal) ---
-  function clean(s){ return (s||"").replace(/\s+/g," ").trim(); }
+  function clean(s){return (s||"").replace(/\s+/g," ").trim();}
+  function firstLink(el){const a=el.querySelector("a[href]");return a?a.href:null;}
 
-  // Get first anchor's text for the title; fallback to quoted text
+  // KEEP NAME the same, but prefer the anchor text for the title
   function quotedTitle(li){
-    const a = li.querySelector('a[href]');
-    if (a) return clean(a.textContent);
-    const m = li.textContent.match(/"([^"]{3,})"/);
-    return m ? m[1].trim() : "Untitled";
+    const a=li.querySelector("a[href]");
+    if(a) return clean(a.textContent);
+    const m=li.textContent.match(/"([^"]{3,})"/);
+    return m?m[1].trim():"Untitled";
   }
 
-  // Authors = everything BEFORE the first anchor, using a DOM Range (robust to tags)
-  function extractAuthorsBeforeFirstAnchor(li){
-    const a = li.querySelector('a[href]');
-    if (!a) return clean(li.textContent);
-    const range = document.createRange();
-    range.setStart(li, 0);
-    range.setEnd(a, 0);
-    // text up to (but not including) the link
-    let txt = clean(range.toString());
-    // strip dangling punctuation/quotes
-    txt = txt.replace(/^[\s,:"“”]+|[\s,:"“”]+$/g, "");
-    return txt;
-  }
+  // ONLY change internals; keep the same signature (li, titleFromCaller)
+  function fallbackBib(li,_title){
+    const txt=clean(li.textContent);
 
-  // Venue from <em> tag if present
-  function extractVenue(li){
-    const em = li.querySelector('em');
-    return em ? clean(em.textContent) : "";
-  }
+    // Title: robustly take from anchor text
+    const aEl = li.querySelector("a[href]");
+    const title = aEl ? clean(aEl.textContent) : quotedTitle(li);
 
-  // Year = last 4-digit year found
-  function extractYear(li){
-    const years = clean(li.textContent).match(/\b(?:19|20)\d{2}\b/g);
-    return years ? years[years.length - 1] : "";
-  }
+    // Authors: text BEFORE the first anchor (DOM-safe)
+    let authors;
+    if(aEl){
+      const range=document.createRange();
+      range.setStart(li,0);
+      range.setEnd(aEl,0);
+      authors=clean(range.toString()).replace(/^[\s,:"“”]+|[\s,:"“”]+$/g,"");
+    }else{
+      // fallback: best effort up to the quoted title
+      const parts = txt.split(' "'+title+'"');
+      authors = clean((parts[0]||txt).replace(/^[\s,:"“”]+|[\s,:"“”]+$/g,""));
+    }
 
-  // --- your generator, improved but with the same signature ---
-  function fallbackBib(li, _titleFromCaller){
-    const authors = extractAuthorsBeforeFirstAnchor(li);
-    const title   = quotedTitle(li); // use robust title
-    const venue   = extractVenue(li);
-    const year    = extractYear(li);
+    // Venue & Year
+    const em=li.querySelector("em");
+    const venue=em?clean(em.textContent):"";
+    const years=txt.match(/\b(?:19|20)\d{2}\b/g);
+    const year=years?years[years.length-1]:"";
 
-    const isJournal = /Transactions|Journal|Letters|Selected Areas in Communications|JSAC|Wireless Communications Letters|Communications Letters/i.test(venue);
-    const firstSurname = (authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"") || "key";
-    const key = `${firstSurname}${year||""}Auto`;
+    // Entry type & key
+    const isJournal=/Transactions|Journal|Selected Areas in Communications|Letters|JSAC|Wireless Communications Letters|Communications Letters/i.test(venue);
+    const firstSurname=(authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"")||"key";
+    const key=`${firstSurname}${year||""}Auto`;
 
-    let lines = [];
-    if (isJournal){
+    // Pretty-print, one field per line, NO url
+    let lines=[];
+    if(isJournal){
       lines.push(`@article{${key},`);
       lines.push(`  author  = {${authors}},`);
       lines.push(`  title   = {${title}},`);
       lines.push(`  journal = {${venue}},`);
-      if (year) lines.push(`  year    = {${year}},`);
-    } else {
+      if(year) lines.push(`  year    = {${year}},`);
+    }else{
       lines.push(`@inproceedings{${key},`);
       lines.push(`  author    = {${authors}},`);
       lines.push(`  title     = {${title}},`);
-      lines.push(`  booktitle = {${venue || "Conference"}},`);
-      if (year) lines.push(`  year      = {${year}},`);
+      lines.push(`  booktitle = {${venue||"Conference"}},`);
+      if(year) lines.push(`  year      = {${year}},`);
     }
-    // remove trailing comma from last field
-    lines[lines.length - 1] = lines[lines.length - 1].replace(/,$/, "");
+    // remove trailing comma on the last field
+    lines[lines.length-1]=lines[lines.length-1].replace(/,$/,"");
     lines.push("}");
     return lines.join("\n");
   }
 
   function buildPanel(bib){
-    const box = document.createElement("div"); box.className = "bibtex-box";
-    const copy = document.createElement("button"); copy.className = "bibtex-copy"; copy.textContent = "Copy";
-    copy.onclick = () => { navigator.clipboard.writeText(bib).then(()=>{ copy.textContent="Copied!"; setTimeout(()=>copy.textContent="Copy",1200); }); };
-    const pre = document.createElement("pre"); pre.textContent = bib;
-    box.appendChild(copy); box.appendChild(pre); return box;
+    const box=document.createElement("div");box.className="bibtex-box";
+    const copy=document.createElement("button");copy.className="bibtex-copy";copy.textContent="Copy";
+    copy.onclick=()=>{navigator.clipboard.writeText(bib).then(()=>{copy.textContent="Copied!";setTimeout(()=>copy.textContent="Copy",1200);});};
+    const pre=document.createElement("pre");pre.textContent=bib;
+    box.appendChild(copy);box.appendChild(pre);return box;
   }
 
-  // --- KEEPING YOUR ORIGINAL addButtons EXACTLY ---
+  // *** YOUR ORIGINAL addButtons — UNCHANGED ***
   function addButtons(){
     document.querySelectorAll("li").forEach(li=>{
       if(li.querySelector(".bibtex-btn"))return;
