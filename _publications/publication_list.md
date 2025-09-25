@@ -43,7 +43,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
   function clean(s){return (s||"").replace(/\s+/g," ").trim();}
   function firstLink(el){const a=el.querySelector("a[href]");return a?a.href:null;}
 
-  // FIX 1: prefer <a> text; fallback to quotes in *textContent* (not innerHTML)
+  // FIX: get title from <a> text; fallback to quoted text in *textContent* (not innerHTML)
   function quotedTitle(li){
     const a = li.querySelector("a[href]");
     if (a) return clean(a.textContent);
@@ -53,15 +53,20 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 
   function fallbackBib(li,title){
     const txt=clean(li.textContent),url=firstLink(li);
-    const before=title?(txt.split(` "${title}"`)[0]||txt.split(title)[0]||txt):txt;
-    const authors=clean(before.replace(/,\s*$/,""));
-    const em=li.querySelector("em");const venue=em?clean(em.textContent):"";
 
-    // FIX 2: use the full 4-digit match (index 0), not the capture group
-    const year=(txt.match(/(19|20)\d{2}/)||[""])[0];
+    // Authors = text before the title (fallback: whole text)
+    const before = title ? (txt.split(` "${title}"`)[0] || txt.split(title)[0] || txt) : txt;
+    const authors = clean(before.replace(/,\s*$/,""));
+
+    const em=li.querySelector("em");
+    const venue=em?clean(em.textContent):"";
+
+    // FIX: use the full 4-digit year match
+    const year=(txt.match(/\b(19|20)\d{2}\b/)||[""])[0];
 
     const isJournal=/Transactions|Journal|Letters/i.test(venue);
     const key=(authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"")+(year||"");
+
     return isJournal?
 `@article{${key},
   author={${authors}},
@@ -81,17 +86,34 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
     const box=document.createElement("div");box.className="bibtex-box";
     const copy=document.createElement("button");copy.className="bibtex-copy";copy.textContent="Copy";
     copy.onclick=()=>{navigator.clipboard.writeText(bib).then(()=>{copy.textContent="Copied!";setTimeout(()=>copy.textContent="Copy",1200);});};
-    const pre=document.createElement("pre");pre.textContent=bib;box.appendChild(copy);box.appendChild(pre);return box;
+    const pre=document.createElement("pre");pre.textContent=bib;
+    box.appendChild(copy);box.appendChild(pre);
+    return box;
   }
+
   function addButtons(){
     document.querySelectorAll("li").forEach(li=>{
-      if(li.querySelector(".bibtex-btn"))return;
-      if(!/(19|20)\d{2}/.test(li.textContent))return;
-      const btn=document.createElement("button");btn.className="bibtex-btn";btn.textContent="BibTex";
-      btn.onclick=()=>{document.querySelectorAll(".bibtex-box").forEach(b=>b.remove());const bib=fallbackBib(li,quotedTitle(li));btn.insertAdjacentElement("afterend",buildPanel(bib));};
-      li.appendChild(document.createElement("br"));li.appendChild(btn);
+      if(li.querySelector(".bibtex-btn")) return;
+
+      const btn=document.createElement("button");
+      btn.className="bibtex-btn";
+      btn.textContent="BibTex";
+      btn.onclick=()=>{
+        document.querySelectorAll(".bibtex-box").forEach(b=>b.remove());
+        const bib=fallbackBib(li,quotedTitle(li));
+        btn.insertAdjacentElement("afterend",buildPanel(bib));
+      };
+      li.appendChild(document.createElement("br"));
+      li.appendChild(btn);
     });
   }
-  if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",addButtons);}else{addButtons();}
+
+  // Run both on DOM ready and on full load (covers more setups)
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",addButtons);
+    window.addEventListener("load",addButtons);
+  }else{
+    addButtons();
+  }
 })();
 </script>
