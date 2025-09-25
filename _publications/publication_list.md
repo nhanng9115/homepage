@@ -31,10 +31,10 @@ title: "Publications"
     const isJournal=/Transactions|Journal|Letters/i.test(venue);const key=(authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"")+(year||"");
     return isJournal?
 `@article{${key},
-  author={${authors}}
-  // title={${title||"Untitled"}},
-  // journal={${venue}},
-  // year={${year}}${url?`,\n  url={${url}}`:""}
+  author={${authors}},
+  title={${title||"Untitled"}},
+  journal={${venue}},
+  year={${year}}${url?`,\n  url={${url}}`:""}
 }`:
 `@inproceedings{${key},
   author={${authors}},
