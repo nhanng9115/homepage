@@ -31,7 +31,10 @@ title: "Publications"
     const isJournal=/Transactions|Journal|Letters/i.test(venue);const key=(authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"")+(year||"");
     return isJournal?
 `@article{${key},
-  author={${authors}},
+  author={${authors}}
+  // title={${title||"Untitled"}},
+  // journal={${venue}},
+  // year={${year}}${url?`,\n  url={${url}}`:""}
 }`:
 `@inproceedings{${key},
   author={${authors}},
@@ -58,4 +61,4 @@ title: "Publications"
   if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",addButtons);}else{addButtons();}
 })();
 </script>
-<img width="468" height="644" alt="image" src="https://github.com/user-attachments/assets/f548a4aa-495c-4243-8b65-7bfe47d8e635" />
+<img width="468" height="644" alt="image" src="https://github.com/user-attachments/assets/0f533abb-1b89-4a2e-b112-462c31bb8d97" />
