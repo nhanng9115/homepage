@@ -30,9 +30,9 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 <span style=""><em>IEEE Wireless Communications Letters</em></span>, vol. 14, no. 8, pp. 2446–2450, Aug. 2025.
 </li>
 
-<ol>
+</ol>
 
-<!-- Keep empty if you don't want to hand-enter any BibTeX -->
+<!-- Optional overrides (leave {} to rely entirely on auto-generation) -->
 <script type="application/json" id="bibtex-db">{}</script>
 
 <style>
@@ -45,80 +45,171 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 
 <script>
 (function(){
-  function ready(fn){
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', fn);
-    } else { fn(); }
-    // For themes using Turbolinks/Swup/etc.
-    window.addEventListener('pageshow', fn, { once: true });
+  // Get all paper <li> elements (fallback to any <li> if no <ol> list found)
+  function getPaperItems(){
+    let items = Array.from(document.querySelectorAll('ol li'));
+    if (!items.length) items = Array.from(document.querySelectorAll('li'));
+    // Avoid nav/header/footer lists
+    return items.filter(li => !li.closest('nav, header, footer'));
   }
 
-  ready(function initBibtex(){
-    // Load overrides
-    let DB = {};
-    try { DB = JSON.parse(document.getElementById('bibtex-db')?.textContent || '{}'); } catch(e){ DB = {}; }
+  function loadDB(){
+    try {
+      const node = document.getElementById('bibtex-db');
+      return node ? JSON.parse(node.textContent || '{}') : {};
+    } catch(e){ return {}; }
+  }
 
-    const items = Array.from(document.querySelectorAll('ol li'));
-    if (!items.length) {
-      console.warn('[bibtex] No <ol><li> items found on this page.');
-      return;
+  // Parsing helpers
+  function quotedTitle(li){
+    const m = li.innerHTML.match(/"([^"]{3,})"/);
+    if (m) return m[1].trim();
+    const a = li.querySelector('a[href]');
+    return a ? a.textContent.trim() : null;
+  }
+  function firstLink(li){
+    const a = li.querySelector('a[href]');
+    return a ? a.href : null;
+  }
+  function cleanText(s){ return (s||'').replace(/\s+/g,' ').trim(); }
+
+  function fallbackBib(li, title){
+    const txt = cleanText(li.textContent);
+    const url = firstLink(li);
+
+    // Authors: text before the title (quoted or anchor text)
+    let before = '';
+    if (title) {
+      const quoted = ' "' + title + '"';
+      before = txt.includes(quoted) ? txt.split(quoted)[0] : txt.split(title)[0];
+    } else {
+      before = txt;
+    }
+    const authors = cleanText(before.replace(/,\s*$/,''));
+
+    // Venue from <em> if present, else parse around year
+    const em = li.querySelector('em');
+    let venue = em ? cleanText(em.textContent) : '';
+    const yearMatches = txt.match(/(20\d{2})/g);
+    const year = yearMatches ? yearMatches[yearMatches.length-1] : '';
+
+    if (!venue) {
+      const v = (txt.match(/,\s*([A-Za-z].*?)\s*,\s*20\d{2}/) || [,''])[1];
+      venue = cleanText((v||'').replace(/\(\*\*.*?\*\*\)/g,''));
     }
 
-    function quotedTitle(li){
-      const m = li.innerHTML.match(/"([^"]{3,})"/);
-      return m ? m[1].trim() : null;
-    }
-    function firstLink(li){
-      const a = li.querySelector('a[href]');
-      return a ? a.getAttribute('href') : null;
-    }
-    function cleanText(s){ return s.replace(/\s+/g,' ').trim(); }
-    function fallbackBib(li, title){
-      const txt = cleanText(li.textContent);
-      const before = title ? txt.split(' "'+title+'"')[0] : txt;
-      const authors = before.replace(/,\s*$/,'');
-      const year = (txt.match(/,\s*(20\d{2})\./) || [,''])[1];
-      const venue = (txt.match(/,\s*([A-Za-z].*?)\s*,\s*20\d{2}/) || [,''])[1].replace(/\(\*\*.*?\*\*\)/g,'').trim();
-      const url = firstLink(li);
-      const isJournal = /Transactions|Journal/i.test(venue);
-      const key = (authors.split(',')[0]||'key').trim().split(' ').pop() + (year||'') + 'Auto';
-      const head = isJournal ?
-`@article{${key},
+    // Extra fields
+    const volume = (txt.match(/\bvol\.?\s*([0-9IVXLC]+)\b/i)||[])[1]||'';
+    const number = (txt.match(/\bno\.?\s*([A-Za-z0-9\-]+)\b/i)||[])[1]||'';
+    const pages  = (txt.match(/\bpp\.?\s*([0-9]+(?:\s*[-–]\s*[0-9]+)?)\b/i)||[])[1]||'';
+    const month  = (txt.match(/\b(Jan\.?|Feb\.?|Mar\.?|Apr\.?|May|Jun\.?|Jul\.?|Aug\.?|Sep\.?|Sept\.?|Oct\.?|Nov\.?|Dec\.?)\b/i)||[])[1]||'';
+
+    const isJournal = /Transactions|Journal|Letters|Wireless Communications Letters|Communications Letters|JSAC/i.test(venue||'');
+    const firstSurname = (authors.split(',')[0]||'key').split(' ').pop().replace(/[^A-Za-z]/g,'') || 'key';
+    const key = `${firstSurname}${year||''}Auto`;
+
+    let bib;
+    if (isJournal){
+      bib = `@article{${key},
   author = {${authors}},
-  title  = {${title}},
-  journal= {${venue}},
-  year   = {${year}}` :
-`@inproceedings{${key},
+  title  = {${title || 'Untitled'}},
+  journal= {${venue}}`;
+      if (year)   bib += `,\n  year   = {${year}}`;
+      if (volume) bib += `,\n  volume = {${volume}}`;
+      if (number) bib += `,\n  number = {${number}}`;
+      if (pages)  bib += `,\n  pages  = {${pages}}`;
+      if (month)  bib += `,\n  month  = {${month}}`;
+      if (url)    bib += `,\n  url    = {${url}}`;
+      bib += `\n}`;
+    } else {
+      bib = `@inproceedings{${key},
   author   = {${authors}},
-  title    = {${title}},
-  booktitle= {${venue}},
-  year     = {${year}}`;
-      return head + (url ? `,\n  url    = {${url}}\n}` : `\n}`);
+  title    = {${title || 'Untitled'}},
+  booktitle= {${venue || 'Conference'}}`;
+      if (year)  bib += `,\n  year     = {${year}}`;
+      if (pages) bib += `,\n  pages    = {${pages}}`;
+      if (month) bib += `,\n  month    = {${month}}`;
+      if (url)   bib += `,\n  url      = {${url}}`;
+      bib += `\n}`;
     }
-    function buildPanel(bib){
-      const box = document.createElement('div');
-      box.className = 'bibtex-box';
-      const copy = document.createElement('button');
-      copy.className = 'bibtex-copy';
-      copy.type = 'button';
-      copy.textContent = 'Copy';
-      copy.addEventListener('click', ()=>{
+    return bib;
+  }
+
+  function buildPanel(bib){
+    const box = document.createElement('div');
+    box.className = 'bibtex-box';
+
+    const copy = document.createElement('button');
+    copy.className = 'bibtex-copy';
+    copy.type = 'button';
+    copy.textContent = 'Copy';
+
+    function fallbackCopy(text){
+      const ta = document.createElement('textarea');
+      ta.value = text; document.body.appendChild(ta);
+      ta.select(); try { document.execCommand('copy'); } catch(e){}
+      document.body.removeChild(ta);
+    }
+
+    copy.addEventListener('click', ()=>{
+      if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(bib).then(()=>{
           const t = copy.textContent; copy.textContent='Copied!'; setTimeout(()=>copy.textContent=t, 1200);
-        });
-      });
-      const pre = document.createElement('pre');
-      const code = document.createElement('code');
-      code.textContent = bib;
-      pre.appendChild(code);
-      box.appendChild(copy);
-      box.appendChild(pre);
-      return box;
-    }
+        }).catch(()=>{ fallbackCopy(bib); });
+      } else {
+        fallbackCopy(bib);
+      }
+    });
 
-    // Prevent double-initialization (e.g., PJAX revisits)
-    if (document.body.dataset.bibtexInit === '1') return;
-    document.body.dataset.bibtexInit = '1';
+    const pre = document.createElement('pre');
+    const code = document.createElement('code');
+    code.textContent = bib;
+    pre.appendChild(code);
 
+    box.appendChild(copy);
+    box.appendChild(pre);
+    return box;
+  }
+
+  function ensureButtons(){
+    const items = getPaperItems();
     items.forEach(li=>{
-      // Skip if already has a button (avoid duplicates on soft na
+      if (li.querySelector('.bibtex-btn')) return; // already added
+      const btn = document.createElement('button');
+      btn.className = 'bibtex-btn';
+      btn.type = 'button';
+      btn.textContent = 'BibTex';
+      li.appendChild(document.createElement('br'));
+      li.appendChild(btn);
+    });
+  }
+
+  // One click handler for the whole page (event delegation)
+  document.addEventListener('click', (e)=>{
+    if (!e.target.classList.contains('bibtex-btn')) return;
+    const li = e.target.closest('li');
+    // Close other panels
+    document.querySelectorAll('.bibtex-box').forEach(b=>b.remove());
+
+    const title = quotedTitle(li);
+    const DB = loadDB();
+    const bib = (title && DB[title]) ? DB[title] : fallbackBib(li, title);
+
+    const panel = buildPanel(bib);
+    e.target.insertAdjacentElement('afterend', panel);
+    panel.scrollIntoView({behavior:'smooth', block:'nearest'});
+  });
+
+  // Initial mount + watch for soft navigations/content changes
+  function mount(){
+    ensureButtons();
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', mount);
+  } else {
+    mount();
+  }
+  const mo = new MutationObserver(()=>ensureButtons());
+  mo.observe(document.body, { childList: true, subtree: true });
+})();
+</script>
