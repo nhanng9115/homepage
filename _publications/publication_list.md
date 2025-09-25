@@ -11,112 +11,36 @@ title: "Publications"
   <span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
 </li>
 
-<li>
-A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
-"<a href="https://arxiv.org/pdf/2503.14054" target="_blank">Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach</a>,"  
-<span style=""><em>IEEE Communications Letters</em></span>, 2025. (accepted)
-</li>
-
-<li>
-M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11008697" target="_blank">Digital and Hybrid Precoding Designs in Massive MIMO with Low-Resolution ADCs</a>,"  
-<span style=""><em>IEEE Wireless Communications Letters</em></span>, vol. 14, no. 8, pp. 2446–2450, Aug. 2025.
-</li>
-
 </ol>
 <script>
 (function(){
-  function clean(s){ return (s||"").replace(/\s+/g," ").trim(); }
+  function clean(s){return (s||"").replace(/\s+/g," ").trim();}
 
-  function getAnchor(li){
-    return li.querySelector('a[href]');
-  }
-
-  // Robust title from anchor text (not innerHTML)
-  function getTitle(li){
-    const a = getAnchor(li);
-    if(!a) return null;
-    return clean(a.textContent);
-  }
-
-  // Authors = all text before the first <a>
-  function getAuthors(li){
-    let s = "";
-    for (const node of li.childNodes){
-      if (node.nodeType === 1 && node.tagName === "A") break;   // stop at first link
-      if (node.nodeType === 3) s += node.nodeValue;
-      else if (node.nodeType === 1) s += " " + node.textContent;
+  // Grab text BEFORE the first <a> (covers <strong> etc. in the author list)
+  function extractAuthors(li){
+    let out = "";
+    for(const node of li.childNodes){
+      if(node.nodeType === 1 && node.tagName === "A") break; // stop at first link
+      if(node.nodeType === 3) out += node.nodeValue;
+      else if(node.nodeType === 1) out += " " + node.textContent; // include <strong> names
     }
-    s = clean(s);
-    // drop trailing comma if present
-    s = s.replace(/,\s*$/,"");
-    return s;
+    out = clean(out);
+    return out.replace(/,\s*$/,""); // trim trailing comma
   }
 
-  function getVenue(li){
-    const em = li.querySelector("em");
-    return em ? clean(em.textContent) : "";
-  }
+  // (kept for compatibility; not used in this step)
+  function firstLink(el){const a=el.querySelector("a[href]");return a?a.href:null;}
+  function quotedTitle(li){const a=li.querySelector("a[href]");return a?clean(a.textContent):null;}
 
-  // Take the last 4-digit year present (handles multiple numbers in the string)
-  function getYear(li){
-    const txt = li.textContent || "";
-    const matches = Array.from(txt.matchAll(/\b(19|20)\d{2}\b/g));
-    return matches.length ? matches[matches.length-1][0] : "";
-  }
-
-  function getUrl(li){
-    const a = getAnchor(li);
-    return a ? a.href : null;
-  }
-
-  function getNote(li){
-    const txt = (li.textContent || "").toLowerCase();
-    if (/\baccepted\b/.test(txt)) return "accepted";
-    if (/\bin press\b/.test(txt)) return "in press";
-    return "";
-  }
-
-  function bibKey(authors, year){
-    // Use last token of the first author (letters only) + year
-    const firstAuthor = clean(authors.split(",")[0] || "key");
-    const lastToken = clean(firstAuthor).split(/\s+/).pop().replace(/[^A-Za-z]/g,"") || "key";
-    return lastToken + (year || "");
-  }
-
-  function isJournal(venue){
-    return /Transactions|Journal|Letters/i.test(venue);
-  }
-
-  function escapeLatex(s){
-    // Very light escaping for common special chars in BibTeX fields
-    return s.replace(/([\\{}%_#&])/g, "\\$1");
-  }
-
-  function buildBib(li){
-    const title = getTitle(li) || "Untitled";
-    const authors = getAuthors(li);
-    const venue = getVenue(li);
-    const year = getYear(li);
-    const url = getUrl(li);
-    const note = getNote(li);
-    const key = bibKey(authors, year);
-
-    const type = isJournal(venue) ? "article" : "inproceedings";
-    const venueField = isJournal(venue) ? "journal" : "booktitle";
-
-    let bib =
-`@${type}{${key},
-  author = {${escapeLatex(authors)}},
-  title = {${escapeLatex(title)}},
-  ${venueField} = {${escapeLatex(venue)}},
-  year = {${year}}`;
-
-    if (url) bib += `,\n  url = {${url}}`;
-    if (note) bib += `,\n  note = {${note}}`;
-    bib += `\n}`;
-
-    return bib;
+  // Build a minimal BibTeX that ONLY includes the author list
+  function fallbackBib(li,_title){
+    const authors = extractAuthors(li);
+    // simple key: last token of first author (letters only)
+    const firstAuthor = clean((authors.split(",")[0]||"key"));
+    const key = (firstAuthor.split(/\s+/).pop() || "key").replace(/[^A-Za-z]/g,"") || "key";
+    return `@misc{${key},
+  author = {${authors}}
+}`;
   }
 
   function buildPanel(bib){
@@ -128,27 +52,18 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 
   function addButtons(){
     document.querySelectorAll("li").forEach(li=>{
-      if(li.querySelector(".bibtex-btn")) return;
-      if(!/\b(19|20)\d{2}\b/.test(li.textContent)) return;
-
-      const btn=document.createElement("button");
-      btn.className="bibtex-btn";
-      btn.textContent="BibTeX";
+      if(li.querySelector(".bibtex-btn"))return;
+      if(!/(19|20)\d{2}/.test(li.textContent))return;
+      const btn=document.createElement("button");btn.className="bibtex-btn";btn.textContent="BibTeX";
       btn.onclick=()=>{
         document.querySelectorAll(".bibtex-box").forEach(b=>b.remove());
-        const bib = buildBib(li);
-        btn.insertAdjacentElement("afterend", buildPanel(bib));
+        const bib=fallbackBib(li,quotedTitle(li));
+        btn.insertAdjacentElement("afterend",buildPanel(bib));
       };
-
-      li.appendChild(document.createElement("br"));
-      li.appendChild(btn);
+      li.appendChild(document.createElement("br"));li.appendChild(btn);
     });
   }
 
-  if(document.readyState==="loading"){
-    document.addEventListener("DOMContentLoaded", addButtons);
-  }else{
-    addButtons();
-  }
+  if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",addButtons);}else{addButtons();}
 })();
 </script>
