@@ -42,75 +42,33 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 (function(){
   function clean(s){return (s||"").replace(/\s+/g," ").trim();}
   function firstLink(el){const a=el.querySelector("a[href]");return a?a.href:null;}
-
-  /* ONLY CHANGE #1: prefer anchor text for title; fallback to quoted; never null */
-  function quotedTitle(li){
-    const a = li.querySelector('a[href]');
-    if (a && a.textContent) return clean(a.textContent);
-    const m = li.textContent.match(/"([^"]{3,})"/);
-    return m ? m[1].trim() : "Untitled";
-  }
-
-  /* ONLY CHANGE #2: robust authors/title/year parsing (no URL) */
+  function quotedTitle(li){const m=li.innerHTML.match(/"([^"]{3,})"/);if(m)return m[1].trim();const a=li.querySelector("a[href]");return a?clean(a.textContent):null;}
   function fallbackBib(li,title){
-    const txt = clean(li.textContent);
-
-    // Title from anchor text if present; else use passed-in/fallback
-    const a = li.querySelector('a[href]');
-    const titleText = a && a.textContent ? clean(a.textContent) : (title || "Untitled");
-
-    // Authors = everything BEFORE the visible title text (if found)
-    let before;
-    const idx = txt.indexOf(titleText);
-    if (idx >= 0) before = txt.slice(0, idx);
-    else if (title && txt.includes(` "${title}"`)) before = txt.split(` "${title}"`)[0];
-    else if (title && txt.includes(title)) before = txt.split(title)[0];
-    else before = txt;
-
-    let authors = clean(before)
-      .replace(/,\s*$/,"")                            // trim trailing comma
-      .replace(/^[\s,:"“”]+|[\s,:"“”]+$/g,"");        // trim quotes/punct
-
-    // Venue & year
-    const em = li.querySelector("em");
-    const venue = em ? clean(em.textContent) : "";
-    const years = txt.match(/\b(?:19|20)\d{2}\b/g);
-    const year  = years ? years[years.length-1] : "";
-
-    const isJournal = /Transactions|Journal|Selected Areas in Communications|Letters|JSAC|Wireless Communications Letters|Communications Letters/i.test(venue);
-    const firstSurname = (authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"") || "key";
-    const key = `${firstSurname}${year||""}Auto`;
-
-    // Pretty print (NO url)
-    let lines=[];
-    if (isJournal){
-      lines.push(`@article{${key},`);
-      lines.push(`  author  = {${authors}},`);
-      lines.push(`  title   = {${titleText}},`);
-      lines.push(`  journal = {${venue}},`);
-      if (year) lines.push(`  year    = {${year}},`);
-    } else {
-      lines.push(`@inproceedings{${key},`);
-      lines.push(`  author    = {${authors}},`);
-      lines.push(`  title     = {${titleText}},`);
-      lines.push(`  booktitle = {${venue || "Conference"}},`);
-      if (year) lines.push(`  year      = {${year}},`);
-    }
-    // remove trailing comma on last field
-    lines[lines.length-1] = lines[lines.length-1].replace(/,$/,"");
-    lines.push("}");
-    return lines.join("\n");
+    const txt=clean(li.textContent),url=firstLink(li);
+    const before=title?(txt.split(` "${title}"`)[0]||txt.split(title)[0]||txt):txt;
+    const authors=clean(before.replace(/,\s*$/,""));
+    const em=li.querySelector("em");const venue=em?clean(em.textContent):"";const year=(txt.match(/(19|20)\d{2}/)||[,""])[1];
+    const isJournal=/Transactions|Journal|Letters/i.test(venue);const key=(authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"")+(year||"");
+    return isJournal?
+`@article{${key},
+  author={${authors}},
+  title={${title||"Untitled"}},
+  journal={${venue}},
+  year={${year}}${url?`,\n  url={${url}}`:""}
+}`:
+`@inproceedings{${key},
+  author={${authors}},
+  title={${title||"Untitled"}},
+  booktitle={${venue||"Conference"}},
+  year={${year}}${url?`,\n  url={${url}}`:""}
+}`;
   }
-
-  /* your original buildPanel (unchanged) */
   function buildPanel(bib){
     const box=document.createElement("div");box.className="bibtex-box";
     const copy=document.createElement("button");copy.className="bibtex-copy";copy.textContent="Copy";
     copy.onclick=()=>{navigator.clipboard.writeText(bib).then(()=>{copy.textContent="Copied!";setTimeout(()=>copy.textContent="Copy",1200);});};
     const pre=document.createElement("pre");pre.textContent=bib;box.appendChild(copy);box.appendChild(pre);return box;
   }
-
-  /* your original addButtons (UNCHANGED) */
   function addButtons(){
     document.querySelectorAll("li").forEach(li=>{
       if(li.querySelector(".bibtex-btn"))return;
