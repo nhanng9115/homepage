@@ -8,39 +8,35 @@ title: "Publications"
 # 📄 Journal Publications
 
 <ol>
-  <!-- === Paper 1 === -->
+  <!-- ===== Paper 1 ===== -->
   <li>
     H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,
     "<a href="https://www.arxiv.org/pdf/2509.10290" target="_blank">Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems</a>,"
     <span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
 
-    <!-- Hidden BibTeX blob (kept as plain text; not a <script>) -->
-    <pre class="bibtex-data" style="display:none">
-@article{nguyen2025energy,
+    <!-- Paste Scholar BibTeX for this paper here -->
+    <textarea class="bibtex-data" style="display:none">@article{nguyen2025energy,
   title={Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
   author={Nguyen, Huy T and Nguyen, Van-Dinh and Nguyen, Nhan Thanh and Luong, Nguyen Cong and Bao, Vo-Nguyen Quoc and Ngo, Hien Quoc and Niyato, Dusit and Chatzinotas, Symeon},
   journal={IEEE Journal on Selected Areas in Communications},
   year={2025},
   publisher={IEEE}
-}
-    </pre>
+}</textarea>
   </li>
 
-  <!-- === Paper 2 === -->
+  <!-- ===== Paper 2 ===== -->
   <li>
     A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
     "<a href="https://arxiv.org/pdf/2503.14054" target="_blank">Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach</a>,"
     <span><em>IEEE Communications Letters</em></span>, 2025. (accepted)
 
-    <!-- Hidden BibTeX blob (arXiv version you provided) -->
-    <pre class="bibtex-data" style="display:none">
-@article{zakeri2025dynamic,
+    <!-- Paste Scholar BibTeX for this paper here -->
+    <textarea class="bibtex-data" style="display:none">@article{zakeri2025dynamic,
   title={Dynamic Joint Communications and Sensing Precoding Design: A Lyapunov Approach},
   author={Zakeri, Abolfazl and Nguyen, Nhan Thanh and Alkhateeb, Ahmed and Juntti, Markku},
   journal={arXiv preprint arXiv:2503.14054},
   year={2025}
-}
-    </pre>
+}</textarea>
   </li>
 </ol>
 
@@ -53,56 +49,65 @@ title: "Publications"
 
 <script>
 (function(){
-  function clean(s){return (s||"").replace(/\s+\n/g,"\n").replace(/\n\s+/g,"\n").trim();}
+  function clean(s){return (s||"").replace(/\s+/g," ").trim();}
+  function firstLink(el){const a=el.querySelector("a[href]");return a?a.href:null;}
+  function quotedTitle(li){const m=li.innerHTML.match(/"([^"]{3,})"/);if(m)return m[1].trim();const a=li.querySelector("a[href]");return a?clean(a.textContent):null;}
+
+  // NEW helper: use embedded Scholar BibTeX if present
+  function embeddedBib(li){
+    const ta = li.querySelector("textarea.bibtex-data");
+    if(!ta) return null;
+    // Use .value to get raw text; fallback to textContent if needed
+    const raw = (ta.value !== undefined ? ta.value : ta.textContent) || "";
+    return raw.trim();
+  }
+
+  // Your original fallback (left unchanged)
+  function fallbackBib(li,title){
+    const txt=clean(li.textContent),url=firstLink(li);
+    const before=title?(txt.split(` "${title}"`)[0]||txt.split(title)[0]||txt):txt;
+    const authors=clean(before.replace(/,\s*$/,""));
+    const em=li.querySelector("em");const venue=em?clean(em.textContent):"";const year=(txt.match(/(19|20)\d{2}/)||[,""])[1];
+    const isJournal=/Transactions|Journal|Letters/i.test(venue);const key=(authors.split(",")[0]||"key").split(" ").pop().replace(/[^A-Za-z]/g,"")+(year||"");
+    return isJournal?
+`@article{${key},
+  author={${authors}},
+  title={${title||"Untitled"}},
+  journal={${venue}},
+  year={${year}}${url?`,\n  url={${url}}`:""}
+}`:
+`@inproceedings{${key},
+  author={${authors}},
+  title={${title||"Untitled"}},
+  booktitle={${venue||"Conference"}},
+  year={${year}}${url?`,\n  url={${url}}`:""}
+}`;
+  }
 
   function buildPanel(bib){
-    const box=document.createElement("div");
-    box.className="bibtex-box";
-
-    const copy=document.createElement("button");
-    copy.className="bibtex-copy";
-    copy.textContent="Copy";
-    copy.onclick=()=>{navigator.clipboard.writeText(bib).then(()=>{
-      copy.textContent="Copied!";
-      setTimeout(()=>copy.textContent="Copy",1200);
-    });};
-
-    const pre=document.createElement("pre");
-    pre.textContent=bib;
-
-    box.appendChild(copy);
-    box.appendChild(pre);
-    return box;
+    const box=document.createElement("div");box.className="bibtex-box";
+    const copy=document.createElement("button");copy.className="bibtex-copy";copy.textContent="Copy";
+    copy.onclick=()=>{navigator.clipboard.writeText(bib).then(()=>{copy.textContent="Copied!";setTimeout(()=>copy.textContent="Copy",1200);});};
+    const pre=document.createElement("pre");pre.textContent=bib;box.appendChild(copy);box.appendChild(pre);return box;
   }
 
   function addButtons(){
     document.querySelectorAll("ol > li").forEach(li=>{
-      const data=li.querySelector(".bibtex-data");
-      if(!data) return;
-      if(li.querySelector(".bibtex-btn")) return;
+      if(li.querySelector(".bibtex-btn"))return;
+      if(!/(19|20)\d{2}/.test(li.textContent))return;
 
-      const btn=document.createElement("button");
-      btn.className="bibtex-btn";
-      btn.textContent="BibTeX";
-
+      const btn=document.createElement("button");btn.className="bibtex-btn";btn.textContent="BibTeX";
       btn.onclick=()=>{
-        // close any open panel in this LI
-        li.querySelectorAll(".bibtex-box").forEach(b=>b.remove());
-        const bib=clean(data.textContent || data.innerText || "");
-        btn.insertAdjacentElement("afterend", buildPanel(bib));
+        document.querySelectorAll(".bibtex-box").forEach(b=>b.remove());
+        const provided = embeddedBib(li);
+        const bib = provided || fallbackBib(li,quotedTitle(li)); // prefer your pasted Scholar BibTeX
+        btn.insertAdjacentElement("afterend",buildPanel(bib));
       };
-
-      li.appendChild(document.createElement("br"));
-      li.appendChild(btn);
+      li.appendChild(document.createElement("br"));li.appendChild(btn);
     });
   }
 
-  if(document.readyState==="loading"){
-    document.addEventListener("DOMContentLoaded", addButtons);
-  }else{
-    addButtons();
-  }
-  // extra pass after full load (covers late hydration)
-  window.addEventListener("load", ()=>setTimeout(addButtons,0));
+  if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",addButtons);}else{addButtons();}
+  window.addEventListener("load", ()=>setTimeout(addButtons, 0));
 })();
 </script>
