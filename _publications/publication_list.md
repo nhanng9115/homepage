@@ -75,32 +75,19 @@ title: "Publications"
 
 <!-- Tiny helper: copies from the visible <code> text (single source). -->
 <script>
-async function copyBib(codeId, btn){
+function copyBib(codeId, btn){
   const code = document.getElementById(codeId);
   if(!code) return;
-  const text = code.textContent;
-
+  const ta = document.createElement('textarea');
+  ta.value = code.textContent;
+  ta.style.position = 'fixed';
+  ta.style.left = '-9999px';
+  document.body.appendChild(ta);
+  ta.focus();
+  ta.select();
   let ok = false;
-
-  // Try modern Clipboard API (HTTPS + user gesture)
-  try {
-    await navigator.clipboard.writeText(text);
-    ok = true;
-  } catch (e) {
-    // Fallback: temporary textarea + execCommand
-    try {
-      const ta = document.createElement('textarea');
-      ta.value = text;
-      ta.style.position = 'fixed';
-      ta.style.left = '-9999px';
-      document.body.appendChild(ta);
-      ta.focus();
-      ta.select();
-      ok = document.execCommand('copy');
-      document.body.removeChild(ta);
-    } catch(e2){}
-  }
-
+  try { ok = document.execCommand('copy'); } catch(e){}
+  document.body.removeChild(ta);
   const old = btn.textContent;
   btn.textContent = ok ? 'Copied!' : 'Copy';
   setTimeout(()=>{ btn.textContent = old; }, 1200);
