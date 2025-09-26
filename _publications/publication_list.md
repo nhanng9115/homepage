@@ -75,28 +75,34 @@ title: "Publications"
 
 <!-- Tiny helper: copies from the visible <code> text (single source). -->
 <script>
-function copyBib(codeId, btn){
-  var code = document.getElementById(codeId);
+async function copyBib(codeId, btn){
+  const code = document.getElementById(codeId);
   if(!code) return;
-  var text = code.textContent; // preserves line breaks exactly as shown
+  const text = code.textContent;
 
-  // Try Clipboard API, fall back to a temporary <textarea>
-  var ok = false;
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(text).then(function(){ok=true;}).catch(function(){});
-  } else {
+  let ok = false;
+
+  // Try modern Clipboard API (HTTPS + user gesture)
+  try {
+    await navigator.clipboard.writeText(text);
+    ok = true;
+  } catch (e) {
+    // Fallback: temporary textarea + execCommand
     try {
-      var ta = document.createElement('textarea');
-      ta.style.position='fixed'; ta.style.left='-9999px'; ta.value=text;
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.left = '-9999px';
       document.body.appendChild(ta);
-      ta.select(); document.execCommand('copy');
+      ta.focus();
+      ta.select();
+      ok = document.execCommand('copy');
       document.body.removeChild(ta);
-      ok = true;
-    } catch(e){}
+    } catch(e2){}
   }
 
-  var old = btn.textContent;
+  const old = btn.textContent;
   btn.textContent = ok ? 'Copied!' : 'Copy';
-  setTimeout(function(){ btn.textContent = old; }, 1200);
+  setTimeout(()=>{ btn.textContent = old; }, 1200);
 }
 </script>
