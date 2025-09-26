@@ -1,7 +1,6 @@
 ---
 permalink: /publications/
 title: "Publications"
-render_with_liquid: false
 ---
 
 
@@ -411,7 +410,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/32277/nbnfi-fe2022100661285.pdf?sequence=1" target="_blank">MIMO Evolution Beyond 5G Through Reconfigurable Intelligent Surfaces and Fluid Antenna Systems</a>,"  
 <span><em>Proceedings of the IEEE</em></span>, vol. 110, no. 9, pp. 1244–1265, May 2022. 
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-17">@article{shojaeifard2022mimo,
-  title={{MIMO} evolution beyond 5G through reconfigurable intelligent surfaces and fluid antenna systems},
+  title={MIMO evolution beyond 5G through reconfigurable intelligent surfaces and fluid antenna systems},
   author={Shojaeifard, Arman and Wong, Kai-Kit and Tong, Kin-Fai and Chu, Zhiyuan and Mourad, Alain and Haghighat, Afshin and Hemadeh, Ibrahim and Nguyen, Nhan Thanh and Tapio, Visa and Juntti, Markku},
   journal={Proc. IEEE},
   volume={110},
@@ -763,7 +762,7 @@ T. D. Phan, D. Q. Nguyen, N. Takanen, <strong>N. T. Nguyen</strong>, M. Juntti, 
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/56987/nbnfioulu-202506164496.pdf?sequence=1&isAllowed=y" target="_blank">ML-Assisted RIS for ISAC Systems: Initial Results in the 6G Study Band</a>,"  
 <span><em>European Conference on Antennas and Propagation (EuCAP)</em></span>, 2025.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-13">@inproceedings{phan2025ml,
-  title={{ML}-Assisted {RIS} for {ISAC} Systems: {I}nitial Results in the {6G} Study Band},
+  title={ML-Assisted {RIS} for {ISAC} Systems: {I}nitial Results in the {6G} Study Band},
   author={Phan, Duy Tung and Nguyen, Quoc Duy and Takanen, Niklas and Nguyen, Thanh Nhan and Juntti, Markku and Soh, Ping Jack},
   booktitle={2025 19th European Conference on Antennas and Propagation (EuCAP)},
   pages={1--5},
@@ -878,7 +877,7 @@ T. D. Gian, T.-H. Nguyen, <strong>N. T. Nguyen</strong>, and V.-D. Nguyen,
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53074/nbnfioulu-202412097102.pdf?sequence=1&isAllowed=y" target="_blank">WiLHPE: WiFi-enabled Lightweight Channel Frequency Dynamic Convolution for HPE Tasks</a>,"  
 <span><em>IEEE International Conference on Communications and Electronics (ICCE)</em></span>, Aug. 2024, Da Nang City, Vietnam.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-21">@inproceedings{gian2024wilhpe,
-  title={{WiLHPE: WiFi}-enabled Lightweight Channel Frequency Dynamic Convolution for {HPE} Tasks},
+  title={WiLHPE: WiFi-enabled Lightweight Channel Frequency Dynamic Convolution for {HPE} Tasks},
   author={Gian, Toan D and Nguyen, Tien-Hoa and Nguyen, Nhan Thanh and Nguyen, Van-Dinh},
   booktitle={2024 Tenth International Conference on Communications and Electronics (ICCE)},
   pages={516--521},
