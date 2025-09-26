@@ -4,25 +4,27 @@ title: "Publications"
 ---
 
 <style>
-/* Wider only on large screens */
-@media (min-width: 992px){
-  /* Make the page container wider */
-  .container, .container-lg, .container-xl, .page-content .wrapper, .markdown-body{
-    max-width: 1400px !important;   /* bump cap */
-    width: 92vw !important;         /* responsive width */
-  }
-  /* Give more space to the content column, less to the sidebar */
-  .col-9, .col-md-9{ width: 82% !important; }
-  .col-3, .col-md-3{ width: 18% !important; }
+/* Fully justify publication lines, but keep code/BibTeX left-aligned */
+.pub-justify li{
+  text-align: justify;
+  text-align-last: left;      /* last line stays left */
+  text-justify: inter-word;
+  -webkit-hyphens: auto;      /* nicer wraps */
+  hyphens: auto;
+  line-height: 1.4;
 }
-/* Ensure long code blocks scroll horizontally if needed */
-pre{ overflow:auto; }
+.pub-justify li pre,
+.pub-justify li code,
+.pub-justify li details,
+.pub-justify li summary,
+.pub-justify li button{ text-align: left; }
 </style>
+
 
 
 # 📝 Submitted and Under Revision  
 
-<ol>
+<ol class="pub-justify">
 
 <!-- ======================== SUBMISSION 1 ======================== -->
 <li>
