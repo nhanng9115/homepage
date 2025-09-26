@@ -151,7 +151,7 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
 
 # 📄 Journal Publications
 
-<ol>
+<ol class="pub-justify">
 
 <!-- ======================== PAPER 1 ======================== -->
 <li>
@@ -628,7 +628,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 
 # 🎤 Conference Publications  
 
-<ol>
+<ol class="pub-justify">
 
 <!-- ======================== CONF PAPER 1 ======================== -->
 <li>
