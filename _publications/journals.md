@@ -2,7 +2,7 @@
 permalink: /publications/
 title: "Publications"
 ---
-
+# 📝 Submitted and Under Revision  
 <style>
 /* --- Wider page just here --- */
 @media (min-width: 992px){
