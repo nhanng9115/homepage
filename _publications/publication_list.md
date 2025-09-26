@@ -4,17 +4,21 @@ title: "Publications"
 ---
 
 <style>
-/* Widen ONLY this page (works with jekyll-theme-primer & minima) */
-.container-lg, .markdown-body, .page-content .wrapper {
-  max-width: clamp(1100px, 92vw, 1400px) !important; /* wider but still responsive */
+/* Wider only on large screens */
+@media (min-width: 992px){
+  /* Make the page container wider */
+  .container, .container-lg, .container-xl, .page-content .wrapper, .markdown-body{
+    max-width: 1400px !important;   /* bump cap */
+    width: 92vw !important;         /* responsive width */
+  }
+  /* Give more space to the content column, less to the sidebar */
+  .col-9, .col-md-9{ width: 82% !important; }
+  .col-3, .col-md-3{ width: 18% !important; }
 }
-
-/* Optional: keep some breathing room at the edges on small screens */
-.container-lg, .page-content .wrapper { padding-left: 1rem; padding-right: 1rem; }
-
-/* Make BibTeX blocks span the new width nicely */
-pre { overflow:auto; }
+/* Ensure long code blocks scroll horizontally if needed */
+pre{ overflow:auto; }
 </style>
+
 
 # 📝 Submitted and Under Revision  
 
