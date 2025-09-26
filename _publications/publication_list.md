@@ -14,7 +14,13 @@ title: "Publications"
   H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,  
   "<a href="https://www.arxiv.org/pdf/2509.10290" target="_blank">Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems</a>,"  
   <span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
-  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-1', this); return false;">Copy</button></div></details>
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-1">@article{nguyen2025energy,
+  title={Energy Efficiency for Massive {MIMO} Integrated Sensing and Communication Systems},
+  author={Nguyen, Huy T and Nguyen, Van-Dinh and Nguyen, Nhan Thanh and Luong, Nguyen Cong and Bao, Vo-Nguyen Quoc and Ngo, Hien Quoc and Niyato, Dusit and Chatzinotas, Symeon},
+  journal={IEEE Journal on Selected Areas in Communications},
+  year={2025},
+  publisher={IEEE}
+}</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-1', this); return false;">Copy</button></div></details>
 </li>
 
 <!-- ======================== PAPER 2 ======================== -->
@@ -22,7 +28,12 @@ title: "Publications"
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2503.14054" target="_blank">Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach</a>,"  
 <span><em>IEEE Communications Letters</em></span>, 2025. (accepted)
-  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-2">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-2', this); return false;">Copy</button></div></details>
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-2">@article{zakeri2025dynamic,
+  title={Dynamic Joint Communications and Sensing Precoding Design: {A Lyapunov} Approach},
+  author={Zakeri, Abolfazl and Nguyen, Nhan Thanh and Alkhateeb, Ahmed and Juntti, Markku},
+  journal={arXiv preprint arXiv:2503.14054},
+  year={2025}
+}</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-2', this); return false;">Copy</button></div></details>
 </li>
 
 <!-- ======================== PAPER 3 ======================== -->
@@ -30,7 +41,13 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11008697" target="_blank">Digital and Hybrid Precoding Designs in Massive MIMO with Low-Resolution ADCs</a>,"  
 <span><em>IEEE Wireless Communications Letters</em></span>, vol. 14, no. 8, pp. 2446–2450, Aug. 2025.
-  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-3">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-3', this); return false;">Copy</button></div></details>
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-3">@article{ma2025digital,
+  title={Digital and Hybrid Precoding Designs in Massive {MIMO} with Low-Resolution {ADCs}},
+  author={Ma, Mengyuan and Nguyen, Nhan Thanh and Atzeni, Italo and Swindlehurst, A Lee and Juntti, Markku},
+  journal={IEEE Wireless Communications Letters},
+  year={2025},
+  publisher={IEEE}
+}</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-3', this); return false;">Copy</button></div></details>
 </li>
 
 <!-- ======================== PAPER 4 ======================== -->
@@ -38,7 +55,13 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11006401" target="_blank">Joint Beamforming Design and Bit Allocation in Massive MIMO with Resolution-Adaptive ADCs</a>,"  
 <span><em>IEEE Transactions on Wireless Communications</em></span>, 2025. (accepted) 
-  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-4">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-4', this); return false;">Copy</button></div></details>
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-4">@article{ma2025joint,
+  title={Joint beamforming design and bit allocation in massive {MIMO} with resolution-adaptive {ADCs}},
+  author={Ma, Mengyuan and Nguyen, Nhan Thanh and Atzeni, Italo and Juntti, Markku},
+  journal={IEEE Transactions on Wireless Communications},
+  year={2025},
+  publisher={IEEE}
+}</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-4', this); return false;">Copy</button></div></details>
 </li>
 
 <!-- ======================== PAPER 5 ======================== -->
@@ -46,7 +69,13 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">Performance Analysis and Power Allocation for Massive MIMO ISAC</a>,"  
 <span><em>IEEE Transactions on Signal Processing</em></span>, vol. 73, pp. 1691–1707, Mar. 2025. 
-  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-5">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-5', this); return false;">Copy</button></div></details>
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-5">@article{nguyen2025performance,
+  title={Performance analysis and power allocation for massive {MIMO ISAC} systems},
+  author={Nguyen, Nhan Thanh and Nguyen, Van-Dinh and Nguyen, Hieu V and Ngo, Hien Quoc and Swindlehurst, A Lee and Juntti, Markku},
+  journal={IEEE Transactions on Signal Processing},
+  year={2025},
+  publisher={IEEE}
+}</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-5', this); return false;">Copy</button></div></details>
 </li>
 
 <!-- ======================== PAPER 6 ======================== -->
@@ -54,7 +83,13 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53753/nbnfioulu-202501171238.pdf?sequence=1" target="_blank">Secure mmWave MIMO Networks Employing Hybrid Active-Passive RIS</a>,"  
 <span><em>IEEE Transactions on Communications</em></span>, 2024 (accepted). 
-  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-6">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-6', this); return false;">Copy</button></div></details>
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-6">@article{egashira2024secure,
+  title={Secure mmWave MIMO Networks Employing Hybrid Active-Passive RIS},
+  author={Egashira, Edson Nobuyuki and Osorio, Diana Pamela Moya and Nguyen, Nhan Thanh and Juntti, Markku},
+  journal={IEEE Transactions on Communications},
+  year={2024},
+  publisher={IEEE}
+}</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-6', this); return false;">Copy</button></div></details>
 </li>
 
 <!-- ======================== PAPER 7 ======================== -->
@@ -235,6 +270,291 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 
 </ol>
 
+# 🎤 Conference Publications  
+
+<ol>
+
+<!-- ======================== CONF PAPER 1 ======================== -->
+<li>
+  Huy T. Nguyen, <strong>N. T. Nguyen</strong>, Nguyen Cong Luong, Tri-Hai Nguyen, and Vo Nguyen Quoc Bao,  
+"Max-Min Rate Optimization for Reconfigurable Intelligent Surfaces Aided ISAC Systems,"  
+<span><em>24th International Symposium on Communications and Information Technologies (ISCIT)</em></span>, 2025.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-1', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 2 ======================== -->
+<li>
+A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
+"<a href="" target="_blank">Constrained Multimodal Sensing-Aided Communications: A Dynamic Beamforming Design</a>,"  
+<span><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2025.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-2">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-2', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 3 ======================== -->
+<li>
+P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+"<a href="https://nhanng9115.github.io/homepage/publications/" target="_blank">Deep Reinforcement Learning for Hybrid RIS Assisted MIMO Communications</a>,"  
+<span><em>Asilomar Conference on Signals, Systems, and Computers (ASILOMAR)</em></span>, 2025.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-3">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-3', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 4 ======================== -->
+<li>
+<strong>N. T. Nguyen</strong> and M. Juntti,  
+"<a href="https://nhanng9115.github.io/homepage/publications/" target="_blank">Hybrid RIS-aided Wireless Communications</a>,"  
+<span><em>International Symposium on Antennas and Propagation (ISAP)</em></span>, 2025.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-4">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-4', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 5 ======================== -->
+<li>
+A. Raza, <strong>NN. T. Nguyen</strong>, and M. Juntti,  
+"<a href="https://ieeexplore.ieee.org/abstract/document/11143326" target="_blank">Deep Unfolding of Atomic Norm Minimization for DoA Estimation</a>,"  
+<span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2025.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-5">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-5', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 6 ======================== -->
+<li>
+S. Uniyal, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+"<a href="https://ieeexplore.ieee.org/document/11143254" target="_blank">Outage and Capacity Analysis of HRIS-Aided RSMA Systems</a>,"  
+<span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2025.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-6">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-6', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 7 ======================== -->
+<li>
+S. Tavakolian, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58411/nbnfioulu-202509185933.pdf?sequence=1&isAllowed=y" target="_blank">Sparse Semantic Encoding for Reduced Data Load in Vision-Position Aided mmWave Beam Prediction</a>,"  
+<span><em>German Microwave Conference</em></span>, 2025.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-7">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-7', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 8 ======================== -->
+<li>
+M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/56813/nbnfioulu-202506064211.pdf?sequence=1&isAllowed=y" target="_blank">Energy Efficient Waveform Design and Subcarrier Allocation for Multicarrier MIMO JCAS</a>,"  
+<span><em>IEEE Wireless Communications and Networking Conference (WCNC)</em></span>, 2025.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-8">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-8', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 9 ======================== -->
+<li>
+M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/56710/nbnfioulu-202506094216.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Receiver Design for Massive MIMO-OFDM With Low-Resolution ADCs and Oversampling</a>,"  
+<span><em>IEEE Wireless Communications and Networking Conference (WCNC)</em></span>, 2025.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-9">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-9', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 10 ======================== -->
+<li>
+S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58412/nbnfioulu-202509185934.pdf?sequence=1&isAllowed=y" target="_blank">Sum Rate and Cramér-Rao Lower Bound Analysis for RIS-Assisted Multiuser Large-Antenna ISAC</a>,"  
+<span><em>IEEE Wireless Communications and Networking Conference (WCNC)</em></span>, 2025.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-10">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-10', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 11 ======================== -->
+<li>
+M. Ma, T. Fang, N. Shlezinger, L. Swindlehurst, M. Juntti, and <strong>N. T. Nguyen</strong>,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/54619/nbnfioulu-202501241331.pdf?sequence=1&isAllowed=y" target="_blank">Model-Based Machine Learning for Max-Min Fairness Beamforming Design in JCAS Systems</a>,"  
+<span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2025.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-11">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-11', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 12 ======================== -->
+<li>
+T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/54613/nbnfioulu-202503192097.pdf?sequence=1&isAllowed=y" target="_blank">Low-Complexity Cramér–Rao Lower Bound and Sum Rate Optimization in ISAC Systems</a>,"  
+<span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2025.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-12">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-12', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 13 ======================== -->
+<li>
+T. D. Phan, D. Q. Nguyen, N. Takanen, <strong>N. T. Nguyen</strong>, M. Juntti, and P. J. Soh,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/56987/nbnfioulu-202506164496.pdf?sequence=1&isAllowed=y" target="_blank">ML-Assisted RIS for ISAC Systems: Initial Results in the 6G Study Band</a>,"  
+<span><em>European Conference on Antennas and Propagation (EuCAP)</em></span>, 2025.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-13">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-13', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 14 ======================== -->
+<li>
+<strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58413/nbnfioulu-202509185938.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding-Empowered MmWave Massive MIMO Joint Communications and Sensing</a>,"  
+<span><em>IEEE Joint Communications and Sensing Symposium (JC&S)</em></span>, 2025.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-14">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-14', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 15 ======================== -->
+<li>
+M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+"<a href="https://ieeexplore.ieee.org/document/10880646" target="_blank">Joint Waveform Design and Sub-Carrier Allocation for Multiuser MIMO ISAC</a>,"  
+<span><em>IEEE JC&S Symposium</em></span>, 2024.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-15">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-15', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 16 ======================== -->
+<li>
+P. Mobaraki, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/54975/nbnfioulu-202504092482.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding-Empowered Energy Efficiency Optimization in RIS-Assisted Wireless Communications</a>,"  
+<span><em>International Workshop on Energy-Aware Mobile IoT (Eware-IoT)</em></span>, 2024.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-16">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-16', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 17 ======================== -->
+<li>
+S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58414/nbnfioulu-202509185937.pdf?sequence=1&isAllowed=y" target="_blank">Outage Probability and Capacity Analysis of Active RIS-Assisted UAV RSMA Communications</a>,"  
+<span><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2024.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-17">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-17', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 18 ======================== -->
+<li>
+<strong>N. T. Nguyen</strong>, T. Fang, H. Q. Ngo, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58410/nbnfioulu-202509185935.pdf?sequence=1&isAllowed=y" target="_blank">Multi-static Cell-Free Massive MIMO ISAC: Performance Analysis and Optimization</a>,"  
+<span><em>Asilomar Conference on Signals, Systems, and Computers (ASILOMAR)</em></span>, 2024.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-18">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-18', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 19 ======================== -->
+<li>
+T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53076/nbnfioulu-202412097104.pdf?sequence=1&isAllowed=y" target="_blank">Beamforming Design for Max-Min Fairness Performance Balancing in ISAC Systems</a>,"  
+<span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sept. 2024, Lucca, Italy.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-19">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-19', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 20 ======================== -->
+<li>
+M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/52351/nbnfioulu-202410186389.pdf?sequence=1&isAllowed=y" target="_blank">Waveform Design for Multi-Carrier Multi-User MIMO Joint Communications and Sensing</a>,"  
+<span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sept. 2024, Lucca, Italy.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-20">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-20', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 21 ======================== -->
+<li>
+T. D. Gian, T.-H. Nguyen, <strong>N. T. Nguyen</strong>, and V.-D. Nguyen,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53074/nbnfioulu-202412097102.pdf?sequence=1&isAllowed=y" target="_blank">WiLHPE: WiFi-enabled Lightweight Channel Frequency Dynamic Convolution for HPE Tasks</a>,"  
+<span><em>IEEE International Conference on Communications and Electronics (ICCE)</em></span>, Aug. 2024, Da Nang City, Vietnam.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-21">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-21', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 22 ======================== -->
+<li>
+I. Bilbao, <strong>N. T. Nguyen</strong>, D. P. Moya Osorio, V. Tapio, M. Juntti, E. Iradier, J. Montalbán, and P. Angueira,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53075/nbnfioulu-202412097103.pdf?sequence=1&isAllowed=y" target="_blank">Physical layer security beamforming design via deep unfolding</a>,"  
+<span><em>IEEE International Mediterranean Conference on Communications and Networking (MEDITCOM)</em></span>, July 2024, Madrid, Spain.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-22">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-22', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 23 ======================== -->
+<li>
+<strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/51885/nbnfioulu-202409175895.pdf?sequence=1&isAllowed=y" target="_blank">Massive MIMO Joint Communications and Sensing with MRT Beamforming</a>,"  
+<span><em>IEEE Radar Conference (RadarConf24)</em></span>, 2024, Denver, CO, USA.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-23">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-23', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 24 ======================== -->
+<li>
+P. Krishnananthalingam, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53799/nbnfioulu-202501221287.pdf?sequence=1&isAllowed=y" target="_blank">Constant Modulus Waveform Design for Wideband Multicarrier Joint Communications and Sensing via Deep Unfolding</a>,"  
+<span><em>IEEE Wireless Communications and Networking Conference (WCNC)</em></span>, 2024.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-24">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-24', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 25 ======================== -->
+<li>
+V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, Nguyen C. L., Dinh T. H., D. N. Nguyen, and S. Chatzinotas,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/48394/nbnfioulu-202403202353.pdf?sequence=1&isAllowed=y" target="_blank">Enabling Intelligent Traffic Steering in A Hierarchical Open Radio Access Network</a>,"  
+<span><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2023, Kuala Lumpur, Malaysia.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-25">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-25', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 26 ======================== -->
+<li>
+<strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, A. L. Swindlehurst, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/51884/nbnfioulu-202409175894.pdf?sequence=1&isAllowed=y" target="_blank">Fast Deep Unfolded Hybrid Beamforming in Multiuser Large MIMO Systems</a>,"  
+<span><em>Asilomar Conference on Signals, Systems, and Computers (ASILOMAR)</em></span>, 2023, Pacific Grove, CA, USA. (accepted)
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-26">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-26', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 27 ======================== -->
+<li>
+M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/43260/nbnfioulu-202311243336.pdf?sequence=1&isAllowed=y" target="_blank">Analysis of Oversampling in Uplink Massive MIMO-OFDM with Low-Resolution ADCs</a>,"  
+<span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sept. 2023, Shanghai, China. (Best Student Paper Award)
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-27">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-27', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 28 ======================== -->
+<li>
+<strong>N. T. Nguyen</strong>, N. Shlezinger, K.-H. Ngo, V.-D. Nguyen, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44654/nbnfi-fe20231030141814.pdf?sequence=1&isAllowed=y" target="_blank">Joint communications and sensing design for multi-carrier MIMO systems</a>,"  
+<span><em>IEEE Statistical Signal Processing Workshop (SSP)</em></span>, July 2023, Hanoi, Vietnam. (Best Paper Award)
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-28">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-28', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 29 ======================== -->
+<li>
+<strong>N. T. Nguyen</strong>, M. Ma, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44290/nbnfi-fe20230823103204.pdf?sequence=1&isAllowed=y" target="_blank">Deep unfolding-enabled hybrid beamforming design for mmWave massive MIMO systems</a>,"  
+<span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, June 2023, Rhodes Island, Greece.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-29">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-29', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 30 ======================== -->
+<li>
+M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/47366/nbnfioulu-202401191355.pdf?sequence=1&isAllowed=y" target="_blank">Beam Squint Analysis and Mitigation via Hybrid Beamforming Design in THz Communications</a>,"  
+<span><em>IEEE International Conference on Communications (ICC)</em></span>, May 2023, Rome, Italy.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-30">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-30', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 31 ======================== -->
+<li>
+<strong>N. T. Nguyen</strong>, J. Kokkoniemi, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44965/nbnfi-fe2023021627492.pdf?sequence=1&isAllowed=y" target="_blank">Beam Squint Effects in THz Communications with UPA and ULA: Comparison and Hybrid Beamforming Design</a>,"  
+<span><em>IEEE Global Communications Conference (GLOBECOM) Workshop</em></span>, Dec. 2022, Rio de Janeiro, Brazil.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-31">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-31', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 32 ======================== -->
+<li>
+<strong>N. T. Nguyen</strong>, V.-D. Nguyen, Q. Wu, A. Tolli, S. Chatzinotas, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/43582/nbnfi-fe2023032332879.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Active-Passive Reconfigurable Intelligent Surface-Assisted UAV Communications</a>,"  
+<span><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, Dec. 2022, Rio de Janeiro, Brazil.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-32">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-32', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 33 ======================== -->
+<li>
+<strong>N. T. Nguyen</strong>, V.-D. Nguyen, Q. Wu, A. Tolli, S. Chatzinotas, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44165/nbnfi-fe202301091855.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Active-Passive Reconfigurable Intelligent Surface-Assisted Multi-User MISO Systems</a>,"  
+<span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, July 2022, Oulu, Finland.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-33">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-33', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 34 ======================== -->
+<li>
+<strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, S. Chatzinotas, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44153/nbnfi-fe202301091846.pdf?sequence=1&isAllowed=y" target="_blank">Downlink Throughput of Cell-Free Massive MIMO Systems Assisted by Hybrid Relay-Reflecting Intelligent Surfaces</a>,"  
+<span><em>IEEE International Conference on Communications (ICC)</em></span>, May 2022, Seoul, South Korea.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-34">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-34', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 35 ======================== -->
+<li>
+E. Egashira, D. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/33525/nbnfi-fe2022091258396.pdf?sequence=1&isAllowed=y" target="_blank">Secrecy Capacity Maximization for a Hybrid Relay-RIS Scheme in mmWave MIMO Networks</a>,"  
+<span><em>IEEE Vehicular Technology Conference (VTC Spring)</em></span>, June 2022, Helsinki, Finland.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-35">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-35', this); return false;">Copy</button></div></details>
+</li>
+
+</ol>
 <!-- Copy helper -->
 <script>
 function copyBib(codeId, btn){
