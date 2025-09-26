@@ -1,6 +1,7 @@
 ---
 permalink: /publications/
 title: "Publications"
+render_with_liquid: false
 ---
 
 
