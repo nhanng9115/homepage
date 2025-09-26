@@ -1,6 +1,7 @@
 ---
 permalink: /publications/
 title: "Publications"
+layout: default
 ---
 # 📝 Submitted and Under Revision  
 <style>
