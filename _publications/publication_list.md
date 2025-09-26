@@ -21,10 +21,8 @@ title: "Publications"
     </summary>
 
     <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
-      <!-- 👇 Paste/edit BibTeX here -->
       <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;">
-<code id="bibtex-2">
-@article{nguyen2025energy,
+<code id="bibtex-2"><!-- 👇 Paste/edit BibTeX here -->@article{nguyen2025energy,
   title        = {Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
   author       = {Nguyen, Huy T and Nguyen, Van-Dinh and Nguyen, Nhan Thanh and Luong, Nguyen Cong and Bao, Vo-Nguyen Quoc and Ngo, Hien Quoc and Niyato, Dusit and Chatzinotas, Symeon},
   journal      = {IEEE Journal on Selected Areas in Communications},
@@ -55,10 +53,8 @@ title: "Publications"
     </summary>
 
     <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
-      <!-- 👇 Paste/edit BibTeX here -->
       <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;">
-<code id="bibtex-3">
-@article{zaker2025dynamic,
+<code id="bibtex-3"><!-- 👇 Paste/edit BibTeX here -->@article{zaker2025dynamic,
   title        = {Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach},
   author       = {Zaker, Abolfazl and Nguyen, Nhan Thanh and Alkhateeb, Ahmed and Juntti, Markku},
   journal      = {IEEE Communications Letters},
