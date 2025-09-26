@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Hello there, I’m Nhan."
+title: "Homepage"
 author_profile: true
 redirect_from:
   - /about/
@@ -96,7 +96,7 @@ hr.section-divider{
 }
 </style>
 
-
+## 👋 Hello there, I’m Nhan.
 👨🏻‍💻 I’m an **Assistant Professor** and **Academy Research Fellow** at Centre for Wireless Communications (CWC), University of Oulu (UOulu), Finland.  
 🤖 My research combines rigorous signal processing and machine learning to solve core problems in wireless communications and sensing.
 
