@@ -3,6 +3,18 @@ permalink: /publications/
 title: "Publications"
 ---
 
+<style>
+/* Widen ONLY this page (works with jekyll-theme-primer & minima) */
+.container-lg, .markdown-body, .page-content .wrapper {
+  max-width: clamp(1100px, 92vw, 1400px) !important; /* wider but still responsive */
+}
+
+/* Optional: keep some breathing room at the edges on small screens */
+.container-lg, .page-content .wrapper { padding-left: 1rem; padding-right: 1rem; }
+
+/* Make BibTeX blocks span the new width nicely */
+pre { overflow:auto; }
+</style>
 
 # 📝 Submitted and Under Revision  
 
