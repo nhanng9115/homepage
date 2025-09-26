@@ -24,7 +24,6 @@ title: "Publications"
       <!-- 👇 Paste/edit BibTeX here -->
       <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;">
 <code id="bibtex-2">
-// ===== BEGIN BIBTEX =====
 @article{nguyen2025energy,
   title        = {Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
   author       = {Nguyen, Huy T and Nguyen, Van-Dinh and Nguyen, Nhan Thanh and Luong, Nguyen Cong and Bao, Vo-Nguyen Quoc and Ngo, Hien Quoc and Niyato, Dusit and Chatzinotas, Symeon},
@@ -33,7 +32,6 @@ title: "Publications"
   note         = {accepted},
   url          = {https://www.arxiv.org/pdf/2509.10290}
 }
-// ===== END BIBTEX =====
 </code></pre>
 
       <button
@@ -60,7 +58,6 @@ title: "Publications"
       <!-- 👇 Paste/edit BibTeX here -->
       <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;">
 <code id="bibtex-3">
-// ===== BEGIN BIBTEX =====
 @article{zaker2025dynamic,
   title        = {Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach},
   author       = {Zaker, Abolfazl and Nguyen, Nhan Thanh and Alkhateeb, Ahmed and Juntti, Markku},
@@ -69,7 +66,6 @@ title: "Publications"
   note         = {accepted},
   url          = {https://arxiv.org/pdf/2503.14054}
 }
-// ===== END BIBTEX =====
 </code></pre>
 
       <button
