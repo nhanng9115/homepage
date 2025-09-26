@@ -12,7 +12,12 @@ title: "Publications"
 M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
 <span><em>IEEE ICASSP</em></span>, 2025. (<strong>submitted</strong>)
-  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s1', this); return false;">Copy</button></div></details>
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s1">@article{ma2025attention,
+  title={Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},
+  author={Ma, Mengyuan and Nguyen, Nhan Thanh and Shlezinger, Nir and Eldar, Yonina C and Juntti, Markku},
+  journal={arXiv preprint arXiv:2509.11725},
+  year={2025}
+}</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s1', this); return false;">Copy</button></div></details>
 </li>
 
 <!-- ======================== SUBMISSION 2 ======================== -->
@@ -20,7 +25,12 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
 M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2509.11419" target="_blank">Knowledge Distillation for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
 <span><em>IEEE Transactions on Communications</em></span>, 2025. (<strong>submitted</strong>)
-  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s2">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s2', this); return false;">Copy</button></div></details>
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s2">@article{ma2025knowledge,
+  title={Knowledge Distillation for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications},
+  author={Ma, Mengyuan and Nguyen, Nhan Thanh and Shlezinger, Nir and Eldar, Yonina C and Swindlehurst, A Lee and Juntti, Markku},
+  journal={arXiv preprint arXiv:2509.11419},
+  year={2025}
+}</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s2', this); return false;">Copy</button></div></details>
 </li>
 
 <!-- ======================== SUBMISSION 3 ======================== -->
@@ -35,24 +45,29 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,
 <li>
 S. Bhandari, Thang X. Vu, <strong>N. T. Nguyen</strong>, and S. Chatzinotas,  
 "ISAC-Enabled Handover Design in LEO Satellite Networks,"  
-<span><em>IEEE Transactions on Communications</em></span>, 2025. (<strong>submitted</strong>)
+<span><em>IEEE Transactions on Communications</em></span>, 2025. (<strong>major revision</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s4">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s4', this); return false;">Copy</button></div></details>
 </li>
 
 <!-- ======================== SUBMISSION 5 ======================== -->
 <li>
 T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://arxiv.org/pdf/2503.09489" target="_blank">Deep Unfolded Shifted Power Iteration based ISAC Beamforming for Sum Rate and CRLB Balancing</a>,"  
-<span><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2025. (<strong>submitted</strong>)
+"Deep Unfolded Shifted Power Iteration based ISAC Beamforming for Sum Rate and CRLB Balancing,"  
+<span><em>IEEE Transactions on Vehicular Technology</em></span>, 2025. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s5">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s5', this); return false;">Copy</button></div></details>
 </li>
 
 <!-- ======================== SUBMISSION 6 ======================== -->
 <li>
 T. Fang, M. Ma, M. Juntti, N. Shlezinger, A. L. Swindlehurst, and <strong>N. T. Nguyen</strong>,  
-"Optimal ISAC Beamforming Structure and Efficient Algorithms for Sum Rate and CRLB Balancing,"  
+"<a href="https://arxiv.org/pdf/2503.09489" target="_blank">Optimal ISAC Beamforming Structure and Efficient Algorithms for Sum Rate and CRLB Balancing</a>,"  
 <span><em>IEEE Transactions on Signal Processing</em></span>, 2025. (<strong>submitted</strong>)
-  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s6">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s6', this); return false;">Copy</button></div></details>
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s6">@article{fang2025optimal,
+  title={Optimal ISAC Beamforming Structure and Efficient Algorithms for Sum Rate and CRLB Balancing},
+  author={Fang, Tianyu and Ma, Mengyuan and Juntti, Markku and Shlezinger, Nir and Swindlehurst, A Lee and Nguyen, Nhan Thanh},
+  journal={arXiv preprint arXiv:2503.09489},
+  year={2025}
+}</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s6', this); return false;">Copy</button></div></details>
 </li>
 
 <!-- ======================== SUBMISSION 7 ======================== -->
@@ -91,7 +106,7 @@ L. V. Nguyen, R. Liu, <strong>N. T. Nguyen</strong>, M. Juntti, B. Ottersten, an
 <li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "Data-free knowledge distillation for LiDAR-aided beam tracking,"  
-<span><em>IEEE Transactions on Vehicular Technology</em></span>, 2025. (<strong>manuscript in preparation</strong>)
+<span><em>IEEE Transactions on Vehicular Technology</em></span>, 2025. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s11">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s11', this); return false;">Copy</button></div></details>
 </li>
 
