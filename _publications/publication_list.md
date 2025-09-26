@@ -81,18 +81,20 @@ title: "Publications"
     </summary>
 
     <div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;">
-      <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-2">@article{NguyenJSAC2025,
-  author = {Nguyen, H. T. and Nguyen, V.-D. and Nguyen, N. T. and Luong, N. C. and Bao, V.-N. Q. and Ngo, H. Q. and Niyato, D. and Chatzinotas, S.},
-  title = {Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
-  journal = {IEEE Journal on Selected Areas in Communications},
-  year = {2025},
+      <pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-2">@article{nguyen2025energy,
+  title={Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
+  author={Nguyen, Huy T and Nguyen, Van-Dinh and Nguyen, Nhan Thanh and Luong, Nguyen Cong and Bao, Vo-Nguyen Quoc and Ngo, Hien Quoc and Niyato, Dusit and Chatzinotas, Symeon},
+  journal={IEEE Journal on Selected Areas in Communications},
+  year={2025},
+  publisher={IEEE}
 }</code></pre>
 
-      <textarea id="bibtex-2-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{NguyenJSAC2025,&#13;
-  author = {Nguyen, H. T. and Nguyen, V.-D. and Nguyen, N. T. and Luong, N. C. and Bao, V.-N. Q. and Ngo, H. Q. and Niyato, D. and Chatzinotas, S.},&#13;
-  title = {Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},&#13;
-  journal = {IEEE Journal on Selected Areas in Communications},&#13;
-  year = {2025},&#13;
+      <textarea id="bibtex-2-src" readonly style="position:absolute; left:-9999px; top:-9999px;">@article{nguyen2025energy,
+  title={Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},&#13;
+  author={Nguyen, Huy T and Nguyen, Van-Dinh and Nguyen, Nhan Thanh and Luong, Nguyen Cong and Bao, Vo-Nguyen Quoc and Ngo, Hien Quoc and Niyato, Dusit and Chatzinotas, Symeon},&#13;
+  journal={IEEE Journal on Selected Areas in Communications},&#13;
+  year={2025},&#13;
+  publisher={IEEE}&#13;
 }</textarea>
 
       <button
