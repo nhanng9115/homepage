@@ -32,71 +32,78 @@ details[open] > summary > span[data-bibbtn],details > summary > span[data-bibbtn
 
 # 📄 Journal Publications
 
-<ol>
+{%- comment -%}
+  Paste each paper's BibTeX ONCE inside a {% capture %} block,
+  then we reuse it for visible <pre> and hidden <textarea>.
+{%- endcomment -%}
 
-<li>
-H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,  
-"<a href="https://www.arxiv.org/pdf/2509.10290" target="_blank">Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems</a>,"  
-<span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
-
-<!-- BibTeX only ONCE -->
-<textarea id="bib-nguyen2025" class="bibtex-hidden" readonly>@article{nguyen2025energy,
+{%- capture bib_nguyen2025 -%}
+@article{nguyen2025energy,
   title        = {Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems},
   author       = {Nguyen, Huy T and Nguyen, Van-Dinh and Nguyen, Nhan Thanh and Luong, Nguyen Cong and Bao, Vo-Nguyen Quoc and Ngo, Hien Quoc and Niyato, Dusit and Chatzinotas, Symeon},
   journal      = {IEEE Journal on Selected Areas in Communications},
   year         = {2025},
   note         = {accepted},
   url          = {https://www.arxiv.org/pdf/2509.10290}
-}</textarea>
+}
+{%- endcapture -%}
 
-<details style="display:block; margin-top:6px;">
-  <summary style="display:flex;justify-content:flex-start;align-items:center;list-style:none;cursor:pointer;padding:0;">
-    <span data-bibbtn>BibTeX</span>
-  </summary>
-  <div class="bibtex-panel">
-    <pre class="bibtex-pre"><code data-bibsrc="bib-nguyen2025"></code></pre>
-    <button class="bibtex-copy" data-copysrc="bib-nguyen2025">Copy</button>
-  </div>
-</details>
-</li>
-
-<li>
-A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
-"<a href="https://arxiv.org/pdf/2503.14054" target="_blank">Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach</a>,"  
-<span><em>IEEE Communications Letters</em></span>, 2025. (accepted)
-
-<textarea id="bib-zaker2025" class="bibtex-hidden" readonly>@article{zaker2025dynamic,
+{%- capture bib_zaker2025 -%}
+@article{zaker2025dynamic,
   title        = {Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach},
   author       = {Zaker, Abolfazl and Nguyen, Nhan Thanh and Alkhateeb, Ahmed and Juntti, Markku},
   journal      = {IEEE Communications Letters},
   year         = {2025},
   note         = {accepted},
   url          = {https://arxiv.org/pdf/2503.14054}
-}</textarea>
+}
+{%- endcapture -%}
 
-<details style="display:block; margin-top:6px;">
-  <summary style="display:flex;justify-content:flex-start;align-items:center;list-style:none;cursor:pointer;padding:0;">
-    <span data-bibbtn>BibTeX</span>
-  </summary>
-  <div class="bibtex-panel">
-    <pre class="bibtex-pre"><code data-bibsrc="bib-zaker2025"></code></pre>
-    <button class="bibtex-copy" data-copysrc="bib-zaker2025">Copy</button>
-  </div>
-</details>
-</li>
+<ol>
+
+  <li>
+    H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,  
+    "<a href="https://www.arxiv.org/pdf/2509.10290" target="_blank">Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems</a>,"  
+    <span><em>IEEE Journal on Selected Areas in Communications</em></span>, 2025. (accepted)
+
+    <details style="display:block; margin-top:6px;">
+      <summary style="display:flex;justify-content:flex-start;align-items:center;list-style:none;cursor:pointer;padding:0;">
+        <span data-bibbtn>BibTeX</span>
+      </summary>
+      <div class="bibtex-panel">
+        <!-- Visible code block: escape HTML so braces etc. render correctly -->
+        <pre class="bibtex-pre"><code>{{ bib_nguyen2025 | escape }}</code></pre>
+
+        <!-- Hidden textarea: raw text for the Copy button -->
+        <textarea id="bib-nguyen2025" class="bibtex-hidden" readonly>{{- bib_nguyen2025 -}}</textarea>
+
+        <button class="bibtex-copy" data-copysrc="bib-nguyen2025">Copy</button>
+      </div>
+    </details>
+  </li>
+
+  <li>
+    A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
+    "<a href="https://arxiv.org/pdf/2503.14054" target="_blank">Dynamic Joint Sensing and Communication Beamforming Design: A Lyapunov Approach</a>,"  
+    <span><em>IEEE Communications Letters</em></span>, 2025. (accepted)
+
+    <details style="display:block; margin-top:6px;">
+      <summary style="display:flex;justify-content:flex-start;align-items:center;list-style:none;cursor:pointer;padding:0;">
+        <span data-bibbtn>BibTeX</span>
+      </summary>
+      <div class="bibtex-panel">
+        <pre class="bibtex-pre"><code>{{ bib_zaker2025 | escape }}</code></pre>
+        <textarea id="bib-zaker2025" class="bibtex-hidden" readonly>{{- bib_zaker2025 -}}</textarea>
+        <button class="bibtex-copy" data-copysrc="bib-zaker2025">Copy</button>
+      </div>
+    </details>
+  </li>
 
 </ol>
 
+<!-- Tiny copy helper. If inline JS is blocked, BibTeX still shows; only Copy won't work. -->
 <script>
 (function(){
-  // Fill visible <code> with text from hidden <textarea>
-  document.querySelectorAll('code[data-bibsrc]').forEach(code=>{
-    const id = code.getAttribute('data-bibsrc');
-    const ta = document.getElementById(id);
-    if(ta) code.textContent = ta.value;
-  });
-
-  // Wire copy buttons
   document.querySelectorAll('.bibtex-copy[data-copysrc]').forEach(btn=>{
     btn.addEventListener('click', async ()=>{
       const id = btn.getAttribute('data-copysrc');
@@ -108,7 +115,7 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
         else { ta.select(); document.execCommand('copy'); ok=true; }
       }catch(e){}
       const old=btn.textContent;
-      btn.textContent = ok?'Copied!':'Copy';
+      btn.textContent = ok ? 'Copied!' : 'Copy';
       setTimeout(()=>btn.textContent=old,1200);
     });
   });
