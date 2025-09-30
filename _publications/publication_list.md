@@ -14,23 +14,13 @@ title: "Publications"
   line-height: 1.4;
 }
 
-/* Keep code/details/summary left-aligned (but NOT buttons) */
+/* Left-align code, BibTeX, or collapsible details */
 .pub-justify li pre,
 .pub-justify li code,
 .pub-justify li details,
-.pub-justify li summary{ text-align: left; }
-
-/* Center text inside buttons (e.g., Copy) */
-.pub-justify li button{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center !important;
-}
-
-/* Hover effect for buttons */
-.pub-justify li button:hover {
-  background-color: #e9ecef;
+.pub-justify li summary {
+  text-align: left;
+  text-align-last: left;
 }
 
 /* Style for publication titles (linked PDFs) */
@@ -43,42 +33,9 @@ title: "Publications"
   transition: color 0.2s ease;
 }
 
-/* Hover effect for titles */
+/* Hover effect */
 .pub-justify li a:hover {
   color: #d6336c;             /* elegant magenta hover */
-}
-
-/* --- BibTeX button: center the text and the control itself --- */
-
-/* Works for <button>, <a class="bibtex-btn">, or <summary class="bibtex-btn"> */
-.pub-justify li .bibtex-btn {
-  display: inline-flex;           /* center text inside */
-  align-items: center;
-  justify-content: center;
-  padding: 4px 10px;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-}
-
-/* If your control is <summary> inside <details>, remove the default marker */
-.pub-justify li details > summary.bibtex-btn {
-  list-style: none;               /* Firefox */
-}
-.pub-justify li details > summary.bibtex-btn::-webkit-details-marker {
-  display: none;                  /* Chrome/Safari */
-}
-
-/* If you want the *button itself* centered on its own line, use BLOCK centering */
-.pub-justify li .bibtex-btn.center {
-  display: block;                 /* put it on its own line */
-  width: fit-content;
-  margin: 8px auto;               /* horizontal center */
-}
-
-/* IMPORTANT: your earlier rule forces <summary> left; override for the button */
-.pub-justify li summary.bibtex-btn {
-  text-align: center !important;
 }
 </style>
 
@@ -93,7 +50,7 @@ title: "Publications"
 M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
 <span><em>IEEE ICASSP</em></span>, 2025. (<strong>submitted</strong>)
-  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s1">@article{ma2025attention,
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:6px 12px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span>BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s1">@article{ma2025attention,
   title={Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in {mmWave} Communications},
   author={Ma, Mengyuan and Nguyen, Nhan Thanh and Shlezinger, Nir and Eldar, Yonina C and Juntti, Markku},
   journal={arXiv preprint arXiv:2509.11725},
