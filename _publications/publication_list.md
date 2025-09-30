@@ -23,22 +23,29 @@ title: "Publications"
   text-align-last: left;
 }
 
-/* Style for publication titles (the linked part) */
+/* Center text inside buttons (e.g., Copy) */
+.pub-justify li button{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center !important;
+}
+  
+/* Style for publication titles (linked PDFs) */
 .pub-justify li a {
-  color: #0056b3;             /* calm professional blue */
-  font-weight: 600;           /* semi-bold to highlight */
-  text-decoration: none;      /* remove underline */
+  color: #0056b3;             /* professional blue */
+  font-weight: 600;           /* semi-bold for emphasis */
+  text-decoration: underline; /* always underline */
+  text-decoration-thickness: 1.5px; /* slightly thicker underline */
+  text-underline-offset: 2px; /* spacing between text and line */
   transition: color 0.2s ease;
 }
 
-/* Hover effect for better interactivity */
+/* Hover effect */
 .pub-justify li a:hover {
-  color: #d6336c;             /* elegant magenta on hover */
-  text-decoration: underline; /* subtle underline */
+  color: #d6336c;             /* elegant magenta hover */
 }
 </style>
-
-
 
 
 # 📝 Submitted and Under Revision  
