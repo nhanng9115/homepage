@@ -23,14 +23,26 @@ title: "Publications"
   text-align-last: left;
 }
 
-/* Center text inside buttons (e.g., Copy) */
-.pub-justify li button{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center !important;
+/* Center text inside buttons (e.g., BibTeX, Copy) */
+.pub-justify li button {
+  display: inline-flex;          /* flexbox for centering */
+  align-items: center;           /* vertical center */
+  justify-content: center;       /* horizontal center */
+  text-align: center;
+  padding: 4px 10px;             /* balanced padding */
+  font-size: 0.9em;              /* clean text size */
+  border-radius: 6px;            /* rounded corners */
+  border: 1px solid #ccc;        /* subtle border */
+  background-color: #f8f9fa;     /* light background */
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
-  
+
+/* Hover effect for buttons */
+.pub-justify li button:hover {
+  background-color: #e9ecef;
+}
+
 /* Style for publication titles (linked PDFs) */
 .pub-justify li a {
   color: #0056b3;             /* professional blue */
@@ -41,11 +53,12 @@ title: "Publications"
   transition: color 0.2s ease;
 }
 
-/* Hover effect */
+/* Hover effect for titles */
 .pub-justify li a:hover {
   color: #d6336c;             /* elegant magenta hover */
 }
 </style>
+
 
 
 # 📝 Submitted and Under Revision  
