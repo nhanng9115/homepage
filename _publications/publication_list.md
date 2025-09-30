@@ -14,28 +14,18 @@ title: "Publications"
   line-height: 1.4;
 }
 
-/* Left-align code, BibTeX, or collapsible details */
+/* Keep code/details/summary left-aligned (but NOT buttons) */
 .pub-justify li pre,
 .pub-justify li code,
 .pub-justify li details,
-.pub-justify li summary {
-  text-align: left;
-  text-align-last: left;
-}
+.pub-justify li summary{ text-align: left; }
 
-/* Center text inside buttons (e.g., BibTeX, Copy) */
-.pub-justify li button {
-  display: inline-flex;          /* flexbox for centering */
-  align-items: center;           /* vertical center */
-  justify-content: center;       /* horizontal center */
-  text-align: center;
-  padding: 4px 10px;             /* balanced padding */
-  font-size: 0.9em;              /* clean text size */
-  border-radius: 6px;            /* rounded corners */
-  border: 1px solid #ccc;        /* subtle border */
-  background-color: #f8f9fa;     /* light background */
-  cursor: pointer;
-  transition: background-color 0.2s ease;
+/* Center text inside buttons (e.g., Copy) */
+.pub-justify li button{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center !important;
 }
 
 /* Hover effect for buttons */
