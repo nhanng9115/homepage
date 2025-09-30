@@ -5,7 +5,7 @@ title: "Publications"
 
 <style>
 /* Fully justify publication lines, but keep code/BibTeX left-aligned */
-.pub-justify li{
+.pub-justify li {
   text-align: justify;
   text-align-last: left;      /* last line stays left */
   text-justify: inter-word;
@@ -13,11 +13,31 @@ title: "Publications"
   hyphens: auto;
   line-height: 1.4;
 }
+
+/* Left-align code, BibTeX, or collapsible details */
 .pub-justify li pre,
 .pub-justify li code,
 .pub-justify li details,
-.pub-justify li summary
+.pub-justify li summary {
+  text-align: left;
+  text-align-last: left;
+}
+
+/* Style for publication titles (the linked part) */
+.pub-justify li a {
+  color: #0056b3;             /* calm professional blue */
+  font-weight: 600;           /* semi-bold to highlight */
+  text-decoration: none;      /* remove underline */
+  transition: color 0.2s ease;
+}
+
+/* Hover effect for better interactivity */
+.pub-justify li a:hover {
+  color: #d6336c;             /* elegant magenta on hover */
+  text-decoration: underline; /* subtle underline */
+}
 </style>
+
 
 
 
