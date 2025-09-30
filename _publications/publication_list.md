@@ -48,7 +48,38 @@ title: "Publications"
   color: #d6336c;             /* elegant magenta hover */
 }
 </style>
+/* --- BibTeX button: center the text and the control itself --- */
 
+/* Works for <button>, <a class="bibtex-btn">, or <summary class="bibtex-btn"> */
+.pub-justify li .bibtex-btn {
+  display: inline-flex;           /* center text inside */
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* If your control is <summary> inside <details>, remove the default marker */
+.pub-justify li details > summary.bibtex-btn {
+  list-style: none;               /* Firefox */
+}
+.pub-justify li details > summary.bibtex-btn::-webkit-details-marker {
+  display: none;                  /* Chrome/Safari */
+}
+
+/* If you want the *button itself* centered on its own line, use BLOCK centering */
+.pub-justify li .bibtex-btn.center {
+  display: block;                 /* put it on its own line */
+  width: fit-content;
+  margin: 8px auto;               /* horizontal center */
+}
+
+/* IMPORTANT: your earlier rule forces <summary> left; override for the button */
+.pub-justify li summary.bibtex-btn {
+  text-align: center !important;
+}
 
 
 # 📝 Submitted and Under Revision  
@@ -153,7 +184,7 @@ L. V. Nguyen, R. Liu, <strong>N. T. Nguyen</strong>, M. Juntti, B. Ottersten, an
 <!-- ======================== SUBMISSION 11 ======================== -->
 <li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
-"<a href="[https://arxiv.org/pdf/2503.09489](https://arxiv.org/pdf/2509.19092)" target="_blank">Data-free knowledge distillation for LiDAR-aided beam tracking</a>,"  
+"<a href="https://arxiv.org/pdf/2503.09489" target="_blank">Data-free knowledge distillation for LiDAR-aided beam tracking</a>,"  
 <span><em>IEEE Transactions on Vehicular Technology</em></span>, 2025. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s11">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s11', this); return false;">Copy</button></div></details>
 </li>
