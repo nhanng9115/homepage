@@ -47,7 +47,7 @@ title: "Publications"
 .pub-justify li a:hover {
   color: #d6336c;             /* elegant magenta hover */
 }
-</style>
+
 /* --- BibTeX button: center the text and the control itself --- */
 
 /* Works for <button>, <a class="bibtex-btn">, or <summary class="bibtex-btn"> */
@@ -80,6 +80,8 @@ title: "Publications"
 .pub-justify li summary.bibtex-btn {
   text-align: center !important;
 }
+</style>
+
 
 
 # 📝 Submitted and Under Revision  
