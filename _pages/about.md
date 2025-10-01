@@ -94,6 +94,43 @@ hr.section-divider{
   font-weight:600;
   white-space:nowrap;
 }
+
+/*   <style> */
+/* Fully justify publication lines, but keep code/BibTeX left-aligned */
+.pub-justify li {
+  text-align: justify;
+  text-align-last: left;      /* last line stays left */
+  text-justify: inter-word;
+  -webkit-hyphens: auto;      /* nicer wraps */
+  hyphens: auto;
+  line-height: 1.4;
+}
+
+/* Left-align code, BibTeX, or collapsible details */
+.pub-justify li pre,
+.pub-justify li code,
+.pub-justify li details,
+.pub-justify li summary {
+  text-align: left;
+  text-align-last: left;
+}
+
+/* Style for publication titles (linked PDFs) */
+.pub-justify li a {
+  color: #0056b3;             /* professional blue */
+  font-weight: 600;           /* semi-bold for emphasis */
+  text-decoration: underline; /* always underline */
+  text-decoration-thickness: 1.5px; /* slightly thicker underline */
+  text-underline-offset: 2px; /* spacing between text and line */
+  transition: color 0.2s ease;
+}
+
+/* Hover effect */
+.pub-justify li a:hover {
+  color: #d6336c;             /* elegant magenta hover */
+}
+/*  </style> */
+
 </style>
 
 ## 👋 Hello there, I’m Nhan.
