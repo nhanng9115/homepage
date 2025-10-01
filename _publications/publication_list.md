@@ -646,7 +646,10 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 
 </ol>
 
+<hr style="height:6px;background:currentColor;border:0;border-radius:9999px;opacity:.6;margin:28px 0;">
+
 # 🎤 Conference Publications  
+<div style="display:flex;align-items:center;gap:.75rem;margin:32px 0;font-weight:700;"><span style="flex:1;height:4px;background:currentColor;border-radius:9999px;opacity:.6;"></span><span>Conference Publications</span><span style="flex:1;height:4px;background:currentColor;border-radius:9999px;opacity:.6;"></span></div>
 
 <ol class="pub-justify">
 
