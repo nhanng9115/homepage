@@ -244,7 +244,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 <li>
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">Performance Analysis and Power Allocation for Massive MIMO ISAC</a>,"  
-<span><em>IEEE Transactions on Signal Processing</em></span>, vol. 73, pp. 1691–1707, Mar. 2025. 
+<span><em>IEEE Transactions on Signal Processing</em></span>, vol. 73, pp. 1691–1707, Mar. 2025. <span style="color:#dc2626; font-weight:700;">(Top reading 2025)</span>
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-5">@article{nguyen2025performance,
   title={Performance analysis and power allocation for massive {MIMO ISAC} systems},
   author={Nguyen, Nhan Thanh and Nguyen, Van-Dinh and Nguyen, Hieu V and Ngo, Hien Quoc and Swindlehurst, A Lee and Juntti, Markku},
@@ -396,7 +396,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 <li>
 <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10214237" target="_blank">Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation</a>,"  
-<span><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 2997–3013, Aug. 2023.   (Top downloads SPS 2023–2024)
+<span><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 2997–3013, Aug. 2023.   <span style="color:#dc2626; font-weight:700;">(Top reading and download in 2023–2024, <a href="https://rc.signalprocessingsociety.org/education/webinars/sps_ed_web_vid_032625" target="_blank">IEEE SPS Webinar</a>)</span>
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-14">@article{nguyen2023multiuser,
   title={Multiuser {MIMO} wideband joint communications and sensing system with subcarrier allocation},
   author={Nguyen, Nhan Thanh and Shlezinger, Nir and Eldar, Yonina C and Juntti, Markku},
