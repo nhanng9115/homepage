@@ -95,21 +95,21 @@ hr.section-divider{
   white-space:nowrap;
 }
 
-  /* Publication title links (only those you tag with class="pub-title") */
-.page__content a.pub-title{
-  color:#0056b3;
+/* Title-only link style (wins over the generic rule) */
+.page__content a.pub-title[href]{
+  color:#0056b3 !important;
   font-weight:600;
   text-decoration:underline;
   text-decoration-thickness:1.5px;
   text-underline-offset:2px;
   transition:color .2s ease;
 }
-.page__content a.pub-title:hover{ color:#003e82; }
+.page__content a.pub-title[href]:hover{ color:#003e82 !important; }
 
-/* (optional) dark mode tweak */
+/* optional dark mode */
 @media (prefers-color-scheme: dark){
-  .page__content a.pub-title{ color:#60A5FA; }
-  .page__content a.pub-title:hover{ color:#93C5FD; }
+  .page__content a.pub-title[href]{ color:#60A5FA !important; }
+  .page__content a.pub-title[href]:hover{ color:#93C5FD !important; }
 }
 </style>
 
@@ -133,7 +133,7 @@ hr.section-divider{
 ## 🏆 Highlighted publications
 
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti, 
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">Performance Analysis and Power Allocation for Massive MIMO ISAC</a>," 
+"<a class="pub-title" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">Performance Analysis and Power Allocation for Massive MIMO ISAC</a>," 
 <span style=""><em>IEEE Transactions on Signal Processing</em></span>, vol. 73, pp. 1691–1707, Mar. 2025.  
 <span style="color:#dc2626; font-weight:700;">Top reading in IEEE TSP since publication</span>  
 
@@ -176,11 +176,11 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 **Mar 18, 2025:** Paper accepted to **_IEEE Transactions on Signal Processing_**.  
 
 ## 🕰️ Older highlights
-**Dec 21, 2024:** Three papers accepted to <i>IEEE WCNC</i>.
-**Dec 20, 2024:** Two papers accepted to <i>IEEE ICASSP</i>.
-**Dec 12, 2024:** EuCAP 2025 acceptance (ML-Assisted RIS for ISAC).
-**Oct 24, 2024:** TSP paper listed among SPS Top 25 downloads (Sep 2023–Sep 2024).
-**Sep–Jul 2024:** Multiple acceptances: T-VT, JSTSP SI (ISAC), Globecom, Asilomar, SPAWC.
-**Earlier (2021–2023):** Best Paper Awards (SSP, SPAWC, ATC); major acceptances in TWC, TSP, VTM; Academy Fellowship awarded (2023).
+**Dec 21, 2024:** Three papers accepted to <i>IEEE WCNC</i>.  
+**Dec 20, 2024:** Two papers accepted to <i>IEEE ICASSP</i>.  
+**Dec 12, 2024:** EuCAP 2025 acceptance (ML-Assisted RIS for ISAC).  
+**Oct 24, 2024:** TSP paper listed among SPS Top 25 downloads (Sep 2023–Sep 2024).  
+**Sep–Jul 2024:** Multiple acceptances: T-VT, JSTSP SI (ISAC), Globecom, Asilomar, SPAWC.  
+**Earlier (2021–2023):** Best Paper Awards (SSP, SPAWC, ATC); major acceptances in TWC, TSP, VTM; Academy Fellowship awarded (2023).  
 
 ![Visits](https://hits.sh/nhanng9115.github.io/homepage.svg?style=flat-square&label=visits)
