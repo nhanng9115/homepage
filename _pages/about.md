@@ -105,12 +105,12 @@ hr.section-divider{
 
 ## 📚 About
 🎓 I received my B.S. in Electronics & Communications Engineering from Hanoi University of Science and Technology (HUST), Vietnam (2014), and my M.S./Ph.D. from Seoul National University of Science and Technology (SeoulTech), South Korea (2017/2020).  
-🧑‍🔬 I joined UOulu as a Postdoctoral Researcher in 2020, was conferred the Title of Docent and awarded the prestigious <span style="color:#dc2626; font-weight:700;">_Academy Research Fellowship_</span> in 2023, and was promoted to Assistant Professor (tenure track) in 2024.  
+🧑‍🔬 I joined UOulu as a Postdoctoral Researcher in 2020, was conferred the <span style="color:#dc2626; font-weight:700;">_Title of Docent_</span> and awarded the prestigious <span style="color:#dc2626; font-weight:700;">_Academy Research Fellowship_</span> in 2023, and was promoted to Assistant Professor (tenure track) in 2024.  
 🌍 I have also been a Visiting Scholar at North Carolina State University, USA (2019–2020), Weizmann Institute of Science and Ben-Gurion University of the Negev, Israel (2022), and University of California, Irvine (UCI), USA (2023).
 
 **Research interests:** signal processing and optimization; deep unfolding / machine learning for massive MIMO; mmWave/THz communications; ISAC/JCAS; multimodal-sensing-assisted communications.
 
-🏅 **Selected honors:** **Best Paper Awards** (IEEE SPAWC 2024, IEEE SSP 2023, ATC 2021). **Academy of Finland Fellowship** (2023). Exemplary Reviewer of IEEE TCOM (2023). Nokia Foundation Award – Jorma Ollila Grant (2022). **Best Master and Doctoral Dissertation Awards**, SeoulTech, 2020. Samsung Talent Scholarship, Samsung Vietnam R&D Center, 2014.
+🏅 **Selected honors:** <span style="color:#dc2626; font-weight:700;">Best Paper Awards</span> (IEEE SPAWC 2024, IEEE SSP 2023, ATC 2021). <span style="color:#dc2626; font-weight:700;">Academy of Finland Fellowship</span> (2023). Exemplary Reviewer of IEEE TCOM (2023). Nokia Foundation Award – Jorma Ollila Grant (2022). <span style="color:#dc2626; font-weight:700;">Best Master and Doctoral Dissertation Awards</span>, SeoulTech, 2020. Samsung Talent Scholarship, Samsung Vietnam R&D Center, 2014.
 
 <hr class="section-divider">
 
@@ -119,32 +119,32 @@ hr.section-divider{
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti, 
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">Performance Analysis and Power Allocation for Massive MIMO ISAC</a>," 
 <span style=""><em>IEEE Transactions on Signal Processing</em></span>, vol. 73, pp. 1691–1707, Mar. 2025.  
-<span class="hl-flag">Top reading in IEEE TSP since publication</span>  
+<span style="color:#dc2626; font-weight:700;">Top reading in IEEE TSP since publication</span>  
 
 <strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti, 
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/47431/nbnfioulu-202401231426.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems</a>," 
 <span style=""><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 3788–3804, Oct. 2023.  
-<span class="hl-flag">Top reading in IEEE TSP (2023–2024)</span>  
+<span style="color:#dc2626; font-weight:700;">Top reading in IEEE TSP (2023–2024)</span>  
 
 <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti, 
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10214237" target="_blank">Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation</a>," 
 <span style=""><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 2997–3013, Aug. 2023.  
-<span class="hl-flag">Top reading in IEEE TSP and IEEE SPS Top-25 downloads (2023–2024)</span>  
+<span style="color:#dc2626; font-weight:700;">Top reading in IEEE TSP and IEEE SPS Top-25 downloads (2023–2024)</span>  
 
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti, 
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/43260/nbnfioulu-202311243336.pdf?sequence=1&isAllowed=y" target="_blank">Analysis of Oversampling in Uplink Massive MIMO-OFDM with Low-Resolution ADCs</a>," 
 <span style=""><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sep. 2023.  
-<span class="hl-flag">Best Student Paper Award</span>  
+<span style="color:#dc2626; font-weight:700;">Best Student Paper Award</span>  
 
 <strong>N. T. Nguyen</strong>, N. Shlezinger, K.-H. Ngo, V.-D. Nguyen, and M. Juntti, 
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44654/nbnfi-fe20231030141814.pdf?sequence=1&isAllowed=y" target="_blank">Joint communications and sensing design for multi-carrier MIMO systems</a>," 
 <span style=""><em>IEEE Statistical Signal Processing Workshop (SSP)</em></span>, July 2023.  
-<span class="hl-flag">Best Paper Award</span>  
+<span style="color:#dc2626; font-weight:700;">Best Paper Award</span>  
 
 K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti, 
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44157/nbnfi-fe202301091858.pdf?sequence=1&isAllowed=y" target="_blank">Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface</a>," 
 <span style=""><em>International Conference on Advanced Technologies for Communications (ATC)</em></span>, Oct. 2021.  
-<span class="hl-flag">Best Paper Award</span>  
+<span style="color:#dc2626; font-weight:700;">Best Paper Award</span>  
 
 <hr class="section-divider">
 
@@ -159,18 +159,12 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 **May 4, 2025:** Mengyuan’s paper accepted to **_IEEE Transactions on Wireless Communications_**.  
 **Mar 18, 2025:** Paper accepted to **_IEEE Transactions on Signal Processing_**.  
 
-<details>
-<summary><strong>🕰️ Older highlights</strong></summary>
-
-<ul>
-  <li><b>Dec 21, 2024:</b> Three papers accepted to <i>IEEE WCNC</i>.</li>
-  <li><b>Dec 20, 2024:</b> Two papers accepted to <i>IEEE ICASSP</i>.</li>
-  <li><b>Dec 12, 2024:</b> EuCAP 2025 acceptance (ML-Assisted RIS for ISAC).</li>
-  <li><b>Oct 24, 2024:</b> TSP paper listed among SPS Top 25 downloads (Sep 2023–Sep 2024).</li>
-  <li><b>Sep–Jul 2024:</b> Multiple acceptances: T-VT, JSTSP SI (ISAC), Globecom, Asilomar, SPAWC.</li>
-  <li><b>Earlier (2021–2023):</b> Best Paper Awards (SSP, SPAWC, ATC); major acceptances in TWC, TSP, VTM; Academy Fellowship awarded (2023).</li>
-</ul>
-
-</details>
+## 🕰️ Older highlights
+**Dec 21, 2024:** Three papers accepted to <i>IEEE WCNC</i>.
+**Dec 20, 2024:** Two papers accepted to <i>IEEE ICASSP</i>.
+**Dec 12, 2024:** EuCAP 2025 acceptance (ML-Assisted RIS for ISAC).
+**Oct 24, 2024:** TSP paper listed among SPS Top 25 downloads (Sep 2023–Sep 2024).
+**Sep–Jul 2024:** Multiple acceptances: T-VT, JSTSP SI (ISAC), Globecom, Asilomar, SPAWC.
+**Earlier (2021–2023):** Best Paper Awards (SSP, SPAWC, ATC); major acceptances in TWC, TSP, VTM; Academy Fellowship awarded (2023).
 
 ![Visits](https://hits.sh/nhanng9115.github.io/homepage.svg?style=flat-square&label=visits)
