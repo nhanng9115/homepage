@@ -85,14 +85,6 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindleh
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s2', this); return false;">Copy</button></div></details>
 </li>
 
-<!-- ======================== SUBMISSION 3 ======================== -->
-<li>
-S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,  
-"Outage, Symbol Error Probability, and Rate of RIS-Assisted MIMO Systems with Phase Errors,"  
-<span><em>IEEE Transactions on Communications</em></span>, 2025. (<strong>major revision</strong>)
-  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s3">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s3', this); return false;">Copy</button></div></details>
-</li>
-
 <!-- ======================== SUBMISSION 5 ======================== -->
 <li>
 T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
@@ -139,6 +131,14 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 </li>
 
 
+<!-- ======================== SUBMISSION 3 ======================== -->
+<li>
+S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,  
+"Outage, Symbol Error Probability, and Rate of RIS-Assisted MIMO Systems with Phase Errors,"  
+<span><em>IEEE Transactions on Communications</em></span>, 2025. (<strong>major revision</strong>)
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s3">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s3', this); return false;">Copy</button></div></details>
+</li>
+
 <!-- ======================== SUBMISSION 4 ======================== -->
 <li>
 S. Bhandari, Thang X. Vu, <strong>N. T. Nguyen</strong>, and S. Chatzinotas,  
@@ -170,6 +170,14 @@ P. Zivuku, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, K. Ntontin, S. Chatzinot
 # 📄 Journal Publications
 
 <ol class="pub-justify">
+
+<!-- ======================== PAPER 1 ======================== -->
+<li>
+  D. Abueida, M. A. Albreem, S. Abdallah, A. A. Salem, S. Shahabuddin, K. Alnajjar, M. Saad, <strong>N. T. Nguyen</strong>, M. Juntti,  
+  "<a href="" target="_blank">Signal Processing for Cell-Free Massive MIMO: Techniques and Trends in Estimation, Detection, and Precoding</a>,"  
+  <span><em>IEEE Open Journal of the Communications Society</em></span>, 2025. (accepted)
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-1"></code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-1', this); return false;">Copy</button></div></details>
+</li>
 
 <!-- ======================== PAPER 1 ======================== -->
 <li>
