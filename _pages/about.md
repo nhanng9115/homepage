@@ -126,7 +126,7 @@ hr.section-divider{
 
 **Research interests:** signal processing and optimization; deep unfolding / machine learning for massive MIMO; mmWave/THz communications; ISAC/JCAS; multimodal-sensing-assisted communications.
 
-🏅 **Selected honors:** <span style="color:#dc2626; font-weight:700;">Best Paper Awards</span> (IEEE SPAWC 2024, IEEE SSP 2023, ATC 2021). <span style="color:#dc2626; font-weight:700;">Academy of Finland Fellowship</span> (2023). Exemplary Reviewer of IEEE TCOM (2023). Nokia Foundation Award – Jorma Ollila Grant (2022). <span style="color:#dc2626; font-weight:700;">Best Master and Doctoral Dissertation Awards</span>, SeoulTech, 2020. Samsung Talent Scholarship, Samsung Vietnam R&D Center, 2014.
+🏅 **Selected honors:** <span style="color:#dc2626; font-weight:700;">4 Best Paper Awards</span> (ISAP 2025, IEEE SPAWC 2024, IEEE SSP 2023, ATC 2021). <span style="color:#dc2626; font-weight:700;">Academy of Finland Fellowship</span> (2023). Exemplary Reviewer of IEEE TCOM (2023). Nokia Foundation Award – Jorma Ollila Grant (2022). <span style="color:#dc2626; font-weight:700;">Best Master and Doctoral Dissertation Awards</span>, SeoulTech, 2020. Samsung Talent Scholarship, Samsung Vietnam R&D Center, 2014.
 
 <hr class="section-divider">
 
@@ -165,6 +165,7 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 <hr class="section-divider">
 
 ## 📰 Recent news
+**Oct 30, 2025:** Our paper "Hybrid RIS Aided Wireless Communications" has won the **Best Paper Award** at **_ISAP 2025_**.  
 **Sep 23, 2025:** Ali's and Phuong's papers accepted to **_IEEE NFV-SDN 2025_**.  
 **Sep 9, 2025:** Paper accepted to **_IEEE Journal on Selected Areas in Communications_**.  
 **Aug 20, 2025:** Abolfazl’s paper accepted to **_IEEE Communications Letters_**.  
