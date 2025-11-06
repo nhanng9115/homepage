@@ -118,7 +118,7 @@ T. D. Gian, V.-D. Nguyen, Vo P. S., <strong>N. T. Nguyen</strong>, D. T. Hoang, 
 <li>
 <strong>N. T. Nguyen</strong>, M. Ma, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
 "Knowledge distillation for collaborative learning in distributed communications and sensing,"  
-<span><em>IEEE Wireless Communications</em></span>, 2025. (<strong>submitted</strong>)
+<span><em>IEEE Communications Magazine</em></span>, 2025. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s8">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s8', this); return false;">Copy</button></div></details>
 </li>
 
@@ -182,7 +182,7 @@ P. Zivuku, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, K. Ntontin, S. Chatzinot
 <!-- ======================== PAPER 1 ======================== -->
 <li>
   D. Abueida, M. A. Albreem, S. Abdallah, A. A. Salem, S. Shahabuddin, K. Alnajjar, M. Saad, <strong>N. T. Nguyen</strong>, M. Juntti,  
-  "<a href="" target="_blank">Signal Processing for Cell-Free Massive MIMO: Techniques and Trends in Estimation, Detection, and Precoding</a>,"  
+  "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/59037/nbnfioulu-202510296487.pdf?sequence=1&isAllowed=y" target="_blank">Signal Processing for Cell-Free Massive MIMO: Techniques and Trends in Estimation, Detection, and Precoding</a>,"  
   <span><em>IEEE Open Journal of the Communications Society</em></span>, 2025. (accepted)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-1"></code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-1', this); return false;">Copy</button></div></details>
 </li>
@@ -668,7 +668,15 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 
 <!-- ======================== CONF PAPER 1 ======================== -->
 <li>
-  Huy T. Nguyen, <strong>N. T. Nguyen</strong>, Nguyen Cong Luong, Tri-Hai Nguyen, and Vo Nguyen Quoc Bao,  
+  H. T. Nguyen, T.-H. Nguyen, Vo N. Q. B., V.-D. Nguyen, and <strong>N. T. Nguyen</strong>,  
+"Energy Efficiency Maximization for RIS-aided Integrated Sensing and Communication,"  
+<span><em>RIVF International Conference on Computing and Communication Technologies</em></span>, 2025 (<strong>accepted</strong>).
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-1', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== CONF PAPER 1 ======================== -->
+<li>
+  H. T. Nguyen, <strong>N. T. Nguyen</strong>, Nguyen C. L., T.-H. Nguyen, and Vo N. Q. B.,  
 "Max-Min Rate Optimization for Reconfigurable Intelligent Surfaces Aided ISAC Systems,"  
 <span><em>24th International Symposium on Communications and Information Technologies (ISCIT)</em></span>, 2025 (<strong>accepted</strong>).
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-1', this); return false;">Copy</button></div></details>
