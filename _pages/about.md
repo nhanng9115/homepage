@@ -147,6 +147,11 @@ hr.section-divider{
 <span style=""><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 2997–3013, Aug. 2023.  
 <span style="color:#dc2626; font-weight:700;">Top reading in IEEE TSP and IEEE SPS Top-25 downloads (2023–2024)</span>  
 
+M. Ma, <strong>N. T. Nguyen</strong> and M. Juntti, 
+"<a class="" target="_blank">Hybrid RIS-aided Wireless Communications</a>," 
+<span style=""><em>International Symposium on Antennas and Propagation (ISAP)</em></span>, Nov. 2025.  
+<span style="color:#dc2626; font-weight:700;">Best Paper Award</span>  
+
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti, 
 "<a class="pub-title" href="https://oulurepo.oulu.fi/bitstream/handle/10024/43260/nbnfioulu-202311243336.pdf?sequence=1&isAllowed=y" target="_blank">Analysis of Oversampling in Uplink Massive MIMO-OFDM with Low-Resolution ADCs</a>," 
 <span style=""><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sep. 2023.  
