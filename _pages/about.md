@@ -148,7 +148,7 @@ hr.section-divider{
 <span style="color:#dc2626; font-weight:700;">Top reading in IEEE TSP and IEEE SPS Top-25 downloads (2023–2024)</span>  
 
 <strong>N. T. Nguyen</strong> and M. Juntti, 
-"<a class="" target="_blank">Hybrid RIS-aided Wireless Communications</a>," 
+"<a class=""pub-title" href="" target="_blank">Hybrid RIS-aided Wireless Communications</a>," 
 <span style=""><em>International Symposium on Antennas and Propagation (ISAP)</em></span>, Nov. 2025.  
 <span style="color:#dc2626; font-weight:700;">Best Paper Award</span>  
 
