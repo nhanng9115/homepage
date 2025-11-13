@@ -702,7 +702,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li>
 <strong>N. T. Nguyen</strong> and M. Juntti,  
 "<a href="https://nhanng9115.github.io/homepage/publications/" target="_blank">Hybrid RIS-aided Wireless Communications</a>,"  
-<span><em>International Symposium on Antennas and Propagation (ISAP)</em></span>, 2025 (<strong>accepted</strong>).
+<span><em>International Symposium on Antennas and Propagation (ISAP)</em></span>, 2025 <span style="color:#dc2626; font-weight:700;">(Best Paper Award)</span>.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-4">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-4', this); return false;">Copy</button></div></details>
 </li>
 
@@ -1021,7 +1021,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/43260/nbnfioulu-202311243336.pdf?sequence=1&isAllowed=y" target="_blank">Analysis of Oversampling in Uplink Massive MIMO-OFDM with Low-Resolution ADCs</a>,"  
-<span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sept. 2023, Shanghai, China. (Best Student Paper Award)
+<span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sept. 2023, Shanghai, China. <span style="color:#dc2626; font-weight:700;">(Best Student Paper Award)</span>
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-27">@inproceedings{ma2023analysis,
   title={Analysis of oversampling in uplink massive {MIMO-OFDM} with low-resolution {ADCs}},
   author={Ma, Mengyuan and Nguyen, Nhan Thanh and Atzeni, Italo and Juntti, Markku},
@@ -1035,7 +1035,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 <li>
 <strong>N. T. Nguyen</strong>, N. Shlezinger, K.-H. Ngo, V.-D. Nguyen, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44654/nbnfi-fe20231030141814.pdf?sequence=1&isAllowed=y" target="_blank">Joint communications and sensing design for multi-carrier MIMO systems</a>,"  
-<span><em>IEEE Statistical Signal Processing Workshop (SSP)</em></span>, July 2023, Hanoi, Vietnam. (Best Paper Award)
+<span><em>IEEE Statistical Signal Processing Workshop (SSP)</em></span>, July 2023, Hanoi, Vietnam. <span style="color:#dc2626; font-weight:700;">(Best Paper Award)</span>
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-28">@inproceedings{nguyen2023joint,
   title={Joint communications and sensing design for multi-carrier {MIMO} systems},
   author={Nguyen, Nhan Thanh and Shlezinger, Nir and Ngo, Khac-Hoang and Nguyen, Van-Dinh and Juntti, Markku},
@@ -1190,7 +1190,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li>
 K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44157/nbnfi-fe202301091858.pdf?sequence=1&isAllowed=y" target="_blank">Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface</a>,"  
-<span><em>International Conference on Advanced Technologies for Communications (ATC)</em></span>, Oct. 2021, Hanoi, Vietnam. (Best Paper Award)
+<span><em>International Conference on Advanced Technologies for Communications (ATC)</em></span>, Oct. 2021, Hanoi, Vietnam. <span style="color:#dc2626; font-weight:700;">(Best Paper Award)</span>
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-c4">@inproceedings{ngo2021low,
   title={Low-latency and secure computation offloading assisted by hybrid relay-reflecting intelligent surface},
   author={Ngo, Khac-Hoang and Nguyen, Nhan Thanh and Dinh, Thinh Quang and Hoang, Trong-Minh and Juntti, Markku},
