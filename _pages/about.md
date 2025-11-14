@@ -149,7 +149,7 @@ hr.section-divider{
 
 <strong>N. T. Nguyen</strong> and M. Juntti, 
 "<a class="pub-title" href="" target="_blank">Hybrid RIS-aided Wireless Communications</a>," 
-<span style=""><em>International Symposium on Antennas and Propagation (ISAP)</em></span>, Sep. 2023.  
+<span style=""><em>International Symposium on Antennas and Propagation (ISAP)</em></span>, Nov. 2025.  
 <span style="color:#dc2626; font-weight:700;">Best Paper Award</span> 
 
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti, 
