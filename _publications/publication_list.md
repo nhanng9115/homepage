@@ -494,7 +494,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 <li>
 <strong>N. T. Nguyen</strong>, Q.-D. Vu, K. Lee, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9733238" target="_blank">Hybrid Relay-Reflecting Intelligent Surface-Assisted Wireless Communications</a>,"  
-<span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 71, no. 6, pp. 6228–6244, Mar. 2022.  
+<span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 71, no. 6, pp. 6228–6244, Mar. 2022 <span style="color:#dc2626; font-weight:700;">(Two (2) Best Paper Awards for conference versions)</span>.  
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-19">@article{nguyen2022hybrid,
   title={Hybrid relay-reflecting intelligent surface-assisted wireless communications},
   author={Nguyen, Nhan Thanh and Vu, Quang-Doanh and Lee, Kyungchun and Juntti, Markku},
