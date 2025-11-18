@@ -3,7 +3,7 @@ permalink: /supervisions/     # match your nav item (not /supervisions/)
 title: "Supervision"
 ---
 
-I have had the privilege of supervising and co-supervising talented researchers and master’s students.
+I have had the privilege of supervising and co-supervising talented researchers and master students.
 
 🧑‍🎓 **Postdoctoral researchers**  
 - **Abolfazl Zakeri** (Jan. 2025): ISAC, multimodal sensing-aided communications, age of information, DRL, knowledge distillation
@@ -18,7 +18,7 @@ I have had the privilege of supervising and co-supervising talented researchers 
 - **Smriti Uniyal** *(co-supervised)* (Jun. 2023): Performance analysis and optimization for RIS, ISAC, and massive MIMO  
 - **Mengyuan Ma** *(co-supervised)* (2021--Dec. 2025): Low-resolution ADC, hybrid beamforming, deep unfolding, multimodal sensing-aided communications, knowledge distillation 
 
-📜 **Master’s students**  
+📜 **Master students**  
 - **Hassam Muhammad** (Oct. 2025): MS Thesis: *Dynamic Sensing Modalities Assignment in Dense Wireless Networks*
 - **Keerthi Ananthachar Mulugund** (Oct. 2025): MS Thesis: *AI-Enhanced Tone Reservation and Beamforming for PAPR Reduction in OFDM Systems.*
 - **Irfan Ullah** *(co-supervised)* (2021): Summer Internship  
