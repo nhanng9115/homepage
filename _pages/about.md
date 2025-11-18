@@ -113,7 +113,7 @@ hr.section-divider{
 }
 </style>
 
-## 👋 Hello there, I’m Nhan.
+## Hello, I’m Nhan — welcome to my page.
 👨🏻‍💻 I’m an **Assistant Professor** and **Academy Research Fellow** at Centre for Wireless Communications (CWC), University of Oulu (UOulu), Finland.  
 🤖 My research combines rigorous signal processing and machine learning to solve core problems in wireless communications and sensing.
 
