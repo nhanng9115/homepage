@@ -1,6 +1,7 @@
 ---
 permalink: /publications/
 title: "Publications"
+show_bibtex: false   # change to true to show
 ---
 
 <style>
@@ -38,15 +39,12 @@ title: "Publications"
   color: #d6336c;             /* elegant magenta hover */
 }
 
-/* show bibtex */
-show_bibtex: false   # change to true to show
+</style>
 {% unless page.show_bibtex %}
 <style>
   details { display: none !important; }
 </style>
 {% endunless %}
-</style>
-
 
 # 📝 Submitted and Under Revision  
 
