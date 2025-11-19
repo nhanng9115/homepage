@@ -40,7 +40,7 @@ title: "Publications"
 </style>
 
 /* Show or hide bibtex */
-show_bibtex: true   # change to true to show
+show_bibtex: false   # change to true to show
 {% unless page.show_bibtex %}
 <style>
   details { display: none !important; }
