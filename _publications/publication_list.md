@@ -39,7 +39,13 @@ title: "Publications"
 }
 </style>
 
+show_bibtex: false   # change to true to show
 
+{% unless page.show_bibtex %}
+<style>
+  details { display: none !important; }
+</style>
+{% endunless %}
 
 # 📝 Submitted and Under Revision  
 
