@@ -1,7 +1,7 @@
 ---
 permalink: /publications/
 title: "Publications"
-show_bibtex: false   # change to true to show
+show_bibtex: true   # change to true to show
 ---
 
 <style>
