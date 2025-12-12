@@ -175,7 +175,7 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 <hr class="section-divider">
 
 ## 📰 Recent news
-**Dec 12, 2025:** I am pleased to share that our paper “Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding” has been listed among the 25 most downloaded papers in **_IEEE Journal of Selected Topics in Signal Processing_** for the period Sep. 2024 to Sep. 2025. An invited webinar highlighting the key findings of this work will be released early next year.
+**Dec 12, 2025:** 🎓 I am pleased to share that our paper “Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding” has been listed among the 25 most downloaded papers in **_IEEE Journal of Selected Topics in Signal Processing_** for the period Sep. 2024 to Sep. 2025. An invited webinar highlighting the key findings of this work will be released early next year. 🎓
 **Oct 30, 2025:** Our paper "Hybrid RIS Aided Wireless Communications" has won the **Best Paper Award** at **_ISAP 2025_**.  
 **Sep 23, 2025:** Ali's and Phuong's papers accepted to **_IEEE NFV-SDN 2025_**.  
 **Sep 9, 2025:** Paper accepted to **_IEEE Journal on Selected Areas in Communications_**.  
