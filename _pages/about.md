@@ -137,6 +137,11 @@ hr.section-divider{
 <span style=""><em>IEEE Transactions on Signal Processing</em></span>, vol. 73, pp. 1691–1707, Mar. 2025.  
 <span style="color:#dc2626; font-weight:700;">Top reading in IEEE TSP since publication</span>  
 
+<strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti, 
+"<a class="pub-title" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10684532&tag=1" target="_blank">Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding</a>," 
+<span style=""><em>IEEE Journal of Selected Topics in Signal Processing</em></span>, vol. 18, no. 5, pp. 901–916, Jul. 2024.  
+<span style="color:#dc2626; font-weight:700;">Top reading in IEEE TSP and IEEE SPS Top-25 downloads (2024–2025)</span> 
+
 <strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti, 
 "<a class="pub-title" href="https://oulurepo.oulu.fi/bitstream/handle/10024/47431/nbnfioulu-202401231426.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems</a>," 
 <span style=""><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 3788–3804, Oct. 2023.  
