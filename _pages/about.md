@@ -113,7 +113,7 @@ hr.section-divider{
 }
 </style>
 
-## Hello, I’m Nhan — welcome to my page.
+## Hello, I’m Nhan — welcome to my page. ![Visits](https://hits.sh/nhanng9115.github.io/homepage.svg?style=flat-square&label=visits)
 👨🏻‍💻 I’m an **Assistant Professor** and **Academy Research Fellow** at Centre for Wireless Communications (CWC), University of Oulu (UOulu), Finland.  
 🤖 My research combines rigorous signal processing and machine learning to solve core problems in wireless communications and sensing.
 
@@ -175,24 +175,23 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 <hr class="section-divider">
 
 ## 📰 Recent news
-**Dec 12, 2025:** 🎓 I am pleased to share that our paper “Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding” has been listed among the 25 most downloaded papers in **_IEEE Journal of Selected Topics in Signal Processing_** for the period Sep. 2024 to Sep. 2025. An invited webinar highlighting the key findings of this work will be released early next year. 🎓
-**Oct 30, 2025:** Our paper "Hybrid RIS Aided Wireless Communications" has won the **Best Paper Award** at **_ISAP 2025_**.  
-**Sep 23, 2025:** Ali's and Phuong's papers accepted to **_IEEE NFV-SDN 2025_**.  
-**Sep 9, 2025:** Paper accepted to **_IEEE Journal on Selected Areas in Communications_**.  
-**Aug 20, 2025:** Abolfazl’s paper accepted to **_IEEE Communications Letters_**.  
-**Aug 1, 2025:** Abolfazl’s paper accepted to **_IEEE GLOBECOM 2025_**.  
-**Jul 16, 2025:** Phuong’s paper accepted to **_Asilomar 2025_**.  
-**May 25, 2025:** Two papers accepted to **_IEEE SPAWC 2025_** (by Ali and Smriti).  
-**May 17, 2025:** Mengyuan’s paper accepted to **_IEEE Wireless Communications Letters_**.  
-**May 4, 2025:** Mengyuan’s paper accepted to **_IEEE Transactions on Wireless Communications_**.  
-**Mar 18, 2025:** Paper accepted to **_IEEE Transactions on Signal Processing_**.  
+- **Dec 12, 2025:** 🏆📈 Our paper “Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding” is listed among the 25 most downloaded papers in **_IEEE Journal of Selected Topics in Signal Processing_** for Sep. 2024 to Sep. 2025. An invited webinar highlighting the key findings will be released early next year.
+- **Oct 30, 2025:** 🏆 Our paper “Hybrid RIS Aided Wireless Communications” won the **Best Paper Award** at **_ISAP 2025_**.
+- **Sep 23, 2025:** 📄 Ali’s and Phuong’s papers accepted to **_IEEE NFV-SDN 2025_**.
+- **Sep 9, 2025:** 📄 Paper accepted to **_IEEE Journal on Selected Areas in Communications_**.
+- **Aug 20, 2025:** 📄 Abolfazl’s paper accepted to **_IEEE Communications Letters_**.
+- **Aug 1, 2025:** 📄 Abolfazl’s paper accepted to **_IEEE GLOBECOM 2025_**.
+- **Jul 16, 2025:** 📄 Phuong’s paper accepted to **_Asilomar 2025_**.
+- **May 25, 2025:** 📄📄 Two papers accepted to **_IEEE SPAWC 2025_** by Ali and Smriti.
+- **May 17, 2025:** 📄 Mengyuan’s paper accepted to **_IEEE Wireless Communications Letters_**.
+- **May 4, 2025:** 📄 Mengyuan’s paper accepted to **_IEEE Transactions on Wireless Communications_**.
+- **Mar 18, 2025:** 📄 Paper accepted to **_IEEE Transactions on Signal Processing_**.
 
 ## 🕰️ Older highlights
-**Dec 21, 2024:** Three papers accepted to <i>IEEE WCNC</i>.  
-**Dec 20, 2024:** Two papers accepted to <i>IEEE ICASSP</i>.  
-**Dec 12, 2024:** EuCAP 2025 acceptance (ML-Assisted RIS for ISAC).  
-**Oct 24, 2024:** TSP paper listed among SPS Top 25 downloads (Sep 2023–Sep 2024).  
-**Sep–Jul 2024:** Multiple acceptances: T-VT, JSTSP SI (ISAC), Globecom, Asilomar, SPAWC.  
-**Earlier (2021–2023):** Best Paper Awards (SSP, SPAWC, ATC); major acceptances in TWC, TSP, VTM; Academy Fellowship awarded (2023).  
+- **Dec 21, 2024:** 📄 Three papers accepted to <i>IEEE WCNC</i>.
+- **Dec 20, 2024:** 📄 Two papers accepted to <i>IEEE ICASSP</i>.
+- **Dec 12, 2024:** 📄 EuCAP 2025 acceptance on ML-assisted RIS for ISAC.
+- **Oct 24, 2024:** 🏆📈 TSP paper listed among SPS Top 25 downloads for Sep 2023 to Sep 2024.
+- **Sep to Jul 2024:** 📄 Multiple acceptances in T-VT, JSTSP SI on ISAC, GLOBECOM, Asilomar, and SPAWC.
+- **2021 to 2023:** 🏆 Best Paper Awards at SSP, SPAWC, and ATC; major journal acceptances including TWC, TSP, and VTM; Academy Fellowship awarded in 2023.
 
-![Visits](https://hits.sh/nhanng9115.github.io/homepage.svg?style=flat-square&label=visits)
