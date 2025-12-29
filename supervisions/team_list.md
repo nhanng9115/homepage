@@ -9,6 +9,7 @@ I have had the privilege of supervising and co-supervising talented researchers 
 - **Abolfazl Zakeri** (Jan. 2025): ISAC, multimodal sensing-aided communications, age of information, DRL, knowledge distillation
 
 🎓 **Doctoral researchers**  
+- **Suranga Wengappuli Arachchige** (Jan. 2026): Distributed model-based ML for distributed mMIMO and ISAC  
 - **Isuri Welgamage** (Jan. 2025): ML for ISAC and multimodal sensing-aided communication, knowledge distillation  
 - **Pouya Mobaraki** (Apr. 2024): Deep unfolding for RIS design  
 - **Sina Tavakolian** (Feb. 2024): Knowledge distillation for ISAC, graph learning, distributed MIMO  
@@ -16,7 +17,7 @@ I have had the privilege of supervising and co-supervising talented researchers 
 - **Nam-Phuong Tran** *(co-supervised)* (Jan. 2025): Deep reinforcement learning for RIS and ISAC  
 - **Ali Raza** *(co-supervised)* (Nov. 2024): RIS-assisted localization, deep unfolding  
 - **Smriti Uniyal** *(co-supervised)* (Jun. 2023): Performance analysis and optimization for RIS, ISAC, and massive MIMO  
-- **Mengyuan Ma** *(co-supervised)* (2021--Dec. 2025): Low-resolution ADC, hybrid beamforming, deep unfolding, multimodal sensing-aided communications, knowledge distillation 
+- **Mengyuan Ma** *(co-supervised, currently working as a Postdoc)* (2021--Aug. 2025): Low-resolution ADC, hybrid beamforming, deep unfolding, multimodal sensing-aided communications, knowledge distillation 
 
 📜 **Master students**  
 - **Hassam Muhammad** (Oct. 2025): MS Thesis: *Dynamic Sensing Modalities Assignment in Dense Wireless Networks*
