@@ -141,14 +141,6 @@ S. Bhandari, Thang X. Vu, <strong>N. T. Nguyen</strong>, and S. Chatzinotas,
 
 
 
-<!-- ======================== SUBMISSION 3 ======================== -->
-<li>
-I. Perera, <strong>N. T. Nguyen</strong>, P. Pirinen, and N. Rajatheva,,  
-"Bi-Static ISAC Beamforming Design in Multi-User MIMO Systems,"  
-<span><em>IEEE Transactions on Vehicular Technology</em></span>, 2025. (<strong>minor revision</strong>)
-  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s3">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s3', this); return false;">Copy</button></div></details>
-</li>
-
 </ol>
 
 
@@ -157,6 +149,15 @@ I. Perera, <strong>N. T. Nguyen</strong>, P. Pirinen, and N. Rajatheva,,
 
 <ol class="pub-justify">
 
+
+
+<!-- ======================== SUBMISSION 3 ======================== -->
+<li>
+I. Perera, <strong>N. T. Nguyen</strong>, P. Pirinen, and N. Rajatheva,,  
+"Bi-Static ISAC Beamforming Design in Multi-User MIMO Systems,"  
+<span><em>IEEE Transactions on Vehicular Technology</em></span>, 2025. (<strong>accepted</strong>)
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s3">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s3', this); return false;">Copy</button></div></details>
+</li>
 
 <!-- ======================== SUBMISSION 3 ======================== -->
 <li>
@@ -680,7 +681,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 <!-- ======================== SUBMISSION 1 ======================== -->
 <li>
 A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
-"AoI-Aware Machine Learning for Constrained Multimodal Sensing-Aided Communications,"  
+"<a href="https://arxiv.org/pdf/2511.01406" target="_blank">AoI-Aware Machine Learning for Constrained Multimodal Sensing-Aided Communications</a>,"  
 <span><em>IEEE International Conference on Communications (ICC)</em></span>, 2025. (<strong>accepted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s1', this); return false;">Copy</button></div></details>
 </li>
@@ -688,7 +689,7 @@ A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 <!-- ======================== SUBMISSION 1 ======================== -->
 <li>
 P. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,  
-"Deep Reinforcement Learning-Based Dynamic Resource Allocation in Cell-Free Massive MIMO,"  
+"<a href="https://arxiv.org/pdf/2601.13934" target="_blank">Deep Reinforcement Learning-Based Dynamic Resource Allocation in Cell-Free Massive MIMO</a>,"  
 <span><em>IEEE International Conference on Communications (ICC)</em></span>, 2025. (<strong>accepted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s1', this); return false;">Copy</button></div></details>
 </li>
@@ -696,7 +697,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,
 <!-- ======================== SUBMISSION 1 ======================== -->
 <li>
 T. Fang, M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Tri-Hybrid Beamforming Design for Integrated Sensing and Communications,"  
+"<a href="https://arxiv.org/pdf/2601.16036" target="_blank">Tri-Hybrid Beamforming Design for Integrated Sensing and Communications</a>,"  
 <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2025. (<strong>accepted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s1', this); return false;">Copy</button></div></details>
 </li>
@@ -704,7 +705,7 @@ T. Fang, M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <!-- ======================== SUBMISSION 1 ======================== -->
 <li>
 A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
-"Deep Reinforcement Learning for Dynamic Sensing and Communications,"  
+"<a href="https://arxiv.org/pdf/2509.19130" target="_blank">Deep Reinforcement Learning for Dynamic Sensing and Communications</a>,"  
 <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2025. (<strong>accepted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s1', this); return false;">Copy</button></div></details>
 </li>
