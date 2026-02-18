@@ -19,7 +19,7 @@ I have had the privilege of supervising and co-supervising talented researchers 
 - **Smriti Uniyal** *(co-supervised)* (Jun. 2023): Performance analysis and optimization for RIS, ISAC, and massive MIMO
 
 🧑‍🎓 **Alumni**  
-- **Mengyuan Ma** (2021--Aug. 2025) *(currently working as a Postdoc)*
+- **Mengyuan Ma** (2021--Aug. 2025) *(currently working as a Postdoc)*: Low-resolution ADC, hybrid beamforming, deep unfolding, multimodal sensing-aided communications, knowledge distillation
 
 📜 **Master students**  
 - **Hassam Muhammad** (Oct. 2025): MS Thesis: *Dynamic Sensing Modalities Assignment in Dense Wireless Networks*
