@@ -51,7 +51,7 @@ show_bibtex: false   # change to true to show
 <ol class="pub-justify">
 <li> 
 "<a href="https://www.wiley.com/en-us/6G+to+Build+a+Sustainable+Future-p-9781394363575#description-section" target="_blank">Integrated Sensing and Communication</a>,"  
-<span><em>John Wiley & Sons</em></span>, 2026. (<strong>major revision</strong>)
+<span><em>John Wiley & Sons</em></span>, 2026.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s6">@article{fang2025optimal,
   title={Integrated Sensing and Communication},
   author={Integrated Sensing and Communication},
