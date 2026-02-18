@@ -16,8 +16,10 @@ I have had the privilege of supervising and co-supervising talented researchers 
 - **Tianyu Fang** (Jan. 2024): Optimization, model-based AI/ML for ISAC  
 - **Nam-Phuong Tran** *(co-supervised)* (Jan. 2025): Deep reinforcement learning for RIS and ISAC  
 - **Ali Raza** *(co-supervised)* (Nov. 2024): RIS-assisted localization, deep unfolding  
-- **Smriti Uniyal** *(co-supervised)* (Jun. 2023): Performance analysis and optimization for RIS, ISAC, and massive MIMO  
-- **Mengyuan Ma** *(co-supervised, currently working as a Postdoc)* (2021--Aug. 2025): Low-resolution ADC, hybrid beamforming, deep unfolding, multimodal sensing-aided communications, knowledge distillation 
+- **Smriti Uniyal** *(co-supervised)* (Jun. 2023): Performance analysis and optimization for RIS, ISAC, and massive MIMO
+
+🧑‍🎓 **Alumni**  
+- **Mengyuan Ma** (2021--Aug. 2025) *(currently working as a Postdoc)*
 
 📜 **Master students**  
 - **Hassam Muhammad** (Oct. 2025): MS Thesis: *Dynamic Sensing Modalities Assignment in Dense Wireless Networks*
