@@ -46,7 +46,7 @@ show_bibtex: false   # change to true to show
 </style>
 {% endunless %}
 
-# 📝 Book chapter  
+# 📘 Book chapter  
 
 <ol class="pub-justify">
 <li> 
