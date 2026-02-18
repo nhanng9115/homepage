@@ -167,7 +167,7 @@ S. Bhandari, Thang X. Vu, <strong>N. T. Nguyen</strong>, and S. Chatzinotas,
 
 <!-- ======================== SUBMISSION 3 ======================== -->
 <li>
-I. Perera, <strong>N. T. Nguyen</strong>, P. Pirinen, and N. Rajatheva,,  
+I. Perera, <strong>N. T. Nguyen</strong>, P. Pirinen, and N. Rajatheva,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11370420" target="_blank">Bi-Static ISAC Beamforming Design in Multi-User MIMO Systems</a>,"  
 <span><em>IEEE Transactions on Vehicular Technology</em></span>, 2026. (<strong>accepted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s3">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s3', this); return false;">Copy</button></div></details>
@@ -748,7 +748,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
 <!-- ======================== CONF PAPER 1 ======================== -->
 <li>
   H. T. Nguyen, T.-H. Nguyen, Vo N. Q. B., V.-D. Nguyen, and <strong>N. T. Nguyen</strong>,  
-"Energy Efficiency Maximization for RIS-aided Integrated Sensing and Communication,"  
+"<a href="https://ieeexplore.ieee.org/abstract/document/11365077" target="_blank">Energy Efficiency Maximization for RIS-aided Integrated Sensing and Communication</a>,"  
 <span><em>RIVF International Conference on Computing and Communication Technologies</em></span>, 2025 (<strong>accepted</strong>).
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-1', this); return false;">Copy</button></div></details>
 </li>
@@ -756,7 +756,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
 <!-- ======================== CONF PAPER 1 ======================== -->
 <li>
   H. T. Nguyen, <strong>N. T. Nguyen</strong>, Nguyen C. L., T.-H. Nguyen, and Vo N. Q. B.,  
-"Max-Min Rate Optimization for Reconfigurable Intelligent Surfaces Aided ISAC Systems,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/59312/nbnfioulu-202511206843.pdf?sequence=-1" target="_blank">Max-Min Rate Optimization for Reconfigurable Intelligent Surfaces Aided ISAC Systems</a>,"  
 <span><em>24th International Symposium on Communications and Information Technologies (ISCIT)</em></span>, 2025 (<strong>accepted</strong>).
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-1', this); return false;">Copy</button></div></details>
 </li>
@@ -772,7 +772,7 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 <!-- ======================== CONF PAPER 3 ======================== -->
 <li>
 P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://nhanng9115.github.io/homepage/publications/" target="_blank">Deep Reinforcement Learning for Hybrid RIS Assisted MIMO Communications</a>,"  
+"<a href="https://arxiv.org/pdf/2601.18453" target="_blank">Deep Reinforcement Learning for Hybrid RIS Assisted MIMO Communications</a>,"  
 <span><em>Asilomar Conference on Signals, Systems, and Computers (ASILOMAR)</em></span>, 2025 (<strong>accepted</strong>).
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-3">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-3', this); return false;">Copy</button></div></details>
 </li>
@@ -780,7 +780,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <!-- ======================== CONF PAPER 4 ======================== -->
 <li>
 <strong>N. T. Nguyen</strong> and M. Juntti,  
-"<a href="https://nhanng9115.github.io/homepage/publications/" target="_blank">Hybrid RIS-aided Wireless Communications</a>,"  
+"<a href="https://ieeexplore.ieee.org/document/11361681" target="_blank">Hybrid RIS-aided Wireless Communications</a>,"  
 <span><em>International Symposium on Antennas and Propagation (ISAP)</em></span>, 2025 <span style="color:#dc2626; font-weight:700;">(Best Paper Award)</span>.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-4">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-4', this); return false;">Copy</button></div></details>
 </li>
