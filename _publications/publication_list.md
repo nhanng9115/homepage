@@ -70,28 +70,28 @@ show_bibtex: false   # change to true to show
 <!-- ======================== SUBMISSION 1 ======================== -->
 <li>
 S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</strong>,  
-"Beamforming Design Via GNN in mmWave Cell-Free Massive MIMO Using Sub-6 GHz CSI," IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC), 2025. (<strong>submitted</strong>)
+"Beamforming Design Via GNN in mmWave Cell-Free Massive MIMO Using Sub-6 GHz CSI," <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2026. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s13">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s13', this); return false;">Copy</button></div></details>
 </li>
 
 <!-- ======================== SUBMISSION 2 ======================== -->
 <li>
 M. Hassam, A. Zakeri, M. Ma, A. Alkhateeb, and <strong>N. T. Nguyen</strong>,  
-"Dynamic Multimodal Sensing-Aided Beam Prediction via Deep Reinforcement Learning," IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC), 2025. (<strong>submitted</strong>)
+"Dynamic Multimodal Sensing-Aided Beam Prediction via Deep Reinforcement Learning," <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2026. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s13">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s13', this); return false;">Copy</button></div></details>
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
 <li>
 M. Ma, I. Welgamage, A. Alkhateeb, A. L. Swindlehurst, M. Juntti, and <strong>N. T. Nguyen</strong>,  
-"Knowledge Distillation for Lightweight Multimodal Sensing-Aided mmWave Beam Tracking," IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC), 2025. (<strong>submitted</strong>)
+"Knowledge Distillation for Lightweight Multimodal Sensing-Aided mmWave Beam Tracking," <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2026. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s13">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s13', this); return false;">Copy</button></div></details>
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
 <li>
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Beamforming and Filter Design for Bistatic ISAC under Known and Unknown Transmit Symbols," IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC), 2025. (<strong>submitted</strong>)
+"Beamforming and Filter Design for Bistatic ISAC under Known and Unknown Transmit Symbols," <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2026. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s13">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s13', this); return false;">Copy</button></div></details>
 </li>
 
@@ -101,14 +101,14 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <!-- ======================== SUBMISSION 13 ======================== -->
 <li>
 S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</strong>,  
-"GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive MIMO systems," 2025. (<strong>to submit</strong>)
+"GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive MIMO systems," 2026. (<strong>to submit</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s13">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s13', this); return false;">Copy</button></div></details>
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
 <li>
 P. N. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,  
-"Scalable Energy Efficiency Design for Cell-Free Massive MIMO via DRL and Graph Attention," <span><em>IEEE Transaction on Wireless Communications</em></span>, 2025. (<strong>to submit</strong>)
+"Scalable Energy Efficiency Design for Cell-Free Massive MIMO via DRL and Graph Attention," <span><em>IEEE Transaction on Wireless Communications</em></span>, 2026. (<strong>to submit</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s13">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s13', this); return false;">Copy</button></div></details>
 </li>
 
@@ -116,7 +116,7 @@ P. N. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,
 <li>
 T. Fang, M. Ma, M. Juntti, I. Lee, J. Kang, and <strong>N. T. Nguyen</strong>,  
 "Tri-Hybrid Beamforming Design for Large-Scale MIMO ISAC Systems,"  
-<span><em>IEEE Transactions on Signal Processing</em></span>, 2025. (<strong>submitted</strong>)
+<span><em>IEEE Transactions on Signal Processing</em></span>, 2026. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s6">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s6', this); return false;">Copy</button></div></details>
 </li>
 
@@ -124,7 +124,7 @@ T. Fang, M. Ma, M. Juntti, I. Lee, J. Kang, and <strong>N. T. Nguyen</strong>,
 <li>
 T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "Deep Unfolded Shifted Power Iteration based ISAC Beamforming for Sum Rate and CRLB Balancing,"  
-<span><em>IEEE Transactions on Vehicular Technology</em></span>, 2025. (<strong>submitted</strong>)
+<span><em>IEEE Transactions on Vehicular Technology</em></span>, 2026. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s5">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s5', this); return false;">Copy</button></div></details>
 </li>
 
@@ -140,7 +140,7 @@ S. Uniyal, T. Fang, M. D. Renzo, M. Juntti, and <strong>N. T. Nguyen</strong>,
 <li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2509.19092" target="_blank">Data-free knowledge distillation for LiDAR-aided beam tracking</a>,"  
-<span><em>IEEE Transactions on Vehicular Technology</em></span>, 2025. (<strong>major revision</strong>)
+<span><em>IEEE Transactions on Vehicular Technology</em></span>, 2026. (<strong>major revision</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s11">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s11', this); return false;">Copy</button></div></details>
 </li>
 
