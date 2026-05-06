@@ -347,7 +347,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 <li>
 E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53753/nbnfioulu-202501171238.pdf?sequence=1" target="_blank">Secure mmWave MIMO Networks Employing Hybrid Active-Passive RIS</a>,"  
-<span><em>IEEE Transactions on Communications</em></span>, 2024 (accepted). 
+<span><em>IEEE Transactions on Communications</em></span>, vol. 73, no. 11, pp. 12161–12173, Nov. 2024. 
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-6">@article{egashira2024secure,
   title={Secure mmWave {MIMO} Networks Employing Hybrid Active-Passive {RIS}},
   author={Egashira, Edson Nobuyuki and Osorio, Diana Pamela Moya and Nguyen, Nhan Thanh and Juntti, Markku},
@@ -740,9 +740,17 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 
 <!-- ======================== SUBMISSION 1 ======================== -->
 <li>
+K. Lin, H. Luo, <strong>N. T. Nguyen</strong>, and A. Alkhateeb,  
+"<a href="https://arxiv.org/pdf/2511.01406" target="_blank">Wireless Digital Twin Construction Using Multi-Modal Sensory Data</a>,"  
+<span><em>International Conference on Computer Communications and Networks (ICCCN)</em></span>, 2026.
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s1', this); return false;">Copy</button></div></details>
+</li>
+
+<!-- ======================== SUBMISSION 1 ======================== -->
+<li>
 A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2511.01406" target="_blank">AoI-Aware Machine Learning for Constrained Multimodal Sensing-Aided Communications</a>,"  
-<span><em>IEEE International Conference on Communications (ICC)</em></span>, 2026. (<strong>accepted</strong>)
+<span><em>IEEE International Conference on Communications (ICC)</em></span>, 2026.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s1', this); return false;">Copy</button></div></details>
 </li>
 
@@ -750,7 +758,7 @@ A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 <li>
 P. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2601.13934" target="_blank">Deep Reinforcement Learning-Based Dynamic Resource Allocation in Cell-Free Massive MIMO</a>,"  
-<span><em>IEEE International Conference on Communications (ICC)</em></span>, 2026. (<strong>accepted</strong>)
+<span><em>IEEE International Conference on Communications (ICC)</em></span>, 2026.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s1', this); return false;">Copy</button></div></details>
 </li>
 
@@ -758,7 +766,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,
 <li>
 T. Fang, M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2601.16036" target="_blank">Tri-Hybrid Beamforming Design for Integrated Sensing and Communications</a>,"  
-<span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026. (<strong>accepted</strong>)
+<span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s1', this); return false;">Copy</button></div></details>
 </li>
 
@@ -766,7 +774,7 @@ T. Fang, M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li>
 A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2509.19130" target="_blank">Deep Reinforcement Learning for Dynamic Sensing and Communications</a>,"  
-<span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026. (<strong>accepted</strong>)
+<span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s1', this); return false;">Copy</button></div></details>
 </li>
 
@@ -774,7 +782,7 @@ A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 <li>
 S. Tavakolian, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "<a href="https://arxiv.org/abs/2602.04703" target="_blank">Knowledge Distillation for mmWave Beam Prediction Using Sub-6 GHz Channels</a>,"  
-<span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026. (<strong>accepted</strong>)
+<span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s1', this); return false;">Copy</button></div></details>
 </li>
 
@@ -782,7 +790,7 @@ S. Tavakolian, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
-<span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026. (<strong>accepted</strong>)
+<span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s1">@article{ma2025attention,
   title={Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in {mmWave} Communications},
   author={Ma, Mengyuan and Nguyen, Nhan Thanh and Shlezinger, Nir and Eldar, Yonina C and Juntti, Markku},
@@ -795,7 +803,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
 <li>
   G. Charan, <strong>N. T. Nguyen</strong>, and A. Alkhateeb,  
 "<a href="" target="_blank">Advancing Vision-Aided Beam Prediction: Knowledge Distillation Meets Active Learning</a>,"  
-<span><em>IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP)</em></span>, 2025 (<strong>accepted</strong>).
+<span><em>IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP)</em></span>, 2025.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-1', this); return false;">Copy</button></div></details>
 </li>
 
@@ -803,7 +811,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
 <li>
   H. T. Nguyen, T.-H. Nguyen, Vo N. Q. B., V.-D. Nguyen, and <strong>N. T. Nguyen</strong>,  
 "<a href="https://ieeexplore.ieee.org/abstract/document/11365077" target="_blank">Energy Efficiency Maximization for RIS-aided Integrated Sensing and Communication</a>,"  
-<span><em>RIVF International Conference on Computing and Communication Technologies</em></span>, 2025 (<strong>accepted</strong>).
+<span><em>RIVF International Conference on Computing and Communication Technologies</em></span>, 2025.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-1', this); return false;">Copy</button></div></details>
 </li>
 
@@ -811,7 +819,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
 <li>
   H. T. Nguyen, <strong>N. T. Nguyen</strong>, Nguyen C. L., T.-H. Nguyen, and Vo N. Q. B.,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/59312/nbnfioulu-202511206843.pdf?sequence=-1" target="_blank">Max-Min Rate Optimization for Reconfigurable Intelligent Surfaces Aided ISAC Systems</a>,"  
-<span><em>24th International Symposium on Communications and Information Technologies (ISCIT)</em></span>, 2025 (<strong>accepted</strong>).
+<span><em>24th International Symposium on Communications and Information Technologies (ISCIT)</em></span>, 2025.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-1">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-1', this); return false;">Copy</button></div></details>
 </li>
 
@@ -819,7 +827,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
 <li>
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "<a href="" target="_blank">Constrained Multimodal Sensing-Aided Communications: A Dynamic Beamforming Design</a>,"  
-<span><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2025 (<strong>accepted</strong>).
+<span><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2025.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-2">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-2', this); return false;">Copy</button></div></details>
 </li>
 
@@ -827,7 +835,7 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 <li>
 P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2601.18453" target="_blank">Deep Reinforcement Learning for Hybrid RIS Assisted MIMO Communications</a>,"  
-<span><em>Asilomar Conference on Signals, Systems, and Computers (ASILOMAR)</em></span>, 2025 (<strong>accepted</strong>).
+<span><em>Asilomar Conference on Signals, Systems, and Computers (ASILOMAR)</em></span>, 2025.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-3">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('conf-3', this); return false;">Copy</button></div></details>
 </li>
 
@@ -843,7 +851,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li>
 A. Raza, <strong>NN. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/abstract/document/11143326" target="_blank">Deep Unfolding of Atomic Norm Minimization for DoA Estimation</a>,"  
-<span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2025 (<strong>accepted</strong>).
+<span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2025.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="conf-5">@inproceedings{raza2025deep,
   title={Deep Unfolding of Atomic Norm Minimization for {DoA} Estimation},
   author={Raza, Ali and Nguyen, Nhan Thanh and Juntti, Markku},
