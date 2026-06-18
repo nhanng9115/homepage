@@ -175,6 +175,7 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 <hr class="section-divider">
 
 ## 📰 Recent news
+- **June 16, 2026:** 🚀 I am happy to share that four of our papers have been accepted to IEEE SPAWC 2026!
 - **May 05, 2026:** 🚀 Tianyu's first journal paper (during PhD) has been accepted for publication in IEEE TSP. Congratulations!
 - **Jan 20, 2025:** 🚀 I am happy to share that six of our papers have been accepted to IEEE ICASSP and IEEE ICC 2026! Congrratulations and thanks for the amazing collaborations and excited to present our work at the events!
 - **Dec 12, 2025:** 🏆📈 Our paper “Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding” is listed among the 25 most downloaded papers in **_IEEE Journal of Selected Topics in Signal Processing_** for Sep. 2024 to Sep. 2025. An invited webinar highlighting the key findings will be released early next year.
