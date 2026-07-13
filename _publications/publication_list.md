@@ -67,11 +67,17 @@ show_bibtex: false   # change to true to show
 
 <ol class="pub-justify">
 
+<!-- ======================== SUBMISSION 13 ======================== -->
+<li>
+A. S. Gharagezlou, P. Mobaraki, M. Monemi, <strong>N. T. Nguyen</strong>, M. Rasti, S. Ali, and M. Matti Latva-aho,  
+"Deep-Unfolded Wideband ISAC Beamforming for DMA Under Frequency-Selective Lorentzian Model," <span><em>IEEE Transaction on Communications</em></span>, 2026. (<strong>submitted</strong>)
+  <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s13">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s13', this); return false;">Copy</button></div></details>
+</li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
 <li>
 S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</strong>,  
-"GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive MIMO systems," 2026. (<strong>to submit</strong>)
+"GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive MIMO systems," <span><em>IEEE Transaction on Communications</em></span>, 2026. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s13">BIBTEX</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s13', this); return false;">Copy</button></div></details>
 </li>
 
@@ -116,11 +122,20 @@ S. Uniyal, T. Fang, M. D. Renzo, M. Juntti, and <strong>N. T. Nguyen</strong>,
 </li>
 
 
+
+</ol>
+
+
+<hr style="height:6px;background:currentColor;border:0;border-radius:9999px;opacity:.6;margin:28px 0;">
+# 📄 Journal Publications
+
+<ol class="pub-justify">
+
 <!-- ======================== SUBMISSION 2 ======================== -->
 <li>
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="" target="_blank">Beamforming Design and Subcarrier Allocation for Multicarrier Multiuser MIMO ISAC</a>,"  
-<span><em>IEEE Transactions on Communications</em></span>, 2025. (<strong>minor revision</strong>)
+<span><em>IEEE Transactions on Communications</em></span>, 2025. (<strong>accepted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s2">@article{ma2025knowledge,
   title={Beamforming Design and Subcarrier Allocation for Multicarrier Multiuser {MIMO} {ISAC}},
   author={Hatami, Mohammad and Nguyen, Nhan Thanh and Juntti, Markku},
@@ -133,7 +148,7 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li>
 M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2509.11419" target="_blank">Knowledge Distillation for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
-<span><em>IEEE Transactions on Wireless Communications</em></span>, 2025. (<strong>minor revision</strong>)
+<span><em>IEEE Transactions on Wireless Communications</em></span>, 2025. (<strong>accepted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bibtex-s2">@article{ma2025knowledge,
   title={Knowledge Distillation for Sensing-Assisted Long-Term Beam Tracking in {mmWave} Communications},
   author={Ma, Mengyuan and Nguyen, Nhan Thanh and Shlezinger, Nir and Eldar, Yonina C and Swindlehurst, A Lee and Juntti, Markku},
@@ -141,15 +156,6 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindleh
   year={2025}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bibtex-s2', this); return false;">Copy</button></div></details>
 </li>
-
-
-</ol>
-
-
-<hr style="height:6px;background:currentColor;border:0;border-radius:9999px;opacity:.6;margin:28px 0;">
-# 📄 Journal Publications
-
-<ol class="pub-justify">
 
 <!-- ======================== SUBMISSION 11 ======================== -->
 <li>
