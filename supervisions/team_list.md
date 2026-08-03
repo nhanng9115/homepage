@@ -22,9 +22,12 @@ I have had the privilege of supervising and co-supervising talented researchers 
 - **Mengyuan Ma** (2021--Aug. 2025) *(currently working as a Postdoc)*: Low-resolution ADC, hybrid beamforming, deep unfolding, multimodal sensing-aided communications, knowledge distillation
 
 📜 **Master students**  
+- **Obaid Ur Rehman** *(co-supervised)* (2026): Summer Internship: *Multimodal sensing-aided proactive blockage prediction in mmWave communications systems* 
+- **Rubayet Kabir** *(co-supervised)* (2026): Summer Internship: *Machine Learning-based RIS assisted Communications* 
+- **Kashif Kashif** *(co-supervised)* (2026): Summer Internship: *Multimodal sensing-aided downlink beam prediction in wireless communications* 
 - **Hassam Muhammad** (Oct. 2025): MS Thesis: *Dynamic Sensing Modalities Assignment in Dense Wireless Networks*
 - **Keerthi Ananthachar Mulugund** (Oct. 2025): MS Thesis: *AI-Enhanced Tone Reservation and Beamforming for PAPR Reduction in OFDM Systems.*
-- **Irfan Ullah** *(co-supervised)* (2021): Summer Internship  
+- **Irfan Ullah** *(co-supervised)* (2021): Summer Internship: *Enhanced energy-efficient hybrid beamforming architecture for mmWave massive MIMO systems*  
 - **Asif Shakil** *(co-supervised)* (Jun. 2020): MS Thesis: *Wideband Millimeter Wave Phased Array Beamforming*
 
 🧳 **Visiting researchers**  
