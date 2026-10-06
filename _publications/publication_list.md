@@ -15,6 +15,8 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   --acc-dark: #6d28d9;
   --acc-soft: #f6f1fd;     /* light lavender tint for chips/hover */
   --acc-border: #e3d4fa;
+  --card-bg: linear-gradient(135deg, #faf7ff 0%, #fdf5fb 55%, #f6faff 100%);
+  --card-border: #e5d9f7;
   --ink: #1f2937;
   --muted: #64748b;
   --line: #e5e9ee;
@@ -47,13 +49,14 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   gap: 12px;
   padding: 12px 16px;
   border-radius: 10px;
-  background: #ffffff;
-  border: 1px solid var(--line);
-  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.05);
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  box-shadow: 0 1px 3px rgba(139, 92, 246, 0.07);
+  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
 }
 .pub-stat-card:hover {
-  box-shadow: 0 6px 16px rgba(16, 24, 40, 0.09);
+  box-shadow: 0 8px 18px rgba(139, 92, 246, 0.16);
+  border-color: var(--acc);
   transform: translateY(-2px);
 }
 .pub-stat-icon {
@@ -107,17 +110,17 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   justify-content: space-between;
   gap: 12px;
   text-align: left;
-  background: #ffffff;
-  border: 1px solid var(--line);
-  border-left: 3px solid var(--acc);
-  border-radius: 8px;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
   padding: 9px 14px 9px 38px;
   margin-bottom: 7px;
-  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 1px 2px rgba(139, 92, 246, 0.05);
+  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
 }
 .pub-justify li:hover {
-  box-shadow: 0 6px 14px rgba(16, 24, 40, 0.08);
+  box-shadow: 0 8px 18px rgba(139, 92, 246, 0.14);
+  border-color: var(--acc);
   transform: translateY(-1px);
 }
 .pub-justify li::before {

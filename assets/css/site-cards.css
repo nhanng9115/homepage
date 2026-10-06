@@ -9,6 +9,8 @@
   --site-acc-dark: #6d28d9;
   --site-acc-soft: #f6f1fd;   /* light lavender tint for chips/hover */
   --site-acc-border: #e3d4fa;
+  --site-card-bg: linear-gradient(135deg, #faf7ff 0%, #fdf5fb 55%, #f6faff 100%);
+  --site-card-border: #e5d9f7;
   --site-ink: #1f2937;
   --site-muted: #64748b;
   --site-line: #e5e9ee;
@@ -30,17 +32,17 @@
 /* ---- Generic card ---- */
 .site-card {
   position: relative;
-  background: #ffffff;
-  border: 1px solid var(--site-line);
-  border-left: 3px solid var(--site-acc);
-  border-radius: 8px;
+  background: var(--site-card-bg);
+  border: 1px solid var(--site-card-border);
+  border-radius: 10px;
   padding: 14px 16px;
   margin-bottom: 12px;
-  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 1px 2px rgba(139, 92, 246, 0.05);
+  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
 }
 .site-card:hover {
-  box-shadow: 0 6px 16px rgba(16, 24, 40, 0.08);
+  box-shadow: 0 8px 20px rgba(139, 92, 246, 0.15);
+  border-color: var(--site-acc);
   transform: translateY(-1px);
 }
 .site-card p:last-child,
@@ -163,6 +165,48 @@
 .site-more p {
   margin: 6px 0 0 0;
   font-size: 0.9em;
+  color: var(--site-ink);
+}
+
+/* ---- Click-to-expand card (project grid): the whole card is a <details>,
+   collapsed to just the icon/title/short tags; click anywhere to expand. ---- */
+.project-card { padding: 14px 16px; cursor: pointer; }
+.project-card summary {
+  list-style: none;
+  display: block;
+}
+.project-card summary::-webkit-details-marker { display: none; }
+.project-card summary::after {
+  content: "▾ Details";
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  font-size: 0.72em;
+  font-weight: 600;
+  color: var(--site-muted);
+  transition: color 0.15s ease;
+}
+.project-card:hover summary::after { color: var(--site-acc-dark); }
+.project-card[open] summary::after { content: "▴ Hide"; }
+.project-card .site-card-head { margin-bottom: 6px; padding-right: 54px; }
+.project-card .site-card-head h3 { font-size: 0.98rem; line-height: 1.3; }
+.project-card .project-body {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--site-card-border);
+}
+.project-card .project-body .site-meta-label { margin: 8px 0 3px 0; font-size: 0.78em; }
+.project-card .project-body .site-meta-label:first-child { margin-top: 0; }
+.project-card .project-body ul {
+  margin: 0 0 4px 0;
+  padding-left: 18px;
+  font-size: 0.86em;
+  line-height: 1.4;
+}
+.project-card .project-body ul li { margin-bottom: 2px; }
+.project-card .project-body p {
+  margin: 4px 0 0 0;
+  font-size: 0.88em;
   color: var(--site-ink);
 }
 
