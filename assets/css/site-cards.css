@@ -259,7 +259,7 @@
 /* ---- Site-wide colorful background (applies on every page/tab) ---- */
 body {
   background:
-    url("../images/ai-waves.svg") no-repeat top right / 900px auto,
+    url("../images/ai-waves.svg?v=3") no-repeat top right / 900px auto,
     radial-gradient(900px 520px at 10% -5%, rgba(124, 58, 237, 0.20), transparent 55%),
     radial-gradient(900px 620px at 105% 15%, rgba(79, 70, 229, 0.18), transparent 55%),
     linear-gradient(180deg, #f7f3ff 0%, #f0ecfd 45%, #ece7fb 100%) !important;
@@ -267,7 +267,7 @@ body {
 }
 html[data-theme="dark"] body {
   background:
-    url("../images/ai-waves.svg") no-repeat top right / 900px auto,
+    url("../images/ai-waves.svg?v=3") no-repeat top right / 900px auto,
     radial-gradient(900px 520px at 10% -5%, rgba(124, 58, 237, 0.30), transparent 55%),
     radial-gradient(900px 620px at 105% 15%, rgba(79, 70, 229, 0.26), transparent 55%),
     linear-gradient(180deg, #181030 0%, #1f1740 55%, #190f2e 100%) !important;
@@ -285,7 +285,7 @@ html[data-theme="dark"] body {
 /* The top masthead bar shares the same wash instead of sitting on plain white */
 .masthead {
   background:
-    url("../images/ai-waves.svg") no-repeat top right / 900px auto,
+    url("../images/ai-waves.svg?v=3") no-repeat top right / 900px auto,
     radial-gradient(900px 520px at 10% -5%, rgba(124, 58, 237, 0.28), transparent 55%),
     radial-gradient(900px 620px at 105% 15%, rgba(79, 70, 229, 0.24), transparent 55%),
     linear-gradient(180deg, #f1e9ff 0%, #e8defb 100%) !important;
@@ -293,7 +293,7 @@ html[data-theme="dark"] body {
 }
 html[data-theme="dark"] .masthead {
   background:
-    url("../images/ai-waves.svg") no-repeat top right / 900px auto,
+    url("../images/ai-waves.svg?v=3") no-repeat top right / 900px auto,
     radial-gradient(900px 520px at 10% -5%, rgba(124, 58, 237, 0.38), transparent 55%),
     radial-gradient(900px 620px at 105% 15%, rgba(79, 70, 229, 0.3), transparent 55%),
     linear-gradient(180deg, #1c1436 0%, #241a48 100%) !important;
