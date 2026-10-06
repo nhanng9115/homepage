@@ -22,7 +22,7 @@ title: "Research Team"
 - **Tianyu Fang** (Jan. 2024)  
   *Model-based AI/ML for ISAC*
 
-- **Nam-Phuong Tran** (Jan. 2025, co-supervise)  
+- **[Nam-Phuong Tran](https://namphuong-tran.github.io/)** (Jan. 2025, co-supervise)  
   *Deep reinforcement learning for RIS and ISAC*
 
 - **Ali Raza** (Nov. 2024, co-supervise)  

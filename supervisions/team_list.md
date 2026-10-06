@@ -26,7 +26,7 @@ I have had the privilege of supervising and co-supervising talented researchers 
     <li><span class="site-person-name">Pouya Mobaraki</span> <span class="site-person-note">(Apr. 2024): Deep unfolding for RIS design</span></li>
     <li><span class="site-person-name">Sina Tavakolian</span> <span class="site-person-note">(Feb. 2024): Knowledge distillation for ISAC, graph learning, distributed MIMO</span></li>
     <li><span class="site-person-name">Tianyu Fang</span> <span class="site-person-note">(Jan. 2024): Optimization, model-based AI/ML for ISAC</span></li>
-    <li><span class="site-person-name">Nam-Phuong Tran</span> <span class="site-person-note">(co-supervised) (Jan. 2025): Deep reinforcement learning for RIS and ISAC</span></li>
+    <li><a class="site-person-name" href="https://namphuong-tran.github.io/" target="_blank" rel="noopener">Nam-Phuong Tran</a> <span class="site-person-note">(co-supervised) (Jan. 2025): Deep reinforcement learning for RIS and ISAC</span></li>
     <li><span class="site-person-name">Ali Raza</span> <span class="site-person-note">(co-supervised) (Nov. 2024): RIS-assisted localization, deep unfolding</span></li>
     <li><span class="site-person-name">Smriti Uniyal</span> <span class="site-person-note">(co-supervised) (Jun. 2023): Performance analysis and optimization for RIS, ISAC, and massive MIMO</span></li>
   </ul>
