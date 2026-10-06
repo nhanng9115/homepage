@@ -124,6 +124,13 @@ html[data-theme="dark"] {
   font-size: 0.82em;
   font-weight: 600;
 }
+/* Project cards are narrow (grid layout), so a long funder name wraps to
+   a second line inside the pill; shrink the tag text so it stays on one. */
+.project-card .site-tag {
+  font-size: 0.68em;
+  padding: 2px 8px;
+  white-space: nowrap;
+}
 
 /* ---- Muted award / highlight badge (replaces bright red) ---- */
 .site-badge-award {

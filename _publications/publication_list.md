@@ -493,7 +493,7 @@ S. Uniyal, T. Fang, V.-D. Nguye, H. Q. Ngo, M. Juntti, <strong>N. T. Nguyen</str
 <li>
 <div class="pub-main">
 A. S. Gharagezlou, P. Mobaraki, M. Monemi, <strong>N. T. Nguyen</strong>, M. Rasti, S. Ali, and M. Matti Latva-aho,  
-"<a href="https://oulurepo.oulu.fi/handle/10024/64432" target="_blank">Deep-Unfolded Wideband ISAC Beamforming for DMA Under Frequency-Selective Lorentzian Model</a>," <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>submitted</strong>)
+"Deep-Unfolded Wideband ISAC Beamforming for DMA Under Frequency-Selective Lorentzian Model," <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-9">@article{gharagezlou2026deepunfolded,
@@ -503,7 +503,6 @@ A. S. Gharagezlou, P. Mobaraki, M. Monemi, <strong>N. T. Nguyen</strong>, M. Ras
   year={2026},
   note={submitted}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-9', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://oulurepo.oulu.fi/handle/10024/64432" target="_blank">View</a>
 </div>
 </li>
 
@@ -2663,6 +2662,15 @@ document.querySelectorAll('.pub-justify li details').forEach(function(d){
     const li = d.closest('li');
     if (!li) return;
     li.classList.toggle('pub-li-open', d.open);
+  });
+});
+// Close an open BibTeX popover when clicking anywhere outside it.
+document.addEventListener('click', function(e){
+  document.querySelectorAll('.pub-justify li details[open]').forEach(function(d){
+    if (d.contains(e.target)) return;
+    d.open = false;
+    const li = d.closest('li');
+    if (li) li.classList.remove('pub-li-open');
   });
 });
 function copyBib(codeId, btn){
