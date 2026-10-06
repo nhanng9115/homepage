@@ -118,11 +118,53 @@
 /* ---- Card grid (projects, team) ---- */
 .site-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 12px;
   margin: 10px 0 20px 0;
+  align-items: start;
 }
 .site-grid .site-card { margin-bottom: 0; }
+
+/* ---- Compact variant: tighter padding/text for grids with many cards ---- */
+.site-card.site-card-compact {
+  padding: 12px 14px;
+}
+.site-card-compact .site-card-head { margin-bottom: 6px; }
+.site-card-compact .site-card-head h3 { font-size: 0.98rem; line-height: 1.3; }
+.site-card-compact .site-meta-label { margin: 8px 0 3px 0; font-size: 0.78em; }
+.site-card-compact ul {
+  margin: 0 0 4px 0;
+  padding-left: 18px;
+  font-size: 0.86em;
+  line-height: 1.4;
+}
+.site-card-compact ul li { margin-bottom: 2px; }
+
+/* ---- "Show overview" expandable details inside a card ---- */
+.site-more { margin-top: 2px; }
+.site-more summary {
+  cursor: pointer;
+  list-style: none;
+  font-size: 0.82em;
+  font-weight: 600;
+  color: var(--site-acc-dark);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.site-more summary::-webkit-details-marker { display: none; }
+.site-more summary::before {
+  content: "▸";
+  font-size: 0.85em;
+  transition: transform 0.15s ease;
+}
+.site-more[open] summary::before { transform: rotate(90deg); }
+.site-more summary:hover { color: var(--site-acc2); }
+.site-more p {
+  margin: 6px 0 0 0;
+  font-size: 0.9em;
+  color: var(--site-ink);
+}
 
 /* ---- Timeline (news feed) ---- */
 .site-timeline {
