@@ -757,13 +757,13 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindleh
 <li>
 <div class="pub-main">
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
-"<a href="https://arxiv.org/pdf/2509.19092" target="_blank">Data-free knowledge distillation for LiDAR-aided beam tracking</a>,"  
+"<a href="https://arxiv.org/pdf/2509.19092" target="_blank">Data-Free Knowledge Distillation for LiDAR-Aided Beam Tracking in MmWave Systems</a>,"  
 <span><em>IEEE Transactions on Vehicular Technology</em></span>, Jun. 2026. (<strong>early access</strong>)
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TVT.2026.3707693" target="_blank">10.1109/TVT.2026.3707693</a></span>
 </div>
 <div class="pub-actions">
 <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-20">@article{zaker2026datafree,
-  title={Data-Free Knowledge Distillation for {LiDAR}-Aided Beam Tracking},
+  title={Data-Free Knowledge Distillation for {LiDAR}-Aided Beam Tracking in {MmWave} Systems},
   author={A. Zaker and N. T. Nguyen and A. Alkhateeb and M. Juntti},
   journal={IEEE Trans. Veh. Technol.},
   year={2026},
@@ -1073,7 +1073,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 <li>
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">Performance Analysis and Power Allocation for Massive MIMO ISAC</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">Performance Analysis and Power Allocation for Massive MIMO ISAC Systems</a>,"  
 <span><em>IEEE Transactions on Signal Processing</em></span>, vol. 73, pp. 1691–1707, Mar. 2025. <span style="color:#dc2626; font-weight:700;">(Top reading 2025)</span>
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TSP.2025.3554012" target="_blank">10.1109/TSP.2025.3554012</a></span>
 </div>
@@ -1239,7 +1239,7 @@ N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M
 <li>
 <div class="pub-main">
 V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, Nguyen C. L., Dinh T. H., D. N. Nguyen, and S. Chatzinotas,  
-"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/48422/nbnfioulu-202403212382.pdf?sequence=1&isAllowed=y" target="_blank">Network-Aided Intelligent Traffic Steering in 6G ORAN: A Multi-Layer Optimization Framework</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/48422/nbnfioulu-202403212382.pdf?sequence=1&isAllowed=y" target="_blank">Network-Aided Intelligent Traffic Steering in 6G O-RAN: A Multi-Layer Optimization Framework</a>,"  
 <span><em>IEEE Journal on Selected Areas in Communications</em></span>, vol. 42, no. 2, pp. 389–405, Nov. 2023.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/JSAC.2023.3336183" target="_blank">10.1109/JSAC.2023.3336183</a></span>
 </div>
@@ -1263,7 +1263,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 <li>
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/47431/nbnfioulu-202401231426.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/47431/nbnfioulu-202401231426.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding Hybrid Beamforming Designs for THz Massive MIMO Systems</a>,"  
 <span><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 3788–3804, Oct. 2023.   <span style="color:#dc2626; font-weight:700;">(Top reading in 2023–2024)</span>
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TSP.2023.3322852" target="_blank">10.1109/TSP.2023.3322852</a></span>
 </div>
@@ -2403,7 +2403,7 @@ T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li>
 <div class="pub-main">
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/52351/nbnfioulu-202410186389.pdf?sequence=1&isAllowed=y" target="_blank">Waveform Design for Multi-Carrier Multi-User MIMO Joint Communications and Sensing</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/52351/nbnfioulu-202410186389.pdf?sequence=1&isAllowed=y" target="_blank">Waveform Design for Multi-Carrier Multiuser MIMO Joint Communications and Sensing</a>,"  
 <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sept. 2024, Lucca, Italy.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/SPAWC60668.2024.10694180" target="_blank">10.1109/SPAWC60668.2024.10694180</a></span>
 </div>
