@@ -59,23 +59,38 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   cursor: pointer;
   transition: background 0.2s ease, color 0.2s ease;
 }
-.pub-tab-btn:hover { background: #eef5ff; box-shadow: 0 2px 6px rgba(0,86,179,0.15); }
-.pub-tab-btn.active { background: #0056b3; color: #ffffff; box-shadow: 0 3px 10px rgba(0,86,179,0.35); }
+.pub-tab-btn:hover { background: #fdf2f8; border-color: #db2777; color: #db2777; box-shadow: 0 2px 6px rgba(219,39,119,0.15); }
+.pub-tab-btn.active {
+  background: linear-gradient(135deg, #db2777, #9333ea);
+  border-color: transparent;
+  color: #ffffff;
+  box-shadow: 0 3px 10px rgba(147,51,234,0.35);
+}
 </style>
 
 <style>
+/* ======================================================================
+   Warm palette + compact card layout for the publication list
+   ====================================================================== */
+:root {
+  --pub-pink: #db2777;
+  --pub-purple: #9333ea;
+  --pub-orange: #f97316;
+  --pub-ink: #16213e;
+}
+
 /* ---- Section titles ---- */
 .pub-section-title {
   font-size: 1.5rem;
   font-weight: 800;
-  margin: 30px 0 16px 0;
-  padding-bottom: 8px;
-  border-bottom: 3px solid #0056b3;
+  margin: 28px 0 14px 0;
+  padding-bottom: 7px;
+  border-bottom: 3px solid var(--pub-pink);
   display: inline-block;
-  color: #16213e;
+  color: var(--pub-ink);
 }
 
-/* ---- Card-style publication entries with numbered badges ---- */
+/* ---- Compact card-style entries with numbered badges ---- */
 .pub-justify {
   list-style: none;
   padding-left: 0;
@@ -83,48 +98,84 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 }
 .pub-justify li {
   position: relative;
+  text-align: left;
   background: #ffffff;
-  border: 1px solid #e6e9f0;
-  border-left: 5px solid #0056b3;
-  border-radius: 12px;
-  padding: 16px 18px 16px 54px;
-  margin-bottom: 16px;
-  box-shadow: 0 1px 4px rgba(16, 24, 40, 0.06);
+  border: 1px solid #ece9f3;
+  border-left: 5px solid var(--pub-purple);
+  border-radius: 10px;
+  padding: 10px 16px 10px 44px;
+  margin-bottom: 10px;
+  overflow: hidden;           /* clearfix: contains the right-floated BibTeX block */
+  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.06);
   transition: box-shadow 0.25s ease, transform 0.25s ease, border-left-color 0.25s ease;
 }
 .pub-justify li:hover {
-  box-shadow: 0 10px 24px rgba(0, 86, 179, 0.15);
-  transform: translateY(-3px);
-  border-left-color: #d6336c;
+  box-shadow: 0 10px 22px rgba(147, 51, 234, 0.14);
+  transform: translateY(-2px);
+  border-left-color: var(--pub-orange);
 }
 .pub-justify li::before {
   counter-increment: pubnum;
   content: counter(pubnum);
   position: absolute;
-  left: 14px;
-  top: 16px;
-  width: 26px;
-  height: 26px;
+  left: 10px;
+  top: 11px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #0056b3, #3b82f6);
+  background: linear-gradient(135deg, var(--pub-pink), var(--pub-purple));
   color: #ffffff;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 4px rgba(0, 86, 179, 0.4);
+  box-shadow: 0 2px 4px rgba(147, 51, 234, 0.35);
 }
 
-/* ---- BibTeX toggle: nicer summary + smooth reveal ---- */
+/* Journal / conference name in a warm plum tone */
+.pub-justify li span em {
+  color: #a21caf;
+  font-weight: 500;
+}
+
+/* Title links: purple, pink on hover (overrides the earlier blue rule further up) */
+.pub-justify li a {
+  color: var(--pub-purple) !important;
+}
+.pub-justify li a:hover {
+  color: var(--pub-pink) !important;
+}
+
+/* ---- BibTeX toggle, moved to the right of each entry ---- */
+.pub-justify li details {
+  float: right;
+  margin: 0 0 6px 16px;
+  width: 320px;
+  max-width: 320px;
+}
+.pub-justify li details > div {
+  width: 100%;
+  box-sizing: border-box;
+}
+.pub-justify li details pre {
+  white-space: pre-wrap !important;
+  word-break: break-word;
+}
 .pub-justify li summary {
   transition: filter 0.15s ease, transform 0.1s ease;
 }
-.pub-justify li summary:hover {
-  filter: brightness(0.93);
+.pub-justify li summary:hover { filter: brightness(0.95); }
+.pub-justify li summary:active { transform: scale(0.97); }
+.pub-justify li summary span {
+  background: #fdf2f8 !important;
+  border-color: #db2777 !important;
+  color: #9d174d !important;
 }
-.pub-justify li summary:active {
-  transform: scale(0.97);
+.pub-justify li details > div button {
+  background: #f5f3ff !important;
+  border-color: #c4b5fd !important;
+  color: #6d28d9 !important;
 }
 @keyframes pubBibReveal {
   from { opacity: 0; transform: translateY(-6px); }
@@ -132,6 +183,15 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 }
 .pub-justify li details[open] > div {
   animation: pubBibReveal 0.2s ease;
+}
+
+@media (max-width: 680px) {
+  .pub-justify li details {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
 }
 </style>
 
@@ -170,7 +230,7 @@ A. Raza, <strong>N. T. Nguyen</strong>, N. Shlezinger, and M. Juntti,
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-2">@article{raza2026doa,
   title={DoA Estimation Via Atomic Norm Approximation Using Model-Based Machine Learning},
   author={A. Raza and N. T. Nguyen and N. Shlezinger and M. Juntti},
-  journal={IEEE Signal Processing Letters},
+  journal={IEEE Signal Process. Lett.},
   year={2026},
   note={submitted}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-2', this); return false;">Copy</button></div></details>
@@ -209,7 +269,7 @@ Huy T. Nguyen, Huy G. Tran, Trung Hieu Vu, Hoa T. Nguyen, <strong>N. T. Nguyen</
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-5">@inproceedings{nguyen2026spikenative,
   title={Spike-Native Neural Networks for Switch Configuration in Hybrid Beamforming},
   author={N. T. Nguyen and P. N. Tran and K. Deka and M. D. Renzo and A. G. Armada and M. Juntti},
-  booktitle={IEEE International Conference on Communications (ICC)},
+  booktitle={Proc. {IEEE} Int. Conf. Commun.},
   year={2026},
   note={submitted}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-5', this); return false;">Copy</button></div></details>
@@ -222,7 +282,7 @@ L. Ribeiro, E. M. Taghavi, R. S. Bhagavathula, <strong>N. T. Nguyen</strong>, D.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-6">@article{ribeiro2026energyefficient,
   title={Energy‑Efficient {6G} Radio Networks: An Industry Review of Transmit Antenna and Power Adaptations},
   author={L. Ribeiro and E. M. Taghavi and R. S. Bhagavathula and N. T. Nguyen and D. Kumar and M. Tayyab and M. Jada and D. Laselva and M. Juntti},
-  journal={IEEE Wireless Communications},
+  journal={IEEE Wireless Commun. Mag.},
   year={2026},
   note={submitted}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-6', this); return false;">Copy</button></div></details>
@@ -233,9 +293,9 @@ L. Ribeiro, E. M. Taghavi, R. S. Bhagavathula, <strong>N. T. Nguyen</strong>, D.
 Vo P. S., V.-D. Nguyen, <strong>N. T. Nguyen</strong>, T.-V. Truong, and S. Shatzinotas,  
 "Performance Analysis and Sensing-Aware Resource Allocation for FD mMIMO ISCC Networks," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-7">@article{s2026performance,
-  title={Performance Analysis and Sensing-Aware Resource Allocation for FD mMIMO {ISCC} Networks},
+  title={Performance Analysis and Sensing-Aware Resource Allocation for {FD} {mMIMO} {ISCC} Networks},
   author={Vo P. S. and V.-D. Nguyen and N. T. Nguyen and T.-V. Truong and S. Shatzinotas},
-  journal={IEEE Transactions on Wireless Communications},
+  journal={IEEE Trans. Wireless Commun.},
   year={2026},
   note={submitted}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-7', this); return false;">Copy</button></div></details>
@@ -249,7 +309,7 @@ S. Uniyal, T. Fang, V.-D. Nguye, H. Q. Ngo, M. Juntti, <strong>N. T. Nguyen</str
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-8">@article{uniyal2026massive,
   title={Massive {MIMO} {ISAC} Under Target-Angle Uncertainty: {CRLB} Outage Analysis and Robust Resource Allocation},
   author={S. Uniyal and T. Fang and V.-D. Nguye and H. Q. Ngo and M. Juntti and N. T. Nguyen},
-  journal={IEEE Transactions on Signal Processing},
+  journal={IEEE Trans. Signal Process.},
   year={2026},
   note={submitted}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-8', this); return false;">Copy</button></div></details>
@@ -262,7 +322,7 @@ A. S. Gharagezlou, P. Mobaraki, M. Monemi, <strong>N. T. Nguyen</strong>, M. Ras
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-9">@article{gharagezlou2026deepunfolded,
   title={Deep-Unfolded Wideband {ISAC} Beamforming for {DMA} Under Frequency-Selective Lorentzian Model},
   author={A. S. Gharagezlou and P. Mobaraki and M. Monemi and N. T. Nguyen and M. Rasti and S. Ali and M. Matti Latva-aho},
-  journal={IEEE Transactions on Communications},
+  journal={IEEE Trans. Commun.},
   year={2026},
   note={submitted}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-9', this); return false;">Copy</button></div></details>
@@ -273,9 +333,9 @@ A. S. Gharagezlou, P. Mobaraki, M. Monemi, <strong>N. T. Nguyen</strong>, M. Ras
 S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</strong>,  
 "GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive MIMO systems," <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-10">@article{tavakolian2026gnnenabled,
-  title={GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive {MIMO} systems},
+  title={GNN-Enabled mmWave Beam Prediction Using Sub-6GHz Channels in Cell-Free Massive {MIMO} Systems},
   author={S. Tavakolian and A. Zaker and A. Alkhateeb and M. Juntti and N. T. Nguyen},
-  journal={IEEE Transactions on Communications},
+  journal={IEEE Trans. Commun.},
   year={2026},
   note={submitted}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-10', this); return false;">Copy</button></div></details>
@@ -287,9 +347,9 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
 P. Mobaraki, A. Zaker, M. D. Renzo, M. Juntti, and  <strong>N. T. Nguyen</strong>,  
 "<a href="https://arxiv.org/pdf/2607.04889" target="_blank">Energy Efficiency Maximization for Hybrid RIS-Aided Communications via Deep Unfolding</a>," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-11">@article{mobaraki2026energy,
-  title={Energy Efficiency Maximization for Hybrid {RIS}-Aided Communications via Deep Unfolding},
+  title={Energy Efficiency Maximization for Hybrid {RIS}-Aided Communications Via Deep Unfolding},
   author={P. Mobaraki and A. Zaker and M. D. Renzo and M. Juntti and N. T. Nguyen},
-  journal={IEEE Transactions on Wireless Communications},
+  journal={IEEE Trans. Wireless Commun.},
   year={2026},
   note={submitted}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-11', this); return false;">Copy</button></div></details>
@@ -302,7 +362,7 @@ C. K. Singh, S. Uniyal, <strong>N. T. Nguyen</strong>, A. S. d. Sena, S.-A. Kim,
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-12">@article{singh2026performance,
   title={Performance Analysis of Hybrid STAR-{RIS}-Assisted Bistatic {ISAC}-{RSMA} Systems},
   author={C. K. Singh and S. Uniyal and N. T. Nguyen and A. S. d. Sena and S.-A. Kim and J. Kim and M. Latva-aho and M. Juntti},
-  journal={IEEE Transactions on Communications},
+  journal={IEEE Trans. Commun.},
   year={2026},
   note={submitted}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-12', this); return false;">Copy</button></div></details>
@@ -313,9 +373,9 @@ C. K. Singh, S. Uniyal, <strong>N. T. Nguyen</strong>, A. S. d. Sena, S.-A. Kim,
 E. Ataeebojd, <strong>N. T. Nguyen</strong>, S. Yoo, J. Kang, M. Juntti, M. Latva-aho, and M. Rasti,  
 "<a href="https://arxiv.org/pdf/2605.03558" target="_blank">Resource Allocation and AoI-Aware Detection for ISAC with Stacked Intelligent Metasurfaces</a>," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-13">@article{ataeebojd2026resource,
-  title={Resource Allocation and {AoI}-Aware Detection for {ISAC} with Stacked Intelligent Metasurfaces},
+  title={Resource Allocation and {AoI}-Aware Detection for {ISAC} With Stacked Intelligent Metasurfaces},
   author={E. Ataeebojd and N. T. Nguyen and S. Yoo and J. Kang and M. Juntti and M. Latva-aho and M. Rasti},
-  journal={IEEE Transactions on Wireless Communications},
+  journal={IEEE Trans. Wireless Commun.},
   year={2026},
   note={submitted}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-13', this); return false;">Copy</button></div></details>
@@ -328,7 +388,7 @@ P. N. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-14">@article{tran2026graph,
   title={Graph Attention {DRL} for Energy-Efficient Joint AP, Antenna, and Power Control in Cell-Free Networks},
   author={P. N. Tran and N. T. Nguyen and H. Q. Ngo and M. Juntti},
-  journal={IEEE Transactions on Wireless Communications},
+  journal={IEEE Trans. Wireless Commun.},
   year={2026},
   note={major revision}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-14', this); return false;">Copy</button></div></details>
@@ -342,7 +402,7 @@ T. Fang, M. Ma, M. Juntti, I. Lee, J. Kang, and <strong>N. T. Nguyen</strong>,
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-15">@article{fang2026trihybrid,
   title={Tri-Hybrid Beamforming Design for Large-Scale {MIMO} {ISAC} Systems},
   author={T. Fang and M. Ma and M. Juntti and I. Lee and J. Kang and N. T. Nguyen},
-  journal={IEEE Transactions on Signal Processing},
+  journal={IEEE Trans. Signal Process.},
   year={2026},
   note={submitted}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-15', this); return false;">Copy</button></div></details>
@@ -354,9 +414,9 @@ T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,
 "Deep Unfolded Shifted Power Iteration based ISAC Beamforming for Sum Rate and CRLB Balancing,"  
 <span><em>IEEE Communications Letter</em></span>, 2026. (<strong>submitted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-16">@article{fang2026deep,
-  title={Deep Unfolded Shifted Power Iteration based {ISAC} Beamforming for Sum Rate and {CRLB} Balancing},
+  title={Deep Unfolded Shifted Power Iteration Based {ISAC} Beamforming for Sum Rate and {CRLB} Balancing},
   author={T. Fang and N. T. Nguyen and M. Juntti},
-  journal={IEEE Communications Letter},
+  journal={IEEE Commun. Lett.},
   year={2026},
   note={submitted}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-16', this); return false;">Copy</button></div></details>
@@ -370,7 +430,7 @@ S. Uniyal, T. Fang, M. D. Renzo, M. Juntti, and <strong>N. T. Nguyen</strong>,
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-17">@article{uniyal2026performance,
   title={Performance Analysis and Joint Beamforming for Hybrid {RIS}-Aided Massive {MIMO} {ISAC}},
   author={S. Uniyal and T. Fang and M. D. Renzo and M. Juntti and N. T. Nguyen},
-  journal={IEEE Transactions on Wireless Communications},
+  journal={IEEE Trans. Wireless Commun.},
   year={2026},
   note={minor revision}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-17', this); return false;">Copy</button></div></details>
@@ -418,9 +478,9 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 "<a href="https://arxiv.org/pdf/2509.19092" target="_blank">Data-free knowledge distillation for LiDAR-aided beam tracking</a>,"  
 <span><em>IEEE Transactions on Vehicular Technology</em></span>, 2026. (<strong>accepted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-20">@article{zaker2026datafree,
-  title={Data-free knowledge distillation for {LiDAR}-aided beam tracking},
+  title={Data-Free Knowledge Distillation for {LiDAR}-Aided Beam Tracking},
   author={A. Zaker and N. T. Nguyen and A. Alkhateeb and M. Juntti},
-  journal={IEEE Transactions on Vehicular Technology},
+  journal={IEEE Trans. Veh. Technol.},
   year={2026},
   note={accepted}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-20', this); return false;">Copy</button></div></details>
@@ -446,9 +506,9 @@ T. Fang, M. Ma, M. Juntti, N. Shlezinger, A. L. Swindlehurst, and <strong>N. T. 
 "<a href="https://arxiv.org/pdf/2603.16116" target="_blank">Knowledge distillation for collaborative learning in distributed communications and sensing</a>,"  
 <span><em>IEEE Communications Magazine</em></span>, 2026. (<strong>accepted</strong>)
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-22">@article{nguyen2026knowledge,
-  title={Knowledge distillation for collaborative learning in distributed communications and sensing},
+  title={Knowledge Distillation for Collaborative Learning in Distributed Communications and Sensing},
   author={N. T. Nguyen and M. Ma and N. Shlezinger and Y. C. Eldar and A. L. Swindlehurst and M. Juntti},
-  journal={IEEE Communications Magazine},
+  journal={IEEE Commun. Mag.},
   year={2026},
   note={accepted}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-22', this); return false;">Copy</button></div></details>
@@ -463,7 +523,7 @@ S. Bhandari, Thang X. Vu, <strong>N. T. Nguyen</strong>, and S. Chatzinotas,
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-23">@article{bhandari2026isacenabled,
   title={ISAC-Enabled Handover Design in {LEO} Satellite Networks},
   author={S. Bhandari and Thang X. Vu and N. T. Nguyen and S. Chatzinotas},
-  journal={IEEE Transactions on Communications},
+  journal={IEEE Trans. Commun.},
   year={2026}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-23', this); return false;">Copy</button></div></details>
 </li>
@@ -476,7 +536,7 @@ I. Perera, <strong>N. T. Nguyen</strong>, P. Pirinen, and N. Rajatheva,
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-24">@article{perera2026bistatic,
   title={Bi-Static {ISAC} Beamforming Design in Multi-User {MIMO} Systems},
   author={I. Perera and N. T. Nguyen and P. Pirinen and N. Rajatheva},
-  journal={IEEE Transactions on Vehicular Technology},
+  journal={IEEE Trans. Veh. Technol.},
   year={2026},
   note={early access}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-24', this); return false;">Copy</button></div></details>
@@ -488,9 +548,9 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11367008" target="_blank">Outage, Symbol Error Probability, and Rate of RIS-Assisted MIMO Systems with Phase Errors</a>,"  
 <span><em>IEEE Transactions on Communications</em></span>, vol. 74, pp. 4538–4554, Jan. 2026.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-25">@article{uniyal2026outage,
-  title={Outage, Symbol Error Probability, and Rate of {RIS}-Assisted {MIMO} Systems with Phase Errors},
+  title={Outage, Symbol Error Probability, and Rate of {RIS}-Assisted {MIMO} Systems With Phase Errors},
   author={S. Uniyal and N. T. Nguyen and G. Kumar and M. D. Renzo and M. Juntti},
-  journal={IEEE Transactions on Communications},
+  journal={IEEE Trans. Commun.},
   year={2026}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-25', this); return false;">Copy</button></div></details>
 </li>
@@ -502,9 +562,9 @@ L. V. Nguyen, R. Liu, <strong>N. T. Nguyen</strong>, M. Juntti, B. Ottersten, an
 "<a href="https://ieeexplore.ieee.org/abstract/document/11360621" target="_blank">Exploiting Symmetric Non-Convexity for Multi-Objective Symbol-Level DFRC Signal Design</a>,"  
 <span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 25, pp. 10530–10545, Jan. 2026.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-26">@article{nguyen2026exploiting,
-  title={Exploiting Symmetric Non-Convexity for Multi-Objective Symbol-Level DFRC Signal Design},
+  title={Exploiting Symmetric Non-Convexity for Multi-Objective Symbol-Level {DFRC} Signal Design},
   author={L. V. Nguyen and R. Liu and N. T. Nguyen and M. Juntti and B. Ottersten and A. L. Swindlehurst},
-  journal={IEEE Transactions on Wireless Communications},
+  journal={IEEE Trans. Wireless Commun.},
   year={2026}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-26', this); return false;">Copy</button></div></details>
 </li>
@@ -518,7 +578,7 @@ S. Deka, K. Deka, <strong>N. T. Nguyen</strong>, S. Sharma, V. Bhatia,  and N. R
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-27">@article{deka2026comprehensive,
   title={Comprehensive Review of Deep Unfolding Techniques for Next-Generation Wireless Communication Systems},
   author={S. Deka and K. Deka and N. T. Nguyen and S. Sharma and V. Bhatia and N. Rajatheva},
-  journal={IEEE Internet of Things Journal},
+  journal={IEEE Internet Things J.},
   year={2026}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-27', this); return false;">Copy</button></div></details>
 </li>
@@ -530,7 +590,7 @@ P. Zivuku, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, K. Ntontin, S. Chatzinot
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-28">@article{zivuku2025resource,
   title={Resource Allocation for {RIS}-Enhanced OFDM-{MIMO} {ISAC} Systems},
   author={P. Zivuku and V.-D. Nguyen and N. T. Nguyen and K. Ntontin and S. Chatzinotas and B. Ottersten},
-  journal={IEEE Transactions on Communications},
+  journal={IEEE Trans. Commun.},
   year={2025}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-28', this); return false;">Copy</button></div></details>
 </li>
@@ -542,7 +602,7 @@ P. Zivuku, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, K. Ntontin, S. Chatzinot
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-29">@article{abueida2025signal,
   title={Signal Processing for Cell-Free Massive {MIMO}: Techniques and Trends in Estimation, Detection, and Precoding},
   author={D. Abueida and M. A. Albreem and S. Abdallah and A. A. Salem and S. Shahabuddin and K. Alnajjar and M. Saad and N. T. Nguyen and M. Juntti},
-  journal={IEEE Open Journal of the Communications Society},
+  journal={IEEE Open J. Commun. Society},
   year={2025}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-29', this); return false;">Copy</button></div></details>
 </li>
@@ -1034,7 +1094,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 A. Zakeri, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2606.31690" target="_blank">Resource-Efficient WiFi CSI Sensing via Exploiting the Age of Samples</a>," <span><em>IEEE Integrated Sensing and Communication Conference (ISAC)</em></span>, 2026.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-58">@inproceedings{zakeri2026resourceefficient,
-  title={Resource-Efficient {WiFi} {CSI} Sensing via Exploiting the Age of Samples},
+  title={Resource-Efficient {WiFi} {CSI} Sensing Via Exploiting the Age of Samples},
   author={A. Zakeri and N. T. Nguyen and M. Juntti},
   booktitle={IEEE Integrated Sensing and Communication Conference (ISAC)},
   year={2026}
@@ -1096,7 +1156,7 @@ P. N. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-63">@inproceedings{tran2026deepunfolded,
   title={Deep-Unfolded Accelerated Projected Gradient for Energy-Efficient Cell-Free Massive {MIMO}},
   author={P. N. Tran and N. T. Nguyen and H. Q. Ngo and M. Juntti},
-  booktitle={IEEE Global Communications Conference (GLOBECOM)},
+  booktitle={Proc. {IEEE} Global Commun. Conf.},
   year={2026}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-63', this); return false;">Copy</button></div></details>
 </li>
@@ -1108,7 +1168,7 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-64">@inproceedings{tavakolian2026beamforming,
   title={Beamforming Design Via {GNN} in mmWave Cell-Free Massive {MIMO} Using Sub-6 GHz {CSI}},
   author={S. Tavakolian and A. Zaker and A. Alkhateeb and M. Juntti and N. T. Nguyen},
-  booktitle={IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)},
+  booktitle={Proc. {IEEE} Works. on Sign. Proc. Adv. in Wirel. Comms.},
   year={2026}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-64', this); return false;">Copy</button></div></details>
 </li>
@@ -1118,9 +1178,9 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
 M. Hassam, A. Zakeri, M. Ma, A. Alkhateeb, and <strong>N. T. Nguyen</strong>,  
 "Dynamic Multimodal Sensing-Aided Beam Prediction via Deep Reinforcement Learning," <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2026.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-65">@inproceedings{hassam2026dynamic,
-  title={Dynamic Multimodal Sensing-Aided Beam Prediction via Deep Reinforcement Learning},
+  title={Dynamic Multimodal Sensing-Aided Beam Prediction Via Deep Reinforcement Learning},
   author={M. Hassam and A. Zakeri and M. Ma and A. Alkhateeb and N. T. Nguyen},
-  booktitle={IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)},
+  booktitle={Proc. {IEEE} Works. on Sign. Proc. Adv. in Wirel. Comms.},
   year={2026}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-65', this); return false;">Copy</button></div></details>
 </li>
@@ -1134,7 +1194,7 @@ M. Ma, I. Welgamage, A. Alkhateeb, A. L. Swindlehurst, M. Juntti, and <strong>N.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-66">@inproceedings{ma2026knowledge,
   title={Knowledge Distillation for Lightweight Multimodal Sensing-Aided mmWave Beam Tracking},
   author={M. Ma and I. Welgamage and A. Alkhateeb and A. L. Swindlehurst and M. Juntti and N. T. Nguyen},
-  booktitle={IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)},
+  booktitle={Proc. {IEEE} Works. on Sign. Proc. Adv. in Wirel. Comms.},
   year={2026}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-66', this); return false;">Copy</button></div></details>
 </li>
@@ -1145,9 +1205,9 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
 "<a href="https://arxiv.org/pdf/2608.16290" target="_blank">Beamforming and Filter Design for Bistatic ISAC under Known and Unknown Transmit Symbols</a>,"  
 <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2026.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-67">@inproceedings{hatami2026beamforminga,
-  title={Beamforming and Filter Design for Bistatic {ISAC} under Known and Unknown Transmit Symbols},
+  title={Beamforming and Filter Design for Bistatic {ISAC} Under Known and Unknown Transmit Symbols},
   author={M. Hatami and N. T. Nguyen and M. Juntti},
-  booktitle={IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)},
+  booktitle={Proc. {IEEE} Works. on Sign. Proc. Adv. in Wirel. Comms.},
   year={2026}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-67', this); return false;">Copy</button></div></details>
 </li>
@@ -1173,7 +1233,7 @@ A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-69">@inproceedings{zakeri2026aoiaware,
   title={AoI-Aware Machine Learning for Constrained Multimodal Sensing-Aided Communications},
   author={A. Zakeri and N. T. Nguyen and A. Alkhateeb and M. Juntti},
-  booktitle={IEEE International Conference on Communications (ICC)},
+  booktitle={Proc. {IEEE} Int. Conf. Commun.},
   year={2026}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-69', this); return false;">Copy</button></div></details>
 </li>
@@ -1186,7 +1246,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-70">@inproceedings{tran2026deep,
   title={Deep Reinforcement Learning-Based Dynamic Resource Allocation in Cell-Free Massive {MIMO}},
   author={P. Tran and N. T. Nguyen and H. Q. Ngo and M. Juntti},
-  booktitle={IEEE International Conference on Communications (ICC)},
+  booktitle={Proc. {IEEE} Int. Conf. Commun.},
   year={2026}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-70', this); return false;">Copy</button></div></details>
 </li>
@@ -1199,7 +1259,7 @@ T. Fang, M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-71">@inproceedings{fang2026trihybrida,
   title={Tri-Hybrid Beamforming Design for Integrated Sensing and Communications},
   author={T. Fang and M. Ma and N. T. Nguyen and M. Juntti},
-  booktitle={IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
+  booktitle={Proc. {IEEE} Int. Conf. Acoust., Speech, Signal Processing},
   year={2026}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-71', this); return false;">Copy</button></div></details>
 </li>
@@ -1212,7 +1272,7 @@ A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-72">@inproceedings{zakeri2026deep,
   title={Deep Reinforcement Learning for Dynamic Sensing and Communications},
   author={A. Zakeri and N. T. Nguyen and A. Alkhateeb and M. Juntti},
-  booktitle={IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
+  booktitle={Proc. {IEEE} Int. Conf. Acoust., Speech, Signal Processing},
   year={2026}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-72', this); return false;">Copy</button></div></details>
 </li>
@@ -1225,7 +1285,7 @@ S. Tavakolian, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-73">@inproceedings{tavakolian2026knowledge,
   title={Knowledge Distillation for mmWave Beam Prediction Using Sub-6 GHz Channels},
   author={S. Tavakolian and N. T. Nguyen and A. Alkhateeb and M. Juntti},
-  booktitle={IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
+  booktitle={Proc. {IEEE} Int. Conf. Acoust., Speech, Signal Processing},
   year={2026}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-73', this); return false;">Copy</button></div></details>
 </li>
@@ -1262,7 +1322,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
 "<a href="https://ieeexplore.ieee.org/abstract/document/11365077" target="_blank">Energy Efficiency Maximization for RIS-aided Integrated Sensing and Communication</a>,"  
 <span><em>RIVF International Conference on Computing and Communication Technologies</em></span>, 2025.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-76">@inproceedings{nguyen2025energy,
-  title={Energy Efficiency Maximization for {RIS}-aided Integrated Sensing and Communication},
+  title={Energy Efficiency Maximization for {RIS}-Aided Integrated Sensing and Communication},
   author={H. T. Nguyen and T.-H. Nguyen and Vo N. Q. B. and V.-D. Nguyen and N. T. Nguyen},
   booktitle={RIVF International Conference on Computing and Communication Technologies},
   year={2025}
@@ -1290,7 +1350,7 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-78">@inproceedings{zaker2025constrained,
   title={Constrained Multimodal Sensing-Aided Communications: A Dynamic Beamforming Design},
   author={A. Zaker and N. T. Nguyen and A. Alkhateeb and M. Juntti},
-  booktitle={IEEE Global Communications Conference (GLOBECOM)},
+  booktitle={Proc. {IEEE} Global Commun. Conf.},
   year={2025}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-78', this); return false;">Copy</button></div></details>
 </li>
@@ -1303,7 +1363,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-79">@inproceedings{tran2025deep,
   title={Deep Reinforcement Learning for Hybrid {RIS} Assisted {MIMO} Communications},
   author={P. Tran and N. T. Nguyen and M. Juntti},
-  booktitle={Asilomar Conference on Signals, Systems, and Computers (ASILOMAR)},
+  booktitle={Proc. Annual Asilomar Conf. Signals, Syst., Comp.},
   year={2025}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-79', this); return false;">Copy</button></div></details>
 </li>
@@ -1314,7 +1374,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,
 "<a href="https://ieeexplore.ieee.org/document/11361681" target="_blank">Hybrid RIS-aided Wireless Communications</a>,"  
 <span><em>International Symposium on Antennas and Propagation (ISAP)</em></span>, 2025 <span style="color:#dc2626; font-weight:700;">(Best Paper Award)</span>.
   <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-80">@inproceedings{nguyen2025hybrid,
-  title={Hybrid {RIS}-aided Wireless Communications},
+  title={Hybrid {RIS}-Aided Wireless Communications},
   author={N. T. Nguyen and M. Juntti},
   booktitle={International Symposium on Antennas and Propagation (ISAP)},
   year={2025}
