@@ -126,10 +126,28 @@ html[data-theme="dark"] {
 }
 /* Project cards are narrow (grid layout), so a long funder name wraps to
    a second line inside the pill; shrink the tag text so it stays on one. */
+.project-card .site-tag-row { flex-wrap: nowrap; }
 .project-card .site-tag {
-  font-size: 0.68em;
-  padding: 2px 8px;
+  font-size: 0.64em;
+  padding: 2px 7px;
   white-space: nowrap;
+  flex: 0 0 auto;
+}
+/* Only the last tag (the funder) may shrink, with an ellipsis, so the role
+   and funder always share one row even at the narrowest card width. */
+.project-card .site-tag:last-child {
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Give project cards a little more room than the shared 230px minimum so
+   "Co-PI" + the longest funder name fit side by side without truncation. */
+@media (min-width: 681px) {
+  .site-grid:has(.project-card) {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
 }
 
 /* ---- Muted award / highlight badge (replaces bright red) ---- */

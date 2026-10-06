@@ -305,7 +305,7 @@ html[data-theme="dark"] .pub-justify li summary:hover span {
   <button type="button" class="pub-stat-card active" id="pub-stat-btn-journal" onclick="showPubCategory('journal')">
     <span class="pub-stat-icon">📚</span>
     <span class="pub-stat-text">
-      <span class="pub-stat-num">57</span>
+      <span class="pub-stat-num">59</span>
       <span class="pub-stat-label">Journal &amp; Book</span>
     </span>
   </button>
@@ -319,14 +319,14 @@ html[data-theme="dark"] .pub-justify li summary:hover span {
   <button type="button" class="pub-stat-card" id="pub-stat-btn-review" onclick="showPubCategory('review')">
     <span class="pub-stat-icon">📝</span>
     <span class="pub-stat-text">
-      <span class="pub-stat-num">16</span>
+      <span class="pub-stat-num">18</span>
       <span class="pub-stat-label">Under Review</span>
     </span>
   </button>
   <button type="button" class="pub-stat-card" id="pub-stat-btn-total" onclick="showPubCategory('total')">
     <span class="pub-stat-icon">&Sigma;</span>
     <span class="pub-stat-text">
-      <span class="pub-stat-num">118</span>
+      <span class="pub-stat-num">120</span>
       <span class="pub-stat-label">Total Publications</span>
     </span>
   </button>
@@ -361,6 +361,42 @@ html[data-theme="dark"] .pub-justify li summary:hover span {
 <h2 class="pub-section-title">📝 Submitted and Under Revision</h2>
 
 <ol class="pub-justify">
+
+<!-- ======================== SUBMISSION 13 ======================== -->
+<li>
+<div class="pub-main">
+M. Ma, <strong>N. T. Nguyen</strong>, A. Alkhateeb, A. L. Swindlehurst, and M. Juntti,  
+"Digital Twin-Assisted Beam Prediction Under Missing Sensor Observations," <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026. (<strong>submitted</strong>)
+</div>
+<div class="pub-actions">
+
+<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-icassp-ma">@inproceedings{ma2026digital,
+  title={Digital Twin-Assisted Beam Prediction Under Missing Sensor Observations},
+  author={M. Ma and N. T. Nguyen and A. Alkhateeb and A. L. Swindlehurst and M. Juntti},
+  booktitle={Proc. {IEEE} Int. Conf. Acoust., Speech, Signal Processing},
+  year={2026},
+  note={submitted}
+}</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-icassp-ma', this); return false;">Copy</button></div></details>
+</div>
+</li>
+
+<!-- ======================== SUBMISSION 13 ======================== -->
+<li>
+<div class="pub-main">
+H. Djelouat, D. Lim, <strong>N. T. Nguyen</strong>, and M. Juntti,  
+"Learning Block-Sparse Priors for Near-Field Channel Estimation via Unfolded Sparse Bayesian Learning," <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026. (<strong>submitted</strong>)
+</div>
+<div class="pub-actions">
+
+<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-icassp-djelouat">@inproceedings{djelouat2026learning,
+  title={Learning Block-Sparse Priors for Near-Field Channel Estimation via Unfolded Sparse {Bayesian} Learning},
+  author={H. Djelouat and D. Lim and N. T. Nguyen and M. Juntti},
+  booktitle={Proc. {IEEE} Int. Conf. Acoust., Speech, Signal Processing},
+  year={2026},
+  note={submitted}
+}</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-icassp-djelouat', this); return false;">Copy</button></div></details>
+</div>
+</li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
 <li>
@@ -2664,7 +2700,9 @@ document.querySelectorAll('.pub-justify li details').forEach(function(d){
     li.classList.toggle('pub-li-open', d.open);
   });
 });
-// Close an open BibTeX popover when clicking anywhere outside it.
+/* Close an open BibTeX popover when clicking anywhere outside it.
+   (Block comment on purpose: the compress layout joins this script onto
+   one line, where a line comment would swallow all the code after it.) */
 document.addEventListener('click', function(e){
   document.querySelectorAll('.pub-justify li details[open]').forEach(function(d){
     if (d.contains(e.target)) return;
