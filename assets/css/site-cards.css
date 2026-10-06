@@ -3,10 +3,12 @@
    supervision and team-activities pages for a consistent, understated look.
    ====================================================================== */
 :root {
-  --site-acc: #3f5f72;        /* muted slate-blue accent */
-  --site-acc-dark: #2c4654;
-  --site-acc-soft: #eef3f6;   /* light tint for chips/hover */
-  --site-acc-border: #d7e3ea;
+  --site-acc: #8b5cf6;        /* soft AI violet */
+  --site-acc2: #ec4899;       /* soft AI pink */
+  --site-acc-grad: linear-gradient(135deg, var(--site-acc), var(--site-acc2));
+  --site-acc-dark: #6d28d9;
+  --site-acc-soft: #f6f1fd;   /* light lavender tint for chips/hover */
+  --site-acc-border: #e3d4fa;
   --site-ink: #1f2937;
   --site-muted: #64748b;
   --site-line: #e5e9ee;
@@ -59,8 +61,9 @@
   width: 34px;
   height: 34px;
   border-radius: 9px;
-  background: var(--site-acc-soft);
-  color: var(--site-acc);
+  background: var(--site-acc-grad);
+  box-shadow: 0 3px 8px rgba(139, 92, 246, 0.28);
+  color: #ffffff;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -142,7 +145,7 @@
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: var(--site-acc);
+  background: var(--site-acc-grad);
   border: 2px solid #ffffff;
   box-shadow: 0 0 0 1px var(--site-acc-border);
 }
