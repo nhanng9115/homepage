@@ -5,118 +5,90 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 ---
 
 <style>
-/* Fully justify publication lines, but keep code/BibTeX left-aligned */
-.pub-justify li {
-  text-align: justify;
-  text-align-last: left;      /* last line stays left */
-  text-justify: inter-word;
-  -webkit-hyphens: auto;      /* nicer wraps */
-  hyphens: auto;
-  line-height: 1.4;
-}
-
-/* Left-align code, BibTeX, or collapsible details */
-.pub-justify li pre,
-.pub-justify li code,
-.pub-justify li details,
-.pub-justify li summary {
-  text-align: left;
-  text-align-last: left;
-}
-
-/* Style for publication titles (linked PDFs) */
-.pub-justify li a {
-  color: #0056b3;             /* professional blue */
-  font-weight: 600;           /* semi-bold for emphasis */
-  text-decoration: underline; /* always underline */
-  text-decoration-thickness: 1.5px; /* slightly thicker underline */
-  text-underline-offset: 2px; /* spacing between text and line */
-  transition: color 0.2s ease;
-}
-
-/* Hover effect */
-.pub-justify li a:hover {
-  color: #d6336c;             /* elegant magenta hover */
-}
-
-</style>
-{% unless page.show_bibtex %}
-<style>
-  details { display: none !important; }
-</style>
-{% endunless %}
-
-<style>
-.pub-tabs { display: flex; gap: 10px; margin: 10px 0 20px 0; flex-wrap: wrap; }
-.pub-tab-btn {
-  padding: 8px 18px;
-  border: 1px solid #0056b3;
-  border-radius: 999px;
-  background: #ffffff;
-  color: #0056b3;
-  font-weight: 600;
-  font-size: 15px;
-  cursor: pointer;
-  transition: background 0.2s ease, color 0.2s ease;
-}
-.pub-tab-btn:hover { background: #fdf2f8; border-color: #db2777; color: #db2777; box-shadow: 0 2px 6px rgba(219,39,119,0.15); }
-.pub-tab-btn.active {
-  background: linear-gradient(135deg, #db2777, #9333ea);
-  border-color: transparent;
-  color: #ffffff;
-  box-shadow: 0 3px 10px rgba(147,51,234,0.35);
-}
-</style>
-
-<style>
 /* ======================================================================
-   Warm palette + lively two-column layout for the publication list
+   Muted, understated palette + compact two-column layout
    ====================================================================== */
 :root {
-  --pub-pink: #db2777;
-  --pub-purple: #9333ea;
-  --pub-orange: #f97316;
-  --pub-ink: #16213e;
+  --acc: #3f5f72;          /* muted slate-blue accent */
+  --acc-dark: #2c4654;
+  --acc-soft: #eef3f6;     /* light tint for chips/hover */
+  --acc-border: #d7e3ea;
+  --ink: #1f2937;
+  --muted: #64748b;
+  --line: #e5e9ee;
+  --warm: #a66a3b;         /* muted terracotta, used sparingly */
+  --warm-soft: #faf1e8;
 }
 
 /* ---- Section titles ---- */
 .pub-section-title {
-  font-size: 1.5rem;
-  font-weight: 800;
-  margin: 28px 0 14px 0;
-  padding-bottom: 7px;
-  border-bottom: 3px solid var(--pub-pink);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 26px 0 12px 0;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--acc-border);
   display: inline-block;
-  color: var(--pub-ink);
+  color: var(--ink);
 }
 
-/* ---- Stats strip ---- */
+/* ---- Stats strip: plain white cards with a colored icon chip ---- */
 .pub-stats {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
-  margin: 6px 0 28px 0;
+  gap: 12px;
+  margin: 4px 0 24px 0;
 }
 .pub-stat-card {
   flex: 1 1 150px;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 4px;
-  padding: 16px 18px;
-  border-radius: 14px;
-  background: linear-gradient(135deg, var(--stat-from), var(--stat-to));
-  color: #ffffff;
-  box-shadow: 0 6px 16px rgba(16, 24, 40, 0.14);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.05);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 .pub-stat-card:hover {
-  transform: translateY(-4px) scale(1.02);
-  box-shadow: 0 14px 28px rgba(16, 24, 40, 0.22);
+  box-shadow: 0 6px 16px rgba(16, 24, 40, 0.09);
+  transform: translateY(-2px);
 }
-.pub-stat-icon { font-size: 22px; line-height: 1; }
-.pub-stat-num { font-size: 26px; font-weight: 800; line-height: 1.1; }
-.pub-stat-label { font-size: 12.5px; opacity: 0.92; font-weight: 600; letter-spacing: 0.2px; }
+.pub-stat-icon {
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  background: var(--acc-soft);
+  color: var(--acc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+}
+.pub-stat-text { display: flex; flex-direction: column; line-height: 1.15; }
+.pub-stat-num { font-size: 20px; font-weight: 800; color: var(--ink); }
+.pub-stat-label { font-size: 11.5px; color: var(--muted); font-weight: 600; }
+
+/* ---- Tabs ---- */
+.pub-tabs { display: flex; gap: 8px; margin: 10px 0 20px 0; flex-wrap: wrap; }
+.pub-tab-btn {
+  padding: 7px 16px;
+  border: 1px solid var(--acc-border);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--acc);
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+.pub-tab-btn:hover { background: var(--acc-soft); border-color: var(--acc); }
+.pub-tab-btn.active {
+  background: var(--acc);
+  border-color: var(--acc);
+  color: #ffffff;
+}
 
 /* ---- Card-style entries, two-column: content left / actions right ---- */
 .pub-justify {
@@ -130,42 +102,38 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 16px;
+  gap: 12px;
   text-align: left;
   background: #ffffff;
-  border: 1px solid #ece9f3;
-  border-left: 5px solid var(--pub-purple);
-  border-radius: 10px;
-  padding: 14px 18px 14px 46px;
-  margin-bottom: 12px;
-  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.06);
-  transition: box-shadow 0.25s ease, transform 0.25s ease, border-left-color 0.25s ease;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--acc);
+  border-radius: 8px;
+  padding: 9px 14px 9px 38px;
+  margin-bottom: 7px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 .pub-justify li:hover {
-  box-shadow: 0 10px 22px rgba(147, 51, 234, 0.14);
-  transform: translateY(-2px);
-  border-left-color: var(--pub-orange);
+  box-shadow: 0 6px 14px rgba(16, 24, 40, 0.08);
+  transform: translateY(-1px);
 }
 .pub-justify li::before {
   counter-increment: pubnum;
   content: counter(pubnum);
   position: absolute;
-  left: 12px;
-  top: 14px;
-  width: 24px;
-  height: 24px;
+  left: 10px;
+  top: 11px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--pub-pink), var(--pub-purple));
+  background: var(--acc);
   color: #ffffff;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 4px rgba(147, 51, 234, 0.35);
-  transition: transform 0.2s ease;
 }
-.pub-justify li:hover::before { transform: scale(1.12); }
 
 .pub-main {
   flex: 1 1 380px;
@@ -175,69 +143,79 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   text-justify: inter-word;
   -webkit-hyphens: auto;
   hyphens: auto;
-  line-height: 1.5;
+  line-height: 1.45;
 }
 
-/* Journal / conference name in a warm plum tone */
+/* Journal / conference name: muted italic, not a loud color */
 .pub-justify li span em {
-  color: #a21caf;
+  color: var(--muted);
   font-weight: 500;
+  font-style: italic;
 }
 
-/* Title links: purple, pink on hover (overrides the earlier blue rule further up) */
+/* Title links: calm ink color, no underline (the View Paper button already
+   signals the link); accent color + underline only appears on hover */
 .pub-justify li a {
-  color: var(--pub-purple) !important;
+  color: var(--ink) !important;
+  font-weight: 600;
+  text-decoration: none !important;
 }
 .pub-justify li a:hover {
-  color: var(--pub-pink) !important;
+  color: var(--acc) !important;
+  text-decoration: underline !important;
 }
 
-/* ---- Status pills ---- */
+/* ---- Status pills (muted) ---- */
 .pub-status {
   display: inline-block;
-  padding: 2px 10px;
+  padding: 1px 9px;
   border-radius: 999px;
-  font-size: 11px;
+  font-size: 10.5px;
   font-weight: 700;
   letter-spacing: 0.2px;
   margin-left: 4px;
   vertical-align: 1px;
   white-space: nowrap;
 }
-.pub-status-submitted { background: #fff7ed; color: #c2410c; border: 1px solid #fdba74; }
-.pub-status-accepted  { background: #f0fdf4; color: #15803d; border: 1px solid #86efac; }
-.pub-status-early     { background: #f0fdfa; color: #0f766e; border: 1px solid #5eead4; }
-.pub-status-revision  { background: #fffbeb; color: #92400e; border: 1px solid #fcd34d; }
-.pub-status-other     { background: #f8fafc; color: #475569; border: 1px solid #cbd5e1; }
+.pub-status-submitted { background: var(--warm-soft); color: var(--warm); border: 1px solid #ecd4b9; }
+.pub-status-accepted  { background: #eef4ef; color: #3f6b4f; border: 1px solid #cddccf; }
+.pub-status-early     { background: #eef4f4; color: #3c6b68; border: 1px solid #cfe0df; }
+.pub-status-revision  { background: #f3f1ea; color: #70633f; border: 1px solid #ddd4bf; }
+.pub-status-other     { background: #f3f4f6; color: #4b5563; border: 1px solid #d8dce1; }
 
-/* ---- Right-hand actions column: View Paper button + BibTeX ---- */
+/* ---- Right-hand actions column: View Paper + BibTeX, same button style ---- */
 .pub-actions {
-  flex: 0 0 168px;
+  flex: 0 0 110px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 8px;
+  gap: 6px;
 }
 
-.pub-justify li a.pub-view-btn {
+.pub-justify li a.pub-view-btn,
+.pub-justify li summary span {
   display: inline-flex !important;
   align-items: center;
+  justify-content: center;
   gap: 4px;
-  padding: 6px 14px;
-  border-radius: 999px;
-  background: linear-gradient(135deg, var(--pub-pink), var(--pub-orange)) !important;
-  color: #ffffff !important;
-  font-weight: 700 !important;
-  font-size: 12px;
+  padding: 4px 10px !important;
+  min-width: 86px;
+  border-radius: 6px !important;
+  background: #ffffff !important;
+  border: 1px solid var(--acc-border) !important;
+  color: var(--acc) !important;
+  font-weight: 600 !important;
+  font-size: 11.5px;
   text-decoration: none !important;
   white-space: nowrap;
-  box-shadow: 0 2px 6px rgba(249, 115, 22, 0.35);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  text-align: center;
+  transition: background 0.15s ease, border-color 0.15s ease;
 }
-.pub-justify li a.pub-view-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(219, 39, 119, 0.4);
-  color: #ffffff !important;
+.pub-justify li a.pub-view-btn:hover,
+.pub-justify li summary:hover span {
+  background: var(--acc-soft) !important;
+  border-color: var(--acc) !important;
+  color: var(--acc-dark) !important;
 }
 
 /* BibTeX toggle: button sits in the actions column, the revealed box pops
@@ -249,13 +227,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 .pub-justify li summary {
   transition: filter 0.15s ease, transform 0.1s ease;
 }
-.pub-justify li summary:hover { filter: brightness(0.95); }
 .pub-justify li summary:active { transform: scale(0.97); }
-.pub-justify li summary span {
-  background: #fdf2f8 !important;
-  border-color: #db2777 !important;
-  color: #9d174d !important;
-}
 .pub-justify li details > div {
   position: absolute !important;
   top: calc(100% + 6px);
@@ -264,16 +236,18 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   width: 320px;
   max-width: 85vw;
   box-sizing: border-box;
-  box-shadow: 0 12px 28px rgba(16, 24, 40, 0.22) !important;
+  background: #fbfbfc !important;
+  border: 1px solid var(--line) !important;
+  box-shadow: 0 10px 24px rgba(16, 24, 40, 0.16) !important;
 }
 .pub-justify li details pre {
   white-space: pre-wrap !important;
   word-break: break-word;
 }
 .pub-justify li details > div button {
-  background: #f5f3ff !important;
-  border-color: #c4b5fd !important;
-  color: #6d28d9 !important;
+  background: #ffffff !important;
+  border-color: var(--acc-border) !important;
+  color: var(--acc) !important;
 }
 @keyframes pubBibReveal {
   from { opacity: 0; transform: translateY(-6px); }
@@ -284,8 +258,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 }
 
 @media (max-width: 680px) {
-  .pub-stat-card { flex: 1 1 42%; }
-  .pub-justify li { flex-direction: column; align-items: stretch; justify-content: flex-start; padding: 14px 16px 14px 44px; }
+  .pub-justify li { flex-direction: column; align-items: stretch; justify-content: flex-start; padding: 9px 12px 9px 36px; }
   .pub-main { flex: 1 1 auto; }
   .pub-actions { flex: 0 0 auto; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start; gap: 8px; margin-top: 4px; }
   .pub-justify li details > div {
@@ -296,28 +269,40 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   }
 }
 </style>
-
+{% unless page.show_bibtex %}
+<style>
+  details { display: none !important; }
+</style>
+{% endunless %}
 
 <div class="pub-stats">
-  <div class="pub-stat-card" style="--stat-from:#db2777; --stat-to:#9333ea;">
+  <div class="pub-stat-card">
     <span class="pub-stat-icon">📚</span>
-    <span class="pub-stat-num">57</span>
-    <span class="pub-stat-label">Journal &amp; Book Publications</span>
+    <span class="pub-stat-text">
+      <span class="pub-stat-num">57</span>
+      <span class="pub-stat-label">Journal &amp; Book</span>
+    </span>
   </div>
-  <div class="pub-stat-card" style="--stat-from:#9333ea; --stat-to:#f97316;">
+  <div class="pub-stat-card">
     <span class="pub-stat-icon">🎤</span>
-    <span class="pub-stat-num">61</span>
-    <span class="pub-stat-label">Conference Papers</span>
+    <span class="pub-stat-text">
+      <span class="pub-stat-num">61</span>
+      <span class="pub-stat-label">Conference Papers</span>
+    </span>
   </div>
-  <div class="pub-stat-card" style="--stat-from:#f97316; --stat-to:#db2777;">
+  <div class="pub-stat-card">
     <span class="pub-stat-icon">📝</span>
-    <span class="pub-stat-num">16</span>
-    <span class="pub-stat-label">Under Review</span>
+    <span class="pub-stat-text">
+      <span class="pub-stat-num">16</span>
+      <span class="pub-stat-label">Under Review</span>
+    </span>
   </div>
-  <div class="pub-stat-card" style="--stat-from:#16213e; --stat-to:#9333ea;">
+  <div class="pub-stat-card">
     <span class="pub-stat-icon">&Sigma;</span>
-    <span class="pub-stat-num">118</span>
-    <span class="pub-stat-label">Total Publications</span>
+    <span class="pub-stat-text">
+      <span class="pub-stat-num">118</span>
+      <span class="pub-stat-label">Total Publications</span>
+    </span>
   </div>
 </div>
 
