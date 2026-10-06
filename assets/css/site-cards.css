@@ -3,14 +3,14 @@
    supervision and team-activities pages for a consistent, understated look.
    ====================================================================== */
 :root {
-  --site-acc: #6366f1;        /* cool AI indigo */
-  --site-acc2: #3b82f6;       /* cool AI blue */
+  --site-acc: #7c3aed;        /* AI violet-purple */
+  --site-acc2: #5b21b6;       /* deep purple */
   --site-acc-grad: linear-gradient(135deg, var(--site-acc), var(--site-acc2));
-  --site-acc-dark: #4338ca;
-  --site-acc-soft: #eef1fe;   /* light indigo tint for chips/hover */
-  --site-acc-border: #dbe0fa;
-  --site-card-bg: linear-gradient(135deg, #f4f4ff 0%, #eef1ff 50%, #eaf4ff 100%);
-  --site-card-border: #dadff8;
+  --site-acc-dark: #4c1d95;
+  --site-acc-soft: #f3ecfe;   /* light purple tint for chips/hover */
+  --site-acc-border: #e2cffb;
+  --site-card-bg: linear-gradient(135deg, #f7f1ff 0%, #f1e9fe 48%, #ece3fb 100%);
+  --site-card-border: #ddc9f7;
   --site-ink: #1f2937;
   --site-muted: #64748b;
   --site-line: #e5e9ee;
@@ -37,11 +37,11 @@
   border-radius: 10px;
   padding: 14px 16px;
   margin-bottom: 12px;
-  box-shadow: 0 1px 2px rgba(99, 102, 241, 0.05);
+  box-shadow: 0 1px 2px rgba(124, 58, 237, 0.05);
   transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
 }
 .site-card:hover {
-  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.15);
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.15);
   border-color: var(--site-acc);
   transform: translateY(-1px);
 }
@@ -64,7 +64,7 @@
   height: 34px;
   border-radius: 9px;
   background: var(--site-acc-grad);
-  box-shadow: 0 3px 8px rgba(99, 102, 241, 0.28);
+  box-shadow: 0 3px 8px rgba(124, 58, 237, 0.28);
   color: #ffffff;
   display: inline-flex;
   align-items: center;
@@ -259,16 +259,44 @@
 /* ---- Site-wide colorful background (applies on every page/tab) ---- */
 body {
   background:
-    radial-gradient(900px 520px at 12% -5%, rgba(99, 102, 241, 0.10), transparent 55%),
-    radial-gradient(900px 620px at 105% 15%, rgba(59, 130, 246, 0.09), transparent 55%),
-    linear-gradient(180deg, #fbfbff 0%, #f3f6ff 45%, #eef7fc 100%) !important;
+    url("../images/ai-waves.svg") no-repeat top right / 900px auto,
+    radial-gradient(900px 520px at 10% -5%, rgba(124, 58, 237, 0.20), transparent 55%),
+    radial-gradient(900px 620px at 105% 15%, rgba(79, 70, 229, 0.18), transparent 55%),
+    linear-gradient(180deg, #f7f3ff 0%, #f0ecfd 45%, #ece7fb 100%) !important;
   background-attachment: fixed !important;
 }
 html[data-theme="dark"] body {
   background:
-    radial-gradient(900px 520px at 12% -5%, rgba(99, 102, 241, 0.16), transparent 55%),
-    radial-gradient(900px 620px at 105% 15%, rgba(59, 130, 246, 0.14), transparent 55%),
-    linear-gradient(180deg, #14162a 0%, #191c36 55%, #141b2c 100%) !important;
+    url("../images/ai-waves.svg") no-repeat top right / 900px auto,
+    radial-gradient(900px 520px at 10% -5%, rgba(124, 58, 237, 0.30), transparent 55%),
+    radial-gradient(900px 620px at 105% 15%, rgba(79, 70, 229, 0.26), transparent 55%),
+    linear-gradient(180deg, #181030 0%, #1f1740 55%, #190f2e 100%) !important;
+  background-attachment: fixed !important;
+}
+
+/* The nav wrapper and each menu item paint their own opaque background by
+   default; make them transparent so the masthead's wash shows through. */
+.greedy-nav,
+.masthead__menu-item {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* The top masthead bar shares the same wash instead of sitting on plain white */
+.masthead {
+  background:
+    url("../images/ai-waves.svg") no-repeat top right / 900px auto,
+    radial-gradient(900px 520px at 10% -5%, rgba(124, 58, 237, 0.28), transparent 55%),
+    radial-gradient(900px 620px at 105% 15%, rgba(79, 70, 229, 0.24), transparent 55%),
+    linear-gradient(180deg, #f1e9ff 0%, #e8defb 100%) !important;
+  background-attachment: fixed !important;
+}
+html[data-theme="dark"] .masthead {
+  background:
+    url("../images/ai-waves.svg") no-repeat top right / 900px auto,
+    radial-gradient(900px 520px at 10% -5%, rgba(124, 58, 237, 0.38), transparent 55%),
+    radial-gradient(900px 620px at 105% 15%, rgba(79, 70, 229, 0.3), transparent 55%),
+    linear-gradient(180deg, #1c1436 0%, #241a48 100%) !important;
   background-attachment: fixed !important;
 }
 

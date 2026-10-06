@@ -9,14 +9,14 @@ show_bibtex: true   # change to false to hide BibTeX buttons
    Muted, understated palette + compact two-column layout
    ====================================================================== */
 :root {
-  --acc: #6366f1;          /* cool AI indigo */
-  --acc2: #3b82f6;         /* cool AI blue */
+  --acc: #7c3aed;          /* AI violet-purple */
+  --acc2: #5b21b6;         /* deep purple */
   --acc-grad: linear-gradient(135deg, var(--acc), var(--acc2));
-  --acc-dark: #4338ca;
-  --acc-soft: #eef1fe;     /* light indigo tint for chips/hover */
-  --acc-border: #dbe0fa;
-  --card-bg: linear-gradient(135deg, #f4f4ff 0%, #eef1ff 50%, #eaf4ff 100%);
-  --card-border: #dadff8;
+  --acc-dark: #4c1d95;
+  --acc-soft: #f3ecfe;     /* light purple tint for chips/hover */
+  --acc-border: #e2cffb;
+  --card-bg: linear-gradient(135deg, #f7f1ff 0%, #f1e9fe 48%, #ece3fb 100%);
+  --card-border: #ddc9f7;
   --ink: #1f2937;
   --muted: #64748b;
   --line: #e5e9ee;
@@ -51,11 +51,11 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   border-radius: 10px;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
-  box-shadow: 0 1px 3px rgba(99, 102, 241, 0.07);
+  box-shadow: 0 1px 3px rgba(124, 58, 237, 0.07);
   transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
 }
 .pub-stat-card:hover {
-  box-shadow: 0 8px 18px rgba(99, 102, 241, 0.16);
+  box-shadow: 0 8px 18px rgba(124, 58, 237, 0.16);
   border-color: var(--acc);
   transform: translateY(-2px);
 }
@@ -65,7 +65,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   height: 36px;
   border-radius: 9px;
   background: var(--acc-grad);
-  box-shadow: 0 3px 8px rgba(99, 102, 241, 0.28);
+  box-shadow: 0 3px 8px rgba(124, 58, 237, 0.28);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,7 +93,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   background: var(--acc-grad);
   border-color: transparent;
   color: #ffffff;
-  box-shadow: 0 3px 10px rgba(99, 102, 241, 0.3);
+  box-shadow: 0 3px 10px rgba(124, 58, 237, 0.3);
 }
 
 /* ---- Card-style entries, two-column: content left / actions right ---- */
@@ -116,7 +116,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   border-radius: 10px;
   padding: 9px 14px 9px 38px;
   margin-bottom: 7px;
-  box-shadow: 0 1px 2px rgba(99, 102, 241, 0.05);
+  box-shadow: 0 1px 2px rgba(124, 58, 237, 0.05);
   transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
 }
 /* While its BibTeX popover is open, lift this entry above the cards below
@@ -126,7 +126,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   z-index: 40;
 }
 .pub-justify li:hover {
-  box-shadow: 0 8px 18px rgba(99, 102, 241, 0.14);
+  box-shadow: 0 8px 18px rgba(124, 58, 237, 0.14);
   border-color: var(--acc);
   transform: translateY(-1px);
 }
@@ -233,7 +233,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   box-sizing: border-box;
   background: #fbfaff !important;
   border: 1px solid var(--acc-border) !important;
-  box-shadow: 0 10px 24px rgba(99, 102, 241, 0.18) !important;
+  box-shadow: 0 10px 24px rgba(124, 58, 237, 0.18) !important;
 }
 .pub-justify li details pre {
   white-space: pre-wrap !important;
