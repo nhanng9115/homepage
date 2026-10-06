@@ -3,14 +3,14 @@
    supervision and team-activities pages for a consistent, understated look.
    ====================================================================== */
 :root {
-  --site-acc: #8b5cf6;        /* soft AI violet */
-  --site-acc2: #ec4899;       /* soft AI pink */
+  --site-acc: #6366f1;        /* cool AI indigo */
+  --site-acc2: #3b82f6;       /* cool AI blue */
   --site-acc-grad: linear-gradient(135deg, var(--site-acc), var(--site-acc2));
-  --site-acc-dark: #6d28d9;
-  --site-acc-soft: #f6f1fd;   /* light lavender tint for chips/hover */
-  --site-acc-border: #e3d4fa;
-  --site-card-bg: linear-gradient(135deg, #faf7ff 0%, #fdf5fb 55%, #f6faff 100%);
-  --site-card-border: #e5d9f7;
+  --site-acc-dark: #4338ca;
+  --site-acc-soft: #eef1fe;   /* light indigo tint for chips/hover */
+  --site-acc-border: #dbe0fa;
+  --site-card-bg: linear-gradient(135deg, #f4f4ff 0%, #eef1ff 50%, #eaf4ff 100%);
+  --site-card-border: #dadff8;
   --site-ink: #1f2937;
   --site-muted: #64748b;
   --site-line: #e5e9ee;
@@ -37,11 +37,11 @@
   border-radius: 10px;
   padding: 14px 16px;
   margin-bottom: 12px;
-  box-shadow: 0 1px 2px rgba(139, 92, 246, 0.05);
+  box-shadow: 0 1px 2px rgba(99, 102, 241, 0.05);
   transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
 }
 .site-card:hover {
-  box-shadow: 0 8px 20px rgba(139, 92, 246, 0.15);
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.15);
   border-color: var(--site-acc);
   transform: translateY(-1px);
 }
@@ -64,7 +64,7 @@
   height: 34px;
   border-radius: 9px;
   background: var(--site-acc-grad);
-  box-shadow: 0 3px 8px rgba(139, 92, 246, 0.28);
+  box-shadow: 0 3px 8px rgba(99, 102, 241, 0.28);
   color: #ffffff;
   display: inline-flex;
   align-items: center;
@@ -254,4 +254,20 @@
 
 @media (max-width: 680px) {
   .site-grid { grid-template-columns: 1fr; }
+}
+
+/* ---- Site-wide colorful background (applies on every page/tab) ---- */
+body {
+  background:
+    radial-gradient(900px 520px at 12% -5%, rgba(99, 102, 241, 0.10), transparent 55%),
+    radial-gradient(900px 620px at 105% 15%, rgba(59, 130, 246, 0.09), transparent 55%),
+    linear-gradient(180deg, #fbfbff 0%, #f3f6ff 45%, #eef7fc 100%) !important;
+  background-attachment: fixed !important;
+}
+html[data-theme="dark"] body {
+  background:
+    radial-gradient(900px 520px at 12% -5%, rgba(99, 102, 241, 0.16), transparent 55%),
+    radial-gradient(900px 620px at 105% 15%, rgba(59, 130, 246, 0.14), transparent 55%),
+    linear-gradient(180deg, #14162a 0%, #191c36 55%, #141b2c 100%) !important;
+  background-attachment: fixed !important;
 }
