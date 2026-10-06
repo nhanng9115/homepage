@@ -113,6 +113,10 @@ html[data-theme="dark"] .pub-justify li span em {
 .pub-stat-num { font-size: 18px; font-weight: 800; color: var(--ink); }
 .pub-stat-label { font-size: 10.5px; color: var(--muted); font-weight: 600; }
 
+/* ---- Second row of cards: research topics. Same card style, pulled up
+   close under the stats row so the two read as one block. ---- */
+.pub-stats.pub-topics { margin-top: -12px; }
+
 /* ---- Card-style entries, two-column: content left / actions right ---- */
 .pub-justify {
   list-style: none;
@@ -340,12 +344,43 @@ html[data-theme="dark"] .pub-justify li summary:hover span {
   </button>
 </div>
 
+<div class="pub-stats pub-topics">
+  <button type="button" class="pub-stat-card" id="pub-topic-btn-isac" data-topic="isac" onclick="showPubTopic('isac')">
+    <span class="pub-stat-icon">📡</span>
+    <span class="pub-stat-text">
+      <span class="pub-stat-num">–</span>
+      <span class="pub-stat-label">ISAC &amp; Multimodal Sensing</span>
+    </span>
+  </button>
+  <button type="button" class="pub-stat-card" id="pub-topic-btn-ml" data-topic="ml" onclick="showPubTopic('ml')">
+    <span class="pub-stat-icon">🧠</span>
+    <span class="pub-stat-text">
+      <span class="pub-stat-num">–</span>
+      <span class="pub-stat-label">Machine Learning &amp; Deep Unfolding</span>
+    </span>
+  </button>
+  <button type="button" class="pub-stat-card" id="pub-topic-btn-ris" data-topic="ris" onclick="showPubTopic('ris')">
+    <span class="pub-stat-icon">🪞</span>
+    <span class="pub-stat-text">
+      <span class="pub-stat-num">–</span>
+      <span class="pub-stat-label">Reconfigurable Intelligent Surfaces</span>
+    </span>
+  </button>
+  <button type="button" class="pub-stat-card" id="pub-topic-btn-mimo" data-topic="mimo" onclick="showPubTopic('mimo')">
+    <span class="pub-stat-icon">📶</span>
+    <span class="pub-stat-text">
+      <span class="pub-stat-num">–</span>
+      <span class="pub-stat-label">Massive MIMO &amp; Hybrid Beamforming</span>
+    </span>
+  </button>
+</div>
+
 <div class="pubtab-section" data-pubcat="journal total">
 
 <h2 class="pub-section-title">📘 Book Chapter</h2>
 
 <ol class="pub-justify">
-<li>
+<li data-topics="isac" data-year="2026">
 <div class="pub-main">
 "<a href="https://www.wiley.com/en-us/6G+to+Build+a+Sustainable+Future-p-9781394363575#description-section" target="_blank">Integrated Sensing and Communication</a>,"  
 <span><em>John Wiley & Sons</em></span>, 2026.
@@ -371,7 +406,7 @@ html[data-theme="dark"] .pub-justify li summary:hover span {
 <ol class="pub-justify">
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, A. Alkhateeb, A. L. Swindlehurst, and M. Juntti,  
 "Digital Twin-Assisted Beam Prediction Under Missing Sensor Observations," <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026. (<strong>submitted</strong>)
@@ -389,7 +424,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, A. Alkhateeb, A. L. Swindlehurst, and M. J
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2026">
 <div class="pub-main">
 H. Djelouat, D. Lim, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "Learning Block-Sparse Priors for Near-Field Channel Estimation via Unfolded Sparse Bayesian Learning," <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026. (<strong>submitted</strong>)
@@ -407,7 +442,7 @@ H. Djelouat, D. Lim, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 A. Raza, <strong>N. T. Nguyen</strong>, N. Shlezinger, and M. Juntti,    
 "DoA Estimation Via Atomic Norm Approximation Using Model-Based Machine Learning," <span><em>IEEE Signal Processing Letters</em></span>, 2026. (<strong>submitted</strong>)
@@ -425,7 +460,7 @@ A. Raza, <strong>N. T. Nguyen</strong>, N. Shlezinger, and M. Juntti,
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="isac" data-year="2026">
 <div class="pub-main">
 Huy T. Nguyen, Huy G. Tran, Trung Hieu Vu, Hoa T. Nguyen, <strong>N. T. Nguyen</strong>, Vo-Nguyen Quoc Bao,  
 "Robust Energy-Efficient Design for Imperfect Integrated Sensing and Communication Systems," <span><em>International Conference on Computing and Communication Technologies (RIVF)</em></span>, 2026. (<strong>submitted</strong>)
@@ -443,7 +478,7 @@ Huy T. Nguyen, Huy G. Tran, Trung Hieu Vu, Hoa T. Nguyen, <strong>N. T. Nguyen</
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, P. N. Tran, M. Ma, H. T. Nguyen, A. Alkhateeb, and M. Juntti,  
 "Energy-Efficient Spiking Neural Networks for Sensing-Aided Beam Prediction," <span><em>International Conference on Computing and Communication Technologies (RIVF)</em></span>, 2026. (<strong>submitted</strong>)
@@ -461,7 +496,7 @@ Huy T. Nguyen, Huy G. Tran, Trung Hieu Vu, Hoa T. Nguyen, <strong>N. T. Nguyen</
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2026">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, P. N. Tran, K. Deka, M. D. Renzo, A. G. Armada, and M. Juntti,  
 "Spike-Native Neural Networks for Switch Configuration in Hybrid Beamforming," <span><em>IEEE International Conference on Communications (ICC)</em></span>, 2026. (<strong>submitted</strong>)
@@ -479,7 +514,7 @@ Huy T. Nguyen, Huy G. Tran, Trung Hieu Vu, Hoa T. Nguyen, <strong>N. T. Nguyen</
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="mimo" data-year="2026">
 <div class="pub-main">
 L. Ribeiro, E. M. Taghavi, R. S. Bhagavathula, <strong>N. T. Nguyen</strong>, D. Kumar, M. Tayyab, M. Jada, D. Laselva, and M. Juntti,  
 "Energy‑Efficient 6G Radio Networks: An Industry Review of Transmit Antenna and Power Adaptations," <span><em>IEEE Wireless Communications</em></span>, 2026. (<strong>submitted</strong>)
@@ -497,7 +532,7 @@ L. Ribeiro, E. M. Taghavi, R. S. Bhagavathula, <strong>N. T. Nguyen</strong>, D.
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2026">
 <div class="pub-main">
 Vo P. S., V.-D. Nguyen, <strong>N. T. Nguyen</strong>, T.-V. Truong, and S. Shatzinotas,  
 "Performance Analysis and Sensing-Aware Resource Allocation for FD mMIMO ISCC Networks," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>submitted</strong>)
@@ -516,7 +551,7 @@ Vo P. S., V.-D. Nguyen, <strong>N. T. Nguyen</strong>, T.-V. Truong, and S. Shat
 
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2026">
 <div class="pub-main">
 S. Uniyal, T. Fang, V.-D. Nguye, H. Q. Ngo, M. Juntti, <strong>N. T. Nguyen</strong>,  
 "<a href="https://arxiv.org/pdf/2609.18467" target="_blank">Massive MIMO ISAC Under Target-Angle Uncertainty: CRLB Outage Analysis and Robust Resource Allocation</a>," <span><em>IEEE Transactions on Signal Processing</em></span>, 2026. (<strong>submitted</strong>)
@@ -534,7 +569,7 @@ S. Uniyal, T. Fang, V.-D. Nguye, H. Q. Ngo, M. Juntti, <strong>N. T. Nguyen</str
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="isac ml ris mimo" data-year="2026">
 <div class="pub-main">
 A. S. Gharagezlou, P. Mobaraki, M. Monemi, <strong>N. T. Nguyen</strong>, M. Rasti, S. Ali, and M. Matti Latva-aho,  
 "Deep-Unfolded Wideband ISAC Beamforming for DMA Under Frequency-Selective Lorentzian Model," <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>submitted</strong>)
@@ -551,7 +586,7 @@ A. S. Gharagezlou, P. Mobaraki, M. Monemi, <strong>N. T. Nguyen</strong>, M. Ras
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2026">
 <div class="pub-main">
 S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</strong>,  
 "GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive MIMO systems," <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>submitted</strong>)
@@ -570,7 +605,7 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
 
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="ml ris" data-year="2026">
 <div class="pub-main">
 P. Mobaraki, A. Zaker, M. D. Renzo, M. Juntti, and  <strong>N. T. Nguyen</strong>,  
 "<a href="https://arxiv.org/pdf/2607.04889" target="_blank">Energy Efficiency Maximization for Hybrid RIS-Aided Communications via Deep Unfolding</a>," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>submitted</strong>)
@@ -588,7 +623,7 @@ P. Mobaraki, A. Zaker, M. D. Renzo, M. Juntti, and  <strong>N. T. Nguyen</strong
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="isac ris" data-year="2026">
 <div class="pub-main">
 C. K. Singh, S. Uniyal, <strong>N. T. Nguyen</strong>, A. S. d. Sena, S.-A. Kim, J. Kim, M. Latva-aho, and M. Juntti,  
 "Performance Analysis of Hybrid STAR-RIS-Assisted Bistatic ISAC-RSMA Systems," <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>submitted</strong>)
@@ -606,7 +641,7 @@ C. K. Singh, S. Uniyal, <strong>N. T. Nguyen</strong>, A. S. d. Sena, S.-A. Kim,
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="isac ris mimo" data-year="2026">
 <div class="pub-main">
 E. Ataeebojd, <strong>N. T. Nguyen</strong>, S. Yoo, J. Kang, M. Juntti, M. Latva-aho, and M. Rasti,  
 "<a href="https://arxiv.org/pdf/2605.03558" target="_blank">Resource Allocation and AoI-Aware Detection for ISAC with Stacked Intelligent Metasurfaces</a>," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>submitted</strong>)
@@ -624,7 +659,7 @@ E. Ataeebojd, <strong>N. T. Nguyen</strong>, S. Yoo, J. Kang, M. Juntti, M. Latv
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2026">
 <div class="pub-main">
 P. N. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,  
 "Graph Attention DRL for Energy-Efficient Joint AP, Antenna, and Power Control in Cell-Free Networks," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>major revision</strong>)
@@ -642,7 +677,7 @@ P. N. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,
 </li>
 
 <!-- ======================== SUBMISSION 6 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2026">
 <div class="pub-main">
 T. Fang, M. Ma, M. Juntti, I. Lee, J. Kang, and <strong>N. T. Nguyen</strong>,  
 "<a href="https://oulurepo.oulu.fi/handle/10024/61879" target="_blank">Tri-Hybrid Beamforming Design for Large-Scale MIMO ISAC Systems</a>,"  
@@ -661,7 +696,7 @@ T. Fang, M. Ma, M. Juntti, I. Lee, J. Kang, and <strong>N. T. Nguyen</strong>,
 </li>
 
 <!-- ======================== SUBMISSION 5 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "Deep Unfolded Shifted Power Iteration based ISAC Beamforming for Sum Rate and CRLB Balancing,"  
@@ -681,7 +716,7 @@ T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,
 
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="isac ris mimo" data-year="2026">
 <div class="pub-main">
 S. Uniyal, T. Fang, M. D. Renzo, M. Juntti, and <strong>N. T. Nguyen</strong>,  
 "<a href="https://arxiv.org/pdf/2608.02169" target="_blank">Performance Analysis and Joint Beamforming for Hybrid RIS-Aided Massive MIMO ISAC</a>," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>minor revision</strong>)
@@ -710,7 +745,7 @@ S. Uniyal, T. Fang, M. D. Renzo, M. Juntti, and <strong>N. T. Nguyen</strong>,
 <ol class="pub-justify">
 
 <!-- ======================== SUBMISSION 2 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2026">
 <div class="pub-main">
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/handle/10024/64538" target="_blank">Beamforming Design and Subcarrier Allocation for Multicarrier Multiuser MIMO ISAC</a>,"  
@@ -732,7 +767,7 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== SUBMISSION 2 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2509.11419" target="_blank">Knowledge Distillation for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
@@ -754,7 +789,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindleh
 </li>
 
 <!-- ======================== SUBMISSION 11 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2509.19092" target="_blank">Data-Free Knowledge Distillation for LiDAR-Aided Beam Tracking in MmWave Systems</a>,"  
@@ -775,7 +810,7 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 </li>
 
 <!-- ======================== SUBMISSION 6 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2026">
 <div class="pub-main">
 T. Fang, M. Ma, M. Juntti, N. Shlezinger, A. L. Swindlehurst, and <strong>N. T. Nguyen</strong>,  
 "<a href="https://arxiv.org/pdf/2503.09489" target="_blank">Optimal ISAC Beamforming Structure and Efficient Algorithms for Sum Rate and CRLB Balancing</a>,"  
@@ -798,7 +833,7 @@ T. Fang, M. Ma, M. Juntti, N. Shlezinger, A. L. Swindlehurst, and <strong>N. T. 
 
 
 <!-- ======================== SUBMISSION 8 ======================== -->
-<li>
+<li data-topics="isac ml" data-year="2026">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, M. Ma, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2603.16116" target="_blank">Knowledge distillation for collaborative learning in distributed communications and sensing</a>,"  
@@ -820,7 +855,7 @@ T. Fang, M. Ma, M. Juntti, N. Shlezinger, A. L. Swindlehurst, and <strong>N. T. 
 
 
 <!-- ======================== SUBMISSION 4 ======================== -->
-<li>
+<li data-topics="isac" data-year="2026">
 <div class="pub-main">
 S. Bhandari, Thang X. Vu, <strong>N. T. Nguyen</strong>, and S. Chatzinotas,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11404193" target="_blank">ISAC-Enabled Handover Design in LEO Satellite Networks</a>,"  
@@ -842,7 +877,7 @@ S. Bhandari, Thang X. Vu, <strong>N. T. Nguyen</strong>, and S. Chatzinotas,
 </li>
 
 <!-- ======================== SUBMISSION 3 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2026">
 <div class="pub-main">
 I. Perera, <strong>N. T. Nguyen</strong>, P. Pirinen, and N. Rajatheva,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11370420" target="_blank">Bi-Static ISAC Beamforming Design in Multi-User MIMO Systems</a>,"  
@@ -865,7 +900,7 @@ I. Perera, <strong>N. T. Nguyen</strong>, P. Pirinen, and N. Rajatheva,
 </li>
 
 <!-- ======================== SUBMISSION 3 ======================== -->
-<li>
+<li data-topics="ris mimo" data-year="2026">
 <div class="pub-main">
 S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11367008" target="_blank">Outage, Symbol Error Probability, and Rate of RIS-Assisted MIMO Systems with Phase Errors</a>,"  
@@ -888,7 +923,7 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,
 
 
 <!-- ======================== SUBMISSION 1 ======================== -->
-<li>
+<li data-topics="isac" data-year="2026">
 <div class="pub-main">
 L. V. Nguyen, R. Liu, <strong>N. T. Nguyen</strong>, M. Juntti, B. Ottersten, and A. L. Swindlehurst,  
 "<a href="https://ieeexplore.ieee.org/abstract/document/11360621" target="_blank">Exploiting Symmetric Non-Convexity for Multi-Objective Symbol-Level DFRC Signal Design</a>,"  
@@ -911,7 +946,7 @@ L. V. Nguyen, R. Liu, <strong>N. T. Nguyen</strong>, M. Juntti, B. Ottersten, an
 
 <!-- ======================== PAPER 2 ======================== -->
 
-<li>
+<li data-topics="ml" data-year="2026">
 <div class="pub-main">
 S. Deka, K. Deka, <strong>N. T. Nguyen</strong>, S. Sharma, V. Bhatia,  and N. Rajatheva,  
 "<a href="https://arxiv.org/pdf/2502.05952" target="_blank">Comprehensive Review of Deep Unfolding Techniques for Next-Generation Wireless Communication Systems</a>,"  
@@ -933,7 +968,7 @@ S. Deka, K. Deka, <strong>N. T. Nguyen</strong>, S. Sharma, V. Bhatia,  and N. R
 </div>
 </li>
 
-<li>
+<li data-topics="isac ris mimo" data-year="2025">
 <div class="pub-main">
 P. Zivuku, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, K. Ntontin, S. Chatzinotas, and B. Ottersten,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11268332" target="_blank">Resource Allocation for RIS-Enhanced OFDM-MIMO ISAC Systems</a>,"  
@@ -954,7 +989,7 @@ P. Zivuku, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, K. Ntontin, S. Chatzinot
 </div>
 </li>
 
-<li>
+<li data-topics="mimo" data-year="2025">
 <div class="pub-main">
 D. Abueida, M. A. Albreem, S. Abdallah, A. A. Salem, S. Shahabuddin, K. Alnajjar, M. Saad, <strong>N. T. Nguyen</strong>, M. Juntti,  
   "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11218982" target="_blank">Signal Processing for Cell-Free Massive MIMO: Techniques and Trends in Estimation, Detection, and Precoding</a>,"  
@@ -976,7 +1011,7 @@ D. Abueida, M. A. Albreem, S. Abdallah, A. A. Salem, S. Shahabuddin, K. Alnajjar
 </li>
 
 <!-- ======================== PAPER 1 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2025">
 <div class="pub-main">
 H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,  
   "<a href="https://ieeexplore.ieee.org/abstract/document/11168825" target="_blank">Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems</a>,"  
@@ -999,7 +1034,7 @@ H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q.
 </li>
 
 <!-- ======================== PAPER 2 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2025">
 <div class="pub-main">
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11145153" target="_blank">Dynamic Joint Communications and Sensing Precoding Design: A Lyapunov Approach</a>,"  
@@ -1022,7 +1057,7 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 </li>
 
 <!-- ======================== PAPER 3 ======================== -->
-<li>
+<li data-topics="mimo" data-year="2025">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11008697" target="_blank">Digital and Hybrid Precoding Designs in Massive MIMO with Low-Resolution ADCs</a>,"  
@@ -1046,7 +1081,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 </li>
 
 <!-- ======================== PAPER 4 ======================== -->
-<li>
+<li data-topics="mimo" data-year="2025">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11006401" target="_blank">Joint Beamforming Design and Bit Allocation in Massive MIMO with Resolution-Adaptive ADCs</a>,"  
@@ -1070,7 +1105,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 </li>
 
 <!-- ======================== PAPER 5 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2025">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">Performance Analysis and Power Allocation for Massive MIMO ISAC Systems</a>,"  
@@ -1093,7 +1128,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 </li>
 
 <!-- ======================== PAPER 6 ======================== -->
-<li>
+<li data-topics="ris mimo" data-year="2024">
 <div class="pub-main">
 E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53753/nbnfioulu-202501171238.pdf?sequence=1" target="_blank">Secure mmWave MIMO Networks Employing Hybrid Active-Passive RIS</a>,"  
@@ -1117,7 +1152,7 @@ E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== PAPER 7 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2024">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10684532" target="_blank">Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding</a>,"  
@@ -1141,7 +1176,7 @@ E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== PAPER 8 ======================== -->
-<li>
+<li data-topics="mimo" data-year="2024">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10697466" target="_blank">Switch-Based Hybrid Beamforming Transceiver Design for Wideband Communications With Beam Squint</a>,"  
@@ -1165,7 +1200,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== PAPER 9 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2024">
 <div class="pub-main">
 I. Bilbao, E. Iradier, J. Montalban, P. Angueira, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10568545" target="_blank">Deep Unfolding-Powered Analog Beamforming for In-Band Full-Duplex</a>,"  
@@ -1188,7 +1223,7 @@ I. Bilbao, E. Iradier, J. Montalban, P. Angueira, <strong>N. T. Nguyen</strong>,
 </li>
 
 <!-- ======================== PAPER 10 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2024">
 <div class="pub-main">
 N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/51866/nbnfioulu-202409165877.pdf?sequence=1" target="_blank">Artificial Intelligence-Empowered Hybrid Multiple-Input/Multiple-Output Beamforming: Learning to Optimize for High-Throughput Scalable MIMO</a>,"  
@@ -1212,7 +1247,7 @@ N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M
 </li>
 
 <!-- ======================== PAPER 11 ======================== -->
-<li>
+<li data-topics="ris" data-year="2023">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, Q. Wu, A. Tolli, S. Chatzinotas, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10266977" target="_blank">Fairness Enhancement of UAV Systems with Hybrid Active-Passive RIS</a>,"  
@@ -1236,7 +1271,7 @@ N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M
 </li>
 
 <!-- ======================== PAPER 12 ======================== -->
-<li>
+<li data-topics="ml" data-year="2023">
 <div class="pub-main">
 V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, Nguyen C. L., Dinh T. H., D. N. Nguyen, and S. Chatzinotas,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/48422/nbnfioulu-202403212382.pdf?sequence=1&isAllowed=y" target="_blank">Network-Aided Intelligent Traffic Steering in 6G O-RAN: A Multi-Layer Optimization Framework</a>,"  
@@ -1260,7 +1295,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 </li>
 
 <!-- ======================== PAPER 13 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2023">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/47431/nbnfioulu-202401231426.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding Hybrid Beamforming Designs for THz Massive MIMO Systems</a>,"  
@@ -1283,7 +1318,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 </li>
 
 <!-- ======================== PAPER 14 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2023">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10214237" target="_blank">Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation</a>,"  
@@ -1306,7 +1341,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 </li>
 
 <!-- ======================== PAPER 15 ======================== -->
-<li>
+<li data-topics="ris mimo" data-year="2022">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, V.-H. Nguyen, H. Q. Ngo, S. Chatzinotas, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9940169" target="_blank">Spectral Efficiency Analysis of Hybrid Relay-Reflecting Intelligent Surface-Assisted Cell-Free Massive MIMO Systems</a>,"  
@@ -1330,7 +1365,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 </li>
 
 <!-- ======================== PAPER 16 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2022">
 <div class="pub-main">
 L. V. Nguyen, <strong>N. T. Nguyen</strong>, N. H. Tran, M. Juntti, A. L. Swindlehurst, and D. H. N. Nguyen,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44744/nbnfi-fe202301265946.pdf?sequence=1&isAllowed=y" target="_blank">Leveraging Deep Neural Networks for Massive MIMO Data Detection</a>,"  
@@ -1354,7 +1389,7 @@ L. V. Nguyen, <strong>N. T. Nguyen</strong>, N. H. Tran, M. Juntti, A. L. Swindl
 </li>
 
 <!-- ======================== PAPER 17 ======================== -->
-<li>
+<li data-topics="ris mimo" data-year="2022">
 <div class="pub-main">
 A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hemadeh, <strong>N. T. Nguyen</strong>, V. Tapio, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/32277/nbnfi-fe2022100661285.pdf?sequence=1" target="_blank">MIMO Evolution Beyond 5G Through Reconfigurable Intelligent Surfaces and Fluid Antenna Systems</a>,"  
@@ -1378,7 +1413,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 </li>
 
 <!-- ======================== PAPER 18 ======================== -->
-<li>
+<li data-topics="mimo" data-year="2022">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/45145/nbnfi-fe2023032332877.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Beamforming and Adaptive RF Chain Activation for Uplink Cell-Free Millimeter-Wave Massive MIMO Systems</a>,"  
@@ -1402,7 +1437,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 </li>
 
 <!-- ======================== PAPER 19 ======================== -->
-<li>
+<li data-topics="ris" data-year="2022">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, Q.-D. Vu, K. Lee, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9733238" target="_blank">Hybrid Relay-Reflecting Intelligent Surface-Assisted Wireless Communications</a>,"  
@@ -1426,7 +1461,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 </li>
 
 <!-- ======================== PAPER 20 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2021">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/30148/nbnfi-fe2021122162809.pdf?sequence=1&isAllowed=y" target="_blank">Application of Deep Learning to Sphere Decoding for Large MIMO Systems</a>,"  
@@ -1450,7 +1485,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 </li>
 
 <!-- ======================== PAPER 21 ======================== -->
-<li>
+<li data-topics="ml" data-year="2021">
 <div class="pub-main">
 Q.-V. Pham, <strong>N. T. Nguyen</strong>, T. T. Huynh, L. B. Le, K. Lee, W.-J. Hwang,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9448043" target="_blank">Intelligent Radio Signal Processing: A Survey</a>,"  
@@ -1473,7 +1508,7 @@ Q.-V. Pham, <strong>N. T. Nguyen</strong>, T. T. Huynh, L. B. Le, K. Lee, W.-J. 
 </li>
 
 <!-- ======================== PAPER 22 ======================== -->
-<li>
+<li data-topics="mimo" data-year="2021">
 <div class="pub-main">
 G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,  
 "<a href="https://ieeexplore.ieee.org/abstract/document/9374093" target="_blank">Dynamic Unequally Sub-Connected Hybrid Beamforming Architecture for Massive MIMO Systems</a>,"  
@@ -1497,7 +1532,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 </li>
 
 <!-- ======================== PAPER 23 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2020">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong> and K. Lee,  
 "<a href="https://arxiv.org/pdf/1909.01683" target="_blank">Deep Learning-Aided Tabu Search Detection for Large MIMO Systems</a>,"  
@@ -1521,7 +1556,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 </li>
 
 <!-- ======================== PAPER 24 ======================== -->
-<li>
+<li data-topics="mimo" data-year="2020">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong> and K. Lee,  
 "<a href="https://arxiv.org/pdf/1908.10056" target="_blank">Unequally Sub-Connected Architecture for Hybrid Beamforming in Massive MIMO Systems</a>,"  
@@ -1545,7 +1580,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 </li>
 
 <!-- ======================== PAPER 25 ======================== -->
-<li>
+<li data-topics="mimo" data-year="2020">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong> and K. Lee,  
 "<a href="https://arxiv.org/pdf/1909.13606" target="_blank">Groupwise Neighbor Examination for Tabu Search Detection in Large MIMO Systems</a>,"  
@@ -1569,7 +1604,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 </li>
 
 <!-- ======================== PAPER 26 ======================== -->
-<li>
+<li data-topics="mimo" data-year="2019">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
 "<a href="https://ieeexplore.ieee.org/abstract/document/8668468" target="_blank">QR-Decomposition-Aided Tabu Search Detection for Large MIMO Systems</a>,"  
@@ -1593,7 +1628,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 </li>
 
 <!-- ======================== PAPER 27 ======================== -->
-<li>
+<li data-topics="mimo" data-year="2018">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong> and K. Lee,  
 "<a href="https://ieeexplore.ieee.org/abstract/document/8453856" target="_blank">Coverage and Cell-Edge Sum-Rate Analysis of MmWave Massive MIMO Systems with ORP Schemes and MMSE Receivers</a>,"  
@@ -1617,7 +1652,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 </li>
 
 <!-- ======================== PAPER 28 ======================== -->
-<li>
+<li data-topics="mimo" data-year="2017">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong> and K. Lee,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7895219" target="_blank">Cell Coverage Extension with Orthogonal Random Precoding for Massive MIMO Systems</a>,"  
@@ -1651,7 +1686,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 <ol class="pub-justify">
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="isac" data-year="2026">
 <div class="pub-main">
 A. Zakeri, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2606.31690" target="_blank">Resource-Efficient WiFi CSI Sensing via Exploiting the Age of Samples</a>," <span><em>IEEE Integrated Sensing and Communication Conference (ISAC)</em></span>, 2026.
@@ -1668,7 +1703,7 @@ A. Zakeri, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 M. Ma, A. Alkhateeb, <strong>N. T. Nguyen</strong>, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2607.00936" target="_blank">Lightweight Vision-Aided Beam Tracking for Cross-Environment mmWave Communications</a>," <span><em>IEEE Integrated Sensing and Communication Conference (ISAC)</em></span>, 2026.
@@ -1685,7 +1720,7 @@ M. Ma, A. Alkhateeb, <strong>N. T. Nguyen</strong>, A. L. Swindlehurst, and M. J
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2026">
 <div class="pub-main">
 L. Mendez-Monsanto, K. C.-Hu, M. J. F.-G. Garcia, A. G. Armada, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "Low-Ambiguity 5G NR-Compatible Pilot Design for Multi-Domain Channel Estimation in ISAC," <span><em>IEEE Integrated Sensing and Communication Conference (ISAC)</em></span>, 2026.
@@ -1702,7 +1737,7 @@ L. Mendez-Monsanto, K. C.-Hu, M. J. F.-G. Garcia, A. G. Armada, <strong>N. T. Ng
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2026">
 <div class="pub-main">
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "Beamforming vs. Waveform Design in ISAC: Is Linear Beamforming Sufficient?," <span><em>IEEE Integrated Sensing and Communication Conference (ISAC)</em></span>, 2026.
@@ -1719,7 +1754,7 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 S. Prasad, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "Low-Complexity Dynamic Deep Unfolding for ISAC Beamforming," <span><em>IEEE Integrated Sensing and Communication Conference (ISAC)</em></span>, 2026.
@@ -1736,7 +1771,7 @@ S. Prasad, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== SUBMISSION 13 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2026">
 <div class="pub-main">
 P. N. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2608.03237" target="_blank">Deep-Unfolded Accelerated Projected Gradient for Energy-Efficient Cell-Free Massive MIMO</a>," <span><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2026.
@@ -1753,7 +1788,7 @@ P. N. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,
 </li>
 
 <!-- ======================== SUBMISSION 1 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2026">
 <div class="pub-main">
 S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</strong>,  
 "<a href="https://arxiv.org/pdf/2608.30524" target="_blank">Beamforming Design Via GNN in mmWave Cell-Free Massive MIMO Using Sub-6 GHz CSI</a>," <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2026.
@@ -1770,7 +1805,7 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
 </li>
 
 <!-- ======================== SUBMISSION 2 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 M. Hassam, A. Zakeri, M. Ma, A. Alkhateeb, and <strong>N. T. Nguyen</strong>,  
 "Dynamic Multimodal Sensing-Aided Beam Prediction via Deep Reinforcement Learning," <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2026.
@@ -1788,7 +1823,7 @@ M. Hassam, A. Zakeri, M. Ma, A. Alkhateeb, and <strong>N. T. Nguyen</strong>,
 
 
 <!-- ======================== SUBMISSION 1 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 M. Ma, I. Welgamage, A. Alkhateeb, A. L. Swindlehurst, M. Juntti, and <strong>N. T. Nguyen</strong>,  
 "<a href="https://arxiv.org/pdf/2604.16708" target="_blank">Knowledge Distillation for Lightweight Multimodal Sensing-Aided mmWave Beam Tracking</a>,"  
@@ -1806,7 +1841,7 @@ M. Ma, I. Welgamage, A. Alkhateeb, A. L. Swindlehurst, M. Juntti, and <strong>N.
 </li>
 
 <!-- ======================== SUBMISSION 1 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2026">
 <div class="pub-main">
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2608.16290" target="_blank">Beamforming and Filter Design for Bistatic ISAC under Known and Unknown Transmit Symbols</a>,"  
@@ -1824,7 +1859,7 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== SUBMISSION 1 ======================== -->
-<li>
+<li data-topics="isac ml" data-year="2026">
 <div class="pub-main">
 K. Lin, H. Luo, <strong>N. T. Nguyen</strong>, and A. Alkhateeb,  
 "<a href="" target="_blank">Wireless Digital Twin Construction Using Multi-Modal Sensory Data</a>,"  
@@ -1844,7 +1879,7 @@ K. Lin, H. Luo, <strong>N. T. Nguyen</strong>, and A. Alkhateeb,
 </li>
 
 <!-- ======================== SUBMISSION 1 ======================== -->
-<li>
+<li data-topics="isac ml" data-year="2026">
 <div class="pub-main">
 A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2511.01406" target="_blank">AoI-Aware Machine Learning for Constrained Multimodal Sensing-Aided Communications</a>,"  
@@ -1864,7 +1899,7 @@ A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 </li>
 
 <!-- ======================== SUBMISSION 1 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2026">
 <div class="pub-main">
 P. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2601.13934" target="_blank">Deep Reinforcement Learning-Based Dynamic Resource Allocation in Cell-Free Massive MIMO</a>,"  
@@ -1884,7 +1919,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,
 </li>
 
 <!-- ======================== SUBMISSION 1 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2026">
 <div class="pub-main">
 T. Fang, M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2601.16036" target="_blank">Tri-Hybrid Beamforming Design for Integrated Sensing and Communications</a>,"  
@@ -1904,7 +1939,7 @@ T. Fang, M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== SUBMISSION 1 ======================== -->
-<li>
+<li data-topics="isac ml" data-year="2026">
 <div class="pub-main">
 A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2509.19130" target="_blank">Deep Reinforcement Learning for Dynamic Sensing and Communications</a>,"  
@@ -1924,7 +1959,7 @@ A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 </li>
 
 <!-- ======================== SUBMISSION 1 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2026">
 <div class="pub-main">
 S. Tavakolian, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "<a href="https://arxiv.org/abs/2602.04703" target="_blank">Knowledge Distillation for mmWave Beam Prediction Using Sub-6 GHz Channels</a>,"  
@@ -1944,7 +1979,7 @@ S. Tavakolian, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 </li>
 
 <!-- ======================== SUBMISSION 1 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
@@ -1964,7 +1999,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 1 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2025">
 <div class="pub-main">
 G. Charan, <strong>N. T. Nguyen</strong>, and A. Alkhateeb,  
 "<a href="https://oulurepo.oulu.fi/handle/10024/61961" target="_blank">Advancing Vision-Aided Beam Prediction: Knowledge Distillation Meets Active Learning</a>,"  
@@ -1984,7 +2019,7 @@ G. Charan, <strong>N. T. Nguyen</strong>, and A. Alkhateeb,
 </li>
 
 <!-- ======================== CONF PAPER 1 ======================== -->
-<li>
+<li data-topics="isac ris" data-year="2025">
 <div class="pub-main">
 H. T. Nguyen, T.-H. Nguyen, Vo N. Q. B., V.-D. Nguyen, and <strong>N. T. Nguyen</strong>,  
 "<a href="https://ieeexplore.ieee.org/abstract/document/11365077" target="_blank">Energy Efficiency Maximization for RIS-aided Integrated Sensing and Communication</a>,"  
@@ -2004,7 +2039,7 @@ H. T. Nguyen, T.-H. Nguyen, Vo N. Q. B., V.-D. Nguyen, and <strong>N. T. Nguyen<
 </li>
 
 <!-- ======================== CONF PAPER 1 ======================== -->
-<li>
+<li data-topics="isac ris" data-year="2025">
 <div class="pub-main">
 H. T. Nguyen, <strong>N. T. Nguyen</strong>, Nguyen C. L., T.-H. Nguyen, and Vo N. Q. B.,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/59312/nbnfioulu-202511206843.pdf?sequence=-1" target="_blank">Max-Min Rate Optimization for Reconfigurable Intelligent Surfaces Aided ISAC Systems</a>,"  
@@ -2024,7 +2059,7 @@ H. T. Nguyen, <strong>N. T. Nguyen</strong>, Nguyen C. L., T.-H. Nguyen, and Vo 
 </li>
 
 <!-- ======================== CONF PAPER 2 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2025">
 <div class="pub-main">
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/handle/10024/61504" target="_blank">Constrained Multimodal Sensing-Aided Communications: A Dynamic Beamforming Design</a>,"  
@@ -2044,7 +2079,7 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 3 ======================== -->
-<li>
+<li data-topics="ml ris mimo" data-year="2025">
 <div class="pub-main">
 P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2601.18453" target="_blank">Deep Reinforcement Learning for Hybrid RIS Assisted MIMO Communications</a>,"  
@@ -2064,7 +2099,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 4 ======================== -->
-<li>
+<li data-topics="ris" data-year="2025">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong> and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/document/11361681" target="_blank">Hybrid RIS-aided Wireless Communications</a>,"  
@@ -2084,7 +2119,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 5 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2025">
 <div class="pub-main">
 A. Raza, <strong>NN. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/abstract/document/11143326" target="_blank">Deep Unfolding of Atomic Norm Minimization for DoA Estimation</a>,"  
@@ -2105,7 +2140,7 @@ A. Raza, <strong>NN. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 6 ======================== -->
-<li>
+<li data-topics="ris" data-year="2025">
 <div class="pub-main">
 S. Uniyal, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/document/11143254" target="_blank">Outage and Capacity Analysis of HRIS-Aided RSMA Systems</a>,"  
@@ -2126,7 +2161,7 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 7 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2025">
 <div class="pub-main">
 S. Tavakolian, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58411/nbnfioulu-202509185933.pdf?sequence=1&isAllowed=y" target="_blank">Sparse Semantic Encoding for Reduced Data Load in Vision-Position Aided mmWave Beam Prediction</a>,"  
@@ -2147,7 +2182,7 @@ S. Tavakolian, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 8 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2025">
 <div class="pub-main">
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/56813/nbnfioulu-202506064211.pdf?sequence=1&isAllowed=y" target="_blank">Energy Efficient Waveform Design and Subcarrier Allocation for Multicarrier MIMO JCAS</a>,"  
@@ -2168,7 +2203,7 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 9 ======================== -->
-<li>
+<li data-topics="mimo" data-year="2025">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/56710/nbnfioulu-202506094216.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Receiver Design for Massive MIMO-OFDM With Low-Resolution ADCs and Oversampling</a>,"  
@@ -2189,7 +2224,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 10 ======================== -->
-<li>
+<li data-topics="isac ris mimo" data-year="2025">
 <div class="pub-main">
 S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58412/nbnfioulu-202509185934.pdf?sequence=1&isAllowed=y" target="_blank">Sum Rate and Cramér-Rao Lower Bound Analysis for RIS-Assisted Multiuser Large-Antenna ISAC</a>,"  
@@ -2210,7 +2245,7 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 11 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2025">
 <div class="pub-main">
 M. Ma, T. Fang, N. Shlezinger, L. Swindlehurst, M. Juntti, and <strong>N. T. Nguyen</strong>,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/54619/nbnfioulu-202501241331.pdf?sequence=1&isAllowed=y" target="_blank">Model-Based Machine Learning for Max-Min Fairness Beamforming Design in JCAS Systems</a>,"  
@@ -2231,7 +2266,7 @@ M. Ma, T. Fang, N. Shlezinger, L. Swindlehurst, M. Juntti, and <strong>N. T. Ngu
 </li>
 
 <!-- ======================== CONF PAPER 12 ======================== -->
-<li>
+<li data-topics="isac" data-year="2025">
 <div class="pub-main">
 T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/54613/nbnfioulu-202503192097.pdf?sequence=1&isAllowed=y" target="_blank">Low-Complexity Cramér–Rao Lower Bound and Sum Rate Optimization in ISAC Systems</a>,"  
@@ -2252,7 +2287,7 @@ T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 13 ======================== -->
-<li>
+<li data-topics="isac ml ris" data-year="2025">
 <div class="pub-main">
 T. D. Phan, D. Q. Nguyen, N. Takanen, <strong>N. T. Nguyen</strong>, M. Juntti, and P. J. Soh,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/56987/nbnfioulu-202506164496.pdf?sequence=1&isAllowed=y" target="_blank">ML-Assisted RIS for ISAC Systems: Initial Results in the 6G Study Band</a>,"  
@@ -2273,7 +2308,7 @@ T. D. Phan, D. Q. Nguyen, N. Takanen, <strong>N. T. Nguyen</strong>, M. Juntti, 
 </li>
 
 <!-- ======================== CONF PAPER 14 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2025">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58413/nbnfioulu-202509185938.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding-Empowered MmWave Massive MIMO Joint Communications and Sensing</a>,"  
@@ -2294,7 +2329,7 @@ T. D. Phan, D. Q. Nguyen, N. Takanen, <strong>N. T. Nguyen</strong>, M. Juntti, 
 </li>
 
 <!-- ======================== CONF PAPER 15 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2025">
 <div class="pub-main">
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/document/10880646" target="_blank">Joint Waveform Design and Sub-Carrier Allocation for Multiuser MIMO ISAC</a>,"  
@@ -2316,7 +2351,7 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 16 ======================== -->
-<li>
+<li data-topics="ml ris" data-year="2024">
 <div class="pub-main">
 P. Mobaraki, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/54975/nbnfioulu-202504092482.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding-Empowered Energy Efficiency Optimization in RIS-Assisted Wireless Communications</a>,"  
@@ -2337,7 +2372,7 @@ P. Mobaraki, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 17 ======================== -->
-<li>
+<li data-topics="ris" data-year="2024">
 <div class="pub-main">
 S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58414/nbnfioulu-202509185937.pdf?sequence=1&isAllowed=y" target="_blank">Outage Probability and Capacity Analysis of Active RIS-Assisted UAV RSMA Communications</a>,"  
@@ -2358,7 +2393,7 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 18 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2024">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, T. Fang, H. Q. Ngo, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58410/nbnfioulu-202509185935.pdf?sequence=1&isAllowed=y" target="_blank">Multi-static Cell-Free Massive MIMO ISAC: Performance Analysis and Power Allocation</a>,"  
@@ -2379,7 +2414,7 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 19 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2024">
 <div class="pub-main">
 T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53076/nbnfioulu-202412097104.pdf?sequence=1&isAllowed=y" target="_blank">Beamforming Design for Max-Min Fairness Performance Balancing in ISAC Systems</a>,"  
@@ -2400,7 +2435,7 @@ T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 20 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2024">
 <div class="pub-main">
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/52351/nbnfioulu-202410186389.pdf?sequence=1&isAllowed=y" target="_blank">Waveform Design for Multi-Carrier Multiuser MIMO Joint Communications and Sensing</a>,"  
@@ -2421,7 +2456,7 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 21 ======================== -->
-<li>
+<li data-topics="isac ml" data-year="2024">
 <div class="pub-main">
 T. D. Gian, T.-H. Nguyen, <strong>N. T. Nguyen</strong>, and V.-D. Nguyen,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53074/nbnfioulu-202412097102.pdf?sequence=1&isAllowed=y" target="_blank">WiLHPE: WiFi-enabled Lightweight Channel Frequency Dynamic Convolution for HPE Tasks</a>,"  
@@ -2442,7 +2477,7 @@ T. D. Gian, T.-H. Nguyen, <strong>N. T. Nguyen</strong>, and V.-D. Nguyen,
 </li>
 
 <!-- ======================== CONF PAPER 22 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2024">
 <div class="pub-main">
 I. Bilbao, <strong>N. T. Nguyen</strong>, D. P. Moya Osorio, V. Tapio, M. Juntti, E. Iradier, J. Montalbán, and P. Angueira,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53075/nbnfioulu-202412097103.pdf?sequence=1&isAllowed=y" target="_blank">Physical layer security beamforming design via deep unfolding</a>,"  
@@ -2463,7 +2498,7 @@ I. Bilbao, <strong>N. T. Nguyen</strong>, D. P. Moya Osorio, V. Tapio, M. Juntti
 </li>
 
 <!-- ======================== CONF PAPER 23 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2024">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/51885/nbnfioulu-202409175895.pdf?sequence=1&isAllowed=y" target="_blank">Massive MIMO Joint Communications and Sensing with MRT Beamforming</a>,"  
@@ -2484,7 +2519,7 @@ I. Bilbao, <strong>N. T. Nguyen</strong>, D. P. Moya Osorio, V. Tapio, M. Juntti
 </li>
 
 <!-- ======================== CONF PAPER 24 ======================== -->
-<li>
+<li data-topics="isac ml mimo" data-year="2024">
 <div class="pub-main">
 P. Krishnananthalingam, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53799/nbnfioulu-202501221287.pdf?sequence=1&isAllowed=y" target="_blank">Constant Modulus Waveform Design for Wideband Multicarrier Joint Communications and Sensing via Deep Unfolding</a>,"  
@@ -2505,7 +2540,7 @@ P. Krishnananthalingam, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 25 ======================== -->
-<li>
+<li data-topics="ml" data-year="2023">
 <div class="pub-main">
 V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, Nguyen C. L., Dinh T. H., D. N. Nguyen, and S. Chatzinotas,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/48394/nbnfioulu-202403202353.pdf?sequence=1&isAllowed=y" target="_blank">Enabling Intelligent Traffic Steering in A Hierarchical Open Radio Access Network</a>,"  
@@ -2526,7 +2561,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 </li>
 
 <!-- ======================== CONF PAPER 26 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2023">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/51884/nbnfioulu-202409175894.pdf?sequence=1&isAllowed=y" target="_blank">Fast Deep Unfolded Hybrid Beamforming in Multiuser Large MIMO Systems</a>,"  
@@ -2547,7 +2582,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 </li>
 
 <!-- ======================== CONF PAPER 27 ======================== -->
-<li>
+<li data-topics="mimo" data-year="2023">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/43260/nbnfioulu-202311243336.pdf?sequence=1&isAllowed=y" target="_blank">Analysis of Oversampling in Uplink Massive MIMO-OFDM with Low-Resolution ADCs</a>,"  
@@ -2568,7 +2603,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 28 ======================== -->
-<li>
+<li data-topics="isac mimo" data-year="2023">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, N. Shlezinger, K.-H. Ngo, V.-D. Nguyen, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44654/nbnfi-fe20231030141814.pdf?sequence=1&isAllowed=y" target="_blank">Joint communications and sensing design for multi-carrier MIMO systems</a>,"  
@@ -2589,7 +2624,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 29 ======================== -->
-<li>
+<li data-topics="ml mimo" data-year="2023">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, M. Ma, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44290/nbnfi-fe20230823103204.pdf?sequence=1&isAllowed=y" target="_blank">Deep unfolding-enabled hybrid beamforming design for mmWave massive MIMO systems</a>,"  
@@ -2610,7 +2645,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 30 ======================== -->
-<li>
+<li data-topics="mimo" data-year="2023">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/47366/nbnfioulu-202401191355.pdf?sequence=1&isAllowed=y" target="_blank">Beam Squint Analysis and Mitigation via Hybrid Beamforming Design in THz Communications</a>,"  
@@ -2631,7 +2666,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 31 ======================== -->
-<li>
+<li data-topics="mimo" data-year="2022">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, J. Kokkoniemi, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44965/nbnfi-fe2023021627492.pdf?sequence=1&isAllowed=y" target="_blank">Beam Squint Effects in THz Communications with UPA and ULA: Comparison and Hybrid Beamforming Design</a>,"  
@@ -2652,7 +2687,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 32 ======================== -->
-<li>
+<li data-topics="ris" data-year="2022">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, Q. Wu, A. Tolli, S. Chatzinotas, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/43582/nbnfi-fe2023032332879.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Active-Passive Reconfigurable Intelligent Surface-Assisted UAV Communications</a>,"  
@@ -2673,7 +2708,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 33 ======================== -->
-<li>
+<li data-topics="ris mimo" data-year="2022">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, Q. Wu, A. Tolli, S. Chatzinotas, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44165/nbnfi-fe202301091855.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Active-Passive Reconfigurable Intelligent Surface-Assisted Multi-User MISO Systems</a>,"  
@@ -2694,7 +2729,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 34 ======================== -->
-<li>
+<li data-topics="ris mimo" data-year="2022">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, S. Chatzinotas, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44153/nbnfi-fe202301091846.pdf?sequence=1&isAllowed=y" target="_blank">Downlink Throughput of Cell-Free Massive MIMO Systems Assisted by Hybrid Relay-Reflecting Intelligent Surfaces</a>,"  
@@ -2715,7 +2750,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER 35 ======================== -->
-<li>
+<li data-topics="ris mimo" data-year="2022">
 <div class="pub-main">
 E. Egashira, D. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/33525/nbnfi-fe2022091258396.pdf?sequence=1&isAllowed=y" target="_blank">Secrecy Capacity Maximization for a Hybrid Relay-RIS Scheme in mmWave MIMO Networks</a>,"  
@@ -2736,7 +2771,7 @@ E. Egashira, D. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER A ======================== -->
-<li>
+<li data-topics="isac ml" data-year="2021">
 <div class="pub-main">
 T. H.-The, Q.-V. Pham, T.-V. Nguyen, V.-S. Doan, <strong>N. T. Nguyen</strong>, D. B. d. Costa, and D.-S. Kim,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/34153/nbnfi-fe202201031020.pdf?sequence=1&isAllowed=y" target="_blank">Densely-Accumulated Convolutional Network for Accurate LPI Radar Waveform Recognition</a>,"  
@@ -2757,7 +2792,7 @@ T. H.-The, Q.-V. Pham, T.-V. Nguyen, V.-S. Doan, <strong>N. T. Nguyen</strong>, 
 </li>
 
 <!-- ======================== CONF PAPER B ======================== -->
-<li>
+<li data-topics="mimo" data-year="2021">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/52175/nbnfioulu-202410076207.pdf?sequence=1&isAllowed=y" target="_blank">Switch-based Hybrid Beamforming for Wideband Multi-Carrier Communications</a>,"  
@@ -2777,7 +2812,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER C ======================== -->
-<li>
+<li data-topics="mimo" data-year="2021">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/43618/nbnfi-fe2023032332868.pdf?sequence=1&isAllowed=y" target="_blank">Closed-Form Hybrid Beamforming Solution for Spectral Efficiency Upper Bound Maximization in MmWave MIMO-OFDM Systems</a>,"  
@@ -2798,7 +2833,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 </li>
 
 <!-- ======================== CONF PAPER D ======================== -->
-<li>
+<li data-topics="ris" data-year="2021">
 <div class="pub-main">
 K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44157/nbnfi-fe202301091858.pdf?sequence=1&isAllowed=y" target="_blank">Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface</a>,"  
@@ -2819,7 +2854,7 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 </li>
 
 <!-- ======================== CONF PAPER E ======================== -->
-<li>
+<li data-topics="ml ris mimo" data-year="2021">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, L. V. Nguyen, T. Huynh-T., D. H. N. Nguyen, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/45210/nbnfi-fe2023040434974.pdf?sequence=1&isAllowed=y" target="_blank">Machine Learning-based Reconfigurable Intelligent Surface-aided MIMO Systems</a>,"  
@@ -2840,7 +2875,7 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 </li>
 
 <!-- ======================== CONF PAPER F ======================== -->
-<li>
+<li data-topics="ris mimo" data-year="2021">
 <div class="pub-main">
 J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/30719/nbnfi-fe2021100149102.pdf?sequence=1&isAllowed=y" target="_blank">Channel Estimation and Hybrid Architectures for RIS-Assisted Communications</a>,"  
@@ -2861,7 +2896,7 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
 </li>
 
 <!-- ======================== CONF PAPER G ======================== -->
-<li>
+<li data-topics="ris" data-year="2021">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, Q.-D. Vu, K. Lee, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/32680/nbnfi-fe2022032124246.pdf?sequence=1&isAllowed=y" target="_blank">Spectral Efficiency Optimization for Hybrid Relay-Reflecting Intelligent Surface</a>,"  
@@ -2885,9 +2920,17 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
 
 </div>
 
+<!-- Topic view: filled by showPubTopic() with copies of the entries tagged
+     with that topic (data-topics on each <li>), newest first. -->
+<div id="pub-topic-section" style="display:none;">
+<h2 class="pub-section-title" id="pub-topic-title"></h2>
+<ol class="pub-justify" id="pub-topic-list"></ol>
+</div>
+
 <!-- Copy helper -->
 <script>
 function showPubCategory(category){
+  document.getElementById('pub-topic-section').style.display = 'none';
   document.querySelectorAll('.pubtab-section').forEach(function(section){
     const categories = section.dataset.pubcat.split(' ');
     section.style.display = categories.includes(category) ? '' : 'none';
@@ -2896,14 +2939,51 @@ function showPubCategory(category){
     btn.classList.toggle('active', btn.id === 'pub-stat-btn-' + category);
   });
 }
-showPubCategory('journal');
-document.querySelectorAll('.pub-justify li details').forEach(function(d){
-  d.addEventListener('toggle', function(){
-    const li = d.closest('li');
-    if (!li) return;
-    li.classList.toggle('pub-li-open', d.open);
+/* Entries tagged with a topic, newest first: by year, and within a year in
+   page order (book chapter, under review, journals, conferences). */
+function pubTopicEntries(topic){
+  const all = Array.from(document.querySelectorAll('.pubtab-section .pub-justify > li'));
+  return all
+    .map(function(li, i){ return { li: li, i: i, year: parseInt(li.dataset.year, 10) || 0 }; })
+    .filter(function(e){ return (e.li.dataset.topics || '').split(' ').includes(topic); })
+    .sort(function(a, b){ return (b.year - a.year) || (a.i - b.i); });
+}
+function showPubTopic(topic){
+  const btn = document.getElementById('pub-topic-btn-' + topic);
+  const list = document.getElementById('pub-topic-list');
+  const entries = pubTopicEntries(topic);
+  list.innerHTML = '';
+  entries.forEach(function(e){
+    const copy = e.li.cloneNode(true);
+    copy.classList.remove('pub-li-open');
+    copy.querySelectorAll('details[open]').forEach(function(d){ d.open = false; });
+    /* Keep element ids unique so each Copy button reads its own BibTeX. */
+    copy.querySelectorAll('code[id]').forEach(function(code){
+      const id = code.id + '-topic';
+      const copyBtn = code.closest('details').querySelector('button');
+      code.id = id;
+      if (copyBtn) copyBtn.onclick = function(){ copyBib(id, copyBtn); return false; };
+    });
+    list.appendChild(copy);
   });
+  document.getElementById('pub-topic-title').textContent =
+    btn.querySelector('.pub-stat-icon').textContent + ' ' + btn.querySelector('.pub-stat-label').textContent;
+  document.querySelectorAll('.pubtab-section').forEach(function(section){ section.style.display = 'none'; });
+  document.getElementById('pub-topic-section').style.display = '';
+  document.querySelectorAll('.pub-stat-card').forEach(function(b){ b.classList.toggle('active', b === btn); });
+}
+document.querySelectorAll('.pub-topics .pub-stat-card').forEach(function(btn){
+  btn.querySelector('.pub-stat-num').textContent = pubTopicEntries(btn.dataset.topic).length;
 });
+showPubCategory('journal');
+/* The toggle event does not bubble, so listen in the capture phase; this
+   also covers the copies created for the topic view. */
+document.addEventListener('toggle', function(e){
+  const d = e.target;
+  if (!d.matches || !d.matches('.pub-justify li details')) return;
+  const li = d.closest('li');
+  if (li) li.classList.toggle('pub-li-open', d.open);
+}, true);
 /* Close an open BibTeX popover when clicking anywhere outside it.
    (Block comment on purpose: the compress layout joins this script onto
    one line, where a line comment would swallow all the code after it.) */
