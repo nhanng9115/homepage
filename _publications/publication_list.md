@@ -58,14 +58,25 @@ html[data-theme="dark"] .pub-justify li span em {
 
 /* ---- Stats strip, now doubling as the category tabs: click a card to
    filter the list below to its category; the active one stays highlighted ---- */
-.pub-stats {
-  display: flex;
-  flex-wrap: wrap;
+/* Both card rows share a 4-column grid; when the content column gets too
+   narrow for four cards they fold to 2x2 (never 3+1), then to one column. */
+.pub-cards { container-type: inline-size; margin: 4px 0 24px 0; }
+.pub-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-auto-rows: 1fr;   /* every card the same height, across both rows */
   gap: 12px;
-  margin: 4px 0 24px 0;
+}
+/* The two rows are only groupings; their cards are laid out directly on
+   the shared grid so all eight line up and match in size. */
+.pub-stats { display: contents; }
+@container (max-width: 640px) {
+  .pub-cards-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@container (max-width: 330px) {
+  .pub-cards-grid { grid-template-columns: 1fr; }
 }
 .pub-stat-card {
-  flex: 1 1 150px;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -108,14 +119,14 @@ html[data-theme="dark"] .pub-justify li span em {
   align-items: center;
   justify-content: center;
   font-size: 17px;
+  color: #ffffff;
 }
+/* Line-drawn icons (topics without a fitting emoji) follow the text colour. */
+.pub-stat-icon svg { width: 20px; height: 20px; }
+.pub-section-title svg { width: 1em; height: 1em; vertical-align: -0.12em; }
 .pub-stat-text { display: flex; flex-direction: column; line-height: 1.15; }
 .pub-stat-num { font-size: 18px; font-weight: 800; color: var(--ink); }
 .pub-stat-label { font-size: 10.5px; color: var(--muted); font-weight: 600; }
-
-/* ---- Second row of cards: research topics. Same card style, pulled up
-   close under the stats row so the two read as one block. ---- */
-.pub-stats.pub-topics { margin-top: -12px; }
 
 /* ---- Card-style entries, two-column: content left / actions right ---- */
 .pub-justify {
@@ -313,6 +324,8 @@ html[data-theme="dark"] .pub-justify li summary:hover span {
 </style>
 {% endunless %}
 
+<div class="pub-cards">
+<div class="pub-cards-grid">
 <div class="pub-stats">
   <button type="button" class="pub-stat-card active" id="pub-stat-btn-journal" onclick="showPubCategory('journal')">
     <span class="pub-stat-icon">📚</span>
@@ -360,19 +373,21 @@ html[data-theme="dark"] .pub-justify li summary:hover span {
     </span>
   </button>
   <button type="button" class="pub-stat-card" id="pub-topic-btn-ris" data-topic="ris" onclick="showPubTopic('ris')">
-    <span class="pub-stat-icon">🪞</span>
+    <span class="pub-stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="4.6" height="4.6" rx="1"/><rect x="9.7" y="3" width="4.6" height="4.6" rx="1"/><rect x="16.4" y="3" width="4.6" height="4.6" rx="1"/><rect x="3" y="9.7" width="4.6" height="4.6" rx="1"/><rect x="9.7" y="9.7" width="4.6" height="4.6" rx="1"/><rect x="16.4" y="9.7" width="4.6" height="4.6" rx="1"/><rect x="3" y="16.4" width="4.6" height="4.6" rx="1"/><rect x="9.7" y="16.4" width="4.6" height="4.6" rx="1"/><rect x="16.4" y="16.4" width="4.6" height="4.6" rx="1"/></svg></span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">–</span>
       <span class="pub-stat-label">Reconfigurable Intelligent Surfaces</span>
     </span>
   </button>
   <button type="button" class="pub-stat-card" id="pub-topic-btn-mimo" data-topic="mimo" onclick="showPubTopic('mimo')">
-    <span class="pub-stat-icon">📶</span>
+    <span class="pub-stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M6 21V9"/><path d="M3.4 4.5L6 9l2.6-4.5"/><path d="M12 21V9"/><path d="M9.4 4.5L12 9l2.6-4.5"/><path d="M18 21V9"/><path d="M15.4 4.5L18 9l2.6-4.5"/></svg></span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">–</span>
       <span class="pub-stat-label">Massive MIMO &amp; Hybrid Beamforming</span>
     </span>
   </button>
+</div>
+</div>
 </div>
 
 <div class="pubtab-section" data-pubcat="journal total">
@@ -2966,8 +2981,9 @@ function showPubTopic(topic){
     });
     list.appendChild(copy);
   });
-  document.getElementById('pub-topic-title').textContent =
-    btn.querySelector('.pub-stat-icon').textContent + ' ' + btn.querySelector('.pub-stat-label').textContent;
+  const title = document.getElementById('pub-topic-title');
+  title.innerHTML = btn.querySelector('.pub-stat-icon').innerHTML + ' ';
+  title.appendChild(document.createTextNode(btn.querySelector('.pub-stat-label').textContent));
   document.querySelectorAll('.pubtab-section').forEach(function(section){ section.style.display = 'none'; });
   document.getElementById('pub-topic-section').style.display = '';
   document.querySelectorAll('.pub-stat-card').forEach(function(b){ b.classList.toggle('active', b === btn); });
