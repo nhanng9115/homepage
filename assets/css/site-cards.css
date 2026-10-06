@@ -271,3 +271,8 @@ html[data-theme="dark"] body {
     linear-gradient(180deg, #14162a 0%, #191c36 55%, #141b2c 100%) !important;
   background-attachment: fixed !important;
 }
+
+/* ---- Slightly smaller base type sitewide, to fit more content per screen ---- */
+html {
+  font-size: 16px !important; /* theme bumps this to 18px on wider screens by default */
+}

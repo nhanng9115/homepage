@@ -26,7 +26,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 
 /* ---- Section titles ---- */
 .pub-section-title {
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   font-weight: 700;
   margin: 26px 0 12px 0;
   padding-bottom: 6px;
@@ -72,8 +72,8 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   font-size: 17px;
 }
 .pub-stat-text { display: flex; flex-direction: column; line-height: 1.15; }
-.pub-stat-num { font-size: 20px; font-weight: 800; color: var(--ink); }
-.pub-stat-label { font-size: 11.5px; color: var(--muted); font-weight: 600; }
+.pub-stat-num { font-size: 18px; font-weight: 800; color: var(--ink); }
+.pub-stat-label { font-size: 10.5px; color: var(--muted); font-weight: 600; }
 
 /* ---- Tabs ---- */
 .pub-tabs { display: flex; gap: 8px; margin: 10px 0 20px 0; flex-wrap: wrap; }
@@ -84,7 +84,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   background: #ffffff;
   color: var(--acc);
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   cursor: pointer;
   transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
@@ -178,24 +178,6 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   text-decoration: underline !important;
 }
 
-/* ---- Status pills (muted) ---- */
-.pub-status {
-  display: inline-block;
-  padding: 1px 9px;
-  border-radius: 999px;
-  font-size: 10.5px;
-  font-weight: 700;
-  letter-spacing: 0.2px;
-  margin-left: 4px;
-  vertical-align: 1px;
-  white-space: nowrap;
-}
-.pub-status-submitted { background: var(--warm-soft); color: var(--warm); border: 1px solid #ecd4b9; }
-.pub-status-accepted  { background: #eef4ef; color: #3f6b4f; border: 1px solid #cddccf; }
-.pub-status-early     { background: #eef4f4; color: #3c6b68; border: 1px solid #cfe0df; }
-.pub-status-revision  { background: #f3f1ea; color: #70633f; border: 1px solid #ddd4bf; }
-.pub-status-other     { background: #f3f4f6; color: #4b5563; border: 1px solid #d8dce1; }
-
 /* ---- Right-hand actions column: View Paper + BibTeX, same button style ---- */
 .pub-actions {
   flex: 0 0 90px;
@@ -210,14 +192,14 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
-  width: 72px;
-  padding: 4px 0 !important;
+  width: 68px;
+  padding: 3px 0 !important;
   border-radius: 6px !important;
   background: #ffffff !important;
   border: 1px solid var(--acc-border) !important;
   color: var(--acc-dark) !important;
   font-weight: 600 !important;
-  font-size: 11.5px;
+  font-size: 10.5px;
   text-decoration: none !important;
   white-space: nowrap;
   text-align: center;
@@ -356,7 +338,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 <li>
 <div class="pub-main">
 A. Raza, <strong>N. T. Nguyen</strong>, N. Shlezinger, and M. Juntti,    
-"DoA Estimation Via Atomic Norm Approximation Using Model-Based Machine Learning," <span><em>IEEE Signal Processing Letters</em></span>, 2026. <span class="pub-status pub-status-submitted">Submitted</span>
+"DoA Estimation Via Atomic Norm Approximation Using Model-Based Machine Learning," <span><em>IEEE Signal Processing Letters</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -374,7 +356,7 @@ A. Raza, <strong>N. T. Nguyen</strong>, N. Shlezinger, and M. Juntti,
 <li>
 <div class="pub-main">
 Huy T. Nguyen, Huy G. Tran, Trung Hieu Vu, Hoa T. Nguyen, <strong>N. T. Nguyen</strong>, Vo-Nguyen Quoc Bao,  
-"Robust Energy-Efficient Design for Imperfect Integrated Sensing and Communication Systems," <span><em>International Conference on Computing and Communication Technologies (RIVF)</em></span>, 2026. <span class="pub-status pub-status-submitted">Submitted</span>
+"Robust Energy-Efficient Design for Imperfect Integrated Sensing and Communication Systems," <span><em>International Conference on Computing and Communication Technologies (RIVF)</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -392,7 +374,7 @@ Huy T. Nguyen, Huy G. Tran, Trung Hieu Vu, Hoa T. Nguyen, <strong>N. T. Nguyen</
 <li>
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, P. N. Tran, M. Ma, H. T. Nguyen, A. Alkhateeb, and M. Juntti,  
-"Energy-Efficient Spiking Neural Networks for Sensing-Aided Beam Prediction," <span><em>International Conference on Computing and Communication Technologies (RIVF)</em></span>, 2026. <span class="pub-status pub-status-submitted">Submitted</span>
+"Energy-Efficient Spiking Neural Networks for Sensing-Aided Beam Prediction," <span><em>International Conference on Computing and Communication Technologies (RIVF)</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -410,7 +392,7 @@ Huy T. Nguyen, Huy G. Tran, Trung Hieu Vu, Hoa T. Nguyen, <strong>N. T. Nguyen</
 <li>
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, P. N. Tran, K. Deka, M. D. Renzo, A. G. Armada, and M. Juntti,  
-"Spike-Native Neural Networks for Switch Configuration in Hybrid Beamforming," <span><em>IEEE International Conference on Communications (ICC)</em></span>, 2026. <span class="pub-status pub-status-submitted">Submitted</span>
+"Spike-Native Neural Networks for Switch Configuration in Hybrid Beamforming," <span><em>IEEE International Conference on Communications (ICC)</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -428,7 +410,7 @@ Huy T. Nguyen, Huy G. Tran, Trung Hieu Vu, Hoa T. Nguyen, <strong>N. T. Nguyen</
 <li>
 <div class="pub-main">
 L. Ribeiro, E. M. Taghavi, R. S. Bhagavathula, <strong>N. T. Nguyen</strong>, D. Kumar, M. Tayyab, M. Jada, D. Laselva, and M. Juntti,  
-"Energy‑Efficient 6G Radio Networks: An Industry Review of Transmit Antenna and Power Adaptations," <span><em>IEEE Wireless Communications</em></span>, 2026. <span class="pub-status pub-status-submitted">Submitted</span>
+"Energy‑Efficient 6G Radio Networks: An Industry Review of Transmit Antenna and Power Adaptations," <span><em>IEEE Wireless Communications</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -446,7 +428,7 @@ L. Ribeiro, E. M. Taghavi, R. S. Bhagavathula, <strong>N. T. Nguyen</strong>, D.
 <li>
 <div class="pub-main">
 Vo P. S., V.-D. Nguyen, <strong>N. T. Nguyen</strong>, T.-V. Truong, and S. Shatzinotas,  
-"Performance Analysis and Sensing-Aware Resource Allocation for FD mMIMO ISCC Networks," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. <span class="pub-status pub-status-submitted">Submitted</span>
+"Performance Analysis and Sensing-Aware Resource Allocation for FD mMIMO ISCC Networks," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -465,7 +447,7 @@ Vo P. S., V.-D. Nguyen, <strong>N. T. Nguyen</strong>, T.-V. Truong, and S. Shat
 <li>
 <div class="pub-main">
 S. Uniyal, T. Fang, V.-D. Nguye, H. Q. Ngo, M. Juntti, <strong>N. T. Nguyen</strong>,  
-"<a href="https://arxiv.org/pdf/2609.18467" target="_blank">Massive MIMO ISAC Under Target-Angle Uncertainty: CRLB Outage Analysis and Robust Resource Allocation</a>," <span><em>IEEE Transactions on Signal Processing</em></span>, 2026. <span class="pub-status pub-status-submitted">Submitted</span>
+"<a href="https://arxiv.org/pdf/2609.18467" target="_blank">Massive MIMO ISAC Under Target-Angle Uncertainty: CRLB Outage Analysis and Robust Resource Allocation</a>," <span><em>IEEE Transactions on Signal Processing</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 <a class="pub-view-btn" href="https://arxiv.org/pdf/2609.18467" target="_blank">View</a>
@@ -483,7 +465,7 @@ S. Uniyal, T. Fang, V.-D. Nguye, H. Q. Ngo, M. Juntti, <strong>N. T. Nguyen</str
 <li>
 <div class="pub-main">
 A. S. Gharagezlou, P. Mobaraki, M. Monemi, <strong>N. T. Nguyen</strong>, M. Rasti, S. Ali, and M. Matti Latva-aho,  
-"<a href="https://oulurepo.oulu.fi/handle/10024/64432" target="_blank">Deep-Unfolded Wideband ISAC Beamforming for DMA Under Frequency-Selective Lorentzian Model</a>," <span><em>IEEE Transactions on Communications</em></span>, 2026. <span class="pub-status pub-status-submitted">Submitted</span>
+"<a href="https://oulurepo.oulu.fi/handle/10024/64432" target="_blank">Deep-Unfolded Wideband ISAC Beamforming for DMA Under Frequency-Selective Lorentzian Model</a>," <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 <a class="pub-view-btn" href="https://oulurepo.oulu.fi/handle/10024/64432" target="_blank">View</a>
@@ -501,7 +483,7 @@ A. S. Gharagezlou, P. Mobaraki, M. Monemi, <strong>N. T. Nguyen</strong>, M. Ras
 <li>
 <div class="pub-main">
 S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</strong>,  
-"GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive MIMO systems," <span><em>IEEE Transactions on Communications</em></span>, 2026. <span class="pub-status pub-status-submitted">Submitted</span>
+"GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive MIMO systems," <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -520,7 +502,7 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
 <li>
 <div class="pub-main">
 P. Mobaraki, A. Zaker, M. D. Renzo, M. Juntti, and  <strong>N. T. Nguyen</strong>,  
-"<a href="https://arxiv.org/pdf/2607.04889" target="_blank">Energy Efficiency Maximization for Hybrid RIS-Aided Communications via Deep Unfolding</a>," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. <span class="pub-status pub-status-submitted">Submitted</span>
+"<a href="https://arxiv.org/pdf/2607.04889" target="_blank">Energy Efficiency Maximization for Hybrid RIS-Aided Communications via Deep Unfolding</a>," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 <a class="pub-view-btn" href="https://arxiv.org/pdf/2607.04889" target="_blank">View</a>
@@ -538,7 +520,7 @@ P. Mobaraki, A. Zaker, M. D. Renzo, M. Juntti, and  <strong>N. T. Nguyen</strong
 <li>
 <div class="pub-main">
 C. K. Singh, S. Uniyal, <strong>N. T. Nguyen</strong>, A. S. d. Sena, S.-A. Kim, J. Kim, M. Latva-aho, and M. Juntti,  
-"Performance Analysis of Hybrid STAR-RIS-Assisted Bistatic ISAC-RSMA Systems," <span><em>IEEE Transactions on Communications</em></span>, 2026. <span class="pub-status pub-status-submitted">Submitted</span>
+"Performance Analysis of Hybrid STAR-RIS-Assisted Bistatic ISAC-RSMA Systems," <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -556,7 +538,7 @@ C. K. Singh, S. Uniyal, <strong>N. T. Nguyen</strong>, A. S. d. Sena, S.-A. Kim,
 <li>
 <div class="pub-main">
 E. Ataeebojd, <strong>N. T. Nguyen</strong>, S. Yoo, J. Kang, M. Juntti, M. Latva-aho, and M. Rasti,  
-"<a href="https://arxiv.org/pdf/2605.03558" target="_blank">Resource Allocation and AoI-Aware Detection for ISAC with Stacked Intelligent Metasurfaces</a>," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. <span class="pub-status pub-status-submitted">Submitted</span>
+"<a href="https://arxiv.org/pdf/2605.03558" target="_blank">Resource Allocation and AoI-Aware Detection for ISAC with Stacked Intelligent Metasurfaces</a>," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 <a class="pub-view-btn" href="https://arxiv.org/pdf/2605.03558" target="_blank">View</a>
@@ -574,7 +556,7 @@ E. Ataeebojd, <strong>N. T. Nguyen</strong>, S. Yoo, J. Kang, M. Juntti, M. Latv
 <li>
 <div class="pub-main">
 P. N. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,  
-"Graph Attention DRL for Energy-Efficient Joint AP, Antenna, and Power Control in Cell-Free Networks," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. <span class="pub-status pub-status-revision">Major Revision</span>
+"Graph Attention DRL for Energy-Efficient Joint AP, Antenna, and Power Control in Cell-Free Networks," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>major revision</strong>)
 </div>
 <div class="pub-actions">
 
@@ -593,7 +575,7 @@ P. N. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,
 <div class="pub-main">
 T. Fang, M. Ma, M. Juntti, I. Lee, J. Kang, and <strong>N. T. Nguyen</strong>,  
 "<a href="https://oulurepo.oulu.fi/handle/10024/61879" target="_blank">Tri-Hybrid Beamforming Design for Large-Scale MIMO ISAC Systems</a>,"  
-<span><em>IEEE Transactions on Signal Processing</em></span>, 2026. <span class="pub-status pub-status-submitted">Submitted</span>
+<span><em>IEEE Transactions on Signal Processing</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 <a class="pub-view-btn" href="https://oulurepo.oulu.fi/handle/10024/61879" target="_blank">View</a>
@@ -612,7 +594,7 @@ T. Fang, M. Ma, M. Juntti, I. Lee, J. Kang, and <strong>N. T. Nguyen</strong>,
 <div class="pub-main">
 T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "Deep Unfolded Shifted Power Iteration based ISAC Beamforming for Sum Rate and CRLB Balancing,"  
-<span><em>IEEE Communications Letter</em></span>, 2026. <span class="pub-status pub-status-submitted">Submitted</span>
+<span><em>IEEE Communications Letter</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -631,7 +613,7 @@ T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li>
 <div class="pub-main">
 S. Uniyal, T. Fang, M. D. Renzo, M. Juntti, and <strong>N. T. Nguyen</strong>,  
-"<a href="https://arxiv.org/pdf/2608.02169" target="_blank">Performance Analysis and Joint Beamforming for Hybrid RIS-Aided Massive MIMO ISAC</a>," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. <span class="pub-status pub-status-revision">Minor Revision</span>
+"<a href="https://arxiv.org/pdf/2608.02169" target="_blank">Performance Analysis and Joint Beamforming for Hybrid RIS-Aided Massive MIMO ISAC</a>," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>minor revision</strong>)
 </div>
 <div class="pub-actions">
 <a class="pub-view-btn" href="https://arxiv.org/pdf/2608.02169" target="_blank">View</a>
@@ -660,7 +642,7 @@ S. Uniyal, T. Fang, M. D. Renzo, M. Juntti, and <strong>N. T. Nguyen</strong>,
 <div class="pub-main">
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
 "<a href="https://oulurepo.oulu.fi/handle/10024/64538" target="_blank">Beamforming Design and Subcarrier Allocation for Multicarrier Multiuser MIMO ISAC</a>,"  
-<span><em>IEEE Transactions on Communications</em></span>, 2026. <span class="pub-status pub-status-accepted">Accepted</span>
+<span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>accepted</strong>)
 </div>
 <div class="pub-actions">
 <a class="pub-view-btn" href="https://oulurepo.oulu.fi/handle/10024/64538" target="_blank">View</a>
@@ -678,7 +660,7 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2509.11419" target="_blank">Knowledge Distillation for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
-<span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. <span class="pub-status pub-status-accepted">Accepted</span>
+<span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>accepted</strong>)
 </div>
 <div class="pub-actions">
 <a class="pub-view-btn" href="https://arxiv.org/pdf/2509.11419" target="_blank">View</a>
@@ -696,7 +678,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindleh
 <div class="pub-main">
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2509.19092" target="_blank">Data-free knowledge distillation for LiDAR-aided beam tracking</a>,"  
-<span><em>IEEE Transactions on Vehicular Technology</em></span>, 2026. <span class="pub-status pub-status-accepted">Accepted</span>
+<span><em>IEEE Transactions on Vehicular Technology</em></span>, 2026. (<strong>accepted</strong>)
 </div>
 <div class="pub-actions">
 <a class="pub-view-btn" href="https://arxiv.org/pdf/2509.19092" target="_blank">View</a>
@@ -715,7 +697,7 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 <div class="pub-main">
 T. Fang, M. Ma, M. Juntti, N. Shlezinger, A. L. Swindlehurst, and <strong>N. T. Nguyen</strong>,  
 "<a href="https://arxiv.org/pdf/2503.09489" target="_blank">Optimal ISAC Beamforming Structure and Efficient Algorithms for Sum Rate and CRLB Balancing</a>,"  
-<span><em>IEEE Transactions on Signal Processing</em></span>, 2026. <span class="pub-status pub-status-accepted">Accepted</span>
+<span><em>IEEE Transactions on Signal Processing</em></span>, 2026. (<strong>accepted</strong>)
 </div>
 <div class="pub-actions">
 <a class="pub-view-btn" href="https://arxiv.org/pdf/2503.09489" target="_blank">View</a>
@@ -734,7 +716,7 @@ T. Fang, M. Ma, M. Juntti, N. Shlezinger, A. L. Swindlehurst, and <strong>N. T. 
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, M. Ma, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
 "<a href="https://arxiv.org/pdf/2603.16116" target="_blank">Knowledge distillation for collaborative learning in distributed communications and sensing</a>,"  
-<span><em>IEEE Communications Magazine</em></span>, 2026. <span class="pub-status pub-status-accepted">Accepted</span>
+<span><em>IEEE Communications Magazine</em></span>, 2026. (<strong>accepted</strong>)
 </div>
 <div class="pub-actions">
 <a class="pub-view-btn" href="https://arxiv.org/pdf/2603.16116" target="_blank">View</a>
@@ -772,7 +754,7 @@ S. Bhandari, Thang X. Vu, <strong>N. T. Nguyen</strong>, and S. Chatzinotas,
 <div class="pub-main">
 I. Perera, <strong>N. T. Nguyen</strong>, P. Pirinen, and N. Rajatheva,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11370420" target="_blank">Bi-Static ISAC Beamforming Design in Multi-User MIMO Systems</a>,"  
-<span><em>IEEE Transactions on Vehicular Technology</em></span>, Feb. 2026. <span class="pub-status pub-status-early">Early Access</span>
+<span><em>IEEE Transactions on Vehicular Technology</em></span>, Feb. 2026. (<strong>early access</strong>)
 </div>
 <div class="pub-actions">
 <a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11370420" target="_blank">View</a>
