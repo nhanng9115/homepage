@@ -3,18 +3,10 @@
 <meta charset="utf-8">
 
 <script>
-  // Default the site to dark mode unless the visitor explicitly chose
-  // light before. Runs synchronously before anything paints, so there is
-  // no flash of the light theme on load.
-  (function () {
-    try {
-      if (localStorage.getItem("theme") !== "light") {
-        document.documentElement.setAttribute("data-theme", "dark");
-      }
-    } catch (e) {
-      document.documentElement.setAttribute("data-theme", "dark");
-    }
-  })();
+  // The site only ships a dark theme now (the toggle was removed), so
+  // force it unconditionally and as early as possible to avoid a flash
+  // of unstyled/light content.
+  document.documentElement.setAttribute("data-theme", "dark");
 </script>
 
 {% include seo.html %}

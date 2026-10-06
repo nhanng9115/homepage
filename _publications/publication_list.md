@@ -56,7 +56,8 @@ html[data-theme="dark"] .pub-justify li span em {
   color: var(--ink);
 }
 
-/* ---- Stats strip: plain white cards with a colored icon chip ---- */
+/* ---- Stats strip, now doubling as the category tabs: click a card to
+   filter the list below to its category; the active one stays highlighted ---- */
 .pub-stats {
   display: flex;
   flex-wrap: wrap;
@@ -73,13 +74,29 @@ html[data-theme="dark"] .pub-justify li span em {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   box-shadow: 0 1px 3px rgba(124, 58, 237, 0.07);
-  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
 }
 .pub-stat-card:hover {
   box-shadow: 0 8px 18px rgba(124, 58, 237, 0.16);
   border-color: var(--acc);
   transform: translateY(-2px);
 }
+.pub-stat-card.active {
+  background: var(--acc-grad);
+  border-color: transparent;
+  box-shadow: 0 6px 16px rgba(124, 58, 237, 0.35);
+}
+.pub-stat-card.active .pub-stat-icon {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: none;
+}
+.pub-stat-card.active .pub-stat-num,
+.pub-stat-card.active .pub-stat-label { color: #ffffff; }
 .pub-stat-icon {
   flex: 0 0 auto;
   width: 36px;
@@ -95,27 +112,6 @@ html[data-theme="dark"] .pub-justify li span em {
 .pub-stat-text { display: flex; flex-direction: column; line-height: 1.15; }
 .pub-stat-num { font-size: 18px; font-weight: 800; color: var(--ink); }
 .pub-stat-label { font-size: 10.5px; color: var(--muted); font-weight: 600; }
-
-/* ---- Tabs ---- */
-.pub-tabs { display: flex; gap: 8px; margin: 10px 0 20px 0; flex-wrap: wrap; }
-.pub-tab-btn {
-  padding: 7px 16px;
-  border: 1px solid var(--acc-border);
-  border-radius: 8px;
-  background: #ffffff;
-  color: var(--acc);
-  font-weight: 600;
-  font-size: 13px;
-  cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
-}
-.pub-tab-btn:hover { background: var(--acc-soft); border-color: var(--acc); color: var(--acc-dark); }
-.pub-tab-btn.active {
-  background: var(--acc-grad);
-  border-color: transparent;
-  color: #ffffff;
-  box-shadow: 0 3px 10px rgba(124, 58, 237, 0.3);
-}
 
 /* ---- Card-style entries, two-column: content left / actions right ---- */
 .pub-justify {
@@ -233,6 +229,22 @@ html[data-theme="dark"] .pub-justify li span em {
   border-color: transparent !important;
   color: #ffffff !important;
 }
+/* The button keeps a solid white resting background in both themes (it
+   needs to pop off the dark card), so its text/border must stay fixed
+   dark-on-white here rather than following --acc-dark/--acc-border,
+   which flip to near-white for the surrounding dark-mode card text. */
+html[data-theme="dark"] .pub-justify li a.pub-view-btn,
+html[data-theme="dark"] .pub-justify li summary span {
+  background: #ffffff !important;
+  border: 1px solid #c9b6f2 !important;
+  color: #4c1d95 !important;
+}
+html[data-theme="dark"] .pub-justify li a.pub-view-btn:hover,
+html[data-theme="dark"] .pub-justify li summary:hover span {
+  background: linear-gradient(135deg, #7c3aed, #4c1d95) !important;
+  border-color: transparent !important;
+  color: #ffffff !important;
+}
 
 /* BibTeX toggle: button sits in the actions column, the revealed box pops
    out as a floating card so it never squeezes the narrow actions column */
@@ -292,42 +304,37 @@ html[data-theme="dark"] .pub-justify li span em {
 {% endunless %}
 
 <div class="pub-stats">
-  <div class="pub-stat-card">
+  <button type="button" class="pub-stat-card active" id="pub-stat-btn-journal" onclick="showPubCategory('journal')">
     <span class="pub-stat-icon">📚</span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">57</span>
       <span class="pub-stat-label">Journal &amp; Book</span>
     </span>
-  </div>
-  <div class="pub-stat-card">
+  </button>
+  <button type="button" class="pub-stat-card" id="pub-stat-btn-conference" onclick="showPubCategory('conference')">
     <span class="pub-stat-icon">🎤</span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">61</span>
       <span class="pub-stat-label">Conference Papers</span>
     </span>
-  </div>
-  <div class="pub-stat-card">
+  </button>
+  <button type="button" class="pub-stat-card" id="pub-stat-btn-review" onclick="showPubCategory('review')">
     <span class="pub-stat-icon">📝</span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">16</span>
       <span class="pub-stat-label">Under Review</span>
     </span>
-  </div>
-  <div class="pub-stat-card">
+  </button>
+  <button type="button" class="pub-stat-card" id="pub-stat-btn-total" onclick="showPubCategory('total')">
     <span class="pub-stat-icon">&Sigma;</span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">118</span>
       <span class="pub-stat-label">Total Publications</span>
     </span>
-  </div>
+  </button>
 </div>
 
-<div class="pub-tabs">
-  <button type="button" class="pub-tab-btn active" id="pub-tab-btn-journals" onclick="showPubTab('journals')">📚 Journals</button>
-  <button type="button" class="pub-tab-btn" id="pub-tab-btn-conference" onclick="showPubTab('conference')">🎤 Conference Papers</button>
-</div>
-
-<div id="pubtab-journals" class="pubtab-panel">
+<div class="pubtab-section" data-pubcat="journal total">
 
 <h2 class="pub-section-title">📘 Book Chapter</h2>
 
@@ -350,7 +357,9 @@ html[data-theme="dark"] .pub-justify li span em {
 
 
 </ol>
-  
+</div>
+
+<div class="pubtab-section" data-pubcat="journal review total">
 <h2 class="pub-section-title">📝 Submitted and Under Revision</h2>
 
 <ol class="pub-justify">
@@ -651,8 +660,9 @@ S. Uniyal, T. Fang, M. D. Renzo, M. Juntti, and <strong>N. T. Nguyen</strong>,
 
 
 </ol>
+</div>
 
-
+<div class="pubtab-section" data-pubcat="journal total">
 <hr style="height:6px;background:currentColor;border:0;border-radius:9999px;opacity:.6;margin:28px 0;">
 <h2 class="pub-section-title">📄 Journal Publications</h2>
 
@@ -1494,7 +1504,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 
 </div>
 
-<div id="pubtab-conference" class="pubtab-panel" style="display:none;">
+<div class="pubtab-section" data-pubcat="conference total" style="display:none;">
 
 <h2 class="pub-section-title">🎤 Conference Publications</h2>
 
@@ -2640,12 +2650,16 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
 
 <!-- Copy helper -->
 <script>
-function showPubTab(tabId){
-  document.getElementById('pubtab-journals').style.display = (tabId === 'journals') ? '' : 'none';
-  document.getElementById('pubtab-conference').style.display = (tabId === 'conference') ? '' : 'none';
-  document.getElementById('pub-tab-btn-journals').classList.toggle('active', tabId === 'journals');
-  document.getElementById('pub-tab-btn-conference').classList.toggle('active', tabId === 'conference');
+function showPubCategory(category){
+  document.querySelectorAll('.pubtab-section').forEach(function(section){
+    const categories = section.dataset.pubcat.split(' ');
+    section.style.display = categories.includes(category) ? '' : 'none';
+  });
+  document.querySelectorAll('.pub-stat-card').forEach(function(btn){
+    btn.classList.toggle('active', btn.id === 'pub-stat-btn-' + category);
+  });
 }
+showPubCategory('journal');
 document.querySelectorAll('.pub-justify li details').forEach(function(d){
   d.addEventListener('toggle', function(){
     const li = d.closest('li');
