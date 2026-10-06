@@ -19,6 +19,26 @@
   --site-warm-border: #ecd4b9;
 }
 
+/* ---- Dark mode: re-tint the same tokens so cards sit on a dark violet
+   panel with light text, instead of the light lavender meant for day mode
+   (which read as washed-out white-on-pink). Every component below is
+   already built from these variables, so this alone fixes all of them. ---- */
+html[data-theme="dark"] {
+  --site-acc: #a78bfa;
+  --site-acc2: #c4b5fd;
+  --site-acc-dark: #e4defb;
+  --site-acc-soft: rgba(167, 139, 250, 0.16);
+  --site-acc-border: rgba(167, 139, 250, 0.35);
+  --site-card-bg: linear-gradient(135deg, rgba(58, 42, 94, 0.55) 0%, rgba(48, 34, 82, 0.6) 48%, rgba(40, 28, 70, 0.65) 100%);
+  --site-card-border: rgba(167, 139, 250, 0.3);
+  --site-ink: #f3f0fb;
+  --site-muted: #b9aed6;
+  --site-line: rgba(255, 255, 255, 0.12);
+  --site-warm: #f2b583;
+  --site-warm-soft: rgba(242, 181, 131, 0.14);
+  --site-warm-border: rgba(242, 181, 131, 0.35);
+}
+
 .site-section-title {
   font-size: 1.4rem;
   font-weight: 700;

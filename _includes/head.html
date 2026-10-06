@@ -2,6 +2,21 @@
 
 <meta charset="utf-8">
 
+<script>
+  // Default the site to dark mode unless the visitor explicitly chose
+  // light before. Runs synchronously before anything paints, so there is
+  // no flash of the light theme on load.
+  (function () {
+    try {
+      if (localStorage.getItem("theme") !== "light") {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    } catch (e) {
+      document.documentElement.setAttribute("data-theme", "dark");
+    }
+  })();
+</script>
+
 {% include seo.html %}
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">

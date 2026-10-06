@@ -24,6 +24,27 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   --warm-soft: #faf1e8;
 }
 
+/* ---- Dark mode: re-tint the same tokens so the publication cards sit on
+   a dark violet panel with light text, instead of the light lavender
+   meant for day mode (which read as washed-out white-on-pink). ---- */
+html[data-theme="dark"] {
+  --acc: #a78bfa;
+  --acc2: #c4b5fd;
+  --acc-dark: #e4defb;
+  --acc-soft: rgba(167, 139, 250, 0.16);
+  --acc-border: rgba(167, 139, 250, 0.35);
+  --card-bg: linear-gradient(135deg, rgba(58, 42, 94, 0.55) 0%, rgba(48, 34, 82, 0.6) 48%, rgba(40, 28, 70, 0.65) 100%);
+  --card-border: rgba(167, 139, 250, 0.3);
+  --ink: #f3f0fb;
+  --muted: #b9aed6;
+  --line: rgba(255, 255, 255, 0.12);
+  --warm: #f2b583;
+  --warm-soft: rgba(242, 181, 131, 0.14);
+}
+html[data-theme="dark"] .pub-justify li span em {
+  color: #b7c2f0;
+}
+
 /* ---- Section titles ---- */
 .pub-section-title {
   font-size: 1.25rem;
