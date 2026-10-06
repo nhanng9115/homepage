@@ -1,0 +1,168 @@
+/* ======================================================================
+   Shared muted "card" design system — used by the homepage, projects,
+   supervision and team-activities pages for a consistent, understated look.
+   ====================================================================== */
+:root {
+  --site-acc: #3f5f72;        /* muted slate-blue accent */
+  --site-acc-dark: #2c4654;
+  --site-acc-soft: #eef3f6;   /* light tint for chips/hover */
+  --site-acc-border: #d7e3ea;
+  --site-ink: #1f2937;
+  --site-muted: #64748b;
+  --site-line: #e5e9ee;
+  --site-warm: #a66a3b;       /* muted terracotta, for awards/highlights */
+  --site-warm-soft: #faf1e8;
+  --site-warm-border: #ecd4b9;
+}
+
+.site-section-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 26px 0 14px 0;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--site-acc-border);
+  display: inline-block;
+  color: var(--site-ink);
+}
+
+/* ---- Generic card ---- */
+.site-card {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid var(--site-line);
+  border-left: 3px solid var(--site-acc);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.site-card:hover {
+  box-shadow: 0 6px 16px rgba(16, 24, 40, 0.08);
+  transform: translateY(-1px);
+}
+.site-card p:last-child,
+.site-card ul:last-child { margin-bottom: 0; }
+.site-card a {
+  color: var(--site-ink);
+  font-weight: 600;
+  text-decoration: none;
+}
+.site-card a:hover {
+  color: var(--site-acc);
+  text-decoration: underline;
+}
+
+/* ---- Icon chip (used in a card header) ---- */
+.site-icon-chip {
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  background: var(--site-acc-soft);
+  color: var(--site-acc);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.site-card-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.site-card-head h3 {
+  margin: 0;
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--site-ink);
+}
+
+/* ---- Meta rows inside a card (funder, collaborators, focus areas) ---- */
+.site-meta-label {
+  font-weight: 700;
+  color: var(--site-muted);
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin: 10px 0 4px 0;
+}
+.site-tag-row { display: flex; flex-wrap: wrap; gap: 6px; margin: 2px 0 4px 0; }
+.site-tag {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--site-acc-soft);
+  color: var(--site-acc-dark);
+  border: 1px solid var(--site-acc-border);
+  font-size: 0.82em;
+  font-weight: 600;
+}
+
+/* ---- Muted award / highlight badge (replaces bright red) ---- */
+.site-badge-award {
+  display: inline-block;
+  color: var(--site-warm);
+  background: var(--site-warm-soft);
+  border: 1px solid var(--site-warm-border);
+  padding: 1px 9px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.82em;
+}
+
+/* ---- Card grid (projects, team) ---- */
+.site-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+  margin: 10px 0 20px 0;
+}
+.site-grid .site-card { margin-bottom: 0; }
+
+/* ---- Timeline (news feed) ---- */
+.site-timeline {
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0 20px 0;
+  border-left: 2px solid var(--site-line);
+  margin-left: 6px;
+}
+.site-timeline li {
+  position: relative;
+  padding: 2px 0 14px 20px;
+  line-height: 1.5;
+}
+.site-timeline li::before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 7px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--site-acc);
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 1px var(--site-acc-border);
+}
+.site-timeline .site-date {
+  font-weight: 700;
+  color: var(--site-ink);
+}
+.site-timeline.site-timeline-muted li::before { background: var(--site-muted); }
+.site-timeline.site-timeline-muted { opacity: 0.88; }
+
+/* ---- People list (supervision page) ---- */
+.site-people { list-style: none; padding-left: 0; margin: 0; }
+.site-people li {
+  padding: 7px 0;
+  border-bottom: 1px solid var(--site-line);
+}
+.site-people li:last-child { border-bottom: none; }
+.site-people .site-person-name { font-weight: 700; color: var(--site-ink); }
+.site-people .site-person-note { color: var(--site-muted); font-size: 0.92em; }
+
+@media (max-width: 680px) {
+  .site-grid { grid-template-columns: 1fr; }
+}

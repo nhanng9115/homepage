@@ -3,10 +3,13 @@ permalink: /activities/
 title: "Team Activities"
 ---
 
-# 📅 September 18, 2025 &nbsp;&nbsp; 📍 Koitelinkoski, Oulu
+<div class="site-card" markdown="1">
+  <div class="site-card-head">
+    <span class="site-icon-chip">📅</span>
+    <h3>September 18, 2025 <span style="font-weight:500; color:var(--site-muted);">&mdash; 📍 Koitelinkoski, Oulu</span></h3>
+  </div>
 
-
-Our group enjoyed an outing at **Koitelinkoski, Oulu**. It was a fun evening with international **BBQ traditions** and great teamwork. 🌍🔥🙌  
+Our group enjoyed an outing at **Koitelinkoski, Oulu**. It was a fun evening with international **BBQ traditions** and great teamwork. 🌍🔥🙌
 
 <style>
   /* Remove table borders */
@@ -115,6 +118,7 @@ Our group enjoyed an outing at **Koitelinkoski, Oulu**. It was a fun evening wit
     </td>
   </tr>
 </table>
+</div>
 
 <!-- Lightboxes -->
 <div id="img1" class="lightbox" role="dialog" aria-label="Image preview 1">
