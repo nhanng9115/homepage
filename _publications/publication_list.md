@@ -104,6 +104,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 }
 .pub-justify li {
   position: relative;
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -117,6 +118,12 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   margin-bottom: 7px;
   box-shadow: 0 1px 2px rgba(139, 92, 246, 0.05);
   transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+/* While its BibTeX popover is open, lift this entry above the cards below
+   it (a li with an active :hover transform otherwise creates its own
+   stacking context and traps the popover under the next sibling card). */
+.pub-justify li.pub-li-open {
+  z-index: 40;
 }
 .pub-justify li:hover {
   box-shadow: 0 8px 18px rgba(139, 92, 246, 0.14);
@@ -2636,6 +2643,13 @@ function showPubTab(tabId){
   document.getElementById('pub-tab-btn-journals').classList.toggle('active', tabId === 'journals');
   document.getElementById('pub-tab-btn-conference').classList.toggle('active', tabId === 'conference');
 }
+document.querySelectorAll('.pub-justify li details').forEach(function(d){
+  d.addEventListener('toggle', function(){
+    const li = d.closest('li');
+    if (!li) return;
+    li.classList.toggle('pub-li-open', d.open);
+  });
+});
 function copyBib(codeId, btn){
   const code = document.getElementById(codeId);
   if(!code) return;
