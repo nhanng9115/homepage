@@ -21,6 +21,7 @@ I have had the privilege of supervising and co-supervising talented researchers 
     <h3>Doctoral researchers</h3>
   </div>
   <ul class="site-timeline site-team-timeline">
+    <li><span class="site-date">Sep. 2026:</span> <span class="site-tag">🎓 DSc</span> <span class="site-person-name">Mohammad Majidzadeh</span><span class="site-person-note">Design and optimization of RIS for energy-efficient massive MIMO systems</span></li>
     <li><span class="site-date">Jan. 2026:</span> <span class="site-tag">🎓 DSc</span> <span class="site-person-name">Suranga Wengappuli Arachchige</span><span class="site-person-note">Distributed model-based ML for distributed mMIMO and ISAC</span></li>
     <li><span class="site-date">Jan. 2025:</span> <span class="site-tag">🎓 DSc</span> <span class="site-person-name">Isuri Welgamage</span><span class="site-person-note">ML for ISAC and multimodal sensing-aided communication, knowledge distillation</span></li>
     <li><span class="site-date">Jan. 2025:</span> <span class="site-tag">🎓 DSc</span> <a class="site-person-name" href="https://namphuong-tran.github.io/" target="_blank" rel="noopener">Nam-Phuong Tran</a> <span class="site-person-extra">(co-supervised)</span><span class="site-person-note">Deep reinforcement learning for RIS and ISAC</span></li>
@@ -48,13 +49,13 @@ I have had the privilege of supervising and co-supervising talented researchers 
     <h3>Master students</h3>
   </div>
   <ul class="site-timeline site-team-timeline">
-    <li><span class="site-date">2026:</span> <span class="site-tag">📜 MSc</span> <span class="site-person-name">Obaid Ur Rehman</span> <span class="site-person-extra">(co-supervised)</span><span class="site-person-note">Summer Internship: Multimodal sensing-aided proactive blockage prediction in mmWave communications systems</span></li>
-    <li><span class="site-date">2026:</span> <span class="site-tag">📜 MSc</span> <span class="site-person-name">Rubayet Kabir</span> <span class="site-person-extra">(co-supervised)</span><span class="site-person-note">Summer Internship: Machine Learning-based RIS assisted Communications</span></li>
-    <li><span class="site-date">2026:</span> <span class="site-tag">📜 MSc</span> <span class="site-person-name">Kashif Kashif</span> <span class="site-person-extra">(co-supervised)</span><span class="site-person-note">Summer Internship: Multimodal sensing-aided downlink beam prediction in wireless communications</span></li>
-    <li><span class="site-date">Oct. 2025:</span> <span class="site-tag">📜 MSc</span> <span class="site-person-name">Hassam Muhammad</span><span class="site-person-note">MS Thesis: Dynamic Sensing Modalities Assignment in Dense Wireless Networks</span></li>
-    <li><span class="site-date">Oct. 2025:</span> <span class="site-tag">📜 MSc</span> <span class="site-person-name">Keerthi Ananthachar Mulugund</span><span class="site-person-note">MS Thesis: AI-Enhanced Tone Reservation and Beamforming for PAPR Reduction in OFDM Systems</span></li>
-    <li><span class="site-date">2021:</span> <span class="site-tag">📜 MSc</span> <span class="site-person-name">Irfan Ullah</span> <span class="site-person-extra">(co-supervised)</span><span class="site-person-note">Summer Internship: Enhanced energy-efficient hybrid beamforming architecture for mmWave massive MIMO systems</span></li>
-    <li><span class="site-date">Jun. 2020:</span> <span class="site-tag">📜 MSc</span> <span class="site-person-name">Asif Shakil</span> <span class="site-person-extra">(co-supervised)</span><span class="site-person-note">MS Thesis: Wideband Millimeter Wave Phased Array Beamforming</span></li>
+    <li><span class="site-date">2026:</span> <span class="site-tag">📜 MSc</span> <span class="site-person-name">Obaid Ur Rehman</span><span class="site-person-note">Summer Internship: Multimodal sensing-aided proactive blockage prediction in mmWave communications systems</span></li>
+    <li><span class="site-date">2026:</span> <span class="site-tag">📜 MSc</span> <span class="site-person-name">Rubayet Kabir</span><span class="site-person-note">Summer Internship: Machine Learning-based RIS assisted Communications</span></li>
+    <li><span class="site-date">2026:</span> <span class="site-tag">📜 MSc</span> <span class="site-person-name">Kashif Kashif</span><span class="site-person-note">Summer Internship: Multimodal sensing-aided downlink beam prediction in wireless communications</span></li>
+    <li><span class="site-date">2025:</span> <span class="site-tag">📜 MSc</span> <span class="site-person-name">Hassam Muhammad</span><span class="site-person-note">MS Thesis: Dynamic Sensing Modalities Assignment in Dense Wireless Networks</span></li>
+    <li><span class="site-date">2025:</span> <span class="site-tag">📜 MSc</span> <span class="site-person-name">Keerthi Ananthachar Mulugund</span><span class="site-person-note">MS Thesis: AI-Enhanced Tone Reservation and Beamforming for PAPR Reduction in OFDM Systems</span></li>
+    <li><span class="site-date">2021:</span> <span class="site-tag">📜 MSc</span> <span class="site-person-name">Irfan Ullah</span><span class="site-person-note">Summer Internship: Enhanced energy-efficient hybrid beamforming architecture for mmWave massive MIMO systems</span></li>
+    <li><span class="site-date">2020:</span> <span class="site-tag">📜 MSc</span> <span class="site-person-name">Asif Shakil</span> <span class="site-person-extra">(co-supervised)</span><span class="site-person-note">MS Thesis: Wideband Millimeter Wave Phased Array Beamforming</span></li>
   </ul>
 </div>
 
