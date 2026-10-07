@@ -2960,6 +2960,20 @@ function showPubCategory(category){
     btn.classList.toggle('active', btn.id === 'pub-stat-btn-' + category);
   });
 }
+/* A closed BibTeX box is taken out of the page and put back when its
+   toggle is opened. Browsers search (and auto-expand) the hidden content
+   of a closed <details>, so leaving the text in place made every
+   find-in-page hit pop its BibTeX box open. */
+const pubBibStore = new WeakMap();
+function pubBibBox(d){ return pubBibStore.get(d) || d.querySelector(':scope > div'); }
+function pubStashBib(d){
+  const box = d.querySelector(':scope > div');
+  if (box) { pubBibStore.set(d, box); box.remove(); }
+}
+function pubRestoreBib(d){
+  const box = pubBibStore.get(d);
+  if (box && !box.parentNode) d.appendChild(box);
+}
 /* Entries tagged with a topic, newest first: by year, and within a year in
    page order (book chapter, under review, journals, conferences). */
 function pubTopicEntries(topic){
@@ -2977,13 +2991,23 @@ function showPubTopic(topic){
   entries.forEach(function(e){
     const copy = e.li.cloneNode(true);
     copy.classList.remove('pub-li-open');
-    copy.querySelectorAll('details[open]').forEach(function(d){ d.open = false; });
-    /* Keep element ids unique so each Copy button reads its own BibTeX. */
-    copy.querySelectorAll('code[id]').forEach(function(code){
-      const id = code.id + '-topic';
-      const copyBtn = code.closest('details').querySelector('button');
-      code.id = id;
-      if (copyBtn) copyBtn.onclick = function(){ copyBib(id, copyBtn); return false; };
+    const origDetails = e.li.querySelectorAll('details');
+    copy.querySelectorAll('details').forEach(function(d, k){
+      d.open = false;
+      const own = d.querySelector(':scope > div');
+      if (own) own.remove();
+      const src = pubBibBox(origDetails[k]);
+      if (!src) return;
+      const box = src.cloneNode(true);
+      /* Keep element ids unique so each Copy button reads its own BibTeX. */
+      const code = box.querySelector('code[id]');
+      const copyBtn = box.querySelector('button');
+      if (code && copyBtn) {
+        const id = code.id + '-topic';
+        code.id = id;
+        copyBtn.onclick = function(){ copyBib(id, copyBtn); return false; };
+      }
+      pubBibStore.set(d, box);
     });
     list.appendChild(copy);
   });
@@ -3003,9 +3027,11 @@ showPubCategory('journal');
 document.addEventListener('toggle', function(e){
   const d = e.target;
   if (!d.matches || !d.matches('.pub-justify li details')) return;
+  if (d.open) pubRestoreBib(d); else pubStashBib(d);
   const li = d.closest('li');
   if (li) li.classList.toggle('pub-li-open', d.open);
 }, true);
+document.querySelectorAll('.pub-justify li details:not([open])').forEach(pubStashBib);
 /* Close an open BibTeX popover when clicking anywhere outside it.
    (Block comment on purpose: the compress layout joins this script onto
    one line, where a line comment would swallow all the code after it.) */
