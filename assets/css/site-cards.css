@@ -31,8 +31,12 @@ html[data-theme="dark"] {
   --site-acc-border: rgba(167, 139, 250, 0.35);
   --site-card-bg: linear-gradient(135deg, rgba(58, 42, 94, 0.55) 0%, rgba(48, 34, 82, 0.6) 48%, rgba(40, 28, 70, 0.65) 100%);
   --site-card-border: rgba(167, 139, 250, 0.3);
-  --site-ink: #f3f0fb;
+  --site-ink: #e9e5f3;
   --site-muted: #b9aed6;
+  /* Body text: the theme's pure white glares on the dark violet page, so
+     use a slightly dimmed, lavender-tinted off-white instead. */
+  --global-text-color: #dfdaeb;
+  --global-masthead-link-color: #e9e5f3;
   --site-line: rgba(255, 255, 255, 0.12);
   --site-warm: #f2b583;
   --site-warm-soft: rgba(242, 181, 131, 0.14);

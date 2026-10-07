@@ -35,7 +35,7 @@ html[data-theme="dark"] {
   --acc-border: rgba(167, 139, 250, 0.35);
   --card-bg: linear-gradient(135deg, rgba(58, 42, 94, 0.55) 0%, rgba(48, 34, 82, 0.6) 48%, rgba(40, 28, 70, 0.65) 100%);
   --card-border: rgba(167, 139, 250, 0.3);
-  --ink: #f3f0fb;
+  --ink: #e9e5f3;
   --muted: #b9aed6;
   --line: rgba(255, 255, 255, 0.12);
   --warm: #f2b583;
