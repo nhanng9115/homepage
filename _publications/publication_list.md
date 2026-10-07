@@ -610,7 +610,7 @@ A. S. Gharagezlou, P. Mobaraki, M. Monemi, <strong>N. T. Nguyen</strong>, M. Ras
 <li data-topics="ml mimo" data-year="2026">
 <div class="pub-main">
 S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</strong>,  
-"GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive MIMO systems," <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>submitted</strong>)
+"GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive MIMO systems," <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>major revision</strong>)
 </div>
 <div class="pub-actions">
 
@@ -619,7 +619,7 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
   author={S. Tavakolian and A. Zaker and A. Alkhateeb and M. Juntti and N. T. Nguyen},
   journal={IEEE Trans. Commun.},
   year={2026},
-  note={submitted}
+  note={major revision}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-10', this); return false;">Copy</button></div></details>
 </div>
 </li>
