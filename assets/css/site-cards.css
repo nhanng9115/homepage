@@ -308,6 +308,16 @@ html[data-theme="dark"] {
 .site-people a.site-person-name:hover { color: var(--site-acc); text-decoration-style: solid; }
 .site-people .site-person-note { color: var(--site-muted); font-size: 0.92em; }
 
+/* ---- Supervision timeline: one entry per person, newest first, on the
+   same rail as the homepage news (date, role tag, name, then the topic
+   on its own line). ---- */
+.site-team-timeline .site-tag { font-size: 0.72em; padding: 1px 8px; margin: 0 4px 0 2px; white-space: nowrap; vertical-align: 1px; }
+.site-team-timeline .site-person-name { font-weight: 700; color: var(--site-ink); }
+.site-team-timeline a.site-person-name { text-decoration: underline dotted; text-underline-offset: 3px; }
+.site-team-timeline a.site-person-name:hover { color: var(--site-acc); text-decoration-style: solid; }
+.site-team-timeline .site-person-extra { color: var(--site-muted); font-size: 0.88em; }
+.site-team-timeline .site-person-note { display: block; color: var(--site-muted); font-size: 0.92em; }
+
 @media (max-width: 680px) {
   .site-grid { grid-template-columns: 1fr; }
 }
