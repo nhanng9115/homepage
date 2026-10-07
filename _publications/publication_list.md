@@ -33,8 +33,8 @@ html[data-theme="dark"] {
   --acc-dark: #e4defb;
   --acc-soft: rgba(167, 139, 250, 0.16);
   --acc-border: rgba(167, 139, 250, 0.35);
-  --card-bg: rgba(242, 181, 131, 0.07);
-  --card-border: rgba(242, 181, 131, 0.26);
+  --card-bg: rgba(255, 255, 255, 0.06);
+  --card-border: rgba(255, 255, 255, 0.13);
   --ink: #e9e5f3;
   --muted: #b9aed6;
   --line: rgba(255, 255, 255, 0.12);

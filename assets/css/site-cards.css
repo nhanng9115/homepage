@@ -29,10 +29,11 @@ html[data-theme="dark"] {
   --site-acc-dark: #e4defb;
   --site-acc-soft: rgba(167, 139, 250, 0.16);
   --site-acc-border: rgba(167, 139, 250, 0.35);
-  /* Cards use a warm sand tint rather than violet, so they separate from
-     the violet page instead of blending into it; violet stays the accent. */
-  --site-card-bg: rgba(242, 181, 131, 0.07);
-  --site-card-border: rgba(242, 181, 131, 0.26);
+  /* Cards are a neutral smoked-glass layer rather than violet, so they
+     separate from the violet page instead of blending into it; violet
+     stays the accent (tags, icons, active states). */
+  --site-card-bg: rgba(255, 255, 255, 0.06);
+  --site-card-border: rgba(255, 255, 255, 0.13);
   --site-ink: #e9e5f3;
   --site-muted: #b9aed6;
   /* Body text: the theme's pure white glares on the dark violet page, so
@@ -129,11 +130,6 @@ html[data-theme="dark"] {
   border: 1px solid var(--site-acc-border);
   font-size: 0.82em;
   font-weight: 600;
-}
-html[data-theme="dark"] .site-tag {
-  background: rgba(242, 181, 131, 0.14);
-  border-color: rgba(242, 181, 131, 0.4);
-  color: #f6d3b3;
 }
 /* Project cards are narrow (grid layout), so a long funder name wraps to
    a second line inside the pill; shrink the tag text so it stays on one. */
