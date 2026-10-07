@@ -30,19 +30,19 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 html[data-theme="dark"] {
   --acc: #a78bfa;
   --acc2: #c4b5fd;
-  --acc-dark: #e6e4df;
+  --acc-dark: #f2f0eb;
   --acc-soft: rgba(167, 139, 250, 0.16);
   --acc-border: rgba(167, 139, 250, 0.35);
   --card-bg: rgba(255, 255, 255, 0.06);
   --card-border: rgba(255, 255, 255, 0.13);
-  --ink: #e6e4df;
-  --muted: #b3b1ac;
+  --ink: #f2f0eb;
+  --muted: #c6c4bf;
   --line: rgba(255, 255, 255, 0.12);
   --warm: #f2b583;
   --warm-soft: rgba(242, 181, 131, 0.14);
 }
 html[data-theme="dark"] .pub-justify li span em {
-  color: #e6e4df;
+  color: #f2f0eb;
 }
 
 /* ---- Section titles ---- */
@@ -264,7 +264,7 @@ html[data-theme="dark"] .pub-justify li a.pub-view-btn,
 html[data-theme="dark"] .pub-justify li summary span {
   background: rgba(167, 139, 250, 0.16) !important;
   border: 1px solid rgba(167, 139, 250, 0.4) !important;
-  color: #e6e4df !important;
+  color: #f2f0eb !important;
 }
 html[data-theme="dark"] .pub-justify li a.pub-view-btn:hover,
 html[data-theme="dark"] .pub-justify li summary:hover span {

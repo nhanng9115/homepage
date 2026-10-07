@@ -26,7 +26,7 @@
 html[data-theme="dark"] {
   --site-acc: #a78bfa;
   --site-acc2: #c4b5fd;
-  --site-acc-dark: #e6e4df;
+  --site-acc-dark: #f2f0eb;
   --site-acc-soft: rgba(167, 139, 250, 0.16);
   --site-acc-border: rgba(167, 139, 250, 0.35);
   /* Cards are a neutral smoked-glass layer rather than violet, so they
@@ -34,14 +34,14 @@ html[data-theme="dark"] {
      stays the accent (tags, icons, active states). */
   --site-card-bg: rgba(255, 255, 255, 0.06);
   --site-card-border: rgba(255, 255, 255, 0.13);
-  --site-ink: #e6e4df;
-  --site-muted: #b3b1ac;
+  --site-ink: #f2f0eb;
+  --site-muted: #c6c4bf;
   /* Body text: the theme's pure white glares on the dark violet page, so
      dim it slightly. Kept neutral (a touch warm) rather than lavender, so
      the text does not add yet more violet to the page. Headings, names,
      menu links and tag text all share this one colour. */
-  --global-text-color: #e6e4df;
-  --global-masthead-link-color: #e6e4df;
+  --global-text-color: #f2f0eb;
+  --global-masthead-link-color: #f2f0eb;
   --site-line: rgba(255, 255, 255, 0.12);
   --site-warm: #f2b583;
   --site-warm-soft: rgba(242, 181, 131, 0.14);
