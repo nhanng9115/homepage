@@ -232,8 +232,14 @@ html[data-theme="dark"] .pub-justify li span em {
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
-  width: 54px;
-  padding: 2px 0 !important;
+  /* Fixed box and line-height so the BibTeX toggle (a span) and the View
+     link (an a, which otherwise inherits the taller body line-height)
+     come out exactly the same size. */
+  width: 54px !important;
+  min-width: 54px !important;
+  height: 18px;
+  line-height: 1 !important;
+  padding: 0 !important;
   border-radius: 5px !important;
   background: #ffffff !important;
   border: 1px solid var(--acc-border) !important;

@@ -101,30 +101,31 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 <div class="site-section-title">📰 Recent news</div>
 
 <ul class="site-timeline">
-  <li><span class="site-date">July 31, 2026:</span> 📄 Phuong’s papers accepted to <strong>IEEE GLOBECOM 2026</strong>.</li>
+  <li><span class="site-date">Oct 7, 2026:</span> 🚀 I am happy to share that five of our papers have been accepted to the <strong>IEEE Integrated Sensing and Communication Conference (ISAC) 2026</strong>! Congratulations to all co-authors.</li>
+  <li><span class="site-date">July 31, 2026:</span> 🎉 Phuong’s papers accepted to <strong>IEEE GLOBECOM 2026</strong>.</li>
   <li><span class="site-date">June 16, 2026:</span> 🚀 I am happy to share that four of our papers have been accepted to IEEE SPAWC 2026!</li>
   <li><span class="site-date">May 05, 2026:</span> 🚀 Tianyu's first journal paper (during PhD) has been accepted for publication in IEEE TSP. Congratulations!</li>
-  <li><span class="site-date">Jan 20, 2025:</span> 🚀 I am happy to share that six of our papers have been accepted to IEEE ICASSP and IEEE ICC 2026! Congratulations and thanks for the amazing collaborations and excited to present our work at the events!</li>
+  <li><span class="site-date">Jan 20, 2026:</span> 🚀 I am happy to share that six of our papers have been accepted to IEEE ICASSP and IEEE ICC 2026! Congratulations and thanks for the amazing collaborations and excited to present our work at the events!</li>
   <li><span class="site-date">Dec 12, 2025:</span> 🏆📈 Our paper “Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding” is listed among the 25 most downloaded papers in <em>IEEE Journal of Selected Topics in Signal Processing</em> for Sep. 2024 to Sep. 2025. An invited webinar highlighting the key findings will be released early next year.</li>
   <li><span class="site-date">Oct 30, 2025:</span> 🏆 Our paper “Hybrid RIS Aided Wireless Communications” won the Best Paper Award at <em>ISAP 2025</em>.</li>
-  <li><span class="site-date">Sep 23, 2025:</span> 📄 Ali’s and Phuong’s papers accepted to <em>IEEE NFV-SDN 2025</em>.</li>
-  <li><span class="site-date">Sep 9, 2025:</span> 📄 Paper accepted to <em>IEEE Journal on Selected Areas in Communications</em>.</li>
-  <li><span class="site-date">Aug 20, 2025:</span> 📄 Abolfazl’s paper accepted to <em>IEEE Communications Letters</em>.</li>
-  <li><span class="site-date">Aug 1, 2025:</span> 📄 Abolfazl’s paper accepted to <em>IEEE GLOBECOM 2025</em>.</li>
-  <li><span class="site-date">Jul 16, 2025:</span> 📄 Phuong’s paper accepted to <em>Asilomar 2025</em>.</li>
-  <li><span class="site-date">May 25, 2025:</span> 📄📄 Two papers accepted to <em>IEEE SPAWC 2025</em> by Ali and Smriti.</li>
-  <li><span class="site-date">May 17, 2025:</span> 📄 Mengyuan’s paper accepted to <em>IEEE Wireless Communications Letters</em>.</li>
-  <li><span class="site-date">May 4, 2025:</span> 📄 Mengyuan’s paper accepted to <em>IEEE Transactions on Wireless Communications</em>.</li>
-  <li><span class="site-date">Mar 18, 2025:</span> 📄 Paper accepted to <em>IEEE Transactions on Signal Processing</em>.</li>
+  <li><span class="site-date">Sep 23, 2025:</span> 🎉 Ali’s and Phuong’s papers accepted to <em>IEEE NFV-SDN 2025</em>.</li>
+  <li><span class="site-date">Sep 9, 2025:</span> 🎉 Paper accepted to <em>IEEE Journal on Selected Areas in Communications</em>.</li>
+  <li><span class="site-date">Aug 20, 2025:</span> 🎉 Abolfazl’s paper accepted to <em>IEEE Communications Letters</em>.</li>
+  <li><span class="site-date">Aug 1, 2025:</span> 🎉 Abolfazl’s paper accepted to <em>IEEE GLOBECOM 2025</em>.</li>
+  <li><span class="site-date">Jul 16, 2025:</span> 🎉 Phuong’s paper accepted to <em>Asilomar 2025</em>.</li>
+  <li><span class="site-date">May 25, 2025:</span> 🎉 Two papers accepted to <em>IEEE SPAWC 2025</em> by Ali and Smriti.</li>
+  <li><span class="site-date">May 17, 2025:</span> 🎉 Mengyuan’s paper accepted to <em>IEEE Wireless Communications Letters</em>.</li>
+  <li><span class="site-date">May 4, 2025:</span> 🎉 Mengyuan’s paper accepted to <em>IEEE Transactions on Wireless Communications</em>.</li>
+  <li><span class="site-date">Mar 18, 2025:</span> 🎉 Paper accepted to <em>IEEE Transactions on Signal Processing</em>.</li>
 </ul>
 
 <div class="site-section-title">🕰️ Older highlights</div>
 
 <ul class="site-timeline site-timeline-muted">
-  <li><span class="site-date">Dec 21, 2024:</span> 📄 Three papers accepted to <em>IEEE WCNC</em>.</li>
-  <li><span class="site-date">Dec 20, 2024:</span> 📄 Two papers accepted to <em>IEEE ICASSP</em>.</li>
-  <li><span class="site-date">Dec 12, 2024:</span> 📄 EuCAP 2025 acceptance on ML-assisted RIS for ISAC.</li>
+  <li><span class="site-date">Dec 21, 2024:</span> 🎉 Three papers accepted to <em>IEEE WCNC</em>.</li>
+  <li><span class="site-date">Dec 20, 2024:</span> 🎉 Two papers accepted to <em>IEEE ICASSP</em>.</li>
+  <li><span class="site-date">Dec 12, 2024:</span> 🎉 EuCAP 2025 acceptance on ML-assisted RIS for ISAC.</li>
   <li><span class="site-date">Oct 24, 2024:</span> 🏆📈 TSP paper listed among SPS Top 25 downloads for Sep 2023 to Sep 2024.</li>
-  <li><span class="site-date">Sep to Jul 2024:</span> 📄 Multiple acceptances in T-VT, JSTSP SI on ISAC, GLOBECOM, Asilomar, and SPAWC.</li>
+  <li><span class="site-date">Sep to Jul 2024:</span> 🎉 Multiple acceptances in T-VT, JSTSP SI on ISAC, GLOBECOM, Asilomar, and SPAWC.</li>
   <li><span class="site-date">2021 to 2023:</span> 🏆 Best Paper Awards at SSP, SPAWC, and ATC; major journal acceptances including TWC, TSP, and VTM; Academy Fellowship awarded in 2023.</li>
 </ul>
