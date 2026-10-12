@@ -3,49 +3,46 @@
    supervision and team-activities pages for a consistent, understated look.
    ====================================================================== */
 :root {
-  --site-acc: #7c3aed;        /* AI violet-purple */
-  --site-acc2: #5b21b6;       /* deep purple */
-  --site-acc-grad: linear-gradient(135deg, var(--site-acc), var(--site-acc2));
-  --site-acc-dark: #4c1d95;
-  --site-acc-soft: #f3ecfe;   /* light purple tint for chips/hover */
-  --site-acc-border: #e2cffb;
-  --site-card-bg: linear-gradient(135deg, #f7f1ff 0%, #f1e9fe 48%, #ece3fb 100%);
-  --site-card-border: #ddc9f7;
-  --site-ink: #1f2937;
-  --site-muted: #64748b;
-  --site-line: #e5e9ee;
-  --site-warm: #a66a3b;       /* muted terracotta, for awards/highlights */
-  --site-warm-soft: #faf1e8;
-  --site-warm-border: #ecd4b9;
+  --site-acc: #1d3a66;        /* navy: the one accent colour */
+  --site-acc2: #2c4f85;
+  --site-acc-grad: var(--site-acc);   /* flat fill (kept as a token for older rules) */
+  --site-acc-dark: #1d3a66;
+  --site-acc-soft: #eef2f7;   /* pale navy tint for tags/hover */
+  --site-acc-border: #d3dbe6;
+  --site-card-bg: #ffffff;
+  --site-card-border: #e3e6ea;
+  --site-ink: #1f2933;
+  --site-muted: #5b6673;
+  --site-line: #e3e6ea;
+  --site-warm: #8a5a1c;       /* muted bronze, for awards/highlights */
+  --site-warm-soft: #fbf6ec;
+  --site-warm-border: #e8d9b9;
+  --site-serif: Georgia, "Times New Roman", Times, serif;
+
+  /* Theme variables: plain white page, near-black text, navy links. */
+  --global-bg-color: #ffffff;
+  --global-text-color: #1f2933;
+  --global-text-color-light: #5b6673;
+  --global-base-color: #5b6673;
+  --global-border-color: #e3e6ea;
+  --global-dark-border-color: #c9d0d8;
+  --global-footer-bg-color: #f6f7f9;
+  --global-fig-caption-color: #5b6673;
+  --global-link-color: #1d3a66;
+  --global-link-color-hover: #2c4f85;
+  --global-link-color-visited: #1d3a66;
+  --global-masthead-link-color: #1f2933;
+  --global-masthead-link-color-hover: #1d3a66;
 }
 
-/* ---- Dark mode: re-tint the same tokens so cards sit on a dark violet
-   panel with light text, instead of the light lavender meant for day mode
-   (which read as washed-out white-on-pink). Every component below is
-   already built from these variables, so this alone fixes all of them. ---- */
-html[data-theme="dark"] {
-  --site-acc: #a78bfa;
-  --site-acc2: #c4b5fd;
-  --site-acc-dark: #f2f0eb;
-  --site-acc-soft: rgba(167, 139, 250, 0.16);
-  --site-acc-border: rgba(167, 139, 250, 0.35);
-  /* Cards are a neutral smoked-glass layer rather than violet, so they
-     separate from the violet page instead of blending into it; violet
-     stays the accent (tags, icons, active states). */
-  --site-card-bg: rgba(255, 255, 255, 0.06);
-  --site-card-border: rgba(255, 255, 255, 0.13);
-  --site-ink: #f2f0eb;
-  --site-muted: #c6c4bf;
-  /* Body text: the theme's pure white glares on the dark violet page, so
-     dim it slightly. Kept neutral (a touch warm) rather than lavender, so
-     the text does not add yet more violet to the page. Headings, names,
-     menu links and tag text all share this one colour. */
-  --global-text-color: #f2f0eb;
-  --global-masthead-link-color: #f2f0eb;
-  --site-line: rgba(255, 255, 255, 0.12);
-  --site-warm: #f2b583;
-  --site-warm-soft: rgba(242, 181, 131, 0.14);
-  --site-warm-border: rgba(242, 181, 131, 0.35);
+/* ---- Serif headings, as on a printed paper; body text stays sans-serif ---- */
+h1, h2, h3, h4,
+.page__title,
+.author__name,
+.masthead__menu-item--lg,
+.site-section-title,
+.site-card-head h3 {
+  font-family: var(--site-serif);
 }
 
 .site-section-title {
@@ -53,7 +50,7 @@ html[data-theme="dark"] {
   font-weight: 700;
   margin: 26px 0 14px 0;
   padding-bottom: 6px;
-  border-bottom: 2px solid var(--site-acc-border);
+  border-bottom: 2px solid var(--site-acc);
   display: inline-block;
   color: var(--site-ink);
 }
@@ -63,16 +60,14 @@ html[data-theme="dark"] {
   position: relative;
   background: var(--site-card-bg);
   border: 1px solid var(--site-card-border);
-  border-radius: 10px;
+  border-radius: 6px;
   padding: 14px 16px;
   margin-bottom: 12px;
-  box-shadow: 0 1px 2px rgba(124, 58, 237, 0.05);
-  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
 }
 .site-card:hover {
-  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.15);
-  border-color: var(--site-acc);
-  transform: translateY(-1px);
+  box-shadow: 0 2px 10px rgba(16, 24, 40, 0.06);
+  border-color: #c3cdd9;
 }
 .site-card p:last-child,
 .site-card ul:last-child { margin-bottom: 0; }
@@ -91,10 +86,12 @@ html[data-theme="dark"] {
   flex: 0 0 auto;
   width: 34px;
   height: 34px;
-  border-radius: 9px;
-  background: var(--site-acc-grad);
-  box-shadow: 0 3px 8px rgba(124, 58, 237, 0.28);
-  color: #ffffff;
+  border-radius: 6px;
+  background: #f1f3f6;
+  border: 1px solid var(--site-line);
+  color: var(--site-acc);
+  /* Emoji icons are rendered in grey so they do not add stray colours. */
+  filter: grayscale(1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -285,7 +282,7 @@ html[data-theme="dark"] {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: var(--site-acc-grad);
+  background: var(--site-acc);
   border: 2px solid #ffffff;
   box-shadow: 0 0 0 1px var(--site-acc-border);
 }
@@ -329,49 +326,18 @@ html[data-theme="dark"] {
   .site-grid { grid-template-columns: 1fr; }
 }
 
-/* ---- Site-wide colorful background (applies on every page/tab) ---- */
-body {
-  background:
-    url("../images/ai-waves.svg?v=3") no-repeat top right / 900px auto,
-    radial-gradient(900px 520px at 10% -5%, rgba(124, 58, 237, 0.20), transparent 55%),
-    radial-gradient(900px 620px at 105% 15%, rgba(79, 70, 229, 0.18), transparent 55%),
-    linear-gradient(180deg, #f7f3ff 0%, #f0ecfd 45%, #ece7fb 100%) !important;
-  background-attachment: fixed !important;
+/* ---- Plain white page and top bar, separated by a hairline ---- */
+body { background: #ffffff !important; }
+.masthead {
+  background: #ffffff !important;
+  border-bottom: 1px solid var(--site-line);
 }
-html[data-theme="dark"] body {
-  background:
-    url("../images/ai-waves.svg?v=3") no-repeat top right / 900px auto,
-    radial-gradient(900px 520px at 10% -5%, rgba(124, 58, 237, 0.30), transparent 55%),
-    radial-gradient(900px 620px at 105% 15%, rgba(79, 70, 229, 0.26), transparent 55%),
-    linear-gradient(180deg, #181030 0%, #1f1740 55%, #190f2e 100%) !important;
-  background-attachment: fixed !important;
-}
-
-/* The nav wrapper and each menu item paint their own opaque background by
-   default; make them transparent so the masthead's wash shows through. */
 .greedy-nav,
 .masthead__menu-item {
   background-color: transparent !important;
   background: transparent !important;
 }
-
-/* The top masthead bar shares the same wash instead of sitting on plain white */
-.masthead {
-  background:
-    url("../images/ai-waves.svg?v=3") no-repeat top right / 900px auto,
-    radial-gradient(900px 520px at 10% -5%, rgba(124, 58, 237, 0.28), transparent 55%),
-    radial-gradient(900px 620px at 105% 15%, rgba(79, 70, 229, 0.24), transparent 55%),
-    linear-gradient(180deg, #f1e9ff 0%, #e8defb 100%) !important;
-  background-attachment: fixed !important;
-}
-html[data-theme="dark"] .masthead {
-  background:
-    url("../images/ai-waves.svg?v=3") no-repeat top right / 900px auto,
-    radial-gradient(900px 520px at 10% -5%, rgba(124, 58, 237, 0.38), transparent 55%),
-    radial-gradient(900px 620px at 105% 15%, rgba(79, 70, 229, 0.3), transparent 55%),
-    linear-gradient(180deg, #1c1436 0%, #241a48 100%) !important;
-  background-attachment: fixed !important;
-}
+.greedy-nav a:hover { color: var(--site-acc); }
 
 /* ---- Slightly smaller base type sitewide, to fit more content per screen ---- */
 html {

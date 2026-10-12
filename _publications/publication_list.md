@@ -9,40 +9,19 @@ show_bibtex: true   # change to false to hide BibTeX buttons
    Muted, understated palette + compact two-column layout
    ====================================================================== */
 :root {
-  --acc: #7c3aed;          /* AI violet-purple */
-  --acc2: #5b21b6;         /* deep purple */
-  --acc-grad: linear-gradient(135deg, var(--acc), var(--acc2));
-  --acc-dark: #4c1d95;
-  --acc-soft: #f3ecfe;     /* light purple tint for chips/hover */
-  --acc-border: #e2cffb;
-  --card-bg: linear-gradient(135deg, #f7f1ff 0%, #f1e9fe 48%, #ece3fb 100%);
-  --card-border: #ddc9f7;
-  --ink: #1f2937;
-  --muted: #64748b;
-  --line: #e5e9ee;
-  --warm: #a66a3b;         /* muted terracotta, used sparingly */
-  --warm-soft: #faf1e8;
-}
-
-/* ---- Dark mode: re-tint the same tokens so the publication cards sit on
-   a dark violet panel with light text, instead of the light lavender
-   meant for day mode (which read as washed-out white-on-pink). ---- */
-html[data-theme="dark"] {
-  --acc: #a78bfa;
-  --acc2: #c4b5fd;
-  --acc-dark: #f2f0eb;
-  --acc-soft: rgba(167, 139, 250, 0.16);
-  --acc-border: rgba(167, 139, 250, 0.35);
-  --card-bg: rgba(255, 255, 255, 0.06);
-  --card-border: rgba(255, 255, 255, 0.13);
-  --ink: #f2f0eb;
-  --muted: #c6c4bf;
-  --line: rgba(255, 255, 255, 0.12);
-  --warm: #f2b583;
-  --warm-soft: rgba(242, 181, 131, 0.14);
-}
-html[data-theme="dark"] .pub-justify li span em {
-  color: #f2f0eb;
+  --acc: #1d3a66;          /* navy: the one accent colour */
+  --acc2: #2c4f85;
+  --acc-grad: var(--acc);  /* flat fill (kept as a token for older rules) */
+  --acc-dark: #1d3a66;
+  --acc-soft: #eef2f7;     /* pale navy tint for chips/hover */
+  --acc-border: #d3dbe6;
+  --card-bg: #ffffff;
+  --card-border: #e3e6ea;
+  --ink: #1f2933;
+  --muted: #5b6673;
+  --line: #e3e6ea;
+  --warm: #8a5a1c;         /* muted bronze, used sparingly */
+  --warm-soft: #fbf6ec;
 }
 
 /* ---- Section titles ---- */
@@ -51,7 +30,7 @@ html[data-theme="dark"] .pub-justify li span em {
   font-weight: 700;
   margin: 26px 0 12px 0;
   padding-bottom: 6px;
-  border-bottom: 2px solid var(--acc-border);
+  border-bottom: 2px solid var(--acc);
   display: inline-block;
   color: var(--ink);
 }
@@ -81,11 +60,10 @@ html[data-theme="dark"] .pub-justify li span em {
   align-items: center;
   gap: 12px;
   padding: 12px 16px;
-  border-radius: 10px;
+  border-radius: 6px;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
-  box-shadow: 0 1px 3px rgba(124, 58, 237, 0.07);
-  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease;
   font: inherit;
   text-align: left;
   cursor: pointer;
@@ -93,18 +71,18 @@ html[data-theme="dark"] .pub-justify li span em {
   appearance: none;
 }
 .pub-stat-card:hover {
-  box-shadow: 0 8px 18px rgba(124, 58, 237, 0.16);
+  box-shadow: 0 2px 10px rgba(16, 24, 40, 0.06);
   border-color: var(--acc);
-  transform: translateY(-2px);
 }
 .pub-stat-card.active {
   background: var(--acc-grad);
-  border-color: transparent;
-  box-shadow: 0 6px 16px rgba(124, 58, 237, 0.35);
+  border-color: var(--acc);
 }
 .pub-stat-card.active .pub-stat-icon {
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: none;
+  background: rgba(255, 255, 255, 0.14);
+  border-color: transparent;
+  color: #ffffff;
+  filter: grayscale(1) brightness(1.6);
 }
 .pub-stat-card.active .pub-stat-num,
 .pub-stat-card.active .pub-stat-label { color: #ffffff; }
@@ -112,20 +90,22 @@ html[data-theme="dark"] .pub-justify li span em {
   flex: 0 0 auto;
   width: 36px;
   height: 36px;
-  border-radius: 9px;
-  background: var(--acc-grad);
-  box-shadow: 0 3px 8px rgba(124, 58, 237, 0.28);
+  border-radius: 6px;
+  background: #f1f3f6;
+  border: 1px solid var(--line);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 17px;
-  color: #ffffff;
+  color: var(--acc);
+  /* Emoji icons are rendered in grey so they do not add stray colours. */
+  filter: grayscale(1);
 }
 /* Line-drawn icons (topics without a fitting emoji) follow the text colour. */
 .pub-stat-icon svg { width: 20px; height: 20px; }
 .pub-section-title svg { width: 1em; height: 1em; vertical-align: -0.12em; }
 .pub-stat-text { display: flex; flex-direction: column; line-height: 1.15; }
-.pub-stat-num { font-size: 18px; font-weight: 800; color: var(--ink); }
+.pub-stat-num { font-size: 19px; font-weight: 700; color: var(--ink); font-family: Georgia, "Times New Roman", Times, serif; }
 .pub-stat-label { font-size: 10.5px; color: var(--muted); font-weight: 600; }
 
 /* ---- Card-style entries, two-column: content left / actions right ---- */
@@ -145,11 +125,10 @@ html[data-theme="dark"] .pub-justify li span em {
   text-align: left;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
-  border-radius: 10px;
+  border-radius: 6px;
   padding: 9px 14px 9px 38px;
   margin-bottom: 7px;
-  box-shadow: 0 1px 2px rgba(124, 58, 237, 0.05);
-  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
 }
 /* While its BibTeX popover is open, lift this entry above the cards below
    it (a li with an active :hover transform otherwise creates its own
@@ -158,9 +137,8 @@ html[data-theme="dark"] .pub-justify li span em {
   z-index: 40;
 }
 .pub-justify li:hover {
-  box-shadow: 0 8px 18px rgba(124, 58, 237, 0.14);
-  border-color: var(--acc);
-  transform: translateY(-1px);
+  box-shadow: 0 2px 10px rgba(16, 24, 40, 0.06);
+  border-color: #c3cdd9;
 }
 .pub-justify li::before {
   counter-increment: pubnum;
@@ -171,8 +149,8 @@ html[data-theme="dark"] .pub-justify li span em {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: var(--acc-grad);
-  color: #ffffff;
+  background: var(--acc-soft);
+  color: var(--acc);
   font-size: 10px;
   font-weight: 700;
   display: flex;
@@ -191,12 +169,15 @@ html[data-theme="dark"] .pub-justify li span em {
   line-height: 1.45;
 }
 
-/* Journal / conference name: soft violet-gray italic */
+/* Journal / conference name: dark grey rather than a tinted colour, so the
+   venue stays crisp when skimming the list */
 .pub-justify li span em {
-  color: #5b67a3;
+  color: #2b333d;
   font-weight: 500;
   font-style: italic;
 }
+/* Award / status notes written with an inline red: use the muted bronze. */
+.pub-justify li [style*="#dc2626"] { color: var(--warm) !important; }
 
 /* Title links: calm ink color, no underline (the View Paper button already
    signals the link); accent color + underline only appears on hover */
@@ -258,21 +239,6 @@ html[data-theme="dark"] .pub-justify li span em {
   border-color: transparent !important;
   color: #ffffff !important;
 }
-/* Dark mode: a tinted, translucent fill instead of solid white, which
-   read as too glaring against the dark card. */
-html[data-theme="dark"] .pub-justify li a.pub-view-btn,
-html[data-theme="dark"] .pub-justify li summary span {
-  background: rgba(167, 139, 250, 0.16) !important;
-  border: 1px solid rgba(167, 139, 250, 0.4) !important;
-  color: #f2f0eb !important;
-}
-html[data-theme="dark"] .pub-justify li a.pub-view-btn:hover,
-html[data-theme="dark"] .pub-justify li summary:hover span {
-  background: linear-gradient(135deg, #7c3aed, #4c1d95) !important;
-  border-color: transparent !important;
-  color: #ffffff !important;
-}
-
 /* BibTeX toggle: button sits in the actions column, the revealed box pops
    out as a floating card so it never squeezes the narrow actions column */
 .pub-justify li details {
@@ -291,9 +257,9 @@ html[data-theme="dark"] .pub-justify li summary:hover span {
   width: 320px;
   max-width: 85vw;
   box-sizing: border-box;
-  background: #fbfaff !important;
+  background: #f8f9fb !important;
   border: 1px solid var(--acc-border) !important;
-  box-shadow: 0 10px 24px rgba(124, 58, 237, 0.18) !important;
+  box-shadow: 0 8px 22px rgba(16, 24, 40, 0.12) !important;
 }
 .pub-justify li details pre {
   white-space: pre-wrap !important;
@@ -398,7 +364,7 @@ html[data-theme="dark"] .pub-justify li summary:hover span {
 
 <div class="pubtab-section" data-pubcat="journal total">
 
-<h2 class="pub-section-title">📘 Book Chapter</h2>
+<h2 class="pub-section-title">Book Chapter</h2>
 
 <ol class="pub-justify">
 <li data-topics="isac" data-year="2026">
@@ -422,7 +388,7 @@ html[data-theme="dark"] .pub-justify li summary:hover span {
 </div>
 
 <div class="pubtab-section" data-pubcat="journal review total">
-<h2 class="pub-section-title">📝 Submitted and Under Revision</h2>
+<h2 class="pub-section-title">Submitted and Under Revision</h2>
 
 <ol class="pub-justify">
 
@@ -761,7 +727,7 @@ S. Uniyal, T. Fang, M. D. Renzo, M. Juntti, and <strong>N. T. Nguyen</strong>,
 
 <div class="pubtab-section" data-pubcat="journal total">
 <hr style="height:6px;background:currentColor;border:0;border-radius:9999px;opacity:.6;margin:28px 0;">
-<h2 class="pub-section-title">📄 Journal Publications</h2>
+<h2 class="pub-section-title">Journal Publications</h2>
 
 <ol class="pub-justify">
 
@@ -1701,7 +1667,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 
 <div class="pubtab-section" data-pubcat="conference total" style="display:none;">
 
-<h2 class="pub-section-title">🎤 Conference Publications</h2>
+<h2 class="pub-section-title">Conference Publications</h2>
 
 
 <ol class="pub-justify">
