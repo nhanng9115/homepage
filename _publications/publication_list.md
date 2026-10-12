@@ -566,13 +566,13 @@ S. Uniyal, T. Fang, V.-D. Nguye, H. Q. Ngo, M. Juntti, <strong>N. T. Nguyen</str
 <!-- ======================== SUBMISSION 13 ======================== -->
 <li data-topics="isac ml ris mimo" data-year="2026">
 <div class="pub-main">
-A. S. Gharagezlou, P. Mobaraki, M. Monemi, <strong>N. T. Nguyen</strong>, M. Rasti, S. Ali, and M. Matti Latva-aho,  
+A. S. Gharagezlou, P. Mobaraki, M. Monemi, <strong>N. T. Nguyen</strong>, M. Rasti, S. Ali, and M. Latva-aho,  
 <span class="pub-title">"Deep-Unfolded Wideband ISAC Beamforming for DMA Under Frequency-Selective Lorentzian Model,"</span> <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>major revision</strong>)
 </div>
 <div class="pub-actions">
 <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-9">@article{gharagezlou2026deepunfolded,
   title={Deep-Unfolded Wideband {ISAC} Beamforming for {DMA} Under Frequency-Selective Lorentzian Model},
-  author={A. S. Gharagezlou and P. Mobaraki and M. Monemi and N. T. Nguyen and M. Rasti and S. Ali and M. Matti Latva-aho},
+  author={A. S. Gharagezlou and P. Mobaraki and M. Monemi and N. T. Nguyen and M. Rasti and S. Ali and M. Latva-aho},
   journal={IEEE Trans. Commun.},
   year={2026},
   note={major revision}
