@@ -345,3 +345,12 @@ body { background: #ffffff !important; }
 html {
   font-size: 16px !important; /* theme bumps this to 18px on wider screens by default */
 }
+
+/* ---- Sidebar icons: one colour (navy) instead of each brand's own ---- */
+.author__urls li i,
+.author__urls li .fas,
+.author__urls li .fab,
+.author__urls li .ai,
+.author__urls .fa-fw {
+  color: var(--site-acc) !important;
+}

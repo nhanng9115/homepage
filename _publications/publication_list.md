@@ -231,7 +231,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   padding: 0 !important;
   border-radius: 5px !important;
   background: #ffffff !important;
-  border: 1px solid #cfcfcf !important;
+  border: 1px solid #8c8c8c !important;
   color: #333333 !important;
   font-weight: 400 !important;
   font-size: 10px !important;
