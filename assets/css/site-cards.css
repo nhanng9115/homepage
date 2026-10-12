@@ -73,13 +73,13 @@ h1, h2, h3, h4,
 .site-card p:last-child,
 .site-card ul:last-child { margin-bottom: 0; }
 .site-card a {
-  color: var(--site-warm);
+  color: var(--site-acc);
   font-weight: 600;
   text-decoration: none;
 }
-.site-card .site-paper-title { color: var(--site-warm); font-weight: 600; }
+.site-card .site-paper-title { color: var(--site-acc); font-weight: 600; }
 .site-card a:hover {
-  color: var(--site-warm-dark);
+  color: var(--site-acc2);
   text-decoration: underline;
 }
 

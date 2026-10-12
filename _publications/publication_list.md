@@ -151,9 +151,9 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: var(--warm-soft);
-  border: 1px solid var(--warm-border);
-  color: var(--warm);
+  background: var(--acc-soft);
+  border: 1px solid var(--acc-border);
+  color: var(--acc);
   font-size: 10px;
   font-weight: 700;
   display: flex;
@@ -180,7 +180,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   font-style: italic;
 }
 /* Titles without a link get the same colour as the linked ones. */
-.pub-justify li .pub-title { color: var(--warm); font-weight: 600; }
+.pub-justify li .pub-title { color: var(--acc); font-weight: 600; }
 /* DOI: plain grey, no accent colour. */
 .pub-justify li .pub-doi a { color: var(--muted) !important; font-weight: 400; }
 .pub-justify li .pub-doi a:hover { color: var(--ink) !important; }
@@ -190,12 +190,12 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 /* Title links: calm ink color, no underline (the View Paper button already
    signals the link); accent color + underline only appears on hover */
 .pub-justify li a {
-  color: var(--warm) !important;
+  color: var(--acc) !important;
   font-weight: 600;
   text-decoration: none !important;
 }
 .pub-justify li a:hover {
-  color: var(--warm-dark) !important;
+  color: var(--acc2) !important;
   text-decoration: underline !important;
 }
 
@@ -243,8 +243,8 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 }
 .pub-justify li a.pub-view-btn:hover,
 .pub-justify li summary:hover span {
-  background: var(--warm) !important;
-  border-color: var(--warm) !important;
+  background: var(--acc) !important;
+  border-color: var(--acc) !important;
   color: #ffffff !important;
 }
 /* BibTeX toggle: button sits in the actions column, the revealed box pops
