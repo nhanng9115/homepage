@@ -270,8 +270,8 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 }
 .pub-justify li details > div button {
   background: #ffffff !important;
-  border-color: var(--acc-border) !important;
-  color: var(--acc) !important;
+  border-color: #cfcfcf !important;
+  color: #333333 !important;
 }
 @keyframes pubBibReveal {
   from { opacity: 0; transform: translateY(-6px); }
