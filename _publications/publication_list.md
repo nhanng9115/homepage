@@ -16,10 +16,10 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   --acc-soft: #eef2f7;     /* pale navy tint for chips/hover */
   --acc-border: #d3dbe6;
   --card-bg: #ffffff;
-  --card-border: #e3e6ea;
-  --ink: #1f2933;
-  --muted: #5b6673;
-  --line: #e3e6ea;
+  --card-border: #e4e4e4;
+  --ink: #222222;
+  --muted: #5e5e5e;
+  --line: #e4e4e4;
   --warm: #8a5a1c;         /* muted bronze, used sparingly */
   --warm-soft: #fbf6ec;
 }
@@ -91,7 +91,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   width: 36px;
   height: 36px;
   border-radius: 6px;
-  background: #f1f3f6;
+  background: #f3f3f3;
   border: 1px solid var(--line);
   display: flex;
   align-items: center;
@@ -138,7 +138,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 }
 .pub-justify li:hover {
   box-shadow: 0 2px 10px rgba(16, 24, 40, 0.06);
-  border-color: #c3cdd9;
+  border-color: #c4c4c4;
 }
 .pub-justify li::before {
   counter-increment: pubnum;
@@ -172,7 +172,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 /* Journal / conference name: dark grey rather than a tinted colour, so the
    venue stays crisp when skimming the list */
 .pub-justify li span em {
-  color: #2b333d;
+  color: #333333;
   font-weight: 500;
   font-style: italic;
 }
@@ -257,7 +257,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   width: 320px;
   max-width: 85vw;
   box-sizing: border-box;
-  background: #f8f9fb !important;
+  background: #f8f8f8 !important;
   border: 1px solid var(--acc-border) !important;
   box-shadow: 0 8px 22px rgba(16, 24, 40, 0.12) !important;
 }

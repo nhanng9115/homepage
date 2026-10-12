@@ -10,10 +10,10 @@
   --site-acc-soft: #eef2f7;   /* pale navy tint for tags/hover */
   --site-acc-border: #d3dbe6;
   --site-card-bg: #ffffff;
-  --site-card-border: #e3e6ea;
-  --site-ink: #1f2933;
-  --site-muted: #5b6673;
-  --site-line: #e3e6ea;
+  --site-card-border: #e4e4e4;
+  --site-ink: #222222;
+  --site-muted: #5e5e5e;
+  --site-line: #e4e4e4;
   --site-warm: #8a5a1c;       /* muted bronze, for awards/highlights */
   --site-warm-soft: #fbf6ec;
   --site-warm-border: #e8d9b9;
@@ -21,17 +21,17 @@
 
   /* Theme variables: plain white page, near-black text, navy links. */
   --global-bg-color: #ffffff;
-  --global-text-color: #1f2933;
-  --global-text-color-light: #5b6673;
-  --global-base-color: #5b6673;
-  --global-border-color: #e3e6ea;
-  --global-dark-border-color: #c9d0d8;
-  --global-footer-bg-color: #f6f7f9;
-  --global-fig-caption-color: #5b6673;
+  --global-text-color: #222222;
+  --global-text-color-light: #5e5e5e;
+  --global-base-color: #5e5e5e;
+  --global-border-color: #e4e4e4;
+  --global-dark-border-color: #cfcfcf;
+  --global-footer-bg-color: #f7f7f7;
+  --global-fig-caption-color: #5e5e5e;
   --global-link-color: #1d3a66;
   --global-link-color-hover: #2c4f85;
   --global-link-color-visited: #1d3a66;
-  --global-masthead-link-color: #1f2933;
+  --global-masthead-link-color: #222222;
   --global-masthead-link-color-hover: #1d3a66;
 }
 
@@ -67,7 +67,7 @@ h1, h2, h3, h4,
 }
 .site-card:hover {
   box-shadow: 0 2px 10px rgba(16, 24, 40, 0.06);
-  border-color: #c3cdd9;
+  border-color: #c4c4c4;
 }
 .site-card p:last-child,
 .site-card ul:last-child { margin-bottom: 0; }
@@ -87,7 +87,7 @@ h1, h2, h3, h4,
   width: 34px;
   height: 34px;
   border-radius: 6px;
-  background: #f1f3f6;
+  background: #f3f3f3;
   border: 1px solid var(--site-line);
   color: var(--site-acc);
   /* Emoji icons are rendered in grey so they do not add stray colours. */
