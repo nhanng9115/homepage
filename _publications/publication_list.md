@@ -575,7 +575,7 @@ A. S. Gharagezlou, P. Mobaraki, M. Monemi, <strong>N. T. Nguyen</strong>, M. Ras
   author={A. S. Gharagezlou and P. Mobaraki and M. Monemi and N. T. Nguyen and M. Rasti and S. Ali and M. Matti Latva-aho},
   journal={IEEE Trans. Commun.},
   year={2026},
-  note={submitted}
+  note={major revision}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-9', this); return false;">Copy</button></div></details>
 </div>
 </li>
