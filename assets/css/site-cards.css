@@ -14,9 +14,10 @@
   --site-ink: #222222;
   --site-muted: #5e5e5e;
   --site-line: #e4e4e4;
-  --site-warm: #8a5a1c;       /* muted bronze, for awards/highlights */
-  --site-warm-soft: #fbf6ec;
-  --site-warm-border: #e8d9b9;
+  --site-warm: #a04a17;       /* earthy brown (burnt sienna): titles, numbers, highlights */
+  --site-warm-dark: #7a3510;
+  --site-warm-soft: #fbefe4;
+  --site-warm-border: #eac9ad;
   --site-serif: Georgia, "Times New Roman", Times, serif;
 
   /* Theme variables: plain white page, near-black text, navy links. */
@@ -72,12 +73,12 @@ h1, h2, h3, h4,
 .site-card p:last-child,
 .site-card ul:last-child { margin-bottom: 0; }
 .site-card a {
-  color: var(--site-ink);
+  color: var(--site-warm);
   font-weight: 600;
   text-decoration: none;
 }
 .site-card a:hover {
-  color: var(--site-acc);
+  color: var(--site-warm-dark);
   text-decoration: underline;
 }
 

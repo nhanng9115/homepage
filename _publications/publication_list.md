@@ -20,8 +20,10 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   --ink: #222222;
   --muted: #5e5e5e;
   --line: #e4e4e4;
-  --warm: #8a5a1c;         /* muted bronze, used sparingly */
-  --warm-soft: #fbf6ec;
+  --warm: #a04a17;         /* earthy brown (burnt sienna): titles, numbers, highlights */
+  --warm-dark: #7a3510;
+  --warm-soft: #fbefe4;
+  --warm-border: #eac9ad;
 }
 
 /* ---- Section titles ---- */
@@ -149,8 +151,9 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: var(--acc-soft);
-  color: var(--acc);
+  background: var(--warm-soft);
+  border: 1px solid var(--warm-border);
+  color: var(--warm);
   font-size: 10px;
   font-weight: 700;
   display: flex;
@@ -182,12 +185,12 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 /* Title links: calm ink color, no underline (the View Paper button already
    signals the link); accent color + underline only appears on hover */
 .pub-justify li a {
-  color: var(--ink) !important;
+  color: var(--warm) !important;
   font-weight: 600;
   text-decoration: none !important;
 }
 .pub-justify li a:hover {
-  color: var(--acc) !important;
+  color: var(--warm-dark) !important;
   text-decoration: underline !important;
 }
 
@@ -223,8 +226,8 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   padding: 0 !important;
   border-radius: 5px !important;
   background: #ffffff !important;
-  border: 1px solid var(--acc-border) !important;
-  color: var(--acc-dark) !important;
+  border: 1px solid #cfcfcf !important;
+  color: #333333 !important;
   font-weight: 400 !important;
   font-size: 10px !important;
   text-decoration: none !important;
@@ -235,8 +238,8 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 }
 .pub-justify li a.pub-view-btn:hover,
 .pub-justify li summary:hover span {
-  background: var(--acc-grad) !important;
-  border-color: transparent !important;
+  background: var(--warm) !important;
+  border-color: var(--warm) !important;
   color: #ffffff !important;
 }
 /* BibTeX toggle: button sits in the actions column, the revealed box pops
