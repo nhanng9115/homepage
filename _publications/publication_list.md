@@ -179,6 +179,11 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   font-weight: 500;
   font-style: italic;
 }
+/* Titles without a link get the same colour as the linked ones. */
+.pub-justify li .pub-title { color: var(--warm); font-weight: 600; }
+/* DOI: plain grey, no accent colour. */
+.pub-justify li .pub-doi a { color: var(--muted) !important; font-weight: 400; }
+.pub-justify li .pub-doi a:hover { color: var(--ink) !important; }
 /* Award / status notes written with an inline red: use the muted bronze. */
 .pub-justify li [style*="#dc2626"] { color: var(--warm) !important; }
 
@@ -399,7 +404,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 <li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, A. Alkhateeb, A. L. Swindlehurst, and M. Juntti,  
-"Digital Twin-Assisted Beam Prediction Under Missing Sensor Observations," <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026. (<strong>submitted</strong>)
+<span class="pub-title">"Digital Twin-Assisted Beam Prediction Under Missing Sensor Observations,"</span> <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -417,7 +422,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, A. Alkhateeb, A. L. Swindlehurst, and M. J
 <li data-topics="ml mimo" data-year="2026">
 <div class="pub-main">
 H. Djelouat, D. Lim, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Learning Block-Sparse Priors for Near-Field Channel Estimation via Unfolded Sparse Bayesian Learning," <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026. (<strong>submitted</strong>)
+<span class="pub-title">"Learning Block-Sparse Priors for Near-Field Channel Estimation via Unfolded Sparse Bayesian Learning,"</span> <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -435,7 +440,7 @@ H. Djelouat, D. Lim, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 A. Raza, <strong>N. T. Nguyen</strong>, N. Shlezinger, and M. Juntti,    
-"DoA Estimation Via Atomic Norm Approximation Using Model-Based Machine Learning," <span><em>IEEE Signal Processing Letters</em></span>, 2026. (<strong>submitted</strong>)
+<span class="pub-title">"DoA Estimation Via Atomic Norm Approximation Using Model-Based Machine Learning,"</span> <span><em>IEEE Signal Processing Letters</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -453,7 +458,7 @@ A. Raza, <strong>N. T. Nguyen</strong>, N. Shlezinger, and M. Juntti,
 <li data-topics="isac" data-year="2026">
 <div class="pub-main">
 Huy T. Nguyen, Huy G. Tran, Trung Hieu Vu, Hoa T. Nguyen, <strong>N. T. Nguyen</strong>, Vo-Nguyen Quoc Bao,  
-"Robust Energy-Efficient Design for Imperfect Integrated Sensing and Communication Systems," <span><em>International Conference on Computing and Communication Technologies (RIVF)</em></span>, 2026. (<strong>submitted</strong>)
+<span class="pub-title">"Robust Energy-Efficient Design for Imperfect Integrated Sensing and Communication Systems,"</span> <span><em>International Conference on Computing and Communication Technologies (RIVF)</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -471,7 +476,7 @@ Huy T. Nguyen, Huy G. Tran, Trung Hieu Vu, Hoa T. Nguyen, <strong>N. T. Nguyen</
 <li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, P. N. Tran, M. Ma, H. T. Nguyen, A. Alkhateeb, and M. Juntti,  
-"Energy-Efficient Spiking Neural Networks for Sensing-Aided Beam Prediction," <span><em>International Conference on Computing and Communication Technologies (RIVF)</em></span>, 2026. (<strong>submitted</strong>)
+<span class="pub-title">"Energy-Efficient Spiking Neural Networks for Sensing-Aided Beam Prediction,"</span> <span><em>International Conference on Computing and Communication Technologies (RIVF)</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -489,7 +494,7 @@ Huy T. Nguyen, Huy G. Tran, Trung Hieu Vu, Hoa T. Nguyen, <strong>N. T. Nguyen</
 <li data-topics="ml mimo" data-year="2026">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, P. N. Tran, K. Deka, M. D. Renzo, A. G. Armada, and M. Juntti,  
-"Spike-Native Neural Networks for Switch Configuration in Hybrid Beamforming," <span><em>IEEE International Conference on Communications (ICC)</em></span>, 2026. (<strong>submitted</strong>)
+<span class="pub-title">"Spike-Native Neural Networks for Switch Configuration in Hybrid Beamforming,"</span> <span><em>IEEE International Conference on Communications (ICC)</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -507,7 +512,7 @@ Huy T. Nguyen, Huy G. Tran, Trung Hieu Vu, Hoa T. Nguyen, <strong>N. T. Nguyen</
 <li data-topics="mimo" data-year="2026">
 <div class="pub-main">
 L. Ribeiro, E. M. Taghavi, R. S. Bhagavathula, <strong>N. T. Nguyen</strong>, D. Kumar, M. Tayyab, M. Jada, D. Laselva, and M. Juntti,  
-"Energy‑Efficient 6G Radio Networks: An Industry Review of Transmit Antenna and Power Adaptations," <span><em>IEEE Wireless Communications</em></span>, 2026. (<strong>submitted</strong>)
+<span class="pub-title">"Energy‑Efficient 6G Radio Networks: An Industry Review of Transmit Antenna and Power Adaptations,"</span> <span><em>IEEE Wireless Communications</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -525,7 +530,7 @@ L. Ribeiro, E. M. Taghavi, R. S. Bhagavathula, <strong>N. T. Nguyen</strong>, D.
 <li data-topics="isac mimo" data-year="2026">
 <div class="pub-main">
 Vo P. S., V.-D. Nguyen, <strong>N. T. Nguyen</strong>, T.-V. Truong, and S. Shatzinotas,  
-"Performance Analysis and Sensing-Aware Resource Allocation for FD mMIMO ISCC Networks," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>submitted</strong>)
+<span class="pub-title">"Performance Analysis and Sensing-Aware Resource Allocation for FD mMIMO ISCC Networks,"</span> <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -562,7 +567,7 @@ S. Uniyal, T. Fang, V.-D. Nguye, H. Q. Ngo, M. Juntti, <strong>N. T. Nguyen</str
 <li data-topics="isac ml ris mimo" data-year="2026">
 <div class="pub-main">
 A. S. Gharagezlou, P. Mobaraki, M. Monemi, <strong>N. T. Nguyen</strong>, M. Rasti, S. Ali, and M. Matti Latva-aho,  
-"Deep-Unfolded Wideband ISAC Beamforming for DMA Under Frequency-Selective Lorentzian Model," <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>submitted</strong>)
+<span class="pub-title">"Deep-Unfolded Wideband ISAC Beamforming for DMA Under Frequency-Selective Lorentzian Model,"</span> <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 <details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-9">@article{gharagezlou2026deepunfolded,
@@ -579,7 +584,7 @@ A. S. Gharagezlou, P. Mobaraki, M. Monemi, <strong>N. T. Nguyen</strong>, M. Ras
 <li data-topics="ml mimo" data-year="2026">
 <div class="pub-main">
 S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</strong>,  
-"GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive MIMO systems," <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>major revision</strong>)
+<span class="pub-title">"GNN-enabled mmWave beam prediction using sub-6GHz channels in cell-free massive MIMO systems,"</span> <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>major revision</strong>)
 </div>
 <div class="pub-actions">
 
@@ -616,7 +621,7 @@ P. Mobaraki, A. Zaker, M. D. Renzo, M. Juntti, and  <strong>N. T. Nguyen</strong
 <li data-topics="isac ris" data-year="2026">
 <div class="pub-main">
 C. K. Singh, S. Uniyal, <strong>N. T. Nguyen</strong>, A. S. d. Sena, S.-A. Kim, J. Kim, M. Latva-aho, and M. Juntti,  
-"Performance Analysis of Hybrid STAR-RIS-Assisted Bistatic ISAC-RSMA Systems," <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>submitted</strong>)
+<span class="pub-title">"Performance Analysis of Hybrid STAR-RIS-Assisted Bistatic ISAC-RSMA Systems,"</span> <span><em>IEEE Transactions on Communications</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
 
@@ -652,7 +657,7 @@ E. Ataeebojd, <strong>N. T. Nguyen</strong>, S. Yoo, J. Kang, M. Juntti, M. Latv
 <li data-topics="ml mimo" data-year="2026">
 <div class="pub-main">
 P. N. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,  
-"Graph Attention DRL for Energy-Efficient Joint AP, Antenna, and Power Control in Cell-Free Networks," <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>major revision</strong>)
+<span class="pub-title">"Graph Attention DRL for Energy-Efficient Joint AP, Antenna, and Power Control in Cell-Free Networks,"</span> <span><em>IEEE Transactions on Wireless Communications</em></span>, 2026. (<strong>major revision</strong>)
 </div>
 <div class="pub-actions">
 
@@ -689,7 +694,7 @@ T. Fang, M. Ma, M. Juntti, I. Lee, J. Kang, and <strong>N. T. Nguyen</strong>,
 <li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Deep Unfolded Shifted Power Iteration based ISAC Beamforming for Sum Rate and CRLB Balancing,"  
+<span class="pub-title">"Deep Unfolded Shifted Power Iteration based ISAC Beamforming for Sum Rate and CRLB Balancing,"</span>  
 <span><em>IEEE Communications Letter</em></span>, 2026. (<strong>submitted</strong>)
 </div>
 <div class="pub-actions">
@@ -1713,7 +1718,7 @@ M. Ma, A. Alkhateeb, <strong>N. T. Nguyen</strong>, A. L. Swindlehurst, and M. J
 <li data-topics="isac mimo" data-year="2026">
 <div class="pub-main">
 L. Mendez-Monsanto, K. C.-Hu, M. J. F.-G. Garcia, A. G. Armada, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Low-Ambiguity 5G NR-Compatible Pilot Design for Multi-Domain Channel Estimation in ISAC," <span><em>IEEE Integrated Sensing and Communication Conference (ISAC)</em></span>, 2026.
+<span class="pub-title">"Low-Ambiguity 5G NR-Compatible Pilot Design for Multi-Domain Channel Estimation in ISAC,"</span> <span><em>IEEE Integrated Sensing and Communication Conference (ISAC)</em></span>, 2026.
 </div>
 <div class="pub-actions">
 
@@ -1730,7 +1735,7 @@ L. Mendez-Monsanto, K. C.-Hu, M. J. F.-G. Garcia, A. G. Armada, <strong>N. T. Ng
 <li data-topics="isac mimo" data-year="2026">
 <div class="pub-main">
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Beamforming vs. Waveform Design in ISAC: Is Linear Beamforming Sufficient?," <span><em>IEEE Integrated Sensing and Communication Conference (ISAC)</em></span>, 2026.
+<span class="pub-title">"Beamforming vs. Waveform Design in ISAC: Is Linear Beamforming Sufficient?,"</span> <span><em>IEEE Integrated Sensing and Communication Conference (ISAC)</em></span>, 2026.
 </div>
 <div class="pub-actions">
 
@@ -1747,7 +1752,7 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 S. Prasad, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"Low-Complexity Dynamic Deep Unfolding for ISAC Beamforming," <span><em>IEEE Integrated Sensing and Communication Conference (ISAC)</em></span>, 2026.
+<span class="pub-title">"Low-Complexity Dynamic Deep Unfolding for ISAC Beamforming,"</span> <span><em>IEEE Integrated Sensing and Communication Conference (ISAC)</em></span>, 2026.
 </div>
 <div class="pub-actions">
 
@@ -1798,7 +1803,7 @@ S. Tavakolian, A. Zaker, A. Alkhateeb, M. Juntti, and <strong>N. T. Nguyen</stro
 <li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 M. Hassam, A. Zakeri, M. Ma, A. Alkhateeb, and <strong>N. T. Nguyen</strong>,  
-"Dynamic Multimodal Sensing-Aided Beam Prediction via Deep Reinforcement Learning," <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2026.
+<span class="pub-title">"Dynamic Multimodal Sensing-Aided Beam Prediction via Deep Reinforcement Learning,"</span> <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2026.
 </div>
 <div class="pub-actions">
 

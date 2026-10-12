@@ -70,7 +70,7 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 
 <div class="site-card" markdown="1">
 <strong>N. T. Nguyen</strong> and M. Juntti,
-"Hybrid RIS-aided Wireless Communications,"
+<span class="site-paper-title">"Hybrid RIS-aided Wireless Communications,"</span>
 <em>International Symposium on Antennas and Propagation (ISAP)</em>, Nov. 2025.
 <br><span class="site-badge-award">Best Paper Award</span>
 </div>

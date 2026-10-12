@@ -77,6 +77,7 @@ h1, h2, h3, h4,
   font-weight: 600;
   text-decoration: none;
 }
+.site-card .site-paper-title { color: var(--site-warm); font-weight: 600; }
 .site-card a:hover {
   color: var(--site-warm-dark);
   text-decoration: underline;
