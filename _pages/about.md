@@ -33,6 +33,8 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 
 **Research interests:** signal processing and optimization; deep unfolding / machine learning for massive MIMO; mmWave/THz communications; ISAC/JCAS; multimodal-sensing-assisted communications.
 
+**Professional service:** <strong style="color:var(--site-warm);">Editor of IEEE Transactions on Communications</strong> (appointed 2026).
+
 **Selected honors:** <strong style="color:var(--site-warm);">4 Best Paper Awards</strong> (ISAP 2025, IEEE SPAWC 2024, IEEE SSP 2023, ATC 2021). <strong style="color:var(--site-warm);">Academy of Finland Fellowship</strong> (2023). Exemplary Reviewer of IEEE TCOM (2023). Nokia Foundation Award – Jorma Ollila Grant (2022). <strong style="color:var(--site-warm);">Best Master and Doctoral Dissertation Awards</strong>, SeoulTech, 2020. Samsung Talent Scholarship, Samsung Vietnam R&D Center, 2014.
 </div>
 
@@ -101,6 +103,7 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 <div class="site-section-title">Recent news</div>
 
 <ul class="site-timeline">
+  <li><span class="site-date">Oct 13, 2026:</span> I am honored to have been appointed as an <strong>Editor of the IEEE Transactions on Communications</strong>.</li>
   <li><span class="site-date">Oct 7, 2026:</span> I am happy to share that five of our papers have been accepted to the <strong>IEEE Integrated Sensing and Communication Conference (ISAC) 2026</strong>! Congratulations to all co-authors.</li>
   <li><span class="site-date">July 31, 2026:</span> Phuong’s papers accepted to <strong>IEEE GLOBECOM 2026</strong>.</li>
   <li><span class="site-date">June 16, 2026:</span> I am happy to share that four of our papers have been accepted to IEEE SPAWC 2026!</li>
