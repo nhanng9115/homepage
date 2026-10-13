@@ -33,7 +33,7 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 
 **Research interests:** signal processing and optimization; deep unfolding / machine learning for massive MIMO; mmWave/THz communications; ISAC/JCAS; multimodal-sensing-assisted communications.
 
-**Professional service:** <strong style="color:var(--site-warm);">Editor of IEEE Transactions on Communications</strong> (appointed 2026).
+**Professional service:** <strong style="color:var(--site-warm);">Editor of IEEE Transactions on Communications</strong> (since 2026); <strong style="color:var(--site-warm);">Editor of IEEE Communications Letters</strong> (since 2024).
 
 **Selected honors:** <strong style="color:var(--site-warm);">4 Best Paper Awards</strong> (ISAP 2025, IEEE SPAWC 2024, IEEE SSP 2023, ATC 2021). <strong style="color:var(--site-warm);">Academy of Finland Fellowship</strong> (2023). Exemplary Reviewer of IEEE TCOM (2023). Nokia Foundation Award – Jorma Ollila Grant (2022). <strong style="color:var(--site-warm);">Best Master and Doctoral Dissertation Awards</strong>, SeoulTech, 2020. Samsung Talent Scholarship, Samsung Vietnam R&D Center, 2014.
 </div>
