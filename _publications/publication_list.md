@@ -388,25 +388,25 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 }
 
 /* ======================================================================
-   Eight compact cards in a single row; the list below is grouped by year.
+   Two rows of four wide, low cards; the list below is grouped by year.
    ====================================================================== */
 .pubtab-section { display: none !important; }
-.pub-cards-grid { grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 8px; }
-@container (max-width: 640px) { .pub-cards-grid { grid-template-columns: repeat(8, minmax(0, 1fr)); } }
-@container (max-width: 520px) { .pub-cards-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-@container (max-width: 300px) { .pub-cards-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.pub-cards-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+@container (max-width: 640px) { .pub-cards-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@container (max-width: 480px) { .pub-cards-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@container (max-width: 300px) { .pub-cards-grid { grid-template-columns: 1fr; } }
 .pub-stat-card {
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  gap: 4px;
-  padding: 10px 4px 9px;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 8px;
+  padding: 6px 10px;
 }
-.pub-stat-icon { font-size: 20px; height: 24px; }
-.pub-stat-icon svg { width: 20px; height: 20px; }
-.pub-stat-text { align-items: center; text-align: center; gap: 1px; }
-.pub-stat-num { font-size: 18px; }
-.pub-stat-label { font-size: 10px; line-height: 1.2; }
+.pub-stat-icon { font-size: 18px; width: 22px; height: 22px; flex: 0 0 22px; justify-content: center; }
+.pub-stat-icon svg { width: 18px; height: 18px; }
+.pub-stat-text { flex-direction: row; align-items: center; text-align: left; gap: 7px; min-width: 0; }
+.pub-stat-num { font-size: 17px; }
+.pub-stat-label { font-size: 11px; line-height: 1.2; }
 #pub-topic-list { counter-reset: pubnum; }
 #pub-topic-list .pub-justify { counter-reset: none; }
 .pub-year {
