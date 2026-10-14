@@ -9,21 +9,23 @@ show_bibtex: true   # change to false to hide BibTeX buttons
    Muted, understated palette + compact two-column layout
    ====================================================================== */
 :root {
-  --acc: #2f6fdb;          /* friendly blue */
-  --acc2: #1e54b7;
-  --acc-grad: var(--acc);  /* flat fill (kept as a token for older rules) */
-  --acc-dark: #1e4fa3;
-  --acc-soft: #e7f0fe;
-  --acc-border: #c3d8f8;
+  --acc: #b509ac;          /* al-folio theme colour */
+  --acc2: #b509ac;
+  --acc-grad: var(--acc);
+  --acc-dark: #b509ac;
+  --acc-soft: rgba(181, 9, 172, 0.08);
+  --acc-border: rgba(181, 9, 172, 0.25);
   --card-bg: #ffffff;
-  --card-border: #e6e8ec;
-  --ink: #222222;
-  --muted: #5e5e5e;
-  --line: #e6e8ec;
-  --warm: #d4532b;         /* coral: the second accent */
-  --warm-dark: #a83e1c;
-  --warm-soft: #fff0e8;
-  --warm-border: #f6c9b3;
+  --card-border: transparent;
+  --ink: #000000;
+  --muted: #828282;
+  --line: rgba(0, 0, 0, 0.1);
+  --warm: #b509ac;
+  --warm-dark: #b509ac;
+  --warm-soft: rgba(181, 9, 172, 0.08);
+  --warm-border: rgba(181, 9, 172, 0.25);
+  --shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  --shadow-hover: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* ---- Section titles ---- */
@@ -290,6 +292,99 @@ show_bibtex: true   # change to false to hide BibTeX buttons
     max-width: 100% !important;
     margin-top: 8px;
   }
+}
+
+/* ======================================================================
+   al-folio look for the publication list: topic cards are material cards;
+   entries are flat rows separated by hairlines; "Bib"-style outline buttons.
+   ====================================================================== */
+.pub-section-title {
+  font-size: 2rem;
+  font-weight: 300;
+  border-bottom: 0;
+  padding-bottom: 0;
+  display: block;
+  color: #000;
+  text-transform: lowercase;
+}
+.pub-stat-card {
+  border: 0;
+  border-radius: 4px;
+  box-shadow: var(--shadow);
+}
+.pub-stat-card:hover { box-shadow: var(--shadow-hover); border-color: transparent; }
+.pub-stat-card.active { background: var(--acc); }
+.pub-stat-icon {
+  background: transparent;
+  border: 0;
+  width: auto;
+  height: auto;
+  font-size: 24px;
+}
+.pub-stat-icon svg { width: 24px; height: 24px; }
+.pub-stat-card.active .pub-stat-icon { background: transparent; border-color: transparent; }
+.pub-stat-num { font-family: Roboto, sans-serif; font-weight: 400; font-size: 22px; color: #000; }
+.pub-stat-label { color: #828282; font-weight: 400; font-size: 11px; }
+.pub-stat-card.active .pub-stat-num,
+.pub-stat-card.active .pub-stat-label { color: #ffffff; }
+
+/* Entries keep the layout of the old page: one card per paper with its
+   number, authors first, then the title, venue and year, buttons on the right. */
+.pub-justify li {
+  background: #ffffff;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: var(--shadow);
+  padding: 10px 16px 10px 42px;
+  margin-bottom: 10px;
+}
+.pub-justify li:hover { box-shadow: var(--shadow-hover); border-color: transparent; }
+.pub-justify li::before {
+  background: var(--acc-soft);
+  border: 0;
+  color: var(--acc);
+  font-size: 11px;
+  font-weight: 500;
+  left: 12px;
+  top: 12px;
+  width: 22px;
+  height: 22px;
+  justify-content: center;
+}
+.pub-main { font-weight: 300; }
+.pub-justify li a,
+.pub-justify li .pub-title { color: #000 !important; font-weight: 400; }
+.pub-justify li a:hover { color: var(--acc) !important; }
+.pub-justify li span em { color: #333333; font-weight: 400; }
+.pub-justify li .pub-doi a { color: #828282 !important; font-weight: 300; }
+.pub-justify li .pub-doi a:hover { color: var(--acc) !important; }
+.pub-justify li [style*="#dc2626"] { color: var(--acc) !important; }
+
+.pub-justify li a.pub-view-btn,
+.pub-justify li summary span {
+  background: transparent !important;
+  border: 1px solid #000 !important;
+  border-radius: 2px !important;
+  color: #000 !important;
+  font-weight: 400 !important;
+}
+.pub-justify li a.pub-view-btn:hover,
+.pub-justify li summary:hover span {
+  background: var(--acc) !important;
+  border-color: var(--acc) !important;
+  color: #ffffff !important;
+}
+.pub-justify li details > div {
+  background: #ffffff !important;
+  border: 0 !important;
+  border-radius: 4px !important;
+  box-shadow: var(--shadow) !important;
+}
+.pub-justify li details > div button {
+  background: transparent !important;
+  border-color: #000 !important;
+  color: #000 !important;
+  border-radius: 2px !important;
 }
 </style>
 {% unless page.show_bibtex %}

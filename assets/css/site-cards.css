@@ -3,38 +3,41 @@
    supervision and team-activities pages for a consistent, understated look.
    ====================================================================== */
 :root {
-  --site-acc: #2f6fdb;        /* friendly blue: links, tags, active states */
-  --site-acc2: #1e54b7;
-  --site-acc-grad: var(--site-acc);   /* flat fill (kept as a token for older rules) */
-  --site-acc-dark: #1e4fa3;
-  --site-acc-soft: #e7f0fe;   /* pale blue tint for tags/hover */
-  --site-acc-border: #c3d8f8;
+  /* al-folio palette: white page, black light-weight text, one theme colour */
+  --site-acc: #b509ac;
+  --site-acc2: #b509ac;
+  --site-acc-grad: var(--site-acc);
+  --site-acc-dark: #b509ac;
+  --site-acc-soft: rgba(181, 9, 172, 0.08);
+  --site-acc-border: rgba(181, 9, 172, 0.25);
   --site-card-bg: #ffffff;
-  --site-card-border: #e6e8ec;
-  --site-ink: #222222;
-  --site-muted: #5e5e5e;
-  --site-line: #e6e8ec;
-  --site-warm: #d4532b;       /* coral: the second accent, for highlights */
-  --site-warm-dark: #a83e1c;
-  --site-warm-soft: #fff0e8;
-  --site-warm-border: #f6c9b3;
-  --site-bg: #f7f8fa;         /* plain neutral page; cards stay white */
-  --site-serif: Georgia, "Times New Roman", Times, serif;
+  --site-card-border: transparent;
+  --site-ink: #000000;
+  --site-muted: #828282;
+  --site-line: rgba(0, 0, 0, 0.1);
+  --site-warm: #b509ac;
+  --site-warm-dark: #b509ac;
+  --site-warm-soft: rgba(181, 9, 172, 0.08);
+  --site-warm-border: rgba(181, 9, 172, 0.25);
+  --site-bg: #ffffff;
+  --site-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  --site-shadow-hover: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  --site-serif: Roboto, -apple-system, "Helvetica Neue", Arial, sans-serif;
 
-  /* Theme variables: warm cream page, near-black text, blue links. */
-  --global-bg-color: #f7f8fa;
-  --global-text-color: #222222;
-  --global-text-color-light: #5e5e5e;
-  --global-base-color: #5e5e5e;
-  --global-border-color: #e6e8ec;
-  --global-dark-border-color: #d3d6db;
-  --global-footer-bg-color: #f1f3f5;
-  --global-fig-caption-color: #5e5e5e;
-  --global-link-color: #2f6fdb;
-  --global-link-color-hover: #1e54b7;
-  --global-link-color-visited: #2f6fdb;
-  --global-masthead-link-color: #222222;
-  --global-masthead-link-color-hover: #d4532b;
+  /* Theme variables */
+  --global-bg-color: #ffffff;
+  --global-text-color: #000000;
+  --global-text-color-light: #828282;
+  --global-base-color: #828282;
+  --global-border-color: rgba(0, 0, 0, 0.1);
+  --global-dark-border-color: rgba(0, 0, 0, 0.2);
+  --global-footer-bg-color: #1c1c1d;
+  --global-fig-caption-color: #828282;
+  --global-link-color: #b509ac;
+  --global-link-color-hover: #b509ac;
+  --global-link-color-visited: #b509ac;
+  --global-masthead-link-color: #000000;
+  --global-masthead-link-color-hover: #b509ac;
 }
 
 /* ---- Serif headings, as on a printed paper; body text stays sans-serif ---- */
@@ -359,3 +362,158 @@ html {
   color: #ffffff !important;
   border: 0 !important;
 }
+
+
+/* ======================================================================
+   al-folio look: white page, Roboto light, material-style cards with a
+   soft shadow and no border, one magenta theme colour, dark footer.
+   ====================================================================== */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, a, em, strong, small, summary,
+td, th, button, input, div, section, nav, span, label {
+  font-family: Roboto, -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+body { font-weight: 300; color: #000; }
+strong, b { font-weight: 700; }
+h1, h2, h3, h4, .page__title, .author__name { font-weight: 300; }
+.page__title { font-size: 2.5rem; margin-top: 0.4em; text-transform: lowercase; }
+
+/* ---- Top bar: white, hairline underneath, black links ---- */
+.masthead {
+  background: #ffffff !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.masthead__menu-item a { font-weight: 400; color: #000; }
+.masthead__menu-item--lg a { font-weight: 300; }
+.masthead__menu-item a:hover,
+.masthead__menu-item a.active { color: #b509ac; }
+.greedy-nav .visible-links a:before { display: none !important; }
+
+/* ---- Footer: dark bar, small centred text ---- */
+.page__footer {
+  margin: 40px 0 0 0;
+  padding: 0;
+  background: #1c1c1d;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+}
+.page__footer footer { padding: 0; }
+.page__footer .page__footer-follow, .page__footer .social-icons { display: none !important; }
+.page__footer-follow { display: none !important; }
+.page__footer-copyright { color: #ffffff; padding: 12px 10px; font-size: 12px; line-height: 1.3; }
+.page__footer-copyright a { color: #ffffff; text-decoration: underline; }
+
+/* ---- Section headings: plain light type, no underline ---- */
+.site-section-title {
+  font-size: 2rem;
+  font-weight: 300;
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin: 28px 0 14px 0;
+  display: block;
+  color: #000;
+  text-transform: lowercase;
+}
+
+/* ---- Cards: white, 4px radius, material shadow, no border ---- */
+.site-card {
+  border: 0;
+  border-radius: 4px;
+  padding: 18px 20px;
+  box-shadow: var(--site-shadow);
+  background: #ffffff;
+}
+.site-card:hover {
+  box-shadow: var(--site-shadow-hover);
+  border-color: transparent;
+}
+.site-card a { color: var(--site-acc); font-weight: 300; }
+.site-card a:hover { color: var(--site-acc); text-decoration: underline; }
+.site-card .site-paper-title { color: #000; font-weight: 400; }
+.site-card-head h3 { font-weight: 400; font-size: 1.3rem; color: #000; }
+.site-icon-chip {
+  background: transparent;
+  border: 0;
+  width: auto;
+  height: auto;
+  font-size: 22px;
+  filter: none;
+}
+.ico { filter: none; }
+.site-meta-label { color: #828282; font-weight: 400; }
+.project-card { padding: 18px 20px; }
+.project-card .project-body { border-top: 1px solid rgba(0, 0, 0, 0.1); }
+.project-card summary::after { color: #828282; font-weight: 400; }
+.project-card:hover summary::after { color: var(--site-acc); }
+
+/* ---- Tags: light magenta pill, no border ---- */
+.site-tag {
+  background: rgba(181, 9, 172, 0.08);
+  border: 0;
+  color: #b509ac;
+  font-weight: 400;
+}
+.site-badge-award {
+  background: rgba(181, 9, 172, 0.08);
+  border: 0;
+  color: #b509ac;
+  font-weight: 400;
+}
+
+/* ---- News: bold date column on the left, text on the right ---- */
+.site-timeline {
+  border-left: 0;
+  margin-left: 0;
+}
+.site-timeline li {
+  padding: 6px 0 10px 150px;
+  position: relative;
+}
+.site-timeline li::before { display: none; }
+.site-timeline .site-date {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 140px;
+  font-weight: 700;
+  color: #212529;
+}
+.site-card .site-team-timeline { margin: 6px 0 0 0; }
+.site-team-timeline li { padding-left: 120px; }
+.site-team-timeline .site-date { width: 110px; }
+.site-team-timeline .site-person-name { font-weight: 700; color: #000; }
+.site-team-timeline .site-person-note,
+.site-team-timeline .site-person-extra,
+.site-people .site-person-note { color: #828282; font-weight: 300; }
+@media (max-width: 680px) {
+  .site-timeline li { padding-left: 110px; }
+  .site-timeline .site-date { width: 100px; }
+  .site-team-timeline li { padding-left: 100px; }
+  .site-team-timeline .site-date { width: 92px; }
+}
+
+/* ---- Sidebar: round-cornered photo with shadow, grey icons ---- */
+.author__avatar img {
+  border-radius: 4px;
+  box-shadow: var(--site-shadow);
+}
+.author__name { font-weight: 400; color: #000; }
+.author__urls li i,
+.author__urls li .fas,
+.author__urls li .fab,
+.author__urls li .ai { color: #828282 !important; }
+.author__urls li a { color: #000; font-weight: 300; }
+.author__urls li a:hover,
+.author__urls li a:hover i { color: #b509ac !important; }
+.author__urls-wrapper .btn,
+.author__urls-wrapper button {
+  background: transparent !important;
+  color: #000 !important;
+  border: 1px solid #000 !important;
+  border-radius: 2px;
+  font-weight: 400;
+}
+.author__urls-wrapper .btn:hover,
+.author__urls-wrapper button:hover { background: #b509ac !important; border-color: #b509ac !important; color: #fff !important; }
+.page__content h1, .page__content h2, .page__content h3, .page__title, .author__name { color: #000; }
+hr.section-divider { border-top-color: rgba(0, 0, 0, 0.1) !important; }
