@@ -386,6 +386,36 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   color: #000 !important;
   border-radius: 2px !important;
 }
+
+/* ======================================================================
+   Eight compact cards in a single row; the list below is grouped by year.
+   ====================================================================== */
+.pubtab-section { display: none !important; }
+.pub-cards-grid { grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 8px; }
+@container (max-width: 640px) { .pub-cards-grid { grid-template-columns: repeat(8, minmax(0, 1fr)); } }
+@container (max-width: 520px) { .pub-cards-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@container (max-width: 300px) { .pub-cards-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.pub-stat-card {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 4px;
+  padding: 10px 4px 9px;
+}
+.pub-stat-icon { font-size: 20px; height: 24px; }
+.pub-stat-icon svg { width: 20px; height: 20px; }
+.pub-stat-text { align-items: center; text-align: center; gap: 1px; }
+.pub-stat-num { font-size: 18px; }
+.pub-stat-label { font-size: 10px; line-height: 1.2; }
+#pub-topic-list { counter-reset: pubnum; }
+#pub-topic-list .pub-justify { counter-reset: none; }
+.pub-year {
+  font-size: 1.7rem;
+  font-weight: 300;
+  margin: 26px 0 8px;
+  color: #000;
+  text-transform: none;
+}
 </style>
 {% unless page.show_bibtex %}
 <style>
@@ -403,56 +433,56 @@ show_bibtex: true   # change to false to hide BibTeX buttons
       <span class="pub-stat-label">Journal &amp; Book</span>
     </span>
   </button>
-  <button type="button" class="pub-stat-card" id="pub-stat-btn-conference" onclick="showPubCategory('conference')">
+  <button type="button" class="pub-stat-card" id="pub-stat-btn-conference" data-full="Conference Papers" onclick="showPubCategory('conference')">
     <span class="pub-stat-icon"><span class="ico">🎤</span></span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">61</span>
-      <span class="pub-stat-label">Conference Papers</span>
+      <span class="pub-stat-label">Conference</span>
     </span>
   </button>
   <button type="button" class="pub-stat-card" id="pub-stat-btn-review" onclick="showPubCategory('review')">
     <span class="pub-stat-icon"><span class="ico">📝</span></span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">18</span>
-      <span class="pub-stat-label">Under Review</span>
+      <span class="pub-stat-label">Under review</span>
     </span>
   </button>
-  <button type="button" class="pub-stat-card" id="pub-stat-btn-total" onclick="showPubCategory('total')">
+  <button type="button" class="pub-stat-card" id="pub-stat-btn-total" data-full="Total Publications" onclick="showPubCategory('total')">
     <span class="pub-stat-icon">&Sigma;</span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">120</span>
-      <span class="pub-stat-label">Total Publications</span>
+      <span class="pub-stat-label">Total</span>
     </span>
   </button>
 </div>
 
 <div class="pub-stats pub-topics">
-  <button type="button" class="pub-stat-card" id="pub-topic-btn-isac" data-topic="isac" onclick="showPubTopic('isac')">
+  <button type="button" class="pub-stat-card" id="pub-topic-btn-isac" data-full="ISAC &amp; Multimodal Sensing" data-topic="isac" onclick="showPubTopic('isac')">
     <span class="pub-stat-icon"><span class="ico">📡</span></span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">–</span>
-      <span class="pub-stat-label">ISAC &amp; Multimodal Sensing</span>
+      <span class="pub-stat-label">ISAC &amp; Sensing</span>
     </span>
   </button>
-  <button type="button" class="pub-stat-card" id="pub-topic-btn-ml" data-topic="ml" onclick="showPubTopic('ml')">
+  <button type="button" class="pub-stat-card" id="pub-topic-btn-ml" data-full="Machine Learning &amp; Deep Unfolding" data-topic="ml" onclick="showPubTopic('ml')">
     <span class="pub-stat-icon"><span class="ico">🧠</span></span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">–</span>
-      <span class="pub-stat-label">Machine Learning &amp; Deep Unfolding</span>
+      <span class="pub-stat-label">ML &amp; Unfolding</span>
     </span>
   </button>
-  <button type="button" class="pub-stat-card" id="pub-topic-btn-ris" data-topic="ris" onclick="showPubTopic('ris')">
+  <button type="button" class="pub-stat-card" id="pub-topic-btn-ris" data-full="Reconfigurable Intelligent Surfaces" data-topic="ris" onclick="showPubTopic('ris')">
     <span class="pub-stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="4.6" height="4.6" rx="1"/><rect x="9.7" y="3" width="4.6" height="4.6" rx="1"/><rect x="16.4" y="3" width="4.6" height="4.6" rx="1"/><rect x="3" y="9.7" width="4.6" height="4.6" rx="1"/><rect x="9.7" y="9.7" width="4.6" height="4.6" rx="1"/><rect x="16.4" y="9.7" width="4.6" height="4.6" rx="1"/><rect x="3" y="16.4" width="4.6" height="4.6" rx="1"/><rect x="9.7" y="16.4" width="4.6" height="4.6" rx="1"/><rect x="16.4" y="16.4" width="4.6" height="4.6" rx="1"/></svg></span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">–</span>
-      <span class="pub-stat-label">Reconfigurable Intelligent Surfaces</span>
+      <span class="pub-stat-label">RIS</span>
     </span>
   </button>
-  <button type="button" class="pub-stat-card" id="pub-topic-btn-mimo" data-topic="mimo" onclick="showPubTopic('mimo')">
+  <button type="button" class="pub-stat-card" id="pub-topic-btn-mimo" data-full="Massive MIMO &amp; Hybrid Beamforming" data-topic="mimo" onclick="showPubTopic('mimo')">
     <span class="pub-stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M6 21V9"/><path d="M3.4 4.5L6 9l2.6-4.5"/><path d="M12 21V9"/><path d="M9.4 4.5L12 9l2.6-4.5"/><path d="M18 21V9"/><path d="M15.4 4.5L18 9l2.6-4.5"/></svg></span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">–</span>
-      <span class="pub-stat-label">Massive MIMO &amp; Hybrid Beamforming</span>
+      <span class="pub-stat-label">MIMO &amp; Beamforming</span>
     </span>
   </button>
 </div>
@@ -3034,20 +3064,14 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
      with that topic (data-topics on each <li>), newest first. -->
 <div id="pub-topic-section" style="display:none;">
 <h2 class="pub-section-title" id="pub-topic-title"></h2>
-<ol class="pub-justify" id="pub-topic-list"></ol>
+<div id="pub-topic-list"></div>
 </div>
 
 <!-- Copy helper -->
 <script>
 function showPubCategory(category){
-  document.getElementById('pub-topic-section').style.display = 'none';
-  document.querySelectorAll('.pubtab-section').forEach(function(section){
-    const categories = section.dataset.pubcat.split(' ');
-    section.style.display = categories.includes(category) ? '' : 'none';
-  });
-  document.querySelectorAll('.pub-stat-card').forEach(function(btn){
-    btn.classList.toggle('active', btn.id === 'pub-stat-btn-' + category);
-  });
+  const btn = document.getElementById('pub-stat-btn-' + category);
+  renderPubList(pubCategoryEntries(category), btn);
 }
 /* A closed BibTeX box is taken out of the page and put back when its
    toggle is opened. Browsers search (and auto-expand) the hidden content
@@ -3072,40 +3096,71 @@ function pubTopicEntries(topic){
     .filter(function(e){ return (e.li.dataset.topics || '').split(' ').includes(topic); })
     .sort(function(a, b){ return (b.year - a.year) || (a.i - b.i); });
 }
-function showPubTopic(topic){
-  const btn = document.getElementById('pub-topic-btn-' + topic);
-  const list = document.getElementById('pub-topic-list');
-  const entries = pubTopicEntries(topic);
-  list.innerHTML = '';
-  entries.forEach(function(e){
-    const copy = e.li.cloneNode(true);
-    copy.classList.remove('pub-li-open');
-    const origDetails = e.li.querySelectorAll('details');
-    copy.querySelectorAll('details').forEach(function(d, k){
-      d.open = false;
-      const own = d.querySelector(':scope > div');
-      if (own) own.remove();
-      const src = pubBibBox(origDetails[k]);
-      if (!src) return;
-      const box = src.cloneNode(true);
-      /* Keep element ids unique so each Copy button reads its own BibTeX. */
-      const code = box.querySelector('code[id]');
-      const copyBtn = box.querySelector('button');
-      if (code && copyBtn) {
-        const id = code.id + '-topic';
-        code.id = id;
-        copyBtn.onclick = function(){ copyBib(id, copyBtn); return false; };
-      }
-      pubBibStore.set(d, box);
+/* Entries of a category (the data-pubcat of the static sections), newest
+   first by year and, within a year, in page order. */
+function pubCategoryEntries(category){
+  const out = [];
+  let i = 0;
+  document.querySelectorAll('.pubtab-section').forEach(function(section){
+    const ok = section.dataset.pubcat.split(' ').includes(category);
+    section.querySelectorAll('.pub-justify > li').forEach(function(li){
+      if (ok) out.push({ li: li, i: i, year: parseInt(li.dataset.year, 10) || 0 });
+      i++;
     });
-    list.appendChild(copy);
+  });
+  return out.sort(function(a, b){ return (b.year - a.year) || (a.i - b.i); });
+}
+function pubCopyEntry(li){
+  const copy = li.cloneNode(true);
+  copy.classList.remove('pub-li-open');
+  const origDetails = li.querySelectorAll('details');
+  copy.querySelectorAll('details').forEach(function(d, k){
+    d.open = false;
+    const own = d.querySelector(':scope > div');
+    if (own) own.remove();
+    const src = pubBibBox(origDetails[k]);
+    if (!src) return;
+    const box = src.cloneNode(true);
+    /* Keep element ids unique so each Copy button reads its own BibTeX. */
+    const code = box.querySelector('code[id]');
+    const copyBtn = box.querySelector('button');
+    if (code && copyBtn) {
+      const id = code.id + '-view';
+      code.id = id;
+      copyBtn.onclick = function(){ copyBib(id, copyBtn); return false; };
+    }
+    pubBibStore.set(d, box);
+  });
+  return copy;
+}
+/* Show a list of entries grouped under one heading per year. */
+function renderPubList(entries, btn){
+  const list = document.getElementById('pub-topic-list');
+  list.innerHTML = '';
+  let ol = null;
+  let year = null;
+  entries.forEach(function(e){
+    if (e.year !== year) {
+      year = e.year;
+      const h = document.createElement('h3');
+      h.className = 'pub-year';
+      h.textContent = year || 'Other';
+      list.appendChild(h);
+      ol = document.createElement('ol');
+      ol.className = 'pub-justify';
+      list.appendChild(ol);
+    }
+    ol.appendChild(pubCopyEntry(e.li));
   });
   const title = document.getElementById('pub-topic-title');
   title.innerHTML = btn.querySelector('.pub-stat-icon').innerHTML + ' ';
-  title.appendChild(document.createTextNode(btn.querySelector('.pub-stat-label').textContent));
-  document.querySelectorAll('.pubtab-section').forEach(function(section){ section.style.display = 'none'; });
+  const label = btn.dataset.full || btn.querySelector('.pub-stat-label').textContent;
+  title.appendChild(document.createTextNode(label));
   document.getElementById('pub-topic-section').style.display = '';
   document.querySelectorAll('.pub-stat-card').forEach(function(b){ b.classList.toggle('active', b === btn); });
+}
+function showPubTopic(topic){
+  renderPubList(pubTopicEntries(topic), document.getElementById('pub-topic-btn-' + topic));
 }
 document.querySelectorAll('.pub-topics .pub-stat-card').forEach(function(btn){
   btn.querySelector('.pub-stat-num').textContent = pubTopicEntries(btn.dataset.topic).length;
