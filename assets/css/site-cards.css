@@ -556,3 +556,20 @@ a.repo-card:hover { box-shadow: var(--site-shadow-hover); text-decoration: none;
 .repo-desc { color: #444; font-size: 0.85rem; line-height: 1.4; flex: 1; overflow-wrap: anywhere; }
 .repo-meta { display: flex; align-items: center; gap: 14px; color: #828282; font-size: 0.8rem; }
 .repo-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; }
+
+/* ---- CV and Teaching pages: date column on the left, details on the right ---- */
+.cv-title { font-size: 1.5rem; font-weight: 300; margin-bottom: 8px; color: #000; }
+.cv-sub { font-weight: 400; color: #828282; margin: 12px 0 2px; font-size: 0.9rem; text-transform: lowercase; }
+.cv-row { display: flex; gap: 20px; padding: 7px 0; border-top: 1px solid rgba(0, 0, 0, 0.06); }
+.cv-title + .cv-row, .cv-sub + .cv-row { border-top: 0; }
+.cv-date { flex: 0 0 150px; font-weight: 700; color: #212529; font-size: 0.9rem; }
+.cv-body { flex: 1; min-width: 0; line-height: 1.5; }
+.cv-note { color: var(--site-acc); font-size: 0.85em; }
+.cv-intro { margin: 4px 0 18px; }
+.cv-pdf { display: inline-block; margin-left: 10px; padding: 1px 10px; border: 1px solid #000; border-radius: 2px; color: #000 !important; font-size: 0.8rem; font-weight: 400; text-decoration: none !important; }
+.cv-pdf:hover { background: var(--site-acc); border-color: var(--site-acc); color: #fff !important; }
+.cv-more { margin: -4px 0 18px; color: #828282; }
+@media (max-width: 680px) {
+  .cv-row { flex-direction: column; gap: 2px; }
+  .cv-date { flex: none; }
+}

@@ -17,6 +17,12 @@ main:
   - title: "Repositories"
     url: /repositories/
 
+  - title: "CV"
+    url: /cv/
+
+  - title: "Teaching"
+    url: /teaching/
+
   # - title: "Teaching"
   #   url: /teaching/    
     
