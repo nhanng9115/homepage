@@ -482,7 +482,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
     <span class="pub-stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M6 21V9"/><path d="M3.4 4.5L6 9l2.6-4.5"/><path d="M12 21V9"/><path d="M9.4 4.5L12 9l2.6-4.5"/><path d="M18 21V9"/><path d="M15.4 4.5L18 9l2.6-4.5"/></svg></span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">–</span>
-      <span class="pub-stat-label">MIMO &amp; Beamforming</span>
+      <span class="pub-stat-label">Massive MIMO</span>
     </span>
   </button>
 </div>
