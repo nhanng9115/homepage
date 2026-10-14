@@ -16,10 +16,10 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   --acc-soft: #e7f0fe;
   --acc-border: #c3d8f8;
   --card-bg: #ffffff;
-  --card-border: #efe5da;
+  --card-border: #e6e8ec;
   --ink: #222222;
   --muted: #5e5e5e;
-  --line: #efe5da;
+  --line: #e6e8ec;
   --warm: #d4532b;         /* coral: the second accent */
   --warm-dark: #a83e1c;
   --warm-soft: #fff0e8;
@@ -74,12 +74,12 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   appearance: none;
 }
 .pub-stat-card:hover {
-  box-shadow: 0 4px 14px rgba(180, 110, 60, 0.12);
-  border-color: var(--warm-border);
+  box-shadow: 0 4px 14px rgba(16, 24, 40, 0.08);
+  border-color: #cfd4db;
 }
 .pub-stat-card.active {
   background: var(--acc-grad);
-  border-color: var(--warm-border);
+  border-color: #cfd4db;
 }
 .pub-stat-card.active .pub-stat-icon { background: #ffffff; border-color: #ffffff; }
 .pub-stat-card.active .pub-stat-num,
@@ -89,8 +89,8 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   width: 36px;
   height: 36px;
   border-radius: 6px;
-  background: var(--warm-soft);
-  border: 1px solid var(--warm-border);
+  background: #ffffff;
+  border: 1px solid var(--line);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,7 +133,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   z-index: 40;
 }
 .pub-justify li:hover {
-  box-shadow: 0 4px 14px rgba(180, 110, 60, 0.12);
+  box-shadow: 0 4px 14px rgba(16, 24, 40, 0.08);
   border-color: #c4c4c4;
 }
 .pub-justify li::before {

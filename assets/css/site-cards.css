@@ -10,25 +10,25 @@
   --site-acc-soft: #e7f0fe;   /* pale blue tint for tags/hover */
   --site-acc-border: #c3d8f8;
   --site-card-bg: #ffffff;
-  --site-card-border: #efe5da;
+  --site-card-border: #e6e8ec;
   --site-ink: #222222;
   --site-muted: #5e5e5e;
-  --site-line: #efe5da;
+  --site-line: #e6e8ec;
   --site-warm: #d4532b;       /* coral: the second accent, for highlights */
   --site-warm-dark: #a83e1c;
   --site-warm-soft: #fff0e8;
   --site-warm-border: #f6c9b3;
-  --site-bg: #fffaf5;         /* warm cream page; cards stay white */
+  --site-bg: #f7f8fa;         /* plain neutral page; cards stay white */
   --site-serif: Georgia, "Times New Roman", Times, serif;
 
   /* Theme variables: warm cream page, near-black text, blue links. */
-  --global-bg-color: #fffaf5;
+  --global-bg-color: #f7f8fa;
   --global-text-color: #222222;
   --global-text-color-light: #5e5e5e;
   --global-base-color: #5e5e5e;
-  --global-border-color: #efe5da;
-  --global-dark-border-color: #dccfc0;
-  --global-footer-bg-color: #fbf3ea;
+  --global-border-color: #e6e8ec;
+  --global-dark-border-color: #d3d6db;
+  --global-footer-bg-color: #f1f3f5;
   --global-fig-caption-color: #5e5e5e;
   --global-link-color: #2f6fdb;
   --global-link-color-hover: #1e54b7;
@@ -68,8 +68,8 @@ h1, h2, h3, h4,
   transition: box-shadow 0.2s ease, border-color 0.2s ease;
 }
 .site-card:hover {
-  box-shadow: 0 4px 14px rgba(180, 110, 60, 0.12);
-  border-color: var(--site-warm-border);
+  box-shadow: 0 4px 14px rgba(16, 24, 40, 0.08);
+  border-color: #cfd4db;
 }
 .site-card p:last-child,
 .site-card ul:last-child { margin-bottom: 0; }
@@ -90,8 +90,8 @@ h1, h2, h3, h4,
   width: 34px;
   height: 34px;
   border-radius: 6px;
-  background: var(--site-warm-soft);
-  border: 1px solid var(--site-warm-border);
+  background: #ffffff;
+  border: 1px solid var(--site-line);
   color: var(--site-acc);
   display: inline-flex;
   align-items: center;
@@ -328,13 +328,7 @@ h1, h2, h3, h4,
 }
 
 /* ---- Warm cream page with soft pastel glows; white top bar ---- */
-body {
-  background:
-    radial-gradient(800px 420px at 0% -5%, rgba(255, 196, 160, 0.30), transparent 60%),
-    radial-gradient(800px 460px at 100% 0%, rgba(160, 200, 255, 0.28), transparent 60%),
-    var(--site-bg) !important;
-  background-attachment: fixed !important;
-}
+body { background: var(--site-bg) !important; }
 .masthead {
   background: #ffffff !important;
   border-bottom: 3px solid var(--site-warm);
