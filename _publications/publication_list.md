@@ -474,6 +474,13 @@ show_bibtex: true   # change to false to hide BibTeX buttons
     color: #f0f0f0 !important;
   }
 }
+
+/* Phones: the BibTeX toggle sits in a <details> with an inline top margin,
+   which pushed it lower than the View and Code buttons in the same row. */
+@media (max-width: 680px) {
+  .pub-justify li .pub-actions { align-items: center; }
+  .pub-justify li .pub-actions details { margin: 0 !important; }
+}
 </style>
 {% unless page.show_bibtex %}
 <style>
