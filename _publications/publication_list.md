@@ -429,14 +429,14 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   <button type="button" class="pub-stat-card active" id="pub-stat-btn-journal" onclick="showPubCategory('journal')">
     <span class="pub-stat-icon"><span class="ico">📚</span></span>
     <span class="pub-stat-text">
-      <span class="pub-stat-num">59</span>
+      <span class="pub-stat-num">54</span>
       <span class="pub-stat-label">Journal &amp; Book</span>
     </span>
   </button>
   <button type="button" class="pub-stat-card" id="pub-stat-btn-conference" data-full="Conference Papers" onclick="showPubCategory('conference')">
     <span class="pub-stat-icon"><span class="ico">🎤</span></span>
     <span class="pub-stat-text">
-      <span class="pub-stat-num">61</span>
+      <span class="pub-stat-num">66</span>
       <span class="pub-stat-label">Conference</span>
     </span>
   </button>
@@ -3098,12 +3098,23 @@ function pubTopicEntries(topic){
 }
 /* Entries of a category (the data-pubcat of the static sections), newest
    first by year and, within a year, in page order. */
+function pubIsJournal(li){
+  const em = li.querySelector('.pub-main em');
+  const venue = em ? em.textContent : '';
+  return /Transactions|Journal|Letter|Magazine|Proceedings of the IEEE|IEEE Wireless Communications$|Access|Wiley|Surveys/.test(venue.trim());
+}
 function pubCategoryEntries(category){
   const out = [];
   let i = 0;
   document.querySelectorAll('.pubtab-section').forEach(function(section){
-    const ok = section.dataset.pubcat.split(' ').includes(category);
+    const cats = section.dataset.pubcat.split(' ');
+    const underReview = cats.includes('review');
     section.querySelectorAll('.pub-justify > li').forEach(function(li){
+      let ok;
+      if (category === 'total') ok = true;
+      else if (category === 'review') ok = underReview;
+      else if (underReview) ok = (category === 'journal') === pubIsJournal(li);
+      else ok = cats.includes(category);
       if (ok) out.push({ li: li, i: i, year: parseInt(li.dataset.year, 10) || 0 });
       i++;
     });
@@ -3162,6 +3173,9 @@ function renderPubList(entries, btn){
 function showPubTopic(topic){
   renderPubList(pubTopicEntries(topic), document.getElementById('pub-topic-btn-' + topic));
 }
+['journal', 'conference', 'review', 'total'].forEach(function(cat){
+  document.querySelector('#pub-stat-btn-' + cat + ' .pub-stat-num').textContent = pubCategoryEntries(cat).length;
+});
 document.querySelectorAll('.pub-topics .pub-stat-card').forEach(function(btn){
   btn.querySelector('.pub-stat-num').textContent = pubTopicEntries(btn.dataset.topic).length;
 });
