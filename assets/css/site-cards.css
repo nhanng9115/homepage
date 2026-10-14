@@ -2,7 +2,9 @@
    Shared muted "card" design system — used by the homepage, projects,
    supervision and team-activities pages for a consistent, understated look.
    ====================================================================== */
-:root {
+:root,
+html[data-theme="dark"] {
+  color-scheme: light;
   /* al-folio palette: white page, black light-weight text, one theme colour */
   --site-acc: #b509ac;
   --site-acc2: #b509ac;
@@ -622,3 +624,8 @@ a.repo-card:hover { box-shadow: var(--site-shadow-hover); text-decoration: none;
 .greedy-nav .navicon:before,
 .greedy-nav .navicon:after { background: #000000; }
 .greedy-nav button.close .navicon { background: transparent; }
+
+/* The menu button gets a thin outline so it stays visible whatever the
+   browser does with colours (forced dark mode on phones, for example). */
+.greedy-nav button { border: 1px solid rgba(0, 0, 0, 0.25) !important; border-radius: 4px; }
+.greedy-nav button.close { border-color: transparent !important; }
