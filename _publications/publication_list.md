@@ -9,21 +9,21 @@ show_bibtex: true   # change to false to hide BibTeX buttons
    Muted, understated palette + compact two-column layout
    ====================================================================== */
 :root {
-  --acc: #1d3a66;          /* navy: the one accent colour */
-  --acc2: #2c4f85;
+  --acc: #2f6fdb;          /* friendly blue */
+  --acc2: #1e54b7;
   --acc-grad: var(--acc);  /* flat fill (kept as a token for older rules) */
-  --acc-dark: #1d3a66;
-  --acc-soft: #e8eef7;     /* pale navy tint for chips/hover */
-  --acc-border: #c5d2e6;
+  --acc-dark: #1e4fa3;
+  --acc-soft: #e7f0fe;
+  --acc-border: #c3d8f8;
   --card-bg: #ffffff;
-  --card-border: #e4e4e4;
+  --card-border: #efe5da;
   --ink: #222222;
   --muted: #5e5e5e;
-  --line: #e4e4e4;
-  --warm: #b5532a;         /* terracotta: the second accent */
-  --warm-dark: #8a3a18;
-  --warm-soft: #fbece3;
-  --warm-border: #ecc7b0;
+  --line: #efe5da;
+  --warm: #d4532b;         /* coral: the second accent */
+  --warm-dark: #a83e1c;
+  --warm-soft: #fff0e8;
+  --warm-border: #f6c9b3;
 }
 
 /* ---- Section titles ---- */
@@ -34,10 +34,9 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   padding-bottom: 6px;
   border-bottom: 2px solid var(--warm);
   display: inline-block;
-  color: var(--acc);
+  color: var(--ink);
 }
-/* The topic title reuses the card's icon; there it sits on white. */
-.pub-section-title .ico { filter: brightness(0); }
+
 
 /* ---- Stats strip, now doubling as the category tabs: click a card to
    filter the list below to its category; the active one stays highlighted ---- */
@@ -67,7 +66,6 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   border-radius: 6px;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
-  border-top: 3px solid var(--acc);
   transition: box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease;
   font: inherit;
   text-align: left;
@@ -76,15 +74,14 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   appearance: none;
 }
 .pub-stat-card:hover {
-  box-shadow: 0 2px 10px rgba(16, 24, 40, 0.06);
-  border-color: var(--acc);
+  box-shadow: 0 4px 14px rgba(180, 110, 60, 0.12);
+  border-color: var(--warm-border);
 }
 .pub-stat-card.active {
   background: var(--acc-grad);
-  border-color: var(--acc);
+  border-color: var(--warm-border);
 }
-.pub-stat-card.active { border-top-color: var(--warm); }
-.pub-stat-card.active .pub-stat-icon { background: rgba(255, 255, 255, 0.18); }
+.pub-stat-card.active .pub-stat-icon { background: #ffffff; border-color: #ffffff; }
 .pub-stat-card.active .pub-stat-num,
 .pub-stat-card.active .pub-stat-label { color: #ffffff; }
 .pub-stat-icon {
@@ -92,18 +89,19 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   width: 36px;
   height: 36px;
   border-radius: 6px;
-  background: var(--acc);
+  background: var(--warm-soft);
+  border: 1px solid var(--warm-border);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 17px;
-  color: #ffffff;
+  color: var(--acc);
 }
 /* Line-drawn icons (topics without a fitting emoji) follow the text colour. */
 .pub-stat-icon svg { width: 20px; height: 20px; }
 .pub-section-title svg { width: 1em; height: 1em; vertical-align: -0.12em; }
 .pub-stat-text { display: flex; flex-direction: column; line-height: 1.15; }
-.pub-stat-num { font-size: 19px; font-weight: 700; color: var(--acc); font-family: Georgia, "Times New Roman", Times, serif; }
+.pub-stat-num { font-size: 19px; font-weight: 700; color: var(--ink); font-family: Georgia, "Times New Roman", Times, serif; }
 .pub-stat-label { font-size: 10.5px; color: var(--muted); font-weight: 600; }
 
 /* ---- Card-style entries, two-column: content left / actions right ---- */
@@ -135,7 +133,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   z-index: 40;
 }
 .pub-justify li:hover {
-  box-shadow: 0 2px 10px rgba(16, 24, 40, 0.06);
+  box-shadow: 0 4px 14px rgba(180, 110, 60, 0.12);
   border-color: #c4c4c4;
 }
 .pub-justify li::before {
@@ -147,9 +145,9 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: var(--acc);
-  border: 1px solid var(--acc);
-  color: #ffffff;
+  background: var(--acc-soft);
+  border: 1px solid var(--acc-border);
+  color: var(--acc-dark);
   font-size: 10px;
   font-weight: 700;
   display: flex;
@@ -176,7 +174,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   font-style: italic;
 }
 /* Titles without a link get the same colour as the linked ones. */
-.pub-justify li .pub-title { color: var(--acc); font-weight: 600; }
+.pub-justify li .pub-title { color: var(--ink); font-weight: 600; }
 /* DOI: plain grey, no accent colour. */
 .pub-justify li .pub-doi a { color: var(--muted) !important; font-weight: 400; }
 .pub-justify li .pub-doi a:hover { color: var(--ink) !important; }
@@ -186,12 +184,12 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 /* Title links: calm ink color, no underline (the View Paper button already
    signals the link); accent color + underline only appears on hover */
 .pub-justify li a {
-  color: var(--acc) !important;
+  color: var(--ink) !important;
   font-weight: 600;
   text-decoration: none !important;
 }
 .pub-justify li a:hover {
-  color: var(--acc2) !important;
+  color: var(--acc) !important;
   text-decoration: underline !important;
 }
 
@@ -230,7 +228,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   border: 1px solid #d9a98c !important;
   color: var(--warm-dark) !important;
   font-weight: 400 !important;
-  font-size: 10px !important;
+  font-size: 9px !important;
   text-decoration: none !important;
   white-space: nowrap;
   text-align: center;
