@@ -416,6 +416,64 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   color: #000;
   text-transform: none;
 }
+
+/* Dark mode (follows the device setting), matching site-cards.css. */
+@media (prefers-color-scheme: dark) {
+  :root,
+  html[data-theme="dark"] {
+    --acc: #2698ba;
+    --acc2: #2698ba;
+    --acc-dark: #2698ba;
+    --acc-soft: rgba(38, 152, 186, 0.18);
+    --acc-border: rgba(38, 152, 186, 0.45);
+    --card-bg: #000000;
+    --ink: #f0f0f0;
+    --muted: #b1b1b1;
+    --line: rgba(255, 255, 255, 0.14);
+    --warm: #2698ba;
+    --warm-dark: #2698ba;
+    --warm-soft: rgba(38, 152, 186, 0.18);
+    --warm-border: rgba(38, 152, 186, 0.45);
+    --shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+    --shadow-hover: 0 0 0 1px rgba(255, 255, 255, 0.28);
+  }
+  .pub-section-title, .pub-year, .pub-stat-num { color: #f0f0f0; }
+  .pub-stat-card { background: #000000; }
+  .pub-stat-card.active { background: var(--acc); }
+  .pub-stat-card.active .pub-stat-num,
+  .pub-stat-card.active .pub-stat-label { color: #ffffff; }
+  .pub-stat-card.active .pub-stat-icon { background: transparent; border-color: transparent; }
+  .pub-stat-icon { background: transparent; }
+  .pub-justify li { background: #000000; color: #f0f0f0; }
+  .pub-justify li a,
+  .pub-justify li .pub-title { color: #f0f0f0 !important; }
+  .pub-justify li a:hover { color: var(--acc) !important; }
+  .pub-justify li span em { color: #c9c9c9; }
+  .pub-justify li .pub-doi a { color: #b1b1b1 !important; }
+  .pub-justify li a.pub-view-btn,
+  .pub-justify li summary span {
+    background: transparent !important;
+    border-color: #f0f0f0 !important;
+    color: #f0f0f0 !important;
+  }
+  .pub-justify li a.pub-view-btn:hover,
+  .pub-justify li summary:hover span {
+    background: var(--acc) !important;
+    border-color: var(--acc) !important;
+    color: #ffffff !important;
+  }
+  .pub-justify li details > div {
+    background: #111111 !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: none !important;
+  }
+  .pub-justify li details pre,
+  .pub-justify li details code { color: #f0f0f0; background: transparent; }
+  .pub-justify li details > div button {
+    border-color: #f0f0f0 !important;
+    color: #f0f0f0 !important;
+  }
+}
 </style>
 {% unless page.show_bibtex %}
 <style>

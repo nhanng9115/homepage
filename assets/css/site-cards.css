@@ -4,7 +4,7 @@
    ====================================================================== */
 :root,
 html[data-theme="dark"] {
-  color-scheme: light;
+  color-scheme: light dark;
   /* al-folio palette: white page, black light-weight text, one theme colour */
   --site-acc: #b509ac;
   --site-acc2: #b509ac;
@@ -387,7 +387,7 @@ h1, h2, h3, h4, .page__title, .author__name { font-weight: 300; }
 .masthead__menu-item a { font-weight: 400; color: #000; }
 .masthead__menu-item--lg a { font-weight: 300; }
 .masthead__menu-item a:hover,
-.masthead__menu-item a.active { color: #b509ac; }
+.masthead__menu-item a.active { color: var(--site-acc); }
 .greedy-nav .visible-links a:before { display: none !important; }
 
 /* ---- Footer: dark bar, small centred text ---- */
@@ -450,15 +450,15 @@ h1, h2, h3, h4, .page__title, .author__name { font-weight: 300; }
 
 /* ---- Tags: light magenta pill, no border ---- */
 .site-tag {
-  background: rgba(181, 9, 172, 0.08);
+  background: var(--site-acc-soft);
   border: 0;
-  color: #b509ac;
+  color: var(--site-acc);
   font-weight: 400;
 }
 .site-badge-award {
-  background: rgba(181, 9, 172, 0.08);
+  background: var(--site-acc-soft);
   border: 0;
-  color: #b509ac;
+  color: var(--site-acc);
   font-weight: 400;
 }
 
@@ -506,7 +506,7 @@ h1, h2, h3, h4, .page__title, .author__name { font-weight: 300; }
 .author__urls li .ai { color: #828282 !important; }
 .author__urls li a { color: #000; font-weight: 300; }
 .author__urls li a:hover,
-.author__urls li a:hover i { color: #b509ac !important; }
+.author__urls li a:hover i { color: var(--site-acc) !important; }
 .author__urls-wrapper .btn,
 .author__urls-wrapper button {
   background: transparent !important;
@@ -516,7 +516,7 @@ h1, h2, h3, h4, .page__title, .author__name { font-weight: 300; }
   font-weight: 400;
 }
 .author__urls-wrapper .btn:hover,
-.author__urls-wrapper button:hover { background: #b509ac !important; border-color: #b509ac !important; color: #fff !important; }
+.author__urls-wrapper button:hover { background: var(--site-acc) !important; border-color: var(--site-acc) !important; color: #fff !important; }
 .page__content h1, .page__content h2, .page__content h3, .page__title, .author__name { color: #000; }
 hr.section-divider { border-top-color: rgba(0, 0, 0, 0.1) !important; }
 
@@ -596,7 +596,7 @@ a.repo-card:hover { box-shadow: var(--site-shadow-hover); text-decoration: none;
 .masthead__menu-dropdown { position: relative; }
 .masthead__menu-dropdown .dropdown-toggle { cursor: pointer; font-weight: 400; color: #000; text-transform: lowercase; }
 .masthead__menu-dropdown:hover .dropdown-toggle,
-.masthead__menu-dropdown:focus-within .dropdown-toggle { color: #b509ac; }
+.masthead__menu-dropdown:focus-within .dropdown-toggle { color: var(--site-acc); }
 .masthead__menu-dropdown .dropdown-menu {
   display: none;
   position: absolute;
@@ -615,7 +615,7 @@ a.repo-card:hover { box-shadow: var(--site-shadow-hover); text-decoration: none;
 .masthead__menu-dropdown:focus-within .dropdown-menu { display: block; }
 .masthead__menu-dropdown .dropdown-menu li { display: block; float: none; margin: 0; padding: 0; }
 .masthead__menu-dropdown .dropdown-menu a { display: block; padding: 6px 16px; color: #000 !important; text-transform: lowercase; white-space: nowrap; }
-.masthead__menu-dropdown .dropdown-menu a:hover { color: #b509ac !important; }
+.masthead__menu-dropdown .dropdown-menu a:hover { color: var(--site-acc) !important; }
 .hidden-links .masthead__menu-dropdown .dropdown-menu { display: block; position: static; box-shadow: none; padding: 0 0 0 12px; }
 
 /* ---- Mobile menu button: dark bars (the theme draws them in the masthead
@@ -629,3 +629,88 @@ a.repo-card:hover { box-shadow: var(--site-shadow-hover); text-decoration: none;
    browser does with colours (forced dark mode on phones, for example). */
 .greedy-nav button { border: 1px solid rgba(0, 0, 0, 0.25) !important; border-radius: 4px; }
 .greedy-nav button.close { border-color: transparent !important; }
+
+
+/* ======================================================================
+   Dark mode (follows the device setting). The page declares support for
+   it, so phones no longer force their own, half-working dark filter.
+   Palette after al-folio's dark theme: near-black page, black cards,
+   one teal theme colour.
+   ====================================================================== */
+@media (prefers-color-scheme: dark) {
+  :root,
+  html[data-theme="dark"] {
+    --site-acc: #2698ba;
+    --site-acc2: #2698ba;
+    --site-acc-dark: #2698ba;
+    --site-acc-soft: rgba(38, 152, 186, 0.18);
+    --site-acc-border: rgba(38, 152, 186, 0.45);
+    --site-card-bg: #000000;
+    --site-ink: #f0f0f0;
+    --site-muted: #b1b1b1;
+    --site-line: rgba(255, 255, 255, 0.14);
+    --site-warm: #2698ba;
+    --site-warm-dark: #2698ba;
+    --site-warm-soft: rgba(38, 152, 186, 0.18);
+    --site-warm-border: rgba(38, 152, 186, 0.45);
+    --site-bg: #1c1c1d;
+    --site-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+    --site-shadow-hover: 0 0 0 1px rgba(255, 255, 255, 0.28);
+    --global-bg-color: #1c1c1d;
+    --global-text-color: #f0f0f0;
+    --global-text-color-light: #b1b1b1;
+    --global-base-color: #b1b1b1;
+    --global-border-color: rgba(255, 255, 255, 0.14);
+    --global-dark-border-color: rgba(255, 255, 255, 0.3);
+    --global-footer-bg-color: #000000;
+    --global-fig-caption-color: #b1b1b1;
+    --global-link-color: #2698ba;
+    --global-link-color-hover: #2698ba;
+    --global-link-color-visited: #2698ba;
+    --global-masthead-link-color: #f0f0f0;
+    --global-masthead-link-color-hover: #2698ba;
+  }
+  body, html { background: #1c1c1d !important; color: #f0f0f0; }
+  .masthead { background: #1c1c1d !important; border-bottom-color: rgba(255, 255, 255, 0.14); }
+  .masthead__menu-item a,
+  .masthead__menu-item--lg a,
+  .masthead__menu-dropdown .dropdown-toggle { color: #f0f0f0; }
+  .masthead__menu-item a:hover,
+  .masthead__menu-item a.active { color: var(--site-acc); }
+  .masthead__menu-dropdown .dropdown-menu,
+  .greedy-nav .hidden-links { background: #000000 !important; }
+  .masthead__menu-dropdown .dropdown-menu a { color: #f0f0f0 !important; }
+  .greedy-nav .navicon,
+  .greedy-nav .navicon:before,
+  .greedy-nav .navicon:after { background: #f0f0f0; }
+  .greedy-nav button { border-color: rgba(255, 255, 255, 0.35) !important; }
+  .greedy-nav button.close .navicon { background: transparent; }
+  .page__footer { background: #000000; }
+  .page__title, .page__content h1, .page__content h2, .page__content h3,
+  .author__name, .site-section-title, .site-card-head h3, .cv-title, .cv-papers .cv-title,
+  .repo-summary strong, hr + h2 { color: #f0f0f0; }
+  .site-card { background: #000000; }
+  .site-card .site-paper-title,
+  .site-card a.hl-paper,
+  .site-card a.cv-paper-title,
+  .site-team-timeline .site-person-name,
+  .author__urls li a,
+  .site-card .site-date { color: #f0f0f0; }
+  .site-card a.hl-paper:hover,
+  .site-card a.cv-paper-title:hover,
+  .author__urls li a:hover { color: var(--site-acc); }
+  .site-timeline .site-date, .cv-date { color: #e6e6e6; }
+  .author__urls-wrapper .btn, .author__urls-wrapper button {
+    color: #f0f0f0 !important;
+    border-color: #f0f0f0 !important;
+  }
+  a.repo-card { background: #000000; color: #f0f0f0; box-shadow: var(--site-shadow); }
+  .repo-desc { color: #c9c9c9; }
+  .project-card .project-body { border-top-color: rgba(255, 255, 255, 0.14); }
+  .cv-row, .cv-papers .cv-paper { border-top-color: rgba(255, 255, 255, 0.1); }
+  hr.section-divider { border-top-color: rgba(255, 255, 255, 0.14) !important; }
+  .author__avatar img { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12) !important; }
+  .site-card, .site-card:hover { border: 0; }
+  .site-team-timeline .site-person-note,
+  .site-team-timeline .site-person-extra { color: #b1b1b1; }
+}
