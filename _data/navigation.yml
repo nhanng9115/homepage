@@ -35,6 +35,7 @@ main:
     
   - title: "Team Activities"
     url: /activities/
+    secondary: true
     
   # - title: "Guide"
   #   url: /markdown/

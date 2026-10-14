@@ -589,3 +589,29 @@ a.repo-card:hover { box-shadow: var(--site-shadow-hover); text-decoration: none;
 .cv-paper div.hl { font-size: 0.9em; margin-top: 1px; }
 .cv-papers .cv-paper { padding: 6px 0; border-top: 1px solid rgba(0, 0, 0, 0.06); }
 .cv-papers .cv-title + .cv-paper { border-top: 0; }
+
+/* ---- "more" submenu in the top bar (secondary pages) ---- */
+.masthead__menu-dropdown { position: relative; }
+.masthead__menu-dropdown .dropdown-toggle { cursor: pointer; font-weight: 400; color: #000; text-transform: lowercase; }
+.masthead__menu-dropdown:hover .dropdown-toggle,
+.masthead__menu-dropdown:focus-within .dropdown-toggle { color: #b509ac; }
+.masthead__menu-dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 200;
+  min-width: 170px;
+  margin: 0;
+  padding: 6px 0;
+  list-style: none;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: var(--site-shadow);
+}
+.masthead__menu-dropdown:hover .dropdown-menu,
+.masthead__menu-dropdown:focus-within .dropdown-menu { display: block; }
+.masthead__menu-dropdown .dropdown-menu li { display: block; float: none; margin: 0; padding: 0; }
+.masthead__menu-dropdown .dropdown-menu a { display: block; padding: 6px 16px; color: #000 !important; text-transform: lowercase; white-space: nowrap; }
+.masthead__menu-dropdown .dropdown-menu a:hover { color: #b509ac !important; }
+.hidden-links .masthead__menu-dropdown .dropdown-menu { display: block; position: static; box-shadow: none; padding: 0 0 0 12px; }
