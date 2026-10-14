@@ -29,10 +29,6 @@ main:
   - title: "Supervision"
     url: /supervisions/
     
-  # - title: "Resume"
-  #   url: https://nhanng9115.github.io/homepage/files/Resume.pdf
-  #   external: true
-    
   - title: "Team Activities"
     url: /activities/
     secondary: true
