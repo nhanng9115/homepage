@@ -17,6 +17,8 @@ title: "Projects"
   </div>
 </summary>
 <div class="project-body" markdown="1">
+  <div class="site-meta-label">Duration</div>
+  <p>Sep 2025 &ndash; Aug 2029</p>
   <div class="site-meta-label">Overview</div>
   <p>When entering towards the 6G mobile communications era, the huge numbers of connected devices with increased data traffic and new services imply significant challenges for the involved RAN design to be able to provide the system capacity and QoS with sustainability. This project focuses on developing new scientific knowledge and novel wireless transceiver and system optimization solutions enabling sustainable 6G radio access networks.</p>
   <div class="site-meta-label">Collaborators</div>
@@ -41,6 +43,8 @@ title: "Projects"
   </div>
 </summary>
 <div class="project-body" markdown="1">
+  <div class="site-meta-label">Duration</div>
+  <p>Jan 2025 &ndash; Dec 2027</p>
   <div class="site-meta-label">Overview</div>
   <p>Joint project (NSF&ndash;RCF) with Prof. Ahmed Alkhateeb (Arizona State University). Driven by the increasing demand for higher data rates, current and future communication networks rely heavily on large-scale MIMO systems and higher-frequency bands. This poses critical challenges, including high channel acquisition overhead, sensitivity to blockages, and difficulties in user scheduling and association.</p>
   <div class="site-meta-label">Focus areas</div>
@@ -64,6 +68,8 @@ title: "Projects"
   </div>
 </summary>
 <div class="project-body" markdown="1">
+  <div class="site-meta-label">Duration</div>
+  <p>Sep 2023 &ndash; Aug 2027</p>
   <div class="site-meta-label">Overview</div>
   <p>To realize the rapid growth of data traffic and applications, THz communications, reconfigurable intelligent surfaces (RIS), and joint communications and sensing (JCAS/ISAC) are key enabling technologies. Their potential can only be unlocked with low-complexity, scalable, and practical solutions.</p>
   <div class="site-meta-label">Focus areas</div>
@@ -87,6 +93,8 @@ title: "Projects"
   </div>
 </summary>
 <div class="project-body" markdown="1">
+  <div class="site-meta-label">Duration</div>
+  <p>Sep 2023 &ndash; Aug 2024</p>
   <div class="site-meta-label">Overview</div>
   <p>With Prof. Ping Jack Soh's antenna team, CWC-UOulu. ISAC is expected to be a cornerstone technology in future wireless networks, but its dual operations create performance trade-offs. RIS can reshape the EM environment to boost ISAC performance, and coupling RIS with ML enables efficient, scalable operation.</p>
   <div class="site-meta-label">Focus areas</div>
@@ -110,9 +118,11 @@ title: "Projects"
   </div>
 </summary>
 <div class="project-body" markdown="1">
+  <div class="site-meta-label">Duration</div>
+  <p>Oct 2022 &ndash; Dec 2023</p>
   <div class="site-meta-label">Overview</div>
   <p>DECENT develops efficient AI/ML solutions for hybrid beamforming (HBF) transceivers in THz communications. Our fundamental ambition is to create practical, high-performance AI-driven transceiver design frameworks for sustainable 6G systems.</p>
-  <div class="site-meta-label">Key goals</div>
+  <div class="site-meta-label">Focus areas</div>
   <ul>
     <li>Lightweight DNN architectures for scalable deployment</li>
     <li>Energy-efficient and distributed solutions for wideband transceivers</li>

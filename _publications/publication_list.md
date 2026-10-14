@@ -470,11 +470,11 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 <span><em>John Wiley & Sons</em></span>, 2026.
 </div>
 <div class="pub-actions">
-<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-1">@article{fang2025optimal,
+<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-1">@incollection{nguyen2026integrated,
   title={Integrated Sensing and Communication},
-  author={Integrated Sensing and Communication},
-  journal={John Wiley & Sons},
-  year={2025}
+  booktitle={6G to Build a Sustainable Future},
+  publisher={John Wiley \& Sons},
+  year={2026}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-1', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://www.wiley.com/en-us/6G+to+Build+a+Sustainable+Future-p-9781394363575#description-section" target="_blank">View</a>
 </div>
@@ -837,7 +837,7 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TCOMM.2026.3717030" target="_blank">10.1109/TCOMM.2026.3717030</a></span>
 </div>
 <div class="pub-actions">
-<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-18">@article{ma2025knowledge,
+<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-18">@article{ma2026knowledge,
   title={Beamforming Design and Subcarrier Allocation for Multicarrier Multiuser {MIMO} {ISAC}},
   author={Hatami, Mohammad and Nguyen, Nhan Thanh and Juntti, Markku},
   journal={IEEE Trans. Commun.},
@@ -859,11 +859,14 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindleh
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TWC.2026.3714223" target="_blank">10.1109/TWC.2026.3714223</a></span>
 </div>
 <div class="pub-actions">
-<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-19">@article{ma2025knowledge,
+<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-19">@article{ma2026knowledge,
   title={Knowledge Distillation for Sensing-Assisted Long-Term Beam Tracking in {mmWave} Communications},
   author={Ma, Mengyuan and Nguyen, Nhan Thanh and Shlezinger, Nir and Eldar, Yonina C and Swindlehurst, A Lee and Juntti, Markku},
-  journal={arXiv preprint arXiv:2509.11419},
-  year={2025},
+  journal={IEEE Trans. Wireless Commun.},
+  year={2026},
+  month={jul},
+  eprint={2509.11419},
+  archivePrefix={arXiv},
   volume={25},
   pages={20494--20511},
   doi={10.1109/TWC.2026.3714223}
@@ -903,11 +906,14 @@ T. Fang, M. Ma, M. Juntti, N. Shlezinger, A. L. Swindlehurst, and <strong>N. T. 
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TSP.2026.3694198" target="_blank">10.1109/TSP.2026.3694198</a></span>
 </div>
 <div class="pub-actions">
-<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-21">@article{fang2025optimal,
+<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-21">@article{fang2026optimal,
   title={Optimal {ISAC} Beamforming Structure and Efficient Algorithms for Sum Rate and {CRLB} Balancing},
   author={Fang, Tianyu and Ma, Mengyuan and Juntti, Markku and Shlezinger, Nir and Swindlehurst, A Lee and Nguyen, Nhan Thanh},
-  journal={arXiv preprint arXiv:2503.09489},
-  year={2025},
+  journal={IEEE Trans. Signal Process.},
+  year={2026},
+  month={may},
+  eprint={2503.09489},
+  archivePrefix={arXiv},
   volume={74},
   pages={2400--2416},
   doi={10.1109/TSP.2026.3694198}
@@ -1344,7 +1350,7 @@ N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TWC.2023.3317934" target="_blank">10.1109/TWC.2023.3317934</a></span>
 </div>
 <div class="pub-actions">
-<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-40">@article{nguyen2023fairness,
+<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-40">@article{nguyen2024fairness,
   title={Fairness enhancement of {UAV} systems with hybrid active-passive {RIS}},
   author={Nguyen, Nhan Thanh and Nguyen, Van-Dinh and Van Nguyen, Hieu and Wu, Qingqing and T{\"o}lli, Antti and Chatzinotas, Symeon and Juntti, Markku},
   journal={IEEE Trans. Wireless Commun.},
@@ -1661,14 +1667,15 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TWC.2019.2951174" target="_blank">10.1109/TWC.2019.2951174</a></span>
 </div>
 <div class="pub-actions">
-<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; cursor:pointer; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-53">@article{nguyen2019unequally,
+<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:2px 10px; min-width:84px; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:8px; color:#0F766E; font-weight:600; font-size:12px; cursor:pointer; line-height:1;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-53">@article{nguyen2020unequally,
   title={Unequally sub-connected architecture for hybrid beamforming in massive {MIMO} systems},
   author={Nguyen, Nhan Thanh and Lee, Kyungchun},
   journal={IEEE Trans. Wireless Commun.},
   volume={19},
   number={2},
   pages={1127--1140},
-  year={2019},
+  year={2020},
+  month={feb},
   publisher={IEEE},
   doi={10.1109/TWC.2019.2951174}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-53', this); return false;">Copy</button></div></details>
@@ -1686,14 +1693,15 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TVT.2019.2953635" target="_blank">10.1109/TVT.2019.2953635</a></span>
 </div>
 <div class="pub-actions">
-<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-54">@article{nguyen2019groupwise,
+<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-54">@article{nguyen2020groupwise,
   title={Groupwise neighbor examination for tabu search detection in large {MIMO} systems},
   author={Nguyen, Nhan Thanh and Lee, Kyungchun},
   journal={IEEE Trans. Veh. Technol.},
   volume={69},
   number={1},
   pages={1136--1140},
-  year={2019},
+  year={2020},
+  month={jan},
   publisher={IEEE},
   doi={10.1109/TVT.2019.2953635}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-54', this); return false;">Copy</button></div></details>
@@ -2085,11 +2093,13 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICASSP55912.2026.11461677" target="_blank">10.1109/ICASSP55912.2026.11461677</a></span>
 </div>
 <div class="pub-actions">
-<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-74">@article{ma2025attention,
+<details style="display:block; margin-top:6px;"><summary style="display:flex; justify-content:flex-start; align-items:center; list-style:none; cursor:pointer; padding:0;"><span style="display:inline-block; padding:4px 8px; min-width:auto; text-align:center; background:#E6FFFA; border:1px solid #14B8A6; border-radius:4px; color:#0F766E; font-weight:600; font-size:12px; line-height:1.2;">BibTeX</span></summary><div style="position:relative; margin-top:8px; background:#ffeef5; border:1px solid #f6c5db; border-radius:8px; padding:10px; text-align:left;"><pre style="margin:0; overflow:auto; font-size:12px; line-height:1.25;"><code id="bib-74">@inproceedings{ma2026attention,
   title={Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in {mmWave} Communications},
   author={Ma, Mengyuan and Nguyen, Nhan Thanh and Shlezinger, Nir and Eldar, Yonina C and Juntti, Markku},
-  journal={arXiv preprint arXiv:2509.11725},
-  year={2025},
+  booktitle={Proc. {IEEE} Int. Conf. Acoust., Speech, Signal Processing},
+  year={2026},
+  eprint={2509.11725},
+  archivePrefix={arXiv},
   doi={10.1109/ICASSP55912.2026.11461677}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-74', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://arxiv.org/pdf/2509.11725" target="_blank">View</a>

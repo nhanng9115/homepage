@@ -103,7 +103,7 @@ redirect_from:
 <div class="cv-row"><div class="cv-date">2025</div><div class="cv-body"><span class="hl">Program Chair</span>, IEEE RIVF International Conference on Computing and Communication Technologies</div></div>
 <div class="cv-row"><div class="cv-date">2024</div><div class="cv-body"><span class="hl">Co-organizer and Guest Editor</span>, IET Communications special issue on Next Generation MIMO Technologies for Future Wireless Networks; co-organizer of a session at IEEE ICASSP</div></div>
 <div class="cv-row"><div class="cv-date">2021 &ndash; 2026</div><div class="cv-body">TPC member of IEEE Globecom, ICC, SPAWC, VTC-Spring and JC&amp;S; session chair at IEEE SPAWC 2022, Asilomar 2024 and ICASSP 2025</div></div>
-<div class="cv-row"><div class="cv-date">Reviewer</div><div class="cv-body">IEEE TSP, TWC, TCOM, TVT, TAES, TGCN, JSTSP, JSAC, IoT, OJ-COMS; EURASIP journals; IEEE ComMag, WCM, COML, WCL, SPL; IEEE ICASSP, Globecom, ICC, SPAWC, VTC, Asilomar, JC&amp;S</div></div>
+<div class="cv-row"><div class="cv-date">Reviewer</div><div class="cv-body"><strong>Journals:</strong> IEEE TSP, TWC, TCOM, TVT, TAES, TGCN, JSTSP, JSAC, IoT, OJ-COMS; EURASIP journals<br><strong>Magazines and letters:</strong> IEEE ComMag, WCM, COML, WCL, SPL<br><strong>Conferences:</strong> IEEE ICASSP, Globecom, ICC, SPAWC, VTC, Asilomar, JC&amp;S</div></div>
 <div class="cv-row"><div class="cv-date">Examiner</div><div class="cv-body">Doctoral thesis pre-examiner at University of Technology Sydney (2026) and Aalto University (2025); PhD supervision committee at University of Luxembourg (2025 &ndash; 2029); grant reviewer for NAFOSTED, Vietnam (2025)</div></div>
 </div>
 

@@ -110,6 +110,11 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
   <li><span class="site-date">May 05, 2026:</span> Tianyu's first journal paper (during PhD) has been accepted for publication in IEEE TSP. Congratulations!</li>
   <li><span class="site-date">Jan 20, 2026:</span> I am happy to share that <span class="hl">six of our papers</span> have been accepted to IEEE ICASSP and IEEE ICC 2026! Congratulations and thanks for the amazing collaborations and excited to present our work at the events!</li>
   <li><span class="site-date">Dec 12, 2025:</span> Our paper “Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding” is listed among the <span class="hl">25 most downloaded papers</span> in <em>IEEE Journal of Selected Topics in Signal Processing</em> for Sep. 2024 to Sep. 2025. An invited webinar highlighting the key findings will be released early next year.</li>
+</ul>
+
+<div class="site-section-title">older news</div>
+
+<ul class="site-timeline site-timeline-muted">
   <li><span class="site-date">Oct 30, 2025:</span> Our paper “Hybrid RIS Aided Wireless Communications” won the <span class="hl">Best Paper Award</span> at <em>ISAP 2025</em>.</li>
   <li><span class="site-date">Sep 23, 2025:</span> Ali’s and Phuong’s papers accepted to <em>IEEE NFV-SDN 2025</em>.</li>
   <li><span class="site-date">Sep 9, 2025:</span> Paper accepted to <em>IEEE Journal on Selected Areas in Communications</em>.</li>
@@ -120,11 +125,6 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
   <li><span class="site-date">May 17, 2025:</span> Mengyuan’s paper accepted to <em>IEEE Wireless Communications Letters</em>.</li>
   <li><span class="site-date">May 4, 2025:</span> Mengyuan’s paper accepted to <em>IEEE Transactions on Wireless Communications</em>.</li>
   <li><span class="site-date">Mar 18, 2025:</span> Paper accepted to <em>IEEE Transactions on Signal Processing</em>.</li>
-</ul>
-
-<div class="site-section-title">Older highlights</div>
-
-<ul class="site-timeline site-timeline-muted">
   <li><span class="site-date">Dec 21, 2024:</span> Three papers accepted to <em>IEEE WCNC</em>.</li>
   <li><span class="site-date">Dec 20, 2024:</span> Two papers accepted to <em>IEEE ICASSP</em>.</li>
   <li><span class="site-date">Dec 12, 2024:</span> EuCAP 2025 acceptance on ML-assisted RIS for ISAC.</li>
