@@ -6,14 +6,14 @@ redirect_from:
   - /resume
 ---
 
-<p class="cv-intro">Thanh Nhan Nguyen &middot; Assistant Professor and Academy Research Fellow, Centre for Wireless Communications, University of Oulu, Finland. <a href="{{ site.url }}/files/CV.pdf" target="_blank" class="cv-pdf">Download PDF</a></p>
+<p class="cv-intro">Thanh Nhan Nguyen &middot; Assistant Professor and Academy Research Fellow, Centre for Wireless Communications, University of Oulu, Finland.</p>
 
 <div class="site-card cv-card">
 <div class="cv-title">Education</div>
 <div class="cv-row"><div class="cv-date">Sep 1, 2023</div><div class="cv-body"><strong>Title of Docent</strong>, signal processing algorithm design for wireless systems<br><em>University of Oulu, Finland</em></div></div>
 <div class="cv-row"><div class="cv-date">Aug 27, 2020</div><div class="cv-body"><strong>PhD in Electrical &amp; Information Engineering</strong> <span class="cv-note">Best Dissertation Award</span><br><em>Seoul National University of Science and Technology, South Korea</em></div></div>
 <div class="cv-row"><div class="cv-date">Aug 25, 2017</div><div class="cv-body"><strong>M.Sc. in Electrical and Information Engineering</strong> <span class="cv-note">Best Thesis Award</span><br><em>Seoul National University of Science and Technology, South Korea</em></div></div>
-<div class="cv-row"><div class="cv-date">Jul 22, 2014</div><div class="cv-body"><strong>B.Sc. in Electronics and Telecommunication Engineering</strong> <span class="cv-note">Excellent Graduation Award</span><br><em>Hanoi University of Science and Technology, Vietnam</em></div></div>
+<div class="cv-row"><div class="cv-date">Jul 22, 2014</div><div class="cv-body"><strong>B.Sc. in Electronics and Telecommunication Engineering</strong> <span class="cv-note">Graduation Award</span><br><em>Hanoi University of Science and Technology, Vietnam</em></div></div>
 </div>
 
 <div class="site-card cv-card">
@@ -39,38 +39,23 @@ redirect_from:
 <div class="cv-row"><div class="cv-date">2022 &ndash; 2023</div><div class="cv-body"><strong>Nokia Foundation Jorma Ollila Grant</strong>, DECENT: Deep Unfolding for Energy-Efficient Transceiver Designs in 6G THz Systems. &euro;12,000, PI</div></div>
 <div class="cv-row"><div class="cv-date">2013 &ndash; 2014</div><div class="cv-body"><strong>Samsung Talent Grant</strong>: one-year financial assistance, internship and an engineering position at Samsung Vietnam Mobile R&amp;D Center</div></div>
 <div class="cv-sub">International collaborative funding</div>
-<div class="cv-row"><div class="cv-date">2026 &ndash; 2028</div><div class="cv-body"><strong>RCF Academy</strong>, Toward Sustainable ISAC: Optimizing Energy Efficiency through Integration of Advanced Systems and Smart Resource Allocation. &euro;35,000, Co-PI</div></div>
-<div class="cv-sub">Contribution to funded research (PI: Prof. Markku Juntti)</div>
-<div class="cv-row"><div class="cv-date">2023 &ndash; 2026</div><div class="cv-body"><strong>CHIST-ERA</strong> PASSIONATE. &euro;519,000, proposal contributor and project manager</div></div>
-<div class="cv-row"><div class="cv-date">2023 &ndash; 2026</div><div class="cv-body"><strong>EU SNS</strong> INSTINCT. &euro;306,000, proposal contributor and researcher</div></div>
-<div class="cv-row"><div class="cv-date">2022 &ndash; 2025</div><div class="cv-body"><strong>Business Finland</strong> 6GLearn. &euro;756,744, proposal contributor and researcher</div></div>
+<div class="cv-row"><div class="cv-date">2026 &ndash; 2028</div><div class="cv-body"><strong>Vietnam&rsquo;s NAFOSTED</strong>, Toward Sustainable ISAC: Optimizing Energy Efficiency through Integration of Advanced Systems and Smart Resource Allocation. &euro;35,000</div></div>
 </div>
 
-<div class="site-card cv-card">
+<div class="site-card cv-card cv-papers">
 <div class="cv-title">Most important journal papers</div>
-<div class="cv-row"><div class="cv-date">1</div><div class="cv-body"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">Performance analysis and power allocation for massive MIMO ISAC</a><br><em>IEEE Transactions on Signal Processing, vol. 73, pp. 1691&ndash;1707, Mar. 2025</em><br><span class="cv-note">Top reading in IEEE TSP since publication</span></div></div>
-<div class="cv-row"><div class="cv-date">2</div><div class="cv-body"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10684532" target="_blank">Joint communications and sensing hybrid beamforming design via deep unfolding</a><br><em>IEEE Journal of Selected Topics in Signal Processing, vol. 18, no. 5, pp. 901&ndash;916, Jul. 2024</em><br><span class="cv-note">One of the 25 most downloaded papers in IEEE SPS, 2024&ndash;2025</span></div></div>
-<div class="cv-row"><div class="cv-date">3</div><div class="cv-body"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10266977" target="_blank">Fairness enhancement of UAV systems with hybrid active-passive RIS</a><br><em>IEEE Transactions on Wireless Communications, vol. 23, no. 5, 2024</em></div></div>
-<div class="cv-row"><div class="cv-date">4</div><div class="cv-body"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10286447" target="_blank">Deep unfolding hybrid beamforming design for THz massive MIMO systems</a><br><em>IEEE Transactions on Signal Processing, vol. 71, pp. 3788&ndash;3804, Oct. 2023</em><br><span class="cv-note">Top reading in IEEE TSP</span></div></div>
-<div class="cv-row"><div class="cv-date">5</div><div class="cv-body"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10214237" target="_blank">Multiuser MIMO wideband joint communications and sensing system with subcarrier allocation</a><br><em>IEEE Transactions on Signal Processing, vol. 71, pp. 2997&ndash;3013, Aug. 2023</em><br><span class="cv-note">One of the 25 most downloaded papers in IEEE SPS, 2023&ndash;2024; the conference version won the Best Paper Award at IEEE SSP 2023</span></div></div>
-<div class="cv-row"><div class="cv-date">6</div><div class="cv-body"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9940169" target="_blank">Spectral efficiency analysis of hybrid relay-RIS-assisted cell-free massive MIMO systems</a><br><em>IEEE Transactions on Wireless Communications, vol. 22, no. 5, pp. 3397&ndash;3416, 2022</em></div></div>
-<div class="cv-row"><div class="cv-date">7</div><div class="cv-body"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9733238" target="_blank">Hybrid relay-reflecting intelligent surface-assisted wireless communications</a><br><em>IEEE Transactions on Vehicular Technology, vol. 71, no. 6, pp. 6228&ndash;6244, 2022</em><br><span class="cv-note">New concept of hybrid active-passive RIS; Best Paper Awards at ATC 2021 and ISAP 2025</span></div></div>
-<div class="cv-row"><div class="cv-date">8</div><div class="cv-body"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9425021" target="_blank">Application of deep learning to sphere decoding for massive MIMO systems</a><br><em>IEEE Transactions on Wireless Communications, vol. 20, no. 10, pp. 6787&ndash;6803, Oct. 2021</em></div></div>
-<div class="cv-row"><div class="cv-date">9</div><div class="cv-body"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8895798" target="_blank">Unequally sub-connected architecture for hybrid beamforming in massive MIMO systems</a><br><em>IEEE Transactions on Wireless Communications, vol. 19, no. 2, pp. 1127&ndash;1140, Feb. 2020</em></div></div>
-<div class="cv-row"><div class="cv-date">10</div><div class="cv-body"><a href="https://ieeexplore.ieee.org/abstract/document/8453856" target="_blank">Coverage and cell-edge sum-rate analysis of mmWave massive MIMO systems with ORP schemes and MMSE receivers</a><br><em>IEEE Transactions on Signal Processing, vol. 66, no. 20, pp. 5349&ndash;5363, Oct. 2018</em></div></div>
+<div class="cv-paper"><span class="cv-num">1</span><span><a class="cv-paper-title" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">Performance analysis and power allocation for massive MIMO ISAC</a>. <em>IEEE Transactions on Signal Processing, vol. 73, pp. 1691&ndash;1707, Mar. 2025</em></span></div>
+<div class="cv-paper"><span class="cv-num">2</span><span><a class="cv-paper-title" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10684532" target="_blank">Joint communications and sensing hybrid beamforming design via deep unfolding</a>. <em>IEEE Journal of Selected Topics in Signal Processing, vol. 18, no. 5, pp. 901&ndash;916, Jul. 2024</em></span></div>
+<div class="cv-paper"><span class="cv-num">3</span><span><a class="cv-paper-title" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10266977" target="_blank">Fairness enhancement of UAV systems with hybrid active-passive RIS</a>. <em>IEEE Transactions on Wireless Communications, vol. 23, no. 5, 2024</em></span></div>
+<div class="cv-paper"><span class="cv-num">4</span><span><a class="cv-paper-title" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10286447" target="_blank">Deep unfolding hybrid beamforming design for THz massive MIMO systems</a>. <em>IEEE Transactions on Signal Processing, vol. 71, pp. 3788&ndash;3804, Oct. 2023</em></span></div>
+<div class="cv-paper"><span class="cv-num">5</span><span><a class="cv-paper-title" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10214237" target="_blank">Multiuser MIMO wideband joint communications and sensing system with subcarrier allocation</a>. <em>IEEE Transactions on Signal Processing, vol. 71, pp. 2997&ndash;3013, Aug. 2023</em></span></div>
+<div class="cv-paper"><span class="cv-num">6</span><span><a class="cv-paper-title" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9940169" target="_blank">Spectral efficiency analysis of hybrid relay-RIS-assisted cell-free massive MIMO systems</a>. <em>IEEE Transactions on Wireless Communications, vol. 22, no. 5, pp. 3397&ndash;3416, 2022</em></span></div>
+<div class="cv-paper"><span class="cv-num">7</span><span><a class="cv-paper-title" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9733238" target="_blank">Hybrid relay-reflecting intelligent surface-assisted wireless communications</a>. <em>IEEE Transactions on Vehicular Technology, vol. 71, no. 6, pp. 6228&ndash;6244, 2022</em></span></div>
+<div class="cv-paper"><span class="cv-num">8</span><span><a class="cv-paper-title" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9425021" target="_blank">Application of deep learning to sphere decoding for massive MIMO systems</a>. <em>IEEE Transactions on Wireless Communications, vol. 20, no. 10, pp. 6787&ndash;6803, Oct. 2021</em></span></div>
+<div class="cv-paper"><span class="cv-num">9</span><span><a class="cv-paper-title" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8895798" target="_blank">Unequally sub-connected architecture for hybrid beamforming in massive MIMO systems</a>. <em>IEEE Transactions on Wireless Communications, vol. 19, no. 2, pp. 1127&ndash;1140, Feb. 2020</em></span></div>
+<div class="cv-paper"><span class="cv-num">10</span><span><a class="cv-paper-title" href="https://ieeexplore.ieee.org/abstract/document/8453856" target="_blank">Coverage and cell-edge sum-rate analysis of mmWave massive MIMO systems with ORP schemes and MMSE receivers</a>. <em>IEEE Transactions on Signal Processing, vol. 66, no. 20, pp. 5349&ndash;5363, Oct. 2018</em></span></div>
 </div>
 <p class="cv-more">Full list on the <a href="{{ site.url }}/publications/">publications</a> page.</p>
-
-<div class="site-card cv-card">
-<div class="cv-title">Patents and invention reports</div>
-<div class="cv-row"><div class="cv-date">May 2025</div><div class="cv-body">Enhanced CSI Report for EE (OU25020)</div></div>
-<div class="cv-row"><div class="cv-date">May 2025</div><div class="cv-body">Method for Enhanced CSI Report for EE (OU25024)</div></div>
-<div class="cv-row"><div class="cv-date">Feb 2026</div><div class="cv-body">Dynamic Control of CQI Prediction &amp; Reporting (OU26010)</div></div>
-<div class="cv-row"><div class="cv-date">Aug 2025</div><div class="cv-body">CQI Table Reinterpretation for 6G (OU25043)</div></div>
-<div class="cv-row"><div class="cv-date">Aug 2025</div><div class="cv-body">Profile-Based CQI Table Reinterpretation for 6G Systems (OU25044)</div></div>
-<div class="cv-row"><div class="cv-date">2021</div><div class="cv-body">Hybrid analog and digital beamforming apparatus and method, K.R. Patent 10-2277866</div></div>
-<div class="cv-row"><div class="cv-date">2020</div><div class="cv-body">MIMO wireless communications system and method using deep neural network based on FS-Net, K.R. Patent Application 1020200118980</div></div>
-</div>
 
 <div class="site-card cv-card">
 <div class="cv-title">Supervision and leadership</div>
@@ -82,7 +67,7 @@ redirect_from:
 <div class="site-card cv-card">
 <div class="cv-title">Teaching</div>
 <div class="cv-row"><div class="cv-date">2021 &ndash; present</div><div class="cv-body">Advanced MS course <em>Statistical Signal Processing II</em>, University of Oulu</div></div>
-<div class="cv-row"><div class="cv-date">Curriculum</div><div class="cv-body"><em>Research-Oriented Signal Processing</em> and <em>Model-based Learning for Signal Processing in Wireless Communications and Sensing</em>, University of Oulu</div></div>
+<div class="cv-row"><div class="cv-date">Curriculum</div><div class="cv-body"><em>Frontier Research in Wireless Signal Processing</em>, University of Oulu</div></div>
 <div class="cv-row"><div class="cv-date"></div><div class="cv-body">See the <a href="{{ site.url }}/teaching/">teaching</a> page for details.</div></div>
 </div>
 
@@ -103,7 +88,7 @@ redirect_from:
 <div class="cv-row"><div class="cv-date">2021</div><div class="cv-body">Best Paper Award, ATC</div></div>
 <div class="cv-row"><div class="cv-date">2020</div><div class="cv-body">Best PhD Dissertation Award, SeoulTech</div></div>
 <div class="cv-row"><div class="cv-date">2017</div><div class="cv-body">Best Master Thesis Award, SeoulTech</div></div>
-<div class="cv-row"><div class="cv-date">2014</div><div class="cv-body">Excellent Graduation Award, Hanoi University of Science and Technology</div></div>
+<div class="cv-row"><div class="cv-date">2014</div><div class="cv-body">Graduation Award, Hanoi University of Science and Technology</div></div>
 <div class="cv-row"><div class="cv-date">2013 &ndash; 2014</div><div class="cv-body">Samsung Talent Award, Samsung Electronics Vietnam</div></div>
 </div>
 
