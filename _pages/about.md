@@ -44,28 +44,28 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 
 <div class="site-card" markdown="1">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">Performance Analysis and Power Allocation for Massive MIMO ISAC</a>,"
+"<a class="hl-paper" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">Performance Analysis and Power Allocation for Massive MIMO ISAC</a>,"
 <em>IEEE Transactions on Signal Processing</em>, vol. 73, pp. 1691–1707, Mar. 2025.
 <br><span class="site-badge-award">Top reading in IEEE TSP since publication</span>
 </div>
 
 <div class="site-card" markdown="1">
 <strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10684532&tag=1" target="_blank">Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding</a>,"
+"<a class="hl-paper" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10684532&tag=1" target="_blank">Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding</a>,"
 <em>IEEE Journal of Selected Topics in Signal Processing</em>, vol. 18, no. 5, pp. 901–916, Jul. 2024.
 <br><span class="site-badge-award">Top reading in IEEE TSP and IEEE SPS Top-25 downloads (2024–2025)</span>
 </div>
 
 <div class="site-card" markdown="1">
 <strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,
-"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/47431/nbnfioulu-202401231426.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems</a>,"
+"<a class="hl-paper" href="https://oulurepo.oulu.fi/bitstream/handle/10024/47431/nbnfioulu-202401231426.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems</a>,"
 <em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 3788–3804, Oct. 2023.
 <br><span class="site-badge-award">Top reading in IEEE TSP (2023–2024)</span>
 </div>
 
 <div class="site-card" markdown="1">
 <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10214237" target="_blank">Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation</a>,"
+"<a class="hl-paper" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10214237" target="_blank">Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation</a>,"
 <em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 2997–3013, Aug. 2023.
 <br><span class="site-badge-award">Top reading in IEEE TSP and IEEE SPS Top-25 downloads (2023–2024)</span>
 </div>
@@ -79,21 +79,21 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 
 <div class="site-card" markdown="1">
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
-"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/43260/nbnfioulu-202311243336.pdf?sequence=1&isAllowed=y" target="_blank">Analysis of Oversampling in Uplink Massive MIMO-OFDM with Low-Resolution ADCs</a>,"
+"<a class="hl-paper" href="https://oulurepo.oulu.fi/bitstream/handle/10024/43260/nbnfioulu-202311243336.pdf?sequence=1&isAllowed=y" target="_blank">Analysis of Oversampling in Uplink Massive MIMO-OFDM with Low-Resolution ADCs</a>,"
 <em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em>, Sep. 2023.
 <br><span class="site-badge-award">Best Student Paper Award</span>
 </div>
 
 <div class="site-card" markdown="1">
 <strong>N. T. Nguyen</strong>, N. Shlezinger, K.-H. Ngo, V.-D. Nguyen, and M. Juntti,
-"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44654/nbnfi-fe20231030141814.pdf?sequence=1&isAllowed=y" target="_blank">Joint communications and sensing design for multi-carrier MIMO systems</a>,"
+"<a class="hl-paper" href="https://oulurepo.oulu.fi/bitstream/handle/10024/44654/nbnfi-fe20231030141814.pdf?sequence=1&isAllowed=y" target="_blank">Joint communications and sensing design for multi-carrier MIMO systems</a>,"
 <em>IEEE Statistical Signal Processing Workshop (SSP)</em>, July 2023.
 <br><span class="site-badge-award">Best Paper Award</span>
 </div>
 
 <div class="site-card" markdown="1">
 K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti,
-"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44157/nbnfi-fe202301091858.pdf?sequence=1&isAllowed=y" target="_blank">Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface</a>,"
+"<a class="hl-paper" href="https://oulurepo.oulu.fi/bitstream/handle/10024/44157/nbnfi-fe202301091858.pdf?sequence=1&isAllowed=y" target="_blank">Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface</a>,"
 <em>International Conference on Advanced Technologies for Communications (ATC)</em>, Oct. 2021.
 <br><span class="site-badge-award">Best Paper Award</span>
 </div>
@@ -103,14 +103,14 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 <div class="site-section-title">Recent news</div>
 
 <ul class="site-timeline">
-  <li><span class="site-date">Oct 13, 2026:</span> I am honored to have been appointed as an <strong>Editor of the IEEE Transactions on Communications</strong>.</li>
-  <li><span class="site-date">Oct 7, 2026:</span> I am happy to share that five of our papers have been accepted to the <strong>IEEE Integrated Sensing and Communication Conference (ISAC) 2026</strong>! Congratulations to all co-authors.</li>
+  <li><span class="site-date">Oct 13, 2026:</span> I am honored to have been appointed as an <strong class="hl">Editor of the IEEE Transactions on Communications</strong>.</li>
+  <li><span class="site-date">Oct 7, 2026:</span> I am happy to share that <span class="hl">five of our papers</span> have been accepted to the <strong>IEEE Integrated Sensing and Communication Conference (ISAC) 2026</strong>! Congratulations to all co-authors.</li>
   <li><span class="site-date">July 31, 2026:</span> Phuong’s papers accepted to <strong>IEEE GLOBECOM 2026</strong>.</li>
   <li><span class="site-date">June 16, 2026:</span> I am happy to share that four of our papers have been accepted to IEEE SPAWC 2026!</li>
   <li><span class="site-date">May 05, 2026:</span> Tianyu's first journal paper (during PhD) has been accepted for publication in IEEE TSP. Congratulations!</li>
-  <li><span class="site-date">Jan 20, 2026:</span> I am happy to share that six of our papers have been accepted to IEEE ICASSP and IEEE ICC 2026! Congratulations and thanks for the amazing collaborations and excited to present our work at the events!</li>
-  <li><span class="site-date">Dec 12, 2025:</span> Our paper “Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding” is listed among the 25 most downloaded papers in <em>IEEE Journal of Selected Topics in Signal Processing</em> for Sep. 2024 to Sep. 2025. An invited webinar highlighting the key findings will be released early next year.</li>
-  <li><span class="site-date">Oct 30, 2025:</span> Our paper “Hybrid RIS Aided Wireless Communications” won the Best Paper Award at <em>ISAP 2025</em>.</li>
+  <li><span class="site-date">Jan 20, 2026:</span> I am happy to share that <span class="hl">six of our papers</span> have been accepted to IEEE ICASSP and IEEE ICC 2026! Congratulations and thanks for the amazing collaborations and excited to present our work at the events!</li>
+  <li><span class="site-date">Dec 12, 2025:</span> Our paper “Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding” is listed among the <span class="hl">25 most downloaded papers</span> in <em>IEEE Journal of Selected Topics in Signal Processing</em> for Sep. 2024 to Sep. 2025. An invited webinar highlighting the key findings will be released early next year.</li>
+  <li><span class="site-date">Oct 30, 2025:</span> Our paper “Hybrid RIS Aided Wireless Communications” won the <span class="hl">Best Paper Award</span> at <em>ISAP 2025</em>.</li>
   <li><span class="site-date">Sep 23, 2025:</span> Ali’s and Phuong’s papers accepted to <em>IEEE NFV-SDN 2025</em>.</li>
   <li><span class="site-date">Sep 9, 2025:</span> Paper accepted to <em>IEEE Journal on Selected Areas in Communications</em>.</li>
   <li><span class="site-date">Aug 20, 2025:</span> Abolfazl’s paper accepted to <em>IEEE Communications Letters</em>.</li>

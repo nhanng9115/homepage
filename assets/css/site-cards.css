@@ -577,3 +577,15 @@ a.repo-card:hover { box-shadow: var(--site-shadow-hover); text-decoration: none;
 .cv-num { flex: 0 0 22px; color: #828282; }
 .site-card a.cv-paper-title { color: #000; font-weight: 400; }
 .site-card a.cv-paper-title:hover { color: var(--site-acc); }
+
+/* ---- Highlights: bold magenta ---- */
+.hl { color: var(--site-acc); font-weight: 700; }
+.site-card a.hl-paper { color: #000; font-weight: 700; }
+.site-card a.hl-paper:hover { color: var(--site-acc); }
+.site-card .site-paper-title { font-weight: 700; }
+.cv-paper > span:last-child { min-width: 0; }
+.cv-paper .pub-doi { display: block; font-size: 0.85em; color: #828282; }
+.cv-paper .pub-doi a { color: #828282; font-weight: 300; }
+.cv-paper div.hl { font-size: 0.9em; margin-top: 1px; }
+.cv-papers .cv-paper { padding: 6px 0; border-top: 1px solid rgba(0, 0, 0, 0.06); }
+.cv-papers .cv-title + .cv-paper { border-top: 0; }

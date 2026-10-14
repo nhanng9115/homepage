@@ -869,6 +869,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, A. L. Swindleh
   doi={10.1109/TWC.2026.3714223}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-19', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://arxiv.org/pdf/2509.11419" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/WillysMa/Sensing-Assisted-Long-Term-Beam-Tracking" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
@@ -1161,6 +1162,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
   doi={10.1109/LWC.2025.3572281}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-32', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11008697" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/WillysMa/Digital_and_hybrid_precoding_design" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
@@ -1256,6 +1258,7 @@ E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,
   doi={10.1109/JSTSP.2024.3463403}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-36', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10684532" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Joint-Communications-and-Sensing-Hybrid-Beamforming-Design-via-Deep-Unfolding" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
@@ -1280,6 +1283,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
   doi={10.1109/TVT.2024.3470530}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-37', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10697466" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/WillysMa/SW-HBF_design_with_beam_squint" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
@@ -1327,6 +1331,7 @@ N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M
   doi={10.1109/MVT.2024.3396927}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-39', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/51866/nbnfioulu-202409165877.pdf?sequence=1" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/AI-Empowered-Hybrid-MIMO-Beamforming" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
@@ -1351,6 +1356,7 @@ N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M
   doi={10.1109/TWC.2023.3317934}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-40', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10266977" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Fairness-Enhancement-of-UAV-Systems-With-Hybrid-Active-Passive-RIS" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
@@ -1398,6 +1404,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
   doi={10.1109/TSP.2023.3322852}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-42', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/47431/nbnfioulu-202401231426.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Deep_unfolding_Hybrid_beamforming" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
@@ -1421,6 +1428,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
   doi={10.1109/TSP.2023.3302622}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-43', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10214237" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Multiuser-MIMO-Wideband-Joint-Communications-and-Sensing-System-with-Subcarrier-Allocation" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
@@ -1469,6 +1477,7 @@ L. V. Nguyen, <strong>N. T. Nguyen</strong>, N. H. Tran, M. Juntti, A. L. Swindl
   doi={10.1109/MWC.013.2100652}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-45', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/44744/nbnfi-fe202301265946.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Leveraging-Deep-Neural-Networks-for-Massive-MIMO-Data-Detection" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
@@ -1517,6 +1526,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
   doi={10.1109/TVT.2022.3176389}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-47', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/45145/nbnfi-fe2023032332877.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Hybrid-Beamforming-and-Adaptive-RF-Chain-Activation-for-Cell-Free-Millimeter-Wave-Massive-MIMO" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
@@ -1541,6 +1551,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
   doi={10.1109/TVT.2022.3158686}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-48', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9733238" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Hybrid-Relay-Reflecting-Intelligent-Surface-Assisted-Wireless-Communications" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
@@ -1565,6 +1576,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
   doi={10.1109/TWC.2021.3076527}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-49', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/30148/nbnfi-fe2021122162809.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Application-of-Deep-Learning-to-Sphere-Decoding-for-Massive-MIMO-Systems" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
@@ -1636,6 +1648,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
   doi={10.1109/TWC.2020.2981919}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-52', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://arxiv.org/pdf/1909.01683" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Deep-Learning-Aided-Tabu-Search-Detection-for-Large-MIMO-Systems" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
@@ -1660,6 +1673,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
   doi={10.1109/TWC.2019.2951174}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-53', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://arxiv.org/pdf/1908.10056" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Unequally-Sub-Connected-Architecture-for-Hybrid-Beamforming-in-Massive-MIMO-Systems" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
@@ -2346,6 +2360,7 @@ M. Ma, T. Fang, N. Shlezinger, L. Swindlehurst, M. Juntti, and <strong>N. T. Ngu
   doi={10.1109/ICASSP49660.2025.10889425}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-87', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/54619/nbnfioulu-202501241331.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/WillysMa/JCAS_BF_Design_MaxMin" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
@@ -2704,6 +2719,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
   doi={10.1109/SSP53291.2023.10207952}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-104', this); return false;">Copy</button></div></details>
 <a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/44654/nbnfi-fe20231030141814.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
+<a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Joint-Communications-and-Sensing-Design-for-Multi-Carrier-MIMO-Systems" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
 
