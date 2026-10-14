@@ -1331,11 +1331,11 @@ N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M
 </li>
 
 <!-- ======================== PAPER 11 ======================== -->
-<li data-topics="ris" data-year="2023">
+<li data-topics="ris" data-year="2024">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, Q. Wu, A. Tolli, S. Chatzinotas, and M. Juntti,  
 "<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10266977" target="_blank">Fairness Enhancement of UAV Systems with Hybrid Active-Passive RIS</a>,"  
-<span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 23, no. 5, pp. 4379–4396, 2023.
+<span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 23, no. 5, pp. 4379–4396, May 2024.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TWC.2023.3317934" target="_blank">10.1109/TWC.2023.3317934</a></span>
 </div>
 <div class="pub-actions">
@@ -1346,7 +1346,7 @@ N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M
   volume={23},
   number={5},
   pages={4379--4396},
-  year={2023},
+  year={2024}, month={may},
   publisher={IEEE},
   doi={10.1109/TWC.2023.3317934}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-40', this); return false;">Copy</button></div></details>
