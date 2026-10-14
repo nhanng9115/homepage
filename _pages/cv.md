@@ -80,11 +80,10 @@ redirect_from:
 <div class="cv-row"><div class="cv-date">2025</div><div class="cv-body"><span class="hl">Exemplary Editor</span>, IEEE Communications Letters</div></div>
 <div class="cv-row"><div class="cv-date">2025</div><div class="cv-body"><span class="hl">Top 25 most downloaded paper</span>, IEEE Signal Processing Society (JSTSP)</div></div>
 <div class="cv-row"><div class="cv-date">2024</div><div class="cv-body"><span class="hl">Ranked first</span>, all four external reviewers (6/6) for research, tenure-track Assistant Professor position at the University of Oulu</div></div>
-<div class="cv-row"><div class="cv-date">2024</div><div class="cv-body"><span class="hl">Ranked first</span> in the selection for a Lecturer position, University of Liverpool, UK</div></div>
 <div class="cv-row"><div class="cv-date">2024</div><div class="cv-body"><span class="hl">Top 25 most downloaded paper</span>, IEEE Signal Processing Society (TSP)</div></div>
 <div class="cv-row"><div class="cv-date">2023</div><div class="cv-body"><span class="hl">Research Council of Finland Fellowship</span> (15% success rate)</div></div>
 <div class="cv-row"><div class="cv-date">2023</div><div class="cv-body"><span class="hl">Title of Docent</span>, University of Oulu</div></div>
-<div class="cv-row"><div class="cv-date">2023</div><div class="cv-body"><span class="hl">Best Student Paper Award</span>, IEEE SPAWC (co-author; first author is my student)</div></div>
+<div class="cv-row"><div class="cv-date">2023</div><div class="cv-body"><span class="hl">Best Student Paper Award</span>, IEEE SPAWC (co-author)</div></div>
 <div class="cv-row"><div class="cv-date">2023</div><div class="cv-body"><span class="hl">Best Paper Award</span>, IEEE SSP</div></div>
 <div class="cv-row"><div class="cv-date">2023</div><div class="cv-body"><span class="hl">Exemplary Reviewer</span>, IEEE Transactions on Communications</div></div>
 <div class="cv-row"><div class="cv-date">2022</div><div class="cv-body"><span class="hl">Nokia Foundation Award</span> (one of five selected ICT proposals)</div></div>
@@ -99,6 +98,7 @@ redirect_from:
 <div class="cv-title">Academic service</div>
 <div class="cv-row"><div class="cv-date">2026 &ndash; present</div><div class="cv-body"><strong class="hl">Editor</strong>, IEEE Transactions on Communications</div></div>
 <div class="cv-row"><div class="cv-date">2024 &ndash; present</div><div class="cv-body"><strong class="hl">Editor</strong>, IEEE Communications Letters</div></div>
+<div class="cv-row"><div class="cv-date">2026</div><div class="cv-body"><strong class="hl">Guest Editor</strong>, IEEE Communications Standards Magazine special issue &ldquo;Standardizing the AI-Native 6G Air Interface: Protocols, Coordination, and Integration&rdquo;</div></div>
 <div class="cv-row"><div class="cv-date">2026</div><div class="cv-body"><span class="hl">Track Chair</span>, Signal Processing for Wireless Communications, IEEE VTC-Spring; co-organizer of a session at IEEE SPAWC</div></div>
 <div class="cv-row"><div class="cv-date">2025</div><div class="cv-body"><span class="hl">Program Chair</span>, IEEE RIVF International Conference on Computing and Communication Technologies</div></div>
 <div class="cv-row"><div class="cv-date">2024</div><div class="cv-body"><span class="hl">Co-organizer and Guest Editor</span>, IET Communications special issue on Next Generation MIMO Technologies for Future Wireless Networks; co-organizer of a session at IEEE ICASSP</div></div>
