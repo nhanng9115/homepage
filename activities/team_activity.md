@@ -5,7 +5,7 @@ title: "Team Activities"
 
 <div class="site-card" markdown="1">
   <div class="site-card-head">
-    <span class="site-icon-chip">📅</span>
+    <span class="site-icon-chip"><span class="ico">📅</span></span>
     <h3>September 18, 2025 <span style="font-weight:500; color:var(--site-muted);">&mdash; 📍 Koitelinkoski, Oulu</span></h3>
   </div>
 

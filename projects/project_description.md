@@ -8,7 +8,7 @@ title: "Projects"
 <details class="site-card project-card" markdown="1">
 <summary markdown="1">
   <div class="site-card-head">
-    <span class="site-icon-chip">🌱</span>
+    <span class="site-icon-chip"><span class="ico">🌱</span></span>
     <h3>S6GRAN — Sustainable 6G Radio Access Networks</h3>
   </div>
   <div class="site-tag-row">
@@ -32,7 +32,7 @@ title: "Projects"
 <details class="site-card project-card" markdown="1">
 <summary markdown="1">
   <div class="site-card-head">
-    <span class="site-icon-chip">📡</span>
+    <span class="site-icon-chip"><span class="ico">📡</span></span>
     <h3>DYNAMICS — Distributed Multi-Modal Sensing Aided Large-Scale MIMO</h3>
   </div>
   <div class="site-tag-row">
@@ -55,7 +55,7 @@ title: "Projects"
 <details class="site-card project-card" markdown="1">
 <summary markdown="1">
   <div class="site-card-head">
-    <span class="site-icon-chip">🎯</span>
+    <span class="site-icon-chip"><span class="ico">🎯</span></span>
     <h3>DIRECTION — Deep Unfolding 6G Communications and Sensing</h3>
   </div>
   <div class="site-tag-row">
@@ -78,7 +78,7 @@ title: "Projects"
 <details class="site-card project-card" markdown="1">
 <summary markdown="1">
   <div class="site-card-head">
-    <span class="site-icon-chip">🔗</span>
+    <span class="site-icon-chip"><span class="ico">🔗</span></span>
     <h3>INTEGRATE — ISAC with RIS and Machine Learning</h3>
   </div>
   <div class="site-tag-row">
@@ -101,7 +101,7 @@ title: "Projects"
 <details class="site-card project-card" markdown="1">
 <summary markdown="1">
   <div class="site-card-head">
-    <span class="site-icon-chip">⚡</span>
+    <span class="site-icon-chip"><span class="ico">⚡</span></span>
     <h3>DECENT — Energy-Efficient Transceivers for 6G THz</h3>
   </div>
   <div class="site-tag-row">

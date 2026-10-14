@@ -7,7 +7,7 @@ I have had the privilege of supervising and co-supervising talented researchers 
 
 <div class="site-card">
   <div class="site-card-head">
-    <span class="site-icon-chip">🧑‍🔬</span>
+    <span class="site-icon-chip"><span class="ico">🧑‍🔬</span></span>
     <h3>Postdoctoral researchers</h3>
   </div>
   <ul class="site-timeline site-team-timeline">
@@ -17,7 +17,7 @@ I have had the privilege of supervising and co-supervising talented researchers 
 
 <div class="site-card">
   <div class="site-card-head">
-    <span class="site-icon-chip">🎓</span>
+    <span class="site-icon-chip"><span class="ico">🎓</span></span>
     <h3>Doctoral researchers</h3>
   </div>
   <ul class="site-timeline site-team-timeline">
@@ -35,7 +35,7 @@ I have had the privilege of supervising and co-supervising talented researchers 
 
 <div class="site-card">
   <div class="site-card-head">
-    <span class="site-icon-chip">🧑‍🎓</span>
+    <span class="site-icon-chip"><span class="ico">🧑‍🎓</span></span>
     <h3>Alumni</h3>
   </div>
   <ul class="site-timeline site-team-timeline">
@@ -45,7 +45,7 @@ I have had the privilege of supervising and co-supervising talented researchers 
 
 <div class="site-card">
   <div class="site-card-head">
-    <span class="site-icon-chip">📜</span>
+    <span class="site-icon-chip"><span class="ico">📜</span></span>
     <h3>Master students</h3>
   </div>
   <ul class="site-timeline site-team-timeline">
@@ -61,7 +61,7 @@ I have had the privilege of supervising and co-supervising talented researchers 
 
 <div class="site-card">
   <div class="site-card-head">
-    <span class="site-icon-chip">🧳</span>
+    <span class="site-icon-chip"><span class="ico">🧳</span></span>
     <h3>Visiting researchers</h3>
   </div>
   <ul class="site-timeline site-team-timeline">

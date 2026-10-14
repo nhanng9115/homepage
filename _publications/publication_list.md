@@ -13,17 +13,17 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   --acc2: #2c4f85;
   --acc-grad: var(--acc);  /* flat fill (kept as a token for older rules) */
   --acc-dark: #1d3a66;
-  --acc-soft: #eef2f7;     /* pale navy tint for chips/hover */
-  --acc-border: #d3dbe6;
+  --acc-soft: #e8eef7;     /* pale navy tint for chips/hover */
+  --acc-border: #c5d2e6;
   --card-bg: #ffffff;
   --card-border: #e4e4e4;
   --ink: #222222;
   --muted: #5e5e5e;
   --line: #e4e4e4;
-  --warm: #a04a17;         /* earthy brown (burnt sienna): titles, numbers, highlights */
-  --warm-dark: #7a3510;
-  --warm-soft: #fbefe4;
-  --warm-border: #eac9ad;
+  --warm: #b5532a;         /* terracotta: the second accent */
+  --warm-dark: #8a3a18;
+  --warm-soft: #fbece3;
+  --warm-border: #ecc7b0;
 }
 
 /* ---- Section titles ---- */
@@ -32,10 +32,12 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   font-weight: 700;
   margin: 26px 0 12px 0;
   padding-bottom: 6px;
-  border-bottom: 2px solid var(--acc);
+  border-bottom: 2px solid var(--warm);
   display: inline-block;
-  color: var(--ink);
+  color: var(--acc);
 }
+/* The topic title reuses the card's icon; there it sits on white. */
+.pub-section-title .ico { filter: brightness(0); }
 
 /* ---- Stats strip, now doubling as the category tabs: click a card to
    filter the list below to its category; the active one stays highlighted ---- */
@@ -65,6 +67,7 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   border-radius: 6px;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
+  border-top: 3px solid var(--acc);
   transition: box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease;
   font: inherit;
   text-align: left;
@@ -80,12 +83,8 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   background: var(--acc-grad);
   border-color: var(--acc);
 }
-.pub-stat-card.active .pub-stat-icon {
-  background: rgba(255, 255, 255, 0.14);
-  border-color: transparent;
-  color: #ffffff;
-  filter: grayscale(1) brightness(1.6);
-}
+.pub-stat-card.active { border-top-color: var(--warm); }
+.pub-stat-card.active .pub-stat-icon { background: rgba(255, 255, 255, 0.18); }
 .pub-stat-card.active .pub-stat-num,
 .pub-stat-card.active .pub-stat-label { color: #ffffff; }
 .pub-stat-icon {
@@ -93,21 +92,18 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   width: 36px;
   height: 36px;
   border-radius: 6px;
-  background: #f3f3f3;
-  border: 1px solid var(--line);
+  background: var(--acc);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 17px;
-  color: var(--acc);
-  /* Emoji icons are rendered in grey so they do not add stray colours. */
-  filter: grayscale(1);
+  color: #ffffff;
 }
 /* Line-drawn icons (topics without a fitting emoji) follow the text colour. */
 .pub-stat-icon svg { width: 20px; height: 20px; }
 .pub-section-title svg { width: 1em; height: 1em; vertical-align: -0.12em; }
 .pub-stat-text { display: flex; flex-direction: column; line-height: 1.15; }
-.pub-stat-num { font-size: 19px; font-weight: 700; color: var(--ink); font-family: Georgia, "Times New Roman", Times, serif; }
+.pub-stat-num { font-size: 19px; font-weight: 700; color: var(--acc); font-family: Georgia, "Times New Roman", Times, serif; }
 .pub-stat-label { font-size: 10.5px; color: var(--muted); font-weight: 600; }
 
 /* ---- Card-style entries, two-column: content left / actions right ---- */
@@ -151,9 +147,9 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: var(--acc-soft);
-  border: 1px solid var(--acc-border);
-  color: var(--acc);
+  background: var(--acc);
+  border: 1px solid var(--acc);
+  color: #ffffff;
   font-size: 10px;
   font-weight: 700;
   display: flex;
@@ -230,9 +226,9 @@ show_bibtex: true   # change to false to hide BibTeX buttons
   line-height: 1 !important;
   padding: 0 !important;
   border-radius: 5px !important;
-  background: #ffffff !important;
-  border: 1px solid #8c8c8c !important;
-  color: #333333 !important;
+  background: var(--warm-soft) !important;
+  border: 1px solid #d9a98c !important;
+  color: var(--warm-dark) !important;
   font-weight: 400 !important;
   font-size: 10px !important;
   text-decoration: none !important;
@@ -243,8 +239,8 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 }
 .pub-justify li a.pub-view-btn:hover,
 .pub-justify li summary:hover span {
-  background: var(--acc) !important;
-  border-color: var(--acc) !important;
+  background: var(--warm) !important;
+  border-color: var(--warm) !important;
   color: #ffffff !important;
 }
 /* BibTeX toggle: button sits in the actions column, the revealed box pops
@@ -275,8 +271,8 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 }
 .pub-justify li details > div button {
   background: #ffffff !important;
-  border-color: #cfcfcf !important;
-  color: #333333 !important;
+  border-color: #d9a98c !important;
+  color: var(--warm-dark) !important;
 }
 @keyframes pubBibReveal {
   from { opacity: 0; transform: translateY(-6px); }
@@ -308,21 +304,21 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 <div class="pub-cards-grid">
 <div class="pub-stats">
   <button type="button" class="pub-stat-card active" id="pub-stat-btn-journal" onclick="showPubCategory('journal')">
-    <span class="pub-stat-icon">📚</span>
+    <span class="pub-stat-icon"><span class="ico">📚</span></span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">59</span>
       <span class="pub-stat-label">Journal &amp; Book</span>
     </span>
   </button>
   <button type="button" class="pub-stat-card" id="pub-stat-btn-conference" onclick="showPubCategory('conference')">
-    <span class="pub-stat-icon">🎤</span>
+    <span class="pub-stat-icon"><span class="ico">🎤</span></span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">61</span>
       <span class="pub-stat-label">Conference Papers</span>
     </span>
   </button>
   <button type="button" class="pub-stat-card" id="pub-stat-btn-review" onclick="showPubCategory('review')">
-    <span class="pub-stat-icon">📝</span>
+    <span class="pub-stat-icon"><span class="ico">📝</span></span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">18</span>
       <span class="pub-stat-label">Under Review</span>
@@ -339,14 +335,14 @@ show_bibtex: true   # change to false to hide BibTeX buttons
 
 <div class="pub-stats pub-topics">
   <button type="button" class="pub-stat-card" id="pub-topic-btn-isac" data-topic="isac" onclick="showPubTopic('isac')">
-    <span class="pub-stat-icon">📡</span>
+    <span class="pub-stat-icon"><span class="ico">📡</span></span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">–</span>
       <span class="pub-stat-label">ISAC &amp; Multimodal Sensing</span>
     </span>
   </button>
   <button type="button" class="pub-stat-card" id="pub-topic-btn-ml" data-topic="ml" onclick="showPubTopic('ml')">
-    <span class="pub-stat-icon">🧠</span>
+    <span class="pub-stat-icon"><span class="ico">🧠</span></span>
     <span class="pub-stat-text">
       <span class="pub-stat-num">–</span>
       <span class="pub-stat-label">Machine Learning &amp; Deep Unfolding</span>
