@@ -66,9 +66,12 @@ redirect_from:
 
 <div class="site-card cv-card">
 <div class="cv-title">Teaching</div>
-<div class="cv-row"><div class="cv-date">2021 &ndash; present</div><div class="cv-body">Advanced MS course <em>Statistical Signal Processing II</em>, University of Oulu</div></div>
-<div class="cv-row"><div class="cv-date">Curriculum</div><div class="cv-body"><em>Frontier Research in Wireless Signal Processing</em>, University of Oulu</div></div>
-<div class="cv-row"><div class="cv-date"></div><div class="cv-body">See the <a href="{{ site.url }}/teaching/">teaching</a> page for details.</div></div>
+<div class="cv-row"><div class="cv-date">2021 &ndash; present</div><div class="cv-body"><strong>Statistical Signal Processing II</strong><br><em>Advanced MS course, University of Oulu</em></div></div>
+<div class="cv-row"><div class="cv-date">Curriculum</div><div class="cv-body"><strong>Frontier Research in Wireless Signal Processing</strong><br><em>Curriculum development, University of Oulu</em></div></div>
+<div class="cv-row"><div class="cv-date">2023</div><div class="cv-body"><strong>Machine Learning for MIMO Signal Detection</strong><br><em>Teaching demonstration, University of Oulu</em></div></div>
+<div class="cv-row"><div class="cv-date">2026</div><div class="cv-body"><strong>PHY layer techniques and design principles in 6G</strong><br><em>Invited lecture, EXACT-6G &amp; EMPOWER-6G School</em></div></div>
+<div class="cv-row"><div class="cv-date">2025</div><div class="cv-body"><strong>Model and Data-Driven AI for 6G Signal Processing</strong><br><em>Invited lecture, EXACT-6G &amp; EMPOWER-6G School</em></div></div>
+<div class="cv-row"><div class="cv-date">May 2025</div><div class="cv-body"><strong>Machine Learning for Energy Efficiency Optimization</strong><br><em>Invited lecture, Nokia</em></div></div>
 </div>
 
 <div class="site-card cv-card">
