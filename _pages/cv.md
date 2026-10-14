@@ -35,7 +35,7 @@ redirect_from:
 <div class="cv-row"><div class="cv-date">2025</div><div class="cv-body"><strong>Business Finland &ndash; Nokia</strong>, Radio Adaptations for Network Energy Saving in 6G (6G RNES 2025). &euro;170,000, Co-PI</div></div>
 <div class="cv-row"><div class="cv-date">2025 &ndash; 2027</div><div class="cv-body"><strong>Joint NSF-RCF</strong>, Distributed Multi-Modal Sensing Aided Large-Scale MIMO Communications (DYNAMICS). &euro;400,000, PI</div></div>
 <div class="cv-row"><div class="cv-date">2023 &ndash; 2027</div><div class="cv-body"><strong>RCF Fellowship</strong>, DIRECTION: Deep Unfolding Solutions to 6G Communication &amp; Sensing. &euro;593,073, PI</div></div>
-<div class="cv-row"><div class="cv-date">2023 &ndash; 2024</div><div class="cv-body"><strong>Nokia Donation</strong>, INTEGRATE: Integrated Sensing and Communication with RIS and Machine Learning. &euro;50,000, PI</div></div>
+<div class="cv-row"><div class="cv-date">2023 &ndash; 2024</div><div class="cv-body"><strong>Nokia Donation</strong>, INTEGRATE: Integrated Sensing and Communication with RIS and Machine Learning. PI</div></div>
 <div class="cv-row"><div class="cv-date">2022 &ndash; 2023</div><div class="cv-body"><strong>Nokia Foundation Jorma Ollila Grant</strong>, DECENT: Deep Unfolding for Energy-Efficient Transceiver Designs in 6G THz Systems. &euro;12,000, PI</div></div>
 <div class="cv-row"><div class="cv-date">2013 &ndash; 2014</div><div class="cv-body"><strong>Samsung Talent Grant</strong>: one-year financial assistance, internship and an engineering position at Samsung Vietnam Mobile R&amp;D Center</div></div>
 <div class="cv-sub">International collaborative funding</div>
@@ -79,7 +79,7 @@ redirect_from:
 <div class="cv-row"><div class="cv-date">2025</div><div class="cv-body"><span class="hl">Best Paper Award</span>, International Symposium on Antennas and Propagation (ISAP)</div></div>
 <div class="cv-row"><div class="cv-date">2025</div><div class="cv-body"><span class="hl">Exemplary Editor</span>, IEEE Communications Letters</div></div>
 <div class="cv-row"><div class="cv-date">2025</div><div class="cv-body"><span class="hl">Top 25 most downloaded paper</span>, IEEE Signal Processing Society (JSTSP)</div></div>
-<div class="cv-row"><div class="cv-date">2024</div><div class="cv-body"><span class="hl">Ranked first</span>, all four external reviewers (6/6) for research, tenure-track Assistant Professor position at the University of Oulu</div></div>
+<div class="cv-row"><div class="cv-date">2024</div><div class="cv-body"><span class="hl">Appointed Assistant Professor (tenure track)</span> through an open international call, University of Oulu</div></div>
 <div class="cv-row"><div class="cv-date">2024</div><div class="cv-body"><span class="hl">Top 25 most downloaded paper</span>, IEEE Signal Processing Society (TSP)</div></div>
 <div class="cv-row"><div class="cv-date">2023</div><div class="cv-body"><span class="hl">Research Council of Finland Fellowship</span> (15% success rate)</div></div>
 <div class="cv-row"><div class="cv-date">2023</div><div class="cv-body"><span class="hl">Title of Docent</span>, University of Oulu</div></div>
@@ -104,7 +104,7 @@ redirect_from:
 <div class="cv-row"><div class="cv-date">2024</div><div class="cv-body"><span class="hl">Co-organizer and Guest Editor</span>, IET Communications special issue on Next Generation MIMO Technologies for Future Wireless Networks; co-organizer of a session at IEEE ICASSP</div></div>
 <div class="cv-row"><div class="cv-date">2021 &ndash; 2026</div><div class="cv-body">TPC member of IEEE Globecom, ICC, SPAWC, VTC-Spring and JC&amp;S; session chair at IEEE SPAWC 2022, Asilomar 2024 and ICASSP 2025</div></div>
 <div class="cv-row"><div class="cv-date">Reviewer</div><div class="cv-body"><strong>Journals:</strong> IEEE TSP, TWC, TCOM, TVT, TAES, TGCN, JSTSP, JSAC, IoT, OJ-COMS; EURASIP journals<br><strong>Magazines and letters:</strong> IEEE ComMag, WCM, COML, WCL, SPL<br><strong>Conferences:</strong> IEEE ICASSP, Globecom, ICC, SPAWC, VTC, Asilomar, JC&amp;S</div></div>
-<div class="cv-row"><div class="cv-date">Examiner</div><div class="cv-body">Doctoral thesis pre-examiner at University of Technology Sydney (2026) and Aalto University (2025); PhD supervision committee at University of Luxembourg (2025 &ndash; 2029); grant reviewer for NAFOSTED, Vietnam (2025)</div></div>
+<div class="cv-row"><div class="cv-date">Examiner</div><div class="cv-body">Doctoral thesis pre-examiner at international universities (2025 &ndash; 2026); PhD supervision committee at University of Luxembourg (2025 &ndash; 2029); reviewer of research proposals for national funding agencies (2025)</div></div>
 </div>
 
 <div class="site-card cv-card">
