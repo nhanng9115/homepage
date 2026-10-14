@@ -517,3 +517,42 @@ h1, h2, h3, h4, .page__title, .author__name { font-weight: 300; }
 .author__urls-wrapper button:hover { background: #b509ac !important; border-color: #b509ac !important; color: #fff !important; }
 .page__content h1, .page__content h2, .page__content h3, .page__title, .author__name { color: #000; }
 hr.section-divider { border-top-color: rgba(0, 0, 0, 0.1) !important; }
+
+
+/* ---- Menu tab names in lowercase, as in al-folio ---- */
+.masthead__menu-item:not(.masthead__menu-item--lg) a { text-transform: lowercase; }
+
+/* ---- Profile photo: no border, softly raised ---- */
+.author__avatar img {
+  border: 0 !important;
+  padding: 0 !important;
+  border-radius: 4px !important;
+  box-shadow: var(--site-shadow) !important;
+}
+
+/* ---- Repositories page (GitHub repo cards) ---- */
+.repo-summary { display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 4px 0 6px; color: #828282; }
+.repo-summary strong { color: #000; }
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+  margin: 10px 0 24px;
+}
+a.repo-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px 16px;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: var(--site-shadow);
+  color: #000;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease;
+}
+a.repo-card:hover { box-shadow: var(--site-shadow-hover); text-decoration: none; }
+.repo-name { color: var(--site-acc); font-weight: 400; font-size: 0.95rem; overflow-wrap: anywhere; }
+.repo-desc { color: #444; font-size: 0.85rem; line-height: 1.4; flex: 1; overflow-wrap: anywhere; }
+.repo-meta { display: flex; align-items: center; gap: 14px; color: #828282; font-size: 0.8rem; }
+.repo-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; }
