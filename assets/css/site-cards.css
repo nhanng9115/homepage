@@ -615,3 +615,10 @@ a.repo-card:hover { box-shadow: var(--site-shadow-hover); text-decoration: none;
 .masthead__menu-dropdown .dropdown-menu a { display: block; padding: 6px 16px; color: #000 !important; text-transform: lowercase; white-space: nowrap; }
 .masthead__menu-dropdown .dropdown-menu a:hover { color: #b509ac !important; }
 .hidden-links .masthead__menu-dropdown .dropdown-menu { display: block; position: static; box-shadow: none; padding: 0 0 0 12px; }
+
+/* ---- Mobile menu button: dark bars (the theme draws them in the masthead
+   background colour, which is white here, so they were invisible) ---- */
+.greedy-nav .navicon,
+.greedy-nav .navicon:before,
+.greedy-nav .navicon:after { background: #000000; }
+.greedy-nav button.close .navicon { background: transparent; }
