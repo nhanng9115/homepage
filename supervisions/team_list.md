@@ -39,7 +39,7 @@ I have had the privilege of supervising and co-supervising talented researchers 
     <h3>Alumni</h3>
   </div>
   <ul class="site-timeline site-team-timeline">
-    <li><span class="site-date">2021&ndash;Aug. 2025:</span> <span class="site-tag">DSc</span> <span class="site-person-name">Mengyuan Ma</span> <span class="site-person-extra">(currently working as a Postdoc)</span><span class="site-person-note">Low-resolution ADC, hybrid beamforming, deep unfolding, multimodal sensing-aided communications, knowledge distillation</span></li>
+    <li><span class="site-date">2021&ndash;Aug. 2025:</span> <span class="site-tag">DSc</span> <span class="site-person-name">Mengyuan Ma</span> <span class="site-person-extra">(co-supervised)</span><span class="site-person-note">Low-resolution ADC, hybrid beamforming, deep unfolding, multimodal sensing-aided communications, knowledge distillation</span></li>
   </ul>
 </div>
 
