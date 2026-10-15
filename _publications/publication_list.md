@@ -998,7 +998,7 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 <li data-topics="isac mimo" data-year="2026">
 <div class="pub-main">
 T. Fang, M. Ma, M. Juntti, N. Shlezinger, A. L. Swindlehurst, and <strong>N. T. Nguyen</strong>,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11523170" target="_blank">Optimal ISAC Beamforming Structure and Efficient Algorithms for Sum Rate and CRLB Balancing</a>,"  
+"<a href="https://arxiv.org/pdf/2503.09489" target="_blank">Optimal ISAC Beamforming Structure and Efficient Algorithms for Sum Rate and CRLB Balancing</a>,"  
 <span><em>IEEE Transactions on Signal Processing</em></span>, vol. 74, pp. 2400–2416, May 2026.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TSP.2026.3694198" target="_blank">10.1109/TSP.2026.3694198</a></span>
 </div>
@@ -1015,7 +1015,7 @@ T. Fang, M. Ma, M. Juntti, N. Shlezinger, A. L. Swindlehurst, and <strong>N. T. 
   pages={2400--2416},
   doi={10.1109/TSP.2026.3694198}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-21', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11523170" target="_blank">View</a>
+<a class="pub-view-btn" href="https://arxiv.org/pdf/2503.09489" target="_blank">View</a>
 </div>
 </li>
 
@@ -1024,7 +1024,7 @@ T. Fang, M. Ma, M. Juntti, N. Shlezinger, A. L. Swindlehurst, and <strong>N. T. 
 <li data-topics="isac ml" data-year="2026">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, M. Ma, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11519596" target="_blank">Knowledge distillation for collaborative learning in distributed communications and sensing</a>,"  
+"<a href="https://arxiv.org/pdf/2603.16116" target="_blank">Knowledge distillation for collaborative learning in distributed communications and sensing</a>,"  
 <span><em>IEEE Communications Magazine</em></span>, May 2026. (<strong>early access</strong>)
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/MCOM.001.2500665" target="_blank">10.1109/MCOM.001.2500665</a></span>
 </div>
@@ -1037,7 +1037,7 @@ T. Fang, M. Ma, M. Juntti, N. Shlezinger, A. L. Swindlehurst, and <strong>N. T. 
   note={early access},
   doi={10.1109/MCOM.001.2500665}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-22', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11519596" target="_blank">View</a>
+<a class="pub-view-btn" href="https://arxiv.org/pdf/2603.16116" target="_blank">View</a>
 </div>
 </li>
 
@@ -1114,7 +1114,7 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,
 <li data-topics="isac" data-year="2026">
 <div class="pub-main">
 L. V. Nguyen, R. Liu, <strong>N. T. Nguyen</strong>, M. Juntti, B. Ottersten, and A. L. Swindlehurst,  
-"<a href="https://ieeexplore.ieee.org/abstract/document/11360621" target="_blank">Exploiting Symmetric Non-Convexity for Multi-Objective Symbol-Level DFRC Signal Design</a>,"  
+"<a href="https://arxiv.org/pdf/2504.14281" target="_blank">Exploiting Symmetric Non-Convexity for Multi-Objective Symbol-Level DFRC Signal Design</a>,"  
 <span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 25, pp. 10530–10545, Jan. 2026.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TWC.2026.3653241" target="_blank">10.1109/TWC.2026.3653241</a></span>
 </div>
@@ -1128,7 +1128,7 @@ L. V. Nguyen, R. Liu, <strong>N. T. Nguyen</strong>, M. Juntti, B. Ottersten, an
   pages={10530--10545},
   doi={10.1109/TWC.2026.3653241}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-26', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/abstract/document/11360621" target="_blank">View</a>
+<a class="pub-view-btn" href="https://arxiv.org/pdf/2504.14281" target="_blank">View</a>
 </div>
 </li>
 
@@ -1137,7 +1137,7 @@ L. V. Nguyen, R. Liu, <strong>N. T. Nguyen</strong>, M. Juntti, B. Ottersten, an
 <li data-topics="ml" data-year="2026">
 <div class="pub-main">
 S. Deka, K. Deka, <strong>N. T. Nguyen</strong>, S. Sharma, V. Bhatia,  and N. Rajatheva,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11343762" target="_blank">Comprehensive Review of Deep Unfolding Techniques for Next-Generation Wireless Communication Systems</a>,"  
+"<a href="https://arxiv.org/pdf/2502.05952" target="_blank">Comprehensive Review of Deep Unfolding Techniques for Next-Generation Wireless Communication Systems</a>,"  
 <span><em>IEEE Internet of Things Journal</em></span>, vol. 13, no. 6, pp. 10379–10406, Jan. 2026.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/JIOT.2026.3652234" target="_blank">10.1109/JIOT.2026.3652234</a></span>
 </div>
@@ -1152,7 +1152,7 @@ S. Deka, K. Deka, <strong>N. T. Nguyen</strong>, S. Sharma, V. Bhatia,  and N. R
   pages={10379--10406},
   doi={10.1109/JIOT.2026.3652234}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-27', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11343762" target="_blank">View</a>
+<a class="pub-view-btn" href="https://arxiv.org/pdf/2502.05952" target="_blank">View</a>
 </div>
 </li>
 
@@ -1202,7 +1202,7 @@ D. Abueida, M. A. Albreem, S. Abdallah, A. A. Salem, S. Shahabuddin, K. Alnajjar
 <li data-topics="isac mimo" data-year="2025">
 <div class="pub-main">
 H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q. Bao, H. Q. Ngo, D. Niyato, and S. Chatzinotas,  
-  "<a href="https://ieeexplore.ieee.org/abstract/document/11168825" target="_blank">Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems</a>,"  
+  "<a href="https://arxiv.org/pdf/2509.10290" target="_blank">Energy Efficiency for Massive MIMO Integrated Sensing and Communication Systems</a>,"  
   <span><em>IEEE Journal on Selected Areas in Communications</em></span>, vol. 44, pp. 165–180, Sep. 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/JSAC.2025.3610821" target="_blank">10.1109/JSAC.2025.3610821</a></span>
 </div>
@@ -1217,7 +1217,7 @@ H. T. Nguyen, V.-D. Nguyen, <strong>N. T. Nguyen</strong>, N. C. Luong, V.-N. Q.
   publisher={IEEE},
   doi={10.1109/JSAC.2025.3610821}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-30', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/abstract/document/11168825" target="_blank">View</a>
+<a class="pub-view-btn" href="https://arxiv.org/pdf/2509.10290" target="_blank">View</a>
 </div>
 </li>
 
@@ -1248,7 +1248,7 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 <li data-topics="mimo" data-year="2025">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11008697" target="_blank">Digital and Hybrid Precoding Designs in Massive MIMO with Low-Resolution ADCs</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11008697" target="_blank">Digital and Hybrid Precoding Designs in Massive MIMO with Low-Resolution ADCs</a>,"  
 <span><em>IEEE Wireless Communications Letters</em></span>, vol. 14, no. 8, pp. 2446–2450, Aug. 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/LWC.2025.3572281" target="_blank">10.1109/LWC.2025.3572281</a></span>
 </div>
@@ -1264,7 +1264,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
   publisher={IEEE},
   doi={10.1109/LWC.2025.3572281}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-32', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11008697" target="_blank">View</a>
+<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11008697" target="_blank">View</a>
 <a class="pub-view-btn pub-code-btn" href="https://github.com/WillysMa/Digital_and_hybrid_precoding_design" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
@@ -1273,7 +1273,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, A. L. Swindlehurst, and M. Junt
 <li data-topics="mimo" data-year="2025">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11006401" target="_blank">Joint Beamforming Design and Bit Allocation in Massive MIMO with Resolution-Adaptive ADCs</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11006401" target="_blank">Joint Beamforming Design and Bit Allocation in Massive MIMO with Resolution-Adaptive ADCs</a>,"  
 <span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 24, no. 10, pp. 8711–8726, May 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TWC.2025.3568590" target="_blank">10.1109/TWC.2025.3568590</a></span>
 </div>
@@ -1289,7 +1289,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
   publisher={IEEE},
   doi={10.1109/TWC.2025.3568590}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:6px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-33', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11006401" target="_blank">View</a>
+<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11006401" target="_blank">View</a>
 </div>
 </li>
 
@@ -1297,7 +1297,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 <li data-topics="isac mimo" data-year="2025">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">Performance Analysis and Power Allocation for Massive MIMO ISAC Systems</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10938928" target="_blank">Performance Analysis and Power Allocation for Massive MIMO ISAC Systems</a>,"  
 <span><em>IEEE Transactions on Signal Processing</em></span>, vol. 73, pp. 1691–1707, Mar. 2025. <span style="color:#dc2626; font-weight:700;">(Top reading 2025)</span>
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TSP.2025.3554012" target="_blank">10.1109/TSP.2025.3554012</a></span>
 </div>
@@ -1312,7 +1312,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
   publisher={IEEE},
   doi={10.1109/TSP.2025.3554012}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-34', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10938928" target="_blank">View</a>
+<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10938928" target="_blank">View</a>
 </div>
 </li>
 
@@ -1320,7 +1320,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 <li data-topics="ris mimo" data-year="2024">
 <div class="pub-main">
 E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10756196" target="_blank">Secure mmWave MIMO Networks Employing Hybrid Active-Passive RIS</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53753/nbnfioulu-202501171238.pdf?sequence=1" target="_blank">Secure mmWave MIMO Networks Employing Hybrid Active-Passive RIS</a>,"  
 <span><em>IEEE Transactions on Communications</em></span>, vol. 73, no. 11, pp. 12161–12173, Nov. 2024.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TCOMM.2024.3490495" target="_blank">10.1109/TCOMM.2024.3490495</a></span>
 </div>
@@ -1336,7 +1336,7 @@ E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,
   publisher={IEEE},
   doi={10.1109/TCOMM.2024.3490495}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-35', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10756196" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/53753/nbnfioulu-202501171238.pdf?sequence=1" target="_blank">View</a>
 </div>
 </li>
 
@@ -1344,7 +1344,7 @@ E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="isac ml mimo" data-year="2024">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10684532" target="_blank">Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10684532" target="_blank">Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding</a>,"  
 <span><em>IEEE Journal of Selected Topics in Signal Processing</em></span>, vol. 18, no. 5, pp. 901–916, Jul. 2024.  <span style="color:#dc2626; font-weight:700;">(Top reading and download in 2024–2025, invited to present at IEEE 2026 SPS Webinar)</span>
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/JSTSP.2024.3463403" target="_blank">10.1109/JSTSP.2024.3463403</a></span>
 </div>
@@ -1360,7 +1360,7 @@ E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,
   publisher={IEEE},
   doi={10.1109/JSTSP.2024.3463403}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-36', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10684532" target="_blank">View</a>
+<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10684532" target="_blank">View</a>
 <a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Joint-Communications-and-Sensing-Hybrid-Beamforming-Design-via-Deep-Unfolding" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
@@ -1369,7 +1369,7 @@ E. Egashira, D. M. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="mimo" data-year="2024">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10697466" target="_blank">Switch-Based Hybrid Beamforming Transceiver Design for Wideband Communications With Beam Squint</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10697466" target="_blank">Switch-Based Hybrid Beamforming Transceiver Design for Wideband Communications With Beam Squint</a>,"  
 <span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 74, no. 2, pp. 2840–2855, Sep. 2024.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TVT.2024.3470530" target="_blank">10.1109/TVT.2024.3470530</a></span>
 </div>
@@ -1385,7 +1385,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
   publisher={IEEE},
   doi={10.1109/TVT.2024.3470530}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-37', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10697466" target="_blank">View</a>
+<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10697466" target="_blank">View</a>
 <a class="pub-view-btn pub-code-btn" href="https://github.com/WillysMa/SW-HBF_design_with_beam_squint" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
@@ -1394,7 +1394,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="ml mimo" data-year="2024">
 <div class="pub-main">
 I. Bilbao, E. Iradier, J. Montalban, P. Angueira, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10568545" target="_blank">Deep Unfolding-Powered Analog Beamforming for In-Band Full-Duplex</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10568545" target="_blank">Deep Unfolding-Powered Analog Beamforming for In-Band Full-Duplex</a>,"  
 <span><em>IEEE Open Journal of the Communications Society</em></span>, vol. 5, pp. 3753–3761, Jun. 2024.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/OJCOMS.2024.3417349" target="_blank">10.1109/OJCOMS.2024.3417349</a></span>
 </div>
@@ -1409,7 +1409,7 @@ I. Bilbao, E. Iradier, J. Montalban, P. Angueira, <strong>N. T. Nguyen</strong>,
   publisher={IEEE},
   doi={10.1109/OJCOMS.2024.3417349}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-38', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10568545" target="_blank">View</a>
+<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10568545" target="_blank">View</a>
 </div>
 </li>
 
@@ -1417,7 +1417,7 @@ I. Bilbao, E. Iradier, J. Montalban, P. Angueira, <strong>N. T. Nguyen</strong>,
 <li data-topics="ml mimo" data-year="2024">
 <div class="pub-main">
 N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10535041" target="_blank">Artificial Intelligence-Empowered Hybrid Multiple-Input/Multiple-Output Beamforming: Learning to Optimize for High-Throughput Scalable MIMO</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/51866/nbnfioulu-202409165877.pdf?sequence=1" target="_blank">Artificial Intelligence-Empowered Hybrid Multiple-Input/Multiple-Output Beamforming: Learning to Optimize for High-Throughput Scalable MIMO</a>,"  
 <span><em>IEEE Vehicular Technology Magazine</em></span>, vol. 19, no. 3, pp. 58–67, 2024.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/MVT.2024.3396927" target="_blank">10.1109/MVT.2024.3396927</a></span>
 </div>
@@ -1433,7 +1433,7 @@ N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M
   publisher={IEEE},
   doi={10.1109/MVT.2024.3396927}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-39', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10535041" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/51866/nbnfioulu-202409165877.pdf?sequence=1" target="_blank">View</a>
 <a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/AI-Empowered-Hybrid-MIMO-Beamforming" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
@@ -1442,7 +1442,7 @@ N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M
 <li data-topics="ris" data-year="2024">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, Q. Wu, A. Tolli, S. Chatzinotas, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10266977" target="_blank">Fairness Enhancement of UAV Systems with Hybrid Active-Passive RIS</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10266977" target="_blank">Fairness Enhancement of UAV Systems with Hybrid Active-Passive RIS</a>,"  
 <span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 23, no. 5, pp. 4379–4396, May 2024.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TWC.2023.3317934" target="_blank">10.1109/TWC.2023.3317934</a></span>
 </div>
@@ -1458,7 +1458,7 @@ N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M
   publisher={IEEE},
   doi={10.1109/TWC.2023.3317934}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-40', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10266977" target="_blank">View</a>
+<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10266977" target="_blank">View</a>
 <a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Fairness-Enhancement-of-UAV-Systems-With-Hybrid-Active-Passive-RIS" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
@@ -1467,7 +1467,7 @@ N. Shlezinger, M. Ma, O. Lavi, <strong>N. T. Nguyen</strong>, Y. C. Eldar, and M
 <li data-topics="ml" data-year="2023">
 <div class="pub-main">
 V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, Nguyen C. L., Dinh T. H., D. N. Nguyen, and S. Chatzinotas,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10330565" target="_blank">Network-Aided Intelligent Traffic Steering in 6G O-RAN: A Multi-Layer Optimization Framework</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/48422/nbnfioulu-202403212382.pdf?sequence=1&isAllowed=y" target="_blank">Network-Aided Intelligent Traffic Steering in 6G O-RAN: A Multi-Layer Optimization Framework</a>,"  
 <span><em>IEEE Journal on Selected Areas in Communications</em></span>, vol. 42, no. 2, pp. 389–405, Nov. 2023.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/JSAC.2023.3336183" target="_blank">10.1109/JSAC.2023.3336183</a></span>
 </div>
@@ -1483,7 +1483,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
   publisher={IEEE},
   doi={10.1109/JSAC.2023.3336183}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-41', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10330565" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/48422/nbnfioulu-202403212382.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -1491,7 +1491,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 <li data-topics="ml mimo" data-year="2023">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10286447" target="_blank">Deep Unfolding Hybrid Beamforming Designs for THz Massive MIMO Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/47431/nbnfioulu-202401231426.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding Hybrid Beamforming Designs for THz Massive MIMO Systems</a>,"  
 <span><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 3788–3804, Oct. 2023.   <span style="color:#dc2626; font-weight:700;">(Top reading in 2023–2024)</span>
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TSP.2023.3322852" target="_blank">10.1109/TSP.2023.3322852</a></span>
 </div>
@@ -1506,7 +1506,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
   publisher={IEEE},
   doi={10.1109/TSP.2023.3322852}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-42', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10286447" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/47431/nbnfioulu-202401231426.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 <a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Deep_unfolding_Hybrid_beamforming" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
@@ -1515,7 +1515,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 <li data-topics="isac mimo" data-year="2023">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10214237" target="_blank">Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10214237" target="_blank">Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation</a>,"  
 <span><em>IEEE Transactions on Signal Processing</em></span>, vol. 71, pp. 2997–3013, Aug. 2023.   <span style="color:#dc2626; font-weight:700;">(Top reading and download in 2023–2024, <a href="https://rc.signalprocessingsociety.org/education/webinars/sps_ed_web_vid_032625" target="_blank"><span style="color:#dc2626; font-weight:700;">IEEE SPS Webinar</span></a>, <a href="https://rc.signalprocessingsociety.org/education/webinars/sps_ed_web_sli_032625" target="_blank"><span style="color:#dc2626; font-weight:700;">Slides</span></a>)</span>
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TSP.2023.3302622" target="_blank">10.1109/TSP.2023.3302622</a></span>
 </div>
@@ -1530,7 +1530,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
   publisher={IEEE},
   doi={10.1109/TSP.2023.3302622}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-43', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10214237" target="_blank">View</a>
+<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10214237" target="_blank">View</a>
 <a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Multiuser-MIMO-Wideband-Joint-Communications-and-Sensing-System-with-Subcarrier-Allocation" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
@@ -1539,7 +1539,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 <li data-topics="ris mimo" data-year="2022">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, V.-H. Nguyen, H. Q. Ngo, S. Chatzinotas, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9940169" target="_blank">Spectral Efficiency Analysis of Hybrid Relay-Reflecting Intelligent Surface-Assisted Cell-Free Massive MIMO Systems</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9940169" target="_blank">Spectral Efficiency Analysis of Hybrid Relay-Reflecting Intelligent Surface-Assisted Cell-Free Massive MIMO Systems</a>,"  
 <span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 22, no. 5, pp. 3397–3416, Nov. 2022.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TWC.2022.3217828" target="_blank">10.1109/TWC.2022.3217828</a></span>
 </div>
@@ -1555,7 +1555,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
   publisher={IEEE},
   doi={10.1109/TWC.2022.3217828}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-44', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9940169" target="_blank">View</a>
+<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9940169" target="_blank">View</a>
 </div>
 </li>
 
@@ -1563,7 +1563,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 <li data-topics="ml mimo" data-year="2022">
 <div class="pub-main">
 L. V. Nguyen, <strong>N. T. Nguyen</strong>, N. H. Tran, M. Juntti, A. L. Swindlehurst, and D. H. N. Nguyen,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9772315" target="_blank">Leveraging Deep Neural Networks for Massive MIMO Data Detection</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44744/nbnfi-fe202301265946.pdf?sequence=1&isAllowed=y" target="_blank">Leveraging Deep Neural Networks for Massive MIMO Data Detection</a>,"  
 <span><em>IEEE Wireless Communications</em></span>, vol. 30, no. 1, pp. 174–180, May 2022.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/MWC.013.2100652" target="_blank">10.1109/MWC.013.2100652</a></span>
 </div>
@@ -1579,7 +1579,7 @@ L. V. Nguyen, <strong>N. T. Nguyen</strong>, N. H. Tran, M. Juntti, A. L. Swindl
   publisher={IEEE},
   doi={10.1109/MWC.013.2100652}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-45', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9772315" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/44744/nbnfi-fe202301265946.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 <a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Leveraging-Deep-Neural-Networks-for-Massive-MIMO-Data-Detection" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
@@ -1588,7 +1588,7 @@ L. V. Nguyen, <strong>N. T. Nguyen</strong>, N. H. Tran, M. Juntti, A. L. Swindl
 <li data-topics="ris mimo" data-year="2022">
 <div class="pub-main">
 A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hemadeh, <strong>N. T. Nguyen</strong>, V. Tapio, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9770295" target="_blank">MIMO Evolution Beyond 5G Through Reconfigurable Intelligent Surfaces and Fluid Antenna Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/32277/nbnfi-fe2022100661285.pdf?sequence=1" target="_blank">MIMO Evolution Beyond 5G Through Reconfigurable Intelligent Surfaces and Fluid Antenna Systems</a>,"  
 <span><em>Proceedings of the IEEE</em></span>, vol. 110, no. 9, pp. 1244–1265, May 2022.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/JPROC.2022.3170247" target="_blank">10.1109/JPROC.2022.3170247</a></span>
 </div>
@@ -1604,7 +1604,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
   publisher={IEEE},
   doi={10.1109/JPROC.2022.3170247}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-46', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9770295" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/32277/nbnfi-fe2022100661285.pdf?sequence=1" target="_blank">View</a>
 </div>
 </li>
 
@@ -1612,7 +1612,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 <li data-topics="mimo" data-year="2022">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9780003" target="_blank">Hybrid Beamforming and Adaptive RF Chain Activation for Uplink Cell-Free Millimeter-Wave Massive MIMO Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/45145/nbnfi-fe2023032332877.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Beamforming and Adaptive RF Chain Activation for Uplink Cell-Free Millimeter-Wave Massive MIMO Systems</a>,"  
 <span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 71, no. 8, pp. 8739–8755, May 2022.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TVT.2022.3176389" target="_blank">10.1109/TVT.2022.3176389</a></span>
 </div>
@@ -1628,7 +1628,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
   publisher={IEEE},
   doi={10.1109/TVT.2022.3176389}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-47', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9780003" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/45145/nbnfi-fe2023032332877.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 <a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Hybrid-Beamforming-and-Adaptive-RF-Chain-Activation-for-Cell-Free-Millimeter-Wave-Massive-MIMO" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
@@ -1637,7 +1637,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 <li data-topics="ris" data-year="2022">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, Q.-D. Vu, K. Lee, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9733238" target="_blank">Hybrid Relay-Reflecting Intelligent Surface-Assisted Wireless Communications</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9733238" target="_blank">Hybrid Relay-Reflecting Intelligent Surface-Assisted Wireless Communications</a>,"  
 <span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 71, no. 6, pp. 6228–6244, Mar. 2022 <span style="color:#dc2626; font-weight:700;">(Two (2) Best Paper Awards for conference versions)</span>.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TVT.2022.3158686" target="_blank">10.1109/TVT.2022.3158686</a></span>
 </div>
@@ -1653,7 +1653,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
   publisher={IEEE},
   doi={10.1109/TVT.2022.3158686}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-48', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9733238" target="_blank">View</a>
+<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9733238" target="_blank">View</a>
 <a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Hybrid-Relay-Reflecting-Intelligent-Surface-Assisted-Wireless-Communications" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
@@ -1662,7 +1662,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 <li data-topics="ml mimo" data-year="2021">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9425021" target="_blank">Application of Deep Learning to Sphere Decoding for Large MIMO Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/30148/nbnfi-fe2021122162809.pdf?sequence=1&isAllowed=y" target="_blank">Application of Deep Learning to Sphere Decoding for Large MIMO Systems</a>,"  
 <span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 20, no. 10, pp. 6787–6803, May 2021.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TWC.2021.3076527" target="_blank">10.1109/TWC.2021.3076527</a></span>
 </div>
@@ -1678,7 +1678,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
   publisher={IEEE},
   doi={10.1109/TWC.2021.3076527}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-49', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9425021" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/30148/nbnfi-fe2021122162809.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 <a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Application-of-Deep-Learning-to-Sphere-Decoding-for-Massive-MIMO-Systems" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
@@ -1687,7 +1687,7 @@ A. Shojaeifard, K.-K. Wong, K.-F. Tong, Z. Chu, A. Mourad, A. Haghighat, I. Hema
 <li data-topics="ml" data-year="2021">
 <div class="pub-main">
 Q.-V. Pham, <strong>N. T. Nguyen</strong>, T. T. Huynh, L. B. Le, K. Lee, W.-J. Hwang,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9448043" target="_blank">Intelligent Radio Signal Processing: A Survey</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9448043" target="_blank">Intelligent Radio Signal Processing: A Survey</a>,"  
 <span><em>IEEE Access</em></span>, vol. 9, pp. 83818–83850, Jun. 2021.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ACCESS.2021.3087136" target="_blank">10.1109/ACCESS.2021.3087136</a></span>
 </div>
@@ -1702,7 +1702,7 @@ Q.-V. Pham, <strong>N. T. Nguyen</strong>, T. T. Huynh, L. B. Le, K. Lee, W.-J. 
   publisher={IEEE},
   doi={10.1109/ACCESS.2021.3087136}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-50', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9448043" target="_blank">View</a>
+<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9448043" target="_blank">View</a>
 </div>
 </li>
 
@@ -1710,7 +1710,7 @@ Q.-V. Pham, <strong>N. T. Nguyen</strong>, T. T. Huynh, L. B. Le, K. Lee, W.-J. 
 <li data-topics="mimo" data-year="2021">
 <div class="pub-main">
 G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,  
-"<a href="https://ieeexplore.ieee.org/abstract/document/9374093" target="_blank">Dynamic Unequally Sub-Connected Hybrid Beamforming Architecture for Massive MIMO Systems</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9374093" target="_blank">Dynamic Unequally Sub-Connected Hybrid Beamforming Architecture for Massive MIMO Systems</a>,"  
 <span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 70, no. 4, pp. 3469–3478, Mar. 2021.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TVT.2021.3064951" target="_blank">10.1109/TVT.2021.3064951</a></span>
 </div>
@@ -1726,7 +1726,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
   publisher={IEEE},
   doi={10.1109/TVT.2021.3064951}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-51', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/abstract/document/9374093" target="_blank">View</a>
+<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9374093" target="_blank">View</a>
 </div>
 </li>
 
@@ -1734,7 +1734,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 <li data-topics="ml mimo" data-year="2020">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong> and K. Lee,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9047156" target="_blank">Deep Learning-Aided Tabu Search Detection for Large MIMO Systems</a>,"  
+"<a href="https://arxiv.org/pdf/1909.01683" target="_blank">Deep Learning-Aided Tabu Search Detection for Large MIMO Systems</a>,"  
 <span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 19, no. 6, pp. 4262–4275, Jun. 2020.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TWC.2020.2981919" target="_blank">10.1109/TWC.2020.2981919</a></span>
 </div>
@@ -1750,7 +1750,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
   publisher={IEEE},
   doi={10.1109/TWC.2020.2981919}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-52', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9047156" target="_blank">View</a>
+<a class="pub-view-btn" href="https://arxiv.org/pdf/1909.01683" target="_blank">View</a>
 <a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Deep-Learning-Aided-Tabu-Search-Detection-for-Large-MIMO-Systems" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
@@ -1759,7 +1759,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 <li data-topics="mimo" data-year="2020">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong> and K. Lee,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8895798" target="_blank">Unequally Sub-Connected Architecture for Hybrid Beamforming in Massive MIMO Systems</a>,"  
+"<a href="https://arxiv.org/pdf/1908.10056" target="_blank">Unequally Sub-Connected Architecture for Hybrid Beamforming in Massive MIMO Systems</a>,"  
 <span><em>IEEE Transactions on Wireless Communications</em></span>, vol. 19, no. 2, pp. 1127–1140, Feb. 2020.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TWC.2019.2951174" target="_blank">10.1109/TWC.2019.2951174</a></span>
 </div>
@@ -1776,7 +1776,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
   publisher={IEEE},
   doi={10.1109/TWC.2019.2951174}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-53', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8895798" target="_blank">View</a>
+<a class="pub-view-btn" href="https://arxiv.org/pdf/1908.10056" target="_blank">View</a>
 <a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Unequally-Sub-Connected-Architecture-for-Hybrid-Beamforming-in-Massive-MIMO-Systems" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
@@ -1785,7 +1785,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 <li data-topics="mimo" data-year="2020">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong> and K. Lee,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8902004" target="_blank">Groupwise Neighbor Examination for Tabu Search Detection in Large MIMO Systems</a>,"  
+"<a href="https://arxiv.org/pdf/1909.13606" target="_blank">Groupwise Neighbor Examination for Tabu Search Detection in Large MIMO Systems</a>,"  
 <span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 69, no. 1, pp. 1136–1140, Jan. 2020.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TVT.2019.2953635" target="_blank">10.1109/TVT.2019.2953635</a></span>
 </div>
@@ -1802,7 +1802,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
   publisher={IEEE},
   doi={10.1109/TVT.2019.2953635}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-54', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8902004" target="_blank">View</a>
+<a class="pub-view-btn" href="https://arxiv.org/pdf/1909.13606" target="_blank">View</a>
 </div>
 </li>
 
@@ -1810,7 +1810,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 <li data-topics="mimo" data-year="2019">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, K. Lee, and H. Dai,  
-"<a href="https://ieeexplore.ieee.org/abstract/document/8668468" target="_blank">QR-Decomposition-Aided Tabu Search Detection for Large MIMO Systems</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8668468" target="_blank">QR-Decomposition-Aided Tabu Search Detection for Large MIMO Systems</a>,"  
 <span><em>IEEE Transactions on Vehicular Technology</em></span>, vol. 68, no. 5, pp. 4857–4870, May 2019.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TVT.2019.2905642" target="_blank">10.1109/TVT.2019.2905642</a></span>
 </div>
@@ -1826,7 +1826,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
   publisher={IEEE},
   doi={10.1109/TVT.2019.2905642}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-55', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/abstract/document/8668468" target="_blank">View</a>
+<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8668468" target="_blank">View</a>
 </div>
 </li>
 
@@ -1834,7 +1834,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 <li data-topics="mimo" data-year="2018">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong> and K. Lee,  
-"<a href="https://ieeexplore.ieee.org/abstract/document/8453856" target="_blank">Coverage and Cell-Edge Sum-Rate Analysis of MmWave Massive MIMO Systems with ORP Schemes and MMSE Receivers</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8453856" target="_blank">Coverage and Cell-Edge Sum-Rate Analysis of MmWave Massive MIMO Systems with ORP Schemes and MMSE Receivers</a>,"  
 <span><em>IEEE Transactions on Signal Processing</em></span>, vol. 66, no. 20, pp. 5349–5363, Oct. 2018.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/TSP.2018.2868287" target="_blank">10.1109/TSP.2018.2868287</a></span>
 </div>
@@ -1850,7 +1850,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
   publisher={IEEE},
   doi={10.1109/TSP.2018.2868287}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-56', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/abstract/document/8453856" target="_blank">View</a>
+<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8453856" target="_blank">View</a>
 </div>
 </li>
 
@@ -1858,7 +1858,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
 <li data-topics="mimo" data-year="2017">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong> and K. Lee,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7895219" target="_blank">Cell Coverage Extension with Orthogonal Random Precoding for Massive MIMO Systems</a>,"  
+"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7895219" target="_blank">Cell Coverage Extension with Orthogonal Random Precoding for Massive MIMO Systems</a>,"  
 <span><em>IEEE Access</em></span>, vol. 5, pp. 5410–5424, Apr. 2017.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ACCESS.2017.2693023" target="_blank">10.1109/ACCESS.2017.2693023</a></span>
 </div>
@@ -1873,7 +1873,7 @@ G. M. Gadiel, <strong>N. T. Nguyen</strong>, and K. Lee,
   publisher={IEEE},
   doi={10.1109/ACCESS.2017.2693023}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-57', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7895219" target="_blank">View</a>
+<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7895219" target="_blank">View</a>
 </div>
 </li>
 
@@ -2085,7 +2085,7 @@ K. Lin, H. Luo, <strong>N. T. Nguyen</strong>, and A. Alkhateeb,
 <li data-topics="isac ml" data-year="2026">
 <div class="pub-main">
 A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11586950" target="_blank">AoI-Aware Machine Learning for Constrained Multimodal Sensing-Aided Communications</a>,"  
+"<a href="https://arxiv.org/pdf/2511.01406" target="_blank">AoI-Aware Machine Learning for Constrained Multimodal Sensing-Aided Communications</a>,"  
 <span><em>IEEE International Conference on Communications (ICC)</em></span>, 2026.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICC59461.2026.11586950" target="_blank">10.1109/ICC59461.2026.11586950</a></span>
 </div>
@@ -2097,7 +2097,7 @@ A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
   year={2026},
   doi={10.1109/ICC59461.2026.11586950}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-69', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11586950" target="_blank">View</a>
+<a class="pub-view-btn" href="https://arxiv.org/pdf/2511.01406" target="_blank">View</a>
 </div>
 </li>
 
@@ -2105,7 +2105,7 @@ A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 <li data-topics="ml mimo" data-year="2026">
 <div class="pub-main">
 P. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11586919" target="_blank">Deep Reinforcement Learning-Based Dynamic Resource Allocation in Cell-Free Massive MIMO</a>,"  
+"<a href="https://arxiv.org/pdf/2601.13934" target="_blank">Deep Reinforcement Learning-Based Dynamic Resource Allocation in Cell-Free Massive MIMO</a>,"  
 <span><em>IEEE International Conference on Communications (ICC)</em></span>, 2026.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICC59461.2026.11586919" target="_blank">10.1109/ICC59461.2026.11586919</a></span>
 </div>
@@ -2117,7 +2117,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,
   year={2026},
   doi={10.1109/ICC59461.2026.11586919}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-70', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11586919" target="_blank">View</a>
+<a class="pub-view-btn" href="https://arxiv.org/pdf/2601.13934" target="_blank">View</a>
 </div>
 </li>
 
@@ -2125,7 +2125,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, H. Q. Ngo, and M. Juntti,
 <li data-topics="isac mimo" data-year="2026">
 <div class="pub-main">
 T. Fang, M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11464134" target="_blank">Tri-Hybrid Beamforming Design for Integrated Sensing and Communications</a>,"  
+"<a href="https://arxiv.org/pdf/2601.16036" target="_blank">Tri-Hybrid Beamforming Design for Integrated Sensing and Communications</a>,"  
 <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICASSP55912.2026.11464134" target="_blank">10.1109/ICASSP55912.2026.11464134</a></span>
 </div>
@@ -2137,7 +2137,7 @@ T. Fang, M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2026},
   doi={10.1109/ICASSP55912.2026.11464134}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-71', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11464134" target="_blank">View</a>
+<a class="pub-view-btn" href="https://arxiv.org/pdf/2601.16036" target="_blank">View</a>
 </div>
 </li>
 
@@ -2145,7 +2145,7 @@ T. Fang, M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="isac ml" data-year="2026">
 <div class="pub-main">
 A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11464189" target="_blank">Deep Reinforcement Learning for Dynamic Sensing and Communications</a>,"  
+"<a href="https://arxiv.org/pdf/2509.19130" target="_blank">Deep Reinforcement Learning for Dynamic Sensing and Communications</a>,"  
 <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICASSP55912.2026.11464189" target="_blank">10.1109/ICASSP55912.2026.11464189</a></span>
 </div>
@@ -2157,7 +2157,7 @@ A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
   year={2026},
   doi={10.1109/ICASSP55912.2026.11464189}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-72', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11464189" target="_blank">View</a>
+<a class="pub-view-btn" href="https://arxiv.org/pdf/2509.19130" target="_blank">View</a>
 </div>
 </li>
 
@@ -2165,7 +2165,7 @@ A. Zakeri, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 <li data-topics="ml mimo" data-year="2026">
 <div class="pub-main">
 S. Tavakolian, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11461506" target="_blank">Knowledge Distillation for mmWave Beam Prediction Using Sub-6 GHz Channels</a>,"  
+"<a href="https://arxiv.org/abs/2602.04703" target="_blank">Knowledge Distillation for mmWave Beam Prediction Using Sub-6 GHz Channels</a>,"  
 <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICASSP55912.2026.11461506" target="_blank">10.1109/ICASSP55912.2026.11461506</a></span>
 </div>
@@ -2177,7 +2177,7 @@ S. Tavakolian, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
   year={2026},
   doi={10.1109/ICASSP55912.2026.11461506}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-73', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11461506" target="_blank">View</a>
+<a class="pub-view-btn" href="https://arxiv.org/abs/2602.04703" target="_blank">View</a>
 </div>
 </li>
 
@@ -2185,7 +2185,7 @@ S. Tavakolian, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 <li data-topics="isac ml mimo" data-year="2026">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11461677" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
+"<a href="https://arxiv.org/pdf/2509.11725" target="_blank">Attention-Enhanced Learning for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications</a>,"  
 <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2026.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICASSP55912.2026.11461677" target="_blank">10.1109/ICASSP55912.2026.11461677</a></span>
 </div>
@@ -2199,7 +2199,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
   archivePrefix={arXiv},
   doi={10.1109/ICASSP55912.2026.11461677}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-74', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11461677" target="_blank">View</a>
+<a class="pub-view-btn" href="https://arxiv.org/pdf/2509.11725" target="_blank">View</a>
 </div>
 </li>
 
@@ -2207,7 +2207,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
 <li data-topics="isac ml mimo" data-year="2025">
 <div class="pub-main">
 G. Charan, <strong>N. T. Nguyen</strong>, and A. Alkhateeb,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11423956" target="_blank">Advancing Vision-Aided Beam Prediction: Knowledge Distillation Meets Active Learning</a>,"  
+"<a href="https://oulurepo.oulu.fi/handle/10024/61961" target="_blank">Advancing Vision-Aided Beam Prediction: Knowledge Distillation Meets Active Learning</a>,"  
 <span><em>IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP)</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/CAMSAP66162.2025.11423956" target="_blank">10.1109/CAMSAP66162.2025.11423956</a></span>
 </div>
@@ -2219,7 +2219,7 @@ G. Charan, <strong>N. T. Nguyen</strong>, and A. Alkhateeb,
   year={2025},
   doi={10.1109/CAMSAP66162.2025.11423956}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-75', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11423956" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/handle/10024/61961" target="_blank">View</a>
 </div>
 </li>
 
@@ -2227,7 +2227,7 @@ G. Charan, <strong>N. T. Nguyen</strong>, and A. Alkhateeb,
 <li data-topics="isac ris" data-year="2025">
 <div class="pub-main">
 H. T. Nguyen, T.-H. Nguyen, Vo N. Q. B., V.-D. Nguyen, and <strong>N. T. Nguyen</strong>,  
-"<a href="https://ieeexplore.ieee.org/abstract/document/11365077" target="_blank">Energy Efficiency Maximization for RIS-aided Integrated Sensing and Communication</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/64923/nbnfioulu-202604282831.pdf?sequence=1&isAllowed=y" target="_blank">Energy Efficiency Maximization for RIS-aided Integrated Sensing and Communication</a>,"  
 <span><em>RIVF International Conference on Computing and Communication Technologies</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/RIVF68649.2025.11365077" target="_blank">10.1109/RIVF68649.2025.11365077</a></span>
 </div>
@@ -2239,7 +2239,7 @@ H. T. Nguyen, T.-H. Nguyen, Vo N. Q. B., V.-D. Nguyen, and <strong>N. T. Nguyen<
   year={2025},
   doi={10.1109/RIVF68649.2025.11365077}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-76', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/abstract/document/11365077" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/64923/nbnfioulu-202604282831.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2247,7 +2247,7 @@ H. T. Nguyen, T.-H. Nguyen, Vo N. Q. B., V.-D. Nguyen, and <strong>N. T. Nguyen<
 <li data-topics="isac ris" data-year="2025">
 <div class="pub-main">
 H. T. Nguyen, <strong>N. T. Nguyen</strong>, Nguyen C. L., T.-H. Nguyen, and Vo N. Q. B.,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11231727" target="_blank">Max-Min Rate Optimization for Reconfigurable Intelligent Surfaces Aided ISAC Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/59312/nbnfioulu-202511206843.pdf?sequence=-1" target="_blank">Max-Min Rate Optimization for Reconfigurable Intelligent Surfaces Aided ISAC Systems</a>,"  
 <span><em>24th International Symposium on Communications and Information Technologies (ISCIT)</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ISCIT67082.2025.11231727" target="_blank">10.1109/ISCIT67082.2025.11231727</a></span>
 </div>
@@ -2259,7 +2259,7 @@ H. T. Nguyen, <strong>N. T. Nguyen</strong>, Nguyen C. L., T.-H. Nguyen, and Vo 
   year={2025},
   doi={10.1109/ISCIT67082.2025.11231727}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-77', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11231727" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/59312/nbnfioulu-202511206843.pdf?sequence=-1" target="_blank">View</a>
 </div>
 </li>
 
@@ -2267,7 +2267,7 @@ H. T. Nguyen, <strong>N. T. Nguyen</strong>, Nguyen C. L., T.-H. Nguyen, and Vo 
 <li data-topics="isac ml mimo" data-year="2025">
 <div class="pub-main">
 A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11431812" target="_blank">Constrained Multimodal Sensing-Aided Communications: A Dynamic Beamforming Design</a>,"  
+"<a href="https://oulurepo.oulu.fi/handle/10024/61504" target="_blank">Constrained Multimodal Sensing-Aided Communications: A Dynamic Beamforming Design</a>,"  
 <span><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/GLOBECOM59602.2025.11431812" target="_blank">10.1109/GLOBECOM59602.2025.11431812</a></span>
 </div>
@@ -2279,7 +2279,7 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
   year={2025},
   doi={10.1109/GLOBECOM59602.2025.11431812}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-78', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11431812" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/handle/10024/61504" target="_blank">View</a>
 </div>
 </li>
 
@@ -2287,7 +2287,7 @@ A. Zaker, <strong>N. T. Nguyen</strong>, A. Alkhateeb, and M. Juntti,
 <li data-topics="ml ris mimo" data-year="2025">
 <div class="pub-main">
 P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11443798" target="_blank">Deep Reinforcement Learning for Hybrid RIS Assisted MIMO Communications</a>,"  
+"<a href="https://arxiv.org/pdf/2601.18453" target="_blank">Deep Reinforcement Learning for Hybrid RIS Assisted MIMO Communications</a>,"  
 <span><em>Asilomar Conference on Signals, Systems, and Computers (ASILOMAR)</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/IEEECONF67917.2025.11443798" target="_blank">10.1109/IEEECONF67917.2025.11443798</a></span>
 </div>
@@ -2299,7 +2299,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2025},
   doi={10.1109/IEEECONF67917.2025.11443798}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-79', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11443798" target="_blank">View</a>
+<a class="pub-view-btn" href="https://arxiv.org/pdf/2601.18453" target="_blank">View</a>
 </div>
 </li>
 
@@ -2307,7 +2307,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="ris" data-year="2025">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong> and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/document/11361681" target="_blank">Hybrid RIS-aided Wireless Communications</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/61976/nbnfioulu-202604282827.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid RIS-aided Wireless Communications</a>,"  
 <span><em>International Symposium on Antennas and Propagation (ISAP)</em></span>, 2025 <span style="color:#dc2626; font-weight:700;">(Best Paper Award)</span>.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.23919/ISAP63122.2025.11361681" target="_blank">10.23919/ISAP63122.2025.11361681</a></span>
 </div>
@@ -2319,7 +2319,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2025},
   doi={10.23919/ISAP63122.2025.11361681}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-80', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/document/11361681" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/61976/nbnfioulu-202604282827.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2327,7 +2327,7 @@ P. Tran, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="isac ml mimo" data-year="2025">
 <div class="pub-main">
 A. Raza, <strong>NN. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/abstract/document/11143326" target="_blank">Deep Unfolding of Atomic Norm Minimization for DoA Estimation</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/61959/nbnfioulu-202604282809.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding of Atomic Norm Minimization for DoA Estimation</a>,"  
 <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/SPAWC66079.2025.11143326" target="_blank">10.1109/SPAWC66079.2025.11143326</a></span>
 </div>
@@ -2340,7 +2340,7 @@ A. Raza, <strong>NN. T. Nguyen</strong>, and M. Juntti,
   year={2025},
   doi={10.1109/SPAWC66079.2025.11143326}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-81', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/abstract/document/11143326" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/61959/nbnfioulu-202604282809.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2348,7 +2348,7 @@ A. Raza, <strong>NN. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="ris" data-year="2025">
 <div class="pub-main">
 S. Uniyal, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/document/11143254" target="_blank">Outage and Capacity Analysis of HRIS-Aided RSMA Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/61901/nbnfioulu-202604232750.pdf?sequence=1&isAllowed=y" target="_blank">Outage and Capacity Analysis of HRIS-Aided RSMA Systems</a>,"  
 <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/SPAWC66079.2025.11143254" target="_blank">10.1109/SPAWC66079.2025.11143254</a></span>
 </div>
@@ -2361,7 +2361,7 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2025},
   doi={10.1109/SPAWC66079.2025.11143254}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-82', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/document/11143254" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/61901/nbnfioulu-202604232750.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2369,7 +2369,7 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="isac ml mimo" data-year="2025">
 <div class="pub-main">
 S. Tavakolian, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10979188" target="_blank">Sparse Semantic Encoding for Reduced Data Load in Vision-Position Aided mmWave Beam Prediction</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58411/nbnfioulu-202509185933.pdf?sequence=1&isAllowed=y" target="_blank">Sparse Semantic Encoding for Reduced Data Load in Vision-Position Aided mmWave Beam Prediction</a>,"  
 <span><em>German Microwave Conference</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.23919/GEMIC64734.2025.10979188" target="_blank">10.23919/GEMIC64734.2025.10979188</a></span>
 </div>
@@ -2382,7 +2382,7 @@ S. Tavakolian, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2025},
   doi={10.23919/GEMIC64734.2025.10979188}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-83', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10979188" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/58411/nbnfioulu-202509185933.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2390,7 +2390,7 @@ S. Tavakolian, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="isac mimo" data-year="2025">
 <div class="pub-main">
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10978567" target="_blank">Energy Efficient Waveform Design and Subcarrier Allocation for Multicarrier MIMO JCAS</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/56813/nbnfioulu-202506064211.pdf?sequence=1&isAllowed=y" target="_blank">Energy Efficient Waveform Design and Subcarrier Allocation for Multicarrier MIMO JCAS</a>,"  
 <span><em>IEEE Wireless Communications and Networking Conference (WCNC)</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/WCNC61545.2025.10978567" target="_blank">10.1109/WCNC61545.2025.10978567</a></span>
 </div>
@@ -2403,7 +2403,7 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2025},
   doi={10.1109/WCNC61545.2025.10978567}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-84', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10978567" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/56813/nbnfioulu-202506064211.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2411,7 +2411,7 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="mimo" data-year="2025">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10978435" target="_blank">Hybrid Receiver Design for Massive MIMO-OFDM With Low-Resolution ADCs and Oversampling</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/56710/nbnfioulu-202506094216.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Receiver Design for Massive MIMO-OFDM With Low-Resolution ADCs and Oversampling</a>,"  
 <span><em>IEEE Wireless Communications and Networking Conference (WCNC)</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/WCNC61545.2025.10978435" target="_blank">10.1109/WCNC61545.2025.10978435</a></span>
 </div>
@@ -2424,7 +2424,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
   year={2025},
   doi={10.1109/WCNC61545.2025.10978435}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-85', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10978435" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/56710/nbnfioulu-202506094216.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2432,7 +2432,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 <li data-topics="isac ris mimo" data-year="2025">
 <div class="pub-main">
 S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10978368" target="_blank">Sum Rate and Cramér-Rao Lower Bound Analysis for RIS-Assisted Multiuser Large-Antenna ISAC</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58412/nbnfioulu-202509185934.pdf?sequence=1&isAllowed=y" target="_blank">Sum Rate and Cramér-Rao Lower Bound Analysis for RIS-Assisted Multiuser Large-Antenna ISAC</a>,"  
 <span><em>IEEE Wireless Communications and Networking Conference (WCNC)</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/WCNC61545.2025.10978368" target="_blank">10.1109/WCNC61545.2025.10978368</a></span>
 </div>
@@ -2445,7 +2445,7 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,
   year={2025},
   doi={10.1109/WCNC61545.2025.10978368}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-86', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10978368" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/58412/nbnfioulu-202509185934.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2453,7 +2453,7 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, M. D. Renzo, and M. Juntti,
 <li data-topics="isac ml mimo" data-year="2025">
 <div class="pub-main">
 M. Ma, T. Fang, N. Shlezinger, L. Swindlehurst, M. Juntti, and <strong>N. T. Nguyen</strong>,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10889425" target="_blank">Model-Based Machine Learning for Max-Min Fairness Beamforming Design in JCAS Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/54619/nbnfioulu-202501241331.pdf?sequence=1&isAllowed=y" target="_blank">Model-Based Machine Learning for Max-Min Fairness Beamforming Design in JCAS Systems</a>,"  
 <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICASSP49660.2025.10889425" target="_blank">10.1109/ICASSP49660.2025.10889425</a></span>
 </div>
@@ -2466,7 +2466,7 @@ M. Ma, T. Fang, N. Shlezinger, L. Swindlehurst, M. Juntti, and <strong>N. T. Ngu
   year={2025},
   doi={10.1109/ICASSP49660.2025.10889425}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-87', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10889425" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/54619/nbnfioulu-202501241331.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 <a class="pub-view-btn pub-code-btn" href="https://github.com/WillysMa/JCAS_BF_Design_MaxMin" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
@@ -2475,7 +2475,7 @@ M. Ma, T. Fang, N. Shlezinger, L. Swindlehurst, M. Juntti, and <strong>N. T. Ngu
 <li data-topics="isac" data-year="2025">
 <div class="pub-main">
 T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10888351" target="_blank">Low-Complexity Cramér–Rao Lower Bound and Sum Rate Optimization in ISAC Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/54613/nbnfioulu-202503192097.pdf?sequence=1&isAllowed=y" target="_blank">Low-Complexity Cramér–Rao Lower Bound and Sum Rate Optimization in ISAC Systems</a>,"  
 <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICASSP49660.2025.10888351" target="_blank">10.1109/ICASSP49660.2025.10888351</a></span>
 </div>
@@ -2488,7 +2488,7 @@ T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2025},
   doi={10.1109/ICASSP49660.2025.10888351}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-88', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10888351" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/54613/nbnfioulu-202503192097.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2496,7 +2496,7 @@ T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="isac ml ris" data-year="2025">
 <div class="pub-main">
 T. D. Phan, D. Q. Nguyen, N. Takanen, <strong>N. T. Nguyen</strong>, M. Juntti, and P. J. Soh,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10999385" target="_blank">ML-Assisted RIS for ISAC Systems: Initial Results in the 6G Study Band</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/56987/nbnfioulu-202506164496.pdf?sequence=1&isAllowed=y" target="_blank">ML-Assisted RIS for ISAC Systems: Initial Results in the 6G Study Band</a>,"  
 <span><em>European Conference on Antennas and Propagation (EuCAP)</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.23919/EUCAP63536.2025.10999385" target="_blank">10.23919/EUCAP63536.2025.10999385</a></span>
 </div>
@@ -2509,7 +2509,7 @@ T. D. Phan, D. Q. Nguyen, N. Takanen, <strong>N. T. Nguyen</strong>, M. Juntti, 
   year={2025},
   doi={10.23919/EUCAP63536.2025.10999385}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-89', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10999385" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/56987/nbnfioulu-202506164496.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2517,7 +2517,7 @@ T. D. Phan, D. Q. Nguyen, N. Takanen, <strong>N. T. Nguyen</strong>, M. Juntti, 
 <li data-topics="isac ml mimo" data-year="2025">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10880627" target="_blank">Deep Unfolding-Empowered MmWave Massive MIMO Joint Communications and Sensing</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58413/nbnfioulu-202509185938.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding-Empowered MmWave Massive MIMO Joint Communications and Sensing</a>,"  
 <span><em>IEEE Joint Communications and Sensing Symposium (JC&S)</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/JCS64661.2025.10880627" target="_blank">10.1109/JCS64661.2025.10880627</a></span>
 </div>
@@ -2530,7 +2530,7 @@ T. D. Phan, D. Q. Nguyen, N. Takanen, <strong>N. T. Nguyen</strong>, M. Juntti, 
   year={2025},
   doi={10.1109/JCS64661.2025.10880627}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-90', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10880627" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/58413/nbnfioulu-202509185938.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2538,7 +2538,7 @@ T. D. Phan, D. Q. Nguyen, N. Takanen, <strong>N. T. Nguyen</strong>, M. Juntti, 
 <li data-topics="isac mimo" data-year="2025">
 <div class="pub-main">
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/document/10880646" target="_blank">Joint Waveform Design and Sub-Carrier Allocation for Multiuser MIMO ISAC</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58452/nbnfioulu-202509225977.pdf?sequence=1&isAllowed=y" target="_blank">Joint Waveform Design and Sub-Carrier Allocation for Multiuser MIMO ISAC</a>,"  
 <span><em>IEEE Joint Communications and Sensing Symposium (JC&S)</em></span>, 2025.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/JCS64661.2025.10880646" target="_blank">10.1109/JCS64661.2025.10880646</a></span>
 </div>
@@ -2552,7 +2552,7 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
   number={},
   pages={1-6},
   doi={10.1109/JCS64661.2025.10880646}</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-91', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/document/10880646" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/58452/nbnfioulu-202509225977.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2581,7 +2581,7 @@ P. Mobaraki, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="ris" data-year="2024">
 <div class="pub-main">
 S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10901541" target="_blank">Outage Probability and Capacity Analysis of Active RIS-Assisted UAV RSMA Communications</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58414/nbnfioulu-202509185937.pdf?sequence=1&isAllowed=y" target="_blank">Outage Probability and Capacity Analysis of Active RIS-Assisted UAV RSMA Communications</a>,"  
 <span><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2024.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/GLOBECOM52923.2024.10901541" target="_blank">10.1109/GLOBECOM52923.2024.10901541</a></span>
 </div>
@@ -2594,7 +2594,7 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, and M. Juntti,
   year={2024},
   doi={10.1109/GLOBECOM52923.2024.10901541}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-93', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10901541" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/58414/nbnfioulu-202509185937.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2602,7 +2602,7 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, and M. Juntti,
 <li data-topics="isac mimo" data-year="2024">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, T. Fang, H. Q. Ngo, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10942860" target="_blank">Multi-static Cell-Free Massive MIMO ISAC: Performance Analysis and Power Allocation</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/58410/nbnfioulu-202509185935.pdf?sequence=1&isAllowed=y" target="_blank">Multi-static Cell-Free Massive MIMO ISAC: Performance Analysis and Power Allocation</a>,"  
 <span><em>Asilomar Conference on Signals, Systems, and Computers (ASILOMAR)</em></span>, 2024.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/IEEECONF60004.2024.10942860" target="_blank">10.1109/IEEECONF60004.2024.10942860</a></span>
 </div>
@@ -2615,7 +2615,7 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, and M. Juntti,
   year={2024},
   doi={10.1109/IEEECONF60004.2024.10942860}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-94', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10942860" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/58410/nbnfioulu-202509185935.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2623,7 +2623,7 @@ S. Uniyal, <strong>N. T. Nguyen</strong>, G. Kumar, and M. Juntti,
 <li data-topics="isac mimo" data-year="2024">
 <div class="pub-main">
 T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10694453" target="_blank">Beamforming Design for Max-Min Fairness Performance Balancing in ISAC Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53076/nbnfioulu-202412097104.pdf?sequence=1&isAllowed=y" target="_blank">Beamforming Design for Max-Min Fairness Performance Balancing in ISAC Systems</a>,"  
 <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sept. 2024, Lucca, Italy.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/SPAWC60668.2024.10694453" target="_blank">10.1109/SPAWC60668.2024.10694453</a></span>
 </div>
@@ -2636,7 +2636,7 @@ T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2024},
   doi={10.1109/SPAWC60668.2024.10694453}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-95', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10694453" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/53076/nbnfioulu-202412097104.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2644,7 +2644,7 @@ T. Fang, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="isac mimo" data-year="2024">
 <div class="pub-main">
 M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10694180" target="_blank">Waveform Design for Multi-Carrier Multiuser MIMO Joint Communications and Sensing</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/52351/nbnfioulu-202410186389.pdf?sequence=1&isAllowed=y" target="_blank">Waveform Design for Multi-Carrier Multiuser MIMO Joint Communications and Sensing</a>,"  
 <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sept. 2024, Lucca, Italy.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/SPAWC60668.2024.10694180" target="_blank">10.1109/SPAWC60668.2024.10694180</a></span>
 </div>
@@ -2657,7 +2657,7 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2024},
   doi={10.1109/SPAWC60668.2024.10694180}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-96', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10694180" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/52351/nbnfioulu-202410186389.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2665,7 +2665,7 @@ M. Hatami, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="isac ml" data-year="2024">
 <div class="pub-main">
 T. D. Gian, T.-H. Nguyen, <strong>N. T. Nguyen</strong>, and V.-D. Nguyen,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10634628" target="_blank">WiLHPE: WiFi-enabled Lightweight Channel Frequency Dynamic Convolution for HPE Tasks</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53074/nbnfioulu-202412097102.pdf?sequence=1&isAllowed=y" target="_blank">WiLHPE: WiFi-enabled Lightweight Channel Frequency Dynamic Convolution for HPE Tasks</a>,"  
 <span><em>IEEE International Conference on Communications and Electronics (ICCE)</em></span>, Aug. 2024, Da Nang City, Vietnam.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICCE62051.2024.10634628" target="_blank">10.1109/ICCE62051.2024.10634628</a></span>
 </div>
@@ -2678,7 +2678,7 @@ T. D. Gian, T.-H. Nguyen, <strong>N. T. Nguyen</strong>, and V.-D. Nguyen,
   year={2024},
   doi={10.1109/ICCE62051.2024.10634628}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-97', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10634628" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/53074/nbnfioulu-202412097102.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2686,7 +2686,7 @@ T. D. Gian, T.-H. Nguyen, <strong>N. T. Nguyen</strong>, and V.-D. Nguyen,
 <li data-topics="ml mimo" data-year="2024">
 <div class="pub-main">
 I. Bilbao, <strong>N. T. Nguyen</strong>, D. P. Moya Osorio, V. Tapio, M. Juntti, E. Iradier, J. Montalbán, and P. Angueira,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10621251" target="_blank">Physical layer security beamforming design via deep unfolding</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53075/nbnfioulu-202412097103.pdf?sequence=1&isAllowed=y" target="_blank">Physical layer security beamforming design via deep unfolding</a>,"  
 <span><em>IEEE International Mediterranean Conference on Communications and Networking (MEDITCOM)</em></span>, July 2024, Madrid, Spain.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/MeditCom61057.2024.10621251" target="_blank">10.1109/MeditCom61057.2024.10621251</a></span>
 </div>
@@ -2699,7 +2699,7 @@ I. Bilbao, <strong>N. T. Nguyen</strong>, D. P. Moya Osorio, V. Tapio, M. Juntti
   year={2024},
   doi={10.1109/MeditCom61057.2024.10621251}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-98', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10621251" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/53075/nbnfioulu-202412097103.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2707,7 +2707,7 @@ I. Bilbao, <strong>N. T. Nguyen</strong>, D. P. Moya Osorio, V. Tapio, M. Juntti
 <li data-topics="isac mimo" data-year="2024">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10549340" target="_blank">Massive MIMO Joint Communications and Sensing with MRT Beamforming</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/51885/nbnfioulu-202409175895.pdf?sequence=1&isAllowed=y" target="_blank">Massive MIMO Joint Communications and Sensing with MRT Beamforming</a>,"  
 <span><em>IEEE Radar Conference (RadarConf24)</em></span>, 2024, Denver, CO, USA.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/RadarConf2458775.2024.10549340" target="_blank">10.1109/RadarConf2458775.2024.10549340</a></span>
 </div>
@@ -2720,7 +2720,7 @@ I. Bilbao, <strong>N. T. Nguyen</strong>, D. P. Moya Osorio, V. Tapio, M. Juntti
   year={2024},
   doi={10.1109/RadarConf2458775.2024.10549340}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-99', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10549340" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/51885/nbnfioulu-202409175895.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2728,7 +2728,7 @@ I. Bilbao, <strong>N. T. Nguyen</strong>, D. P. Moya Osorio, V. Tapio, M. Juntti
 <li data-topics="isac ml mimo" data-year="2024">
 <div class="pub-main">
 P. Krishnananthalingam, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10571059" target="_blank">Constant Modulus Waveform Design for Wideband Multicarrier Joint Communications and Sensing via Deep Unfolding</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/53799/nbnfioulu-202501221287.pdf?sequence=1&isAllowed=y" target="_blank">Constant Modulus Waveform Design for Wideband Multicarrier Joint Communications and Sensing via Deep Unfolding</a>,"  
 <span><em>IEEE Wireless Communications and Networking Conference (WCNC)</em></span>, 2024.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/WCNC57260.2024.10571059" target="_blank">10.1109/WCNC57260.2024.10571059</a></span>
 </div>
@@ -2741,7 +2741,7 @@ P. Krishnananthalingam, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2024},
   doi={10.1109/WCNC57260.2024.10571059}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-100', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10571059" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/53799/nbnfioulu-202501221287.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2749,7 +2749,7 @@ P. Krishnananthalingam, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="ml" data-year="2023">
 <div class="pub-main">
 V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, Nguyen C. L., Dinh T. H., D. N. Nguyen, and S. Chatzinotas,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10437249" target="_blank">Enabling Intelligent Traffic Steering in A Hierarchical Open Radio Access Network</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/48394/nbnfioulu-202403202353.pdf?sequence=1&isAllowed=y" target="_blank">Enabling Intelligent Traffic Steering in A Hierarchical Open Radio Access Network</a>,"  
 <span><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, 2023, Kuala Lumpur, Malaysia.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/GLOBECOM54140.2023.10437249" target="_blank">10.1109/GLOBECOM54140.2023.10437249</a></span>
 </div>
@@ -2762,7 +2762,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
   year={2023},
   doi={10.1109/GLOBECOM54140.2023.10437249}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-101', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10437249" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/48394/nbnfioulu-202403202353.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2770,7 +2770,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 <li data-topics="ml mimo" data-year="2023">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10476967" target="_blank">Fast Deep Unfolded Hybrid Beamforming in Multiuser Large MIMO Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/51884/nbnfioulu-202409175894.pdf?sequence=1&isAllowed=y" target="_blank">Fast Deep Unfolded Hybrid Beamforming in Multiuser Large MIMO Systems</a>,"  
 <span><em>Asilomar Conference on Signals, Systems, and Computers (ASILOMAR)</em></span>, 2023, Pacific Grove, CA, USA. (accepted)
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/IEEECONF59524.2023.10476967" target="_blank">10.1109/IEEECONF59524.2023.10476967</a></span>
 </div>
@@ -2783,7 +2783,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
   year={2023},
   doi={10.1109/IEEECONF59524.2023.10476967}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-102', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10476967" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/51884/nbnfioulu-202409175894.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2791,7 +2791,7 @@ V.-D. Nguyen, T. X. Vu, <strong>N. T. Nguyen</strong>, D. C. Nguyen, M. Juntti, 
 <li data-topics="mimo" data-year="2023">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10304436" target="_blank">Analysis of Oversampling in Uplink Massive MIMO-OFDM with Low-Resolution ADCs</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/43260/nbnfioulu-202311243336.pdf?sequence=1&isAllowed=y" target="_blank">Analysis of Oversampling in Uplink Massive MIMO-OFDM with Low-Resolution ADCs</a>,"  
 <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sept. 2023, Shanghai, China. <span style="color:#dc2626; font-weight:700;">(Best Student Paper Award)</span>
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/SPAWC53906.2023.10304436" target="_blank">10.1109/SPAWC53906.2023.10304436</a></span>
 </div>
@@ -2804,7 +2804,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
   year={2023},
   doi={10.1109/SPAWC53906.2023.10304436}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-103', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10304436" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/43260/nbnfioulu-202311243336.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2812,7 +2812,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 <li data-topics="isac mimo" data-year="2023">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, N. Shlezinger, K.-H. Ngo, V.-D. Nguyen, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10207952" target="_blank">Joint communications and sensing design for multi-carrier MIMO systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44654/nbnfi-fe20231030141814.pdf?sequence=1&isAllowed=y" target="_blank">Joint communications and sensing design for multi-carrier MIMO systems</a>,"  
 <span><em>IEEE Statistical Signal Processing Workshop (SSP)</em></span>, July 2023, Hanoi, Vietnam. <span style="color:#dc2626; font-weight:700;">(Best Paper Award)</span>
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/SSP53291.2023.10207952" target="_blank">10.1109/SSP53291.2023.10207952</a></span>
 </div>
@@ -2825,7 +2825,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
   year={2023},
   doi={10.1109/SSP53291.2023.10207952}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-104', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10207952" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/44654/nbnfi-fe20231030141814.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 <a class="pub-view-btn pub-code-btn" href="https://github.com/nhanng9115/Joint-Communications-and-Sensing-Design-for-Multi-Carrier-MIMO-Systems" target="_blank" rel="noopener">Code</a>
 </div>
 </li>
@@ -2834,7 +2834,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 <li data-topics="ml mimo" data-year="2023">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, M. Ma, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10096658" target="_blank">Deep unfolding-enabled hybrid beamforming design for mmWave massive MIMO systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44290/nbnfi-fe20230823103204.pdf?sequence=1&isAllowed=y" target="_blank">Deep unfolding-enabled hybrid beamforming design for mmWave massive MIMO systems</a>,"  
 <span><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em></span>, June 2023, Rhodes Island, Greece.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICASSP49357.2023.10096658" target="_blank">10.1109/ICASSP49357.2023.10096658</a></span>
 </div>
@@ -2847,7 +2847,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
   year={2023},
   doi={10.1109/ICASSP49357.2023.10096658}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-105', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10096658" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/44290/nbnfi-fe20230823103204.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2855,7 +2855,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
 <li data-topics="mimo" data-year="2023">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10279725" target="_blank">Beam Squint Analysis and Mitigation via Hybrid Beamforming Design in THz Communications</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/47366/nbnfioulu-202401191355.pdf?sequence=1&isAllowed=y" target="_blank">Beam Squint Analysis and Mitigation via Hybrid Beamforming Design in THz Communications</a>,"  
 <span><em>IEEE International Conference on Communications (ICC)</em></span>, May 2023, Rome, Italy.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICC45041.2023.10279725" target="_blank">10.1109/ICC45041.2023.10279725</a></span>
 </div>
@@ -2868,7 +2868,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2023},
   doi={10.1109/ICC45041.2023.10279725}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-106', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10279725" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/47366/nbnfioulu-202401191355.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2876,7 +2876,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="mimo" data-year="2022">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, J. Kokkoniemi, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10008487" target="_blank">Beam Squint Effects in THz Communications with UPA and ULA: Comparison and Hybrid Beamforming Design</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44965/nbnfi-fe2023021627492.pdf?sequence=1&isAllowed=y" target="_blank">Beam Squint Effects in THz Communications with UPA and ULA: Comparison and Hybrid Beamforming Design</a>,"  
 <span><em>IEEE Global Communications Conference (GLOBECOM) Workshop</em></span>, Dec. 2022, Rio de Janeiro, Brazil.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/GCWkshps56602.2022.10008487" target="_blank">10.1109/GCWkshps56602.2022.10008487</a></span>
 </div>
@@ -2889,7 +2889,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2022},
   doi={10.1109/GCWkshps56602.2022.10008487}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-107', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10008487" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/44965/nbnfi-fe2023021627492.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2897,7 +2897,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="ris" data-year="2022">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, Q. Wu, A. Tolli, S. Chatzinotas, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10001719" target="_blank">Hybrid Active-Passive Reconfigurable Intelligent Surface-Assisted UAV Communications</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/43582/nbnfi-fe2023032332879.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Active-Passive Reconfigurable Intelligent Surface-Assisted UAV Communications</a>,"  
 <span><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, Dec. 2022, Rio de Janeiro, Brazil.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/GLOBECOM48099.2022.10001719" target="_blank">10.1109/GLOBECOM48099.2022.10001719</a></span>
 </div>
@@ -2910,7 +2910,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2022},
   doi={10.1109/GLOBECOM48099.2022.10001719}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-108', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10001719" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/43582/nbnfi-fe2023032332879.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2918,7 +2918,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="ris mimo" data-year="2022">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, Q. Wu, A. Tolli, S. Chatzinotas, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9833956" target="_blank">Hybrid Active-Passive Reconfigurable Intelligent Surface-Assisted Multi-User MISO Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44165/nbnfi-fe202301091855.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid Active-Passive Reconfigurable Intelligent Surface-Assisted Multi-User MISO Systems</a>,"  
 <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, July 2022, Oulu, Finland.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/SPAWC51304.2022.9833956" target="_blank">10.1109/SPAWC51304.2022.9833956</a></span>
 </div>
@@ -2931,7 +2931,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2022},
   doi={10.1109/SPAWC51304.2022.9833956}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-109', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9833956" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/44165/nbnfi-fe202301091855.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2939,7 +2939,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="ris mimo" data-year="2022">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, S. Chatzinotas, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9838672" target="_blank">Downlink Throughput of Cell-Free Massive MIMO Systems Assisted by Hybrid Relay-Reflecting Intelligent Surfaces</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44153/nbnfi-fe202301091846.pdf?sequence=1&isAllowed=y" target="_blank">Downlink Throughput of Cell-Free Massive MIMO Systems Assisted by Hybrid Relay-Reflecting Intelligent Surfaces</a>,"  
 <span><em>IEEE International Conference on Communications (ICC)</em></span>, May 2022, Seoul, South Korea.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICC45855.2022.9838672" target="_blank">10.1109/ICC45855.2022.9838672</a></span>
 </div>
@@ -2952,7 +2952,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
   organization={Institute of Electrical and Electronics Engineers},
   doi={10.1109/ICC45855.2022.9838672}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-110', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9838672" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/44153/nbnfi-fe202301091846.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2960,7 +2960,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="ris mimo" data-year="2022">
 <div class="pub-main">
 E. Egashira, D. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9860450" target="_blank">Secrecy Capacity Maximization for a Hybrid Relay-RIS Scheme in mmWave MIMO Networks</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/33525/nbnfi-fe2022091258396.pdf?sequence=1&isAllowed=y" target="_blank">Secrecy Capacity Maximization for a Hybrid Relay-RIS Scheme in mmWave MIMO Networks</a>,"  
 <span><em>IEEE Vehicular Technology Conference (VTC Spring)</em></span>, June 2022, Helsinki, Finland.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/VTC2022-Spring54318.2022.9860450" target="_blank">10.1109/VTC2022-Spring54318.2022.9860450</a></span>
 </div>
@@ -2973,7 +2973,7 @@ E. Egashira, D. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2022},
   doi={10.1109/VTC2022-Spring54318.2022.9860450}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-111', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9860450" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/33525/nbnfi-fe2022091258396.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -2981,7 +2981,7 @@ E. Egashira, D. Osorio, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="isac ml" data-year="2021">
 <div class="pub-main">
 T. H.-The, Q.-V. Pham, T.-V. Nguyen, V.-S. Doan, <strong>N. T. Nguyen</strong>, D. B. d. Costa, and D.-S. Kim,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9685642" target="_blank">Densely-Accumulated Convolutional Network for Accurate LPI Radar Waveform Recognition</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/34153/nbnfi-fe202201031020.pdf?sequence=1&isAllowed=y" target="_blank">Densely-Accumulated Convolutional Network for Accurate LPI Radar Waveform Recognition</a>,"  
 <span><em>IEEE Global Communications Conference (GLOBECOM)</em></span>, Dec. 2021, Madrid, Spain.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/GLOBECOM46510.2021.9685642" target="_blank">10.1109/GLOBECOM46510.2021.9685642</a></span>
 </div>
@@ -2994,7 +2994,7 @@ T. H.-The, Q.-V. Pham, T.-V. Nguyen, V.-S. Doan, <strong>N. T. Nguyen</strong>, 
   year={2021},
   doi={10.1109/GLOBECOM46510.2021.9685642}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-112', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9685642" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/34153/nbnfi-fe202201031020.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -3022,7 +3022,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="mimo" data-year="2021">
 <div class="pub-main">
 M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9625163" target="_blank">Closed-Form Hybrid Beamforming Solution for Spectral Efficiency Upper Bound Maximization in MmWave MIMO-OFDM Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/43618/nbnfi-fe2023032332868.pdf?sequence=1&isAllowed=y" target="_blank">Closed-Form Hybrid Beamforming Solution for Spectral Efficiency Upper Bound Maximization in MmWave MIMO-OFDM Systems</a>,"  
 <span><em>IEEE Vehicular Technology Conference (VTC Fall)</em></span>, Sept. 2021, Norman, OK, USA.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/VTC2021-Fall52928.2021.9625163" target="_blank">10.1109/VTC2021-Fall52928.2021.9625163</a></span>
 </div>
@@ -3035,7 +3035,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
   year={2021},
   doi={10.1109/VTC2021-Fall52928.2021.9625163}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-114', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9625163" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/43618/nbnfi-fe2023032332868.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -3043,7 +3043,7 @@ M. Ma, <strong>N. T. Nguyen</strong>, and M. Juntti,
 <li data-topics="ris" data-year="2021">
 <div class="pub-main">
 K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9598322" target="_blank">Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/44157/nbnfi-fe202301091858.pdf?sequence=1&isAllowed=y" target="_blank">Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface</a>,"  
 <span><em>International Conference on Advanced Technologies for Communications (ATC)</em></span>, Oct. 2021, Hanoi, Vietnam. <span style="color:#dc2626; font-weight:700;">(Best Paper Award)</span>
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ATC52653.2021.9598322" target="_blank">10.1109/ATC52653.2021.9598322</a></span>
 </div>
@@ -3056,7 +3056,7 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
   year={2021},
   doi={10.1109/ATC52653.2021.9598322}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-115', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9598322" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/44157/nbnfi-fe202301091858.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -3064,7 +3064,7 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 <li data-topics="ml ris mimo" data-year="2021">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, L. V. Nguyen, T. Huynh-T., D. H. N. Nguyen, A. L. Swindlehurst, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9593256" target="_blank">Machine Learning-based Reconfigurable Intelligent Surface-aided MIMO Systems</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/45210/nbnfi-fe2023040434974.pdf?sequence=1&isAllowed=y" target="_blank">Machine Learning-based Reconfigurable Intelligent Surface-aided MIMO Systems</a>,"  
 <span><em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em></span>, Sept. 2021, Lucca, Italy.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/SPAWC51858.2021.9593256" target="_blank">10.1109/SPAWC51858.2021.9593256</a></span>
 </div>
@@ -3077,7 +3077,7 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
   year={2021},
   doi={10.1109/SPAWC51858.2021.9593256}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-116', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9593256" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/45210/nbnfi-fe2023040434974.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -3085,7 +3085,7 @@ K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti
 <li data-topics="ris mimo" data-year="2021">
 <div class="pub-main">
 J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9482600" target="_blank">Channel Estimation and Hybrid Architectures for RIS-Assisted Communications</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/30719/nbnfi-fe2021100149102.pdf?sequence=1&isAllowed=y" target="_blank">Channel Estimation and Hybrid Architectures for RIS-Assisted Communications</a>,"  
 <span><em>EuCNC & 6G Summit</em></span>, June 2021, Grenoble, France.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/EuCNC/6GSummit51104.2021.9482600" target="_blank">10.1109/EuCNC/6GSummit51104.2021.9482600</a></span>
 </div>
@@ -3098,7 +3098,7 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
   year={2021},
   doi={10.1109/EuCNC/6GSummit51104.2021.9482600}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-117', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9482600" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/30719/nbnfi-fe2021100149102.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
@@ -3106,7 +3106,7 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
 <li data-topics="ris" data-year="2021">
 <div class="pub-main">
 <strong>N. T. Nguyen</strong>, Q.-D. Vu, K. Lee, and M. Juntti,  
-"<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9473487" target="_blank">Spectral Efficiency Optimization for Hybrid Relay-Reflecting Intelligent Surface</a>,"  
+"<a href="https://oulurepo.oulu.fi/bitstream/handle/10024/32680/nbnfi-fe2022032124246.pdf?sequence=1&isAllowed=y" target="_blank">Spectral Efficiency Optimization for Hybrid Relay-Reflecting Intelligent Surface</a>,"  
 <span><em>IEEE International Conference on Communications (ICC) Workshop</em></span>, June 2021, Montreal, Canada.
 <span class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICCWorkshops50388.2021.9473487" target="_blank">10.1109/ICCWorkshops50388.2021.9473487</a></span>
 </div>
@@ -3119,7 +3119,7 @@ J. He, <strong>N. T. Nguyen</strong>, R. Schroeder, Visa Tapio, J. Kokkoniemi, a
   year={2021},
   doi={10.1109/ICCWorkshops50388.2021.9473487}
 }</code></pre><button style="position:absolute; top:6px; right:6px; border:1px solid #94A3B8; background:#F1F5F9; border-radius:8px; padding:2px 8px; font-size:12px; cursor:pointer;" onclick="copyBib('bib-118', this); return false;">Copy</button></div></details>
-<a class="pub-view-btn" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9473487" target="_blank">View</a>
+<a class="pub-view-btn" href="https://oulurepo.oulu.fi/bitstream/handle/10024/32680/nbnfi-fe2022032124246.pdf?sequence=1&isAllowed=y" target="_blank">View</a>
 </div>
 </li>
 
