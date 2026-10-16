@@ -17,7 +17,7 @@ hr.section-divider{
 </style>
 
 ## Hello, I’m Nhan — welcome to my page. ![Visits](https://hits.sh/nhanng9115.github.io/homepage.svg?style=flat-square&label=visits)
-I’m an **Assistant Professor** and **Academy Research Fellow** at Centre for Wireless Communications (CWC), University of Oulu (UOulu), Finland.
+I’m an <strong class="hl">Assistant Professor</strong> and <strong class="hl">Academy Research Fellow</strong> at Centre for Wireless Communications (CWC), University of Oulu (UOulu), Finland.
 My research combines rigorous signal processing and machine learning to solve core problems in wireless communications and sensing.
 
 <hr class="section-divider">
@@ -27,7 +27,7 @@ My research combines rigorous signal processing and machine learning to solve co
 <div class="site-card" markdown="1">
 I received my B.S. in Electronics & Communications Engineering from Hanoi University of Science and Technology (HUST), Vietnam (2014), and my M.S./Ph.D. from Seoul National University of Science and Technology (SeoulTech), South Korea (2017/2020).
 
-I joined UOulu as a Postdoctoral Researcher in 2020, was conferred the <strong style="color:var(--site-warm);">Title of Docent</strong> and awarded the prestigious <strong style="color:var(--site-warm);">Academy Research Fellowship</strong> in 2023, and was promoted to Assistant Professor (tenure track) in 2024.
+I joined UOulu as a Postdoctoral Researcher in 2020, was conferred the <strong style="color:var(--site-warm);">Title of Docent</strong> and awarded the prestigious <strong style="color:var(--site-warm);">Academy Research Fellowship</strong> in 2023, and was promoted to <strong class="hl">Assistant Professor (tenure track)</strong> in 2024.
 
 I have also been a Visiting Scholar at North Carolina State University, USA (2019–2020), Weizmann Institute of Science and Ben-Gurion University of the Negev, Israel (2022), and University of California, Irvine (UCI), USA (2023).
 
@@ -44,56 +44,56 @@ I have also been a Visiting Scholar at North Carolina State University, USA (201
 
 <div class="site-card" markdown="1">
 <strong>N. T. Nguyen</strong>, V.-D. Nguyen, H. V. Nguyen, H. Q. Ngo, A. L. Swindlehurst, and M. Juntti,
-"<a class="hl-paper" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10938928"</a>,"
+"<a class="hl-paper" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10938928" target="_blank">Performance Analysis and Power Allocation for Massive MIMO ISAC</a>,"
 <em>IEEE Transactions on Signal Processing</em>, vol. 73, pp. 1691–1707, Mar. 2025.
 <br><span class="site-badge-award">Top reading in IEEE TSP since publication</span>
 </div>
 
 <div class="site-card" markdown="1">
 <strong>N. T. Nguyen</strong>, L. V. Nguyen, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,
-"<a class="hl-paper" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10684532"</a>,"
+"<a class="hl-paper" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10684532" target="_blank">Joint Communications and Sensing Hybrid Beamforming Design via Deep Unfolding</a>,"
 <em>IEEE Journal of Selected Topics in Signal Processing</em>, vol. 18, no. 5, pp. 901–916, Jul. 2024.
 <br><span class="site-badge-award">Top reading in IEEE TSP and IEEE SPS Top-25 downloads (2024–2025)</span>
 </div>
 
 <div class="site-card" markdown="1">
 <strong>N. T. Nguyen</strong>, M. Ma, O. Lavi, N. Shlezinger, Y. C. Eldar, A. L. Swindlehurst, and M. Juntti,
-"<a class="hl-paper" href="https://oulurepo.oulu.fi/bitstream/handle/10024/47431/nbnfioulu-202401231426.pdf?sequence=1&isAllowed=y"</a>,"
+"<a class="hl-paper" href="https://oulurepo.oulu.fi/bitstream/handle/10024/47431/nbnfioulu-202401231426.pdf?sequence=1&isAllowed=y" target="_blank">Deep Unfolding Hybrid Beamforming Design for THz Massive MIMO Systems</a>,"
 <em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 3788–3804, Oct. 2023.
 <br><span class="site-badge-award">Top reading in IEEE TSP (2023–2024)</span>
 </div>
 
 <div class="site-card" markdown="1">
 <strong>N. T. Nguyen</strong>, N. Shlezinger, Y. C. Eldar, and M. Juntti,
-"<a class="hl-paper" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10214237"</a>,"
+"<a class="hl-paper" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10214237" target="_blank">Multiuser MIMO Wideband Joint Communications and Sensing System with Subcarrier Allocation</a>,"
 <em>IEEE Transactions on Signal Processing</em>, vol. 71, pp. 2997–3013, Aug. 2023.
 <br><span class="site-badge-award">Top reading in IEEE TSP and IEEE SPS Top-25 downloads (2023–2024)</span>
 </div>
 
 <div class="site-card" markdown="1">
 <strong>N. T. Nguyen</strong> and M. Juntti,
-<span class="site-paper-title">"<a class="hl-paper" href="https://oulurepo.oulu.fi/bitstream/handle/10024/61976/nbnfioulu-202604282827.pdf?sequence=1&isAllowed=y"</a>,"</span>
+<span class="site-paper-title">"<a class="hl-paper" href="https://oulurepo.oulu.fi/bitstream/handle/10024/61976/nbnfioulu-202604282827.pdf?sequence=1&isAllowed=y" target="_blank">Hybrid RIS-aided Wireless Communications</a>,"</span>
 <em>International Symposium on Antennas and Propagation (ISAP)</em>, Nov. 2025.
 <br><span class="site-badge-award">Best Paper Award</span>
 </div>
 
 <div class="site-card" markdown="1">
 M. Ma, <strong>N. T. Nguyen</strong>, I. Atzeni, and M. Juntti,
-"<a class="hl-paper" href="https://oulurepo.oulu.fi/bitstream/handle/10024/43260/nbnfioulu-202311243336.pdf?sequence=1&isAllowed=y"</a>,"
+"<a class="hl-paper" href="https://oulurepo.oulu.fi/bitstream/handle/10024/43260/nbnfioulu-202311243336.pdf?sequence=1&isAllowed=y" target="_blank">Analysis of Oversampling in Uplink Massive MIMO-OFDM with Low-Resolution ADCs</a>,"
 <em>IEEE Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em>, Sep. 2023.
 <br><span class="site-badge-award">Best Student Paper Award</span>
 </div>
 
 <div class="site-card" markdown="1">
 <strong>N. T. Nguyen</strong>, N. Shlezinger, K.-H. Ngo, V.-D. Nguyen, and M. Juntti,
-"<a class="hl-paper" href="https://oulurepo.oulu.fi/bitstream/handle/10024/44654/nbnfi-fe20231030141814.pdf?sequence=1&isAllowed=y"</a>,"
+"<a class="hl-paper" href="https://oulurepo.oulu.fi/bitstream/handle/10024/44654/nbnfi-fe20231030141814.pdf?sequence=1&isAllowed=y" target="_blank">Joint communications and sensing design for multi-carrier MIMO systems</a>,"
 <em>IEEE Statistical Signal Processing Workshop (SSP)</em>, July 2023.
 <br><span class="site-badge-award">Best Paper Award</span>
 </div>
 
 <div class="site-card" markdown="1">
 K.-H. Ngo, <strong>N. T. Nguyen</strong>, T. Q. Dinh, T.-M. Hoang, and M. Juntti,
-"<a class="hl-paper" href="https://oulurepo.oulu.fi/bitstream/handle/10024/44157/nbnfi-fe202301091858.pdf?sequence=1&isAllowed=y"</a>,"
+"<a class="hl-paper" href="https://oulurepo.oulu.fi/bitstream/handle/10024/44157/nbnfi-fe202301091858.pdf?sequence=1&isAllowed=y" target="_blank">Low-Latency and Secure Computation Offloading Assisted by Hybrid Relay-Reflecting Intelligent Surface</a>,"
 <em>International Conference on Advanced Technologies for Communications (ATC)</em>, Oct. 2021.
 <br><span class="site-badge-award">Best Paper Award</span>
 </div>
